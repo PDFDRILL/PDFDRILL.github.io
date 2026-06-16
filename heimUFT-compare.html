@@ -347,6 +347,7 @@
 </tbody>
 </table>
 <script>
+document.addEventListener("DOMContentLoaded", function () {
 document.querySelectorAll(".katex-cell").forEach(function (el) {
   var tex = el.getAttribute("data-tex") || "";
   try {
@@ -355,6 +356,7 @@ document.querySelectorAll(".katex-cell").forEach(function (el) {
     el.classList.add("render-error");
     el.textContent = String(e);
   }
+});
 });
 </script>
 </body>

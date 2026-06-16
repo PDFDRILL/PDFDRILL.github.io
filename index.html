@@ -388,6 +388,11 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     <h2>One flat verb per job.</h2>
     <p class="sub">Run as <code>PYTHONPATH=src python3 -m pdfdrill &lt;command&gt; &lt;pdf&gt; [args]</code>, or via the installed <code>pdfdrill</code> console script. Click a command to see what it returns.</p>
 
+    <div style="margin:22px 0 26px;padding:16px 18px;border:1px solid rgba(84,209,196,.30);border-left:3px solid var(--teal);border-radius:10px;background:rgba(84,209,196,.05)">
+      <p style="margin:0 0 6px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal)">New — beyond math papers</p>
+      <p style="margin:0;color:var(--ink);font-size:14px;line-height:1.6">pdfdrill now reads <strong>scanned commercial mail</strong>, not just arXiv math. The <strong>scans &amp; entities</strong> tab adds <code>continuity</code> (recover <code>Seite&nbsp;N&nbsp;von&nbsp;M</code> markers MathPix crops away), <code>segment</code> (split a shuffled bundle into ordered documents), <code>entities</code> (offline-validated IBAN / BIC / address / Aktenzeichen), <code>qr</code> (decode GiroCode payment QR), <code>elements</code> (a layout GNN), and <code>semantic</code> (a cross-document evidence graph) — all keyless and self-contained.</p>
+    </div>
+
     <div class="tabs" id="tabs"></div>
     <div class="cmdgrid" id="cmdgrid"></div>
 
@@ -695,6 +700,8 @@ const CMDS = {
      out:[["$","pdfdrill ","toc"," paper.pdf"],["ou","• 1  Introduction"],["ou","• 2  The Galois connection"],["ou","• 3  A probability distribution …"]]},
     {n:"status", a:"&lt;pdf&gt;", d:"What pdfdrill already knows about this PDF — the accumulated sidecar facts.", tag:"L0 · the memory",
      out:[["$","pdfdrill ","status"," paper.pdf"],["ou","For paper.pdf I have: size (18 pages), font analysis (math fonts), abstract, Markdown (9175 words)."],["ou","Last action: md. 6 transitions logged."]]},
+    {n:"selftest", a:"&lt;pdf|dir&gt;", d:"<b>Diagnostic grid</b>: run the whole command battery across a PDF (or every PDF in a folder) → <code>selftest.log</code> with OK / ⊘ n-a / ✗ error + the actual result per command.", tag:"L0 · the test harness",
+     out:[["$","pdfdrill ","selftest"," ./papers ","--full"],["ou","selftest.log: 31 commands × 6 PDFs → 168 OK, 19 n/a, 1 ✗. --full added entities/elements/semantic."]]},
   ],
   extraction: [
     {n:"md", a:"&lt;pdf&gt;", d:"Summary sentence + stores full Markdown in the sidecar (auto-chains size→fonts→md).", tag:"L2 · ~1 s",
@@ -725,6 +732,22 @@ const CMDS = {
      out:[["$","pdfdrill ","escalate"," paper.pdf"],["ou","9 flagged exported → (LLM reads crops) → ingest → "],["ok","relearn: 7 resolved, 1 still flagged (hardest multi-line eq, correctly retained)."]]},
     {n:"tiddlers", a:"&lt;pdf&gt; --embed", d:"Emit a TiddlyWiki tiddler array — equations carry latex, refnum, crop + competing readings.", tag:"L3 · graph artifact",
      out:[["$","pdfdrill ","tiddlers"," paper.pdf"],["ou","Emitted 2618 tiddlers. Drive a <$list>+<$latex>+<$image> table; --embed inlines canonical_uri as data: URIs."]]},
+    {n:"translate", a:"&lt;pdf&gt; --to EN-US", d:"DeepL-translate prose tiddlers (<code>--from DE --to EN-US</code>): the translation replaces the field, the original kept as <code>org_&lt;field&gt;</code>. Equations &amp; figures untouched.", tag:"i18n · key from env",
+     out:[["$","pdfdrill ","translate"," thesis.pdf ","--from DE --to EN-US"],["ou","176 prose tiddlers translated in place; German preserved under org_text → thesis.en-us.tiddlers.json."]]},
+  ],
+  "scans & entities": [
+    {n:"continuity", a:"&lt;pdf&gt;", d:"Full-page OCR of the <b>margins</b> → page-sequence markers (<code>Seite N von M</code>, <code>Fortsetzung</code>) that MathPix's content crop drops. Attaches the sequence to each Page.", tag:"scanned mail · keyless",
+     out:[["$","pdfdrill ","continuity"," bundle.pdf"],["ou","Recovered 18 page-sequence markers MathPix dropped. p2 → \"Seite 1 von 4\", p4 → \"Seite 2 von 4\". Attached to Page.seq."]]},
+    {n:"segment", a:"&lt;pdf&gt;", d:"Partition a <b>shuffled scanned bundle</b> into ordered documents by sender / identifier + continuity number; flags duplicate copies.", tag:"bundle → documents",
+     out:[["$","pdfdrill ","segment"," bundle.pdf"],["ou","12 scanned pages → 4 documents (AOK 4pp, bank 2pp, 2× duplicate cover), ordered by sender + Seite-N."]]},
+    {n:"entities", a:"&lt;pdf&gt;", d:"Commercial entities per page — <b>IBAN</b> (mod-97 validated + BLZ/Konto/bank), BIC, German address, Steuer-/Kassen-/Aktenzeichen. <b>Zero external tools.</b>", tag:"self-contained",
+     out:[["$","pdfdrill ","entities"," letter.pdf"],["ou","p2: IBAN DE… (valid · Sparkasse), BIC …, postal address (4 lines), Aktenzeichen …. All validated offline."]]},
+    {n:"qr", a:"&lt;pdf&gt; --dpi 300", d:"Scan QR codes &amp; barcodes (zxing-cpp): <b>GiroCode / EPC</b> payment QR (creditor / IBAN / amount / reference) + Data Matrix franking — confirmation data outside the text layer.", tag:"payment QR · keyless",
+     out:[["$","pdfdrill ","qr"," invoice.pdf"],["ou","1 GiroCode on p2 → creditor …, IBAN DE…, amount 49.00 EUR, reference …. Decoded from the embedded payment QR."]]},
+    {n:"elements", a:"&lt;pdf&gt; --model M.npz", d:"Find layout elements (postal address / BOM line) via a geometric-attention <b>GNN</b> over tesseract word boxes → content-addressed tiddlers.", tag:"learned layout",
+     out:[["$","pdfdrill ","elements"," letter.pdf"],["ou","GNN found 2 address blocks + 1 BOM line over the OCR word graph. Emitted as content-addressed tiddlers."]]},
+    {n:"semantic", a:"&lt;pdf&gt; --store graph.json", d:"Build the <b>semantic graph</b>: extractors become sensors emitting evidence; entities (Company / Person / BankAccount) accumulate it <b>across documents</b>.", tag:"cross-doc graph",
+     out:[["$","pdfdrill ","semantic"," letter.pdf ","--store graph.json"],["ou","Graph: 3 Companies, 2 Persons, 4 BankAccounts. Evidence merged across 4 docs; sender vs recipient attributed by region."]]},
   ]
 };
 
