@@ -1,10 +1,10 @@
-# WulfKolbe.github.io
+# PDFDRILL.github.io
 
 Project homepage for **[pdfdrill](https://github.com/WulfKolbe/pdfdrill)** — a
 token-economical drill-down PDF extraction toolkit and PDF→LaTeX OCR
 quality-control pipeline.
 
-### 🔗 Live site: **https://wulfkolbe.github.io/**
+### 🔗 Live site: **https://pdfdrill.github.io/**
 
 The site is **plain static HTML** (no Jekyll, no build step — `.nojekyll` is
 present so GitHub Pages serves `index.html` verbatim). It loads fonts and KaTeX
@@ -14,7 +14,7 @@ from a CDN at runtime; everything else is self-contained.
 
 | File | What it is |
 |---|---|
-| [`index.html`](https://wulfkolbe.github.io/) | The homepage. Explains pdfdrill and the Claude.ai sandbox workflow with live, interactive examples — command catalogue, the QC pipeline (LaTeX │ KaTeX │ MathPix crop), and live-rendered equations pulled from a real extracted model. |
+| [`index.html`](https://pdfdrill.github.io/) | The homepage. Explains pdfdrill and the Claude.ai sandbox workflow with live, interactive examples — command catalogue, the QC pipeline (LaTeX │ KaTeX │ MathPix crop), and live-rendered equations pulled from a real extracted model. |
 
 ### Demo TiddlyWikis — one per source document
 
@@ -24,9 +24,9 @@ extracted from the source, plus the matching QC reports.
 
 | Document (bibkey) | Wiki | Reports |
 |---|---|---|
-| arXiv 2004.05631v1 — *At the Interface of Algebra and Statistics* | [wiki](https://wulfkolbe.github.io/2004.05631v1.html) | [formula report](https://wulfkolbe.github.io/formula-report.html) |
-| Burkhard Heim — Unified Field Theory (`heimUFT`) | [wiki](https://wulfkolbe.github.io/heimUFT.html) | [formula](https://wulfkolbe.github.io/heimUFT-formula-report.html) · [compare](https://wulfkolbe.github.io/heimUFT-compare.html) · [tiddlers.json](https://wulfkolbe.github.io/heimUFT.tiddlers.json) |
-| Kolbe (2018) — *Korrelation im Hubbard-Modell* (`kolbe2018hubbard`) | [wiki](https://wulfkolbe.github.io/kolbe2018hubbard.html) | [formula](https://wulfkolbe.github.io/kolbe2018hubbard-formula-report.html) · [compare](https://wulfkolbe.github.io/kolbe2018hubbard-compare.html) · [tiddlers.json](https://wulfkolbe.github.io/kolbe2018hubbard.tiddlers.json) |
+| arXiv 2004.05631v1 — *At the Interface of Algebra and Statistics* | [wiki](https://pdfdrill.github.io/2004.05631v1.html) | [formula report](https://pdfdrill.github.io/formula-report.html) |
+| Burkhard Heim — Unified Field Theory (`heimUFT`) | [wiki](https://pdfdrill.github.io/heimUFT.html) | [formula](https://pdfdrill.github.io/heimUFT-formula-report.html) · [compare](https://pdfdrill.github.io/heimUFT-compare.html) · [tiddlers.json](https://pdfdrill.github.io/heimUFT.tiddlers.json) |
+| Kolbe (2018) — *Korrelation im Hubbard-Modell* (`kolbe2018hubbard`) | [wiki](https://pdfdrill.github.io/kolbe2018hubbard.html) | [formula](https://pdfdrill.github.io/kolbe2018hubbard-formula-report.html) · [compare](https://pdfdrill.github.io/kolbe2018hubbard-compare.html) · [tiddlers.json](https://pdfdrill.github.io/kolbe2018hubbard.tiddlers.json) |
 
 ## How it runs
 
