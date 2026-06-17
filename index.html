@@ -541,20 +541,23 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <!-- SANDBOX -->
 <section id="sandbox">
   <div class="wrap">
-    <p class="eyebrow">08 — the claude.ai sandbox</p>
-    <h2>Install-free, inside a chat.</h2>
-    <p class="sub">The whole live path is Python 3 — that was the accessibility requirement for the Claude.ai web sandbox, which already ships poppler-utils, pdfplumber and pydantic. The package root is <code>src/</code>, so nothing needs installing to test the function layer.</p>
+    <p class="eyebrow">08 — claude.ai &amp; claude code</p>
+    <h2>Nothing for you to install — just ask Claude.</h2>
+    <p class="sub">You don’t run any of this yourself. Make pdfdrill available <em>once</em> — attach the bundle in a Claude.ai chat, or install the skill in Claude Code — then ask in plain language. Claude carries the <strong>skill</strong> (<code>SKILL.md</code> + the 81-command manifest), so <em>it</em> knows which commands to run, and <em>it</em> reads that manual — not you. The package is pure Python under <code>src/</code> with no <code>pip</code> step, which is why the sandbox (poppler-utils, pdfplumber and pydantic already aboard) runs it as-is. Everything in the terminal below is what <strong>Claude</strong> does for you — not a checklist you type.</p>
 
     <div class="term">
-      <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">claude.ai sandbox — upload the bundle, run with PYTHONPATH=src</span></div>
-<pre><span class="cn"># on your machine — tracked files only, keys bundled for private use</span>
-<span class="pr">$</span> <span class="cm">git archive</span> --format=tar.gz -o /tmp/pdfdrill.tgz HEAD
+      <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">you ask in plain language — Claude loads the skill and runs pdfdrill for you</span></div>
+<pre><span class="ar">you ▸</span> <span class="cn">“Here’s pdfdrill (attached). Install it and load its skill, then tell me</span>
+<span class="cn">       whether this paper’s equations extracted cleanly.”</span>
 
-<span class="cn"># in the chat, after attaching pdfdrill.tgz:</span>
-<span class="pr">$</span> <span class="cm">tar</span> xzf pdfdrill.tgz && <span class="cm">cd</span> pdfdrill
-<span class="pr">$</span> <span class="cm">PYTHONPATH=src python3</span> -m pdfdrill <span class="ar">size</span>  paper.pdf
-<span class="pr">$</span> <span class="cm">PYTHONPATH=src python3</span> -m pdfdrill <span class="ar">model</span> paper.pdf      <span class="cn"># input: paper.lines.json — offline if it exists</span>
-<span class="pr">$</span> <span class="cm">PYTHONPATH=src python3</span> -m pdfdrill <span class="ar">report</span> paper.pdf <span class="ar">--embed</span>   <span class="ok"># → self-contained formula-report.html</span></pre>
+<span class="cn"># Claude — now holding the skill — does the rest. You watch; you don’t type any of this:</span>
+<span class="pr">$</span> <span class="cm">tar</span> xzf pdfdrill.tgz                        <span class="cn"># unpack the bundle you attached</span>
+<span class="pr">$</span> <span class="cm">cat</span> src/pdfdrill/skill/SKILL.md            <span class="cn"># the skill IS Claude’s manual — it reads this, you don’t</span>
+<span class="pr">$</span> <span class="cm">PYTHONPATH=src python3</span> -m pdfdrill <span class="ar">size</span>   paper.pdf
+<span class="pr">$</span> <span class="cm">PYTHONPATH=src python3</span> -m pdfdrill <span class="ar">report</span> paper.pdf <span class="ar">--embed</span>   <span class="ok"># → self-contained formula-report.html</span>
+
+<span class="cn"># In Claude Code the skill is installed once, so step one is simply your question.</span>
+<span class="cn"># (the attachable bundle is one `git archive --format=tar.gz HEAD` of the repo.)</span></pre>
     </div>
 
     <div class="grid g3">
