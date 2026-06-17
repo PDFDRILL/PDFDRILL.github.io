@@ -91,6 +91,7 @@ h1 .drill{color:var(--amber)}
 /* ---------- sections ---------- */
 section{padding:64px 0;border-bottom:1px solid var(--line)}
 .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin:0 0 14px}
+.exp{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--amber2);border:1px solid rgba(255,122,24,.45);border-radius:999px;padding:2px 8px;vertical-align:middle;white-space:nowrap}
 h2{font-family:var(--mono);font-weight:700;font-size:clamp(26px,3.6vw,38px);letter-spacing:-.01em;margin:0 0 8px;line-height:1.05}
 h3{font-family:var(--mono);font-weight:600;font-size:18px;letter-spacing:.01em;margin:30px 0 10px;color:var(--ink)}
 .sub{color:var(--muted);max-width:62ch;font-weight:300;margin:0 0 8px}
@@ -523,6 +524,10 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     </div>
 
     <div class="callout">
+      <div class="lab">Beyond the tree — the semantic graph (CSP) <span class="exp">preview</span></div>
+      <p><code>pdfdrill semantic</code> lifts the model into a constraint graph: every extractor becomes a <strong>sensor emitting evidence</strong>, and entities — <em>Company / Person / BankAccount</em> on a letter, <em>Symbol / Claim / Reference</em> on a paper — <strong>accumulate</strong> it, across documents when you pass <code>--store graph.json</code>. The pass itself is reified: each reading is a <strong>Question</strong> node, each transform a first-class <strong>Transformation</strong> node, and a derived <strong>belief</strong> column carries a deterministic best-reading tiebreak that a compiler type-checks for grounding and consistency. A federated <code>vocabnet</code> layer (MSC · PhySH · GND · STW) backs <code>pdfdrill classify</code>, while <code>stex</code> / <code>scikgtex</code> project the graph back out to enriched LaTeX — glossary, Table-of-Symbols and index, or an ORKG-annotated PDF whose contribution metadata rides along as XMP/RDF.</p>
+    </div>
+    <div class="callout">
       <div class="lab">Why TiddlyWiki</div>
       <p>It’s a single self-contained HTML file — no server, perfect for GitHub Pages — that holds the whole graph and renders the LaTeX widgets live through the KaTeX plugin. The artifact below is exactly that: <code>pdfdrill tiddlers</code> output, built into a real wiki you can open and explore.</p>
     </div>
@@ -556,6 +561,16 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       <div class="card"><h4><span class="dot"></span>keys from the environment</h4><p><code>mathpix</code>, <code>snip</code>, <code>bibfetch</code> read <code>MATHPIX_APP_ID/KEY</code> &amp; <code>PERPLEXITY_API_KEY</code> from env or a git-ignored <code>.env</code> — never committed, never asked for mid-task.</p></div>
       <div class="card"><h4><span class="dot"></span>offline by default</h4><p>The structural path — <code>model</code>, <code>compare</code>, <code>report</code>, <code>tiddlers</code>, <code>folder</code>, <code>latex</code> — runs entirely from an existing <code>lines.json</code>. No key, no network.</p></div>
       <div class="card"><h4><span class="dot"></span>keyless OCR fallback</h4><p>No MathPix? <code>pdfdrill ocr</code> renders pages → tesseract → a MathPix-compatible <code>lines.json</code> (<code>--lang eng+equ</code> for math, <code>eng+deu</code> for German), and <code>model</code> falls back to it automatically.</p></div>
+    </div>
+
+    <div class="callout teal">
+      <div class="lab">Keyless LLM via Claude <span class="exp">preview · not fully tested</span></div>
+      <p>New: when there is <strong>no API key</strong> but pdfdrill is being driven <strong>by Claude</strong> — the Claude Code CLI locally, or Claude.ai in the sandbox — it routes the prompt-driven sub-tasks (<code>vision</code>, <code>bibtex</code>) to <em>that</em> Claude, using pdfdrill’s own prompts. The prompt is the knowledge: a vision crop returns as recompilable LaTeX, a BibTeX record web-searched correct — no OpenAI or Perplexity key required. <code>pdfdrill llm &lt;pdf&gt; --runtime</code> reports the transport it detected: <strong>cli</strong> (synchronous <code>claude -p --output-format json</code>) or <strong>sandbox</strong> (a deferred request file the agent answers, then re-run to ingest). The attached result is byte-identical to the keyed API path.</p>
+    </div>
+
+    <div class="callout">
+      <div class="lab">A first-class Claude skill <span class="exp">new</span></div>
+      <p>pdfdrill now ships as a Claude skill. A single <code>commands.yaml</code> manifest is the source of truth for the whole <strong>81-command</strong> surface — <code>--help</code>, the <code>SKILL.md</code> tables and the external <code>drillui</code> TUI are all generated from it, and a CI gate fails on any drift. A declarative prerequisite planner (<code>pdfdrill steps</code>, <code>--ensure</code>) chains the right commands toward a goal, so the agent asks for an outcome and pdfdrill walks the path.</p>
     </div>
 
     <div class="callout">
@@ -701,7 +716,13 @@ const CMDS = {
     {n:"status", a:"&lt;pdf&gt;", d:"What pdfdrill already knows about this PDF — the accumulated sidecar facts.", tag:"L0 · the memory",
      out:[["$","pdfdrill ","status"," paper.pdf"],["ou","For paper.pdf I have: size (18 pages), font analysis (math fonts), abstract, Markdown (9175 words)."],["ou","Last action: md. 6 transitions logged."]]},
     {n:"selftest", a:"&lt;pdf|dir&gt;", d:"<b>Diagnostic grid</b>: run the whole command battery across a PDF (or every PDF in a folder) → <code>selftest.log</code> with OK / ⊘ n-a / ✗ error + the actual result per command.", tag:"L0 · the test harness",
-     out:[["$","pdfdrill ","selftest"," ./papers ","--full"],["ou","selftest.log: 31 commands × 6 PDFs → 168 OK, 19 n/a, 1 ✗. --full added entities/elements/semantic."]]},
+     out:[["$","pdfdrill ","selftest"," ./papers --full"],["ou","selftest.log: 31 commands × 6 PDFs → 168 OK, 19 n/a, 1 ✗. --full added entities/elements/semantic."]]},
+    {n:"skill", a:"--emit DIR", d:"Emit / serve the bundled Claude <b>skill</b> — <code>commands.yaml</code> is the single source of truth for all 81 commands; <code>--json</code> dumps the manifest, <code>--check</code> fails on drift.", tag:"L0 · the wrapper",
+     out:[["$","pdfdrill ","skill"," --check"],["ou","Manifest in sync: 81/81 commands typed. --help + SKILL.md tables + drillui TUI all generated from it. No drift."]]},
+    {n:"booktoc", a:"&lt;pdf&gt;", d:"Greppable table of contents with <b>printed→PDF page alignment</b> (front-matter offset from title↔section matches) — grep a chapter name, get its PDF page.", tag:"L2 · books",
+     out:[["$","pdfdrill ","booktoc"," book.pdf"],["ou","Aligned 9 chapters; printed p1 = PDF p15 (offset 14). \"Hubbard model\" → PDF page 92."]]},
+    {n:"identifiers", a:"&lt;pdf&gt;", d:"Front-matter scan: checksum-valid <b>ISBN / ISSN / DOI / arXiv</b> + German ids + ALL-CAPS named-entity candidates (publisher / author), scoped by the booktoc offset.", tag:"L2 · front matter",
+     out:[["$","pdfdrill ","identifiers"," book.pdf"],["ou","ISBN 978-3-… (valid), DOI 10.…, 1 ISSN. Publisher candidate: SPRINGER. arXiv: none."]]},
   ],
   extraction: [
     {n:"md", a:"&lt;pdf&gt;", d:"Summary sentence + stores full Markdown in the sidecar (auto-chains size→fonts→md).", tag:"L2 · ~1 s",
@@ -714,6 +735,10 @@ const CMDS = {
      out:[["$","pdfdrill ","ocr"," paper.pdf ","--lang eng+equ"],["ou","Rendered 18 pages → tesseract → paper.lines.json (source: tesseract, 69 lines on p1). model will ingest it unchanged."]]},
     {n:"folder", a:"./papers", d:"Batch-build every PDF that already has a sibling <code>lines.json</code> — no network, no uploads.", tag:"offline batch",
      out:[["$","pdfdrill ","folder"," ./papers"],["ou","Built 2312.11532 (full model, 24 author-year cites, 2 algorithms). Skipped 2605 copy (no lines.json)."]]},
+    {n:"markdown", a:"&lt;md&gt; --bibkey K", d:"Build a <b>source-only model from LLM-summary Markdown</b> (the yt2tw route): sections / paragraphs / math / lists + <code>\\cite{}</code> linked to the gold <code>bibtex</code> appendix.", tag:"no PDF · summary→model",
+     out:[["$","pdfdrill ","markdown"," notes.md --bibkey talk"],["ou","Built 4 sections, 22 paragraphs, 6 display eqs from Markdown. 5 cite{} commands resolved to the bibtex block."]]},
+    {n:"llmtext", a:"&lt;pdf&gt;", d:"Flat <b>LLM dump</b>: per unit the tiddler title + paragraph text / formula LaTeX, in document order, split on blank lines and delimiter-separated — the whole doc as one paste-ready block.", tag:"L3 · LLM feed",
+     out:[["$","pdfdrill ","llmtext"," paper.pdf"],["ou","Dumped 631 units in document order (%%%% delimited). Empty formulas skipped; ready to paste into a chat."]]},
   ],
   "math qc": [
     {n:"model", a:"&lt;pdf&gt;", d:"Build the unified docmodel <code>Document</code> from <code>lines.json</code>. Falls back to <code>ocr</code> when MathPix is unavailable.", tag:"L3 · offline",
@@ -733,7 +758,11 @@ const CMDS = {
     {n:"tiddlers", a:"&lt;pdf&gt; --embed", d:"Emit a TiddlyWiki tiddler array — equations carry latex, refnum, crop + competing readings.", tag:"L3 · graph artifact",
      out:[["$","pdfdrill ","tiddlers"," paper.pdf"],["ou","Emitted 2618 tiddlers. Drive a <$list>+<$latex>+<$image> table; --embed inlines canonical_uri as data: URIs."]]},
     {n:"translate", a:"&lt;pdf&gt; --to EN-US", d:"DeepL-translate prose tiddlers (<code>--from DE --to EN-US</code>): the translation replaces the field, the original kept as <code>org_&lt;field&gt;</code>. Equations &amp; figures untouched.", tag:"i18n · key from env",
-     out:[["$","pdfdrill ","translate"," thesis.pdf ","--from DE --to EN-US"],["ou","176 prose tiddlers translated in place; German preserved under org_text → thesis.en-us.tiddlers.json."]]},
+     out:[["$","pdfdrill ","translate"," thesis.pdf --from DE --to EN-US"],["ou","176 prose tiddlers translated in place; German preserved under org_text → thesis.en-us.tiddlers.json."]]},
+    {n:"llm", a:"&lt;pdf&gt; --runtime", d:"<b>Keyless LLM-delegation driver</b>: detect the runtime (cli / sandbox / none) and route <code>vision</code> / <code>bibtex</code> to the <b>running Claude</b> with pdfdrill’s own prompts. <code>--show</code> dumps open requests.", tag:"preview · no API key",
+     out:[["$","pdfdrill ","llm"," paper.pdf --runtime"],["ou","runtime=cli (claude -p). No API key needed — vision/bibtex delegate to the running Claude. 0 pending sandbox requests."]]},
+    {n:"gaps", a:"&lt;pdf&gt;", d:"Report <b>missing</b> information (cohomology-as-linter): acronyms used but never expanded, undeclared math symbols, novelty claims without citations, unmatched in-text citations.", tag:"L3 · the linter",
+     out:[["$","pdfdrill ","gaps"," paper.pdf"],["ou","3 acronyms never expanded (SVD, RKHS, ELBO); 2 symbols undeclared; 1 citation (Vaswani) unmatched in References."]]},
   ],
   "scans & entities": [
     {n:"continuity", a:"&lt;pdf&gt;", d:"Full-page OCR of the <b>margins</b> → page-sequence markers (<code>Seite N von M</code>, <code>Fortsetzung</code>) that MathPix's content crop drops. Attaches the sequence to each Page.", tag:"scanned mail · keyless",
@@ -746,8 +775,16 @@ const CMDS = {
      out:[["$","pdfdrill ","qr"," invoice.pdf"],["ou","1 GiroCode on p2 → creditor …, IBAN DE…, amount 49.00 EUR, reference …. Decoded from the embedded payment QR."]]},
     {n:"elements", a:"&lt;pdf&gt; --model M.npz", d:"Find layout elements (postal address / BOM line) via a geometric-attention <b>GNN</b> over tesseract word boxes → content-addressed tiddlers.", tag:"learned layout",
      out:[["$","pdfdrill ","elements"," letter.pdf"],["ou","GNN found 2 address blocks + 1 BOM line over the OCR word graph. Emitted as content-addressed tiddlers."]]},
-    {n:"semantic", a:"&lt;pdf&gt; --store graph.json", d:"Build the <b>semantic graph</b>: extractors become sensors emitting evidence; entities (Company / Person / BankAccount) accumulate it <b>across documents</b>.", tag:"cross-doc graph",
-     out:[["$","pdfdrill ","semantic"," letter.pdf ","--store graph.json"],["ou","Graph: 3 Companies, 2 Persons, 4 BankAccounts. Evidence merged across 4 docs; sender vs recipient attributed by region."]]},
+  ],
+  "graph & vocab": [
+    {n:"semantic", a:"&lt;pdf&gt; --store graph.json", d:"Build the <b>semantic graph</b> (CSP): extractors become sensors emitting evidence; entities (Company / Person / BankAccount, or Symbol / Claim) accumulate it <b>across documents</b>. Reified Question / Transformation / belief provenance.", tag:"preview · cross-doc graph",
+     out:[["$","pdfdrill ","semantic"," letter.pdf --store graph.json"],["ou","Graph: 3 Companies, 2 Persons, 4 BankAccounts. Evidence merged across 4 docs; belief column tie-broken; compiler check passed."]]},
+    {n:"classify", a:"&lt;pdf&gt; --k K", d:"Subject-classify the drilled doc against the <code>vocabnet</code> vocabularies — <b>MSC</b> discipline rollup + PhySH / GND / STW — persisted in the sidecar.", tag:"vocabnet",
+     out:[["$","pdfdrill ","classify"," paper.pdf"],["ou","MSC 15A (linear algebra) 0.71, 60 (probability) 0.22. PhySH: quantum information. Persisted to sidecar."]]},
+    {n:"stex", a:"&lt;pdf&gt; --compile", d:"Project the semantic graph to <b>enriched LaTeX</b>: acronyms / glossary / Table-of-Symbols / index (<code>--compile</code> runs lualatex), or sTeX <code>smodule</code> / <code>symref</code>. Needs <code>semantic</code> first.", tag:"graph → LaTeX",
+     out:[["$","pdfdrill ","stex"," paper.pdf --compile"],["ou","Emitted glossary (12 acronyms) + Table-of-Symbols (28) + index; lualatex → paper.enriched.pdf."]]},
+    {n:"scikgtex", a:"&lt;pdf&gt; --compile", d:"Project to <b>SciKGTeX-annotated LaTeX</b> → the compiled PDF carries <b>ORKG</b> contribution metadata (research-problem / method / result + numeric facts + bib-DOI links) as XMP/RDF.", tag:"graph → ORKG PDF",
+     out:[["$","pdfdrill ","scikgtex"," paper.pdf --compile"],["ou","Annotated 1 contribution (method, result, 3 numeric facts) → XMP/RDF embedded in paper.scikg.pdf."]]},
   ]
 };
 
