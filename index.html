@@ -248,10 +248,10 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     </div>
     <div class="kicker">drill-down extraction · pdf→latex ocr quality control</div>
     <h1>Drill into a PDF<br>with the <span class="drill">cheapest</span><br>sufficient command.</h1>
-    <p class="lede">A flat CLI that starts <em>shallow</em>, returns <em>prose</em> (never JSON), and remembers what it already knows in a sidecar next to each PDF — paired with a unified document model that takes a MathPix&trade; <code>lines.json</code> as its input and turns it into a typed, queryable graph.</p>
+    <p class="lede">A flat CLI that starts <em>shallow</em>, returns <em>prose</em> (never JSON), and remembers what it already knows in a sidecar next to each PDF — paired with a unified document model that takes a <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a>&trade; <code>lines.json</code> as its input and turns it into a typed, queryable graph.</p>
     <div class="hero-meta">
       <span class="pill"><b>Python 3</b> · no Bun on the live path</span>
-      <span class="pill">poppler · pdfplumber · MathPix · Perplexity</span>
+      <span class="pill">poppler · pdfplumber · <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> · Perplexity</span>
       <span class="pill"><b>offline</b> structural path · no key needed</span>
       <span class="pill">runs in the Claude.ai sandbox</span>
     </div>
@@ -286,7 +286,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       </div>
       <div class="card">
         <h4><span class="dot"></span>src/docmodel</h4>
-        <p>The typed <code>Document</code>: <code>DocObject</code>s with anchor-based <code>Stream</code>s, <code>Realization</code>s across streams, <code>Alignment</code>s between them, and <code>Region</code> geometry. MathPix <code>lines.json</code> is the only format that lets you compare a LaTeX string against the image MathPix actually rendered.</p>
+        <p>The typed <code>Document</code>: <code>DocObject</code>s with anchor-based <code>Stream</code>s, <code>Realization</code>s across streams, <code>Alignment</code>s between them, and <code>Region</code> geometry. <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> <code>lines.json</code> is the only format that lets you compare a LaTeX string against the image <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> actually rendered.</p>
         <div class="ms">→ the between-call memory</div>
       </div>
       <div class="card">
@@ -297,7 +297,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     </div>
     <div class="callout">
       <div class="lab">Design principle</div>
-      <p>Anchors are <strong>opaque identities, not positions</strong> — inserts and deletes in one stream never invalidate references elsewhere. Source streams stay immutable; modules only <em>add</em> objects, realizations, and alignments. The raw MathPix payload is always recoverable verbatim.</p>
+      <p>Anchors are <strong>opaque identities, not positions</strong> — inserts and deletes in one stream never invalidate references elsewhere. Source streams stay immutable; modules only <em>add</em> objects, realizations, and alignments. The raw <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> payload is always recoverable verbatim.</p>
     </div>
   </div>
 </section>
@@ -307,7 +307,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
   <div class="wrap">
     <p class="eyebrow">02 — the killer case</p>
     <h2>The link that no text stream can see.</h2>
-    <p class="sub">A paper's page-1 text says only <em>“Our code is available <span style="color:var(--amber)">here</span>.”</em> — where <em>here</em> is a hyperlink with no separate anchor text. Plain extraction, MathPix Markdown, and a chatbot PDF upload all drop the annotation layer, so the URL simply <strong>does not exist</strong> in anything an LLM reads. <code>pdfdrill links</code> reads the annotation layer directly and surfaces it in ~50&nbsp;ms.</p>
+    <p class="sub">A paper's page-1 text says only <em>“Our code is available <span style="color:var(--amber)">here</span>.”</em> — where <em>here</em> is a hyperlink with no separate anchor text. Plain extraction, <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> Markdown, and a chatbot PDF upload all drop the annotation layer, so the URL simply <strong>does not exist</strong> in anything an LLM reads. <code>pdfdrill links</code> reads the annotation layer directly and surfaces it in ~50&nbsp;ms.</p>
 
     <div class="term">
       <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">~/papers — finding an anonymized code release on a NeurIPS submission</span></div>
@@ -323,7 +323,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 
     <div class="callout teal">
       <div class="lab">Reach for the cheapest sufficient tool</div>
-      <p><code>links</code> answers “where is the code?” in 50&nbsp;ms by reading the annotation layer. <code>urls</code> re-derives the same answer in ~6&nbsp;s. A MathPix pass <strong>misses it entirely</strong>. Powerful ≠ right — escalate only when a cheaper command genuinely can’t answer.</p>
+      <p><code>links</code> answers “where is the code?” in 50&nbsp;ms by reading the annotation layer. <code>urls</code> re-derives the same answer in ~6&nbsp;s. A <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> pass <strong>misses it entirely</strong>. Powerful ≠ right — escalate only when a cheaper command genuinely can’t answer.</p>
     </div>
     <figure style="margin:30px 0 0">
       <img src="layer1-pdf-document.png" loading="lazy" alt="Layer 1 — the PDF document: text, the annotation layer, and named-destination markers a plain text dump never sees." style="width:100%;height:auto;display:block;border:1px solid rgba(255,122,24,.35);border-radius:12px;background:var(--bg2);box-shadow:0 0 0 1px rgba(255,122,24,.10),0 0 28px rgba(255,122,24,.16)">
@@ -391,7 +391,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 
     <div style="margin:22px 0 26px;padding:16px 18px;border:1px solid rgba(84,209,196,.30);border-left:3px solid var(--teal);border-radius:10px;background:rgba(84,209,196,.05)">
       <p style="margin:0 0 6px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal)">New — beyond math papers</p>
-      <p style="margin:0;color:var(--ink);font-size:14px;line-height:1.6">pdfdrill now reads <strong>scanned commercial mail</strong>, not just arXiv math. The <strong>scans &amp; entities</strong> tab adds <code>continuity</code> (recover <code>Seite&nbsp;N&nbsp;von&nbsp;M</code> markers MathPix crops away), <code>segment</code> (split a shuffled bundle into ordered documents), <code>entities</code> (offline-validated IBAN / BIC / address / Aktenzeichen), <code>qr</code> (decode GiroCode payment QR), <code>elements</code> (a layout GNN), and <code>semantic</code> (a cross-document evidence graph) — all keyless and self-contained.</p>
+      <p style="margin:0;color:var(--ink);font-size:14px;line-height:1.6">pdfdrill now reads <strong>scanned commercial mail</strong>, not just arXiv math. The <strong>scans &amp; entities</strong> tab adds <code>continuity</code> (recover <code>Seite&nbsp;N&nbsp;von&nbsp;M</code> markers <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> crops away), <code>segment</code> (split a shuffled bundle into ordered documents), <code>entities</code> (offline-validated IBAN / BIC / address / Aktenzeichen), <code>qr</code> (decode GiroCode payment QR), <code>elements</code> (a layout GNN), and <code>semantic</code> (a cross-document evidence graph) — all keyless and self-contained.</p>
     </div>
 
     <div class="tabs" id="tabs"></div>
@@ -412,11 +412,11 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <section id="qc">
   <div class="wrap">
     <p class="eyebrow">05 — the qc pipeline</p>
-    <h2>LaTeX · KaTeX · the image MathPix actually rendered.</h2>
-    <p class="sub">MathPix <code>lines.json</code> is the only format that ships, for each equation, both the recognized LaTeX <strong>and</strong> the CDN crop it was read from. pdfdrill puts them side by side — and adds competing readings (MathPix Snip, an LLM on the crop, the author’s own <code>.tex</code>) as extra columns, each scored against a normalized LaTeX form. Below is a real row from <code>report --embed</code> on arXiv 2004.05631v1, eq&nbsp;(1.1):</p>
+    <h2>LaTeX · KaTeX · the image <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> actually rendered.</h2>
+    <p class="sub"><a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> <code>lines.json</code> is the only format that ships, for each equation, both the recognized LaTeX <strong>and</strong> the CDN crop it was read from. pdfdrill puts them side by side — and adds competing readings (<a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> Snip, an LLM on the crop, the author’s own <code>.tex</code>) as extra columns, each scored against a normalized LaTeX form. Below is a real row from <code>report --embed</code> on arXiv 2004.05631v1, eq&nbsp;(1.1):</p>
 
     <table class="qc">
-      <thead><tr><th style="width:30%">LaTeX source</th><th style="width:34%">KaTeX render</th><th style="width:36%">MathPix CDN crop</th></tr></thead>
+      <thead><tr><th style="width:30%">LaTeX source</th><th style="width:34%">KaTeX render</th><th style="width:36%"><a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> CDN crop</th></tr></thead>
       <tbody>
         <tr>
           <td class="src">
@@ -440,9 +440,9 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     <p style="margin-top:22px" class="sub">Each crop’s <code>&lt;img&gt;</code> links to the <strong>full page</strong> it was cut from (<code>page_url()</code> strips the region query). <code>--embed</code> base64-inlines every crop so the artifact has no live-CDN dependency — ideal for a preview that won’t load remote images. The page click-through stays live even when embedded.</p>
 
     <div class="grid g3" style="margin-top:8px">
-      <div class="card"><h4><span class="dot"></span>snip</h4><p><code>pdfdrill snip</code> re-OCRs each crop through MathPix Snip <code>/v3/text</code> → a candidate LaTeX + a per-line <code>confidence</code> that becomes a score signal.</p></div>
+      <div class="card"><h4><span class="dot"></span>snip</h4><p><code>pdfdrill snip</code> re-OCRs each crop through <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> Snip <code>/v3/text</code> → a candidate LaTeX + a per-line <code>confidence</code> that becomes a score signal.</p></div>
       <div class="card"><h4><span class="dot"></span>vision / candidates</h4><p><code>candidates</code> exports the crops for an LLM to read (no API key); <code>vision</code> runs GPT-4o over them. Both attach as extra <code>provenance</code> columns.</p></div>
-      <div class="card"><h4><span class="dot"></span>tex (gold)</h4><p><code>pdfdrill latex</code> aligns the author’s e-print <code>.tex</code> to each MathPix equation — the gold reference versus OCR, preamble-expanded so TikZ/macros resolve.</p></div>
+      <div class="card"><h4><span class="dot"></span>tex (gold)</h4><p><code>pdfdrill latex</code> aligns the author’s e-print <code>.tex</code> to each <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> equation — the gold reference versus OCR, preamble-expanded so TikZ/macros resolve.</p></div>
     </div>
 
     <div class="callout">
@@ -480,7 +480,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
   <div class="wrap">
     <p class="eyebrow">07 — the document model</p>
     <h2>Every element is a typed, queryable node.</h2>
-    <p class="sub">The unified <code>docmodel</code> resolves a paper into typed <code>DocObject</code>s. Projected to TiddlyWiki, each becomes one tiddler — equations carry their LaTeX, reference number, page, the MathPix crop, region geometry, and every competing reading as <code>latex_&lt;provenance&gt;</code> + <code>score_&lt;provenance&gt;</code>.</p>
+    <p class="sub">The unified <code>docmodel</code> resolves a paper into typed <code>DocObject</code>s. Projected to TiddlyWiki, each becomes one tiddler — equations carry their LaTeX, reference number, page, the <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> crop, region geometry, and every competing reading as <code>latex_&lt;provenance&gt;</code> + <code>score_&lt;provenance&gt;</code>.</p>
 
     <div class="anat">
       <div>
@@ -563,12 +563,12 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     <div class="grid g3">
       <div class="card"><h4><span class="dot"></span>keys from the environment</h4><p><code>mathpix</code>, <code>snip</code>, <code>bibfetch</code> read <code>MATHPIX_APP_ID/KEY</code> &amp; <code>PERPLEXITY_API_KEY</code> from env or a git-ignored <code>.env</code> — never committed, never asked for mid-task.</p></div>
       <div class="card"><h4><span class="dot"></span>offline by default</h4><p>The structural path — <code>model</code>, <code>compare</code>, <code>report</code>, <code>tiddlers</code>, <code>folder</code>, <code>latex</code> — runs entirely from an existing <code>lines.json</code>. No key, no network.</p></div>
-      <div class="card"><h4><span class="dot"></span>keyless OCR fallback</h4><p>No MathPix? <code>pdfdrill ocr</code> renders pages → tesseract → a MathPix-compatible <code>lines.json</code> (<code>--lang eng+equ</code> for math, <code>eng+deu</code> for German), and <code>model</code> falls back to it automatically.</p></div>
+      <div class="card"><h4><span class="dot"></span>keyless OCR fallback</h4><p>No <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a>? <code>pdfdrill ocr</code> renders pages → tesseract → a <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a>-compatible <code>lines.json</code> (<code>--lang eng+equ</code> for math, <code>eng+deu</code> for German), and <code>model</code> falls back to it automatically.</p></div>
     </div>
 
     <div class="callout teal">
       <div class="lab">Keyless LLM via Claude <span class="exp">preview · not fully tested</span></div>
-      <p>New: when there is <strong>no API key</strong> but pdfdrill is being driven <strong>by Claude</strong> — the Claude Code CLI locally, or Claude.ai in the sandbox — it routes the prompt-driven sub-tasks (<code>vision</code>, <code>bibtex</code>) to <em>that</em> Claude, using pdfdrill’s own prompts. The prompt is the knowledge: a vision crop returns as recompilable LaTeX, a BibTeX record web-searched correct — no OpenAI or Perplexity key required. <code>pdfdrill llm &lt;pdf&gt; --runtime</code> reports the transport it detected: <strong>cli</strong> (synchronous <code>claude -p --output-format json</code>) or <strong>sandbox</strong> (a deferred request file the agent answers, then re-run to ingest). The attached result is byte-identical to the keyed API path.</p>
+      <p>New: when there is <strong>no API key</strong> but pdfdrill is being driven <strong>by Claude</strong> — the Claude Code CLI locally, or Claude.ai in the sandbox — it routes the prompt-driven sub-tasks (<code>vision</code>, <code>bibtex</code>) to <em>that</em> Claude, using pdfdrill’s own prompts. The prompt is the knowledge: a vision crop returns as recompilable LaTeX, a BibTeX record web-searched correct — no OpenAI or Perplexity key required. <code>pdfdrill llm &lt;pdf&gt; --runtime</code> reports the transport it detected: <strong>cli</strong> (synchronous <code>claude -p --output-format json</code>) or <strong>sandbox</strong> (a deferred request file the agent answers, then re-run to ingest). The attached result is byte-identical to the keyed API path. But it is <strong>not free</strong>: delegating a whole document to the running Claude can take more wall-clock time and burn more tokens than a single keyed call — so for steady use, setting up <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> pay-as-you-go is often cheaper and faster.</p>
     </div>
 
     <div class="callout">
@@ -578,7 +578,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 
     <div class="callout">
       <div class="lab">Sandbox network access</div>
-      <p>The Claude.ai sandbox blocks all outbound network by default, so reaching <strong>any host outside the sandbox</strong> must first be <strong>allowed in your user settings</strong>. That covers the external services (<strong>MathPix</strong> — <code>mathpix</code>, <code>snip</code>; <strong>ChatGPT / GPT-4o</strong> — <code>vision</code>; <strong>Perplexity</strong> — <code>bibfetch</code>), fetching a PDF by URL, and even <code>apt</code>-installing <code>dvisvgm</code> at bootstrap. The keyless offline path — <code>model</code>, <code>compare</code>, <code>report</code>, <code>tiddlers</code>, <code>ocr</code> — touches no host and needs no change.</p>
+      <p>The Claude.ai sandbox blocks all outbound network by default, so reaching <strong>any host outside the sandbox</strong> must first be <strong>allowed in your user settings</strong>. That covers the external services (<strong><a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a></strong> — <code>mathpix</code>, <code>snip</code>; <strong>ChatGPT / GPT-4o</strong> — <code>vision</code>; <strong>Perplexity</strong> — <code>bibfetch</code>), fetching a PDF by URL, and even <code>apt</code>-installing <code>dvisvgm</code> at bootstrap. The keyless offline path — <code>model</code>, <code>compare</code>, <code>report</code>, <code>tiddlers</code>, <code>ocr</code> — touches no host and needs no change.</p>
     </div>
 
     <div class="callout teal">
@@ -610,8 +610,8 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       </a>
       <a class="art" href="formula-report.html">
         <div class="ic">⊞ formula report · 1116 + 254</div>
-        <h4>The KaTeX × MathPix comparison</h4>
-        <p>The full <code>pdfdrill report</code>: every inline formula and display equation as LaTeX source │ live KaTeX render │ the MathPix CDN crop, each linking back to its full page.</p>
+        <h4>The KaTeX × <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> comparison</h4>
+        <p>The full <code>pdfdrill report</code>: every inline formula and display equation as LaTeX source │ live KaTeX render │ the <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> CDN crop, each linking back to its full page.</p>
         <span class="go">open the report →</span>
       </a>
     </div>
@@ -626,14 +626,14 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       </a>
       <a class="art" href="heimUFT-formula-report.html">
         <div class="ic">⊞ formula report · 1020 + 312</div>
-        <h4>The KaTeX × MathPix comparison</h4>
-        <p>The full <code>pdfdrill report</code> for heimUFT: every inline formula and display equation as LaTeX source │ live KaTeX render │ the MathPix CDN crop, each linking back to its full page.</p>
+        <h4>The KaTeX × <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> comparison</h4>
+        <p>The full <code>pdfdrill report</code> for heimUFT: every inline formula and display equation as LaTeX source │ live KaTeX render │ the <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> CDN crop, each linking back to its full page.</p>
         <span class="go">open the report →</span>
       </a>
       <a class="art" href="heimUFT-compare.html">
         <div class="ic">▦ comparison · 310 expressions</div>
         <h4>One row per equation</h4>
-        <p>The <code>pdfdrill compare</code> table: each display equation as LaTeX │ KaTeX │ the MathPix image side by side, scored across provenances.</p>
+        <p>The <code>pdfdrill compare</code> table: each display equation as LaTeX │ KaTeX │ the <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> image side by side, scored across provenances.</p>
         <span class="go">open the comparison →</span>
       </a>
       <a class="art" href="heimUFT.tiddlers.json">
@@ -660,14 +660,14 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       </a>
       <a class="art" href="kolbe2018hubbard-formula-report.html">
         <div class="ic">⊞ formula report · 238 + 61</div>
-        <h4>The KaTeX × MathPix comparison</h4>
-        <p>The full <code>pdfdrill report</code> for kolbe2018hubbard: every inline formula and display equation as LaTeX source │ live KaTeX render │ the MathPix CDN crop.</p>
+        <h4>The KaTeX × <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> comparison</h4>
+        <p>The full <code>pdfdrill report</code> for kolbe2018hubbard: every inline formula and display equation as LaTeX source │ live KaTeX render │ the <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> CDN crop.</p>
         <span class="go">open the report →</span>
       </a>
       <a class="art" href="kolbe2018hubbard-compare.html">
         <div class="ic">▦ comparison · 61 expressions</div>
         <h4>LaTeX vs the author's own .tex</h4>
-        <p>The <code>pdfdrill compare</code> table: each equation as MathPix LaTeX │ KaTeX │ image, with the author's gold <code>.tex</code> as a scored extra column.</p>
+        <p>The <code>pdfdrill compare</code> table: each equation as <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> LaTeX │ KaTeX │ image, with the author's gold <code>.tex</code> as a scored extra column.</p>
         <span class="go">open the comparison →</span>
       </a>
       <a class="art" href="kolbe2018hubbard.tiddlers.json">
