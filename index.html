@@ -577,18 +577,14 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     </div>
 
     <div class="callout">
-      <div class="lab">Sandbox network access</div>
-      <p>The Claude.ai sandbox blocks all outbound network by default, so reaching <strong>any host outside the sandbox</strong> must first be <strong>allowed in your user settings</strong>. That covers the external services (<strong><a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a></strong> — <code>mathpix</code>, <code>snip</code>; <strong>ChatGPT / GPT-4o</strong> — <code>vision</code>; <strong>Perplexity</strong> — <code>bibfetch</code>), fetching a PDF by URL, and even <code>apt</code>-installing <code>dvisvgm</code> at bootstrap. The keyless offline path — <code>model</code>, <code>compare</code>, <code>report</code>, <code>tiddlers</code>, <code>ocr</code> — touches no host and needs no change.</p>
-    </div>
-
-    <div class="callout teal">
-      <div class="lab">Upload ≠ enough</div>
-      <p>A PDF attached in the chat is silently converted to Markdown (math as Unicode, basic text-extraction quality) and the original — including its annotation layer — is never consulted. That is exactly why uploads miss annotation-only links. Always run pdfdrill against the <strong>real PDF file</strong>.</p>
+      <div class="lab">Network access needed for the sandbox</div>
+      <p>In the settings menu, the Claude.ai sandbox can be set to allow network access to <strong>all hosts</strong>. Only after that change are the external services (<strong><a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a></strong> — <code>mathpix</code>, <code>snip</code>; <strong>ChatGPT / GPT-4o</strong> — <code>vision</code>; <strong>Perplexity</strong> — <code>bibfetch</code>; and <strong>Gemma</strong>), fetching a PDF by URL, and even <code>apt</code>-installing <code>dvisvgm</code> at bootstrap possible. The keyless offline path — <code>model</code>, <code>compare</code>, <code>report</code>, <code>tiddlers</code>, <code>ocr</code> — touches no host and needs no change.</p>
     </div>
 
     <div class="callout">
-      <div class="lab">A gentle request · two kind ways in</div>
-      <p>Use case: you would like Claude.ai to work on a paper with pdfdrill. May we kindly ask that you <strong>do not hand it the bare PDF</strong> — the moment a PDF is attached it is quietly flattened to Markdown, and the real file is set aside and never opened. So that your true document reaches the tool intact, please consider either of two equally simple courtesies: <strong>(1)</strong> share a <strong>URL to the PDF</strong>, which pdfdrill can fetch byte-for-byte; or <strong>(2)</strong> pop the PDF inside a <code>.zip</code> and upload that — the archive politely sidesteps the auto-Markdown conversion and arrives as bytes the tool can open directly. Either route is most appreciated, and your PDF will be read exactly as its author intended. Thank you.</p>
+      <div class="lab">Do not upload PDFs to Claude.ai</div>
+      <p>Attach a PDF in a Claude.ai chat and it is silently flattened to Markdown — math turns to Unicode and the <strong>annotation layer</strong> (every hyperlink with no visible anchor text) is discarded before pdfdrill ever sees it. So don't hand Claude the bare PDF. Do one of these instead: <strong>(1)</strong> share a <strong>URL to the PDF</strong> — pdfdrill fetches it byte-for-byte; or <strong>(2)</strong> put the PDF in a <code>.zip</code> and upload that — the archive sidesteps the auto-Markdown conversion, so the real bytes reach the tool.</p>
+      <p style="margin-top:12px">If a PDF is already sitting in the sandbox, tell Claude to run pdfdrill on <em>that file</em> — not the converted text: <code>pdfdrill model &lt;uploaded.pdf&gt;</code>, then <code>pdfdrill llmtext &lt;uploaded.pdf&gt;</code>. The <code>llmtext</code> dump is written to the doc's drill folder as <code>&lt;name&gt;.drill/&lt;name&gt;.llm.txt</code>. pdfdrill does <strong>not</strong> feed that file into the chat on its own, so explicitly <strong>ask Claude to read the <code>.llm.txt</code> file from the drill folder</strong> before it answers.</p>
     </div>
   </div>
 </section>
