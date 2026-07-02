@@ -248,10 +248,9 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     </div>
     <div class="kicker">drill-down extraction · pdf→latex ocr quality control</div>
     <h1>Drill into a PDF<br>with the <span class="drill">cheapest</span><br>sufficient command.</h1>
-    <p class="lede">A flat CLI that starts <em>shallow</em>, returns <em>prose</em> (never JSON), and remembers what it already knows in a sidecar next to each PDF — paired with a unified document model that takes a <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a>&trade; <code>lines.json</code> as its input and turns it into a typed, queryable graph.</p>
+    <p class="lede">A flat CLI that starts <em>shallow</em>, returns <em>prose</em> (never JSON), and remembers what it already knows in a sidecar next to each PDF — paired with a unified document model that takes a <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a>&trade; <code>lines.json</code> or an extended version of <code>pdfminer.six</code> as its input and turns it into a typed, queryable graph.</p>
     <div class="hero-meta">
-      <span class="pill"><b>Python 3</b> · no Bun on the live path</span>
-      <span class="pill">poppler · pdfplumber · <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> · Perplexity</span>
+      <span class="pill"><a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> · Perplexity · Gemma 4</span>
       <span class="pill"><b>offline</b> structural path · no key needed</span>
       <span class="pill">runs in the Claude.ai sandbox</span>
     </div>
@@ -276,13 +275,13 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <section id="what">
   <div class="wrap">
     <p class="eyebrow">01 — what it is</p>
-    <h2>Three drills, one execution surface.</h2>
-    <p class="sub"><a href="https://github.com/WulfKolbe/pdfdrill" target="_blank" rel="noopener">PDFDRILL</a>, <a href="https://github.com/WulfKolbe/CHATDRILL" target="_blank" rel="noopener">CHATDRILL</a>, and <a href="https://github.com/WulfKolbe/YTDRILL" target="_blank" rel="noopener">YTDRILL</a> can be seen as early “digital twins” of different information domains: documents, conversational histories, and video-based knowledge streams. Each one transforms a passive archive into a structured, queryable execution surface where raw material is progressively decomposed into semantic units, enriched with metadata, and reassembled into actionable context. PDFDRILL operates on static technical documents, CHATDRILL on multi-party conversational traces with evolving intent and implicit memory, and YTDRILL on time-aligned audiovisual transcripts combined with external references.</p>
-    <p class="sub">In a unified future, these twins converge inside a shared REPL-style loop embedded in a skill/CLI system. Instead of switching tools, the user interacts with a single execution environment where “drilling” becomes a first-class operator over heterogeneous sources. The loop continuously alternates between parsing, retrieval, context synthesis, and transformation, with each drill type acting as a specialized compiler pass. Skills are no longer static commands but composable semantic transformations over a persistent context graph, enabling iterative refinement of understanding across documents, chats, and media in a single coherent workflow.</p>
+    <h2>A flat CLI over a typed document model.</h2>
+    <p class="sub">pdfdrill returns <em>prose</em>, never JSON, and persists what it learns in a sidecar next to each PDF — so a re-run answers instantly and a higher-level command never repeats a lower one. It wraps the heavy extraction tools so an LLM can reach for the <em>cheapest command that still answers the question</em>, escalating to OCR and the full document model only on demand.</p>
+    <p class="sub">There are <strong>five ways to drive it</strong>: the <strong>CLI</strong> itself; a <code>drillui</code> browser terminal for chatting with one drilled document; a stdio <strong>MCP server</strong> and a Streamable-HTTP MCP endpoint that hand drill results back as clickable resources inside Claude Desktop, Claude Code, or the claude.ai web custom connector; and a <strong>batch</strong> driver that walks a list of URLs or arXiv ids shallow→deep. Underneath, three packages do the work:</p>
     <div class="grid g3">
       <div class="card">
         <h4><span class="dot"></span>src/pdfdrill</h4>
-        <p>The flat CLI + sidecar state machine + capture layer. Wraps poppler &amp; pdfplumber so you never call them by hand. Every command returns one sentence of prose and records cumulative <em>facts</em> — re-runs return instantly.</p>
+        <p>The flat CLI + sidecar state machine + capture layer. Wraps the heavy extraction tools so you never call them by hand. Every command returns one sentence of prose and records cumulative <em>facts</em> — re-runs return instantly.</p>
         <div class="ms">→ the SKILL the web chatbot drives</div>
       </div>
       <div class="card">
@@ -316,7 +315,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <span class="ou">Found 1 code/data host among external links:</span>
   <span class="hl">https://anonymous.4open.science/r/Unified-Representation-A9D9/</span>  <span class="ou">(page 1, no visible anchor text)</span>
 
-<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">urls</span> 2605.12061.pdf             <span class="cn"># ~6 s · pdfplumber over every page to recover anchor text</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">urls</span> 2605.12061.pdf             <span class="cn"># ~6 s · scans every page to recover anchor text</span>
 <span class="ou">Same link re-derived — only reach for this when you need the visible text.</span>
 
 <span class="pr">$</span> <span class="cn"># MathPix / Markdown / chatbot upload:</span> <span class="warn">the link is gone — annotation layer never consulted.</span></pre>
@@ -544,7 +543,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
   <div class="wrap">
     <p class="eyebrow">08 — claude.ai &amp; claude code</p>
     <h2>Nothing for you to install — just ask Claude.</h2>
-    <p class="sub">You don’t run any of this yourself. Make pdfdrill available <em>once</em> — attach the bundle in a Claude.ai chat, or install the skill in Claude Code — then ask in plain language. Claude carries the <strong>skill</strong> (<code>SKILL.md</code> + the 81-command manifest), so <em>it</em> knows which commands to run, and <em>it</em> reads that manual — not you. The package is pure Python under <code>src/</code> with no <code>pip</code> step, which is why the sandbox (poppler-utils, pdfplumber and pydantic already aboard) runs it as-is. Everything in the terminal below is what <strong>Claude</strong> does for you — not a checklist you type.</p>
+    <p class="sub">You don’t run any of this yourself. Make pdfdrill available <em>once</em> — attach the bundle in a Claude.ai chat, or install the skill in Claude Code — then ask in plain language. Claude carries the <strong>skill</strong> (<code>SKILL.md</code> + the 89-command manifest), so <em>it</em> knows which commands to run, and <em>it</em> reads that manual — not you. The package is pure Python under <code>src/</code> with no <code>pip</code> step, which is why the sandbox (the extraction tools and pydantic already aboard) runs it as-is. Everything in the terminal below is what <strong>Claude</strong> does for you — not a checklist you type.</p>
 
     <div class="term">
       <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">you ask in plain language — Claude loads the skill and runs pdfdrill for you</span></div>
@@ -574,7 +573,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 
     <div class="callout">
       <div class="lab">A first-class Claude skill <span class="exp">new</span></div>
-      <p>pdfdrill now ships as a Claude skill. A single <code>commands.yaml</code> manifest is the source of truth for the whole <strong>81-command</strong> surface — <code>--help</code>, the <code>SKILL.md</code> tables and the external <code>drillui</code> TUI are all generated from it, and a CI gate fails on any drift. A declarative prerequisite planner (<code>pdfdrill steps</code>, <code>--ensure</code>) chains the right commands toward a goal, so the agent asks for an outcome and pdfdrill walks the path.</p>
+      <p>pdfdrill now ships as a Claude skill. A single <code>commands.yaml</code> manifest is the source of truth for the whole <strong>89-command</strong> surface — <code>--help</code>, the <code>SKILL.md</code> tables and the external <code>drillui</code> TUI are all generated from it, and a CI gate fails on any drift. A declarative prerequisite planner (<code>pdfdrill steps</code>, <code>--ensure</code>) chains the right commands toward a goal, so the agent asks for an outcome and pdfdrill walks the path.</p>
     </div>
 
     <div class="callout">
@@ -584,7 +583,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 
     <div class="callout teal">
       <div class="lab">Upload ≠ enough</div>
-      <p>A PDF attached in the chat is silently converted to Markdown (math as Unicode, ~pdfplumber quality) and the original — including its annotation layer — is never consulted. That is exactly why uploads miss annotation-only links. Always run pdfdrill against the <strong>real PDF file</strong>.</p>
+      <p>A PDF attached in the chat is silently converted to Markdown (math as Unicode, basic text-extraction quality) and the original — including its annotation layer — is never consulted. That is exactly why uploads miss annotation-only links. Always run pdfdrill against the <strong>real PDF file</strong>.</p>
     </div>
 
     <div class="callout">
@@ -711,8 +710,8 @@ const CMDS = {
      out:[["$","pdfdrill ","links"," 2605.12061.pdf"],["ou","Found 1 code/data host:"],["hl","  https://anonymous.4open.science/r/Unified-Representation-A9D9/  (page 1, no visible anchor text)"]]},
     {n:"dests", a:"&lt;pdf&gt;", d:"Named destinations: theorem / equation / section anchors — structure without the full Markdown pipeline.", tag:"L0 · powerful for math papers",
      out:[["$","pdfdrill ","dests"," paper.pdf"],["ou","42 named anchors: theorem.3.1, equation.12, section.4, lemma.2.2, …"]]},
-    {n:"fonts", a:"&lt;pdf&gt;", d:"One sentence: font count + math-font detection (predicts whether pdfplumber will see math).", tag:"L1 · cached",
-     out:[["$","pdfdrill ","fonts"," paper.pdf"],["ou","Uses 21 font families including math fonts (LMMathSymbols10, MSBM10)."],["ou","pdfplumber extraction will detect math expressions."]]},
+    {n:"fonts", a:"&lt;pdf&gt;", d:"One sentence: font count + math-font detection (predicts whether text extraction will see math).", tag:"L1 · cached",
+     out:[["$","pdfdrill ","fonts"," paper.pdf"],["ou","Uses 21 font families including math fonts (LMMathSymbols10, MSBM10)."],["ou","Text extraction will detect math expressions."]]},
     {n:"abstract", a:"&lt;pdf&gt;", d:"Abstract paragraph verbatim, or “not found”. Usually all you need for “what is this about?”.", tag:"L1 · cheap",
      out:[["$","pdfdrill ","abstract"," paper.pdf"],["ou","Abstract:"],["ou",""],["ou","  For a finite planar set P, let ν(P) be the number of …"]]},
     {n:"toc", a:"&lt;pdf&gt;", d:"Bulleted section list, or “not found”.", tag:"L1 · cheap",
@@ -721,8 +720,8 @@ const CMDS = {
      out:[["$","pdfdrill ","status"," paper.pdf"],["ou","For paper.pdf I have: size (18 pages), font analysis (math fonts), abstract, Markdown (9175 words)."],["ou","Last action: md. 6 transitions logged."]]},
     {n:"selftest", a:"&lt;pdf|dir&gt;", d:"<b>Diagnostic grid</b>: run the whole command battery across a PDF (or every PDF in a folder) → <code>selftest.log</code> with OK / ⊘ n-a / ✗ error + the actual result per command.", tag:"L0 · the test harness",
      out:[["$","pdfdrill ","selftest"," ./papers --full"],["ou","selftest.log: 31 commands × 6 PDFs → 168 OK, 19 n/a, 1 ✗. --full added entities/elements/semantic."]]},
-    {n:"skill", a:"--emit DIR", d:"Emit / serve the bundled Claude <b>skill</b> — <code>commands.yaml</code> is the single source of truth for all 81 commands; <code>--json</code> dumps the manifest, <code>--check</code> fails on drift.", tag:"L0 · the wrapper",
-     out:[["$","pdfdrill ","skill"," --check"],["ou","Manifest in sync: 81/81 commands typed. --help + SKILL.md tables + drillui TUI all generated from it. No drift."]]},
+    {n:"skill", a:"--emit DIR", d:"Emit / serve the bundled Claude <b>skill</b> — <code>commands.yaml</code> is the single source of truth for all 89 commands; <code>--json</code> dumps the manifest, <code>--check</code> fails on drift.", tag:"L0 · the wrapper",
+     out:[["$","pdfdrill ","skill"," --check"],["ou","Manifest in sync: 89/89 commands typed. --help + SKILL.md tables + drillui TUI all generated from it. No drift."]]},
     {n:"booktoc", a:"&lt;pdf&gt;", d:"Greppable table of contents with <b>printed→PDF page alignment</b> (front-matter offset from title↔section matches) — grep a chapter name, get its PDF page.", tag:"L2 · books",
      out:[["$","pdfdrill ","booktoc"," book.pdf"],["ou","Aligned 9 chapters; printed p1 = PDF p15 (offset 14). \"Hubbard model\" → PDF page 92."]]},
     {n:"identifiers", a:"&lt;pdf&gt;", d:"Front-matter scan: checksum-valid <b>ISBN / ISSN / DOI / arXiv</b> + German ids + ALL-CAPS named-entity candidates (publisher / author), scoped by the booktoc offset.", tag:"L2 · front matter",
@@ -739,7 +738,7 @@ const CMDS = {
      out:[["$","pdfdrill ","ocr"," paper.pdf ","--lang eng+equ"],["ou","Rendered 18 pages → tesseract → paper.lines.json (source: tesseract, 69 lines on p1). model will ingest it unchanged."]]},
     {n:"folder", a:"./papers", d:"Batch-build every PDF that already has a sibling <code>lines.json</code> — no network, no uploads.", tag:"offline batch",
      out:[["$","pdfdrill ","folder"," ./papers"],["ou","Built 2312.11532 (full model, 24 author-year cites, 2 algorithms). Skipped 2605 copy (no lines.json)."]]},
-    {n:"markdown", a:"&lt;md&gt; --bibkey K", d:"Build a <b>source-only model from LLM-summary Markdown</b> (the yt2tw route): sections / paragraphs / math / lists + <code>\\cite{}</code> linked to the gold <code>bibtex</code> appendix.", tag:"no PDF · summary→model",
+    {n:"markdown", a:"&lt;md&gt; --bibkey K", d:"Build a <b>source-only model from LLM-summary Markdown</b>: sections / paragraphs / math / lists + <code>\\cite{}</code> linked to the gold <code>bibtex</code> appendix.", tag:"no PDF · summary→model",
      out:[["$","pdfdrill ","markdown"," notes.md --bibkey talk"],["ou","Built 4 sections, 22 paragraphs, 6 display eqs from Markdown. 5 cite{} commands resolved to the bibtex block."]]},
     {n:"llmtext", a:"&lt;pdf&gt;", d:"Flat <b>LLM dump</b>: per unit the tiddler title + paragraph text / formula LaTeX, in document order, split on blank lines and delimiter-separated — the whole doc as one paste-ready block.", tag:"L3 · LLM feed",
      out:[["$","pdfdrill ","llmtext"," paper.pdf"],["ou","Dumped 631 units in document order (%%%% delimited). Empty formulas skipped; ready to paste into a chat."]]},
