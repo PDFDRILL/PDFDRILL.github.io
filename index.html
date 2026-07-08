@@ -586,6 +586,11 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       <p>Attach a PDF in a Claude.ai chat and it is silently flattened to Markdown — math turns to Unicode and the <strong>annotation layer</strong> (every hyperlink with no visible anchor text) is discarded before pdfdrill ever sees it. So don't hand Claude the bare PDF. Do one of these instead: <strong>(1)</strong> share a <strong>URL to the PDF</strong> — pdfdrill fetches it byte-for-byte; or <strong>(2)</strong> put the PDF in a <code>.zip</code> and upload that — the archive sidesteps the auto-Markdown conversion, so the real bytes reach the tool.</p>
       <p style="margin-top:12px">If a PDF is already sitting in the sandbox, tell Claude to run pdfdrill on <em>that file</em> — not the converted text: <code>pdfdrill model &lt;uploaded.pdf&gt;</code>, then <code>pdfdrill llmtext &lt;uploaded.pdf&gt;</code>. The <code>llmtext</code> dump is written to the doc's drill folder as <code>&lt;name&gt;.drill/&lt;name&gt;.llm.txt</code>. pdfdrill does <strong>not</strong> feed that file into the chat on its own, so explicitly <strong>ask Claude to read the <code>.llm.txt</code> file from the drill folder</strong> before it answers.</p>
     </div>
+
+    <div class="callout teal">
+      <div class="lab">Self-hosting? Runs on CoCalc.ai <span class="exp">new</span></div>
+      <p>Prefer your own environment over the Claude.ai sandbox? A one-shot <code>bash cocalc-setup.sh</code> brings the CoCalc standard image up to spec — <code>sudo apt-get</code> for <code>poppler-utils</code>, <code>dvisvgm</code> and the LaTeX toolchain, then <code>bun</code>, <code>uv</code>/<code>uvx</code> and the Python deps into your user dirs. The <strong>drillui</strong> ask-the-document web terminal then runs there via <code>bun run tools/drillui_bridge.ts</code>, reached through CoCalc's port-forward. One CoCalc quirk: the terminal's WebSocket must carry the proxy path — paste <code>wss://&lt;host&gt;/&lt;project-id&gt;/server/8787/ws</code> into its Connect box. Full walkthrough: <a href="https://github.com/WulfKolbe/pdfdrill/blob/master/COCALC.md" target="_blank" rel="noopener">COCALC.md</a>.</p>
+    </div>
   </div>
 </section>
 
