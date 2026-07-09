@@ -611,6 +611,16 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       </a>
     </div>
 
+    <p class="eyebrow" style="margin-top:34px;color:var(--amber)">Transformer Circuits Thread · Verbalizable Representations Form a Global Workspace in Language Models <span class="exp">new · distill reading view</span></p>
+    <div class="arts">
+      <a class="art" href="verbalizable-workspace.distill.html" style="grid-column:1 / -1">
+        <div class="ic">◈ distill · 216 sections · 58 tables · 141 diagrams</div>
+        <h4>The paper, rebuilt as a Distill-v2 article</h4>
+        <p>An Anthropic interpretability write-up (a print from the Transformer&nbsp;Circuits Thread) run through <code>pdfdrill distill --embed</code>: the docmodel projected back into the <strong>Distill&nbsp;v2</strong> reading layout — named-column grid, runtime table of contents, late-bound <code>??</code> figure/equation references, and hover cite/footnote popovers. Math renders live in <strong>KaTeX</strong>; the 58 structured tables come back as <strong>span-aware HTML tables</strong> (rowspan/colspan), figures inline. One self-contained file — no template JS, no server.</p>
+        <span class="go">open the reading view →</span>
+      </a>
+    </div>
+
     <p class="eyebrow" style="margin-top:34px;color:var(--teal)">arXiv 2004.05631v1 · At the Interface of Algebra and Statistics</p>
     <div class="arts">
       <a class="art" href="2004.05631v1.html">
@@ -753,6 +763,8 @@ const CMDS = {
      out:[["$","pdfdrill ","markdown"," notes.md --bibkey talk"],["ou","Built 4 sections, 22 paragraphs, 6 display eqs from Markdown. 5 cite{} commands resolved to the bibtex block."]]},
     {n:"llmtext", a:"&lt;pdf&gt;", d:"Flat <b>LLM dump</b>: per unit the tiddler title + paragraph text / formula LaTeX, in document order, split on blank lines and delimiter-separated — the whole doc as one paste-ready block.", tag:"L3 · LLM feed",
      out:[["$","pdfdrill ","llmtext"," paper.pdf"],["ou","Dumped 631 units in document order (%%%% delimited). Empty formulas skipped; ready to paste into a chat."]]},
+    {n:"distill", a:"&lt;pdf&gt; --embed", d:"<b>Distill-style reading view</b> (<code>&lt;bibkey&gt;.distill.html</code>): the Anthropic/Distill&nbsp;v2 article skeleton — named-column grid, runtime TOC, late-bound <code>??</code> figure/eq refs, hover cite/footnote popovers — rebuilt from the docmodel. Self-contained, KaTeX math, <b>span-aware HTML tables</b> (rowspan/colspan). <code>--embed</code> inlines crops.", tag:"L3 · reading view",
+     out:[["$","pdfdrill ","distill"," paper.pdf --embed"],["ou","Distill reading view: 1413 blocks (5.2 MB, self-contained) — named-column layout, runtime TOC, late-bound figure refs, hover citations."]]},
   ],
   "math qc": [
     {n:"model", a:"&lt;pdf&gt;", d:"Build the unified docmodel <code>Document</code> from <code>lines.json</code>. Falls back to <code>ocr</code> when MathPix is unavailable.", tag:"L3 · offline",
