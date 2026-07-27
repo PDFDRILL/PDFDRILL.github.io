@@ -232,6 +232,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       <a href="#qc">qc pipeline</a>
       <a href="#model">model</a>
       <a href="#sandbox">sandbox</a>
+      <a href="#playground">playground</a>
       <a href="#artifacts">artifacts</a>
     </nav>
   </div>
@@ -253,9 +254,11 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       <span class="pill"><a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix</a> · Perplexity · Gemma 4</span>
       <span class="pill"><b>offline</b> structural path · no key needed</span>
       <span class="pill">runs in the Claude.ai sandbox</span>
+      <span class="pill"><b>one-click</b> codespace playground</span>
     </div>
     <div class="cta">
       <a class="btn primary" href="https://github.com/WulfKolbe/pdfdrill" target="_blank" rel="noopener">⎇ pdfdrill repository</a>
+      <a class="btn" href="#playground">▶ try it in a codespace</a>
       <a class="btn" href="#qc">↳ see the QC pipeline</a>
       <a class="btn" href="2004.05631v1.html">◳ browse a live document model</a>
       <a class="btn" href="https://paypal.me/wulfkolbe" target="_blank" rel="noopener" style="border-color:var(--teal);color:var(--teal)">♥ support pdfdrill</a>
@@ -277,7 +280,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     <p class="eyebrow">01 — what it is</p>
     <h2>A flat CLI over a typed document model.</h2>
     <p class="sub">pdfdrill returns <em>prose</em>, never JSON, and persists what it learns in a sidecar next to each PDF — so a re-run answers instantly and a higher-level command never repeats a lower one. It wraps the heavy extraction tools so an LLM can reach for the <em>cheapest command that still answers the question</em>, escalating to OCR and the full document model only on demand.</p>
-    <p class="sub">There are <strong>five ways to drive it</strong>: the <strong>CLI</strong> itself; a <code>drillui</code> browser terminal for chatting with one drilled document; a stdio <strong>MCP server</strong> and a Streamable-HTTP MCP endpoint that hand drill results back as clickable resources inside Claude Desktop, Claude Code, or the claude.ai web custom connector; and a <strong>batch</strong> driver that walks a list of URLs or arXiv ids shallow→deep. Underneath, three packages do the work:</p>
+    <p class="sub">There are <strong>five ways to drive it</strong>: the <strong>CLI</strong> itself; a <a href="#playground"><code>drillui</code></a> browser terminal for chatting with one drilled document; a stdio <strong>MCP server</strong> and a Streamable-HTTP MCP endpoint that hand drill results back as clickable resources inside Claude Desktop, Claude Code, or the claude.ai web custom connector; and a <strong>batch</strong> driver that walks a list of URLs or arXiv ids shallow→deep. Underneath, three packages do the work:</p>
     <div class="grid g3">
       <div class="card">
         <h4><span class="dot"></span>src/pdfdrill</h4>
@@ -594,10 +597,64 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
   </div>
 </section>
 
+<!-- PLAYGROUND -->
+<section id="playground">
+  <div class="wrap">
+    <p class="eyebrow">09 — the playground <span class="exp">new · one click</span></p>
+    <h2>Try it without installing anything.</h2>
+    <p class="sub"><a href="https://github.com/WulfKolbe/drillspace" target="_blank" rel="noopener"><strong>drillspace</strong></a> is pdfdrill plus a <code>.devcontainer</code>: click <strong>Open in GitHub Codespaces</strong> and a full Linux machine opens in your browser with the whole toolchain already baked in — <code>poppler</code>, <code>ghostscript</code>, TeXLive, <code>tesseract</code>, <code>libvips</code>, <code>bun</code>, <code>uv</code> and TiddlyWiki, installed once by a single <code>onCreateCommand</code>. No Docker Compose, no multi-service orchestration, nothing on your own computer. Four sample papers ride along, so the first command already has something to read.</p>
+
+    <div class="cta">
+      <a class="btn primary" href="https://codespaces.new/WulfKolbe/drillspace" target="_blank" rel="noopener">▶ open the playground</a>
+      <a class="btn" href="https://github.com/WulfKolbe/drillspace" target="_blank" rel="noopener">◱ drillspace on GitHub</a>
+    </div>
+
+    <div class="term">
+      <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">the codespace terminal — a bundled sample, keyless, offline</span></div>
+<pre><span class="pr">$</span> <span class="cm">python3</span> -m pdfdrill <span class="ar">report</span> 2305.04710v1.pdf     <span class="cn"># the whole first run — no key, no setup</span>
+<span class="ou">Formula report: 0 inline formulas + 0 display equations (LaTeX | KaTeX | image).</span>
+<span class="warn">⚠ 0 formulas because the model was built from keyless tesseract OCR, which cannot type equations.</span>
+
+<span class="pr">$</span> <span class="cm">python3</span> -m pdfdrill <span class="ar">injectlatex</span> 2305.04710v1.pdf <span class="cn"># FREE: the author’s gold arXiv equations</span>
+<span class="ou">Ingested LaTeX source 2305.04710v1.tgz: 5 display equations, 1 preamble macros.</span>
+<span class="ou">The base model had no equation slots (keyless OCR), so CREATED 5 Equation object(s).</span>
+
+<span class="pr">$</span> <span class="cm">python3</span> -m pdfdrill <span class="ar">report</span> 2305.04710v1.pdf     <span class="cn"># same command, now with real math</span>
+<span class="ou">Formula report: 0 inline formulas + <span class="hl">5 display equations</span> (LaTeX | KaTeX | image).</span>
+
+<span class="pr">$</span> <span class="cm">bun</span> tools/<span class="ar">drillui_bridge.ts</span> 2305.04710v1.pdf     <span class="cn"># …then ask the document</span>
+<span class="ou">drillui bridge → http://localhost:8787/</span>                <span class="cn"># Codespaces forwards it; click the link</span></pre>
+    </div>
+
+    <h3>drillui — the ask-the-document terminal</h3>
+    <p class="sub">A browser terminal over <em>one</em> drilled document (or several — <code>add &lt;pdf|url|arxiv-id&gt;</code> brings more in). Type a <strong>pdfdrill command</strong> and it runs on the open doc; type <strong>anything else</strong> and it becomes a question: <code>pdfdrill retrieve</code> pulls the grounded context, the answer comes back with the <strong>unit ids it was grounded in</strong>, and <code>pdfdrill chatlog</code> stores the turn back into the document’s sidecar. Every file pdfdrill writes appears in the <strong>Outputs</strong> panel as a link — and a <code>*.tiddlers.json</code> there drags straight into an open TiddlyWiki tab. Three pieces: an xterm.js page, a Bun bridge that spawns the REPL per connection, and the Python brain that talks to pdfdrill. No business logic in the middle.</p>
+
+    <figure style="margin:30px 0 0">
+      <img width="2880" height="2120" src="drillui-session.png" loading="lazy"
+           alt="The drillui browser terminal: the left pane shows `report` returning a formula report with 5 display equations, then the question “What problem does this paper solve, and how?” answered with inline [obj_…] citations; the right rail shows the session (doc, model, k, store), an Outputs panel holding formula-report.html, and three retrieval turns with the eight cited unit ids."
+           style="width:100%;height:auto;display:block;border:1px solid rgba(255,122,24,.35);border-radius:12px;background:var(--bg2);box-shadow:0 0 0 1px rgba(255,122,24,.10),0 0 28px rgba(255,122,24,.16)">
+      <figcaption style="font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:10px;text-align:center">
+        drillui on the bundled sample: <code>report</code> emits the formula report into <strong>Outputs</strong>, the question is answered from the document and logged as turn&nbsp;#3 — <strong>grounded in 8 cited unit ids</strong>, stored to <code>2305.04710v1.pdf.drill/chat.jsonl</code>. <span style="color:var(--muted)">(a real session — screenshotted, not mocked)</span>
+      </figcaption>
+    </figure>
+
+    <div class="grid g3">
+      <div class="card"><h4><span class="dot"></span>ports, already forwarded</h4><p><code>8787</code> drillui · <code>10000</code> its artifact server · <code>8080</code> TiddlyWiki. Nothing starts them — they open when you run the tool, and Codespaces forwards them to a URL you can just click.</p><div class="ms">→ no tunnel, no firewall rule</div></div>
+      <div class="card"><h4><span class="dot"></span>no first-run ceremony</h4><p>pdfdrill’s attestation gate hard-blocks extraction until the caller proves it read <code>SKILL.md</code> — right for an <em>LLM</em>, a wall of refusal for a human who clicked a link. The playground sets <code>PDFDRILL_NO_PREFLIGHT=1</code>; the gate stays fully intact everywhere else.</p><div class="ms">→ the first command just works</div></div>
+      <div class="card"><h4><span class="dot"></span>if something looks wrong</h4><p><code>bash .devcontainer/verify.sh</code> checks every part of the toolchain and exits with the number of failures — including a clean-shell re-resolve of <code>bun</code>, <code>uv</code> and <code>tiddlywiki</code>, which is how a <code>command not found</code> once slipped past a “successful” provisioning run.</p><div class="ms">→ diagnostic, not a prerequisite</div></div>
+    </div>
+
+    <div class="callout teal">
+      <div class="lab">First start is slow — once</div>
+      <p>A cold codespace installs a full TeX distribution before the terminal is usable. That happens <strong>once</strong>: the provisioning sits in <code>onCreateCommand</code> (not <code>postCreateCommand</code>, which would re-run on every creation), so a <strong>prebuild</strong> makes new codespaces near-instant. Configure it under <strong>Settings → Codespaces → Set up prebuild</strong>. Note that a <strong>fork does not inherit</strong> this repository’s prebuilds — for the fastest start, create the codespace on drillspace itself.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ARTIFACTS -->
 <section id="artifacts" style="border-bottom:none">
   <div class="wrap">
-    <p class="eyebrow">09 — live artifacts</p>
+    <p class="eyebrow">10 — live artifacts</p>
     <h2>Open the real output.</h2>
     <p class="sub">All produced by pdfdrill and served straight from this repository — no build step, no server.</p>
 

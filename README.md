@@ -14,7 +14,7 @@ from a CDN at runtime; everything else is self-contained.
 
 | File | What it is |
 |---|---|
-| [`index.html`](https://pdfdrill.github.io/) | The homepage. Explains pdfdrill and the Claude.ai sandbox workflow with live, interactive examples — command catalogue, the QC pipeline (LaTeX │ KaTeX │ MathPix crop), and live-rendered equations pulled from a real extracted model. |
+| [`index.html`](https://pdfdrill.github.io/) | The homepage. Explains pdfdrill and the Claude.ai sandbox workflow with live, interactive examples — command catalogue, the QC pipeline (LaTeX │ KaTeX │ MathPix crop), live-rendered equations pulled from a real extracted model, and the one-click [drillspace](https://github.com/WulfKolbe/drillspace) Codespaces playground (with a screenshot of a live `drillui` session). |
 
 ### Demo TiddlyWikis — one per source document
 
