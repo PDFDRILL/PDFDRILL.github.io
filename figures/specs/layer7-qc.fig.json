@@ -1,0 +1,204 @@
+{
+  "id": "layer7-qc",
+  "n": 7,
+  "title": "Layer 7 - final QA and HTML output",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 7 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nCard labelled 'QC report'. A clean 3-column comparison table with real header labels 'LaTeX | KaTeX | image'. Three or four rows: left cell = abstract code-line marks; middle = a neatly drawn rendered-equation glyph; right = a small cropped page-image snippet. A score chip per row ('0.99', '1.00'), with ONE row flagged amber for a mismatch. A green wax seal 'QC ok' in the corner. The memory rail is full and feeds into the table. This is the only panel allowed a literal table.\n\nHow to see it: pdfdrill report --embed produces a self-contained formula-report.html; --embed base64-inlines every crop so the artifact has no live-CDN dependency.",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 18,
+    "children": [
+      {
+        "kind": "group",
+        "id": "qc",
+        "title": "Layer 7 - QC report",
+        "sub": "LaTeX, KaTeX render and the image it was read from",
+        "tone": "ochre",
+        "dir": "col",
+        "gap": 8,
+        "children": [
+          {
+            "kind": "row",
+            "gap": 10,
+            "children": [
+              {
+                "kind": "node",
+                "id": "hdr1",
+                "label": "LaTeX",
+                "tone": "ink"
+              },
+              {
+                "kind": "node",
+                "id": "hdr2",
+                "label": "KaTeX",
+                "tone": "ink"
+              },
+              {
+                "kind": "node",
+                "id": "hdr3",
+                "label": "image",
+                "tone": "ink"
+              },
+              {
+                "kind": "node",
+                "id": "hdr4",
+                "label": "score",
+                "tone": "ink"
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "gap": 10,
+            "children": [
+              {
+                "kind": "node",
+                "id": "r1c1",
+                "label": "source",
+                "tone": "sage"
+              },
+              {
+                "kind": "node",
+                "id": "r1c2",
+                "label": "render",
+                "tone": "sage"
+              },
+              {
+                "kind": "node",
+                "id": "r1c3",
+                "label": "page crop",
+                "tone": "sage"
+              },
+              {
+                "kind": "node",
+                "id": "r1c4",
+                "label": "1.00",
+                "tone": "sage"
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "gap": 10,
+            "children": [
+              {
+                "kind": "node",
+                "id": "r2c1",
+                "label": "source",
+                "tone": "sage"
+              },
+              {
+                "kind": "node",
+                "id": "r2c2",
+                "label": "render",
+                "tone": "sage"
+              },
+              {
+                "kind": "node",
+                "id": "r2c3",
+                "label": "page crop",
+                "tone": "sage"
+              },
+              {
+                "kind": "node",
+                "id": "r2c4",
+                "label": "0.99",
+                "tone": "sage"
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "gap": 10,
+            "children": [
+              {
+                "kind": "node",
+                "id": "r3c1",
+                "label": "source",
+                "tone": "flag"
+              },
+              {
+                "kind": "node",
+                "id": "r3c2",
+                "label": "render",
+                "tone": "flag"
+              },
+              {
+                "kind": "node",
+                "id": "r3c3",
+                "label": "page crop",
+                "tone": "flag"
+              },
+              {
+                "kind": "node",
+                "id": "r3c4",
+                "label": "0.62",
+                "tone": "flag"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "full - every provenance column feeds the table"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "r1",
+      "from": "rail",
+      "to": "qc",
+      "kind": "store",
+      "from_side": "top",
+      "to_side": "bottom"
+    }
+  ]
+}

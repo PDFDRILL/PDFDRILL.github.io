@@ -1,0 +1,390 @@
+{
+  "id": "overview",
+  "n": 0,
+  "title": "pdfdrill - drill-depth escalation over a shared sidecar",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 0 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nThe overview card: four escalation levels L0..L3 side by side over one shared sidecar rail that every command writes facts into, so a higher level never repeats a lower one. Above them, the PDF enters at the left; mathpix (keyed) and ocr (keyless) produce the lines.json that the offline L3 path consumes; the competing readings feed L3 as scored provenance columns.",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 22,
+    "children": [
+      {
+        "kind": "row",
+        "gap": 26,
+        "children": [
+          {
+            "kind": "node",
+            "id": "pdf",
+            "label": "PDF file",
+            "tone": "paper"
+          },
+          {
+            "kind": "group",
+            "id": "prov",
+            "title": "competing readings",
+            "sub": "scored provenance columns",
+            "tone": "sage",
+            "dir": "col",
+            "gap": 8,
+            "children": [
+              {
+                "kind": "row",
+                "gap": 10,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "snip",
+                    "label": "snip",
+                    "tone": "sage",
+                    "mono": true
+                  },
+                  {
+                    "kind": "node",
+                    "id": "vision",
+                    "label": "vision",
+                    "tone": "sage",
+                    "mono": true
+                  },
+                  {
+                    "kind": "node",
+                    "id": "latex",
+                    "label": "latex",
+                    "tone": "sage",
+                    "mono": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "col",
+            "gap": 10,
+            "children": [
+              {
+                "kind": "row",
+                "gap": 12,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "mathpix",
+                    "label": "mathpix",
+                    "tone": "paper",
+                    "mono": true,
+                    "sub": "keyed"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "ocr",
+                    "label": "ocr",
+                    "tone": "paper",
+                    "mono": true,
+                    "sub": "keyless"
+                  }
+                ]
+              },
+              {
+                "kind": "node",
+                "id": "linesjson",
+                "label": "lines.json",
+                "tone": "rail",
+                "mono": true
+              }
+            ]
+          }
+        ],
+        "align": "end"
+      },
+      {
+        "kind": "row",
+        "gap": 26,
+        "children": [
+          {
+            "kind": "group",
+            "id": "l0",
+            "title": "L0 - free",
+            "sub": "approx. 40-60 ms",
+            "tone": "olive",
+            "dir": "col",
+            "gap": 8,
+            "children": [
+              {
+                "kind": "node",
+                "id": "size",
+                "label": "size",
+                "tone": "olive",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "pdfinfo",
+                "label": "pdfinfo",
+                "tone": "olive",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "links",
+                "label": "links",
+                "tone": "olive",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "dests",
+                "label": "dests",
+                "tone": "olive",
+                "mono": true
+              }
+            ]
+          },
+          {
+            "kind": "group",
+            "id": "l1",
+            "title": "L1 - cheap",
+            "sub": "cached, milliseconds",
+            "tone": "sage",
+            "dir": "col",
+            "gap": 8,
+            "children": [
+              {
+                "kind": "node",
+                "id": "abstract",
+                "label": "abstract",
+                "tone": "sage",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "toc",
+                "label": "toc",
+                "tone": "sage",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "fonts",
+                "label": "fonts",
+                "tone": "sage",
+                "mono": true
+              }
+            ]
+          },
+          {
+            "kind": "group",
+            "id": "l2",
+            "title": "L2 - work",
+            "sub": "approx. 1 s",
+            "tone": "ochre",
+            "dir": "col",
+            "gap": 8,
+            "children": [
+              {
+                "kind": "node",
+                "id": "md",
+                "label": "md",
+                "tone": "ochre",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "pagen",
+                "label": "page N",
+                "tone": "ochre",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "drill",
+                "label": "drill",
+                "tone": "ochre",
+                "mono": true
+              }
+            ]
+          },
+          {
+            "kind": "group",
+            "id": "l3",
+            "title": "L3 - model",
+            "sub": "offline, from lines.json",
+            "tone": "ink",
+            "dir": "col",
+            "gap": 8,
+            "children": [
+              {
+                "kind": "node",
+                "id": "model",
+                "label": "model",
+                "tone": "ink",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "compare",
+                "label": "compare",
+                "tone": "ink",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "report",
+                "label": "report",
+                "tone": "ink",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "tiddlers",
+                "label": "tiddlers",
+                "tone": "ink",
+                "mono": true
+              }
+            ]
+          }
+        ],
+        "align": "start"
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "every command records facts here; a re-run answers instantly"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "e1",
+      "from": "pdf",
+      "to": "l0",
+      "kind": "feed",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "e2",
+      "from": "mathpix",
+      "to": "linesjson",
+      "kind": "feed"
+    },
+    {
+      "id": "e3",
+      "from": "ocr",
+      "to": "linesjson",
+      "kind": "fallback"
+    },
+    {
+      "id": "e4",
+      "from": "linesjson",
+      "to": "l3",
+      "kind": "feed",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "e5",
+      "from": "prov",
+      "to": "l3",
+      "kind": "feed"
+    },
+    {
+      "id": "e6",
+      "from": "l0",
+      "to": "l1",
+      "kind": "escalate",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "e7",
+      "from": "l1",
+      "to": "l2",
+      "kind": "escalate",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "e8",
+      "from": "l2",
+      "to": "l3",
+      "kind": "escalate",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "e9",
+      "from": "l0",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "e10",
+      "from": "l1",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "e11",
+      "from": "l2",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "e12",
+      "from": "l3",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    }
+  ]
+}

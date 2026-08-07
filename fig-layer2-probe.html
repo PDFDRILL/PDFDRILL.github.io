@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Layer 2 - L0 shallow probe</title>
+<style>
+  html,body{margin:0;background:#fbf9f4;color:#282828;
+            font:14px/1.5 Georgia,'Times New Roman',serif}
+  main{max-width:432px;margin:2rem auto;padding:0 1rem}
+  h1{font-size:1.15rem;font-weight:normal;margin:0 0 .25rem}
+  p.cap{font-size:.8rem;color:#665c54;margin:.25rem 0 1rem}
+  #cy{width:100%;aspect-ratio:400/218;background:#fff;
+      border:1px solid #d5cdbb;border-radius:4px}
+  .bar{margin-top:.6rem;font-size:.75rem;color:#665c54}
+  button{font:inherit;font-size:.75rem;padding:.15rem .5rem;margin-right:.3rem;
+         background:#f2ece0;border:1px solid #d5cdbb;border-radius:3px;cursor:pointer}
+  #sel{font-family:monospace}
+</style>
+<main>
+<h1>Layer 2 - L0 shallow probe</h1>
+<p class="cap">Drag to pan, scroll to zoom, click a box for its identifier.
+Geometry is generated from the same source file as the LaTeX figure.</p>
+<div id="cy"></div>
+<div class="bar"><button id="fit">reset view</button><span id="sel"></span></div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.34.0/dist/cytoscape.min.js"></script>
+<script>
+const PAYLOAD = {"elements":[{"data":{"id":"__frame","w":400.057,"h":218.0},"position":{"x":200.0285,"y":109.0},"classes":"frame","grabbable":false,"selectable":false},{"data":{"id":"probe","w":273.0,"h":122.0,"fill":"#e5e7cf","stroke":"#7a7f2c","radius":7,"bw":0.9,"kind":"group","title":"Layer 2 - L0 probe"},"position":{"x":200.02867383512546,"y":83.0},"classes":"grp","grabbable":false,"selectable":false},{"data":{"id":"__t1","label":"Layer 2 - L0 probe","fs":9.5,"weight":"bold","family":"serif"},"position":{"x":200.02867383512546,"y":34.0},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"__t2","label":"reads metadata, extracts nothing","fs":7,"weight":"normal","family":"serif"},"position":{"x":200.02867383512546,"y":46.0},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"size","w":47,"h":24.0,"fill":"#f3f4e7","stroke":"#7a7f2c","radius":4,"bw":0.8,"kind":"node","title":"size"},"position":{"x":99.02867383512546,"y":78.0},"classes":"nd","grabbable":false},{"data":{"id":"__t3","label":"size","fs":8.5,"weight":"normal","family":"monospace"},"position":{"x":99.02867383512546,"y":78.0},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"pdfinfo","w":62,"h":24.0,"fill":"#f3f4e7","stroke":"#7a7f2c","radius":4,"bw":0.8,"kind":"node","title":"pdfinfo"},"position":{"x":165.52867383512546,"y":78.0},"classes":"nd","grabbable":false},{"data":{"id":"__t4","label":"pdfinfo","fs":8.5,"weight":"normal","family":"monospace"},"position":{"x":165.52867383512546,"y":78.0},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"links","w":52,"h":24.0,"fill":"#f3f4e7","stroke":"#7a7f2c","radius":4,"bw":0.8,"kind":"node","title":"links"},"position":{"x":234.52867383512546,"y":78.0},"classes":"nd","grabbable":false},{"data":{"id":"__t5","label":"links","fs":8.5,"weight":"normal","family":"monospace"},"position":{"x":234.52867383512546,"y":78.0},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"dests","w":52,"h":24.0,"fill":"#f3f4e7","stroke":"#7a7f2c","radius":4,"bw":0.8,"kind":"node","title":"dests"},"position":{"x":298.52867383512546,"y":78.0},"classes":"nd","grabbable":false},{"data":{"id":"__t6","label":"dests","fs":8.5,"weight":"normal","family":"monospace"},"position":{"x":298.52867383512546,"y":78.0},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"toggle","w":118,"h":34.0,"fill":"#eeeee9","stroke":"#3a3a35","radius":4,"bw":0.8,"kind":"node","title":"text layer / scan"},"position":{"x":145.52867383512546,"y":115.0},"classes":"nd","grabbable":false},{"data":{"id":"__t7","label":"text layer / scan","fs":8.5,"weight":"bold","family":"serif"},"position":{"x":145.52867383512546,"y":106.5},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"__t8","label":"page-1 char count decides","fs":7,"weight":"normal","family":"serif"},"position":{"x":145.52867383512546,"y":123.5},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"watch","w":91,"h":34.0,"fill":"#eeeee9","stroke":"#3a3a35","radius":4,"bw":0.8,"kind":"node","title":"approx. 50 ms"},"position":{"x":268.02867383512546,"y":115.0},"classes":"nd","grabbable":false},{"data":{"id":"__t9","label":"approx. 50 ms","fs":8.5,"weight":"bold","family":"serif"},"position":{"x":268.02867383512546,"y":106.5},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"__t10","label":"no extraction","fs":7,"weight":"normal","family":"serif"},"position":{"x":268.02867383512546,"y":123.5},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"rail","w":273.0,"h":34.0,"fill":"#e9e4d4","stroke":"#4a463c","radius":4,"bw":0.8,"kind":"node","title":"sidecar"},"position":{"x":200.02867383512546,"y":179.0},"classes":"nd","grabbable":false},{"data":{"id":"__t11","label":"sidecar","fs":8.5,"weight":"bold","family":"serif"},"position":{"x":200.02867383512546,"y":170.5},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"__t12","label":"3 facts written: size, links, dests","fs":7,"weight":"normal","family":"serif"},"position":{"x":200.02867383512546,"y":187.5},"classes":"txt","grabbable":false,"selectable":false},{"data":{"id":"r1","source":"probe","target":"rail","kind":"store","col":"#7c6f64","wid":0.8,"sep":"0% 50%","tep":"0% -50%","dash":[2.2,2.2]},"classes":"eg","selectable":false}],"style":[{"selector":"node.grp","style":{"shape":"round-rectangle","width":"data(w)","height":"data(h)","corner-radius":"data(radius)","background-color":"data(fill)","border-color":"data(stroke)","border-width":"data(bw)","label":"","z-index":1,"z-index-compare":"manual"}},{"selector":"node.nd","style":{"shape":"round-rectangle","width":"data(w)","height":"data(h)","corner-radius":"data(radius)","background-color":"data(fill)","border-color":"data(stroke)","border-width":"data(bw)","label":"","z-index":3,"z-index-compare":"manual"}},{"selector":"node.txt","style":{"width":1,"height":1,"background-opacity":0,"border-width":0,"events":"no","label":"data(label)","font-size":"data(fs)","font-weight":"data(weight)","font-family":"data(family)","color":"#282828","text-valign":"center","text-halign":"center","text-wrap":"none","z-index":4,"z-index-compare":"manual"}},{"selector":"edge.eg","style":{"curve-style":"straight","line-color":"data(col)","width":"data(wid)","target-arrow-color":"data(col)","target-arrow-shape":"triangle","arrow-scale":0.55,"source-endpoint":"data(sep)","target-endpoint":"data(tep)","z-index":2,"z-index-compare":"manual"}},{"selector":"edge[?dash]","style":{"line-style":"dashed","line-dash-pattern":"data(dash)"}},{"selector":"node.frame","style":{"width":"data(w)","height":"data(h)","shape":"rectangle","background-opacity":0,"border-width":0,"label":"","events":"no","z-index":0,"z-index-compare":"manual"}},{"selector":"node.nd:active","style":{"overlay-opacity":0.12}}],"canvas":{"w":400.057,"h":218.0,"label_band":32.0},"title":"Layer 2 - L0 shallow probe"};
+const cy = cytoscape({
+  container: document.getElementById('cy'),
+  elements: PAYLOAD.elements,
+  style: PAYLOAD.style,
+  layout: { name: 'preset' },
+  minZoom: 0.3, maxZoom: 6, wheelSensitivity: 0.2,
+  boxSelectionEnabled: false, autoungrabify: true
+});
+function fit(){ cy.fit(undefined, 12); }
+fit();
+document.getElementById('fit').addEventListener('click', fit);
+addEventListener('resize', fit);
+cy.on('tap', 'node.nd, node.grp', e =>
+  document.getElementById('sel').textContent = '  ' + e.target.data('title'));
+cy.on('tap', e => { if (e.target === cy)
+  document.getElementById('sel').textContent = ''; });
+</script>

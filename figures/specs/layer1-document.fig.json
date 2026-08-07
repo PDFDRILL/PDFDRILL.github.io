@@ -1,0 +1,142 @@
+{
+  "id": "layer1-document",
+  "n": 1,
+  "title": "Layer 1 - PDF document",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 1 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nThe card shows one paper page: heading bar, two columns of ruled text, one figure box. A translucent overlay peels up off the page revealing a hidden hyperlink marker ('here ->') that has NO visible anchor text, plus two map-pin named-destination markers. Behind it a ghosted second page is stamped 'scanned - no text layer', contrasting born-digital with scanned. The memory rail at the bottom is still empty.\n\nHow to see it: pdfdrill size reports born-digital vs scanned; pdfdrill links surfaces the hidden link in ~50 ms.",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 18,
+    "children": [
+      {
+        "kind": "group",
+        "id": "pdfdoc",
+        "title": "Layer 1 - PDF document",
+        "sub": "the file as it really is",
+        "tone": "sage",
+        "dir": "col",
+        "gap": 8,
+        "children": [
+          {
+            "kind": "row",
+            "gap": 18,
+            "children": [
+              {
+                "kind": "col",
+                "gap": 8,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "textlayer",
+                    "label": "text layer",
+                    "tone": "sage",
+                    "sub": "headings, paragraphs"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "fontlayer",
+                    "label": "font layer",
+                    "tone": "sage",
+                    "sub": "proves born-digital"
+                  }
+                ]
+              },
+              {
+                "kind": "group",
+                "id": "annot",
+                "title": "annotation layer",
+                "sub": "dropped by every naive reader",
+                "tone": "ochre",
+                "dir": "col",
+                "gap": 8,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "hlink",
+                    "label": "hyperlink",
+                    "tone": "ochre",
+                    "sub": "no visible anchor text"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "dest",
+                    "label": "named destination",
+                    "tone": "ochre",
+                    "sub": "jump target"
+                  }
+                ]
+              },
+              {
+                "kind": "node",
+                "id": "scanned",
+                "label": "scanned page",
+                "tone": "ink",
+                "sub": "no text layer, OCR required"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "empty - nothing recorded yet"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "r1",
+      "from": "pdfdoc",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    }
+  ]
+}

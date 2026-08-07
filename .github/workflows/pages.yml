@@ -1,0 +1,63 @@
+name: Deploy to Pages
+
+# Replaces the legacy Pages builder, which timed out at ten minutes on this
+# repo. The cause was history, not the working tree: four pushes on 2026-08-06
+# left ~100 MB of large blobs behind, and removing them from HEAD did not help
+# because the legacy build still fetches the repository. actions/checkout
+# shallow-clones by default, so that history is never pulled.
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it half-published.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        # fetch-depth: 1 is the default and is the point of this change.
+
+      - name: Stage the site
+        # Copy to a clean directory rather than uploading the checkout itself,
+        # so .git and CI config can never end up in the published artifact.
+        run: |
+          mkdir -p _site
+          # figures/ stays: index.html links figures/ and
+          # figures/specs/overview.fig.json from the hero caption.
+          rsync -a ./ _site/ \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude '.pstknot-work' \
+            --exclude 'node_modules'
+          test -f _site/.nojekyll || touch _site/.nojekyll
+          echo "staged $(du -sh _site | cut -f1), $(find _site -type f | wc -l) files"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          # Default is 600000 (10 min), and this artifact is ~65 MB: the
+          # deployment reached "deployment_in_progress" and was still running
+          # when the action gave up and cancelled it. Give it 30 minutes.
+          timeout: 1800000
+          error_count: 10
+          reporting_interval: 15000

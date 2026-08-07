@@ -1,0 +1,8 @@
+{
+  "name": "pdfdrill-figures",
+  "private": true,
+  "description": "Anchors npm to this directory and pins the Cytoscape version inlined into each emitted panel. Without it, npm walks up and resolves against a parent project.",
+  "dependencies": {
+    "cytoscape": "3.34.0"
+  }
+}

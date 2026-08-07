@@ -1,0 +1,162 @@
+{
+  "id": "layer3-structure",
+  "n": 3,
+  "title": "Layer 3 - structural extraction",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 3 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nCard labelled 'L1-L2 structure'. An 'abstract' ribbon across the top; a nested table-of-contents tree; a badge indicating math fonts were detected; a Markdown page emerging at the right with paragraph blocks and one code-fence glyph. A staircase of arrows shows the chain size -> fonts -> abstract -> toc -> md. More fact cards drop into the memory rail, now noticeably fuller.\n\nHow to see it: pdfdrill abstract / toc / fonts, then md / page N. The Markdown is cached, so a later command never re-extracts.",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 18,
+    "children": [
+      {
+        "kind": "group",
+        "id": "structure",
+        "title": "Layer 3 - L1/L2 structure",
+        "sub": "the first real content",
+        "tone": "sage",
+        "dir": "col",
+        "gap": 8,
+        "children": [
+          {
+            "kind": "row",
+            "gap": 18,
+            "children": [
+              {
+                "kind": "group",
+                "id": "l1",
+                "title": "L1 cheap",
+                "sub": "what is it about",
+                "tone": "sage",
+                "dir": "col",
+                "gap": 8,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "abstract",
+                    "label": "abstract",
+                    "tone": "sage",
+                    "mono": true
+                  },
+                  {
+                    "kind": "node",
+                    "id": "toc",
+                    "label": "toc",
+                    "tone": "sage",
+                    "mono": true
+                  },
+                  {
+                    "kind": "node",
+                    "id": "fonts",
+                    "label": "fonts",
+                    "tone": "sage",
+                    "mono": true
+                  }
+                ]
+              },
+              {
+                "kind": "group",
+                "id": "l2",
+                "title": "L2 work",
+                "sub": "real extraction",
+                "tone": "ochre",
+                "dir": "col",
+                "gap": 8,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "md",
+                    "label": "md",
+                    "tone": "ochre",
+                    "mono": true
+                  },
+                  {
+                    "kind": "node",
+                    "id": "pagen",
+                    "label": "page N",
+                    "tone": "ochre",
+                    "mono": true
+                  }
+                ]
+              },
+              {
+                "kind": "node",
+                "id": "math",
+                "label": "math detected",
+                "tone": "ink",
+                "sub": "math fonts present"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "+ cached markdown, toc"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "c1",
+      "from": "l1",
+      "to": "l2",
+      "kind": "escalate",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "r1",
+      "from": "structure",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    }
+  ]
+}

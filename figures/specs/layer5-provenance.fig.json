@@ -1,0 +1,205 @@
+{
+  "id": "layer5-provenance",
+  "n": 5,
+  "title": "Layer 5 - drill and provenance",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 5 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nCard labelled 'drill provenance'. Centre: ONE equation crop as an abstract boxed glyph cluster, not a real formula. Fanning out around it, four small reading cards 'mathpix', 'snip', 'vision', 'tex (gold)', each with a circular score dial 0-1. A circular feedback arrow loops the whole cluster, labelled 'escalate -> ingest -> relearn'. Three dials green (resolved), one amber (still-shaky). The memory rail gains score columns.\n\nHow to see it: pdfdrill mathpix, then snip / candidates / vision / latex; close the loop with escalate -> ingest -> relearn. On a real run: 9 flagged, 7 resolved, 1 correctly retained.",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 18,
+    "children": [
+      {
+        "kind": "group",
+        "id": "drill",
+        "title": "Layer 5 - drill / provenance",
+        "sub": "one equation read four ways, each scored",
+        "tone": "ink",
+        "dir": "col",
+        "gap": 8,
+        "children": [
+          {
+            "kind": "row",
+            "gap": 12,
+            "children": [
+              {
+                "kind": "node",
+                "id": "mathpix",
+                "label": "mathpix",
+                "tone": "sage",
+                "mono": true,
+                "sub": "1.00"
+              },
+              {
+                "kind": "node",
+                "id": "snip",
+                "label": "snip",
+                "tone": "sage",
+                "mono": true,
+                "sub": "0.99"
+              },
+              {
+                "kind": "node",
+                "id": "vision",
+                "label": "vision",
+                "tone": "sage",
+                "mono": true,
+                "sub": "0.97"
+              },
+              {
+                "kind": "node",
+                "id": "texgold",
+                "label": "latex",
+                "tone": "ochre",
+                "mono": true,
+                "sub": "gold .tex"
+              }
+            ]
+          },
+          {
+            "kind": "node",
+            "id": "crop",
+            "label": "equation crop",
+            "tone": "ink",
+            "sub": "the image mathpix actually read"
+          },
+          {
+            "kind": "row",
+            "gap": 12,
+            "children": [
+              {
+                "kind": "node",
+                "id": "escalate",
+                "label": "escalate",
+                "tone": "flag",
+                "mono": true,
+                "sub": "export the shaky ones"
+              },
+              {
+                "kind": "node",
+                "id": "ingest",
+                "label": "ingest",
+                "tone": "flag",
+                "mono": true,
+                "sub": "take the second reading"
+              },
+              {
+                "kind": "node",
+                "id": "relearn",
+                "label": "relearn",
+                "tone": "flag",
+                "mono": true,
+                "sub": "re-score"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "+ latex_prov and score_prov per equation"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "f1",
+      "from": "mathpix",
+      "to": "crop",
+      "kind": "feed"
+    },
+    {
+      "id": "f2",
+      "from": "snip",
+      "to": "crop",
+      "kind": "feed"
+    },
+    {
+      "id": "f3",
+      "from": "vision",
+      "to": "crop",
+      "kind": "feed"
+    },
+    {
+      "id": "f4",
+      "from": "texgold",
+      "to": "crop",
+      "kind": "feed"
+    },
+    {
+      "id": "l1",
+      "from": "crop",
+      "to": "escalate",
+      "kind": "escalate"
+    },
+    {
+      "id": "l2",
+      "from": "escalate",
+      "to": "ingest",
+      "kind": "escalate",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "l3",
+      "from": "ingest",
+      "to": "relearn",
+      "kind": "escalate",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "r1",
+      "from": "drill",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    }
+  ]
+}

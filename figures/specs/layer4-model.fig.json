@@ -1,0 +1,198 @@
+{
+  "id": "layer4-model",
+  "n": 4,
+  "title": "Layer 4 - the unified docmodel",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 4 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nCard labelled 'L3 model'. NOT 'user intent' - that was invented. A node-link graph where node SHAPE encodes TYPE: square = paragraph, circle = equation, triangle = figure, grid = table, hexagon = section. Each node carries a tiny anchor-pin id. TWO parallel horizontal lanes ('text stream' / 'region stream') with dashed alignment links between corresponding nodes. A faint dashed bounding box on one node shows region geometry. The memory rail now shows one larger block 'docmodel.json'.\n\nHow to see it: pdfdrill model (offline if a lines.json exists).",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 18,
+    "children": [
+      {
+        "kind": "group",
+        "id": "model",
+        "title": "Layer 4 - L3 model",
+        "sub": "flat extraction becomes a typed, queryable graph",
+        "tone": "ink",
+        "dir": "col",
+        "gap": 8,
+        "children": [
+          {
+            "kind": "group",
+            "id": "textstream",
+            "title": "text stream",
+            "sub": "opaque anchors, not positions",
+            "tone": "sage",
+            "dir": "col",
+            "gap": 8,
+            "children": [
+              {
+                "kind": "row",
+                "gap": 12,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "para",
+                    "label": "paragraph",
+                    "tone": "sage"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "eqn",
+                    "label": "equation",
+                    "tone": "sage"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "sect",
+                    "label": "section",
+                    "tone": "sage"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "tbl",
+                    "label": "table",
+                    "tone": "sage"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "group",
+            "id": "regionstream",
+            "title": "region stream",
+            "sub": "page geometry",
+            "tone": "ochre",
+            "dir": "col",
+            "gap": 8,
+            "children": [
+              {
+                "kind": "row",
+                "gap": 12,
+                "children": [
+                  {
+                    "kind": "node",
+                    "id": "rpara",
+                    "label": "region",
+                    "tone": "ochre"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "reqn",
+                    "label": "region",
+                    "tone": "ochre"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "rsect",
+                    "label": "region",
+                    "tone": "ochre"
+                  },
+                  {
+                    "kind": "node",
+                    "id": "rtbl",
+                    "label": "region",
+                    "tone": "ochre"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "docmodel.json - the between-call memory"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "a1",
+      "from": "para",
+      "to": "rpara",
+      "kind": "fallback",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "a2",
+      "from": "eqn",
+      "to": "reqn",
+      "kind": "fallback",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "a3",
+      "from": "sect",
+      "to": "rsect",
+      "kind": "fallback",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "a4",
+      "from": "tbl",
+      "to": "rtbl",
+      "kind": "fallback",
+      "from_side": "bottom",
+      "to_side": "top"
+    },
+    {
+      "id": "r1",
+      "from": "model",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    }
+  ]
+}

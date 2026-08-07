@@ -1,0 +1,166 @@
+{
+  "id": "layer6-project",
+  "n": 6,
+  "title": "Layer 6 - projection to a new document",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 6 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nCard labelled 'project'. The typed node graph from the previous panel feeds LEFT-to-RIGHT through a small funnel/lens labelled 'projector' and emerges as a neat stack of identical 'tiddler' record-cards, each with a title bar and a few field lines. The stack assembles into a single browser window on the right showing live-rendered equation glyphs. One arrow makes the 'one node -> one tiddler' mapping explicit. The memory rail feeds UP into the projector.\n\nHow to see it: pdfdrill tiddlers. Real output: 2004.05631v1.html, heimUFT.html, kolbe2018hubbard.html - each a single self-contained wiki.",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 18,
+    "children": [
+      {
+        "kind": "group",
+        "id": "project",
+        "title": "Layer 6 - project",
+        "sub": "one node becomes one tiddler",
+        "tone": "olive",
+        "dir": "col",
+        "gap": 8,
+        "children": [
+          {
+            "kind": "row",
+            "gap": 16,
+            "children": [
+              {
+                "kind": "group",
+                "id": "graph",
+                "title": "typed graph",
+                "sub": "from layer 4",
+                "tone": "sage",
+                "dir": "col",
+                "gap": 8,
+                "children": [
+                  {
+                    "kind": "row",
+                    "gap": 10,
+                    "children": [
+                      {
+                        "kind": "node",
+                        "id": "gpara",
+                        "label": "paragraph",
+                        "tone": "sage"
+                      },
+                      {
+                        "kind": "node",
+                        "id": "geqn",
+                        "label": "equation",
+                        "tone": "sage"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "node",
+                "id": "projector",
+                "label": "projector",
+                "tone": "ochre",
+                "mono": true,
+                "sub": "a docops Projector"
+              },
+              {
+                "kind": "node",
+                "id": "tiddler",
+                "label": "tiddler",
+                "tone": "olive",
+                "mono": true,
+                "sub": "one record per DocObject"
+              },
+              {
+                "kind": "node",
+                "id": "wiki",
+                "label": "TiddlyWiki",
+                "tone": "ink",
+                "sub": "one self-contained HTML file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "read back by the projector"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "p1",
+      "from": "graph",
+      "to": "projector",
+      "kind": "feed",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "p2",
+      "from": "projector",
+      "to": "tiddler",
+      "kind": "feed",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "p3",
+      "from": "tiddler",
+      "to": "wiki",
+      "kind": "feed",
+      "from_side": "right",
+      "to_side": "left"
+    },
+    {
+      "id": "r1",
+      "from": "rail",
+      "to": "projector",
+      "kind": "store",
+      "from_side": "top",
+      "to_side": "bottom"
+    }
+  ]
+}

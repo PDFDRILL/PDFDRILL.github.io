@@ -1,0 +1,3573 @@
+{
+  "meta": {
+    "bibkey": "pdfdrill-figures",
+    "source_path": "/tmp/tmp.ZR9dER2mmC/lib/pdfdrill-figures/pdfdrill-figures.lines.json",
+    "source": "pdfminer-chars",
+    "pages": [
+      {
+        "page": 1,
+        "image_id": null,
+        "page_height": 378.5,
+        "page_width": 693.5,
+        "languages_detected": []
+      },
+      {
+        "page": 2,
+        "image_id": null,
+        "page_height": 284.5,
+        "page_width": 521.5,
+        "languages_detected": []
+      },
+      {
+        "page": 3,
+        "image_id": null,
+        "page_height": 218.5,
+        "page_width": 400.5,
+        "languages_detected": []
+      },
+      {
+        "page": 4,
+        "image_id": null,
+        "page_height": 296.5,
+        "page_width": 543.5,
+        "languages_detected": []
+      },
+      {
+        "page": 5,
+        "image_id": null,
+        "page_height": 320.5,
+        "page_width": 587.5,
+        "languages_detected": []
+      },
+      {
+        "page": 6,
+        "image_id": null,
+        "page_height": 270.5,
+        "page_width": 495.5,
+        "languages_detected": []
+      },
+      {
+        "page": 7,
+        "image_id": null,
+        "page_height": 338.5,
+        "page_width": 622.5,
+        "languages_detected": []
+      },
+      {
+        "page": 8,
+        "image_id": null,
+        "page_height": 272.5,
+        "page_width": 499.5,
+        "languages_detected": []
+      }
+    ],
+    "num_pages": 8,
+    "root_id": "pdfdrill-figures"
+  },
+  "streams": {
+    "mathpix_lines": {
+      "name": "mathpix_lines",
+      "anchors": [
+        "a_3ecc52929c3c",
+        "a_424ab805dd3d",
+        "a_2ceba0bbc264",
+        "a_2f37437fd1e7",
+        "a_02b434b92cb8",
+        "a_c5ba0e789aea",
+        "a_5768f4b125e9",
+        "a_08d808ae4c9e",
+        "a_9a8a320baf15",
+        "a_ea6c0347d04d",
+        "a_e2c817102848",
+        "a_6d40d6382d0a",
+        "a_78f3a6625aef",
+        "a_5c6c5377c94c",
+        "a_1efcf29ccb3e",
+        "a_af10808a8aac",
+        "a_40cc310d7044",
+        "a_53e68eb85b1f",
+        "a_fb6f546d2ba6",
+        "a_ffe5e14f534f",
+        "a_98f5e5694a41",
+        "a_c0cd29cecda7",
+        "a_fdbe7100a594",
+        "a_cd6d9ecee921",
+        "a_f75e807d071a",
+        "a_00fa16a6f4f6",
+        "a_40997986d448",
+        "a_fc8093393c22",
+        "a_8f26382c7cda",
+        "a_6784b3d91be2",
+        "a_1bd7afa63d86",
+        "a_24d3aeeaeed8",
+        "a_d652cfcb843d",
+        "a_e6f15bd7bedc",
+        "a_5e3b040e46b5",
+        "a_89323ac9f8f7",
+        "a_b3f3bff84569",
+        "a_d7dbbfd856be",
+        "a_5dccc397dc3f",
+        "a_51137338e696",
+        "a_f9b04183cf35",
+        "a_68ff0a8e4dd6",
+        "a_58e90e1ebe8c",
+        "a_8e966f26a21a",
+        "a_c3e55c4ec822",
+        "a_d3cba441e204",
+        "a_f9d37c131dd5",
+        "a_52d8fc5b4220",
+        "a_d83b1bc58752",
+        "a_f313ef546016",
+        "a_c98b782e40dc",
+        "a_93892c7db572",
+        "a_da06ab7ecc3d",
+        "a_6cf09a1b0e70",
+        "a_c510609d259a",
+        "a_07d9b3915088",
+        "a_f58b3142aeec",
+        "a_767fe9c014da",
+        "a_793953880be5",
+        "a_ff8010286eab",
+        "a_38d29f7a8807",
+        "a_8e797130300c",
+        "a_928023e2d7ab",
+        "a_6f3c66283fc0",
+        "a_3a905c998b0c",
+        "a_ab9005f6d2e1",
+        "a_965cdf20d7f4",
+        "a_ca3d3e4773a8",
+        "a_ac4f730ead57",
+        "a_c278883366c8",
+        "a_cc66b37e5f76",
+        "a_c83d518504f6",
+        "a_24fa9080cc55",
+        "a_31b67d11262f",
+        "a_a14d5692e408",
+        "a_f73bcb7bdf29",
+        "a_c50df4c0142a",
+        "a_06ee80682578",
+        "a_94cfd126d286",
+        "a_4448544785d4",
+        "a_ecfbe785e35d"
+      ],
+      "payload": {
+        "a_3ecc52929c3c": {
+          "id": "ocr_p1_l0",
+          "type": "text",
+          "text": "competing readings mathpix ocr",
+          "text_display": "competing readings mathpix ocr",
+          "region": {
+            "top_left_x": 271.91,
+            "top_left_y": 29.33,
+            "width": 277.52,
+            "height": 10.95
+          },
+          "_page": 1,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_424ab805dd3d": {
+          "id": "ocr_p1_l1",
+          "type": "text",
+          "text": "scored provenance columns",
+          "text_display": "scored provenance columns",
+          "region": {
+            "top_left_x": 270.09,
+            "top_left_y": 42.44,
+            "width": 93.97,
+            "height": 6.98
+          },
+          "_page": 1,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_2ceba0bbc264": {
+          "id": "ocr_p1_l2",
+          "type": "text",
+          "text": "keyed keyless",
+          "text_display": "keyed keyless",
+          "region": {
+            "top_left_x": 464.38,
+            "top_left_y": 49.94,
+            "width": 90.59,
+            "height": 6.98
+          },
+          "_page": 1,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_2f37437fd1e7": {
+          "id": "ocr_p1_l3",
+          "type": "text",
+          "text": "PDF ﬁle",
+          "text_display": "PDF ﬁle",
+          "region": {
+            "top_left_x": 140.03,
+            "top_left_y": 57.1,
+            "width": 36.11,
+            "height": 7.97
+          },
+          "_page": 1,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_02b434b92cb8": {
+          "id": "ocr_p1_l4",
+          "type": "text",
+          "text": "snip vision latex",
+          "text_display": "snip vision latex",
+          "region": {
+            "top_left_x": 244.12,
+            "top_left_y": 73.65,
+            "width": 145.54,
+            "height": 8.85
+          },
+          "_page": 1,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_c5ba0e789aea": {
+          "id": "ocr_p1_l5",
+          "type": "text",
+          "text": "lines.json",
+          "text_display": "lines.json",
+          "region": {
+            "top_left_x": 484.92,
+            "top_left_y": 79.65,
+            "width": 42.32,
+            "height": 7.97
+          },
+          "_page": 1,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_5768f4b125e9": {
+          "id": "ocr_p1_l6",
+          "type": "text",
+          "text": "L0 - free L1 - cheap L2 - work L3 - model",
+          "text_display": "L0 - free L1 - cheap L2 - work L3 - model",
+          "region": {
+            "top_left_x": 141.27,
+            "top_left_y": 131.33,
+            "width": 403.02,
+            "height": 9.84
+          },
+          "_page": 1,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_08d808ae4c9e": {
+          "id": "ocr_p1_l7",
+          "type": "text",
+          "text": "approx. 40-60 ms cached, milliseconds approx. 1 s oﬄine, from lines.json",
+          "text_display": "approx. 40-60 ms cached, milliseconds approx. 1 s oﬄine, from lines.json",
+          "region": {
+            "top_left_x": 130.8,
+            "top_left_y": 144.27,
+            "width": 426.51,
+            "height": 7.15
+          },
+          "_page": 1,
+          "_line_index": 7,
+          "_image_id": null
+        },
+        "a_9a8a320baf15": {
+          "id": "ocr_p1_l8",
+          "type": "text",
+          "text": "size abstract md model",
+          "text_display": "size abstract md model",
+          "region": {
+            "top_left_x": 152.62,
+            "top_left_y": 176.53,
+            "width": 377.04,
+            "height": 7.97
+          },
+          "_page": 1,
+          "_line_index": 8,
+          "_image_id": null
+        },
+        "a_ea6c0347d04d": {
+          "id": "ocr_p1_l9",
+          "type": "text",
+          "text": "pdfinfo toc page N compare",
+          "text_display": "pdfinfo toc page N compare",
+          "region": {
+            "top_left_x": 146.27,
+            "top_left_y": 206.93,
+            "width": 387.62,
+            "height": 9.34
+          },
+          "_page": 1,
+          "_line_index": 9,
+          "_image_id": null
+        },
+        "a_e2c817102848": {
+          "id": "ocr_p1_l10",
+          "type": "text",
+          "text": "links fonts drill report",
+          "text_display": "links fonts drill report",
+          "region": {
+            "top_left_x": 150.5,
+            "top_left_y": 239.42,
+            "width": 381.28,
+            "height": 9.08
+          },
+          "_page": 1,
+          "_line_index": 10,
+          "_image_id": null
+        },
+        "a_6d40d6382d0a": {
+          "id": "ocr_p1_l11",
+          "type": "text",
+          "text": "dests tiddlers",
+          "text_display": "dests tiddlers",
+          "region": {
+            "top_left_x": 150.5,
+            "top_left_y": 272.53,
+            "width": 385.51,
+            "height": 7.97
+          },
+          "_page": 1,
+          "_line_index": 11,
+          "_image_id": null
+        },
+        "a_78f3a6625aef": {
+          "id": "ocr_p1_l12",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 332.3,
+            "top_left_y": 325.6,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 1,
+          "_line_index": 12,
+          "_image_id": null
+        },
+        "a_5c6c5377c94c": {
+          "id": "ocr_p1_l13",
+          "type": "text",
+          "text": "every command records facts here; a re-run answers instantly",
+          "text_display": "every command records facts here; a re-run answers instantly",
+          "region": {
+            "top_left_x": 240.18,
+            "top_left_y": 343.94,
+            "width": 213.81,
+            "height": 6.98
+          },
+          "_page": 1,
+          "_line_index": 13,
+          "_image_id": null
+        },
+        "a_1efcf29ccb3e": {
+          "id": "ocr_p2_l0",
+          "type": "text",
+          "text": "Layer 1 - PDF document",
+          "text_display": "Layer 1 - PDF document",
+          "region": {
+            "top_left_x": 202.66,
+            "top_left_y": 29.32,
+            "width": 116.35,
+            "height": 8.96
+          },
+          "_page": 2,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_af10808a8aac": {
+          "id": "ocr_p2_l1",
+          "type": "text",
+          "text": "the ﬁle as it really is",
+          "text_display": "the ﬁle as it really is",
+          "region": {
+            "top_left_x": 224.83,
+            "top_left_y": 42.45,
+            "width": 72.01,
+            "height": 6.97
+          },
+          "_page": 2,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_40cc310d7044": {
+          "id": "ocr_p2_l2",
+          "type": "text",
+          "text": "annotation layer",
+          "text_display": "annotation layer",
+          "region": {
+            "top_left_x": 209.99,
+            "top_left_y": 73.32,
+            "width": 75.69,
+            "height": 8.96
+          },
+          "_page": 2,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_53e68eb85b1f": {
+          "id": "ocr_p2_l3",
+          "type": "text",
+          "text": "dropped by every naive reader",
+          "text_display": "dropped by every naive reader",
+          "region": {
+            "top_left_x": 194.97,
+            "top_left_y": 86.45,
+            "width": 105.7,
+            "height": 6.97
+          },
+          "_page": 2,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_fb6f546d2ba6": {
+          "id": "ocr_p2_l4",
+          "type": "text",
+          "text": "text layer scanned page",
+          "text_display": "text layer scanned page",
+          "region": {
+            "top_left_x": 92.31,
+            "top_left_y": 94.88,
+            "width": 331.74,
+            "height": 11.47
+          },
+          "_page": 2,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_ffe5e14f534f": {
+          "id": "ocr_p2_l5",
+          "type": "text",
+          "text": "headings, paragraphs hyperlink",
+          "text_display": "headings, paragraphs hyperlink",
+          "region": {
+            "top_left_x": 76.09,
+            "top_left_y": 114.38,
+            "width": 191.99,
+            "height": 8.54
+          },
+          "_page": 2,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_98f5e5694a41": {
+          "id": "ocr_p2_l6",
+          "type": "text",
+          "text": "no visible anchor text",
+          "text_display": "no visible anchor text",
+          "region": {
+            "top_left_x": 210.03,
+            "top_left_y": 132.63,
+            "width": 75.6,
+            "height": 6.97
+          },
+          "_page": 2,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_c0cd29cecda7": {
+          "id": "ocr_p2_l7",
+          "type": "text",
+          "text": "font layer",
+          "text_display": "font layer",
+          "region": {
+            "top_left_x": 92.52,
+            "top_left_y": 140.38,
+            "width": 40.64,
+            "height": 7.97
+          },
+          "out_of_column": "left",
+          "margin_role": "label",
+          "_page": 2,
+          "_line_index": 7,
+          "_image_id": null
+        },
+        "a_fdbe7100a594": {
+          "id": "ocr_p2_l8",
+          "type": "text",
+          "text": "proves born-digital named destination no text layer, OCR required",
+          "text_display": "proves born-digital named destination no text layer, OCR required",
+          "region": {
+            "top_left_x": 80.02,
+            "top_left_y": 157.16,
+            "width": 364.83,
+            "height": 11.26
+          },
+          "_page": 2,
+          "_line_index": 8,
+          "_image_id": null
+        },
+        "a_cd6d9ecee921": {
+          "id": "ocr_p2_l9",
+          "type": "text",
+          "text": "jump target",
+          "text_display": "jump target",
+          "region": {
+            "top_left_x": 227.18,
+            "top_left_y": 173.87,
+            "width": 41.3,
+            "height": 6.98
+          },
+          "_page": 2,
+          "_line_index": 9,
+          "_image_id": null
+        },
+        "a_f75e807d071a": {
+          "id": "ocr_p2_l10",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 246.05,
+            "top_left_y": 233.16,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 2,
+          "_line_index": 10,
+          "_image_id": null
+        },
+        "a_00fa16a6f4f6": {
+          "id": "ocr_p2_l11",
+          "type": "text",
+          "text": "empty - nothing recorded yet",
+          "text_display": "empty - nothing recorded yet",
+          "region": {
+            "top_left_x": 209.96,
+            "top_left_y": 249.95,
+            "width": 101.75,
+            "height": 6.97
+          },
+          "_page": 2,
+          "_line_index": 11,
+          "_image_id": null
+        },
+        "a_40997986d448": {
+          "id": "ocr_p3_l0",
+          "type": "text",
+          "text": "Layer 2 - L0 probe",
+          "text_display": "Layer 2 - L0 probe",
+          "region": {
+            "top_left_x": 156.74,
+            "top_left_y": 29.32,
+            "width": 87.07,
+            "height": 8.96
+          },
+          "_page": 3,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_fc8093393c22": {
+          "id": "ocr_p3_l1",
+          "type": "text",
+          "text": "reads metadata, extracts nothing",
+          "text_display": "reads metadata, extracts nothing",
+          "region": {
+            "top_left_x": 142.59,
+            "top_left_y": 42.45,
+            "width": 115.34,
+            "height": 6.97
+          },
+          "_page": 3,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_8f26382c7cda": {
+          "id": "ocr_p3_l2",
+          "type": "text",
+          "text": "size pdfinfo links dests",
+          "text_display": "size pdfinfo links dests",
+          "region": {
+            "top_left_x": 90.81,
+            "top_left_y": 73.6,
+            "width": 218.54,
+            "height": 8.85
+          },
+          "_page": 3,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_6784b3d91be2": {
+          "id": "ocr_p3_l3",
+          "type": "text",
+          "text": "text layer / scan approx. 50 ms",
+          "text_display": "text layer / scan approx. 50 ms",
+          "region": {
+            "top_left_x": 110.38,
+            "top_left_y": 102.57,
+            "width": 188.62,
+            "height": 8.17
+          },
+          "_page": 3,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_1bd7afa63d86": {
+          "id": "ocr_p3_l4",
+          "type": "text",
+          "text": "page-1 char count decides no extraction",
+          "text_display": "page-1 char count decides no extraction",
+          "region": {
+            "top_left_x": 101.05,
+            "top_left_y": 119.95,
+            "width": 190.32,
+            "height": 7.57
+          },
+          "_page": 3,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_24d3aeeaeed8": {
+          "id": "ocr_p3_l5",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 185.49,
+            "top_left_y": 167.54,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 3,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_d652cfcb843d": {
+          "id": "ocr_p3_l6",
+          "type": "text",
+          "text": "3 facts written: size, links, dests",
+          "text_display": "3 facts written: size, links, dests",
+          "region": {
+            "top_left_x": 143.97,
+            "top_left_y": 183.95,
+            "width": 112.59,
+            "height": 6.97
+          },
+          "_page": 3,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_e6f15bd7bedc": {
+          "id": "ocr_p4_l0",
+          "type": "text",
+          "text": "Layer 3 - L1/L2 structure",
+          "text_display": "Layer 3 - L1/L2 structure",
+          "region": {
+            "top_left_x": 211.85,
+            "top_left_y": 29.77,
+            "width": 119.96,
+            "height": 8.96
+          },
+          "_page": 4,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_5e3b040e46b5": {
+          "id": "ocr_p4_l1",
+          "type": "text",
+          "text": "the ﬁrst real content",
+          "text_display": "the ﬁrst real content",
+          "region": {
+            "top_left_x": 236.08,
+            "top_left_y": 43.05,
+            "width": 71.54,
+            "height": 6.97
+          },
+          "_page": 4,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_89323ac9f8f7": {
+          "id": "ocr_p4_l2",
+          "type": "text",
+          "text": "L1 cheap L2 work",
+          "text_display": "L1 cheap L2 work",
+          "region": {
+            "top_left_x": 146.62,
+            "top_left_y": 73.77,
+            "width": 143.65,
+            "height": 9.83
+          },
+          "_page": 4,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_b3f3bff84569": {
+          "id": "ocr_p4_l3",
+          "type": "text",
+          "text": "what is it about real extraction",
+          "text_display": "what is it about real extraction",
+          "region": {
+            "top_left_x": 139.31,
+            "top_left_y": 87.05,
+            "width": 157.39,
+            "height": 6.97
+          },
+          "_page": 4,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_d7dbbfd856be": {
+          "id": "ocr_p4_l4",
+          "type": "text",
+          "text": "math detected",
+          "text_display": "math detected",
+          "region": {
+            "top_left_x": 345.07,
+            "top_left_y": 97.1,
+            "width": 61.54,
+            "height": 7.97
+          },
+          "out_of_column": "right",
+          "margin_role": "label",
+          "_page": 4,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_5dccc397dc3f": {
+          "id": "ocr_p4_l5",
+          "type": "text",
+          "text": "abstract md",
+          "text_display": "abstract md",
+          "region": {
+            "top_left_x": 150.41,
+            "top_left_y": 118.53,
+            "width": 125.17,
+            "height": 7.97
+          },
+          "_page": 4,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_51137338e696": {
+          "id": "ocr_p4_l6",
+          "type": "text",
+          "text": "toc page N",
+          "text_display": "toc page N",
+          "region": {
+            "top_left_x": 161.0,
+            "top_left_y": 149.65,
+            "width": 123.05,
+            "height": 8.62
+          },
+          "_page": 4,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_f9b04183cf35": {
+          "id": "ocr_p4_l7",
+          "type": "text",
+          "text": "math fonts present",
+          "text_display": "math fonts present",
+          "region": {
+            "top_left_x": 343.17,
+            "top_left_y": 170.37,
+            "width": 65.35,
+            "height": 6.98
+          },
+          "out_of_column": "right",
+          "margin_role": "label",
+          "_page": 4,
+          "_line_index": 7,
+          "_image_id": null
+        },
+        "a_68ff0a8e4dd6": {
+          "id": "ocr_p4_l8",
+          "type": "text",
+          "text": "fonts",
+          "text_display": "fonts",
+          "region": {
+            "top_left_x": 156.76,
+            "top_left_y": 182.53,
+            "width": 21.16,
+            "height": 7.97
+          },
+          "_page": 4,
+          "_line_index": 8,
+          "_image_id": null
+        },
+        "a_58e90e1ebe8c": {
+          "id": "ocr_p4_l9",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 257.06,
+            "top_left_y": 243.6,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 4,
+          "_line_index": 9,
+          "_image_id": null
+        },
+        "a_8e966f26a21a": {
+          "id": "ocr_p4_l10",
+          "type": "text",
+          "text": "+ cached markdown, toc",
+          "text_display": "+ cached markdown, toc",
+          "region": {
+            "top_left_x": 228.59,
+            "top_left_y": 261.87,
+            "width": 86.51,
+            "height": 6.98
+          },
+          "_page": 4,
+          "_line_index": 10,
+          "_image_id": null
+        },
+        "a_c3e55c4ec822": {
+          "id": "ocr_p5_l0",
+          "type": "text",
+          "text": "Layer 4 - L3 model",
+          "text_display": "Layer 4 - L3 model",
+          "region": {
+            "top_left_x": 249.57,
+            "top_left_y": 29.33,
+            "width": 88.58,
+            "height": 8.96
+          },
+          "_page": 5,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_d3cba441e204": {
+          "id": "ocr_p5_l1",
+          "type": "text",
+          "text": "ﬂat extraction becomes a typed, queryable graph",
+          "text_display": "ﬂat extraction becomes a typed, queryable graph",
+          "region": {
+            "top_left_x": 208.41,
+            "top_left_y": 42.45,
+            "width": 170.9,
+            "height": 6.97
+          },
+          "_page": 5,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_f9d37c131dd5": {
+          "id": "ocr_p5_l2",
+          "type": "text",
+          "text": "text stream",
+          "text_display": "text stream",
+          "region": {
+            "top_left_x": 266.96,
+            "top_left_y": 73.93,
+            "width": 53.8,
+            "height": 8.97
+          },
+          "_page": 5,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_52d8fc5b4220": {
+          "id": "ocr_p5_l3",
+          "type": "text",
+          "text": "opaque anchors, not positions",
+          "text_display": "opaque anchors, not positions",
+          "region": {
+            "top_left_x": 242.12,
+            "top_left_y": 86.45,
+            "width": 103.47,
+            "height": 6.97
+          },
+          "_page": 5,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_d83b1bc58752": {
+          "id": "ocr_p5_l4",
+          "type": "text",
+          "text": "paragraph equation section table",
+          "text_display": "paragraph equation section table",
+          "region": {
+            "top_left_x": 165.14,
+            "top_left_y": 117.88,
+            "width": 256.29,
+            "height": 8.75
+          },
+          "_page": 5,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_f313ef546016": {
+          "id": "ocr_p5_l5",
+          "type": "text",
+          "text": "region stream",
+          "text_display": "region stream",
+          "region": {
+            "top_left_x": 261.98,
+            "top_left_y": 161.33,
+            "width": 63.76,
+            "height": 8.96
+          },
+          "_page": 5,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_c98b782e40dc": {
+          "id": "ocr_p5_l6",
+          "type": "text",
+          "text": "page geometry",
+          "text_display": "page geometry",
+          "region": {
+            "top_left_x": 268.59,
+            "top_left_y": 174.17,
+            "width": 50.53,
+            "height": 6.98
+          },
+          "_page": 5,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_93892c7db572": {
+          "id": "ocr_p5_l7",
+          "type": "text",
+          "text": "region region region region",
+          "text_display": "region region region region",
+          "region": {
+            "top_left_x": 178.67,
+            "top_left_y": 205.88,
+            "width": 230.39,
+            "height": 7.97
+          },
+          "_page": 5,
+          "_line_index": 7,
+          "_image_id": null
+        },
+        "a_da06ab7ecc3d": {
+          "id": "ocr_p5_l8",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 279.08,
+            "top_left_y": 269.16,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 5,
+          "_line_index": 8,
+          "_image_id": null
+        },
+        "a_6cf09a1b0e70": {
+          "id": "ocr_p5_l9",
+          "type": "text",
+          "text": "docmodel.json - the between-call memory",
+          "text_display": "docmodel.json - the between-call memory",
+          "region": {
+            "top_left_x": 221.66,
+            "top_left_y": 285.95,
+            "width": 144.39,
+            "height": 6.97
+          },
+          "_page": 5,
+          "_line_index": 9,
+          "_image_id": null
+        },
+        "a_c510609d259a": {
+          "id": "ocr_p6_l0",
+          "type": "text",
+          "text": "Layer 5 - drill / provenance",
+          "text_display": "Layer 5 - drill / provenance",
+          "region": {
+            "top_left_x": 183.63,
+            "top_left_y": 29.77,
+            "width": 128.68,
+            "height": 8.96
+          },
+          "_page": 6,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_07d9b3915088": {
+          "id": "ocr_p6_l1",
+          "type": "text",
+          "text": "one equation read four ways, each scored",
+          "text_display": "one equation read four ways, each scored",
+          "region": {
+            "top_left_x": 176.67,
+            "top_left_y": 42.45,
+            "width": 142.61,
+            "height": 6.97
+          },
+          "_page": 6,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_f58b3142aeec": {
+          "id": "ocr_p6_l2",
+          "type": "text",
+          "text": "mathpix snip vision latex",
+          "text_display": "mathpix snip vision latex",
+          "region": {
+            "top_left_x": 133.67,
+            "top_left_y": 70.15,
+            "width": 225.9,
+            "height": 8.85
+          },
+          "_page": 6,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_767fe9c014da": {
+          "id": "ocr_p6_l3",
+          "type": "text",
+          "text": "1.00 0.99 0.97 gold .tex",
+          "text_display": "1.00 0.99 0.97 gold .tex",
+          "region": {
+            "top_left_x": 141.41,
+            "top_left_y": 87.95,
+            "width": 222.76,
+            "height": 7.48
+          },
+          "_page": 6,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_793953880be5": {
+          "id": "ocr_p6_l4",
+          "type": "text",
+          "text": "equation crop",
+          "text_display": "equation crop",
+          "region": {
+            "top_left_x": 218.72,
+            "top_left_y": 112.32,
+            "width": 58.53,
+            "height": 7.97
+          },
+          "_page": 6,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_ff8010286eab": {
+          "id": "ocr_p6_l5",
+          "type": "text",
+          "text": "the image mathpix actually read",
+          "text_display": "the image mathpix actually read",
+          "region": {
+            "top_left_x": 191.16,
+            "top_left_y": 129.95,
+            "width": 113.65,
+            "height": 6.97
+          },
+          "_page": 6,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_38d29f7a8807": {
+          "id": "ocr_p6_l6",
+          "type": "text",
+          "text": "escalate ingest relearn",
+          "text_display": "escalate ingest relearn",
+          "region": {
+            "top_left_x": 133.06,
+            "top_left_y": 154.15,
+            "width": 248.24,
+            "height": 8.85
+          },
+          "_page": 6,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_8e797130300c": {
+          "id": "ocr_p6_l7",
+          "type": "text",
+          "text": "export the shaky ones take the second reading re-score",
+          "text_display": "export the shaky ones take the second reading re-score",
+          "region": {
+            "top_left_x": 111.68,
+            "top_left_y": 171.71,
+            "width": 268.11,
+            "height": 7.21
+          },
+          "_page": 6,
+          "_line_index": 7,
+          "_image_id": null
+        },
+        "a_928023e2d7ab": {
+          "id": "ocr_p6_l8",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 233.2,
+            "top_left_y": 219.09,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 6,
+          "_line_index": 8,
+          "_image_id": null
+        },
+        "a_6f3c66283fc0": {
+          "id": "ocr_p6_l9",
+          "type": "text",
+          "text": "+ latex prov and score prov per equation",
+          "text_display": "+ latex prov and score prov per equation",
+          "region": {
+            "top_left_x": 175.77,
+            "top_left_y": 235.95,
+            "width": 144.41,
+            "height": 6.97
+          },
+          "_page": 6,
+          "_line_index": 9,
+          "_image_id": null
+        },
+        "a_3a905c998b0c": {
+          "id": "ocr_p7_l0",
+          "type": "text",
+          "text": "Layer 6 - project",
+          "text_display": "Layer 6 - project",
+          "region": {
+            "top_left_x": 272.07,
+            "top_left_y": 81.86,
+            "width": 78.33,
+            "height": 8.96
+          },
+          "_page": 7,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_ab9005f6d2e1": {
+          "id": "ocr_p7_l1",
+          "type": "text",
+          "text": "one node becomes one tiddler",
+          "text_display": "one node becomes one tiddler",
+          "region": {
+            "top_left_x": 259.71,
+            "top_left_y": 95.65,
+            "width": 103.05,
+            "height": 6.97
+          },
+          "_page": 7,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_965cdf20d7f4": {
+          "id": "ocr_p7_l2",
+          "type": "text",
+          "text": "typed graph",
+          "text_display": "typed graph",
+          "region": {
+            "top_left_x": 91.48,
+            "top_left_y": 125.86,
+            "width": 56.53,
+            "height": 8.96
+          },
+          "out_of_column": "left",
+          "margin_role": "label",
+          "_page": 7,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_ca3d3e4773a8": {
+          "id": "ocr_p7_l3",
+          "type": "text",
+          "text": "projector tiddler TiddlyWiki",
+          "text_display": "projector tiddler TiddlyWiki",
+          "region": {
+            "top_left_x": 248.2,
+            "top_left_y": 134.17,
+            "width": 299.95,
+            "height": 8.85
+          },
+          "_page": 7,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_ac4f730ead57": {
+          "id": "ocr_p7_l4",
+          "type": "text",
+          "text": "from layer 4",
+          "text_display": "from layer 4",
+          "region": {
+            "top_left_x": 98.71,
+            "top_left_y": 138.97,
+            "width": 42.08,
+            "height": 6.98
+          },
+          "out_of_column": "left",
+          "margin_role": "label",
+          "_page": 7,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_c278883366c8": {
+          "id": "ocr_p7_l5",
+          "type": "text",
+          "text": "paragraph equation",
+          "text_display": "paragraph equation",
+          "region": {
+            "top_left_x": 60.02,
+            "top_left_y": 170.41,
+            "width": 118.51,
+            "height": 7.97
+          },
+          "out_of_column": "left",
+          "margin_role": "label",
+          "_page": 7,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_cc66b37e5f76": {
+          "id": "ocr_p7_l6",
+          "type": "text",
+          "text": "a docops Projector one record per DocObject one self-contained HTML ﬁle",
+          "text_display": "a docops Projector one record per DocObject one self-contained HTML ﬁle",
+          "region": {
+            "top_left_x": 234.44,
+            "top_left_y": 174.97,
+            "width": 340.01,
+            "height": 7.65
+          },
+          "_page": 7,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_c83d518504f6": {
+          "id": "ocr_p7_l7",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 296.46,
+            "top_left_y": 233.69,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 7,
+          "_line_index": 7,
+          "_image_id": null
+        },
+        "a_24fa9080cc55": {
+          "id": "ocr_p7_l8",
+          "type": "text",
+          "text": "read back by the projector",
+          "text_display": "read back by the projector",
+          "region": {
+            "top_left_x": 264.88,
+            "top_left_y": 250.47,
+            "width": 92.72,
+            "height": 6.98
+          },
+          "_page": 7,
+          "_line_index": 8,
+          "_image_id": null
+        },
+        "a_31b67d11262f": {
+          "id": "ocr_p8_l0",
+          "type": "text",
+          "text": "Layer 7 - QC report",
+          "text_display": "Layer 7 - QC report",
+          "region": {
+            "top_left_x": 203.0,
+            "top_left_y": 29.28,
+            "width": 93.64,
+            "height": 8.97
+          },
+          "_page": 8,
+          "_line_index": 0,
+          "_image_id": null
+        },
+        "a_a14d5692e408": {
+          "id": "ocr_p8_l1",
+          "type": "text",
+          "text": "LaTeX, KaTeX render and the image it was read from",
+          "text_display": "LaTeX, KaTeX render and the image it was read from",
+          "region": {
+            "top_left_x": 155.01,
+            "top_left_y": 42.45,
+            "width": 189.62,
+            "height": 6.97
+          },
+          "_page": 8,
+          "_line_index": 1,
+          "_image_id": null
+        },
+        "a_f73bcb7bdf29": {
+          "id": "ocr_p8_l2",
+          "type": "text",
+          "text": "LaTeX KaTeX image score",
+          "text_display": "LaTeX KaTeX image score",
+          "region": {
+            "top_left_x": 144.13,
+            "top_left_y": 73.66,
+            "width": 207.98,
+            "height": 8.93
+          },
+          "_page": 8,
+          "_line_index": 2,
+          "_image_id": null
+        },
+        "a_c50df4c0142a": {
+          "id": "ocr_p8_l3",
+          "type": "text",
+          "text": "source render page crop 1.00",
+          "text_display": "source render page crop 1.00",
+          "region": {
+            "top_left_x": 134.82,
+            "top_left_y": 104.89,
+            "width": 230.17,
+            "height": 9.74
+          },
+          "_page": 8,
+          "_line_index": 3,
+          "_image_id": null
+        },
+        "a_06ee80682578": {
+          "id": "ocr_p8_l4",
+          "type": "text",
+          "text": "source render page crop 0.99",
+          "text_display": "source render page crop 0.99",
+          "region": {
+            "top_left_x": 134.82,
+            "top_left_y": 136.89,
+            "width": 230.17,
+            "height": 9.74
+          },
+          "_page": 8,
+          "_line_index": 4,
+          "_image_id": null
+        },
+        "a_94cfd126d286": {
+          "id": "ocr_p8_l5",
+          "type": "text",
+          "text": "source render page crop 0.62",
+          "text_display": "source render page crop 0.62",
+          "region": {
+            "top_left_x": 134.82,
+            "top_left_y": 168.89,
+            "width": 230.17,
+            "height": 9.74
+          },
+          "_page": 8,
+          "_line_index": 5,
+          "_image_id": null
+        },
+        "a_4448544785d4": {
+          "id": "ocr_p8_l6",
+          "type": "text",
+          "text": "sidecar",
+          "text_display": "sidecar",
+          "region": {
+            "top_left_x": 235.04,
+            "top_left_y": 221.16,
+            "width": 29.56,
+            "height": 7.97
+          },
+          "_page": 8,
+          "_line_index": 6,
+          "_image_id": null
+        },
+        "a_ecfbe785e35d": {
+          "id": "ocr_p8_l7",
+          "type": "text",
+          "text": "full - every provenance column feeds the table",
+          "text_display": "full - every provenance column feeds the table",
+          "region": {
+            "top_left_x": 169.62,
+            "top_left_y": 237.95,
+            "width": 160.39,
+            "height": 6.97
+          },
+          "_page": 8,
+          "_line_index": 7,
+          "_image_id": null
+        }
+      }
+    },
+    "dehyphenated_para_0001": {
+      "name": "dehyphenated_para_0001",
+      "anchors": [
+        "a_89ecf509ef06",
+        "a_d47891a0a47b",
+        "a_6a09cbf14c42",
+        "a_ad661d519ee3",
+        "a_5d84a1e99c27",
+        "a_16e0600d9f62",
+        "a_fced6abe7eb7",
+        "a_cb1cb0467276",
+        "a_65a1f5701905",
+        "a_e21123ba2e06",
+        "a_f0481371b7e6",
+        "a_fd47ec977cc7",
+        "a_499244ea54e5",
+        "a_c6ed728b3991"
+      ],
+      "payload": {
+        "a_89ecf509ef06": {
+          "text": "competing readings mathpix ocr "
+        },
+        "a_d47891a0a47b": {
+          "text": "scored provenance columns "
+        },
+        "a_6a09cbf14c42": {
+          "text": "keyed keyless "
+        },
+        "a_ad661d519ee3": {
+          "text": "PDF ﬁle "
+        },
+        "a_5d84a1e99c27": {
+          "text": "snip vision latex "
+        },
+        "a_16e0600d9f62": {
+          "text": "lines.json "
+        },
+        "a_fced6abe7eb7": {
+          "text": "L0 - free L1 - cheap L2 - work L3 - model "
+        },
+        "a_cb1cb0467276": {
+          "text": "approx. 40-60 ms cached, milliseconds approx. 1 s oﬄine, from lines.json "
+        },
+        "a_65a1f5701905": {
+          "text": "size abstract md model "
+        },
+        "a_e21123ba2e06": {
+          "text": "pdfinfo toc page N compare "
+        },
+        "a_f0481371b7e6": {
+          "text": "links fonts drill report "
+        },
+        "a_fd47ec977cc7": {
+          "text": "dests tiddlers "
+        },
+        "a_499244ea54e5": {
+          "text": "sidecar "
+        },
+        "a_c6ed728b3991": {
+          "text": "every command records facts here; a re-run answers instantly"
+        }
+      }
+    },
+    "dehyphenated_para_0002": {
+      "name": "dehyphenated_para_0002",
+      "anchors": [
+        "a_b649ebd1fee2",
+        "a_38da007e63b5",
+        "a_1ef26b3238aa",
+        "a_6bdf088de876",
+        "a_5b572b14b22a",
+        "a_f799ccf63688",
+        "a_ca9f0cdc76ff",
+        "a_86a5e9621b84",
+        "a_d2b02b20bb71",
+        "a_df430b112caf",
+        "a_2f3a710c8912",
+        "a_ed929d5ae79f"
+      ],
+      "payload": {
+        "a_b649ebd1fee2": {
+          "text": "Layer 1 - PDF document "
+        },
+        "a_38da007e63b5": {
+          "text": "the ﬁle as it really is "
+        },
+        "a_1ef26b3238aa": {
+          "text": "annotation layer "
+        },
+        "a_6bdf088de876": {
+          "text": "dropped by every naive reader "
+        },
+        "a_5b572b14b22a": {
+          "text": "text layer scanned page "
+        },
+        "a_f799ccf63688": {
+          "text": "headings, paragraphs hyperlink "
+        },
+        "a_ca9f0cdc76ff": {
+          "text": "no visible anchor text "
+        },
+        "a_86a5e9621b84": {
+          "text": "font layer "
+        },
+        "a_d2b02b20bb71": {
+          "text": "proves born-digital named destination no text layer, OCR required "
+        },
+        "a_df430b112caf": {
+          "text": "jump target "
+        },
+        "a_2f3a710c8912": {
+          "text": "sidecar "
+        },
+        "a_ed929d5ae79f": {
+          "text": "empty - nothing recorded yet"
+        }
+      }
+    },
+    "dehyphenated_para_0003": {
+      "name": "dehyphenated_para_0003",
+      "anchors": [
+        "a_69a92368249e",
+        "a_a426bc7875dd",
+        "a_9581a1f7d040",
+        "a_f529b5cf20f0",
+        "a_0de077358e21",
+        "a_b850b72e28eb",
+        "a_9c1e72a8fafa"
+      ],
+      "payload": {
+        "a_69a92368249e": {
+          "text": "Layer 2 - L0 probe "
+        },
+        "a_a426bc7875dd": {
+          "text": "reads metadata, extracts nothing "
+        },
+        "a_9581a1f7d040": {
+          "text": "size pdfinfo links dests "
+        },
+        "a_f529b5cf20f0": {
+          "text": "text layer / scan approx. 50 ms "
+        },
+        "a_0de077358e21": {
+          "text": "page-1 char count decides no extraction "
+        },
+        "a_b850b72e28eb": {
+          "text": "sidecar "
+        },
+        "a_9c1e72a8fafa": {
+          "text": "3 facts written: size, links, dests"
+        }
+      }
+    },
+    "dehyphenated_para_0004": {
+      "name": "dehyphenated_para_0004",
+      "anchors": [
+        "a_f1815f4d33c1",
+        "a_2b3b4c7ffd4b",
+        "a_076144b1f11d",
+        "a_c68b25639ecd",
+        "a_fccdc8602ec9",
+        "a_c695990e3940",
+        "a_68f502c4e078",
+        "a_0238103df2c1",
+        "a_704a311c3a45",
+        "a_39deecd12b2c",
+        "a_1b839726da2a"
+      ],
+      "payload": {
+        "a_f1815f4d33c1": {
+          "text": "Layer 3 - L1/L2 structure "
+        },
+        "a_2b3b4c7ffd4b": {
+          "text": "the ﬁrst real content "
+        },
+        "a_076144b1f11d": {
+          "text": "L1 cheap L2 work "
+        },
+        "a_c68b25639ecd": {
+          "text": "what is it about real extraction "
+        },
+        "a_fccdc8602ec9": {
+          "text": "math detected "
+        },
+        "a_c695990e3940": {
+          "text": "abstract md "
+        },
+        "a_68f502c4e078": {
+          "text": "toc page N "
+        },
+        "a_0238103df2c1": {
+          "text": "math fonts present "
+        },
+        "a_704a311c3a45": {
+          "text": "fonts "
+        },
+        "a_39deecd12b2c": {
+          "text": "sidecar "
+        },
+        "a_1b839726da2a": {
+          "text": "+ cached markdown, toc"
+        }
+      }
+    },
+    "dehyphenated_para_0005": {
+      "name": "dehyphenated_para_0005",
+      "anchors": [
+        "a_99ce0351a61c",
+        "a_6a0ae9425063",
+        "a_ea1c6089baf5",
+        "a_4364582d3652",
+        "a_5b38f354c11a",
+        "a_0f7fae66fd53",
+        "a_2baa00a57ffd",
+        "a_35676c604209",
+        "a_d704cae57cf6",
+        "a_ae981705713a"
+      ],
+      "payload": {
+        "a_99ce0351a61c": {
+          "text": "Layer 4 - L3 model "
+        },
+        "a_6a0ae9425063": {
+          "text": "ﬂat extraction becomes a typed, queryable graph "
+        },
+        "a_ea1c6089baf5": {
+          "text": "text stream "
+        },
+        "a_4364582d3652": {
+          "text": "opaque anchors, not positions "
+        },
+        "a_5b38f354c11a": {
+          "text": "paragraph equation section table "
+        },
+        "a_0f7fae66fd53": {
+          "text": "region stream "
+        },
+        "a_2baa00a57ffd": {
+          "text": "page geometry "
+        },
+        "a_35676c604209": {
+          "text": "region region region region "
+        },
+        "a_d704cae57cf6": {
+          "text": "sidecar "
+        },
+        "a_ae981705713a": {
+          "text": "docmodel.json - the between-call memory"
+        }
+      }
+    },
+    "dehyphenated_para_0006": {
+      "name": "dehyphenated_para_0006",
+      "anchors": [
+        "a_e6c71dbdfc6d",
+        "a_0418bb3b0b10",
+        "a_ec9d89f2f1ea",
+        "a_58e8485854de",
+        "a_99eec9d3938c",
+        "a_9c156c986ed1",
+        "a_2be1113e091a",
+        "a_840018ac5cc0",
+        "a_86083de7dcf8",
+        "a_e83c2246203a"
+      ],
+      "payload": {
+        "a_e6c71dbdfc6d": {
+          "text": "Layer 5 - drill / provenance "
+        },
+        "a_0418bb3b0b10": {
+          "text": "one equation read four ways, each scored "
+        },
+        "a_ec9d89f2f1ea": {
+          "text": "mathpix snip vision latex "
+        },
+        "a_58e8485854de": {
+          "text": "1.00 0.99 0.97 gold .tex "
+        },
+        "a_99eec9d3938c": {
+          "text": "equation crop "
+        },
+        "a_9c156c986ed1": {
+          "text": "the image mathpix actually read "
+        },
+        "a_2be1113e091a": {
+          "text": "escalate ingest relearn "
+        },
+        "a_840018ac5cc0": {
+          "text": "export the shaky ones take the second reading re-score "
+        },
+        "a_86083de7dcf8": {
+          "text": "sidecar "
+        },
+        "a_e83c2246203a": {
+          "text": "+ latex prov and score prov per equation"
+        }
+      }
+    },
+    "dehyphenated_para_0007": {
+      "name": "dehyphenated_para_0007",
+      "anchors": [
+        "a_05229c916c14",
+        "a_1c079dbb61dd",
+        "a_d41a4913f487",
+        "a_66d76d230daa",
+        "a_06c3d42fc059",
+        "a_15d3745c5960",
+        "a_7ff6cc9fb16d",
+        "a_5e5a203950c5",
+        "a_46c4ae80aee1"
+      ],
+      "payload": {
+        "a_05229c916c14": {
+          "text": "Layer 6 - project "
+        },
+        "a_1c079dbb61dd": {
+          "text": "one node becomes one tiddler "
+        },
+        "a_d41a4913f487": {
+          "text": "typed graph "
+        },
+        "a_66d76d230daa": {
+          "text": "projector tiddler TiddlyWiki "
+        },
+        "a_06c3d42fc059": {
+          "text": "from layer 4 "
+        },
+        "a_15d3745c5960": {
+          "text": "paragraph equation "
+        },
+        "a_7ff6cc9fb16d": {
+          "text": "a docops Projector one record per DocObject one self-contained HTML ﬁle "
+        },
+        "a_5e5a203950c5": {
+          "text": "sidecar "
+        },
+        "a_46c4ae80aee1": {
+          "text": "read back by the projector"
+        }
+      }
+    },
+    "dehyphenated_para_0008": {
+      "name": "dehyphenated_para_0008",
+      "anchors": [
+        "a_3622da972918",
+        "a_03416f6a691f",
+        "a_ec19ef21ef45",
+        "a_211a06dc9436",
+        "a_f6acf8bd7eb2",
+        "a_4b831420501f",
+        "a_814a6f6e84bf",
+        "a_28030ae7b8ac"
+      ],
+      "payload": {
+        "a_3622da972918": {
+          "text": "Layer 7 - QC report "
+        },
+        "a_03416f6a691f": {
+          "text": "LaTeX, KaTeX render and the image it was read from "
+        },
+        "a_ec19ef21ef45": {
+          "text": "LaTeX KaTeX image score "
+        },
+        "a_211a06dc9436": {
+          "text": "source render page crop 1.00 "
+        },
+        "a_f6acf8bd7eb2": {
+          "text": "source render page crop 0.99 "
+        },
+        "a_4b831420501f": {
+          "text": "source render page crop 0.62 "
+        },
+        "a_814a6f6e84bf": {
+          "text": "sidecar "
+        },
+        "a_28030ae7b8ac": {
+          "text": "full - every provenance column feeds the table"
+        }
+      }
+    }
+  },
+  "objects": [
+    {
+      "id": "obj_f78080fbf159",
+      "type": "Page",
+      "props": {
+        "page_number": 1,
+        "image_id": null,
+        "page_height": 378.5,
+        "page_width": 693.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_3ecc52929c3c",
+          "end": "a_5c6c5377c94c",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_46ba8f2fef9d",
+      "type": "Page",
+      "props": {
+        "page_number": 2,
+        "image_id": null,
+        "page_height": 284.5,
+        "page_width": 521.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_1efcf29ccb3e",
+          "end": "a_00fa16a6f4f6",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_f1c1521f197d",
+      "type": "Page",
+      "props": {
+        "page_number": 3,
+        "image_id": null,
+        "page_height": 218.5,
+        "page_width": 400.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_40997986d448",
+          "end": "a_d652cfcb843d",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_c82559b0cf03",
+      "type": "Page",
+      "props": {
+        "page_number": 4,
+        "image_id": null,
+        "page_height": 296.5,
+        "page_width": 543.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_e6f15bd7bedc",
+          "end": "a_8e966f26a21a",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_e2fd22bd0b65",
+      "type": "Page",
+      "props": {
+        "page_number": 5,
+        "image_id": null,
+        "page_height": 320.5,
+        "page_width": 587.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_c3e55c4ec822",
+          "end": "a_6cf09a1b0e70",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_3a7910c85fb5",
+      "type": "Page",
+      "props": {
+        "page_number": 6,
+        "image_id": null,
+        "page_height": 270.5,
+        "page_width": 495.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_c510609d259a",
+          "end": "a_6f3c66283fc0",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_d45539acc5a4",
+      "type": "Page",
+      "props": {
+        "page_number": 7,
+        "image_id": null,
+        "page_height": 338.5,
+        "page_width": 622.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_3a905c998b0c",
+          "end": "a_24fa9080cc55",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_34aa49869f2d",
+      "type": "Page",
+      "props": {
+        "page_number": 8,
+        "image_id": null,
+        "page_height": 272.5,
+        "page_width": 499.5,
+        "languages_detected": [],
+        "is_blank": false,
+        "bibkey": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_31b67d11262f",
+          "end": "a_ecfbe785e35d",
+          "role": "surface",
+          "props": {}
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_480d33ebd9e2",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 1,
+        "page": 1,
+        "from_line_index": 0,
+        "to_line_index": 13,
+        "text": "competing readings mathpix ocr scored provenance columns keyed keyless PDF ﬁle snip vision latex lines.json L0 - free L1 - cheap L2 - work L3 - model approx. 40-60 ms cached, milliseconds approx. 1 s oﬄine, from lines.json size abstract md model pdfinfo toc page N compare links fonts drill report dests tiddlers sidecar every command records facts here; a re-run answers instantly",
+        "num_lines": 14,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 1,
+        "next_in_flow": "obj_15b4e38f55a9",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_3ecc52929c3c",
+          "end": "a_5c6c5377c94c",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0001",
+          "start": "a_89ecf509ef06",
+          "end": "a_c6ed728b3991",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_15b4e38f55a9",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 2,
+        "page": 2,
+        "from_line_index": 0,
+        "to_line_index": 11,
+        "text": "Layer 1 - PDF document the ﬁle as it really is annotation layer dropped by every naive reader text layer scanned page headings, paragraphs hyperlink no visible anchor text font layer proves born-digital named destination no text layer, OCR required jump target sidecar empty - nothing recorded yet",
+        "num_lines": 12,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 2,
+        "prev_in_flow": "obj_480d33ebd9e2",
+        "next_in_flow": "obj_fd101cbd4b64",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_1efcf29ccb3e",
+          "end": "a_00fa16a6f4f6",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0002",
+          "start": "a_b649ebd1fee2",
+          "end": "a_ed929d5ae79f",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_fd101cbd4b64",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 3,
+        "page": 3,
+        "from_line_index": 0,
+        "to_line_index": 6,
+        "text": "Layer 2 - L0 probe reads metadata, extracts nothing size pdfinfo links dests text layer / scan approx. 50 ms page-1 char count decides no extraction sidecar 3 facts written: size, links, dests",
+        "num_lines": 7,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 3,
+        "prev_in_flow": "obj_15b4e38f55a9",
+        "next_in_flow": "obj_2d70808c36cb",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_40997986d448",
+          "end": "a_d652cfcb843d",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0003",
+          "start": "a_69a92368249e",
+          "end": "a_9c1e72a8fafa",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_2d70808c36cb",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 4,
+        "page": 4,
+        "from_line_index": 0,
+        "to_line_index": 10,
+        "text": "Layer 3 - L1/L2 structure the ﬁrst real content L1 cheap L2 work what is it about real extraction math detected abstract md toc page N math fonts present fonts sidecar + cached markdown, toc",
+        "num_lines": 11,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 4,
+        "prev_in_flow": "obj_fd101cbd4b64",
+        "next_in_flow": "obj_4510456a4ee6",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_e6f15bd7bedc",
+          "end": "a_8e966f26a21a",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0004",
+          "start": "a_f1815f4d33c1",
+          "end": "a_1b839726da2a",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_4510456a4ee6",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 5,
+        "page": 5,
+        "from_line_index": 0,
+        "to_line_index": 9,
+        "text": "Layer 4 - L3 model ﬂat extraction becomes a typed, queryable graph text stream opaque anchors, not positions paragraph equation section table region stream page geometry region region region region sidecar docmodel.json - the between-call memory",
+        "num_lines": 10,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 5,
+        "prev_in_flow": "obj_2d70808c36cb",
+        "next_in_flow": "obj_44585f51fdf3",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_c3e55c4ec822",
+          "end": "a_6cf09a1b0e70",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0005",
+          "start": "a_99ce0351a61c",
+          "end": "a_ae981705713a",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_44585f51fdf3",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 6,
+        "page": 6,
+        "from_line_index": 0,
+        "to_line_index": 9,
+        "text": "Layer 5 - drill / provenance one equation read four ways, each scored mathpix snip vision latex 1.00 0.99 0.97 gold .tex equation crop the image mathpix actually read escalate ingest relearn export the shaky ones take the second reading re-score sidecar + latex prov and score prov per equation",
+        "num_lines": 10,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 6,
+        "prev_in_flow": "obj_4510456a4ee6",
+        "next_in_flow": "obj_ea681d75fb37",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_c510609d259a",
+          "end": "a_6f3c66283fc0",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0006",
+          "start": "a_e6c71dbdfc6d",
+          "end": "a_e83c2246203a",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_ea681d75fb37",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 7,
+        "page": 7,
+        "from_line_index": 0,
+        "to_line_index": 8,
+        "text": "Layer 6 - project one node becomes one tiddler typed graph projector tiddler TiddlyWiki from layer 4 paragraph equation a docops Projector one record per DocObject one self-contained HTML ﬁle sidecar read back by the projector",
+        "num_lines": 9,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 7,
+        "prev_in_flow": "obj_44585f51fdf3",
+        "next_in_flow": "obj_27dc5a958d16",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_3a905c998b0c",
+          "end": "a_24fa9080cc55",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0007",
+          "start": "a_05229c916c14",
+          "end": "a_46c4ae80aee1",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "obj_27dc5a958d16",
+      "type": "Paragraph",
+      "props": {
+        "paragraph_index": 8,
+        "page": 8,
+        "from_line_index": 0,
+        "to_line_index": 7,
+        "text": "Layer 7 - QC report LaTeX, KaTeX render and the image it was read from LaTeX KaTeX image score source render page crop 1.00 source render page crop 0.99 source render page crop 0.62 sidecar full - every provenance column feeds the table",
+        "num_lines": 8,
+        "bibkey": "pdfdrill-figures",
+        "flow_index": 8,
+        "prev_in_flow": "obj_ea681d75fb37",
+        "parent_section": "pdfdrill-figures"
+      },
+      "realizations": [
+        {
+          "stream": "mathpix_lines",
+          "start": "a_31b67d11262f",
+          "end": "a_ecfbe785e35d",
+          "role": "surface",
+          "props": {}
+        },
+        {
+          "stream": "dehyphenated_para_0008",
+          "start": "a_3622da972918",
+          "end": "a_28030ae7b8ac",
+          "role": "cleaned",
+          "props": {
+            "joins_applied": 0
+          }
+        }
+      ],
+      "children": [],
+      "parent": null
+    },
+    {
+      "id": "pdfdrill-figures",
+      "type": "Document",
+      "props": {
+        "bibkey": "pdfdrill-figures",
+        "total_pages": 8,
+        "total_sections": 0,
+        "total_paragraphs": 8,
+        "first_section_id": null
+      },
+      "realizations": [],
+      "children": [
+        "obj_480d33ebd9e2",
+        "obj_15b4e38f55a9",
+        "obj_fd101cbd4b64",
+        "obj_2d70808c36cb",
+        "obj_4510456a4ee6",
+        "obj_44585f51fdf3",
+        "obj_ea681d75fb37",
+        "obj_27dc5a958d16"
+      ],
+      "parent": null
+    }
+  ],
+  "alignments": [
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_3ecc52929c3c",
+        "end": "a_3ecc52929c3c"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_89ecf509ef06",
+        "end": "a_89ecf509ef06"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_424ab805dd3d",
+        "end": "a_424ab805dd3d"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_d47891a0a47b",
+        "end": "a_d47891a0a47b"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_2ceba0bbc264",
+        "end": "a_2ceba0bbc264"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_6a09cbf14c42",
+        "end": "a_6a09cbf14c42"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_2f37437fd1e7",
+        "end": "a_2f37437fd1e7"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_ad661d519ee3",
+        "end": "a_ad661d519ee3"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_02b434b92cb8",
+        "end": "a_02b434b92cb8"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_5d84a1e99c27",
+        "end": "a_5d84a1e99c27"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c5ba0e789aea",
+        "end": "a_c5ba0e789aea"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_16e0600d9f62",
+        "end": "a_16e0600d9f62"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_5768f4b125e9",
+        "end": "a_5768f4b125e9"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_fced6abe7eb7",
+        "end": "a_fced6abe7eb7"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_08d808ae4c9e",
+        "end": "a_08d808ae4c9e"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_cb1cb0467276",
+        "end": "a_cb1cb0467276"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_9a8a320baf15",
+        "end": "a_9a8a320baf15"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_65a1f5701905",
+        "end": "a_65a1f5701905"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_ea6c0347d04d",
+        "end": "a_ea6c0347d04d"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_e21123ba2e06",
+        "end": "a_e21123ba2e06"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_e2c817102848",
+        "end": "a_e2c817102848"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_f0481371b7e6",
+        "end": "a_f0481371b7e6"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_6d40d6382d0a",
+        "end": "a_6d40d6382d0a"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_fd47ec977cc7",
+        "end": "a_fd47ec977cc7"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_78f3a6625aef",
+        "end": "a_78f3a6625aef"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_499244ea54e5",
+        "end": "a_499244ea54e5"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_5c6c5377c94c",
+        "end": "a_5c6c5377c94c"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0001",
+        "start": "a_c6ed728b3991",
+        "end": "a_c6ed728b3991"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_1efcf29ccb3e",
+        "end": "a_1efcf29ccb3e"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_b649ebd1fee2",
+        "end": "a_b649ebd1fee2"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_af10808a8aac",
+        "end": "a_af10808a8aac"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_38da007e63b5",
+        "end": "a_38da007e63b5"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_40cc310d7044",
+        "end": "a_40cc310d7044"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_1ef26b3238aa",
+        "end": "a_1ef26b3238aa"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_53e68eb85b1f",
+        "end": "a_53e68eb85b1f"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_6bdf088de876",
+        "end": "a_6bdf088de876"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_fb6f546d2ba6",
+        "end": "a_fb6f546d2ba6"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_5b572b14b22a",
+        "end": "a_5b572b14b22a"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_ffe5e14f534f",
+        "end": "a_ffe5e14f534f"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_f799ccf63688",
+        "end": "a_f799ccf63688"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_98f5e5694a41",
+        "end": "a_98f5e5694a41"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_ca9f0cdc76ff",
+        "end": "a_ca9f0cdc76ff"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c0cd29cecda7",
+        "end": "a_c0cd29cecda7"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_86a5e9621b84",
+        "end": "a_86a5e9621b84"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_fdbe7100a594",
+        "end": "a_fdbe7100a594"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_d2b02b20bb71",
+        "end": "a_d2b02b20bb71"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_cd6d9ecee921",
+        "end": "a_cd6d9ecee921"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_df430b112caf",
+        "end": "a_df430b112caf"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_f75e807d071a",
+        "end": "a_f75e807d071a"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_2f3a710c8912",
+        "end": "a_2f3a710c8912"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_00fa16a6f4f6",
+        "end": "a_00fa16a6f4f6"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0002",
+        "start": "a_ed929d5ae79f",
+        "end": "a_ed929d5ae79f"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_40997986d448",
+        "end": "a_40997986d448"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0003",
+        "start": "a_69a92368249e",
+        "end": "a_69a92368249e"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_fc8093393c22",
+        "end": "a_fc8093393c22"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0003",
+        "start": "a_a426bc7875dd",
+        "end": "a_a426bc7875dd"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_8f26382c7cda",
+        "end": "a_8f26382c7cda"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0003",
+        "start": "a_9581a1f7d040",
+        "end": "a_9581a1f7d040"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_6784b3d91be2",
+        "end": "a_6784b3d91be2"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0003",
+        "start": "a_f529b5cf20f0",
+        "end": "a_f529b5cf20f0"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_1bd7afa63d86",
+        "end": "a_1bd7afa63d86"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0003",
+        "start": "a_0de077358e21",
+        "end": "a_0de077358e21"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_24d3aeeaeed8",
+        "end": "a_24d3aeeaeed8"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0003",
+        "start": "a_b850b72e28eb",
+        "end": "a_b850b72e28eb"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_d652cfcb843d",
+        "end": "a_d652cfcb843d"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0003",
+        "start": "a_9c1e72a8fafa",
+        "end": "a_9c1e72a8fafa"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_e6f15bd7bedc",
+        "end": "a_e6f15bd7bedc"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_f1815f4d33c1",
+        "end": "a_f1815f4d33c1"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_5e3b040e46b5",
+        "end": "a_5e3b040e46b5"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_2b3b4c7ffd4b",
+        "end": "a_2b3b4c7ffd4b"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_89323ac9f8f7",
+        "end": "a_89323ac9f8f7"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_076144b1f11d",
+        "end": "a_076144b1f11d"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_b3f3bff84569",
+        "end": "a_b3f3bff84569"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_c68b25639ecd",
+        "end": "a_c68b25639ecd"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_d7dbbfd856be",
+        "end": "a_d7dbbfd856be"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_fccdc8602ec9",
+        "end": "a_fccdc8602ec9"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_5dccc397dc3f",
+        "end": "a_5dccc397dc3f"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_c695990e3940",
+        "end": "a_c695990e3940"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_51137338e696",
+        "end": "a_51137338e696"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_68f502c4e078",
+        "end": "a_68f502c4e078"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_f9b04183cf35",
+        "end": "a_f9b04183cf35"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_0238103df2c1",
+        "end": "a_0238103df2c1"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_68ff0a8e4dd6",
+        "end": "a_68ff0a8e4dd6"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_704a311c3a45",
+        "end": "a_704a311c3a45"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_58e90e1ebe8c",
+        "end": "a_58e90e1ebe8c"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_39deecd12b2c",
+        "end": "a_39deecd12b2c"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_8e966f26a21a",
+        "end": "a_8e966f26a21a"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0004",
+        "start": "a_1b839726da2a",
+        "end": "a_1b839726da2a"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c3e55c4ec822",
+        "end": "a_c3e55c4ec822"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_99ce0351a61c",
+        "end": "a_99ce0351a61c"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_d3cba441e204",
+        "end": "a_d3cba441e204"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_6a0ae9425063",
+        "end": "a_6a0ae9425063"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_f9d37c131dd5",
+        "end": "a_f9d37c131dd5"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_ea1c6089baf5",
+        "end": "a_ea1c6089baf5"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_52d8fc5b4220",
+        "end": "a_52d8fc5b4220"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_4364582d3652",
+        "end": "a_4364582d3652"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_d83b1bc58752",
+        "end": "a_d83b1bc58752"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_5b38f354c11a",
+        "end": "a_5b38f354c11a"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_f313ef546016",
+        "end": "a_f313ef546016"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_0f7fae66fd53",
+        "end": "a_0f7fae66fd53"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c98b782e40dc",
+        "end": "a_c98b782e40dc"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_2baa00a57ffd",
+        "end": "a_2baa00a57ffd"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_93892c7db572",
+        "end": "a_93892c7db572"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_35676c604209",
+        "end": "a_35676c604209"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_da06ab7ecc3d",
+        "end": "a_da06ab7ecc3d"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_d704cae57cf6",
+        "end": "a_d704cae57cf6"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_6cf09a1b0e70",
+        "end": "a_6cf09a1b0e70"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0005",
+        "start": "a_ae981705713a",
+        "end": "a_ae981705713a"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c510609d259a",
+        "end": "a_c510609d259a"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_e6c71dbdfc6d",
+        "end": "a_e6c71dbdfc6d"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_07d9b3915088",
+        "end": "a_07d9b3915088"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_0418bb3b0b10",
+        "end": "a_0418bb3b0b10"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_f58b3142aeec",
+        "end": "a_f58b3142aeec"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_ec9d89f2f1ea",
+        "end": "a_ec9d89f2f1ea"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_767fe9c014da",
+        "end": "a_767fe9c014da"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_58e8485854de",
+        "end": "a_58e8485854de"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_793953880be5",
+        "end": "a_793953880be5"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_99eec9d3938c",
+        "end": "a_99eec9d3938c"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_ff8010286eab",
+        "end": "a_ff8010286eab"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_9c156c986ed1",
+        "end": "a_9c156c986ed1"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_38d29f7a8807",
+        "end": "a_38d29f7a8807"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_2be1113e091a",
+        "end": "a_2be1113e091a"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_8e797130300c",
+        "end": "a_8e797130300c"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_840018ac5cc0",
+        "end": "a_840018ac5cc0"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_928023e2d7ab",
+        "end": "a_928023e2d7ab"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_86083de7dcf8",
+        "end": "a_86083de7dcf8"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_6f3c66283fc0",
+        "end": "a_6f3c66283fc0"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0006",
+        "start": "a_e83c2246203a",
+        "end": "a_e83c2246203a"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_3a905c998b0c",
+        "end": "a_3a905c998b0c"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_05229c916c14",
+        "end": "a_05229c916c14"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_ab9005f6d2e1",
+        "end": "a_ab9005f6d2e1"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_1c079dbb61dd",
+        "end": "a_1c079dbb61dd"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_965cdf20d7f4",
+        "end": "a_965cdf20d7f4"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_d41a4913f487",
+        "end": "a_d41a4913f487"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_ca3d3e4773a8",
+        "end": "a_ca3d3e4773a8"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_66d76d230daa",
+        "end": "a_66d76d230daa"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_ac4f730ead57",
+        "end": "a_ac4f730ead57"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_06c3d42fc059",
+        "end": "a_06c3d42fc059"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c278883366c8",
+        "end": "a_c278883366c8"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_15d3745c5960",
+        "end": "a_15d3745c5960"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_cc66b37e5f76",
+        "end": "a_cc66b37e5f76"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_7ff6cc9fb16d",
+        "end": "a_7ff6cc9fb16d"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c83d518504f6",
+        "end": "a_c83d518504f6"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_5e5a203950c5",
+        "end": "a_5e5a203950c5"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_24fa9080cc55",
+        "end": "a_24fa9080cc55"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0007",
+        "start": "a_46c4ae80aee1",
+        "end": "a_46c4ae80aee1"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_31b67d11262f",
+        "end": "a_31b67d11262f"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_3622da972918",
+        "end": "a_3622da972918"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_a14d5692e408",
+        "end": "a_a14d5692e408"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_03416f6a691f",
+        "end": "a_03416f6a691f"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_f73bcb7bdf29",
+        "end": "a_f73bcb7bdf29"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_ec19ef21ef45",
+        "end": "a_ec19ef21ef45"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_c50df4c0142a",
+        "end": "a_c50df4c0142a"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_211a06dc9436",
+        "end": "a_211a06dc9436"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_06ee80682578",
+        "end": "a_06ee80682578"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_f6acf8bd7eb2",
+        "end": "a_f6acf8bd7eb2"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_94cfd126d286",
+        "end": "a_94cfd126d286"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_4b831420501f",
+        "end": "a_4b831420501f"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_4448544785d4",
+        "end": "a_4448544785d4"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_814a6f6e84bf",
+        "end": "a_814a6f6e84bf"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    },
+    {
+      "kind": "dehyphenate",
+      "left": {
+        "stream": "mathpix_lines",
+        "start": "a_ecfbe785e35d",
+        "end": "a_ecfbe785e35d"
+      },
+      "right": {
+        "stream": "dehyphenated_para_0008",
+        "start": "a_28030ae7b8ac",
+        "end": "a_28030ae7b8ac"
+      },
+      "props": {
+        "soft_break_removed": false
+      }
+    }
+  ]
+}

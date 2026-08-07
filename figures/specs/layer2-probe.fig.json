@@ -1,0 +1,138 @@
+{
+  "id": "layer2-probe",
+  "n": 2,
+  "title": "Layer 2 - L0 shallow probe",
+  "prompt": "SHARED STYLE: muted sage green / olive / warm ochre on cream paper, charcoal ink linework. One titled card as the subject, with a persistent horizontal 'memory rail' (the sidecar) along the bottom edge that visibly grows from panel to panel. Panel 2 of 7, left-to-right pipeline; same aspect ratio across the whole series.\n\nCard labelled 'L0 probe'. A sparse row of tool gauges: a ruler gauge 'size', a chip 'fonts', a chain icon 'links', an anchor pin 'dests'. A two-state toggle reads 'text layer / scan'. A stopwatch reads '~50 ms'. A thin pipe drops three small fact cards DOWN into the memory rail, which now holds a few cards. Deliberately sparse - this tier reads metadata, it does NOT pull paragraphs.\n\nHow to see it: pdfdrill size / links / dests, each returning one sentence of prose; facts persist so re-runs are instant.",
+  "canvas": {
+    "pad": 22,
+    "gap": 16,
+    "group_pad": 12,
+    "label_band": 32,
+    "aspect": 1.8351254480286738
+  },
+  "palette": {
+    "paper": {
+      "fill": "#eef0e6",
+      "stroke": "#6b7363",
+      "node": "#f8f9f4"
+    },
+    "sage": {
+      "fill": "#dde5d5",
+      "stroke": "#6f7d63",
+      "node": "#eff3ec"
+    },
+    "olive": {
+      "fill": "#e5e7cf",
+      "stroke": "#7a7f2c",
+      "node": "#f3f4e7"
+    },
+    "ochre": {
+      "fill": "#efe2c6",
+      "stroke": "#a8801f",
+      "node": "#f9f2e1"
+    },
+    "ink": {
+      "fill": "#dcdcd4",
+      "stroke": "#3a3a35",
+      "node": "#eeeee9"
+    },
+    "rail": {
+      "fill": "#d9d3c0",
+      "stroke": "#4a463c",
+      "node": "#e9e4d4"
+    },
+    "flag": {
+      "fill": "#f2ddc0",
+      "stroke": "#b06a1a",
+      "node": "#fbf1df"
+    }
+  },
+  "root": {
+    "kind": "col",
+    "gap": 18,
+    "children": [
+      {
+        "kind": "group",
+        "id": "probe",
+        "title": "Layer 2 - L0 probe",
+        "sub": "reads metadata, extracts nothing",
+        "tone": "olive",
+        "dir": "col",
+        "gap": 8,
+        "children": [
+          {
+            "kind": "row",
+            "gap": 12,
+            "children": [
+              {
+                "kind": "node",
+                "id": "size",
+                "label": "size",
+                "tone": "olive",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "pdfinfo",
+                "label": "pdfinfo",
+                "tone": "olive",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "links",
+                "label": "links",
+                "tone": "olive",
+                "mono": true
+              },
+              {
+                "kind": "node",
+                "id": "dests",
+                "label": "dests",
+                "tone": "olive",
+                "mono": true
+              }
+            ]
+          },
+          {
+            "kind": "row",
+            "gap": 18,
+            "children": [
+              {
+                "kind": "node",
+                "id": "toggle",
+                "label": "text layer / scan",
+                "tone": "ink",
+                "sub": "page-1 char count decides"
+              },
+              {
+                "kind": "node",
+                "id": "watch",
+                "label": "approx. 50 ms",
+                "tone": "ink",
+                "sub": "no extraction"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "node",
+        "id": "rail",
+        "label": "sidecar",
+        "tone": "rail",
+        "sub": "3 facts written: size, links, dests"
+      }
+    ]
+  },
+  "edges": [
+    {
+      "id": "r1",
+      "from": "probe",
+      "to": "rail",
+      "kind": "store",
+      "from_side": "bottom",
+      "to_side": "top"
+    }
+  ]
+}
