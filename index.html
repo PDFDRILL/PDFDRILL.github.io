@@ -705,6 +705,17 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       </a>
     </div>
 
+    <p class="eyebrow" style="margin-top:34px;color:var(--amber)">arXiv 2409.18839 · MinerU: An Open-Source Solution for Precise Document Content Extraction <span class="exp">translation</span></p>
+    <div class="arts">
+      <a class="art" data-kind="inspector" data-trans="1" data-lang="pt" href="files/2409.18839.inspect.html" style="grid-column:1 / -1">
+        <div class="ic">⛏ inspector · 14 pages · 305 elements · 🇬🇧 EN → 🇧🇷 PT-BR</div>
+        <h4>The same document, in two languages</h4>
+        <p>A translation lives <em>in</em> the model, not beside it. Every text-bearing element carries both readings, so the inspector shows one flag button in its top bar — <strong>🇬🇧 EN</strong> for the original, <strong>🇧🇷 PT-BR</strong> for the translation — and switching redraws the reflow view, the element tree and the inspector pane at once. The page rasters, the regions and the element ids never move: only the language of the text changes, so a translated paragraph stays anchored to the pixels it was read from. It opens on the translation; switch the flag to read the English it came from. <strong>118 TableCell · 101 Paragraph · 32 TableRow · 16 ListItem · 14 Page · 13 Formula · 10 Footnote · 6 Diagram · 5 Table · 2 Sidenote · 2 Abstract</strong>.</p>
+        <p style="margin-top:10px;padding:10px 12px;border-left:2px solid var(--teal);background:rgba(84,209,196,.05);font-size:13.5px;color:var(--ink)">The second translation example runs the other way: the Kolbe 2018 Hubbard thesis below is German with an English reading, <strong>🇩🇪 DE → 🇬🇧 EN</strong>, in the same flag control. The button only appears when a document has more than one language.</p>
+        <span class="go">open the inspector →</span>
+      </a>
+    </div>
+
     <p class="eyebrow" style="margin-top:34px;color:var(--amber)">Transformer Circuits Thread · Verbalizable Representations Form a Global Workspace in Language Models <span class="exp">distill reading view</span></p>
     <div class="arts">
       <a class="art" data-kind="distill" href="verbalizable-workspace.distill.html" style="grid-column:1 / -1">
@@ -761,8 +772,8 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 
     <p class="eyebrow" style="margin-top:34px;color:var(--teal)">bibkey kolbe2018hubbard · Kolbe (2018) — Korrelation im Hubbard-Modell <span style="color:var(--muted);text-transform:none;letter-spacing:0">(German BA thesis, published with the author's permission)</span></p>
     <div class="arts">
-      <a class="art" data-kind="inspector" data-lang="de" href="files/kolbe2018hubbard.inspect.html" style="grid-column:1 / -1">
-        <div class="ic">⛏ inspector · 42 pages · 618 elements</div>
+      <a class="art" data-kind="inspector" data-trans="1" data-lang="de" href="files/kolbe2018hubbard.inspect.html" style="grid-column:1 / -1">
+        <div class="ic">⛏ inspector · 42 pages · 618 elements · 🇩🇪 DE → 🇬🇧 EN</div>
         <h4>The thesis, inspectable</h4>
         <p>The current drill of the whole thesis in the DevTools-style lens: <strong>238 Formula · 124 Paragraph · 106 Link · 61 Equation · 42 Page · 38 Section · 19 Diagram · 13 Picture · 8 Footnote · 5 ListItem · 3 Table · 2 List · 1 Toc</strong>. Built through MathPix with the author&rsquo;s own LaTeX ingested, so each equation carries gold source beside the read. Hover the element tree to highlight its region on the page.</p>
         <span class="go">open the inspector →</span>
@@ -995,10 +1006,16 @@ window.addEventListener('DOMContentLoaded',()=>{
     const cards=[...document.querySelectorAll('#artifacts .art')];
     const kinds=[...new Set(cards.map(c=>c.dataset.kind).filter(Boolean))].sort();
     const filters=[['all','everything']].concat(kinds.map(k=>[k,k]));
+    /* Two cross-cutting chips. They are not kinds — a translated document is
+       still an inspector — so they are matched on their own attributes. */
+    if(cards.some(c=>c.dataset.trans)) filters.push(['trans','translated']);
     if(cards.some(c=>c.dataset.lang==='de')) filters.push(['de','German']);
     const apply=key=>{
       cards.forEach(c=>{
-        const hit = key==='all' || (key==='de' ? c.dataset.lang==='de' : c.dataset.kind===key);
+        const hit = key==='all' ? true
+                  : key==='trans' ? !!c.dataset.trans
+                  : key==='de' ? c.dataset.lang==='de'
+                  : c.dataset.kind===key;
         c.style.display = hit ? '' : 'none';
       });
       /* A group whose cards are all hidden must take its heading with it,
