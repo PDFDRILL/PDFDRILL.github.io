@@ -1,0 +1,1492 @@
+{
+  "out": "/tmp/claude-1000/-home-wkolbe-MX-PDFDRILL/ae99387a-8fcf-4b96-b9d9-5dc00cc6f8da/scratchpad/refilled.pdf",
+  "written": {
+    "ink.0902.0431_EQ0515": "C|+76",
+    "ink.0902.0431_EQ0517": "C|+43",
+    "ink.0902.0431_EQ1026": "C|+25",
+    "ink.0902.0431_EQ0518": "C|+6",
+    "ink.0902.0431_EQ1032": "C|+579",
+    "ink.0902.0431_EQ1033": "C|+36",
+    "ink.0902.0431_EQ1031": "C|+5",
+    "ink.0902.0431_EQ0761": "C|+497",
+    "ink.0902.0431_EQ0516": "C|+12",
+    "ink.0902.0431_EQ0425": "W|-2",
+    "ink.0902.0431_EQ1059": "C|+7",
+    "ink.0902.0431_EQ0757": "C|+4",
+    "ink.0902.0431_EQ0922": "C|+237",
+    "ink.0902.0431_EQ1117": "C|+18",
+    "ink.0902.0431_EQ0756": "C|+10",
+    "ink.0902.0431_EQ1187": "C|+279",
+    "ink.0902.0431_EQ0830": "W|+0",
+    "ink.0902.0431_EQ1041": "C|+4",
+    "ink.0902.0431_EQ0340": "W|+0",
+    "ink.0902.0431_EQ0937": "W|+0",
+    "ink.0902.0431_EQ0834": "W|+1",
+    "ink.0902.0431_EQ0946": "C|+3",
+    "ink.0902.0431_EQ1037": "N|+0",
+    "ink.0902.0431_EQ0365": "N|+0",
+    "ink.0902.0431_EQ0206": "W|+0",
+    "ink.0902.0431_EQ0655": "C|+4",
+    "ink.0902.0431_EQ0101": "W|+1",
+    "ink.0902.0431_EQ1154": "N|+0",
+    "ink.0902.0431_EQ1189": "N|+0",
+    "ink.0902.0431_EQ1157": "C|+4",
+    "ink.0902.0431_EQ0460": "C|+268",
+    "ink.0902.0431_EQ0802": "W|+2",
+    "ink.0902.0431_EQ0875": "N|+1",
+    "ink.0902.0431_EQ0400": "N|+1",
+    "ink.0902.0431_EQ0860": "W|+1",
+    "ink.0902.0431_EQ0876": "C|+76",
+    "ink.0902.0431_EQ0941": "W|+2",
+    "ink.0902.0431_EQ0093": "W|+1",
+    "ink.0902.0431_EQ0371": "C|+8",
+    "ink.0902.0431_EQ0602": "K|+0",
+    "ink.0902.0431_EQ0900": "C|+9",
+    "ink.0902.0431_EQ1080": "N|+0",
+    "ink.0902.0431_EQ1030": "W|-1",
+    "ink.0902.0431_EQ0492": "W|+0",
+    "ink.0902.0431_EQ1097": "W|+2",
+    "ink.0902.0431_EQ0694": "N|+1",
+    "ink.0902.0431_EQ0642": "W|+0",
+    "ink.0902.0431_EQ0558": "C|+5",
+    "ink.0902.0431_EQ0332": "W|+0",
+    "ink.0902.0431_EQ1211": "C|+195",
+    "ink.0902.0431_EQ1039": "W|+2",
+    "ink.0902.0431_EQ0939": "W|+0",
+    "ink.0902.0431_EQ1196": "K|+0",
+    "ink.0902.0431_EQ1195": "N|+0",
+    "ink.0902.0431_EQ1104": "W|+0"
+  },
+  "rows": [
+    {
+      "report_page": 1,
+      "line": 1,
+      "L": [
+        80,
+        22,
+        34,
+        33,
+        1
+      ],
+      "R": [
+        156,
+        36,
+        117,
+        117,
+        0
+      ],
+      "distance": 258,
+      "comp_delta": 76,
+      "signed_delta": 76,
+      "flag": "component",
+      "code": "C|+76",
+      "id": "0902.0431_EQ0515",
+      "src_page": "085",
+      "field": "ink.0902.0431_EQ0515"
+    },
+    {
+      "report_page": 2,
+      "line": 1,
+      "L": [
+        346,
+        22,
+        66,
+        65,
+        1
+      ],
+      "R": [
+        389,
+        34,
+        75,
+        71,
+        4
+      ],
+      "distance": 73,
+      "comp_delta": 43,
+      "signed_delta": 43,
+      "flag": "component",
+      "code": "C|+43",
+      "id": "0902.0431_EQ0517",
+      "src_page": "085",
+      "field": "ink.0902.0431_EQ0517"
+    },
+    {
+      "report_page": 3,
+      "line": 1,
+      "L": [
+        155,
+        34,
+        97,
+        91,
+        6
+      ],
+      "R": [
+        180,
+        43,
+        135,
+        135,
+        0
+      ],
+      "distance": 122,
+      "comp_delta": 25,
+      "signed_delta": 25,
+      "flag": "component",
+      "code": "C|+25",
+      "id": "0902.0431_EQ1026",
+      "src_page": "171",
+      "field": "ink.0902.0431_EQ1026"
+    },
+    {
+      "report_page": 3,
+      "line": 2,
+      "L": [
+        173,
+        9,
+        33,
+        33,
+        0
+      ],
+      "R": [
+        179,
+        13,
+        33,
+        31,
+        2
+      ],
+      "distance": 14,
+      "comp_delta": 6,
+      "signed_delta": 6,
+      "flag": "component",
+      "code": "C|+6",
+      "id": "0902.0431_EQ0518",
+      "src_page": "086",
+      "field": "ink.0902.0431_EQ0518"
+    },
+    {
+      "report_page": 4,
+      "line": 1,
+      "L": [
+        13,
+        6,
+        0,
+        0,
+        0
+      ],
+      "R": [
+        592,
+        36,
+        157,
+        157,
+        0
+      ],
+      "distance": 923,
+      "comp_delta": 579,
+      "signed_delta": 579,
+      "flag": "component",
+      "code": "C|+579",
+      "id": "0902.0431_EQ1032",
+      "src_page": "173",
+      "field": "ink.0902.0431_EQ1032"
+    },
+    {
+      "report_page": 5,
+      "line": 1,
+      "L": [
+        428,
+        52,
+        388,
+        380,
+        8
+      ],
+      "R": [
+        464,
+        52,
+        122,
+        122,
+        0
+      ],
+      "distance": 568,
+      "comp_delta": 36,
+      "signed_delta": 36,
+      "flag": "component",
+      "code": "C|+36",
+      "id": "0902.0431_EQ1033",
+      "src_page": "174",
+      "field": "ink.0902.0431_EQ1033"
+    },
+    {
+      "report_page": 6,
+      "line": 1,
+      "L": [
+        87,
+        11,
+        26,
+        26,
+        0
+      ],
+      "R": [
+        92,
+        15,
+        26,
+        26,
+        0
+      ],
+      "distance": 9,
+      "comp_delta": 5,
+      "signed_delta": 5,
+      "flag": "component",
+      "code": "C|+5",
+      "id": "0902.0431_EQ1031",
+      "src_page": "173",
+      "field": "ink.0902.0431_EQ1031"
+    },
+    {
+      "report_page": 6,
+      "line": 2,
+      "L": [
+        87,
+        14,
+        16,
+        15,
+        1
+      ],
+      "R": [
+        584,
+        49,
+        157,
+        148,
+        9
+      ],
+      "distance": 814,
+      "comp_delta": 497,
+      "signed_delta": 497,
+      "flag": "component",
+      "code": "C|+497",
+      "id": "0902.0431_EQ0761",
+      "src_page": "127",
+      "field": "ink.0902.0431_EQ0761"
+    },
+    {
+      "report_page": 7,
+      "line": 1,
+      "L": [
+        156,
+        20,
+        31,
+        31,
+        0
+      ],
+      "R": [
+        168,
+        26,
+        31,
+        31,
+        0
+      ],
+      "distance": 18,
+      "comp_delta": 12,
+      "signed_delta": 12,
+      "flag": "component",
+      "code": "C|+12",
+      "id": "0902.0431_EQ0516",
+      "src_page": "085",
+      "field": "ink.0902.0431_EQ0516"
+    },
+    {
+      "report_page": 7,
+      "line": 2,
+      "L": [
+        114,
+        39,
+        61,
+        25,
+        36
+      ],
+      "R": [
+        112,
+        37,
+        61,
+        28,
+        31
+      ],
+      "distance": 12,
+      "comp_delta": 2,
+      "signed_delta": -2,
+      "flag": "weak",
+      "code": "W|-2",
+      "id": "0902.0431_EQ0425",
+      "src_page": "070",
+      "field": "ink.0902.0431_EQ0425"
+    },
+    {
+      "report_page": 7,
+      "line": 3,
+      "L": [
+        142,
+        37,
+        28,
+        16,
+        12
+      ],
+      "R": [
+        149,
+        37,
+        28,
+        22,
+        6
+      ],
+      "distance": 19,
+      "comp_delta": 7,
+      "signed_delta": 7,
+      "flag": "component",
+      "code": "C|+7",
+      "id": "0902.0431_EQ1059",
+      "src_page": "180",
+      "field": "ink.0902.0431_EQ1059"
+    },
+    {
+      "report_page": 8,
+      "line": 1,
+      "L": [
+        84,
+        11,
+        15,
+        15,
+        0
+      ],
+      "R": [
+        88,
+        15,
+        15,
+        15,
+        0
+      ],
+      "distance": 8,
+      "comp_delta": 4,
+      "signed_delta": 4,
+      "flag": "component",
+      "code": "C|+4",
+      "id": "0902.0431_EQ0757",
+      "src_page": "126",
+      "field": "ink.0902.0431_EQ0757"
+    },
+    {
+      "report_page": 8,
+      "line": 2,
+      "L": [
+        13,
+        6,
+        0,
+        0,
+        0
+      ],
+      "R": [
+        250,
+        46,
+        46,
+        25,
+        21
+      ],
+      "distance": 369,
+      "comp_delta": 237,
+      "signed_delta": 237,
+      "flag": "component",
+      "code": "C|+237",
+      "id": "0902.0431_EQ0922",
+      "src_page": "153",
+      "field": "ink.0902.0431_EQ0922"
+    },
+    {
+      "report_page": 9,
+      "line": 1,
+      "L": [
+        211,
+        3,
+        113,
+        94,
+        19
+      ],
+      "R": [
+        229,
+        2,
+        129,
+        98,
+        31
+      ],
+      "distance": 51,
+      "comp_delta": 18,
+      "signed_delta": 18,
+      "flag": "component",
+      "code": "C|+18",
+      "id": "0902.0431_EQ1117",
+      "src_page": "189",
+      "field": "ink.0902.0431_EQ1117"
+    },
+    {
+      "report_page": 10,
+      "line": 1,
+      "L": [
+        246,
+        49,
+        197,
+        192,
+        5
+      ],
+      "R": [
+        256,
+        49,
+        140,
+        140,
+        0
+      ],
+      "distance": 124,
+      "comp_delta": 10,
+      "signed_delta": 10,
+      "flag": "component",
+      "code": "C|+10",
+      "id": "0902.0431_EQ0756",
+      "src_page": "125",
+      "field": "ink.0902.0431_EQ0756"
+    },
+    {
+      "report_page": 11,
+      "line": 1,
+      "L": [
+        13,
+        6,
+        0,
+        0,
+        0
+      ],
+      "R": [
+        292,
+        52,
+        15,
+        14,
+        1
+      ],
+      "distance": 355,
+      "comp_delta": 279,
+      "signed_delta": 279,
+      "flag": "component",
+      "code": "C|+279",
+      "id": "0902.0431_EQ1187",
+      "src_page": "200",
+      "field": "ink.0902.0431_EQ1187"
+    },
+    {
+      "report_page": 12,
+      "line": 1,
+      "L": [
+        174,
+        16,
+        77,
+        55,
+        22
+      ],
+      "R": [
+        174,
+        17,
+        71,
+        49,
+        22
+      ],
+      "distance": 13,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0830",
+      "src_page": "138",
+      "field": "ink.0902.0431_EQ0830"
+    },
+    {
+      "report_page": 12,
+      "line": 2,
+      "L": [
+        163,
+        40,
+        36,
+        16,
+        20
+      ],
+      "R": [
+        167,
+        41,
+        37,
+        17,
+        20
+      ],
+      "distance": 7,
+      "comp_delta": 4,
+      "signed_delta": 4,
+      "flag": "component",
+      "code": "C|+4",
+      "id": "0902.0431_EQ1041",
+      "src_page": "177",
+      "field": "ink.0902.0431_EQ1041"
+    },
+    {
+      "report_page": 12,
+      "line": 3,
+      "L": [
+        46,
+        12,
+        11,
+        11,
+        0
+      ],
+      "R": [
+        46,
+        12,
+        4,
+        4,
+        0
+      ],
+      "distance": 14,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0340",
+      "src_page": "054",
+      "field": "ink.0902.0431_EQ0340"
+    },
+    {
+      "report_page": 14,
+      "line": 1,
+      "L": [
+        96,
+        32,
+        12,
+        8,
+        4
+      ],
+      "R": [
+        96,
+        31,
+        15,
+        12,
+        3
+      ],
+      "distance": 9,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0937",
+      "src_page": "155",
+      "field": "ink.0902.0431_EQ0937"
+    },
+    {
+      "report_page": 14,
+      "line": 2,
+      "L": [
+        115,
+        31,
+        65,
+        20,
+        35
+      ],
+      "R": [
+        116,
+        29,
+        76,
+        27,
+        40
+      ],
+      "distance": 26,
+      "comp_delta": 1,
+      "signed_delta": 1,
+      "flag": "weak",
+      "code": "W|+1",
+      "id": "0902.0431_EQ0834",
+      "src_page": "139",
+      "field": "ink.0902.0431_EQ0834"
+    },
+    {
+      "report_page": 14,
+      "line": 3,
+      "L": [
+        155,
+        36,
+        34,
+        19,
+        15
+      ],
+      "R": [
+        158,
+        33,
+        33,
+        19,
+        14
+      ],
+      "distance": 8,
+      "comp_delta": 3,
+      "signed_delta": 3,
+      "flag": "component",
+      "code": "C|+3",
+      "id": "0902.0431_EQ0946",
+      "src_page": "157",
+      "field": "ink.0902.0431_EQ0946"
+    },
+    {
+      "report_page": 14,
+      "line": 4,
+      "L": [
+        47,
+        15,
+        17,
+        7,
+        10
+      ],
+      "R": [
+        47,
+        18,
+        15,
+        7,
+        8
+      ],
+      "distance": 7,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "noise",
+      "code": "N|+0",
+      "id": "0902.0431_EQ1037",
+      "src_page": "176",
+      "field": "ink.0902.0431_EQ1037"
+    },
+    {
+      "report_page": 15,
+      "line": 1,
+      "L": [
+        78,
+        20,
+        10,
+        9,
+        1
+      ],
+      "R": [
+        78,
+        19,
+        10,
+        8,
+        2
+      ],
+      "distance": 3,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "noise",
+      "code": "N|+0",
+      "id": "0902.0431_EQ0365",
+      "src_page": "059",
+      "field": "ink.0902.0431_EQ0365"
+    },
+    {
+      "report_page": 15,
+      "line": 2,
+      "L": [
+        206,
+        61,
+        186,
+        53,
+        86
+      ],
+      "R": [
+        206,
+        62,
+        173,
+        49,
+        99
+      ],
+      "distance": 31,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0206",
+      "src_page": "035",
+      "field": "ink.0902.0431_EQ0206"
+    },
+    {
+      "report_page": 15,
+      "line": 3,
+      "L": [
+        64,
+        9,
+        6,
+        6,
+        0
+      ],
+      "R": [
+        68,
+        10,
+        6,
+        6,
+        0
+      ],
+      "distance": 5,
+      "comp_delta": 4,
+      "signed_delta": 4,
+      "flag": "component",
+      "code": "C|+4",
+      "id": "0902.0431_EQ0655",
+      "src_page": "108",
+      "field": "ink.0902.0431_EQ0655"
+    },
+    {
+      "report_page": 15,
+      "line": 4,
+      "L": [
+        94,
+        11,
+        18,
+        6,
+        12
+      ],
+      "R": [
+        95,
+        8,
+        20,
+        6,
+        14
+      ],
+      "distance": 8,
+      "comp_delta": 1,
+      "signed_delta": 1,
+      "flag": "weak",
+      "code": "W|+1",
+      "id": "0902.0431_EQ0101",
+      "src_page": "020",
+      "field": "ink.0902.0431_EQ0101"
+    },
+    {
+      "report_page": 16,
+      "line": 1,
+      "L": [
+        138,
+        29,
+        10,
+        9,
+        1
+      ],
+      "R": [
+        138,
+        25,
+        10,
+        9,
+        1
+      ],
+      "distance": 4,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "noise",
+      "code": "N|+0",
+      "id": "0902.0431_EQ1154",
+      "src_page": "195",
+      "field": "ink.0902.0431_EQ1154"
+    },
+    {
+      "report_page": 16,
+      "line": 2,
+      "L": [
+        66,
+        19,
+        18,
+        10,
+        8
+      ],
+      "R": [
+        66,
+        18,
+        18,
+        10,
+        8
+      ],
+      "distance": 1,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "noise",
+      "code": "N|+0",
+      "id": "0902.0431_EQ1189",
+      "src_page": "200",
+      "field": "ink.0902.0431_EQ1189"
+    },
+    {
+      "report_page": 16,
+      "line": 3,
+      "L": [
+        68,
+        23,
+        7,
+        5,
+        2
+      ],
+      "R": [
+        72,
+        18,
+        8,
+        7,
+        1
+      ],
+      "distance": 13,
+      "comp_delta": 4,
+      "signed_delta": 4,
+      "flag": "component",
+      "code": "C|+4",
+      "id": "0902.0431_EQ1157",
+      "src_page": "195",
+      "field": "ink.0902.0431_EQ1157"
+    },
+    {
+      "report_page": 17,
+      "line": 1,
+      "L": [
+        13,
+        6,
+        0,
+        0,
+        0
+      ],
+      "R": [
+        281,
+        76,
+        165,
+        47,
+        99
+      ],
+      "distance": 649,
+      "comp_delta": 268,
+      "signed_delta": 268,
+      "flag": "component",
+      "code": "C|+268",
+      "id": "0902.0431_EQ0460",
+      "src_page": "075",
+      "field": "ink.0902.0431_EQ0460"
+    },
+    {
+      "report_page": 17,
+      "line": 2,
+      "L": [
+        132,
+        2,
+        78,
+        57,
+        21
+      ],
+      "R": [
+        134,
+        2,
+        60,
+        53,
+        7
+      ],
+      "distance": 38,
+      "comp_delta": 2,
+      "signed_delta": 2,
+      "flag": "weak",
+      "code": "W|+2",
+      "id": "0902.0431_EQ0802",
+      "src_page": "134",
+      "field": "ink.0902.0431_EQ0802"
+    },
+    {
+      "report_page": 18,
+      "line": 1,
+      "L": [
+        39,
+        7,
+        8,
+        6,
+        2
+      ],
+      "R": [
+        40,
+        7,
+        8,
+        8,
+        0
+      ],
+      "distance": 5,
+      "comp_delta": 1,
+      "signed_delta": 1,
+      "flag": "noise",
+      "code": "N|+1",
+      "id": "0902.0431_EQ0875",
+      "src_page": "145",
+      "field": "ink.0902.0431_EQ0875"
+    },
+    {
+      "report_page": 18,
+      "line": 2,
+      "L": [
+        64,
+        12,
+        17,
+        7,
+        10
+      ],
+      "R": [
+        65,
+        11,
+        15,
+        5,
+        10
+      ],
+      "distance": 6,
+      "comp_delta": 1,
+      "signed_delta": 1,
+      "flag": "noise",
+      "code": "N|+1",
+      "id": "0902.0431_EQ0400",
+      "src_page": "066",
+      "field": "ink.0902.0431_EQ0400"
+    },
+    {
+      "report_page": 18,
+      "line": 3,
+      "L": [
+        118,
+        5,
+        51,
+        29,
+        22
+      ],
+      "R": [
+        119,
+        5,
+        42,
+        27,
+        15
+      ],
+      "distance": 19,
+      "comp_delta": 1,
+      "signed_delta": 1,
+      "flag": "weak",
+      "code": "W|+1",
+      "id": "0902.0431_EQ0860",
+      "src_page": "143",
+      "field": "ink.0902.0431_EQ0860"
+    },
+    {
+      "report_page": 20,
+      "line": 1,
+      "L": [
+        18,
+        3,
+        2,
+        2,
+        0
+      ],
+      "R": [
+        94,
+        20,
+        15,
+        11,
+        4
+      ],
+      "distance": 119,
+      "comp_delta": 76,
+      "signed_delta": 76,
+      "flag": "component",
+      "code": "C|+76",
+      "id": "0902.0431_EQ0876",
+      "src_page": "145",
+      "field": "ink.0902.0431_EQ0876"
+    },
+    {
+      "report_page": 20,
+      "line": 2,
+      "L": [
+        128,
+        17,
+        25,
+        12,
+        13
+      ],
+      "R": [
+        130,
+        17,
+        35,
+        13,
+        22
+      ],
+      "distance": 22,
+      "comp_delta": 2,
+      "signed_delta": 2,
+      "flag": "weak",
+      "code": "W|+2",
+      "id": "0902.0431_EQ0941",
+      "src_page": "156",
+      "field": "ink.0902.0431_EQ0941"
+    },
+    {
+      "report_page": 20,
+      "line": 3,
+      "L": [
+        97,
+        39,
+        19,
+        8,
+        11
+      ],
+      "R": [
+        98,
+        25,
+        22,
+        10,
+        12
+      ],
+      "distance": 21,
+      "comp_delta": 1,
+      "signed_delta": 1,
+      "flag": "weak",
+      "code": "W|+1",
+      "id": "0902.0431_EQ0093",
+      "src_page": "019",
+      "field": "ink.0902.0431_EQ0093"
+    },
+    {
+      "report_page": 21,
+      "line": 1,
+      "L": [
+        354,
+        73,
+        84,
+        49,
+        35
+      ],
+      "R": [
+        362,
+        76,
+        110,
+        59,
+        51
+      ],
+      "distance": 63,
+      "comp_delta": 8,
+      "signed_delta": 8,
+      "flag": "component",
+      "code": "C|+8",
+      "id": "0902.0431_EQ0371",
+      "src_page": "061",
+      "field": "ink.0902.0431_EQ0371"
+    },
+    {
+      "report_page": 21,
+      "line": 2,
+      "L": [
+        35,
+        4,
+        2,
+        2,
+        0
+      ],
+      "R": [
+        35,
+        4,
+        2,
+        2,
+        0
+      ],
+      "distance": 0,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "clean",
+      "code": "K|+0",
+      "id": "0902.0431_EQ0602",
+      "src_page": "100",
+      "field": "ink.0902.0431_EQ0602"
+    },
+    {
+      "report_page": 21,
+      "line": 3,
+      "L": [
+        83,
+        8,
+        26,
+        26,
+        0
+      ],
+      "R": [
+        92,
+        9,
+        26,
+        26,
+        0
+      ],
+      "distance": 10,
+      "comp_delta": 9,
+      "signed_delta": 9,
+      "flag": "component",
+      "code": "C|+9",
+      "id": "0902.0431_EQ0900",
+      "src_page": "149",
+      "field": "ink.0902.0431_EQ0900"
+    },
+    {
+      "report_page": 22,
+      "line": 1,
+      "L": [
+        71,
+        10,
+        19,
+        15,
+        4
+      ],
+      "R": [
+        71,
+        10,
+        22,
+        14,
+        7
+      ],
+      "distance": 7,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "noise",
+      "code": "N|+0",
+      "id": "0902.0431_EQ1080",
+      "src_page": "183",
+      "field": "ink.0902.0431_EQ1080"
+    },
+    {
+      "report_page": 22,
+      "line": 2,
+      "L": [
+        179,
+        34,
+        83,
+        23,
+        60
+      ],
+      "R": [
+        178,
+        32,
+        95,
+        37,
+        58
+      ],
+      "distance": 31,
+      "comp_delta": 1,
+      "signed_delta": -1,
+      "flag": "weak",
+      "code": "W|-1",
+      "id": "0902.0431_EQ1030",
+      "src_page": "173",
+      "field": "ink.0902.0431_EQ1030"
+    },
+    {
+      "report_page": 22,
+      "line": 3,
+      "L": [
+        58,
+        13,
+        14,
+        5,
+        9
+      ],
+      "R": [
+        58,
+        14,
+        5,
+        2,
+        3
+      ],
+      "distance": 19,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0492",
+      "src_page": "081",
+      "field": "ink.0902.0431_EQ0492"
+    },
+    {
+      "report_page": 22,
+      "line": 4,
+      "L": [
+        101,
+        31,
+        39,
+        18,
+        21
+      ],
+      "R": [
+        103,
+        32,
+        35,
+        13,
+        22
+      ],
+      "distance": 13,
+      "comp_delta": 2,
+      "signed_delta": 2,
+      "flag": "weak",
+      "code": "W|+2",
+      "id": "0902.0431_EQ1097",
+      "src_page": "186",
+      "field": "ink.0902.0431_EQ1097"
+    },
+    {
+      "report_page": 22,
+      "line": 5,
+      "L": [
+        48,
+        13,
+        16,
+        4,
+        12
+      ],
+      "R": [
+        49,
+        12,
+        14,
+        4,
+        10
+      ],
+      "distance": 6,
+      "comp_delta": 1,
+      "signed_delta": 1,
+      "flag": "noise",
+      "code": "N|+1",
+      "id": "0902.0431_EQ0694",
+      "src_page": "115",
+      "field": "ink.0902.0431_EQ0694"
+    },
+    {
+      "report_page": 23,
+      "line": 1,
+      "L": [
+        192,
+        13,
+        31,
+        26,
+        5
+      ],
+      "R": [
+        192,
+        13,
+        35,
+        31,
+        4
+      ],
+      "distance": 10,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0642",
+      "src_page": "106",
+      "field": "ink.0902.0431_EQ0642"
+    },
+    {
+      "report_page": 23,
+      "line": 2,
+      "L": [
+        201,
+        116,
+        101,
+        33,
+        68
+      ],
+      "R": [
+        206,
+        120,
+        120,
+        35,
+        85
+      ],
+      "distance": 47,
+      "comp_delta": 5,
+      "signed_delta": 5,
+      "flag": "component",
+      "code": "C|+5",
+      "id": "0902.0431_EQ0558",
+      "src_page": "094",
+      "field": "ink.0902.0431_EQ0558"
+    },
+    {
+      "report_page": 24,
+      "line": 1,
+      "L": [
+        232,
+        79,
+        48,
+        29,
+        18
+      ],
+      "R": [
+        232,
+        77,
+        55,
+        29,
+        24
+      ],
+      "distance": 15,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0332",
+      "src_page": "053",
+      "field": "ink.0902.0431_EQ0332"
+    },
+    {
+      "report_page": 24,
+      "line": 2,
+      "L": [
+        13,
+        6,
+        0,
+        0,
+        0
+      ],
+      "R": [
+        208,
+        33,
+        53,
+        35,
+        18
+      ],
+      "distance": 328,
+      "comp_delta": 195,
+      "signed_delta": 195,
+      "flag": "component",
+      "code": "C|+195",
+      "id": "0902.0431_EQ1211",
+      "src_page": "203",
+      "field": "ink.0902.0431_EQ1211"
+    },
+    {
+      "report_page": 25,
+      "line": 1,
+      "L": [
+        87,
+        37,
+        43,
+        21,
+        22
+      ],
+      "R": [
+        89,
+        37,
+        27,
+        15,
+        12
+      ],
+      "distance": 34,
+      "comp_delta": 2,
+      "signed_delta": 2,
+      "flag": "weak",
+      "code": "W|+2",
+      "id": "0902.0431_EQ1039",
+      "src_page": "177",
+      "field": "ink.0902.0431_EQ1039"
+    },
+    {
+      "report_page": 25,
+      "line": 2,
+      "L": [
+        71,
+        12,
+        14,
+        4,
+        10
+      ],
+      "R": [
+        71,
+        21,
+        16,
+        8,
+        8
+      ],
+      "distance": 17,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ0939",
+      "src_page": "156",
+      "field": "ink.0902.0431_EQ0939"
+    },
+    {
+      "report_page": 25,
+      "line": 3,
+      "L": [
+        43,
+        17,
+        3,
+        3,
+        0
+      ],
+      "R": [
+        43,
+        17,
+        3,
+        3,
+        0
+      ],
+      "distance": 0,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "clean",
+      "code": "K|+0",
+      "id": "0902.0431_EQ1196",
+      "src_page": "201",
+      "field": "ink.0902.0431_EQ1196"
+    },
+    {
+      "report_page": 25,
+      "line": 4,
+      "L": [
+        66,
+        25,
+        6,
+        5,
+        1
+      ],
+      "R": [
+        66,
+        26,
+        6,
+        4,
+        2
+      ],
+      "distance": 3,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "noise",
+      "code": "N|+0",
+      "id": "0902.0431_EQ1195",
+      "src_page": "201",
+      "field": "ink.0902.0431_EQ1195"
+    },
+    {
+      "report_page": 25,
+      "line": 5,
+      "L": [
+        102,
+        17,
+        21,
+        13,
+        8
+      ],
+      "R": [
+        102,
+        13,
+        23,
+        13,
+        10
+      ],
+      "distance": 8,
+      "comp_delta": 0,
+      "signed_delta": 0,
+      "flag": "weak",
+      "code": "W|+0",
+      "id": "0902.0431_EQ1104",
+      "src_page": "187",
+      "field": "ink.0902.0431_EQ1104"
+    }
+  ]
+}

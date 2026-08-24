@@ -1,0 +1,49 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>pdfdrill — formula reports</title>
+<style>
+ body{font:15px/1.55 system-ui,sans-serif;max-width:56rem;margin:3rem auto;padding:0 1.2rem;color:#111}
+ h1{font-size:1.5rem;margin:0 0 .3rem}
+ p.sub{color:#555;margin:0 0 2rem}
+ table{border-collapse:collapse;width:100%}
+ th,td{text-align:left;padding:.5rem .7rem;border-bottom:1px solid #e3e3e3}
+ th{font-weight:600;color:#444;border-bottom:2px solid #ccc}
+ td.n{text-align:right;font-variant-numeric:tabular-nums}
+ a{color:#0b57d0;text-decoration:none} a:hover{text-decoration:underline}
+ .note{margin-top:2rem;font-size:.9rem;color:#555;border-top:1px solid #e3e3e3;padding-top:1rem}
+ code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px}
+</style>
+<h1>pdfdrill — formula reports</h1>
+<p class="sub">Per-equation QC of PDF&rarr;LaTeX OCR: MathPix source, rendered
+LaTeX, and the scan crop side by side.</p>
+
+<table>
+<tr><th>Document</th><th>Published</th><th class="n">Rows</th><th class="n">Size</th><th>Report</th></tr>
+<tr>
+  <td><code>0902.0431</code></td>
+  <td>2026-08-24</td>
+  <td class="n">57</td>
+  <td class="n">3.6 MB</td>
+  <td><a href="reports/0902.0431/report.pdf">report.pdf</a></td>
+</tr>
+</table>
+
+<div class="note">
+<p><strong>What the columns mean.</strong> Each row carries two independent
+readings that are deliberately not combined. The coloured <em>square</em> is
+MathPix&rsquo;s own confidence in its reading
+(<span style="color:#008000">&#9632;</span>&nbsp;&ge;0.9,
+<span style="color:#be7800">&#9632;</span>&nbsp;0.5&ndash;0.9,
+<span style="color:#be0000">&#9632;</span>&nbsp;&lt;0.5). The coloured
+<em>bullet</em> is the residual between the rendered LaTeX and the scan, measured
+by inkdrill (<span style="color:#dc1e1e">&bull;</span>&nbsp;component,
+<span style="color:#e69614">&bull;</span>&nbsp;weak,
+<span style="color:#2859dc">&bull;</span>&nbsp;stable,
+<span style="color:#787878">&bull;</span>&nbsp;noise,
+<span style="color:#28a028">&bull;</span>&nbsp;clean). They disagree usefully.</p>
+<p>This report is filtered to <code>--max-conf 0.5 --types equation</code>:
+the 57 equations MathPix doubts, out of 1,219 in the document. Residual
+classes present: component 25, weak 19, noise 9, clean 2.</p>
+<p>Source document: arXiv <a href="https://arxiv.org/abs/0902.0431">0902.0431</a>.
+Crops are excerpts of that paper, shown for verification.</p>
+</div>
