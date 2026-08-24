@@ -84,7 +84,16 @@ td .doc{color:var(--teal)}
 td.src{font-size:12px;color:var(--muted);max-width:16ch}
 .n .of{color:var(--faint);font-size:11px;white-space:nowrap}
 .rd{font-size:11px;letter-spacing:.04em;border:1px solid var(--line2);border-radius:999px;padding:3px 9px;color:var(--muted);white-space:nowrap}
-.rd.two{border-color:rgba(84,209,196,.45);color:var(--teal)}
+.rd.warn{border-color:rgba(255,107,139,.5);color:var(--rose)}
+.bar{display:flex;height:7px;border-radius:2px;overflow:hidden;background:#0a0c0f;border:1px solid var(--line);min-width:110px}
+.bar i{display:block}
+.cts{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--muted);margin-top:6px;white-space:nowrap}
+.cts b{font-weight:700}
+.cts.nm{color:var(--faint);letter-spacing:0;white-space:normal;max-width:15ch}
+td.res{min-width:132px}
+ul.fail{margin:14px 0;padding-left:18px}
+ul.fail li{font-size:14.5px;color:var(--muted);margin-bottom:10px}
+ul.fail strong{color:var(--ink)}
 
 /* ---------- legend ---------- */
 .legend{margin-top:30px;background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:22px 24px}
@@ -146,44 +155,44 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
   <div class="wrap">
     <div class="tbl-wrap">
       <table>
-        <tr><th>Document</th><th>Source</th><th class="n">Equations</th><th>Readings</th><th class="n">Size</th><th>Files</th></tr>
+        <tr><th>Document</th><th>Source</th><th class="n">Equations</th><th>Residual</th><th class="n">Size</th><th>Files</th></tr>
         <tr>
           <td><code class="doc">0902.0431</code><div class="ttl">Exceptional Lie groups<span class="au"> · Ichiro Yokota</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/0902.0431" target="_blank" rel="noopener">arXiv</a></td>
           <td class="n">57 <span class="of">of 1,219</span></td>
-          <td><span class="rd two">conf + ink</span></td>
+          <td class="res"><span class="rd warn">withdrawn</span><div class="cts nm">mispaired &mdash; see below</div></td>
           <td class="n">3.6 MB</td>
-          <td><a href="0902.0431/report.pdf">report.pdf</a> · <a href="0902.0431/report.ink.json">ink.json</a></td>
+          <td><a href="0902.0431/report.pdf">report.pdf</a></td>
         </tr>
         <tr>
           <td><code class="doc">1605.05775</code><div class="ttl">Supervised Learning With Quantum-Inspired Tensor Networks<span class="au"> · Stoudenmire &amp; Schwab</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/1605.05775" target="_blank" rel="noopener">arXiv</a></td>
           <td class="n">26</td>
-          <td><span class="rd">conf</span></td>
+          <td class="res"><div class="bar"><i style="width:3.846%;background:#dc1e1e"></i><i style="width:26.92%;background:#e69614"></i><i style="width:61.54%;background:#787878"></i><i style="width:7.692%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>1 <b style="color:#e69614">W</b>7 <b style="color:#787878">N</b>16 <b style="color:#28a028">K</b>2</div></td>
           <td class="n">0.8 MB</td>
-          <td><a href="1605.05775/report.pdf">report.pdf</a></td>
+          <td><a href="1605.05775/report.pdf">report.pdf</a> · <a href="1605.05775/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">2106.07890</code><div class="ttl">An Enriched Category Theory of Language: From Syntax to Semantics<span class="au"> · Bradley, Terilla &amp; Vlassopoulos</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/2106.07890" target="_blank" rel="noopener">arXiv</a></td>
           <td class="n">51</td>
-          <td><span class="rd">conf</span></td>
+          <td class="res"><div class="bar"><i style="width:13.73%;background:#dc1e1e"></i><i style="width:19.61%;background:#e69614"></i><i style="width:52.94%;background:#787878"></i><i style="width:13.73%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>7 <b style="color:#e69614">W</b>10 <b style="color:#787878">N</b>27 <b style="color:#28a028">K</b>7</div></td>
           <td class="n">1.2 MB</td>
-          <td><a href="2106.07890/report.pdf">report.pdf</a></td>
+          <td><a href="2106.07890/report.pdf">report.pdf</a> · <a href="2106.07890/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">2501.06662</code><div class="ttl">The Magnitude of Categories of Texts Enriched by Language Models<span class="au"> · Bradley &amp; Vigneaux</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/2501.06662" target="_blank" rel="noopener">arXiv</a></td>
           <td class="n">60</td>
-          <td><span class="rd">conf</span></td>
+          <td class="res"><div class="bar"><i style="width:11.67%;background:#dc1e1e"></i><i style="width:20%;background:#e69614"></i><i style="width:53.33%;background:#787878"></i><i style="width:15%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>7 <b style="color:#e69614">W</b>12 <b style="color:#787878">N</b>32 <b style="color:#28a028">K</b>9</div></td>
           <td class="n">1.5 MB</td>
-          <td><a href="2501.06662/report.pdf">report.pdf</a></td>
+          <td><a href="2501.06662/report.pdf">report.pdf</a> · <a href="2501.06662/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">BradleyGastaldiTerilla2023</code><div class="ttl">The Structure of Meaning in Language: Parallel Narratives in Linear Algebra and Category Theory<span class="au"> · Bradley, Gastaldi &amp; Terilla</span></div></td>
           <td class="src"><a href="https://doi.org/10.1090/noti2868" target="_blank" rel="noopener">Notices AMS 71(2), Feb 2024</a></td>
           <td class="n">8</td>
-          <td><span class="rd">conf</span></td>
+          <td class="res"><span class="rd">not measured</span><div class="cts nm">lattice over-detects &mdash; refused</div></td>
           <td class="n">0.8 MB</td>
           <td><a href="BradleyGastaldiTerilla2023/report.pdf">report.pdf</a></td>
         </tr>
@@ -191,25 +200,25 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
           <td><code class="doc">bradley_spring22</code><div class="ttl">A New Perspective of Entropy<span class="au"> · Tai-Danae Bradley</span></div></td>
           <td class="src">J. Math3ma Inst.</td>
           <td class="n">16</td>
-          <td><span class="rd">conf</span></td>
+          <td class="res"><div class="bar"><i style="width:12.5%;background:#dc1e1e"></i><i style="width:6.25%;background:#e69614"></i><i style="width:62.5%;background:#787878"></i><i style="width:18.75%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>2 <b style="color:#e69614">W</b>1 <b style="color:#787878">N</b>10 <b style="color:#28a028">K</b>3</div></td>
           <td class="n">0.5 MB</td>
-          <td><a href="bradley_spring22/report.pdf">report.pdf</a></td>
+          <td><a href="bradley_spring22/report.pdf">report.pdf</a> · <a href="bradley_spring22/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">pdf-dc99cf88</code><div class="ttl">Language Modeling with Reduced Densities<span class="au"> · Bradley &amp; Vlassopoulos</span></div></td>
           <td class="src">Compositionality</td>
           <td class="n">46</td>
-          <td><span class="rd">conf</span></td>
+          <td class="res"><div class="bar"><i style="width:10.87%;background:#dc1e1e"></i><i style="width:39.13%;background:#e69614"></i><i style="width:45.65%;background:#787878"></i><i style="width:4.348%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>5 <b style="color:#e69614">W</b>18 <b style="color:#787878">N</b>21 <b style="color:#28a028">K</b>2</div></td>
           <td class="n">1.1 MB</td>
-          <td><a href="pdf-dc99cf88/report.pdf">report.pdf</a></td>
+          <td><a href="pdf-dc99cf88/report.pdf">report.pdf</a> · <a href="pdf-dc99cf88/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">rph8-g15q</code><div class="ttl">Toward structure-preserving quantum encodings<span class="au"> · Parzygnat, Bradley, Vlasic &amp; Pham</span></div></td>
           <td class="src"><a href="https://doi.org/10.1103/rph8-g15q" target="_blank" rel="noopener">Phys. Rev. Research 7, 041001 (2025)</a></td>
           <td class="n">81</td>
-          <td><span class="rd">conf</span></td>
+          <td class="res"><div class="bar"><i style="width:2.469%;background:#dc1e1e"></i><i style="width:11.11%;background:#e69614"></i><i style="width:50.62%;background:#787878"></i><i style="width:35.8%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>2 <b style="color:#e69614">W</b>9 <b style="color:#787878">N</b>41 <b style="color:#28a028">K</b>29</div></td>
           <td class="n">1.3 MB</td>
-          <td><a href="rph8-g15q/report.pdf">report.pdf</a></td>
+          <td><a href="rph8-g15q/report.pdf">report.pdf</a> · <a href="rph8-g15q/report.ink.json">ink.json</a></td>
         </tr>
       </table>
     </div>
@@ -225,21 +234,39 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
       <span style="color:#be0000">&#9632;</span>&nbsp;&lt;0.5, and
       &mdash;&nbsp;for no value.</p>
 
-      <p><strong>One report carries a second reading.</strong> Where the Readings column says
-      <span class="rd two">conf + ink</span>, each row also has an inkdrill residual measured
-      between the rendered LaTeX and the scan, knowing nothing about the confidence value:
+      <p><strong>Six carry a second reading.</strong> An inkdrill residual measured between
+      the rendered LaTeX and the scan, knowing nothing about the confidence value, printed as
+      a coloured bullet with a selectable code:
       <span style="color:#dc1e1e">&bull;</span>&nbsp;<span class="k">C</span> component,
       <span style="color:#e69614">&bull;</span>&nbsp;<span class="k">W</span> weak,
       <span style="color:#2859dc">&bull;</span>&nbsp;<span class="k">S</span> stable,
       <span style="color:#787878">&bull;</span>&nbsp;<span class="k">N</span> noise,
       <span style="color:#28a028">&bull;</span>&nbsp;<span class="k">K</span> clean.
-      The code beside the bullet (<span class="k">C|+76</span>) is selectable text, and
-      <code>report.ink.json</code> carries the same measurements machine-readably. Its
-      <code>report_page</code> indices are stale: they were recorded against a build made
-      before the report grew a repeating legend, so they run one row per page-break behind
-      the PDF shipped beside them. The residuals, flags and codes are unaffected; the page
-      numbers will realign when the document is re-measured. The two instruments disagree
-      usefully — neither predicts the other.</p>
+      The Residual column above is that distribution per report, and
+      <code>report.ink.json</code> carries the measurements machine-readably. The two
+      instruments disagree usefully — neither predicts the other.</p>
+
+      <p><strong>Two do not, and the reason is the point of the column.</strong> A residual is
+      only worth printing if each one is attached to the right equation, and rows pair to
+      identifiers by <em>position</em>. Where that pairing cannot be shown to hold, no residual
+      is published rather than a plausible one.</p>
+
+      <ul class="fail">
+        <li><code>BradleyGastaldiTerilla2023</code> — <strong>not measured</strong>. The
+        lattice finds 16 rows for 8 equations on a single page. A count taken after pairing
+        would truncate to 8 and look correct while every row was 2:1 mispaired; the check that
+        catches it compares <em>raw detected rows</em> against identifiers, before truncation.</li>
+        <li><code>0902.0431</code> — <strong>withdrawn</strong>, having previously been
+        published here. The lattice detects 55 rows for 57 identifiers: two oversized
+        multi-line equations, on report pages 13 and 19, are not detected at all. A row missing
+        mid-sequence does not truncate, it <em>shifts</em> — so from page 13 on, each residual
+        was attached to the following equation. Confirmed by recovering identifiers page by
+        page from the published PDF: exact through page 12, then exactly one displacement per
+        page, always forward, ten of them with no exception.
+        <strong>The coloured bullets inside that report's PDF carry the same wrong pairing and
+        should not be relied on</strong> until it is rebuilt. Its Conf. column, LaTeX, renders
+        and crops are unaffected.</li>
+      </ul>
 
       <p><strong>Equations counts what is in the report, not what is in the document.</strong>
       <code>0902.0431</code> is filtered to <code>--max-conf 0.5 --types equation</code>, so its
@@ -327,7 +354,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
         <p>A table returned as a <code>Picture</code> is a reading decision, not a
         defect. inkdrill goes back to the ink in that rectangle — blobs, holes, ruled
         lines — and reports what is in there. The residual is the product.
-        <a class="xref" href="0902.0431/report.ink.json">→ inkdrill</a></p>
+        <a class="xref" href="1605.05775/report.ink.json">→ inkdrill</a></p>
       </div>
     </div>
 
