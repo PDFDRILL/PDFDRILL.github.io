@@ -160,8 +160,8 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
           <td><code class="doc">0902.0431</code><div class="ttl">Exceptional Lie groups<span class="au"> · Ichiro Yokota</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/0902.0431" target="_blank" rel="noopener">arXiv</a></td>
           <td class="n">57 <span class="of">of 1,219</span></td>
-          <td class="res"><span class="rd warn">withdrawn</span><div class="cts nm">mispaired &mdash; see below</div></td>
-          <td class="n">3.6 MB</td>
+          <td class="res"><span class="rd">not measured</span><div class="cts nm">lattice under-detects &mdash; withdrawn</div></td>
+          <td class="n">3.5 MB</td>
           <td><a href="0902.0431/report.pdf">report.pdf</a></td>
         </tr>
         <tr>
@@ -263,9 +263,10 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
         was attached to the following equation. Confirmed by recovering identifiers page by
         page from the published PDF: exact through page 12, then exactly one displacement per
         page, always forward, ten of them with no exception.
-        <strong>The coloured bullets inside that report's PDF carry the same wrong pairing and
-        should not be relied on</strong> until it is rebuilt. Its Conf. column, LaTeX, renders
-        and crops are unaffected.</li>
+        That report has since been <strong>rebuilt without the residual apparatus</strong>, so
+        the PDF above carries no bullets at all rather than wrong ones; its Conf. column, LaTeX,
+        renders and crops were never affected. If you downloaded its <code>report.ink.json</code>
+        before 2026-08-24, discard it.</li>
       </ul>
 
       <p><strong>Equations counts what is in the report, not what is in the document.</strong>
@@ -309,7 +310,9 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
     <p>Of 1,219 equations, 57 came back below 0.5 — under 5% flagged as uncertain.
     inkdrill then measured 55 of those against the scan, knowing nothing about the
     confidence value. Eleven came back <strong>clean or noise</strong>: pixel distance
-    0–7, component delta 0–1. Indistinguishable from the page.</p>
+    0–7, component delta 0–1. Indistinguishable from the page. The two it could not
+    measure are the largest equations in the set — multi-line blocks too tall for the
+    lattice to read as a single row.</p>
 
     <p>So roughly <strong>one in five</strong> equations at the very bottom of
     MathPix's own scale renders correctly anyway. It under-rates itself, and that
