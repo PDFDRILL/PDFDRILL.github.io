@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>pdfdrill — formula reports</title>
-<meta name="description" content="Per-equation quality control of PDF→LaTeX OCR: MathPix source, rendered LaTeX and the scan crop side by side, with an independent ink residual per row.">
+<meta name="description" content="Per-equation quality control of PDF→LaTeX OCR: MathPix source, rendered LaTeX and the scan crop side by side, one row per display equation, across eight documents.">
 
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -77,8 +77,14 @@ table{border-collapse:collapse;width:100%;min-width:560px;font-family:var(--mono
 th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line)}
 th{font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.14em;text-transform:uppercase;background:var(--panel2)}
 tr:last-child td{border-bottom:none}
-td.n{text-align:right;font-variant-numeric:tabular-nums}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 td .doc{color:var(--teal)}
+.ttl{font-family:var(--serif);font-size:13.5px;color:var(--ink);font-weight:400;margin-top:5px;max-width:46ch;line-height:1.4}
+.ttl .au{color:var(--faint)}
+td.src{font-size:12px;color:var(--muted);max-width:16ch}
+.n .of{color:var(--faint);font-size:11px;white-space:nowrap}
+.rd{font-size:11px;letter-spacing:.04em;border:1px solid var(--line2);border-radius:999px;padding:3px 9px;color:var(--muted);white-space:nowrap}
+.rd.two{border-color:rgba(84,209,196,.45);color:var(--teal)}
 
 /* ---------- legend ---------- */
 .legend{margin-top:30px;background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:22px 24px}
@@ -130,9 +136,9 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
   <div class="wrap">
     <p class="eyebrow">formula reports</p>
     <h1>Every equation, and the<br>image it was read from.</h1>
-    <p class="lede">Per-equation QC of PDF&rarr;LaTeX OCR. Each row carries the MathPix
-    source, the rendered LaTeX, and the scan crop &mdash; plus an <em>independent</em>
-    residual measured between the last two.</p>
+    <p class="lede">Per-equation QC of PDF&rarr;LaTeX OCR. Every row carries the MathPix
+    source, the rendered LaTeX, and the crop it was read from. One report so far adds an
+    <em>independent</em> residual measured between the last two.</p>
   </div>
 </div>
 
@@ -140,42 +146,104 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
   <div class="wrap">
     <div class="tbl-wrap">
       <table>
-        <tr><th>Document</th><th>Published</th><th class="n">Rows</th><th class="n">Size</th><th>Report</th></tr>
+        <tr><th>Document</th><th>Source</th><th class="n">Equations</th><th>Readings</th><th class="n">Size</th><th>Files</th></tr>
         <tr>
-          <td><code class="doc">0902.0431</code></td>
-          <td>2026-08-24</td>
-          <td class="n">57</td>
+          <td><code class="doc">0902.0431</code><div class="ttl">Exceptional Lie groups<span class="au"> · Ichiro Yokota</span></div></td>
+          <td class="src"><a href="https://arxiv.org/abs/0902.0431" target="_blank" rel="noopener">arXiv</a></td>
+          <td class="n">57 <span class="of">of 1,219</span></td>
+          <td><span class="rd two">conf + ink</span></td>
           <td class="n">3.6 MB</td>
           <td><a href="0902.0431/report.pdf">report.pdf</a> · <a href="0902.0431/report.ink.json">ink.json</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">1605.05775</code><div class="ttl">Supervised Learning With Quantum-Inspired Tensor Networks<span class="au"> · Stoudenmire &amp; Schwab</span></div></td>
+          <td class="src"><a href="https://arxiv.org/abs/1605.05775" target="_blank" rel="noopener">arXiv</a></td>
+          <td class="n">26</td>
+          <td><span class="rd">conf</span></td>
+          <td class="n">0.8 MB</td>
+          <td><a href="1605.05775/report.pdf">report.pdf</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">2106.07890</code><div class="ttl">An Enriched Category Theory of Language: From Syntax to Semantics<span class="au"> · Bradley, Terilla &amp; Vlassopoulos</span></div></td>
+          <td class="src"><a href="https://arxiv.org/abs/2106.07890" target="_blank" rel="noopener">arXiv</a></td>
+          <td class="n">51</td>
+          <td><span class="rd">conf</span></td>
+          <td class="n">1.2 MB</td>
+          <td><a href="2106.07890/report.pdf">report.pdf</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">2501.06662</code><div class="ttl">The Magnitude of Categories of Texts Enriched by Language Models<span class="au"> · Bradley &amp; Vigneaux</span></div></td>
+          <td class="src"><a href="https://arxiv.org/abs/2501.06662" target="_blank" rel="noopener">arXiv</a></td>
+          <td class="n">60</td>
+          <td><span class="rd">conf</span></td>
+          <td class="n">1.5 MB</td>
+          <td><a href="2501.06662/report.pdf">report.pdf</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">BradleyGastaldiTerilla2023</code><div class="ttl">The Structure of Meaning in Language: Parallel Narratives in Linear Algebra and Category Theory<span class="au"> · Bradley, Gastaldi &amp; Terilla</span></div></td>
+          <td class="src">&mdash;</td>
+          <td class="n">8</td>
+          <td><span class="rd">conf</span></td>
+          <td class="n">0.8 MB</td>
+          <td><a href="BradleyGastaldiTerilla2023/report.pdf">report.pdf</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">bradley_spring22</code><div class="ttl">A New Perspective of Entropy<span class="au"> · Tai-Danae Bradley</span></div></td>
+          <td class="src">J. Math3ma Inst.</td>
+          <td class="n">16</td>
+          <td><span class="rd">conf</span></td>
+          <td class="n">0.5 MB</td>
+          <td><a href="bradley_spring22/report.pdf">report.pdf</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">pdf-dc99cf88</code><div class="ttl">Language Modeling with Reduced Densities<span class="au"> · Bradley &amp; Vlassopoulos</span></div></td>
+          <td class="src">Compositionality</td>
+          <td class="n">46</td>
+          <td><span class="rd">conf</span></td>
+          <td class="n">1.1 MB</td>
+          <td><a href="pdf-dc99cf88/report.pdf">report.pdf</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">rph8-g15q</code><div class="ttl">Toward structure-preserving quantum encodings<span class="au"> · Parzygnat, Bradley, Vlasic &amp; Pham</span></div></td>
+          <td class="src"><a href="https://doi.org/10.1103/rph8-g15q" target="_blank" rel="noopener">Phys. Rev. Research 7, 041001 (2025)</a></td>
+          <td class="n">81</td>
+          <td><span class="rd">conf</span></td>
+          <td class="n">1.3 MB</td>
+          <td><a href="rph8-g15q/report.pdf">report.pdf</a></td>
         </tr>
       </table>
     </div>
 
     <div class="legend" id="residual">
-      <p><strong>Two readings per row, deliberately not combined.</strong>
-      The coloured <span class="sq">square</span> is MathPix&rsquo;s confidence in its own reading:
+      <p><strong>Every report carries the same six columns.</strong>
+      <span class="k">Identifier · Page · Conf. · LaTeX source · Rendered · Scan image</span> —
+      the equation's id, the page it sits on, MathPix's confidence in its own reading, that
+      reading as LaTeX, the LaTeX rendered, and the crop the reading came from. The coloured
+      <span class="sq">square</span> is the confidence:
       <span style="color:#008000">&#9632;</span>&nbsp;&ge;0.9,
       <span style="color:#be7800">&#9632;</span>&nbsp;0.5&ndash;0.9,
       <span style="color:#be0000">&#9632;</span>&nbsp;&lt;0.5, and
-      &mdash;&nbsp;for no value.
-      The coloured <span class="bu">bullet</span> is the residual between the rendered LaTeX and the
-      scan, measured by inkdrill:
+      &mdash;&nbsp;for no value.</p>
+
+      <p><strong>One report carries a second reading.</strong> Where the Readings column says
+      <span class="rd two">conf + ink</span>, each row also has an inkdrill residual measured
+      between the rendered LaTeX and the scan, knowing nothing about the confidence value:
       <span style="color:#dc1e1e">&bull;</span>&nbsp;<span class="k">C</span> component,
       <span style="color:#e69614">&bull;</span>&nbsp;<span class="k">W</span> weak,
       <span style="color:#2859dc">&bull;</span>&nbsp;<span class="k">S</span> stable,
       <span style="color:#787878">&bull;</span>&nbsp;<span class="k">N</span> noise,
       <span style="color:#28a028">&bull;</span>&nbsp;<span class="k">K</span> clean.
-      The code beside the bullet (<span class="k">C|+76</span>) is selectable text.
-      The two instruments disagree usefully &mdash; neither predicts the other.</p>
+      The code beside the bullet (<span class="k">C|+76</span>) is selectable text, and
+      <code>report.ink.json</code> carries the same measurements machine-readably. The two
+      instruments disagree usefully — neither predicts the other.</p>
 
-      <p>Filtered to <code>--max-conf 0.5 --types equation</code>: the 57 equations
-      MathPix doubts, of 1,219 in the document. Residual classes present:
-      component&nbsp;25, weak&nbsp;19, noise&nbsp;9, clean&nbsp;2.
-      <code>report.ink.json</code> beside the PDF carries the measurements in
-      machine-readable form.</p>
+      <p><strong>Equations counts what is in the report, not what is in the document.</strong>
+      <code>0902.0431</code> is filtered to <code>--max-conf 0.5 --types equation</code>, so its
+      57 rows are the 57 display equations MathPix doubted out of 1,219. The other seven are
+      unfiltered: every display equation in the document, at whatever confidence.</p>
 
-      <p>Source document: arXiv <a href="https://arxiv.org/abs/0902.0431" target="_blank" rel="noopener">0902.0431</a>.
-      Crops are excerpts of that paper, shown for verification.</p>
+      <p>Sources are linked where they resolve. Crops are excerpts of the papers named above,
+      reproduced for verification of the extraction.</p>
     </div>
   </div>
 </section>
