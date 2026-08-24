@@ -12,6 +12,7 @@
  a{color:#0b57d0;text-decoration:none} a:hover{text-decoration:underline}
  .note{margin-top:2rem;font-size:.9rem;color:#555;border-top:1px solid #e3e3e3;padding-top:1rem}
  code{background:#f4f4f4;padding:.1rem .3rem;border-radius:3px}
+ .k{font-family:ui-monospace,monospace;font-size:.85em}
 </style>
 <h1>pdfdrill — formula reports</h1>
 <p class="sub">Per-equation QC of PDF&rarr;LaTeX OCR: MathPix source, rendered
@@ -23,27 +24,32 @@ LaTeX, and the scan crop side by side.</p>
   <td><code>0902.0431</code></td>
   <td>2026-08-24</td>
   <td class="n">57</td>
-  <td class="n">3.6 MB</td>
+  <td class="n">3.5 MB</td>
   <td><a href="reports/0902.0431/report.pdf">report.pdf</a></td>
 </tr>
 </table>
 
 <div class="note">
-<p><strong>What the columns mean.</strong> Each row carries two independent
-readings that are deliberately not combined. The coloured <em>square</em> is
-MathPix&rsquo;s own confidence in its reading
-(<span style="color:#008000">&#9632;</span>&nbsp;&ge;0.9,
+<p><strong>Two readings per row, deliberately not combined.</strong>
+The coloured <em>square</em> is MathPix&rsquo;s confidence in its own reading:
+<span style="color:#008000">&#9632;</span>&nbsp;&ge;0.9,
 <span style="color:#be7800">&#9632;</span>&nbsp;0.5&ndash;0.9,
-<span style="color:#be0000">&#9632;</span>&nbsp;&lt;0.5). The coloured
-<em>bullet</em> is the residual between the rendered LaTeX and the scan, measured
-by inkdrill (<span style="color:#dc1e1e">&bull;</span>&nbsp;component,
-<span style="color:#e69614">&bull;</span>&nbsp;weak,
-<span style="color:#2859dc">&bull;</span>&nbsp;stable,
-<span style="color:#787878">&bull;</span>&nbsp;noise,
-<span style="color:#28a028">&bull;</span>&nbsp;clean). They disagree usefully.</p>
-<p>This report is filtered to <code>--max-conf 0.5 --types equation</code>:
-the 57 equations MathPix doubts, out of 1,219 in the document. Residual
-classes present: component 25, weak 19, noise 9, clean 2.</p>
+<span style="color:#be0000">&#9632;</span>&nbsp;&lt;0.5, and
+&mdash;&nbsp;for no value.
+The coloured <em>bullet</em> is the residual between the rendered LaTeX and the
+scan, measured by inkdrill:
+<span style="color:#dc1e1e">&bull;</span>&nbsp;<span class="k">C</span> component,
+<span style="color:#e69614">&bull;</span>&nbsp;<span class="k">W</span> weak,
+<span style="color:#2859dc">&bull;</span>&nbsp;<span class="k">S</span> stable,
+<span style="color:#787878">&bull;</span>&nbsp;<span class="k">N</span> noise,
+<span style="color:#28a028">&bull;</span>&nbsp;<span class="k">K</span> clean.
+The code beside the bullet (<span class="k">C|+76</span>) is selectable text.
+The two instruments disagree usefully &mdash; neither predicts the other.</p>
+<p>Filtered to <code>--max-conf 0.5 --types equation</code>: the 57 equations
+MathPix doubts, of 1,219 in the document. Residual classes present:
+component 25, weak 19, noise 9, clean 2.
+<code>report.ink.json</code> beside the PDF carries the measurements in
+machine-readable form.</p>
 <p>Source document: arXiv <a href="https://arxiv.org/abs/0902.0431">0902.0431</a>.
 Crops are excerpts of that paper, shown for verification.</p>
 </div>
