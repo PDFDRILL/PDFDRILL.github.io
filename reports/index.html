@@ -234,8 +234,12 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
       <span style="color:#787878">&bull;</span>&nbsp;<span class="k">N</span> noise,
       <span style="color:#28a028">&bull;</span>&nbsp;<span class="k">K</span> clean.
       The code beside the bullet (<span class="k">C|+76</span>) is selectable text, and
-      <code>report.ink.json</code> carries the same measurements machine-readably. The two
-      instruments disagree usefully — neither predicts the other.</p>
+      <code>report.ink.json</code> carries the same measurements machine-readably. Its
+      <code>report_page</code> indices are stale: they were recorded against a build made
+      before the report grew a repeating legend, so they run one row per page-break behind
+      the PDF shipped beside them. The residuals, flags and codes are unaffected; the page
+      numbers will realign when the document is re-measured. The two instruments disagree
+      usefully — neither predicts the other.</p>
 
       <p><strong>Equations counts what is in the report, not what is in the document.</strong>
       <code>0902.0431</code> is filtered to <code>--max-conf 0.5 --types equation</code>, so its
