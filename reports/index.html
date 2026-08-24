@@ -87,36 +87,26 @@ td .doc{color:var(--teal)}
 .k{font-family:var(--mono);font-size:.85em;color:var(--ink)}
 .sq,.bu{font-family:var(--mono)}
 
-/* ---------- q&a ---------- */
-.qa{margin-top:30px;display:grid;gap:2px}
-.qa details{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:0;overflow:hidden}
-.qa details[open]{border-color:var(--line2);background:var(--panel2)}
-.qa summary{
-  font-family:var(--mono);font-size:14.5px;font-weight:600;color:var(--ink);
-  padding:17px 22px 17px 46px;cursor:pointer;list-style:none;position:relative;line-height:1.45;
-}
-.qa summary::-webkit-details-marker{display:none}
-.qa summary::before{
-  content:"?";position:absolute;left:20px;top:17px;color:var(--amber);font-weight:700;
-}
-.qa details[open] summary{color:var(--amber2);border-bottom:1px solid var(--line)}
-.qa summary:hover{color:var(--amber2)}
-.qa .body{padding:18px 22px 22px}
-.qa .body p{font-size:15.5px;margin:0 0 13px;max-width:none;color:#cfcabe}
-.qa .body p:last-child{margin-bottom:0}
-.qa .body strong{color:var(--ink)}
+/* ---------- why mathpix ---------- */
+h3{border-top:1px solid var(--line);padding-top:26px;margin:38px 0 12px;font-size:17px;line-height:1.4;max-width:60ch}
+h3 code{font-size:.9em}
+.xref{font-family:var(--mono);font-size:.82em;letter-spacing:.02em;white-space:nowrap;margin-left:.55em}
 
-.pull{border-left:2px solid var(--teal);background:rgba(84,209,196,.05);padding:12px 16px;margin:16px 0;font-size:15px;color:var(--ink)}
-.pull.amber{border-left-color:var(--amber);background:rgba(255,122,24,.05)}
+/* the three things, as three tiles */
+.triple{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:26px 0 26px}
+@media(max-width:700px){.triple{grid-template-columns:1fr}}
+.triple .t{background:#0a0c0f;border:1px solid var(--line);border-radius:9px;padding:15px 16px}
+.triple .t.win{border-color:rgba(255,122,24,.45)}
+.triple .lbl{font-family:var(--mono);font-size:15px;font-weight:700;color:var(--amber);letter-spacing:.02em}
+.triple .d{font-size:13.5px;color:var(--muted);line-height:1.5;margin-top:6px}
 
-/* three-route figure */
-.routes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 4px}
-@media(max-width:700px){.routes{grid-template-columns:1fr}}
-.route{background:#0a0c0f;border:1px solid var(--line);border-radius:9px;padding:14px 15px}
-.route .n{font-family:var(--mono);font-size:24px;font-weight:700;color:var(--amber);line-height:1}
-.route .t{font-family:var(--mono);font-size:11.5px;color:var(--teal);margin:6px 0 7px;letter-spacing:.04em}
-.route .d{font-size:13px;color:var(--muted);line-height:1.5}
-.route.win{border-color:rgba(255,122,24,.45)}
+/* what it does not claim to do */
+.outside{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:20px 0 22px}
+@media(max-width:760px){.outside{grid-template-columns:1fr}}
+.outside .o{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:18px 20px}
+.outside .o h4{font-family:var(--mono);font-size:14px;font-weight:600;margin:0 0 8px;color:var(--teal);letter-spacing:.02em}
+.outside .o p{font-size:14.5px;color:var(--muted);margin:0;max-width:none}
+.outside .o strong{color:var(--ink)}
 
 footer{padding:40px 0 56px;color:var(--faint);font-size:13px;font-family:var(--mono)}
 footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
@@ -161,7 +151,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
       </table>
     </div>
 
-    <div class="legend">
+    <div class="legend" id="residual">
       <p><strong>Two readings per row, deliberately not combined.</strong>
       The coloured <span class="sq">square</span> is MathPix&rsquo;s confidence in its own reading:
       <span style="color:#008000">&#9632;</span>&nbsp;&ge;0.9,
@@ -190,127 +180,98 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
   </div>
 </section>
 
-<section id="qa">
+<section id="why">
   <div class="wrap">
-    <p class="eyebrow">questions this report keeps raising</p>
-    <h2>Why MathPix.</h2>
-    <p class="sub">The honest version, including where it loses. Every number below
-    comes from a document on this site, not from a vendor deck.</p>
+    <p class="eyebrow">why mathpix</p>
+    <h2>Three things per equation,<br>from one call.</h2>
+    <p class="sub">MathPix returns three things per equation, and this page is built
+    on all three.</p>
 
-    <div class="qa">
-
-      <details open>
-        <summary>Why is every row here read by MathPix rather than by something free?</summary>
-        <div class="body">
-          <p>Because without MathPix this page could not exist &mdash; not &ldquo;would be worse&rdquo;, could not exist.
-          A row needs three things together: the recognised <strong>LaTeX</strong>, a <strong>confidence</strong>
-          in that LaTeX, and the <strong>crop the reading came from</strong>. Remove any one and the report collapses.</p>
-          <p>Without the confidence there is no way to pick 57 equations worth reviewing out of 1,219 &mdash;
-          you are back to reading all of them. Without the crop there is nothing to measure the render
-          <em>against</em>, so the residual column is undefined. MathPix <code>lines.json</code> is the only
-          format we have found that ships all three per equation.</p>
-          <p>The alternatives do not fail at this; they are not built for it. <strong>pdfminer.six</strong> reads
-          an embedded text layer and performs no recognition at all &mdash; no confidence, no crop, no LaTeX.
-          <strong>Tesseract</strong> gives a per-word confidence but emits text, not math. Neither is a bad
-          tool. Neither is the tool this report is made of.</p>
-        </div>
-      </details>
-
-      <details>
-        <summary>Is MathPix actually more accurate, or just better packaged?</summary>
-        <div class="body">
-          <p>Measured, on the same eight-page document, three routes:</p>
-          <div class="routes">
-            <div class="route"><div class="n">8</div><div class="t">pdfminer.six</div>
-              <div class="d">One <code>Paragraph</code> per page. A whole page of prose and LaTeX run together in a single blob. Not empty &mdash; structureless.</div></div>
-            <div class="route"><div class="n">119</div><div class="t">tesseract</div>
-              <div class="d">Finely split, uniformly flat: <code>Paragraph</code> and <code>Table</code>, nothing else. The most nodes, the least document.</div></div>
-            <div class="route win"><div class="n">79</div><div class="t">mathpix</div>
-              <div class="d">Fewer nodes, and the only route that sees what the document is <em>about</em>: 24&nbsp;Diagram, 9&nbsp;Formula, 2&nbsp;Picture, 1&nbsp;Toc.</div></div>
-          </div>
-          <p class="pull amber">MathPix returns <strong>fewer</strong> elements than OCR and wins anyway.
-          Counting nodes measures how hard a route chopped the page, not how much of the document it understood.</p>
-          <p>The full comparison, with the element trees side by side, is in
-          <a href="/#ocr">the text-layer section</a> of the main site.</p>
-        </div>
-      </details>
-
-      <details>
-        <summary>What does this report say about MathPix&rsquo;s confidence score?</summary>
-        <div class="body">
-          <p>That it is <strong>conservative</strong>, which is the useful direction to be wrong in.</p>
-          <p>Of 1,219 equations, MathPix rated 57 below 0.5 &mdash; under <strong>5%</strong> it was unsure about.
-          inkdrill then measured 55 of those against the scan independently, knowing nothing about the
-          confidence value. Eleven of the 55 came back <strong>clean or noise</strong>: pixel distance 0&ndash;7,
-          component delta 0&ndash;1. Indistinguishable from the scan.</p>
-          <p class="pull">Roughly <strong>one in five</strong> equations at the very bottom of MathPix&rsquo;s own
-          confidence scale render correctly anyway. It under-rates itself.</p>
-          <p>That costs review time and nothing else. The opposite error &mdash; high confidence on a wrong
-          reading &mdash; is the one that quietly corrupts a corpus, and it is why the two instruments here
-          are reported side by side and never averaged into a single score.</p>
-        </div>
-      </details>
-
-      <details>
-        <summary>Where does MathPix lose?</summary>
-        <div class="body">
-          <p>The <strong>annotation layer</strong>, and it loses badly.</p>
-          <p>A paper&rsquo;s page one says &ldquo;Our code is available <em>here</em>&rdquo;, where <em>here</em>
-          is a hyperlink with no separate anchor text. MathPix returns the sentence. The URL is simply
-          <strong>not in the output</strong> &mdash; not truncated, not mangled, absent. So is it absent from
-          MathPix Markdown, from plain extraction, and from a chatbot PDF upload. An LLM reading any of
-          those cannot answer &ldquo;where is the code?&rdquo;, because on the evidence it has been given, there is no code.</p>
-          <p><code>pdfdrill links</code> reads the annotation layer directly and answers in about
-          <strong>50&nbsp;ms</strong>, with no key and no network. Details in
-          <a href="/#invisible">the invisible-link section</a>.</p>
-          <p class="pull">Best OCR is not the same as only tool. The right architecture is a cheap keyless
-          command that answers what it can, escalating to a paid call only when it genuinely cannot &mdash;
-          which is the whole design of this toolkit.</p>
-        </div>
-      </details>
-
-      <details>
-        <summary>Keyless routes are free. Isn&rsquo;t paying for a key a waste of money?</summary>
-        <div class="body">
-          <p>Keyless is not free. It is <strong>billed somewhere else</strong> &mdash; in render time, in
-          tokens, and above all in your hours.</p>
-          <p>pdfdrill ships the keyless path and takes it seriously: <code>pdfdrill ocr</code> renders pages
-          through tesseract into a MathPix-compatible <code>lines.json</code>, and with no key at all the
-          prompt-driven sub-tasks route to whichever Claude is already driving the session. The output is
-          byte-identical to the keyed API path. It works.</p>
-          <p>It is also, for steady use, <strong>slower and more expensive</strong>. Delegating a whole
-          document to a running model burns more wall-clock and more tokens than one keyed call. The invoice
-          says zero; the calendar does not.</p>
-          <p class="pull amber">The real cost of the free route is not the compute. It is the engineering
-          afternoon you spend making it produce something the paid route hands you in a single response &mdash;
-          and then spend again next month, because nothing you did was durable.</p>
-          <p>Set against <a href="https://mathpix.com/pricing/api" target="_blank" rel="noopener">MathPix
-          pay-as-you-go</a>, that is not a close call for anyone whose time has a price.</p>
-        </div>
-      </details>
-
-      <details open>
-        <summary>Does any of this depend on the vendor answering the phone?</summary>
-        <div class="body">
-          <p>Yes, and this turns out to be the part nobody benchmarks.</p>
-          <p>Over the life of this project I have written to <strong>MathPix</strong>, <strong>MinerU</strong>,
-          <strong>pdfminer</strong> and <strong>Tesseract</strong> with real questions about real documents.</p>
-          <p class="pull amber">MathPix Admin has answered <strong>every time, inside 24&nbsp;hours</strong>.
-          From the other three I have never received a reply of any kind.</p>
-          <p>There is a nice irony in the sample. This site hosts
-          <a href="/files/2409.18839.inspect.html">MinerU&rsquo;s own paper</a> as its translation example
-          &mdash; arXiv 2409.18839, drilled, element-typed, and machine-translated into Portuguese, sitting
-          in the artifacts section next to everything else. I have still not heard back from them.</p>
-          <p>To be fair to the volunteers: the pdfminer and Tesseract maintainers owe nobody a reply. They
-          publish excellent code for free and are not anyone&rsquo;s support desk. That is exactly the point.
-          A key does not only buy an endpoint &mdash; <strong>it buys a counterparty</strong>. When the pipeline
-          breaks at midnight against a document that matters, the question is not which repository has more
-          stars. It is whether there is a person on the other end whose job it is to answer.</p>
-          <p>Across every document on this site, exactly one of them has been.</p>
-        </div>
-      </details>
-
+    <div class="triple">
+      <div class="t"><div class="lbl">latex</div><div class="d">rendered</div></div>
+      <div class="t"><div class="lbl">confidence</div><div class="d">selects 57 of 1,219</div></div>
+      <div class="t win"><div class="lbl">crop</div><div class="d">what the render is measured against</div></div>
     </div>
+
+    <p>The recognised LaTeX, a confidence in that reading, and the crop the reading
+    came from. Each one carries a column of this report: the LaTeX is what gets
+    rendered, the confidence is what selects 57 rows out of 1,219, and the crop is
+    what the render is measured against. <code>lines.json</code> is the only format
+    we have found that ships all three per equation, in one response, each addressed
+    to a rectangle on a page.</p>
+
+    <p>The third one is the one that matters here. A confidence score you cannot
+    check is a number you have to trust. Because the crop comes back with the
+    reading, there is something to check it against — which is what the second column
+    of every row below actually is. <a class="xref" href="#residual">→ the ink residual</a></p>
+
+    <h3>The confidence is conservative, and that is the safe direction to be wrong in.</h3>
+
+    <p>Of 1,219 equations, 57 came back below 0.5 — under 5% flagged as uncertain.
+    inkdrill then measured 55 of those against the scan, knowing nothing about the
+    confidence value. Eleven came back <strong>clean or noise</strong>: pixel distance
+    0–7, component delta 0–1. Indistinguishable from the page.</p>
+
+    <p>So roughly <strong>one in five</strong> equations at the very bottom of
+    MathPix's own scale renders correctly anyway. It under-rates itself, and that
+    costs review time and nothing else. The opposite error — high confidence on a
+    wrong reading — is the one that quietly corrupts a corpus, and it has not been
+    the problem here. A recogniser that under-rates itself is one you can build a
+    quality-control pipeline on top of. That is why the two readings sit side by side
+    on every row and are never averaged into one score.</p>
+
+    <h3><code>lines.json</code> became our interchange format, not just our input.</h3>
+
+    <p>This was not planned. The MathPix line format turned out to be a good enough
+    description of a page — typed rectangles, per-element geometry, child rectangles
+    inside text lines — that everything else in the toolkit now speaks it.
+    <code>pdfdrill ocr</code> renders pages through tesseract and emits
+    <code>lines.json</code>. inkdrill's <code>emit.py</code> writes its findings as
+    <code>lines.json</code>. The pdfminer.six route was extended to produce it as
+    well, and that extension was offered upstream.</p>
+
+    <p>So nothing here is locked to one vendor: the format is the neutral layer, and
+    a keyed MathPix call is one producer of it among several. The document model
+    downstream merges rectangles from every producer into a single containment
+    forest, which is what lets a formula number descend all the way to the ink it was
+    read from. <a class="xref" href="/#model">→ the model</a></p>
+
+    <h3>What it does not claim to do — and where the rest of the toolkit starts.</h3>
+
+    <p>MathPix reads pixels. Two things sit outside that by construction, and both
+    are ours to solve, not theirs:</p>
+
+    <div class="outside">
+      <div class="o">
+        <h4>The annotation layer</h4>
+        <p>A page-one sentence reading “our code is available <em>here</em>”, where
+        <em>here</em> is a hyperlink with no anchor text, has no pixels at all — the
+        URL lives in the PDF object graph. No recognition route sees it, and none
+        should be expected to. <code>pdfdrill links</code> reads it directly in
+        ~50&nbsp;ms, keyless. <a class="xref" href="/#invisible">→ the invisible link</a></p>
+      </div>
+      <div class="o">
+        <h4>Content inside images</h4>
+        <p>A table returned as a <code>Picture</code> is a reading decision, not a
+        defect. inkdrill goes back to the ink in that rectangle — blobs, holes, ruled
+        lines — and reports what is in there. The residual is the product.
+        <a class="xref" href="0902.0431/report.ink.json">→ inkdrill</a></p>
+      </div>
+    </div>
+
+    <p>Neither is an argument against the first instrument. Both are the reason there
+    is a second one.</p>
+
+    <h3>Support turns out to be a measurable property, and nobody benchmarks it.</h3>
+
+    <p>Every question sent to the MathPix Admin over the life of this project has been
+    answered inside 24 hours — and answered by <strong>reproducing the test case</strong>,
+    not by quoting the documentation. For a one-person project that is not a courtesy,
+    it is the difference between a bug fixed on Monday and a bug worked around forever.</p>
+
+    <p>The other tools here are volunteer and research projects that owe nobody a
+    reply, and this is not a complaint about them. It is a note that a key buys
+    something a star count does not show: <strong>a counterparty</strong>.</p>
   </div>
 </section>
 
