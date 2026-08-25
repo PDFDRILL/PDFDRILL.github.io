@@ -273,8 +273,13 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
         would truncate to 8 and look correct while every row was 2:1 mispaired; the check that
         catches it compares <em>raw detected rows</em> against identifiers, before truncation.</li>
         <li><code>0902.0431</code> — <strong>withdrawn</strong>, having previously been
-        published here. The lattice detects 55 rows for 57 identifiers: two oversized
-        multi-line equations, on report pages 13 and 19, are not detected at all. A row missing
+        published here. The lattice detects 55 rows for 57 identifiers: two
+        equations, on report pages 13 and 19, are not detected at all. The cause is
+        <em>enclosure</em>, not size &mdash; the lattice builds rows from background enclosed
+        inside the table region, and content spanning from rule to rule leaves none, so the row
+        does not exist as far as it is concerned. Page 13 yields 8 holes, all in the header band,
+        against page 12&rsquo;s 27; row coverage 0.015 against a corpus median of 0.986. Height
+        only correlates, because a tall row is likelier to span. A row missing
         mid-sequence does not truncate, it <em>shifts</em> — so from page 13 on, each residual
         was attached to the following equation. Confirmed by recovering identifiers page by
         page from the published PDF: exact through page 12, then exactly one displacement per
@@ -361,8 +366,8 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
     inkdrill then measured 55 of those against the scan, knowing nothing about the
     confidence value. Eleven came back <strong>clean or noise</strong>: pixel distance
     0–7, component delta 0–1. Indistinguishable from the page. The two it could not
-    measure are the largest equations in the set — multi-line blocks too tall for the
-    lattice to read as a single row.</p>
+    measure are the two widest in the set — blocks that span the full column, leaving
+    the lattice no enclosed background to read a row from.</p>
 
     <p>So roughly <strong>one in five</strong> equations at the very bottom of
     MathPix's own scale renders correctly anyway. It under-rates itself, and that
