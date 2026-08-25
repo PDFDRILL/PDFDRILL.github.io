@@ -218,7 +218,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
           <td class="n">116</td>
           <td class="res"><span class="rd">not measured</span><div class="cts nm">no ink pass yet</div></td>
           <td class="n">3.7 MB</td>
-          <td><a href="penev_A/report.pdf">report.pdf</a> &middot; <a href="penev_A/penev_A.md">markdown</a> &middot; <a href="penev_A/inspect.html">inspect</a></td>
+          <td><a href="penev_A/report.pdf">report.pdf</a> &middot; <a href="penev_A/penev_A.md">markdown</a> &middot; <a href="penev_A/inspect.html">inspect</a> &middot; <a href="penev_A/compare.html">compare</a></td>
         </tr>
         <tr>
           <td><code class="doc">penev_B</code><div class="ttl">Local Feature Analysis (cont.): &sect;4.4.4 &ndash; ch. 5<span class="au"> &middot; Penio S. Penev &middot; scanned inkjet print</span></div></td>
@@ -226,7 +226,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
           <td class="n">62</td>
           <td class="res"><span class="rd">not measured</span><div class="cts nm">no ink pass yet</div></td>
           <td class="n">2.2 MB</td>
-          <td><a href="penev_B/report.pdf">report.pdf</a> &middot; <a href="penev_B/penev_B.md">markdown</a> &middot; <a href="penev_B/inspect.html">inspect</a></td>
+          <td><a href="penev_B/report.pdf">report.pdf</a> &middot; <a href="penev_B/penev_B.md">markdown</a> &middot; <a href="penev_B/inspect.html">inspect</a> &middot; <a href="penev_B/compare.html">compare</a></td>
         </tr>
         <tr>
           <td><code class="doc">rph8-g15q</code><div class="ttl">Toward structure-preserving quantum encodings<span class="au"> · Parzygnat, Bradley, Vlasic &amp; Pham</span></div></td>
@@ -288,6 +288,28 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
         nothing has been measured against their scans. Not a refusal and not a withdrawal:
         simply not done. The Conf. column is complete for both.</li>
       </ul>
+
+      <p><strong>Two carry a second reading of a different kind.</strong> The Penev scans
+      were OCR&rsquo;d once in 2023 and again in 2026. The 2023 pass was merged into a single
+      LaTeX document and hand-corrected until it compiled; that reconstruction is attached to
+      the 2026 model as a competing <code>tex</code> provenance and scored against it, which is
+      what the <em>compare</em> link opens: one row per equation, both readings rendered side by
+      side, with the scan crop between them.</p>
+
+      <ul class="fail">
+        <li><code>penev_A</code> &mdash; 111 of 116 equations have a reading in both.
+        <strong>58 agree exactly</strong>, 37 score 0.90&ndash;0.99, 11 score 0.70&ndash;0.89,
+        5 fall below 0.70. Mean agreement 0.951.</li>
+        <li><code>penev_B</code> &mdash; 59 of 62 have both. <strong>25 agree exactly</strong>,
+        15 score 0.90&ndash;0.99, 5 score 0.70&ndash;0.89, and 14 fall below 0.70. Mean 0.874.</li>
+      </ul>
+
+      <p>This is <strong>not</strong> a gold column. The author&rsquo;s LaTeX for this thesis does
+      not exist here &mdash; the source is a 1998 print, scanned four pages to a sheet. What the
+      <code>tex</code> column holds is one reader&rsquo;s corrected transcription, so a
+      disagreement means the two passes differ, not that the OCR is wrong. That is the useful
+      shape: the rows below 0.70 are where a human once decided the machine had misread
+      something, and they are the first place to look.</p>
 
       <p><strong>One report is missing a character.</strong> Compiling
       <code>penev_A</code> ended with xelatex discarding a single code point (U+0009) that it
