@@ -40,18 +40,27 @@ jobs:
         # way a withdrawn or unreviewed artefact could reach the site without
         # anyone deciding to publish it.
         run: |
-          fail=0
-          for d in reports/*/; do
+          set -u
+          test -d reports || { echo "::error::reports/ is missing - refusing to publish"; exit 1; }
+          shopt -s nullglob
+          dirs=(reports/*/)
+          [ ${#dirs[@]} -gt 0 ] || { echo "::error::reports/ has no document folders - refusing to publish"; exit 1; }
+          fail=0; checked=0
+          for d in "${dirs[@]}"; do
             k=$(basename "$d")
             while IFS= read -r f; do
+              checked=$((checked+1))
               case "$(basename "$f")" in
                 report.pdf|report.ink.json|inspect.html|compare.html|"$k".md) ;;
                 *) echo "::error file=$f::unexpected file in a published report folder: $f"; fail=1 ;;
               esac
             done < <(find "$d" -type f)
           done
+          # A guard that cannot tell "all clean" from "checked nothing" is not a
+          # guard: without this, a moved or renamed reports/ would pass silently.
+          [ "$checked" -gt 0 ] || { echo "::error::guard inspected 0 files - refusing to publish"; exit 1; }
           if [ "$fail" = 0 ]; then
-            echo "reports/: $(ls -d reports/*/ | wc -l) document folders, every file an allowed artefact"
+            echo "reports/: ${#dirs[@]} document folders, $checked files, every one an allowed artefact"
           else
             echo "reports/: refusing to publish"; exit 1
           fi
