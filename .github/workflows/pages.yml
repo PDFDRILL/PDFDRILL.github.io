@@ -130,7 +130,20 @@ jobs:
               if n and int(n.group(1).replace(",", "")) != len(rows_):
                   claim_errs.append(
                       f"{k}: table says {n.group(1)} equations, report.ink.json has {len(rows_)} rows")
-              want = {LET[f]: v for f, v in collections.Counter(x["flag"] for x in rows_).items()}
+              dist = collections.Counter(x["flag"] for x in rows_)
+              # The legend defines exactly these five classes, once, for the whole
+              # table. A sixth appearing in an artefact means the legend has
+              # stopped describing the data -- last week's failure running the
+              # other way. pdfdrill-7b has an "absent" flag in flight, so this is
+              # imminent rather than hypothetical. Name it; do not KeyError.
+              unknown = sorted(set(dist) - set(LET))
+              if unknown:
+                  claim_errs.append(
+                      f"{k}: report.ink.json uses residual class(es) {unknown}, which the "
+                      f"legend does not define (it defines {sorted(LET)}). The legend needs "
+                      f"updating in the same commit that publishes this artefact.")
+                  continue
+              want = {LET[f]: v for f, v in dist.items()}
               got = {a: int(b) for a, b in re.findall(r">([CWSNK])</b>(\d+)", cell)}
               if got and got != want:
                   claim_errs.append(f"{k}: residual bar {got} does not match report.ink.json {want}")
