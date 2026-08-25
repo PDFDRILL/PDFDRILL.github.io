@@ -40,30 +40,69 @@ jobs:
         # way a withdrawn or unreviewed artefact could reach the site without
         # anyone deciding to publish it.
         run: |
-          set -u
-          test -d reports || { echo "::error::reports/ is missing - refusing to publish"; exit 1; }
-          shopt -s nullglob
-          dirs=(reports/*/)
-          [ ${#dirs[@]} -gt 0 ] || { echo "::error::reports/ has no document folders - refusing to publish"; exit 1; }
-          fail=0; checked=0
-          for d in "${dirs[@]}"; do
-            k=$(basename "$d")
-            while IFS= read -r f; do
-              checked=$((checked+1))
-              case "$(basename "$f")" in
-                report.pdf|report.ink.json|inspect.html|compare.html|"$k".md) ;;
-                *) echo "::error file=$f::unexpected file in a published report folder: $f"; fail=1 ;;
-              esac
-            done < <(find "$d" -type f)
-          done
-          # A guard that cannot tell "all clean" from "checked nothing" is not a
-          # guard: without this, a moved or renamed reports/ would pass silently.
-          [ "$checked" -gt 0 ] || { echo "::error::guard inspected 0 files - refusing to publish"; exit 1; }
-          if [ "$fail" = 0 ]; then
-            echo "reports/: ${#dirs[@]} document folders, $checked files, every one an allowed artefact"
-          else
-            echo "reports/: refusing to publish"; exit 1
-          fi
+          python3 - <<'GUARD'
+          import json, os, sys, glob
+
+          ALLOWED = ("report.pdf", "report.ink.json", "inspect.html", "compare.html")
+          errs = []
+
+          if not os.path.isdir("reports"):
+              print("::error::reports/ is missing - refusing to publish"); sys.exit(1)
+          dirs = sorted(d for d in glob.glob("reports/*/") if os.path.isdir(d))
+          if not dirs:
+              print("::error::reports/ has no document folders - refusing to publish"); sys.exit(1)
+
+          def content_ok(path, name):
+              """Is this file the thing its name claims? Names are cheap to get
+              right and prove nothing: a zero-byte report.pdf passes any check
+              that only reads the filename."""
+              n = os.path.getsize(path)
+              if n == 0:
+                  return "zero bytes"
+              with open(path, "rb") as fh:
+                  head = fh.read(1024)
+                  fh.seek(max(0, n - 2048)); tail = fh.read()
+              if name.endswith(".pdf"):
+                  if not head.startswith(b"%PDF"):
+                      return "no %%PDF header"
+                  if b"%%EOF" not in tail:
+                      return "no %%EOF trailer - truncated"
+              elif name.endswith(".html"):
+                  if b"<" not in head:
+                      return "no markup"
+              elif name.endswith(".json"):
+                  try:
+                      json.load(open(path, encoding="utf-8"))
+                  except Exception as e:
+                      return f"unparseable JSON: {e}"
+              return None
+
+          checked = 0
+          for d in dirs:
+              k = os.path.basename(d.rstrip("/"))
+              for root, _, files in os.walk(d):
+                  for b in sorted(files):
+                      p = os.path.join(root, b)
+                      checked += 1
+                      if b not in ALLOWED and b != f"{k}.md":
+                          errs.append((p, "unexpected file in a published report folder"))
+                          continue
+                      why = content_ok(p, b)
+                      if why:
+                          errs.append((p, f"named {b} but {why}"))
+
+          # Counts make the verdict falsifiable at a glance; the content checks
+          # make its INPUTS falsifiable. A guard that inspected nothing, and a
+          # guard that inspected an empty file, both otherwise report success.
+          if checked == 0:
+              print("::error::guard inspected 0 files - refusing to publish"); sys.exit(1)
+          for p, why in errs:
+              print(f"::error file={p}::{why}: {p}")
+          if errs:
+              print(f"reports/: {len(errs)} problem(s) - refusing to publish"); sys.exit(1)
+          print(f"reports/: {len(dirs)} document folders, {checked} files, "
+                f"every one an allowed artefact and structurally valid")
+          GUARD
 
       - name: Stage the site
         # Copy to a clean directory rather than uploading the checkout itself,
