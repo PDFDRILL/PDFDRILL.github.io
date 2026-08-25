@@ -213,6 +213,22 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
           <td><a href="pdf-dc99cf88/report.pdf">report.pdf</a> · <a href="pdf-dc99cf88/pdf-dc99cf88.md">markdown</a> · <a href="pdf-dc99cf88/inspect.html">inspect</a> · <a href="pdf-dc99cf88/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
+          <td><code class="doc">penev_A</code><div class="ttl">Local Feature Analysis: A Statistical Theory for Information Representation and Transmission<span class="au"> &middot; Penio S. Penev &middot; scanned inkjet print</span></div></td>
+          <td class="src">PhD thesis, Rockefeller Univ., May 1998</td>
+          <td class="n">116</td>
+          <td class="res"><span class="rd">not measured</span><div class="cts nm">no ink pass yet</div></td>
+          <td class="n">3.7 MB</td>
+          <td><a href="penev_A/report.pdf">report.pdf</a> &middot; <a href="penev_A/penev_A.md">markdown</a> &middot; <a href="penev_A/inspect.html">inspect</a></td>
+        </tr>
+        <tr>
+          <td><code class="doc">penev_B</code><div class="ttl">Local Feature Analysis (cont.): &sect;4.4.4 &ndash; ch. 5<span class="au"> &middot; Penio S. Penev &middot; scanned inkjet print</span></div></td>
+          <td class="src">PhD thesis, Rockefeller Univ., May 1998</td>
+          <td class="n">62</td>
+          <td class="res"><span class="rd">not measured</span><div class="cts nm">no ink pass yet</div></td>
+          <td class="n">2.2 MB</td>
+          <td><a href="penev_B/report.pdf">report.pdf</a> &middot; <a href="penev_B/penev_B.md">markdown</a> &middot; <a href="penev_B/inspect.html">inspect</a></td>
+        </tr>
+        <tr>
           <td><code class="doc">rph8-g15q</code><div class="ttl">Toward structure-preserving quantum encodings<span class="au"> · Parzygnat, Bradley, Vlasic &amp; Pham</span></div></td>
           <td class="src"><a href="https://doi.org/10.1103/rph8-g15q" target="_blank" rel="noopener">Phys. Rev. Research 7, 041001 (2025)</a></td>
           <td class="n">81</td>
@@ -246,7 +262,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
       <code>report.ink.json</code> carries the measurements machine-readably. The two
       instruments disagree usefully — neither predicts the other.</p>
 
-      <p><strong>Two do not, and the reason is the point of the column.</strong> A residual is
+      <p><strong>Four do not, and the reason is the point of the column.</strong> A residual is
       only worth printing if each one is attached to the right equation, and rows pair to
       identifiers by <em>position</em>. Where that pairing cannot be shown to hold, no residual
       is published rather than a plausible one.</p>
@@ -267,7 +283,19 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
         the PDF above carries no bullets at all rather than wrong ones; its Conf. column, LaTeX,
         renders and crops were never affected. If you downloaded its <code>report.ink.json</code>
         before 2026-08-24, discard it.</li>
+        <li><code>penev_A</code> and <code>penev_B</code> — <strong>no ink pass yet</strong>.
+        These were drilled after the residual pipeline stalled on two open lattice defects, so
+        nothing has been measured against their scans. Not a refusal and not a withdrawal:
+        simply not done. The Conf. column is complete for both.</li>
       </ul>
+
+      <p><strong>One report is missing a character.</strong> Compiling
+      <code>penev_A</code> ended with xelatex discarding a single code point (U+0009) that it
+      could not set, and the builder flags that as untrustworthy rather than clean: a dropped
+      glyph leaves no visible gap on the page. Both reports otherwise compiled with 0 errors and
+      0 rows demoted to source-only. The character is not traceable to the model, the generated
+      LaTeX or the OCR source &mdash; it appears during typesetting &mdash; so it is disclosed
+      here rather than explained away. <code>penev_B</code> compiled with no such warning.</p>
 
       <p><strong>Equations counts what is in the report, not what is in the document.</strong>
       <code>0902.0431</code> is filtered to <code>--max-conf 0.5 --types equation</code>, so its
