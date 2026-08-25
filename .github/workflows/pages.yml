@@ -31,6 +31,31 @@ jobs:
       - uses: actions/checkout@v4
         # fetch-depth: 1 is the default and is the point of this change.
 
+      - name: Refuse to publish an artefact nobody chose
+        # reports/<bibkey>/ sits next to a working directory whose files share
+        # its prefix: report.tex, report.log, report.refined.pdf, and the
+        # quarantined report.ink.json.MISPAIRED all match `report.*`. Three
+        # sessions write into that library. An allowlist here means a stray
+        # file fails the deploy loudly instead of going live quietly - the one
+        # way a withdrawn or unreviewed artefact could reach the site without
+        # anyone deciding to publish it.
+        run: |
+          fail=0
+          for d in reports/*/; do
+            k=$(basename "$d")
+            while IFS= read -r f; do
+              case "$(basename "$f")" in
+                report.pdf|report.ink.json|inspect.html|compare.html|"$k".md) ;;
+                *) echo "::error file=$f::unexpected file in a published report folder: $f"; fail=1 ;;
+              esac
+            done < <(find "$d" -type f)
+          done
+          if [ "$fail" = 0 ]; then
+            echo "reports/: $(ls -d reports/*/ | wc -l) document folders, every file an allowed artefact"
+          else
+            echo "reports/: refusing to publish"; exit 1
+          fi
+
       - name: Stage the site
         # Copy to a clean directory rather than uploading the checkout itself,
         # so .git and CI config can never end up in the published artifact.
