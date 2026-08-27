@@ -43,7 +43,7 @@ jobs:
           python3 - <<'GUARD'
           import json, os, sys, glob
 
-          ALLOWED = ("report.pdf", "report.ink.json", "inspect.html", "compare.html")
+          ALLOWED = ("report.pdf", "report.ink.json", "report.build.json", "inspect.html", "compare.html")
           errs = []
 
           if not os.path.isdir("reports"):
@@ -94,6 +94,27 @@ jobs:
           # Counts make the verdict falsifiable at a glance; the content checks
           # make its INPUTS falsifiable. A guard that inspected nothing, and a
           # guard that inspected an empty file, both otherwise report success.
+          # A stamp that has stopped describing its own file is the failure it
+          # exists to prevent, so check it before trusting anything it says.
+          import hashlib
+          for d in dirs:
+              st = os.path.join(d, "report.build.json")
+              if not os.path.exists(st):
+                  continue
+              try:
+                  b = json.load(open(st, encoding="utf-8"))
+              except Exception as e:
+                  errs.append((st, f"unparseable build stamp: {e}")); continue
+              pdf = os.path.join(d, b.get("pdf", "report.pdf"))
+              if not os.path.exists(pdf):
+                  errs.append((st, f"stamp names {b.get('pdf')!r}, which is not published")); continue
+              raw = open(pdf, "rb").read()
+              if b.get("bytes") != len(raw):
+                  errs.append((st, f"stamp says {b.get('bytes')} bytes, file is {len(raw)} "
+                                   f"-- the stamp no longer describes the report beside it"))
+              elif b.get("sha256") and b["sha256"] != hashlib.sha256(raw).hexdigest():
+                  errs.append((st, "stamp sha256 does not match the report beside it"))
+
           if checked == 0:
               print("::error::guard inspected 0 files - refusing to publish"); sys.exit(1)
           for p, why in errs:
@@ -160,6 +181,19 @@ jobs:
                           f"{k}: report.ink.json p90 component ratio {p90:.2f} (>= 3.0) -- most "
                           f"rows do not pair, so the render and the scan cell are not the same "
                           f"cell. Present, valid and correctly described, but not credible.")
+                      continue
+              # Provenance, where the artefact carries it. An ink.json with no
+              # measured_against is UNRECORDED, not failed -- every measurement
+              # predating the stamp lacks it, including all six published here.
+              # A stamp arriving must not retroactively condemn artefacts that
+              # could not have carried it.
+              prov = json.load(open(ink, encoding="utf-8")).get("measured_against")
+              if isinstance(prov, dict):
+                  if prov.get("phase") != "measure":
+                      claim_errs.append(
+                          f"{k}: report.ink.json was measured against a build with "
+                          f"phase={prov.get('phase')!r}, not 'measure' -- the measurement saw "
+                          f"a report carrying the legend and/or bullets it was meant to exclude.")
                       continue
               want = {LET[f]: v for f, v in dist.items()}
               got = {a: int(b) for a, b in re.findall(r">([CWSNK])</b>(\d+)", cell)}
