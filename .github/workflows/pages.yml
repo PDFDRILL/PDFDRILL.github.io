@@ -164,6 +164,26 @@ jobs:
                       f"legend does not define (it defines {sorted(LET)}). The legend needs "
                       f"updating in the same commit that publishes this artefact.")
                   continue
+              # An all-zero pair -- nothing rendered, nothing scanned -- is an
+              # ABSENT reading, and flag_of() computes distance 0 whose first
+              # branch returns "clean". So an unmeasurable row takes the BEST
+              # class. Every other layer here is blind to it: the class is in my
+              # vocabulary, the bar is generated from this file so it agrees, the
+              # code prints so the join matches, and its ratio is 0.0, which drags
+              # p90 DOWN -- 15% of these makes a document look MORE credible.
+              # Refuse, do not drop: a genuinely missing render AND scan produces
+              # the identical signature and owns a real identifier, so removing
+              # the row would shift every row after it.
+              zero = [x["id"] for x in rows_
+                      if x.get("L") == [0, 0, 0, 0, 0] and x.get("R") == [0, 0, 0, 0, 0]]
+              if zero:
+                  claim_errs.append(
+                      f"{k}: report.ink.json has {len(zero)} row(s) where neither the render "
+                      f"nor the scan cell holds any ink -- an absent reading, not a measured "
+                      f"one. On the current converter these take flag 'clean'. First: "
+                      f"{', '.join(zero[:3])}")
+                  continue
+
               # Is the measurement CREDIBLE, not merely present and correctly
               # described? Per row, compare the render's component count with the
               # scan's: max/max(1,min), scale- and order-free. A genuinely
