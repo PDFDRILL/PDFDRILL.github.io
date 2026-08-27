@@ -192,15 +192,26 @@ jobs:
               # which is the pairing question. pdfdrill-7b's corpus puts every
               # sound document at p90 <= 1.07 and every suspect one at >= 6.71;
               # 3.0 sits in that empty band rather than being tuned to it.
+              # A row demoted to "(not rendered)" has NO rendered mathematics: its
+              # Rendered cell holds those literal words, which measure to a
+              # constant [13,6,0,0,0] of ink, compared against a full scan cell.
+              # The ratio is then legitimately enormous because the render is
+              # correctly ABSENT, not because two readings disagree. Verified: this
+              # tuple reproduces pdfdrill-7b's demoted-row percentages exactly on
+              # all eleven, including 62.5% and 50% on the two small documents.
+              DEMOTED = [13, 6, 0, 0, 0]
+              rendered = [x for x in rows_ if x.get("L") != DEMOTED]
               ratios = sorted(max(x["L"][0], x["R"][0]) / max(1, min(x["L"][0], x["R"][0]))
-                              for x in rows_)
+                              for x in rendered)
               if ratios:
                   p90 = ratios[min(len(ratios) - 1, int(round(0.9 * (len(ratios) - 1))))]
                   if p90 >= 3.0:
                       claim_errs.append(
-                          f"{k}: report.ink.json p90 component ratio {p90:.2f} (>= 3.0) -- most "
-                          f"rows do not pair, so the render and the scan cell are not the same "
-                          f"cell. Present, valid and correctly described, but not credible.")
+                          f"{k}: report.ink.json p90 component ratio {p90:.2f} (>= 3.0) over "
+                          f"{len(rendered)} rendered rows ({len(rows_) - len(rendered)} demoted "
+                          f"rows excluded) -- most rows do not pair, so the render and the scan "
+                          f"cell are not the same cell. Present, valid and correctly described, "
+                          f"but not credible.")
                       continue
               # Provenance, where the artefact carries it. An ink.json with no
               # measured_against is UNRECORDED, not failed -- every measurement
