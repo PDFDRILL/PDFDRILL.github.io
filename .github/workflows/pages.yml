@@ -41,7 +41,7 @@ jobs:
         # anyone deciding to publish it.
         run: |
           python3 - <<'GUARD'
-          import json, os, sys, glob
+          import json, os, sys, glob, subprocess, re, collections
 
           ALLOWED = ("report.pdf", "report.ink.json", "report.build.json", "inspect.html", "compare.html")
           errs = []
@@ -196,6 +196,37 @@ jobs:
                           f"a report carrying the legend and/or bullets it was meant to exclude.")
                       continue
               want = {LET[f]: v for f, v in dist.items()}
+              # Did the measurement actually LAND in the report beside it?
+              # pdfdrill-7b's residual_colour renders an identifier it cannot find
+              # as "unmeasured", so an ink.json whose identifiers do not intersect
+              # the report produces a document of uniformly grey bullets with the
+              # ink legend printed and no error -- indistinguishable, on the page,
+              # from one nobody measured. From here that is visible as a count:
+              # the ink.json claims N rows and the PDF prints N selectable codes.
+              # Codes ARE recoverable by pdftotext (verified 6/6); identifiers are
+              # NOT, which is why this is the check and the obvious one is not.
+              pdf = os.path.join("reports", k, "report.pdf")
+              if os.path.exists(pdf):
+                  try:
+                      out = subprocess.run(["pdftotext", "-layout", pdf, "-"],
+                                           capture_output=True, text=True, timeout=300).stdout
+                  except Exception:
+                      out = None
+                  if out:
+                      seen = collections.Counter(m for m in re.findall(r"([CWSNK])\|[+-]?\d+", out))
+                      if sum(seen.values()) == 0:
+                          claim_errs.append(
+                              f"{k}: report.ink.json has {len(rows_)} rows but the report prints "
+                              f"no residual codes at all -- the measurement did not join to this "
+                              f"report, so every bullet renders unmeasured.")
+                          continue
+                      if seen != want:
+                          claim_errs.append(
+                              f"{k}: the report prints {dict(seen)} residual codes but "
+                              f"report.ink.json says {dict(want)} -- the measurement and the "
+                              f"document it is published beside do not agree.")
+                          continue
+
               got = {a: int(b) for a, b in re.findall(r">([CWSNK])</b>(\d+)", cell)}
               if got and got != want:
                   claim_errs.append(f"{k}: residual bar {got} does not match report.ink.json {want}")
