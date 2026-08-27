@@ -143,6 +143,24 @@ jobs:
                       f"legend does not define (it defines {sorted(LET)}). The legend needs "
                       f"updating in the same commit that publishes this artefact.")
                   continue
+              # Is the measurement CREDIBLE, not merely present and correctly
+              # described? Per row, compare the render's component count with the
+              # scan's: max/max(1,min), scale- and order-free. A genuinely
+              # mis-transcribed equation SHOULD differ wildly, so a per-row cap
+              # would refuse real findings -- the p90 asks whether MOST rows pair,
+              # which is the pairing question. pdfdrill-7b's corpus puts every
+              # sound document at p90 <= 1.07 and every suspect one at >= 6.71;
+              # 3.0 sits in that empty band rather than being tuned to it.
+              ratios = sorted(max(x["L"][0], x["R"][0]) / max(1, min(x["L"][0], x["R"][0]))
+                              for x in rows_)
+              if ratios:
+                  p90 = ratios[min(len(ratios) - 1, int(round(0.9 * (len(ratios) - 1))))]
+                  if p90 >= 3.0:
+                      claim_errs.append(
+                          f"{k}: report.ink.json p90 component ratio {p90:.2f} (>= 3.0) -- most "
+                          f"rows do not pair, so the render and the scan cell are not the same "
+                          f"cell. Present, valid and correctly described, but not credible.")
+                      continue
               want = {LET[f]: v for f, v in dist.items()}
               got = {a: int(b) for a, b in re.findall(r">([CWSNK])</b>(\d+)", cell)}
               if got and got != want:
