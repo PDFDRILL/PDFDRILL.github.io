@@ -1,0 +1,6391 @@
+{
+ "rows": [
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0124",
+   "report_page": 1,
+   "line": 1,
+   "L": [
+    38,
+    9,
+    11,
+    6,
+    5
+   ],
+   "R": [
+    38,
+    9,
+    11,
+    4,
+    7
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0133",
+   "report_page": 1,
+   "line": 2,
+   "L": [
+    44,
+    7,
+    5,
+    1,
+    4
+   ],
+   "R": [
+    44,
+    7,
+    5,
+    1,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0141",
+   "report_page": 1,
+   "line": 3,
+   "L": [
+    27,
+    10,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 27,
+   "comp_delta": 17,
+   "signed_delta": -17,
+   "flag": "component",
+   "code": "C|-17"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0197",
+   "report_page": 1,
+   "line": 4,
+   "L": [
+    59,
+    20,
+    4,
+    0,
+    4
+   ],
+   "R": [
+    42,
+    7,
+    5,
+    5,
+    0
+   ],
+   "distance": 40,
+   "comp_delta": 17,
+   "signed_delta": -17,
+   "flag": "component",
+   "code": "C|-17"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0244",
+   "report_page": 1,
+   "line": 5,
+   "L": [
+    35,
+    2,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    32,
+    1,
+    4,
+    4,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0207",
+   "report_page": 1,
+   "line": 6,
+   "L": [
+    33,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    33,
+    6,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0233",
+   "report_page": 2,
+   "line": 1,
+   "L": [
+    14,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0130",
+   "report_page": 2,
+   "line": 2,
+   "L": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0190",
+   "report_page": 2,
+   "line": 3,
+   "L": [
+    10,
+    1,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    10,
+    2,
+    0,
+    0,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0029",
+   "report_page": 2,
+   "line": 4,
+   "L": [
+    9,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    9,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0051",
+   "report_page": 2,
+   "line": 5,
+   "L": [
+    35,
+    4,
+    7,
+    3,
+    4
+   ],
+   "R": [
+    36,
+    4,
+    7,
+    3,
+    4
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0120",
+   "report_page": 2,
+   "line": 6,
+   "L": [
+    99,
+    18,
+    22,
+    11,
+    11
+   ],
+   "R": [
+    100,
+    20,
+    9,
+    8,
+    1
+   ],
+   "distance": 29,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0056",
+   "report_page": 2,
+   "line": 7,
+   "L": [
+    88,
+    3,
+    72,
+    26,
+    39
+   ],
+   "R": [
+    89,
+    3,
+    71,
+    29,
+    34
+   ],
+   "distance": 10,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0125",
+   "report_page": 2,
+   "line": 8,
+   "L": [
+    58,
+    1,
+    42,
+    20,
+    21
+   ],
+   "R": [
+    58,
+    6,
+    42,
+    21,
+    20
+   ],
+   "distance": 7,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0189",
+   "report_page": 3,
+   "line": 1,
+   "L": [
+    10,
+    1,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    10,
+    1,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0198",
+   "report_page": 3,
+   "line": 2,
+   "L": [
+    33,
+    1,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    31,
+    3,
+    7,
+    7,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0160",
+   "report_page": 3,
+   "line": 3,
+   "L": [
+    36,
+    3,
+    7,
+    4,
+    3
+   ],
+   "R": [
+    35,
+    3,
+    6,
+    4,
+    2
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0040",
+   "report_page": 3,
+   "line": 4,
+   "L": [
+    63,
+    5,
+    21,
+    11,
+    10
+   ],
+   "R": [
+    64,
+    3,
+    7,
+    5,
+    2
+   ],
+   "distance": 31,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0216",
+   "report_page": 3,
+   "line": 5,
+   "L": [
+    33,
+    2,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    33,
+    2,
+    4,
+    4,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0266",
+   "report_page": 3,
+   "line": 6,
+   "L": [
+    25,
+    8,
+    13,
+    13,
+    0
+   ],
+   "R": [
+    25,
+    8,
+    13,
+    13,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0009",
+   "report_page": 3,
+   "line": 7,
+   "L": [
+    26,
+    12,
+    14,
+    14,
+    0
+   ],
+   "R": [
+    26,
+    12,
+    14,
+    14,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0137",
+   "report_page": 3,
+   "line": 8,
+   "L": [
+    27,
+    7,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    27,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0119",
+   "report_page": 4,
+   "line": 1,
+   "L": [
+    42,
+    2,
+    8,
+    4,
+    4
+   ],
+   "R": [
+    42,
+    2,
+    8,
+    4,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0052",
+   "report_page": 4,
+   "line": 2,
+   "L": [
+    166,
+    14,
+    13,
+    3,
+    10
+   ],
+   "R": [
+    167,
+    18,
+    13,
+    3,
+    10
+   ],
+   "distance": 5,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0064",
+   "report_page": 4,
+   "line": 3,
+   "L": [
+    76,
+    10,
+    18,
+    11,
+    7
+   ],
+   "R": [
+    76,
+    5,
+    6,
+    4,
+    2
+   ],
+   "distance": 29,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0206",
+   "report_page": 4,
+   "line": 4,
+   "L": [
+    67,
+    6,
+    14,
+    7,
+    7
+   ],
+   "R": [
+    66,
+    7,
+    5,
+    5,
+    0
+   ],
+   "distance": 20,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "weak",
+   "code": "W|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0007",
+   "report_page": 4,
+   "line": 5,
+   "L": [
+    64,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    64,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0143",
+   "report_page": 4,
+   "line": 6,
+   "L": [
+    32,
+    3,
+    4,
+    2,
+    2
+   ],
+   "R": [
+    32,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0245",
+   "report_page": 5,
+   "line": 1,
+   "L": [
+    13,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0161",
+   "report_page": 5,
+   "line": 2,
+   "L": [
+    12,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    12,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0118",
+   "report_page": 5,
+   "line": 3,
+   "L": [
+    39,
+    6,
+    11,
+    5,
+    6
+   ],
+   "R": [
+    39,
+    6,
+    15,
+    8,
+    7
+   ],
+   "distance": 8,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0138",
+   "report_page": 5,
+   "line": 4,
+   "L": [
+    27,
+    7,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    27,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0162",
+   "report_page": 5,
+   "line": 5,
+   "L": [
+    23,
+    0,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    24,
+    0,
+    3,
+    2,
+    1
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0030",
+   "report_page": 5,
+   "line": 6,
+   "L": [
+    14,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0199",
+   "report_page": 5,
+   "line": 7,
+   "L": [
+    48,
+    7,
+    12,
+    12,
+    0
+   ],
+   "R": [
+    46,
+    5,
+    12,
+    12,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0087",
+   "report_page": 5,
+   "line": 8,
+   "L": [
+    69,
+    6,
+    28,
+    6,
+    16
+   ],
+   "R": [
+    68,
+    6,
+    25,
+    5,
+    14
+   ],
+   "distance": 7,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0153",
+   "report_page": 5,
+   "line": 9,
+   "L": [
+    48,
+    5,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    47,
+    6,
+    4,
+    2,
+    2
+   ],
+   "distance": 6,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0214",
+   "report_page": 6,
+   "line": 1,
+   "L": [
+    98,
+    5,
+    42,
+    14,
+    28
+   ],
+   "R": [
+    93,
+    6,
+    41,
+    20,
+    21
+   ],
+   "distance": 20,
+   "comp_delta": 5,
+   "signed_delta": -5,
+   "flag": "component",
+   "code": "C|-5"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0099",
+   "report_page": 6,
+   "line": 2,
+   "L": [
+    28,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    28,
+    4,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0235",
+   "report_page": 6,
+   "line": 3,
+   "L": [
+    15,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    15,
+    1,
+    2,
+    1,
+    1
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0201",
+   "report_page": 6,
+   "line": 4,
+   "L": [
+    24,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    25,
+    3,
+    3,
+    2,
+    1
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0232",
+   "report_page": 6,
+   "line": 5,
+   "L": [
+    13,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    13,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0259",
+   "report_page": 6,
+   "line": 6,
+   "L": [
+    30,
+    1,
+    8,
+    3,
+    5
+   ],
+   "R": [
+    30,
+    1,
+    8,
+    3,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0226",
+   "report_page": 6,
+   "line": 7,
+   "L": [
+    9,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    9,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0231",
+   "report_page": 6,
+   "line": 8,
+   "L": [
+    20,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    20,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0149",
+   "report_page": 7,
+   "line": 1,
+   "L": [
+    284,
+    44,
+    63,
+    37,
+    26
+   ],
+   "R": [
+    281,
+    49,
+    49,
+    32,
+    17
+   ],
+   "distance": 36,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0144",
+   "report_page": 7,
+   "line": 2,
+   "L": [
+    55,
+    3,
+    10,
+    5,
+    4
+   ],
+   "R": [
+    55,
+    3,
+    8,
+    5,
+    2
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0202",
+   "report_page": 7,
+   "line": 3,
+   "L": [
+    27,
+    3,
+    9,
+    4,
+    5
+   ],
+   "R": [
+    26,
+    3,
+    9,
+    5,
+    4
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0145",
+   "report_page": 7,
+   "line": 4,
+   "L": [
+    48,
+    5,
+    8,
+    5,
+    3
+   ],
+   "R": [
+    48,
+    5,
+    4,
+    4,
+    0
+   ],
+   "distance": 8,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0041",
+   "report_page": 8,
+   "line": 1,
+   "L": [
+    165,
+    12,
+    63,
+    22,
+    41
+   ],
+   "R": [
+    164,
+    13,
+    17,
+    11,
+    6
+   ],
+   "distance": 94,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "weak",
+   "code": "W|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0265",
+   "report_page": 8,
+   "line": 2,
+   "L": [
+    25,
+    9,
+    13,
+    13,
+    0
+   ],
+   "R": [
+    26,
+    9,
+    14,
+    14,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0136",
+   "report_page": 8,
+   "line": 3,
+   "L": [
+    31,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    31,
+    5,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0152",
+   "report_page": 8,
+   "line": 4,
+   "L": [
+    35,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    34,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0218",
+   "report_page": 8,
+   "line": 5,
+   "L": [
+    14,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0243",
+   "report_page": 8,
+   "line": 6,
+   "L": [
+    9,
+    2,
+    2,
+    1,
+    1
+   ],
+   "R": [
+    9,
+    2,
+    2,
+    1,
+    1
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0242",
+   "report_page": 8,
+   "line": 7,
+   "L": [
+    26,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    25,
+    5,
+    3,
+    2,
+    1
+   ],
+   "distance": 6,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0072",
+   "report_page": 9,
+   "line": 1,
+   "L": [
+    38,
+    2,
+    4,
+    1,
+    3
+   ],
+   "R": [
+    38,
+    2,
+    4,
+    1,
+    3
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0015",
+   "report_page": 9,
+   "line": 2,
+   "L": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0096",
+   "report_page": 9,
+   "line": 3,
+   "L": [
+    74,
+    3,
+    13,
+    5,
+    6
+   ],
+   "R": [
+    75,
+    3,
+    12,
+    5,
+    6
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0228",
+   "report_page": 9,
+   "line": 4,
+   "L": [
+    32,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    32,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0107",
+   "report_page": 9,
+   "line": 5,
+   "L": [
+    28,
+    2,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    27,
+    2,
+    3,
+    3,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0186",
+   "report_page": 9,
+   "line": 6,
+   "L": [
+    27,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    24,
+    0,
+    3,
+    3,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0254",
+   "report_page": 9,
+   "line": 7,
+   "L": [
+    44,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    45,
+    8,
+    2,
+    1,
+    1
+   ],
+   "distance": 5,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0054",
+   "report_page": 9,
+   "line": 8,
+   "L": [
+    70,
+    5,
+    70,
+    28,
+    30
+   ],
+   "R": [
+    70,
+    6,
+    71,
+    26,
+    33
+   ],
+   "distance": 7,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0132",
+   "report_page": 9,
+   "line": 9,
+   "L": [
+    39,
+    10,
+    5,
+    1,
+    4
+   ],
+   "R": [
+    39,
+    10,
+    5,
+    1,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0150",
+   "report_page": 10,
+   "line": 1,
+   "L": [
+    31,
+    0,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    31,
+    0,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0065",
+   "report_page": 10,
+   "line": 2,
+   "L": [
+    42,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    42,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0223",
+   "report_page": 10,
+   "line": 3,
+   "L": [
+    36,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    36,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0182",
+   "report_page": 10,
+   "line": 4,
+   "L": [
+    13,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    13,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0257",
+   "report_page": 10,
+   "line": 5,
+   "L": [
+    37,
+    12,
+    27,
+    27,
+    0
+   ],
+   "R": [
+    33,
+    13,
+    24,
+    24,
+    0
+   ],
+   "distance": 11,
+   "comp_delta": 4,
+   "signed_delta": -4,
+   "flag": "component",
+   "code": "C|-4"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0176",
+   "report_page": 10,
+   "line": 6,
+   "L": [
+    26,
+    3,
+    13,
+    6,
+    5
+   ],
+   "R": [
+    26,
+    3,
+    13,
+    6,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0085",
+   "report_page": 10,
+   "line": 7,
+   "L": [
+    25,
+    2,
+    20,
+    7,
+    8
+   ],
+   "R": [
+    24,
+    2,
+    19,
+    7,
+    7
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0156",
+   "report_page": 10,
+   "line": 8,
+   "L": [
+    49,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    48,
+    2,
+    3,
+    3,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0258",
+   "report_page": 10,
+   "line": 9,
+   "L": [
+    41,
+    0,
+    10,
+    5,
+    5
+   ],
+   "R": [
+    41,
+    2,
+    10,
+    5,
+    5
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0208",
+   "report_page": 11,
+   "line": 1,
+   "L": [
+    23,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    20,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0246",
+   "report_page": 11,
+   "line": 2,
+   "L": [
+    391,
+    45,
+    197,
+    121,
+    76
+   ],
+   "R": [
+    388,
+    51,
+    267,
+    175,
+    92
+   ],
+   "distance": 149,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0195",
+   "report_page": 11,
+   "line": 3,
+   "L": [
+    34,
+    1,
+    12,
+    4,
+    8
+   ],
+   "R": [
+    35,
+    2,
+    10,
+    3,
+    7
+   ],
+   "distance": 6,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0261",
+   "report_page": 11,
+   "line": 4,
+   "L": [
+    54,
+    5,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    54,
+    8,
+    4,
+    4,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0026",
+   "report_page": 11,
+   "line": 5,
+   "L": [
+    27,
+    3,
+    12,
+    5,
+    7
+   ],
+   "R": [
+    27,
+    2,
+    3,
+    2,
+    1
+   ],
+   "distance": 19,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0018",
+   "report_page": 11,
+   "line": 6,
+   "L": [
+    13,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    13,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0071",
+   "report_page": 11,
+   "line": 7,
+   "L": [
+    52,
+    0,
+    10,
+    3,
+    7
+   ],
+   "R": [
+    53,
+    1,
+    6,
+    2,
+    4
+   ],
+   "distance": 10,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0154",
+   "report_page": 12,
+   "line": 1,
+   "L": [
+    25,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    25,
+    2,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0155",
+   "report_page": 12,
+   "line": 2,
+   "L": [
+    27,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    27,
+    2,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0185",
+   "report_page": 12,
+   "line": 3,
+   "L": [
+    28,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    25,
+    1,
+    4,
+    3,
+    1
+   ],
+   "distance": 6,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0203",
+   "report_page": 12,
+   "line": 4,
+   "L": [
+    33,
+    4,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    31,
+    3,
+    5,
+    4,
+    1
+   ],
+   "distance": 5,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0025",
+   "report_page": 12,
+   "line": 5,
+   "L": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0013",
+   "report_page": 12,
+   "line": 6,
+   "L": [
+    18,
+    7,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    18,
+    7,
+    7,
+    7,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0224",
+   "report_page": 12,
+   "line": 7,
+   "L": [
+    56,
+    1,
+    9,
+    1,
+    8
+   ],
+   "R": [
+    56,
+    1,
+    9,
+    1,
+    8
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0248",
+   "report_page": 12,
+   "line": 8,
+   "L": [
+    35,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    35,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0179",
+   "report_page": 12,
+   "line": 9,
+   "L": [
+    20,
+    0,
+    7,
+    6,
+    1
+   ],
+   "R": [
+    21,
+    0,
+    8,
+    7,
+    1
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0004",
+   "report_page": 13,
+   "line": 1,
+   "L": [
+    60,
+    3,
+    6,
+    2,
+    4
+   ],
+   "R": [
+    60,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 10,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0006",
+   "report_page": 13,
+   "line": 2,
+   "L": [
+    44,
+    21,
+    29,
+    29,
+    0
+   ],
+   "R": [
+    44,
+    21,
+    29,
+    29,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0019",
+   "report_page": 13,
+   "line": 3,
+   "L": [
+    12,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    12,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0039",
+   "report_page": 13,
+   "line": 4,
+   "L": [
+    26,
+    1,
+    7,
+    3,
+    4
+   ],
+   "R": [
+    27,
+    2,
+    8,
+    3,
+    5
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0050",
+   "report_page": 13,
+   "line": 5,
+   "L": [
+    31,
+    4,
+    9,
+    3,
+    6
+   ],
+   "R": [
+    31,
+    5,
+    7,
+    3,
+    4
+   ],
+   "distance": 5,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0066",
+   "report_page": 13,
+   "line": 6,
+   "L": [
+    69,
+    2,
+    13,
+    2,
+    11
+   ],
+   "R": [
+    69,
+    2,
+    3,
+    2,
+    1
+   ],
+   "distance": 20,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0067",
+   "report_page": 13,
+   "line": 7,
+   "L": [
+    32,
+    9,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    32,
+    9,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0079",
+   "report_page": 13,
+   "line": 8,
+   "L": [
+    41,
+    6,
+    6,
+    4,
+    2
+   ],
+   "R": [
+    41,
+    6,
+    6,
+    4,
+    2
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0084",
+   "report_page": 14,
+   "line": 1,
+   "L": [
+    45,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    45,
+    2,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0090",
+   "report_page": 14,
+   "line": 2,
+   "L": [
+    42,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    42,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0106",
+   "report_page": 14,
+   "line": 3,
+   "L": [
+    40,
+    7,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    39,
+    7,
+    3,
+    3,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0146",
+   "report_page": 14,
+   "line": 4,
+   "L": [
+    30,
+    3,
+    4,
+    2,
+    2
+   ],
+   "R": [
+    30,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0180",
+   "report_page": 14,
+   "line": 5,
+   "L": [
+    19,
+    4,
+    6,
+    3,
+    3
+   ],
+   "R": [
+    19,
+    5,
+    6,
+    3,
+    3
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0194",
+   "report_page": 14,
+   "line": 6,
+   "L": [
+    35,
+    5,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    35,
+    6,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0200",
+   "report_page": 14,
+   "line": 7,
+   "L": [
+    34,
+    5,
+    3,
+    2,
+    1
+   ],
+   "R": [
+    33,
+    2,
+    4,
+    3,
+    1
+   ],
+   "distance": 6,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0204",
+   "report_page": 14,
+   "line": 8,
+   "L": [
+    42,
+    4,
+    12,
+    5,
+    7
+   ],
+   "R": [
+    40,
+    4,
+    11,
+    7,
+    4
+   ],
+   "distance": 8,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0229",
+   "report_page": 14,
+   "line": 9,
+   "L": [
+    22,
+    3,
+    10,
+    4,
+    6
+   ],
+   "R": [
+    22,
+    2,
+    10,
+    4,
+    6
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0237",
+   "report_page": 15,
+   "line": 1,
+   "L": [
+    24,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    24,
+    4,
+    0,
+    0,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0001",
+   "report_page": 15,
+   "line": 2,
+   "L": [
+    9,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    9,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0002",
+   "report_page": 15,
+   "line": 3,
+   "L": [
+    18,
+    1,
+    7,
+    3,
+    4
+   ],
+   "R": [
+    18,
+    2,
+    5,
+    2,
+    3
+   ],
+   "distance": 5,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0003",
+   "report_page": 15,
+   "line": 4,
+   "L": [
+    19,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    19,
+    2,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0005",
+   "report_page": 15,
+   "line": 5,
+   "L": [
+    34,
+    12,
+    21,
+    21,
+    0
+   ],
+   "R": [
+    34,
+    12,
+    21,
+    21,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0008",
+   "report_page": 15,
+   "line": 6,
+   "L": [
+    29,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    29,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0010",
+   "report_page": 15,
+   "line": 7,
+   "L": [
+    39,
+    13,
+    20,
+    18,
+    2
+   ],
+   "R": [
+    39,
+    13,
+    20,
+    20,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0011",
+   "report_page": 15,
+   "line": 8,
+   "L": [
+    44,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    44,
+    4,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0012",
+   "report_page": 16,
+   "line": 1,
+   "L": [
+    18,
+    0,
+    9,
+    4,
+    5
+   ],
+   "R": [
+    18,
+    0,
+    10,
+    5,
+    5
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0014",
+   "report_page": 16,
+   "line": 2,
+   "L": [
+    15,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0016",
+   "report_page": 16,
+   "line": 3,
+   "L": [
+    22,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    22,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0017",
+   "report_page": 16,
+   "line": 4,
+   "L": [
+    17,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    17,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0020",
+   "report_page": 16,
+   "line": 5,
+   "L": [
+    15,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    15,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0021",
+   "report_page": 16,
+   "line": 6,
+   "L": [
+    15,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    15,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0022",
+   "report_page": 16,
+   "line": 7,
+   "L": [
+    25,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    24,
+    8,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0023",
+   "report_page": 16,
+   "line": 8,
+   "L": [
+    21,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    21,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0024",
+   "report_page": 16,
+   "line": 9,
+   "L": [
+    48,
+    6,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    48,
+    6,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0027",
+   "report_page": 16,
+   "line": 10,
+   "L": [
+    14,
+    1,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    13,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0028",
+   "report_page": 17,
+   "line": 1,
+   "L": [
+    23,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    23,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0031",
+   "report_page": 17,
+   "line": 2,
+   "L": [
+    20,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    20,
+    4,
+    1,
+    1,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0032",
+   "report_page": 17,
+   "line": 3,
+   "L": [
+    33,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    33,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0033",
+   "report_page": 17,
+   "line": 4,
+   "L": [
+    14,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0034",
+   "report_page": 17,
+   "line": 5,
+   "L": [
+    31,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    31,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0035",
+   "report_page": 17,
+   "line": 6,
+   "L": [
+    24,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    24,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0036",
+   "report_page": 17,
+   "line": 7,
+   "L": [
+    41,
+    7,
+    4,
+    1,
+    3
+   ],
+   "R": [
+    43,
+    4,
+    5,
+    1,
+    4
+   ],
+   "distance": 7,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0037",
+   "report_page": 17,
+   "line": 8,
+   "L": [
+    87,
+    13,
+    36,
+    12,
+    24
+   ],
+   "R": [
+    87,
+    10,
+    13,
+    6,
+    7
+   ],
+   "distance": 49,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0038",
+   "report_page": 17,
+   "line": 9,
+   "L": [
+    22,
+    2,
+    7,
+    2,
+    5
+   ],
+   "R": [
+    22,
+    2,
+    7,
+    2,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0042",
+   "report_page": 18,
+   "line": 1,
+   "L": [
+    17,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    17,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0043",
+   "report_page": 18,
+   "line": 2,
+   "L": [
+    33,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    33,
+    4,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0044",
+   "report_page": 18,
+   "line": 3,
+   "L": [
+    23,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    23,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0045",
+   "report_page": 18,
+   "line": 4,
+   "L": [
+    40,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    40,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0046",
+   "report_page": 18,
+   "line": 5,
+   "L": [
+    34,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    34,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0047",
+   "report_page": 18,
+   "line": 6,
+   "L": [
+    35,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    35,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0048",
+   "report_page": 18,
+   "line": 7,
+   "L": [
+    23,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    23,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0049",
+   "report_page": 18,
+   "line": 8,
+   "L": [
+    24,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    24,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0053",
+   "report_page": 18,
+   "line": 9,
+   "L": [
+    28,
+    3,
+    22,
+    8,
+    11
+   ],
+   "R": [
+    28,
+    3,
+    22,
+    9,
+    10
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0055",
+   "report_page": 19,
+   "line": 1,
+   "L": [
+    43,
+    4,
+    38,
+    14,
+    15
+   ],
+   "R": [
+    43,
+    4,
+    39,
+    16,
+    15
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0057",
+   "report_page": 19,
+   "line": 2,
+   "L": [
+    22,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    22,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0058",
+   "report_page": 19,
+   "line": 3,
+   "L": [
+    31,
+    4,
+    25,
+    11,
+    11
+   ],
+   "R": [
+    31,
+    4,
+    27,
+    11,
+    11
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0059",
+   "report_page": 19,
+   "line": 4,
+   "L": [
+    35,
+    2,
+    16,
+    9,
+    4
+   ],
+   "R": [
+    35,
+    3,
+    17,
+    9,
+    4
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0060",
+   "report_page": 19,
+   "line": 5,
+   "L": [
+    44,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    44,
+    2,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0061",
+   "report_page": 19,
+   "line": 6,
+   "L": [
+    34,
+    0,
+    5,
+    1,
+    4
+   ],
+   "R": [
+    34,
+    2,
+    5,
+    1,
+    4
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0062",
+   "report_page": 19,
+   "line": 7,
+   "L": [
+    33,
+    0,
+    5,
+    1,
+    4
+   ],
+   "R": [
+    33,
+    0,
+    5,
+    1,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0063",
+   "report_page": 19,
+   "line": 8,
+   "L": [
+    39,
+    3,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    39,
+    4,
+    4,
+    4,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0068",
+   "report_page": 19,
+   "line": 9,
+   "L": [
+    18,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    19,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0069",
+   "report_page": 20,
+   "line": 1,
+   "L": [
+    27,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    27,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0070",
+   "report_page": 20,
+   "line": 2,
+   "L": [
+    28,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    28,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0073",
+   "report_page": 20,
+   "line": 3,
+   "L": [
+    41,
+    5,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    41,
+    5,
+    4,
+    4,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0074",
+   "report_page": 20,
+   "line": 4,
+   "L": [
+    49,
+    6,
+    47,
+    16,
+    21
+   ],
+   "R": [
+    49,
+    6,
+    47,
+    16,
+    22
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0075",
+   "report_page": 20,
+   "line": 5,
+   "L": [
+    25,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    25,
+    5,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0076",
+   "report_page": 20,
+   "line": 6,
+   "L": [
+    23,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    23,
+    5,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0077",
+   "report_page": 20,
+   "line": 7,
+   "L": [
+    50,
+    8,
+    39,
+    15,
+    19
+   ],
+   "R": [
+    50,
+    8,
+    44,
+    15,
+    20
+   ],
+   "distance": 6,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0078",
+   "report_page": 20,
+   "line": 8,
+   "L": [
+    44,
+    6,
+    41,
+    14,
+    18
+   ],
+   "R": [
+    44,
+    7,
+    42,
+    15,
+    18
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0080",
+   "report_page": 20,
+   "line": 9,
+   "L": [
+    23,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    23,
+    4,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0081",
+   "report_page": 21,
+   "line": 1,
+   "L": [
+    51,
+    7,
+    43,
+    15,
+    23
+   ],
+   "R": [
+    51,
+    8,
+    46,
+    16,
+    22
+   ],
+   "distance": 6,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0082",
+   "report_page": 21,
+   "line": 2,
+   "L": [
+    51,
+    8,
+    6,
+    2,
+    4
+   ],
+   "R": [
+    50,
+    9,
+    6,
+    2,
+    4
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0083",
+   "report_page": 21,
+   "line": 3,
+   "L": [
+    44,
+    6,
+    41,
+    14,
+    18
+   ],
+   "R": [
+    44,
+    6,
+    42,
+    15,
+    18
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0086",
+   "report_page": 21,
+   "line": 4,
+   "L": [
+    30,
+    2,
+    2,
+    1,
+    1
+   ],
+   "R": [
+    30,
+    2,
+    2,
+    1,
+    1
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0088",
+   "report_page": 21,
+   "line": 5,
+   "L": [
+    43,
+    4,
+    40,
+    16,
+    17
+   ],
+   "R": [
+    43,
+    4,
+    41,
+    16,
+    17
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0089",
+   "report_page": 21,
+   "line": 6,
+   "L": [
+    53,
+    4,
+    30,
+    11,
+    12
+   ],
+   "R": [
+    52,
+    4,
+    30,
+    11,
+    11
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0091",
+   "report_page": 21,
+   "line": 7,
+   "L": [
+    22,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    22,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0092",
+   "report_page": 21,
+   "line": 8,
+   "L": [
+    43,
+    1,
+    18,
+    9,
+    6
+   ],
+   "R": [
+    43,
+    2,
+    18,
+    9,
+    6
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0093",
+   "report_page": 22,
+   "line": 1,
+   "L": [
+    42,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    42,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0094",
+   "report_page": 22,
+   "line": 2,
+   "L": [
+    65,
+    3,
+    58,
+    19,
+    25
+   ],
+   "R": [
+    64,
+    3,
+    59,
+    19,
+    24
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0095",
+   "report_page": 22,
+   "line": 3,
+   "L": [
+    28,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    28,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0097",
+   "report_page": 22,
+   "line": 4,
+   "L": [
+    26,
+    3,
+    12,
+    5,
+    7
+   ],
+   "R": [
+    26,
+    3,
+    3,
+    2,
+    1
+   ],
+   "distance": 18,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0098",
+   "report_page": 22,
+   "line": 5,
+   "L": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0100",
+   "report_page": 22,
+   "line": 6,
+   "L": [
+    29,
+    0,
+    6,
+    4,
+    2
+   ],
+   "R": [
+    29,
+    0,
+    6,
+    4,
+    2
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0101",
+   "report_page": 22,
+   "line": 7,
+   "L": [
+    16,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    16,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0102",
+   "report_page": 22,
+   "line": 8,
+   "L": [
+    9,
+    1,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    9,
+    2,
+    0,
+    0,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0103",
+   "report_page": 22,
+   "line": 9,
+   "L": [
+    25,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    23,
+    5,
+    2,
+    2,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0104",
+   "report_page": 22,
+   "line": 10,
+   "L": [
+    30,
+    1,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    29,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0105",
+   "report_page": 23,
+   "line": 1,
+   "L": [
+    26,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    26,
+    5,
+    3,
+    3,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0108",
+   "report_page": 23,
+   "line": 2,
+   "L": [
+    12,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    12,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0109",
+   "report_page": 23,
+   "line": 3,
+   "L": [
+    13,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    12,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0110",
+   "report_page": 23,
+   "line": 4,
+   "L": [
+    35,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    35,
+    4,
+    2,
+    2,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0111",
+   "report_page": 23,
+   "line": 5,
+   "L": [
+    38,
+    0,
+    4,
+    0,
+    4
+   ],
+   "R": [
+    38,
+    0,
+    4,
+    0,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0112",
+   "report_page": 23,
+   "line": 6,
+   "L": [
+    15,
+    1,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    15,
+    4,
+    0,
+    0,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0113",
+   "report_page": 23,
+   "line": 7,
+   "L": [
+    10,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    10,
+    2,
+    0,
+    0,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0114",
+   "report_page": 23,
+   "line": 8,
+   "L": [
+    10,
+    1,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    10,
+    3,
+    0,
+    0,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0115",
+   "report_page": 23,
+   "line": 9,
+   "L": [
+    16,
+    1,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    16,
+    4,
+    0,
+    0,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0116",
+   "report_page": 23,
+   "line": 10,
+   "L": [
+    19,
+    3,
+    5,
+    2,
+    3
+   ],
+   "R": [
+    19,
+    3,
+    4,
+    2,
+    2
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0117",
+   "report_page": 24,
+   "line": 1,
+   "L": [
+    16,
+    4,
+    4,
+    2,
+    2
+   ],
+   "R": [
+    15,
+    5,
+    4,
+    3,
+    1
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0121",
+   "report_page": 24,
+   "line": 2,
+   "L": [
+    30,
+    2,
+    13,
+    5,
+    8
+   ],
+   "R": [
+    30,
+    2,
+    9,
+    5,
+    4
+   ],
+   "distance": 8,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0122",
+   "report_page": 24,
+   "line": 3,
+   "L": [
+    27,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    27,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0123",
+   "report_page": 24,
+   "line": 4,
+   "L": [
+    39,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    39,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0126",
+   "report_page": 24,
+   "line": 5,
+   "L": [
+    31,
+    6,
+    18,
+    6,
+    9
+   ],
+   "R": [
+    31,
+    6,
+    18,
+    6,
+    9
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0127",
+   "report_page": 24,
+   "line": 6,
+   "L": [
+    26,
+    5,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    26,
+    5,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0128",
+   "report_page": 24,
+   "line": 7,
+   "L": [
+    15,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    13,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0129",
+   "report_page": 24,
+   "line": 8,
+   "L": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0131",
+   "report_page": 24,
+   "line": 9,
+   "L": [
+    12,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    12,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0134",
+   "report_page": 25,
+   "line": 1,
+   "L": [
+    12,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    12,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0135",
+   "report_page": 25,
+   "line": 2,
+   "L": [
+    12,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    12,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0139",
+   "report_page": 25,
+   "line": 3,
+   "L": [
+    27,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    27,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0140",
+   "report_page": 25,
+   "line": 4,
+   "L": [
+    27,
+    6,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    27,
+    6,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0142",
+   "report_page": 25,
+   "line": 5,
+   "L": [
+    18,
+    3,
+    4,
+    2,
+    2
+   ],
+   "R": [
+    18,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0147",
+   "report_page": 25,
+   "line": 6,
+   "L": [
+    17,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    17,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0148",
+   "report_page": 25,
+   "line": 7,
+   "L": [
+    18,
+    2,
+    5,
+    3,
+    2
+   ],
+   "R": [
+    18,
+    2,
+    5,
+    3,
+    2
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0151",
+   "report_page": 25,
+   "line": 8,
+   "L": [
+    18,
+    3,
+    4,
+    2,
+    2
+   ],
+   "R": [
+    18,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0157",
+   "report_page": 25,
+   "line": 9,
+   "L": [
+    20,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    19,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0158",
+   "report_page": 26,
+   "line": 1,
+   "L": [
+    45,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    43,
+    3,
+    3,
+    3,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0159",
+   "report_page": 26,
+   "line": 2,
+   "L": [
+    15,
+    1,
+    2,
+    1,
+    1
+   ],
+   "R": [
+    14,
+    1,
+    2,
+    1,
+    1
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0163",
+   "report_page": 26,
+   "line": 3,
+   "L": [
+    26,
+    5,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    26,
+    5,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0164",
+   "report_page": 26,
+   "line": 4,
+   "L": [
+    21,
+    1,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    20,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0165",
+   "report_page": 26,
+   "line": 5,
+   "L": [
+    14,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0166",
+   "report_page": 26,
+   "line": 6,
+   "L": [
+    30,
+    1,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    29,
+    2,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0167",
+   "report_page": 26,
+   "line": 7,
+   "L": [
+    49,
+    1,
+    14,
+    6,
+    8
+   ],
+   "R": [
+    49,
+    2,
+    13,
+    6,
+    7
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0168",
+   "report_page": 26,
+   "line": 8,
+   "L": [
+    33,
+    2,
+    14,
+    6,
+    8
+   ],
+   "R": [
+    33,
+    3,
+    13,
+    6,
+    7
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0169",
+   "report_page": 26,
+   "line": 9,
+   "L": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    12,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0170",
+   "report_page": 27,
+   "line": 1,
+   "L": [
+    23,
+    1,
+    7,
+    3,
+    4
+   ],
+   "R": [
+    24,
+    1,
+    7,
+    3,
+    4
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0171",
+   "report_page": 27,
+   "line": 2,
+   "L": [
+    26,
+    1,
+    7,
+    3,
+    4
+   ],
+   "R": [
+    27,
+    1,
+    6,
+    3,
+    3
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0172",
+   "report_page": 27,
+   "line": 3,
+   "L": [
+    34,
+    1,
+    8,
+    4,
+    4
+   ],
+   "R": [
+    34,
+    2,
+    8,
+    4,
+    4
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0173",
+   "report_page": 27,
+   "line": 4,
+   "L": [
+    43,
+    3,
+    8,
+    4,
+    4
+   ],
+   "R": [
+    42,
+    3,
+    8,
+    5,
+    2
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0174",
+   "report_page": 27,
+   "line": 5,
+   "L": [
+    37,
+    4,
+    11,
+    4,
+    7
+   ],
+   "R": [
+    37,
+    4,
+    11,
+    4,
+    7
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0175",
+   "report_page": 27,
+   "line": 6,
+   "L": [
+    36,
+    2,
+    13,
+    7,
+    6
+   ],
+   "R": [
+    34,
+    4,
+    7,
+    4,
+    3
+   ],
+   "distance": 16,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0177",
+   "report_page": 27,
+   "line": 7,
+   "L": [
+    11,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    11,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0178",
+   "report_page": 27,
+   "line": 8,
+   "L": [
+    14,
+    3,
+    5,
+    4,
+    1
+   ],
+   "R": [
+    14,
+    3,
+    6,
+    3,
+    3
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0181",
+   "report_page": 28,
+   "line": 1,
+   "L": [
+    20,
+    3,
+    6,
+    2,
+    4
+   ],
+   "R": [
+    20,
+    3,
+    6,
+    2,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0183",
+   "report_page": 28,
+   "line": 2,
+   "L": [
+    27,
+    5,
+    5,
+    1,
+    4
+   ],
+   "R": [
+    27,
+    5,
+    5,
+    1,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0184",
+   "report_page": 28,
+   "line": 3,
+   "L": [
+    28,
+    2,
+    9,
+    4,
+    5
+   ],
+   "R": [
+    26,
+    1,
+    9,
+    6,
+    3
+   ],
+   "distance": 7,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0187",
+   "report_page": 28,
+   "line": 4,
+   "L": [
+    13,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    13,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0188",
+   "report_page": 28,
+   "line": 5,
+   "L": [
+    50,
+    1,
+    5,
+    5,
+    0
+   ],
+   "R": [
+    50,
+    2,
+    5,
+    5,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0191",
+   "report_page": 28,
+   "line": 6,
+   "L": [
+    15,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    15,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0192",
+   "report_page": 28,
+   "line": 7,
+   "L": [
+    17,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    17,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0193",
+   "report_page": 28,
+   "line": 8,
+   "L": [
+    20,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    20,
+    4,
+    1,
+    1,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0196",
+   "report_page": 28,
+   "line": 9,
+   "L": [
+    25,
+    0,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    25,
+    1,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0205",
+   "report_page": 28,
+   "line": 10,
+   "L": [
+    42,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    41,
+    6,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0209",
+   "report_page": 29,
+   "line": 1,
+   "L": [
+    61,
+    7,
+    21,
+    9,
+    12
+   ],
+   "R": [
+    61,
+    4,
+    4,
+    4,
+    0
+   ],
+   "distance": 37,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0210",
+   "report_page": 29,
+   "line": 2,
+   "L": [
+    35,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    35,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0211",
+   "report_page": 29,
+   "line": 3,
+   "L": [
+    27,
+    5,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    27,
+    5,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0212",
+   "report_page": 29,
+   "line": 4,
+   "L": [
+    38,
+    5,
+    5,
+    3,
+    2
+   ],
+   "R": [
+    38,
+    6,
+    5,
+    3,
+    2
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0213",
+   "report_page": 29,
+   "line": 5,
+   "L": [
+    28,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    28,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0215",
+   "report_page": 29,
+   "line": 6,
+   "L": [
+    10,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0217",
+   "report_page": 29,
+   "line": 7,
+   "L": [
+    16,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    16,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0219",
+   "report_page": 29,
+   "line": 8,
+   "L": [
+    22,
+    2,
+    10,
+    7,
+    2
+   ],
+   "R": [
+    22,
+    4,
+    9,
+    7,
+    1
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0220",
+   "report_page": 29,
+   "line": 9,
+   "L": [
+    31,
+    7,
+    20,
+    7,
+    12
+   ],
+   "R": [
+    29,
+    8,
+    20,
+    4,
+    15
+   ],
+   "distance": 9,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0221",
+   "report_page": 30,
+   "line": 1,
+   "L": [
+    24,
+    0,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    24,
+    2,
+    4,
+    4,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0222",
+   "report_page": 30,
+   "line": 2,
+   "L": [
+    26,
+    5,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    26,
+    5,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0225",
+   "report_page": 30,
+   "line": 3,
+   "L": [
+    49,
+    11,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    49,
+    7,
+    4,
+    4,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0227",
+   "report_page": 30,
+   "line": 4,
+   "L": [
+    40,
+    0,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    40,
+    0,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0230",
+   "report_page": 30,
+   "line": 5,
+   "L": [
+    29,
+    0,
+    3,
+    1,
+    2
+   ],
+   "R": [
+    29,
+    0,
+    3,
+    1,
+    2
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0234",
+   "report_page": 30,
+   "line": 6,
+   "L": [
+    41,
+    0,
+    8,
+    2,
+    6
+   ],
+   "R": [
+    41,
+    0,
+    8,
+    2,
+    6
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0236",
+   "report_page": 30,
+   "line": 7,
+   "L": [
+    32,
+    3,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    32,
+    5,
+    0,
+    0,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0238",
+   "report_page": 30,
+   "line": 8,
+   "L": [
+    12,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    12,
+    2,
+    0,
+    0,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0239",
+   "report_page": 30,
+   "line": 9,
+   "L": [
+    18,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    18,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0240",
+   "report_page": 30,
+   "line": 10,
+   "L": [
+    24,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    24,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0241",
+   "report_page": 31,
+   "line": 1,
+   "L": [
+    25,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    25,
+    5,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0247",
+   "report_page": 31,
+   "line": 2,
+   "L": [
+    15,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    15,
+    4,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0249",
+   "report_page": 31,
+   "line": 3,
+   "L": [
+    25,
+    7,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    24,
+    8,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0250",
+   "report_page": 31,
+   "line": 4,
+   "L": [
+    32,
+    4,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    32,
+    4,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0251",
+   "report_page": 31,
+   "line": 5,
+   "L": [
+    23,
+    7,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    23,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0252",
+   "report_page": 31,
+   "line": 6,
+   "L": [
+    25,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    25,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0253",
+   "report_page": 31,
+   "line": 7,
+   "L": [
+    35,
+    5,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    35,
+    7,
+    2,
+    2,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0255",
+   "report_page": 31,
+   "line": 8,
+   "L": [
+    16,
+    7,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    16,
+    7,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0256",
+   "report_page": 31,
+   "line": 9,
+   "L": [
+    26,
+    2,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    26,
+    2,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0260",
+   "report_page": 31,
+   "line": 10,
+   "L": [
+    16,
+    0,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    16,
+    0,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0262",
+   "report_page": 32,
+   "line": 1,
+   "L": [
+    24,
+    6,
+    2,
+    1,
+    1
+   ],
+   "R": [
+    24,
+    6,
+    2,
+    1,
+    1
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0263",
+   "report_page": 32,
+   "line": 2,
+   "L": [
+    27,
+    2,
+    2,
+    1,
+    1
+   ],
+   "R": [
+    27,
+    2,
+    2,
+    1,
+    1
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "Introduction_to_Graph_and_Hypergraph_Theory__Vitaly_I._Voloshin___Z-Library__EQ0264",
+   "report_page": 32,
+   "line": 3,
+   "L": [
+    11,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    11,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  }
+ ],
+ "footers_dropped": 32,
+ "display_pages": 32,
+ "source": "report.compare.tsv"
+}

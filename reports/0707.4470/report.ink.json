@@ -1,0 +1,1495 @@
+{
+ "rows": [
+  {
+   "id": "0707.4470_EQ0025",
+   "report_page": 1,
+   "line": 1,
+   "L": [
+    50,
+    21,
+    13,
+    3,
+    10
+   ],
+   "R": [
+    51,
+    20,
+    3,
+    1,
+    2
+   ],
+   "distance": 22,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "0707.4470_EQ0032",
+   "report_page": 2,
+   "line": 1,
+   "L": [
+    329,
+    18,
+    253,
+    129,
+    122
+   ],
+   "R": [
+    369,
+    50,
+    272,
+    136,
+    134
+   ],
+   "distance": 110,
+   "comp_delta": 40,
+   "signed_delta": 40,
+   "flag": "component",
+   "code": "C|+40"
+  },
+  {
+   "id": "0707.4470_EQ0035",
+   "report_page": 3,
+   "line": 1,
+   "L": [
+    372,
+    13,
+    257,
+    134,
+    123
+   ],
+   "R": [
+    394,
+    52,
+    268,
+    139,
+    129
+   ],
+   "distance": 83,
+   "comp_delta": 22,
+   "signed_delta": 22,
+   "flag": "component",
+   "code": "C|+22"
+  },
+  {
+   "id": "0707.4470_EQ0020",
+   "report_page": 3,
+   "line": 2,
+   "L": [
+    11,
+    6,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    11,
+    6,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0009",
+   "report_page": 3,
+   "line": 3,
+   "L": [
+    10,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    4,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0029",
+   "report_page": 4,
+   "line": 1,
+   "L": [
+    142,
+    12,
+    45,
+    40,
+    5
+   ],
+   "R": [
+    142,
+    26,
+    39,
+    36,
+    3
+   ],
+   "distance": 26,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "0707.4470_EQ0031",
+   "report_page": 4,
+   "line": 2,
+   "L": [
+    141,
+    23,
+    33,
+    33,
+    0
+   ],
+   "R": [
+    142,
+    36,
+    33,
+    32,
+    1
+   ],
+   "distance": 16,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "0707.4470_EQ0026",
+   "report_page": 4,
+   "line": 3,
+   "L": [
+    180,
+    36,
+    44,
+    40,
+    4
+   ],
+   "R": [
+    181,
+    40,
+    44,
+    41,
+    3
+   ],
+   "distance": 7,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "0707.4470_EQ0030",
+   "report_page": 5,
+   "line": 1,
+   "L": [
+    142,
+    15,
+    46,
+    40,
+    6
+   ],
+   "R": [
+    142,
+    22,
+    41,
+    40,
+    1
+   ],
+   "distance": 17,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "0707.4470_EQ0058",
+   "report_page": 5,
+   "line": 2,
+   "L": [
+    57,
+    17,
+    4,
+    3,
+    1
+   ],
+   "R": [
+    59,
+    17,
+    4,
+    4,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "0707.4470_EQ0059",
+   "report_page": 5,
+   "line": 3,
+   "L": [
+    20,
+    6,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    20,
+    6,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0016",
+   "report_page": 5,
+   "line": 4,
+   "L": [
+    82,
+    28,
+    4,
+    3,
+    1
+   ],
+   "R": [
+    81,
+    32,
+    3,
+    3,
+    0
+   ],
+   "distance": 7,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0028",
+   "report_page": 6,
+   "line": 1,
+   "L": [
+    142,
+    15,
+    46,
+    42,
+    4
+   ],
+   "R": [
+    142,
+    27,
+    42,
+    39,
+    3
+   ],
+   "distance": 20,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "0707.4470_EQ0036",
+   "report_page": 6,
+   "line": 2,
+   "L": [
+    131,
+    11,
+    91,
+    53,
+    38
+   ],
+   "R": [
+    132,
+    23,
+    84,
+    44,
+    40
+   ],
+   "distance": 31,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "0707.4470_EQ0023",
+   "report_page": 6,
+   "line": 3,
+   "L": [
+    70,
+    22,
+    31,
+    11,
+    16
+   ],
+   "R": [
+    70,
+    24,
+    31,
+    12,
+    16
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0008",
+   "report_page": 6,
+   "line": 4,
+   "L": [
+    18,
+    12,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    16,
+    14,
+    3,
+    3,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "0707.4470_EQ0012",
+   "report_page": 6,
+   "line": 5,
+   "L": [
+    10,
+    8,
+    3,
+    2,
+    1
+   ],
+   "R": [
+    10,
+    8,
+    2,
+    2,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0060",
+   "report_page": 6,
+   "line": 6,
+   "L": [
+    38,
+    9,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    38,
+    9,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0046",
+   "report_page": 7,
+   "line": 1,
+   "L": [
+    57,
+    11,
+    29,
+    5,
+    20
+   ],
+   "R": [
+    57,
+    17,
+    27,
+    6,
+    19
+   ],
+   "distance": 10,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "0707.4470_EQ0002",
+   "report_page": 7,
+   "line": 2,
+   "L": [
+    20,
+    9,
+    5,
+    3,
+    1
+   ],
+   "R": [
+    19,
+    9,
+    4,
+    2,
+    2
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0013",
+   "report_page": 7,
+   "line": 3,
+   "L": [
+    17,
+    9,
+    5,
+    4,
+    1
+   ],
+   "R": [
+    17,
+    10,
+    2,
+    2,
+    0
+   ],
+   "distance": 7,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0001",
+   "report_page": 7,
+   "line": 4,
+   "L": [
+    43,
+    20,
+    13,
+    9,
+    4
+   ],
+   "R": [
+    44,
+    18,
+    4,
+    3,
+    1
+   ],
+   "distance": 21,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "0707.4470_EQ0047",
+   "report_page": 7,
+   "line": 5,
+   "L": [
+    19,
+    13,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    17,
+    14,
+    3,
+    3,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "0707.4470_EQ0015",
+   "report_page": 7,
+   "line": 6,
+   "L": [
+    36,
+    9,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    35,
+    9,
+    3,
+    3,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0010",
+   "report_page": 7,
+   "line": 7,
+   "L": [
+    58,
+    27,
+    10,
+    7,
+    3
+   ],
+   "R": [
+    56,
+    29,
+    9,
+    6,
+    3
+   ],
+   "distance": 6,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "0707.4470_EQ0033",
+   "report_page": 7,
+   "line": 8,
+   "L": [
+    126,
+    22,
+    103,
+    47,
+    54
+   ],
+   "R": [
+    128,
+    25,
+    86,
+    46,
+    38
+   ],
+   "distance": 39,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
+   "code": "W|+2"
+  },
+  {
+   "id": "0707.4470_EQ0049",
+   "report_page": 8,
+   "line": 1,
+   "L": [
+    43,
+    17,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    41,
+    27,
+    2,
+    2,
+    0
+   ],
+   "distance": 12,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "0707.4470_EQ0050",
+   "report_page": 8,
+   "line": 2,
+   "L": [
+    37,
+    19,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    35,
+    19,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "0707.4470_EQ0003",
+   "report_page": 8,
+   "line": 3,
+   "L": [
+    19,
+    8,
+    4,
+    3,
+    1
+   ],
+   "R": [
+    18,
+    8,
+    5,
+    2,
+    2
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0004",
+   "report_page": 8,
+   "line": 4,
+   "L": [
+    12,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    12,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0005",
+   "report_page": 8,
+   "line": 5,
+   "L": [
+    10,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0006",
+   "report_page": 8,
+   "line": 6,
+   "L": [
+    14,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    14,
+    2,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0007",
+   "report_page": 8,
+   "line": 7,
+   "L": [
+    10,
+    7,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0011",
+   "report_page": 8,
+   "line": 8,
+   "L": [
+    8,
+    8,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    7,
+    8,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0014",
+   "report_page": 8,
+   "line": 9,
+   "L": [
+    17,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    17,
+    6,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0017",
+   "report_page": 8,
+   "line": 10,
+   "L": [
+    18,
+    8,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    17,
+    9,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0018",
+   "report_page": 8,
+   "line": 11,
+   "L": [
+    37,
+    14,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    37,
+    14,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0019",
+   "report_page": 8,
+   "line": 12,
+   "L": [
+    12,
+    4,
+    3,
+    2,
+    0
+   ],
+   "R": [
+    12,
+    4,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0021",
+   "report_page": 8,
+   "line": 13,
+   "L": [
+    15,
+    6,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    15,
+    6,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0022",
+   "report_page": 8,
+   "line": 14,
+   "L": [
+    30,
+    7,
+    10,
+    5,
+    5
+   ],
+   "R": [
+    30,
+    7,
+    10,
+    5,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0024",
+   "report_page": 8,
+   "line": 15,
+   "L": [
+    25,
+    13,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    25,
+    10,
+    1,
+    1,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0027",
+   "report_page": 8,
+   "line": 16,
+   "L": [
+    12,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    12,
+    9,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0034",
+   "report_page": 8,
+   "line": 17,
+   "L": [
+    17,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    17,
+    8,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0037",
+   "report_page": 8,
+   "line": 18,
+   "L": [
+    18,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    18,
+    6,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0038",
+   "report_page": 8,
+   "line": 19,
+   "L": [
+    10,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0039",
+   "report_page": 8,
+   "line": 20,
+   "L": [
+    22,
+    6,
+    7,
+    4,
+    2
+   ],
+   "R": [
+    22,
+    9,
+    7,
+    4,
+    3
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0040",
+   "report_page": 9,
+   "line": 1,
+   "L": [
+    27,
+    4,
+    10,
+    5,
+    4
+   ],
+   "R": [
+    27,
+    8,
+    12,
+    5,
+    7
+   ],
+   "distance": 9,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "0707.4470_EQ0041",
+   "report_page": 9,
+   "line": 2,
+   "L": [
+    20,
+    6,
+    3,
+    2,
+    1
+   ],
+   "R": [
+    20,
+    6,
+    3,
+    2,
+    1
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0042",
+   "report_page": 9,
+   "line": 3,
+   "L": [
+    31,
+    10,
+    9,
+    6,
+    3
+   ],
+   "R": [
+    31,
+    11,
+    9,
+    5,
+    4
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0043",
+   "report_page": 9,
+   "line": 4,
+   "L": [
+    29,
+    5,
+    6,
+    4,
+    2
+   ],
+   "R": [
+    29,
+    7,
+    6,
+    3,
+    3
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0044",
+   "report_page": 9,
+   "line": 5,
+   "L": [
+    20,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    20,
+    9,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0045",
+   "report_page": 9,
+   "line": 6,
+   "L": [
+    54,
+    13,
+    21,
+    9,
+    11
+   ],
+   "R": [
+    54,
+    17,
+    22,
+    5,
+    15
+   ],
+   "distance": 13,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "0707.4470_EQ0048",
+   "report_page": 9,
+   "line": 7,
+   "L": [
+    14,
+    6,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0051",
+   "report_page": 9,
+   "line": 8,
+   "L": [
+    20,
+    9,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    19,
+    8,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0052",
+   "report_page": 9,
+   "line": 9,
+   "L": [
+    13,
+    9,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    12,
+    10,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "0707.4470_EQ0053",
+   "report_page": 9,
+   "line": 10,
+   "L": [
+    25,
+    14,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    25,
+    13,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0054",
+   "report_page": 9,
+   "line": 11,
+   "L": [
+    15,
+    9,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    15,
+    9,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0055",
+   "report_page": 9,
+   "line": 12,
+   "L": [
+    18,
+    8,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    18,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0056",
+   "report_page": 9,
+   "line": 13,
+   "L": [
+    17,
+    7,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    17,
+    7,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0057",
+   "report_page": 9,
+   "line": 14,
+   "L": [
+    63,
+    26,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    63,
+    27,
+    7,
+    7,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "0707.4470_EQ0061",
+   "report_page": 9,
+   "line": 15,
+   "L": [
+    58,
+    11,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    58,
+    11,
+    4,
+    4,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "0707.4470_EQ0062",
+   "report_page": 10,
+   "line": 1,
+   "L": [
+    16,
+    5,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    16,
+    5,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  }
+ ],
+ "footers_dropped": 10,
+ "display_pages": 10,
+ "source": "report.compare.tsv"
+}

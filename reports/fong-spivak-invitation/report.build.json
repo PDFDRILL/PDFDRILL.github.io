@@ -1,0 +1,15 @@
+{
+ "pdf": "report.pdf",
+ "pages": 680,
+ "bytes": 11415625,
+ "sha256": "3d075e57098d01efd1b726d276a90e170af974a80f064c1817f6ee36f6977ab7",
+ "mtime": 1787824289,
+ "built_at": "2026-08-27T09:51:29Z",
+ "commit": "059c0ce88446",
+ "legend": true,
+ "ink_adopted": true,
+ "prefer_refined": true,
+ "filters": {},
+ "glyphs_dropped": 0,
+ "phase": "reading"
+}

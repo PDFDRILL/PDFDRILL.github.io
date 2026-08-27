@@ -1,0 +1,151 @@
+{
+ "rows": [
+  {
+   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0004",
+   "report_page": 1,
+   "line": 1,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    57,
+    12,
+    4,
+    4,
+    0
+   ],
+   "distance": 58,
+   "comp_delta": 44,
+   "signed_delta": 44,
+   "flag": "component",
+   "code": "C|+44"
+  },
+  {
+   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0005",
+   "report_page": 1,
+   "line": 2,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    118,
+    103,
+    147,
+    54,
+    81
+   ],
+   "distance": 484,
+   "comp_delta": 105,
+   "signed_delta": 105,
+   "flag": "component",
+   "code": "C|+105"
+  },
+  {
+   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0003",
+   "report_page": 1,
+   "line": 3,
+   "L": [
+    37,
+    11,
+    8,
+    6,
+    2
+   ],
+   "R": [
+    40,
+    12,
+    4,
+    0,
+    4
+   ],
+   "distance": 16,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0006",
+   "report_page": 2,
+   "line": 1,
+   "L": [
+    30,
+    5,
+    8,
+    3,
+    5
+   ],
+   "R": [
+    31,
+    6,
+    20,
+    12,
+    8
+   ],
+   "distance": 26,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0001",
+   "report_page": 2,
+   "line": 2,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    51,
+    12,
+    3,
+    1,
+    2
+   ],
+   "distance": 50,
+   "comp_delta": 38,
+   "signed_delta": 38,
+   "flag": "component",
+   "code": "C|+38"
+  },
+  {
+   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0002",
+   "report_page": 2,
+   "line": 3,
+   "L": [
+    11,
+    0,
+    11,
+    3,
+    7
+   ],
+   "R": [
+    11,
+    0,
+    11,
+    4,
+    6
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  }
+ ],
+ "footers_dropped": 2,
+ "display_pages": 2,
+ "source": "report.compare.tsv"
+}

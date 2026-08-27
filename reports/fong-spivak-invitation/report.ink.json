@@ -1,0 +1,6295 @@
+{
+ "rows": [
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0202",
+   "report_page": 1,
+   "line": 1,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    83,
+    21,
+    24,
+    19,
+    5
+   ],
+   "distance": 133,
+   "comp_delta": 70,
+   "signed_delta": 70,
+   "flag": "component",
+   "code": "C|+70"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0062",
+   "report_page": 1,
+   "line": 2,
+   "L": [
+    13,
+    4,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    21,
+    5,
+    10,
+    9,
+    1
+   ],
+   "distance": 15,
+   "comp_delta": 8,
+   "signed_delta": 8,
+   "flag": "component",
+   "code": "C|+8"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0180",
+   "report_page": 1,
+   "line": 3,
+   "L": [
+    14,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    21,
+    6,
+    10,
+    9,
+    1
+   ],
+   "distance": 27,
+   "comp_delta": 7,
+   "signed_delta": 7,
+   "flag": "component",
+   "code": "C|+7"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0135",
+   "report_page": 2,
+   "line": 1,
+   "L": [
+    94,
+    13,
+    38,
+    26,
+    12
+   ],
+   "R": [
+    102,
+    17,
+    51,
+    39,
+    12
+   ],
+   "distance": 38,
+   "comp_delta": 8,
+   "signed_delta": 8,
+   "flag": "component",
+   "code": "C|+8"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0096",
+   "report_page": 2,
+   "line": 2,
+   "L": [
+    27,
+    6,
+    12,
+    10,
+    2
+   ],
+   "R": [
+    25,
+    8,
+    9,
+    8,
+    1
+   ],
+   "distance": 10,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0199",
+   "report_page": 2,
+   "line": 3,
+   "L": [
+    45,
+    12,
+    10,
+    8,
+    2
+   ],
+   "R": [
+    45,
+    28,
+    10,
+    8,
+    2
+   ],
+   "distance": 16,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0257",
+   "report_page": 2,
+   "line": 4,
+   "L": [
+    39,
+    7,
+    18,
+    11,
+    7
+   ],
+   "R": [
+    38,
+    7,
+    25,
+    15,
+    10
+   ],
+   "distance": 15,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "weak",
+   "code": "W|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0187",
+   "report_page": 3,
+   "line": 1,
+   "L": [
+    163,
+    54,
+    56,
+    27,
+    29
+   ],
+   "R": [
+    158,
+    40,
+    6,
+    5,
+    1
+   ],
+   "distance": 119,
+   "comp_delta": 5,
+   "signed_delta": -5,
+   "flag": "component",
+   "code": "C|-5"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0095",
+   "report_page": 3,
+   "line": 2,
+   "L": [
+    71,
+    24,
+    27,
+    17,
+    10
+   ],
+   "R": [
+    99,
+    31,
+    20,
+    13,
+    7
+   ],
+   "distance": 49,
+   "comp_delta": 28,
+   "signed_delta": 28,
+   "flag": "component",
+   "code": "C|+28"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0085",
+   "report_page": 3,
+   "line": 3,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    44,
+    15,
+    3,
+    3,
+    0
+   ],
+   "distance": 46,
+   "comp_delta": 31,
+   "signed_delta": 31,
+   "flag": "component",
+   "code": "C|+31"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0201",
+   "report_page": 3,
+   "line": 4,
+   "L": [
+    25,
+    2,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    26,
+    10,
+    10,
+    8,
+    2
+   ],
+   "distance": 15,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0020",
+   "report_page": 4,
+   "line": 1,
+   "L": [
+    68,
+    19,
+    16,
+    9,
+    7
+   ],
+   "R": [
+    93,
+    39,
+    36,
+    21,
+    15
+   ],
+   "distance": 85,
+   "comp_delta": 25,
+   "signed_delta": 25,
+   "flag": "component",
+   "code": "C|+25"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0242",
+   "report_page": 4,
+   "line": 2,
+   "L": [
+    35,
+    1,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    47,
+    13,
+    7,
+    7,
+    0
+   ],
+   "distance": 24,
+   "comp_delta": 12,
+   "signed_delta": 12,
+   "flag": "component",
+   "code": "C|+12"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0223",
+   "report_page": 4,
+   "line": 3,
+   "L": [
+    51,
+    13,
+    5,
+    4,
+    1
+   ],
+   "R": [
+    50,
+    12,
+    5,
+    4,
+    1
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0070",
+   "report_page": 4,
+   "line": 4,
+   "L": [
+    5,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    14,
+    1,
+    5,
+    4,
+    1
+   ],
+   "distance": 16,
+   "comp_delta": 9,
+   "signed_delta": 9,
+   "flag": "component",
+   "code": "C|+9"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0185",
+   "report_page": 4,
+   "line": 5,
+   "L": [
+    167,
+    15,
+    83,
+    46,
+    32
+   ],
+   "R": [
+    162,
+    17,
+    23,
+    20,
+    3
+   ],
+   "distance": 122,
+   "comp_delta": 5,
+   "signed_delta": -5,
+   "flag": "component",
+   "code": "C|-5"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0222",
+   "report_page": 5,
+   "line": 1,
+   "L": [
+    129,
+    59,
+    28,
+    17,
+    11
+   ],
+   "R": [
+    129,
+    60,
+    21,
+    12,
+    9
+   ],
+   "distance": 15,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0134",
+   "report_page": 5,
+   "line": 2,
+   "L": [
+    49,
+    2,
+    12,
+    12,
+    0
+   ],
+   "R": [
+    137,
+    11,
+    32,
+    21,
+    11
+   ],
+   "distance": 137,
+   "comp_delta": 88,
+   "signed_delta": 88,
+   "flag": "component",
+   "code": "C|+88"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0116",
+   "report_page": 5,
+   "line": 3,
+   "L": [
+    27,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    24,
+    9,
+    2,
+    2,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0023",
+   "report_page": 5,
+   "line": 4,
+   "L": [
+    36,
+    6,
+    22,
+    11,
+    10
+   ],
+   "R": [
+    36,
+    7,
+    18,
+    11,
+    7
+   ],
+   "distance": 8,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0227",
+   "report_page": 6,
+   "line": 1,
+   "L": [
+    175,
+    61,
+    18,
+    6,
+    12
+   ],
+   "R": [
+    218,
+    94,
+    20,
+    7,
+    13
+   ],
+   "distance": 80,
+   "comp_delta": 43,
+   "signed_delta": 43,
+   "flag": "component",
+   "code": "C|+43"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0040",
+   "report_page": 6,
+   "line": 2,
+   "L": [
+    148,
+    43,
+    78,
+    34,
+    42
+   ],
+   "R": [
+    149,
+    47,
+    45,
+    30,
+    15
+   ],
+   "distance": 69,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0256",
+   "report_page": 6,
+   "line": 3,
+   "L": [
+    61,
+    23,
+    10,
+    10,
+    0
+   ],
+   "R": [
+    65,
+    26,
+    14,
+    13,
+    1
+   ],
+   "distance": 15,
+   "comp_delta": 4,
+   "signed_delta": 4,
+   "flag": "component",
+   "code": "C|+4"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0043",
+   "report_page": 6,
+   "line": 4,
+   "L": [
+    70,
+    10,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    70,
+    7,
+    1,
+    1,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0112",
+   "report_page": 7,
+   "line": 1,
+   "L": [
+    30,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    33,
+    8,
+    5,
+    3,
+    2
+   ],
+   "distance": 11,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0059",
+   "report_page": 7,
+   "line": 2,
+   "L": [
+    17,
+    1,
+    5,
+    5,
+    0
+   ],
+   "R": [
+    17,
+    3,
+    7,
+    6,
+    1
+   ],
+   "distance": 6,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0118",
+   "report_page": 7,
+   "line": 3,
+   "L": [
+    30,
+    5,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    40,
+    7,
+    4,
+    3,
+    1
+   ],
+   "distance": 16,
+   "comp_delta": 10,
+   "signed_delta": 10,
+   "flag": "component",
+   "code": "C|+10"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0037",
+   "report_page": 7,
+   "line": 4,
+   "L": [
+    28,
+    5,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    28,
+    3,
+    4,
+    4,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0260",
+   "report_page": 7,
+   "line": 5,
+   "L": [
+    45,
+    7,
+    16,
+    3,
+    13
+   ],
+   "R": [
+    45,
+    7,
+    16,
+    3,
+    13
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0075",
+   "report_page": 8,
+   "line": 1,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    53,
+    17,
+    9,
+    6,
+    3
+   ],
+   "distance": 69,
+   "comp_delta": 40,
+   "signed_delta": 40,
+   "flag": "component",
+   "code": "C|+40"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0141",
+   "report_page": 8,
+   "line": 2,
+   "L": [
+    64,
+    4,
+    17,
+    10,
+    6
+   ],
+   "R": [
+    65,
+    11,
+    8,
+    7,
+    1
+   ],
+   "distance": 25,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0214",
+   "report_page": 8,
+   "line": 3,
+   "L": [
+    139,
+    42,
+    20,
+    17,
+    3
+   ],
+   "R": [
+    137,
+    47,
+    12,
+    12,
+    0
+   ],
+   "distance": 23,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0024",
+   "report_page": 8,
+   "line": 4,
+   "L": [
+    28,
+    11,
+    17,
+    13,
+    4
+   ],
+   "R": [
+    30,
+    11,
+    17,
+    11,
+    6
+   ],
+   "distance": 6,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0255",
+   "report_page": 8,
+   "line": 5,
+   "L": [
+    47,
+    23,
+    9,
+    9,
+    0
+   ],
+   "R": [
+    48,
+    24,
+    10,
+    10,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0210",
+   "report_page": 9,
+   "line": 1,
+   "L": [
+    17,
+    4,
+    9,
+    9,
+    0
+   ],
+   "R": [
+    15,
+    4,
+    4,
+    4,
+    0
+   ],
+   "distance": 12,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0186",
+   "report_page": 9,
+   "line": 2,
+   "L": [
+    157,
+    55,
+    52,
+    30,
+    22
+   ],
+   "R": [
+    163,
+    56,
+    28,
+    19,
+    9
+   ],
+   "distance": 55,
+   "comp_delta": 6,
+   "signed_delta": 6,
+   "flag": "component",
+   "code": "C|+6"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0092",
+   "report_page": 9,
+   "line": 3,
+   "L": [
+    21,
+    4,
+    5,
+    5,
+    0
+   ],
+   "R": [
+    24,
+    12,
+    7,
+    5,
+    2
+   ],
+   "distance": 15,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0077",
+   "report_page": 9,
+   "line": 4,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    6,
+    1,
+    1,
+    0,
+    1
+   ],
+   "distance": 14,
+   "comp_delta": 7,
+   "signed_delta": -7,
+   "flag": "component",
+   "code": "C|-7"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0071",
+   "report_page": 9,
+   "line": 5,
+   "L": [
+    38,
+    14,
+    6,
+    4,
+    1
+   ],
+   "R": [
+    40,
+    15,
+    13,
+    7,
+    6
+   ],
+   "distance": 18,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
+   "code": "W|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0206",
+   "report_page": 10,
+   "line": 1,
+   "L": [
+    69,
+    10,
+    12,
+    12,
+    0
+   ],
+   "R": [
+    69,
+    11,
+    12,
+    12,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0074",
+   "report_page": 10,
+   "line": 2,
+   "L": [
+    34,
+    4,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    34,
+    5,
+    4,
+    4,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0239",
+   "report_page": 10,
+   "line": 3,
+   "L": [
+    51,
+    0,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    47,
+    8,
+    7,
+    7,
+    0
+   ],
+   "distance": 12,
+   "comp_delta": 4,
+   "signed_delta": -4,
+   "flag": "component",
+   "code": "C|-4"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0073",
+   "report_page": 10,
+   "line": 4,
+   "L": [
+    8,
+    0,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    8,
+    0,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0025",
+   "report_page": 10,
+   "line": 5,
+   "L": [
+    14,
+    0,
+    10,
+    10,
+    0
+   ],
+   "R": [
+    14,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 19,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0132",
+   "report_page": 10,
+   "line": 6,
+   "L": [
+    33,
+    6,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    33,
+    6,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0057",
+   "report_page": 11,
+   "line": 1,
+   "L": [
+    24,
+    5,
+    2,
+    1,
+    1
+   ],
+   "R": [
+    24,
+    7,
+    2,
+    1,
+    1
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0123",
+   "report_page": 11,
+   "line": 2,
+   "L": [
+    23,
+    7,
+    4,
+    3,
+    1
+   ],
+   "R": [
+    23,
+    7,
+    4,
+    3,
+    1
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0221",
+   "report_page": 11,
+   "line": 3,
+   "L": [
+    217,
+    95,
+    142,
+    116,
+    26
+   ],
+   "R": [
+    217,
+    89,
+    120,
+    107,
+    13
+   ],
+   "distance": 50,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0010",
+   "report_page": 12,
+   "line": 1,
+   "L": [
+    24,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    44,
+    8,
+    4,
+    3,
+    1
+   ],
+   "distance": 24,
+   "comp_delta": 20,
+   "signed_delta": 20,
+   "flag": "component",
+   "code": "C|+20"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0155",
+   "report_page": 12,
+   "line": 2,
+   "L": [
+    46,
+    18,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    48,
+    19,
+    2,
+    2,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0156",
+   "report_page": 12,
+   "line": 3,
+   "L": [
+    30,
+    11,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    32,
+    11,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0124",
+   "report_page": 12,
+   "line": 4,
+   "L": [
+    37,
+    9,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    39,
+    10,
+    3,
+    3,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0080",
+   "report_page": 12,
+   "line": 5,
+   "L": [
+    14,
+    9,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    24,
+    10,
+    4,
+    1,
+    3
+   ],
+   "distance": 17,
+   "comp_delta": 10,
+   "signed_delta": 10,
+   "flag": "component",
+   "code": "C|+10"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0097",
+   "report_page": 12,
+   "line": 6,
+   "L": [
+    73,
+    0,
+    21,
+    10,
+    11
+   ],
+   "R": [
+    76,
+    1,
+    12,
+    11,
+    1
+   ],
+   "distance": 24,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0224",
+   "report_page": 13,
+   "line": 1,
+   "L": [
+    38,
+    6,
+    6,
+    4,
+    2
+   ],
+   "R": [
+    37,
+    4,
+    6,
+    4,
+    2
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0055",
+   "report_page": 13,
+   "line": 2,
+   "L": [
+    20,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    21,
+    3,
+    7,
+    2,
+    5
+   ],
+   "distance": 11,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0107",
+   "report_page": 13,
+   "line": 3,
+   "L": [
+    46,
+    2,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    46,
+    3,
+    4,
+    2,
+    2
+   ],
+   "distance": 5,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0151",
+   "report_page": 13,
+   "line": 4,
+   "L": [
+    19,
+    4,
+    3,
+    2,
+    0
+   ],
+   "R": [
+    19,
+    4,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0191",
+   "report_page": 13,
+   "line": 5,
+   "L": [
+    36,
+    27,
+    12,
+    8,
+    2
+   ],
+   "R": [
+    36,
+    27,
+    10,
+    7,
+    3
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0200",
+   "report_page": 13,
+   "line": 6,
+   "L": [
+    34,
+    10,
+    7,
+    5,
+    2
+   ],
+   "R": [
+    34,
+    20,
+    7,
+    5,
+    2
+   ],
+   "distance": 10,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0089",
+   "report_page": 14,
+   "line": 1,
+   "L": [
+    16,
+    8,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    21,
+    11,
+    4,
+    4,
+    0
+   ],
+   "distance": 8,
+   "comp_delta": 5,
+   "signed_delta": 5,
+   "flag": "component",
+   "code": "C|+5"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0170",
+   "report_page": 14,
+   "line": 2,
+   "L": [
+    23,
+    1,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    23,
+    1,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0061",
+   "report_page": 14,
+   "line": 3,
+   "L": [
+    31,
+    9,
+    14,
+    6,
+    8
+   ],
+   "R": [
+    44,
+    16,
+    9,
+    5,
+    4
+   ],
+   "distance": 30,
+   "comp_delta": 13,
+   "signed_delta": 13,
+   "flag": "component",
+   "code": "C|+13"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0018",
+   "report_page": 14,
+   "line": 4,
+   "L": [
+    24,
+    4,
+    7,
+    4,
+    2
+   ],
+   "R": [
+    23,
+    4,
+    6,
+    4,
+    2
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0149",
+   "report_page": 14,
+   "line": 5,
+   "L": [
+    35,
+    7,
+    7,
+    5,
+    2
+   ],
+   "R": [
+    35,
+    7,
+    7,
+    5,
+    2
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0082",
+   "report_page": 14,
+   "line": 6,
+   "L": [
+    11,
+    5,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    13,
+    6,
+    2,
+    1,
+    1
+   ],
+   "distance": 5,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0248",
+   "report_page": 15,
+   "line": 1,
+   "L": [
+    38,
+    10,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    38,
+    8,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0114",
+   "report_page": 15,
+   "line": 2,
+   "L": [
+    6,
+    5,
+    2,
+    0,
+    2
+   ],
+   "R": [
+    7,
+    5,
+    2,
+    2,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0138",
+   "report_page": 15,
+   "line": 3,
+   "L": [
+    38,
+    8,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    39,
+    8,
+    3,
+    3,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0143",
+   "report_page": 15,
+   "line": 4,
+   "L": [
+    82,
+    1,
+    9,
+    5,
+    4
+   ],
+   "R": [
+    101,
+    2,
+    16,
+    7,
+    9
+   ],
+   "distance": 34,
+   "comp_delta": 19,
+   "signed_delta": 19,
+   "flag": "component",
+   "code": "C|+19"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0198",
+   "report_page": 15,
+   "line": 5,
+   "L": [
+    23,
+    0,
+    11,
+    4,
+    7
+   ],
+   "R": [
+    23,
+    0,
+    9,
+    4,
+    5
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0209",
+   "report_page": 15,
+   "line": 6,
+   "L": [
+    13,
+    2,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    16,
+    3,
+    5,
+    5,
+    0
+   ],
+   "distance": 6,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0160",
+   "report_page": 16,
+   "line": 1,
+   "L": [
+    60,
+    10,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    62,
+    13,
+    8,
+    7,
+    1
+   ],
+   "distance": 7,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0217",
+   "report_page": 16,
+   "line": 2,
+   "L": [
+    33,
+    17,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    32,
+    13,
+    1,
+    1,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0022",
+   "report_page": 16,
+   "line": 3,
+   "L": [
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   "R": [
+    2,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0128",
+   "report_page": 16,
+   "line": 4,
+   "L": [
+    11,
+    4,
+    5,
+    5,
+    0
+   ],
+   "R": [
+    13,
+    5,
+    4,
+    4,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0148",
+   "report_page": 16,
+   "line": 5,
+   "L": [
+    46,
+    2,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    49,
+    2,
+    7,
+    6,
+    1
+   ],
+   "distance": 5,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0003",
+   "report_page": 16,
+   "line": 6,
+   "L": [
+    23,
+    0,
+    9,
+    9,
+    0
+   ],
+   "R": [
+    28,
+    4,
+    13,
+    2,
+    11
+   ],
+   "distance": 31,
+   "comp_delta": 5,
+   "signed_delta": 5,
+   "flag": "component",
+   "code": "C|+5"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0066",
+   "report_page": 17,
+   "line": 1,
+   "L": [
+    70,
+    23,
+    47,
+    22,
+    24
+   ],
+   "R": [
+    69,
+    25,
+    19,
+    14,
+    5
+   ],
+   "distance": 58,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "weak",
+   "code": "W|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0159",
+   "report_page": 17,
+   "line": 2,
+   "L": [
+    41,
+    4,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    41,
+    6,
+    5,
+    5,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0139",
+   "report_page": 17,
+   "line": 3,
+   "L": [
+    26,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    26,
+    3,
+    3,
+    2,
+    1
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0225",
+   "report_page": 17,
+   "line": 4,
+   "L": [
+    76,
+    14,
+    8,
+    5,
+    3
+   ],
+   "R": [
+    72,
+    15,
+    8,
+    6,
+    2
+   ],
+   "distance": 7,
+   "comp_delta": 4,
+   "signed_delta": -4,
+   "flag": "component",
+   "code": "C|-4"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0100",
+   "report_page": 17,
+   "line": 5,
+   "L": [
+    39,
+    12,
+    6,
+    5,
+    1
+   ],
+   "R": [
+    39,
+    14,
+    6,
+    5,
+    1
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0083",
+   "report_page": 18,
+   "line": 1,
+   "L": [
+    33,
+    17,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    33,
+    13,
+    1,
+    1,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0021",
+   "report_page": 18,
+   "line": 2,
+   "L": [
+    10,
+    5,
+    8,
+    6,
+    2
+   ],
+   "R": [
+    8,
+    6,
+    5,
+    3,
+    2
+   ],
+   "distance": 9,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0150",
+   "report_page": 18,
+   "line": 3,
+   "L": [
+    13,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    21,
+    5,
+    1,
+    1,
+    0
+   ],
+   "distance": 11,
+   "comp_delta": 8,
+   "signed_delta": 8,
+   "flag": "component",
+   "code": "C|+8"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0047",
+   "report_page": 18,
+   "line": 4,
+   "L": [
+    22,
+    5,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    23,
+    5,
+    0,
+    0,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0088",
+   "report_page": 18,
+   "line": 5,
+   "L": [
+    18,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    18,
+    0,
+    2,
+    2,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0090",
+   "report_page": 18,
+   "line": 6,
+   "L": [
+    70,
+    39,
+    14,
+    7,
+    7
+   ],
+   "R": [
+    71,
+    43,
+    17,
+    11,
+    6
+   ],
+   "distance": 13,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0099",
+   "report_page": 19,
+   "line": 1,
+   "L": [
+    32,
+    4,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    33,
+    10,
+    4,
+    4,
+    0
+   ],
+   "distance": 7,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0167",
+   "report_page": 19,
+   "line": 2,
+   "L": [
+    30,
+    5,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    30,
+    5,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0129",
+   "report_page": 19,
+   "line": 3,
+   "L": [
+    63,
+    18,
+    16,
+    9,
+    7
+   ],
+   "R": [
+    63,
+    18,
+    8,
+    7,
+    1
+   ],
+   "distance": 16,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0144",
+   "report_page": 19,
+   "line": 4,
+   "L": [
+    87,
+    3,
+    6,
+    1,
+    5
+   ],
+   "R": [
+    87,
+    3,
+    6,
+    1,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0119",
+   "report_page": 19,
+   "line": 5,
+   "L": [
+    23,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    22,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0165",
+   "report_page": 19,
+   "line": 6,
+   "L": [
+    25,
+    5,
+    5,
+    4,
+    1
+   ],
+   "R": [
+    25,
+    5,
+    6,
+    4,
+    2
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0153",
+   "report_page": 20,
+   "line": 1,
+   "L": [
+    51,
+    11,
+    11,
+    7,
+    4
+   ],
+   "R": [
+    50,
+    10,
+    6,
+    5,
+    1
+   ],
+   "distance": 12,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "weak",
+   "code": "W|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0122",
+   "report_page": 20,
+   "line": 2,
+   "L": [
+    62,
+    15,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    60,
+    17,
+    4,
+    4,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0235",
+   "report_page": 20,
+   "line": 3,
+   "L": [
+    29,
+    17,
+    15,
+    15,
+    0
+   ],
+   "R": [
+    29,
+    17,
+    15,
+    15,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0005",
+   "report_page": 20,
+   "line": 4,
+   "L": [
+    24,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    26,
+    10,
+    3,
+    2,
+    1
+   ],
+   "distance": 6,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0193",
+   "report_page": 20,
+   "line": 5,
+   "L": [
+    126,
+    42,
+    23,
+    12,
+    11
+   ],
+   "R": [
+    124,
+    31,
+    23,
+    12,
+    11
+   ],
+   "distance": 13,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0093",
+   "report_page": 21,
+   "line": 1,
+   "L": [
+    44,
+    10,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    55,
+    10,
+    11,
+    8,
+    3
+   ],
+   "distance": 21,
+   "comp_delta": 11,
+   "signed_delta": 11,
+   "flag": "component",
+   "code": "C|+11"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0174",
+   "report_page": 21,
+   "line": 2,
+   "L": [
+    77,
+    30,
+    19,
+    11,
+    8
+   ],
+   "R": [
+    77,
+    31,
+    13,
+    6,
+    7
+   ],
+   "distance": 13,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0079",
+   "report_page": 21,
+   "line": 3,
+   "L": [
+    90,
+    20,
+    15,
+    7,
+    8
+   ],
+   "R": [
+    92,
+    21,
+    18,
+    9,
+    9
+   ],
+   "distance": 9,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
+   "code": "W|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0226",
+   "report_page": 21,
+   "line": 4,
+   "L": [
+    33,
+    4,
+    9,
+    4,
+    5
+   ],
+   "R": [
+    34,
+    4,
+    13,
+    4,
+    9
+   ],
+   "distance": 9,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0145",
+   "report_page": 21,
+   "line": 5,
+   "L": [
+    47,
+    2,
+    4,
+    1,
+    3
+   ],
+   "R": [
+    47,
+    3,
+    4,
+    1,
+    3
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0207",
+   "report_page": 21,
+   "line": 6,
+   "L": [
+    45,
+    3,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    45,
+    11,
+    6,
+    6,
+    0
+   ],
+   "distance": 8,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0048",
+   "report_page": 22,
+   "line": 1,
+   "L": [
+    22,
+    14,
+    7,
+    4,
+    2
+   ],
+   "R": [
+    35,
+    17,
+    11,
+    4,
+    7
+   ],
+   "distance": 25,
+   "comp_delta": 13,
+   "signed_delta": 13,
+   "flag": "component",
+   "code": "C|+13"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0219",
+   "report_page": 22,
+   "line": 2,
+   "L": [
+    95,
+    66,
+    56,
+    51,
+    5
+   ],
+   "R": [
+    95,
+    60,
+    52,
+    48,
+    4
+   ],
+   "distance": 14,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0072",
+   "report_page": 22,
+   "line": 3,
+   "L": [
+    48,
+    7,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    46,
+    7,
+    3,
+    3,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0103",
+   "report_page": 22,
+   "line": 4,
+   "L": [
+    15,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    15,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0046",
+   "report_page": 22,
+   "line": 5,
+   "L": [
+    16,
+    5,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    16,
+    6,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0110",
+   "report_page": 23,
+   "line": 1,
+   "L": [
+    25,
+    4,
+    8,
+    6,
+    2
+   ],
+   "R": [
+    25,
+    2,
+    8,
+    5,
+    3
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0172",
+   "report_page": 23,
+   "line": 2,
+   "L": [
+    20,
+    11,
+    4,
+    3,
+    0
+   ],
+   "R": [
+    20,
+    12,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0216",
+   "report_page": 23,
+   "line": 3,
+   "L": [
+    33,
+    14,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    32,
+    10,
+    1,
+    1,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0250",
+   "report_page": 23,
+   "line": 4,
+   "L": [
+    56,
+    9,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    52,
+    9,
+    3,
+    3,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 4,
+   "signed_delta": -4,
+   "flag": "component",
+   "code": "C|-4"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0168",
+   "report_page": 23,
+   "line": 5,
+   "L": [
+    15,
+    2,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    16,
+    2,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0007",
+   "report_page": 23,
+   "line": 6,
+   "L": [
+    17,
+    5,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    20,
+    4,
+    0,
+    0,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0101",
+   "report_page": 24,
+   "line": 1,
+   "L": [
+    40,
+    9,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    39,
+    6,
+    2,
+    2,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0094",
+   "report_page": 24,
+   "line": 2,
+   "L": [
+    22,
+    6,
+    3,
+    2,
+    0
+   ],
+   "R": [
+    22,
+    5,
+    2,
+    2,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0213",
+   "report_page": 24,
+   "line": 3,
+   "L": [
+    32,
+    7,
+    4,
+    3,
+    1
+   ],
+   "R": [
+    31,
+    8,
+    3,
+    2,
+    1
+   ],
+   "distance": 4,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0259",
+   "report_page": 24,
+   "line": 4,
+   "L": [
+    38,
+    5,
+    10,
+    10,
+    0
+   ],
+   "R": [
+    38,
+    19,
+    10,
+    10,
+    0
+   ],
+   "distance": 14,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0152",
+   "report_page": 24,
+   "line": 5,
+   "L": [
+    24,
+    9,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    24,
+    9,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0068",
+   "report_page": 24,
+   "line": 6,
+   "L": [
+    18,
+    5,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    18,
+    5,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0111",
+   "report_page": 25,
+   "line": 1,
+   "L": [
+    23,
+    8,
+    10,
+    6,
+    4
+   ],
+   "R": [
+    25,
+    6,
+    4,
+    3,
+    1
+   ],
+   "distance": 16,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
+   "code": "W|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0104",
+   "report_page": 25,
+   "line": 2,
+   "L": [
+    45,
+    1,
+    12,
+    6,
+    6
+   ],
+   "R": [
+    45,
+    3,
+    12,
+    7,
+    5
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0016",
+   "report_page": 25,
+   "line": 3,
+   "L": [
+    49,
+    12,
+    5,
+    5,
+    0
+   ],
+   "R": [
+    48,
+    14,
+    5,
+    5,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0076",
+   "report_page": 25,
+   "line": 4,
+   "L": [
+    28,
+    12,
+    6,
+    2,
+    4
+   ],
+   "R": [
+    28,
+    13,
+    5,
+    2,
+    3
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0034",
+   "report_page": 25,
+   "line": 5,
+   "L": [
+    23,
+    5,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    24,
+    5,
+    3,
+    3,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0131",
+   "report_page": 25,
+   "line": 6,
+   "L": [
+    34,
+    7,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    60,
+    8,
+    15,
+    6,
+    9
+   ],
+   "distance": 51,
+   "comp_delta": 26,
+   "signed_delta": 26,
+   "flag": "component",
+   "code": "C|+26"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0247",
+   "report_page": 26,
+   "line": 1,
+   "L": [
+    56,
+    9,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    54,
+    9,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "noise",
+   "code": "N|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0017",
+   "report_page": 26,
+   "line": 2,
+   "L": [
+    50,
+    15,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    50,
+    15,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0069",
+   "report_page": 26,
+   "line": 3,
+   "L": [
+    28,
+    6,
+    5,
+    4,
+    0
+   ],
+   "R": [
+    33,
+    7,
+    7,
+    5,
+    2
+   ],
+   "distance": 11,
+   "comp_delta": 5,
+   "signed_delta": 5,
+   "flag": "component",
+   "code": "C|+5"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0228",
+   "report_page": 26,
+   "line": 4,
+   "L": [
+    41,
+    1,
+    11,
+    6,
+    5
+   ],
+   "R": [
+    41,
+    1,
+    11,
+    6,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0126",
+   "report_page": 26,
+   "line": 5,
+   "L": [
+    48,
+    12,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    48,
+    12,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0161",
+   "report_page": 26,
+   "line": 6,
+   "L": [
+    22,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    22,
+    2,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0042",
+   "report_page": 27,
+   "line": 1,
+   "L": [
+    25,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    26,
+    1,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0164",
+   "report_page": 27,
+   "line": 2,
+   "L": [
+    28,
+    2,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    28,
+    2,
+    4,
+    4,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0171",
+   "report_page": 27,
+   "line": 3,
+   "L": [
+    22,
+    11,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    22,
+    12,
+    4,
+    4,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0192",
+   "report_page": 27,
+   "line": 4,
+   "L": [
+    131,
+    30,
+    15,
+    10,
+    5
+   ],
+   "R": [
+    132,
+    26,
+    14,
+    9,
+    5
+   ],
+   "distance": 7,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0113",
+   "report_page": 27,
+   "line": 5,
+   "L": [
+    32,
+    7,
+    7,
+    5,
+    2
+   ],
+   "R": [
+    32,
+    8,
+    7,
+    5,
+    2
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0056",
+   "report_page": 28,
+   "line": 1,
+   "L": [
+    25,
+    2,
+    10,
+    4,
+    6
+   ],
+   "R": [
+    27,
+    0,
+    10,
+    4,
+    6
+   ],
+   "distance": 4,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0195",
+   "report_page": 28,
+   "line": 2,
+   "L": [
+    31,
+    3,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    31,
+    3,
+    6,
+    6,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0002",
+   "report_page": 28,
+   "line": 3,
+   "L": [
+    31,
+    17,
+    5,
+    4,
+    1
+   ],
+   "R": [
+    31,
+    17,
+    6,
+    4,
+    2
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0189",
+   "report_page": 28,
+   "line": 4,
+   "L": [
+    36,
+    15,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    36,
+    15,
+    6,
+    6,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0136",
+   "report_page": 28,
+   "line": 5,
+   "L": [
+    31,
+    10,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    41,
+    10,
+    2,
+    2,
+    0
+   ],
+   "distance": 12,
+   "comp_delta": 10,
+   "signed_delta": 10,
+   "flag": "component",
+   "code": "C|+10"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0009",
+   "report_page": 28,
+   "line": 6,
+   "L": [
+    27,
+    5,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    27,
+    3,
+    4,
+    4,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0053",
+   "report_page": 29,
+   "line": 1,
+   "L": [
+    97,
+    31,
+    60,
+    29,
+    31
+   ],
+   "R": [
+    104,
+    30,
+    29,
+    29,
+    0
+   ],
+   "distance": 70,
+   "comp_delta": 7,
+   "signed_delta": 7,
+   "flag": "component",
+   "code": "C|+7"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0231",
+   "report_page": 29,
+   "line": 2,
+   "L": [
+    52,
+    16,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    52,
+    17,
+    0,
+    0,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0049",
+   "report_page": 29,
+   "line": 3,
+   "L": [
+    54,
+    3,
+    14,
+    10,
+    4
+   ],
+   "R": [
+    55,
+    5,
+    16,
+    11,
+    5
+   ],
+   "distance": 7,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0215",
+   "report_page": 29,
+   "line": 4,
+   "L": [
+    43,
+    11,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    43,
+    8,
+    1,
+    1,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0108",
+   "report_page": 29,
+   "line": 5,
+   "L": [
+    5,
+    2,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    5,
+    4,
+    0,
+    0,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0166",
+   "report_page": 29,
+   "line": 6,
+   "L": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    11,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0011",
+   "report_page": 30,
+   "line": 1,
+   "L": [
+    14,
+    4,
+    3,
+    2,
+    0
+   ],
+   "R": [
+    26,
+    4,
+    6,
+    4,
+    2
+   ],
+   "distance": 19,
+   "comp_delta": 12,
+   "signed_delta": 12,
+   "flag": "component",
+   "code": "C|+12"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0106",
+   "report_page": 30,
+   "line": 2,
+   "L": [
+    55,
+    1,
+    10,
+    8,
+    2
+   ],
+   "R": [
+    55,
+    1,
+    10,
+    8,
+    2
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0008",
+   "report_page": 30,
+   "line": 3,
+   "L": [
+    28,
+    8,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    30,
+    9,
+    5,
+    4,
+    1
+   ],
+   "distance": 5,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0212",
+   "report_page": 30,
+   "line": 4,
+   "L": [
+    53,
+    9,
+    15,
+    9,
+    6
+   ],
+   "R": [
+    53,
+    9,
+    21,
+    9,
+    12
+   ],
+   "distance": 12,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0232",
+   "report_page": 30,
+   "line": 5,
+   "L": [
+    50,
+    4,
+    8,
+    8,
+    0
+   ],
+   "R": [
+    50,
+    5,
+    8,
+    7,
+    1
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0253",
+   "report_page": 31,
+   "line": 1,
+   "L": [
+    150,
+    26,
+    104,
+    38,
+    66
+   ],
+   "R": [
+    148,
+    27,
+    114,
+    38,
+    76
+   ],
+   "distance": 23,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0146",
+   "report_page": 31,
+   "line": 2,
+   "L": [
+    46,
+    31,
+    8,
+    7,
+    1
+   ],
+   "R": [
+    59,
+    33,
+    9,
+    7,
+    2
+   ],
+   "distance": 17,
+   "comp_delta": 13,
+   "signed_delta": 13,
+   "flag": "component",
+   "code": "C|+13"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0015",
+   "report_page": 31,
+   "line": 3,
+   "L": [
+    40,
+    15,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    40,
+    15,
+    4,
+    4,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0081",
+   "report_page": 31,
+   "line": 4,
+   "L": [
+    18,
+    4,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    18,
+    4,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0091",
+   "report_page": 31,
+   "line": 5,
+   "L": [
+    67,
+    44,
+    16,
+    15,
+    1
+   ],
+   "R": [
+    67,
+    49,
+    18,
+    17,
+    1
+   ],
+   "distance": 9,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0157",
+   "report_page": 32,
+   "line": 1,
+   "L": [
+    36,
+    10,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    37,
+    10,
+    4,
+    4,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0183",
+   "report_page": 32,
+   "line": 2,
+   "L": [
+    56,
+    20,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    56,
+    11,
+    4,
+    4,
+    0
+   ],
+   "distance": 9,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0245",
+   "report_page": 32,
+   "line": 3,
+   "L": [
+    47,
+    11,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    46,
+    10,
+    2,
+    2,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0039",
+   "report_page": 32,
+   "line": 4,
+   "L": [
+    86,
+    16,
+    46,
+    24,
+    22
+   ],
+   "R": [
+    84,
+    17,
+    15,
+    10,
+    5
+   ],
+   "distance": 65,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "code": "W|-2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0142",
+   "report_page": 32,
+   "line": 5,
+   "L": [
+    99,
+    8,
+    24,
+    10,
+    14
+   ],
+   "R": [
+    99,
+    9,
+    15,
+    10,
+    5
+   ],
+   "distance": 19,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0052",
+   "report_page": 32,
+   "line": 6,
+   "L": [
+    32,
+    8,
+    4,
+    3,
+    1
+   ],
+   "R": [
+    31,
+    5,
+    5,
+    3,
+    2
+   ],
+   "distance": 6,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0054",
+   "report_page": 33,
+   "line": 1,
+   "L": [
+    27,
+    4,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    29,
+    1,
+    5,
+    5,
+    0
+   ],
+   "distance": 9,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
+   "code": "W|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0063",
+   "report_page": 33,
+   "line": 2,
+   "L": [
+    53,
+    16,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    50,
+    17,
+    2,
+    2,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 3,
+   "signed_delta": -3,
+   "flag": "component",
+   "code": "C|-3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0067",
+   "report_page": 33,
+   "line": 3,
+   "L": [
+    13,
+    3,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    13,
+    3,
+    0,
+    0,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0181",
+   "report_page": 33,
+   "line": 4,
+   "L": [
+    35,
+    2,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    35,
+    2,
+    7,
+    7,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0220",
+   "report_page": 33,
+   "line": 5,
+   "L": [
+    28,
+    6,
+    17,
+    17,
+    0
+   ],
+   "R": [
+    29,
+    6,
+    17,
+    17,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0258",
+   "report_page": 34,
+   "line": 1,
+   "L": [
+    111,
+    33,
+    33,
+    19,
+    14
+   ],
+   "R": [
+    111,
+    33,
+    26,
+    12,
+    14
+   ],
+   "distance": 14,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0001",
+   "report_page": 34,
+   "line": 2,
+   "L": [
+    18,
+    12,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    18,
+    12,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0004",
+   "report_page": 34,
+   "line": 3,
+   "L": [
+    54,
+    5,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    54,
+    5,
+    6,
+    6,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0006",
+   "report_page": 34,
+   "line": 4,
+   "L": [
+    35,
+    6,
+    13,
+    10,
+    2
+   ],
+   "R": [
+    35,
+    6,
+    12,
+    10,
+    2
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0012",
+   "report_page": 34,
+   "line": 5,
+   "L": [
+    13,
+    2,
+    3,
+    2,
+    0
+   ],
+   "R": [
+    20,
+    2,
+    4,
+    2,
+    2
+   ],
+   "distance": 10,
+   "comp_delta": 7,
+   "signed_delta": 7,
+   "flag": "component",
+   "code": "C|+7"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0013",
+   "report_page": 34,
+   "line": 6,
+   "L": [
+    24,
+    7,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    24,
+    7,
+    4,
+    4,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0014",
+   "report_page": 35,
+   "line": 1,
+   "L": [
+    54,
+    20,
+    7,
+    6,
+    0
+   ],
+   "R": [
+    54,
+    21,
+    6,
+    6,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0019",
+   "report_page": 35,
+   "line": 2,
+   "L": [
+    30,
+    4,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    30,
+    6,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0026",
+   "report_page": 35,
+   "line": 3,
+   "L": [
+    23,
+    1,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    23,
+    0,
+    3,
+    3,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0027",
+   "report_page": 35,
+   "line": 4,
+   "L": [
+    9,
+    1,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    9,
+    0,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0028",
+   "report_page": 35,
+   "line": 5,
+   "L": [
+    23,
+    1,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    23,
+    2,
+    3,
+    3,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0029",
+   "report_page": 35,
+   "line": 6,
+   "L": [
+    22,
+    6,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    22,
+    6,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0030",
+   "report_page": 36,
+   "line": 1,
+   "L": [
+    18,
+    4,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    18,
+    5,
+    0,
+    0,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0031",
+   "report_page": 36,
+   "line": 2,
+   "L": [
+    28,
+    3,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    28,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0032",
+   "report_page": 36,
+   "line": 3,
+   "L": [
+    24,
+    2,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    24,
+    2,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0033",
+   "report_page": 36,
+   "line": 4,
+   "L": [
+    14,
+    3,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    3,
+    1,
+    1,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0035",
+   "report_page": 36,
+   "line": 5,
+   "L": [
+    65,
+    13,
+    20,
+    18,
+    2
+   ],
+   "R": [
+    66,
+    13,
+    10,
+    10,
+    0
+   ],
+   "distance": 21,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0036",
+   "report_page": 36,
+   "line": 6,
+   "L": [
+    31,
+    3,
+    9,
+    7,
+    2
+   ],
+   "R": [
+    31,
+    3,
+    9,
+    5,
+    4
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0038",
+   "report_page": 37,
+   "line": 1,
+   "L": [
+    23,
+    12,
+    14,
+    14,
+    0
+   ],
+   "R": [
+    23,
+    9,
+    14,
+    14,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0041",
+   "report_page": 37,
+   "line": 2,
+   "L": [
+    33,
+    5,
+    10,
+    10,
+    0
+   ],
+   "R": [
+    33,
+    5,
+    7,
+    7,
+    0
+   ],
+   "distance": 6,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0044",
+   "report_page": 37,
+   "line": 3,
+   "L": [
+    19,
+    7,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    23,
+    7,
+    5,
+    4,
+    1
+   ],
+   "distance": 8,
+   "comp_delta": 4,
+   "signed_delta": 4,
+   "flag": "component",
+   "code": "C|+4"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0045",
+   "report_page": 37,
+   "line": 4,
+   "L": [
+    49,
+    9,
+    7,
+    7,
+    0
+   ],
+   "R": [
+    49,
+    9,
+    7,
+    7,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0050",
+   "report_page": 37,
+   "line": 5,
+   "L": [
+    22,
+    8,
+    5,
+    3,
+    2
+   ],
+   "R": [
+    22,
+    8,
+    6,
+    3,
+    3
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0051",
+   "report_page": 38,
+   "line": 1,
+   "L": [
+    33,
+    2,
+    7,
+    2,
+    5
+   ],
+   "R": [
+    33,
+    0,
+    7,
+    2,
+    5
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0058",
+   "report_page": 38,
+   "line": 2,
+   "L": [
+    60,
+    3,
+    14,
+    11,
+    3
+   ],
+   "R": [
+    60,
+    16,
+    14,
+    11,
+    3
+   ],
+   "distance": 13,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0060",
+   "report_page": 38,
+   "line": 3,
+   "L": [
+    19,
+    3,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    22,
+    8,
+    3,
+    3,
+    0
+   ],
+   "distance": 8,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0078",
+   "report_page": 38,
+   "line": 4,
+   "L": [
+    23,
+    2,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    26,
+    0,
+    3,
+    3,
+    0
+   ],
+   "distance": 7,
+   "comp_delta": 3,
+   "signed_delta": 3,
+   "flag": "component",
+   "code": "C|+3"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0084",
+   "report_page": 38,
+   "line": 5,
+   "L": [
+    33,
+    11,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    35,
+    10,
+    3,
+    3,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "noise",
+   "code": "N|+2"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0086",
+   "report_page": 38,
+   "line": 6,
+   "L": [
+    32,
+    12,
+    5,
+    4,
+    1
+   ],
+   "R": [
+    33,
+    11,
+    5,
+    4,
+    1
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0087",
+   "report_page": 39,
+   "line": 1,
+   "L": [
+    33,
+    16,
+    4,
+    3,
+    1
+   ],
+   "R": [
+    42,
+    16,
+    6,
+    4,
+    2
+   ],
+   "distance": 13,
+   "comp_delta": 9,
+   "signed_delta": 9,
+   "flag": "component",
+   "code": "C|+9"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0098",
+   "report_page": 39,
+   "line": 2,
+   "L": [
+    59,
+    1,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    60,
+    2,
+    4,
+    4,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0102",
+   "report_page": 39,
+   "line": 3,
+   "L": [
+    44,
+    12,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    43,
+    8,
+    2,
+    2,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0105",
+   "report_page": 39,
+   "line": 4,
+   "L": [
+    53,
+    5,
+    11,
+    6,
+    5
+   ],
+   "R": [
+    52,
+    7,
+    11,
+    6,
+    5
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0109",
+   "report_page": 39,
+   "line": 5,
+   "L": [
+    44,
+    4,
+    6,
+    6,
+    0
+   ],
+   "R": [
+    44,
+    6,
+    6,
+    6,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0115",
+   "report_page": 39,
+   "line": 6,
+   "L": [
+    22,
+    6,
+    5,
+    5,
+    0
+   ],
+   "R": [
+    22,
+    6,
+    5,
+    5,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0117",
+   "report_page": 40,
+   "line": 1,
+   "L": [
+    23,
+    3,
+    6,
+    1,
+    5
+   ],
+   "R": [
+    23,
+    3,
+    6,
+    1,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0120",
+   "report_page": 40,
+   "line": 2,
+   "L": [
+    32,
+    7,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    32,
+    7,
+    2,
+    2,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0121",
+   "report_page": 40,
+   "line": 3,
+   "L": [
+    36,
+    9,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    36,
+    9,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0125",
+   "report_page": 40,
+   "line": 4,
+   "L": [
+    38,
+    7,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    38,
+    10,
+    2,
+    2,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0127",
+   "report_page": 40,
+   "line": 5,
+   "L": [
+    35,
+    5,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    35,
+    5,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0130",
+   "report_page": 40,
+   "line": 6,
+   "L": [
+    29,
+    7,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    29,
+    5,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0133",
+   "report_page": 41,
+   "line": 1,
+   "L": [
+    15,
+    3,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    15,
+    3,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0137",
+   "report_page": 41,
+   "line": 2,
+   "L": [
+    22,
+    3,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    22,
+    3,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0140",
+   "report_page": 41,
+   "line": 3,
+   "L": [
+    47,
+    6,
+    5,
+    5,
+    0
+   ],
+   "R": [
+    47,
+    8,
+    5,
+    5,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0147",
+   "report_page": 41,
+   "line": 4,
+   "L": [
+    43,
+    0,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    47,
+    1,
+    4,
+    4,
+    0
+   ],
+   "distance": 7,
+   "comp_delta": 4,
+   "signed_delta": 4,
+   "flag": "component",
+   "code": "C|+4"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0154",
+   "report_page": 41,
+   "line": 5,
+   "L": [
+    20,
+    4,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    19,
+    2,
+    2,
+    2,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "noise",
+   "code": "N|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0158",
+   "report_page": 41,
+   "line": 6,
+   "L": [
+    25,
+    0,
+    7,
+    1,
+    6
+   ],
+   "R": [
+    25,
+    0,
+    7,
+    2,
+    5
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0162",
+   "report_page": 42,
+   "line": 1,
+   "L": [
+    18,
+    0,
+    7,
+    4,
+    3
+   ],
+   "R": [
+    18,
+    1,
+    6,
+    2,
+    4
+   ],
+   "distance": 5,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0163",
+   "report_page": 42,
+   "line": 2,
+   "L": [
+    75,
+    0,
+    27,
+    5,
+    22
+   ],
+   "R": [
+    75,
+    0,
+    27,
+    5,
+    22
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0169",
+   "report_page": 42,
+   "line": 3,
+   "L": [
+    36,
+    4,
+    11,
+    10,
+    1
+   ],
+   "R": [
+    37,
+    5,
+    8,
+    6,
+    2
+   ],
+   "distance": 10,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0173",
+   "report_page": 42,
+   "line": 4,
+   "L": [
+    32,
+    7,
+    7,
+    3,
+    3
+   ],
+   "R": [
+    32,
+    7,
+    6,
+    3,
+    3
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0175",
+   "report_page": 42,
+   "line": 5,
+   "L": [
+    40,
+    2,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    40,
+    2,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0176",
+   "report_page": 42,
+   "line": 6,
+   "L": [
+    36,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    36,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0177",
+   "report_page": 43,
+   "line": 1,
+   "L": [
+    30,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    30,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0178",
+   "report_page": 43,
+   "line": 2,
+   "L": [
+    8,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    8,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0179",
+   "report_page": 43,
+   "line": 3,
+   "L": [
+    80,
+    0,
+    40,
+    40,
+    0
+   ],
+   "R": [
+    81,
+    0,
+    30,
+    30,
+    0
+   ],
+   "distance": 21,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "code": "W|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0182",
+   "report_page": 43,
+   "line": 4,
+   "L": [
+    40,
+    5,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    40,
+    5,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0184",
+   "report_page": 43,
+   "line": 5,
+   "L": [
+    25,
+    7,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    25,
+    8,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0188",
+   "report_page": 43,
+   "line": 6,
+   "L": [
+    22,
+    9,
+    4,
+    4,
+    0
+   ],
+   "R": [
+    22,
+    9,
+    4,
+    4,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0190",
+   "report_page": 44,
+   "line": 1,
+   "L": [
+    37,
+    16,
+    14,
+    5,
+    9
+   ],
+   "R": [
+    37,
+    16,
+    4,
+    4,
+    0
+   ],
+   "distance": 20,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0194",
+   "report_page": 44,
+   "line": 2,
+   "L": [
+    78,
+    46,
+    43,
+    41,
+    2
+   ],
+   "R": [
+    79,
+    43,
+    42,
+    41,
+    1
+   ],
+   "distance": 6,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0196",
+   "report_page": 44,
+   "line": 3,
+   "L": [
+    34,
+    6,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    34,
+    8,
+    3,
+    3,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0197",
+   "report_page": 44,
+   "line": 4,
+   "L": [
+    34,
+    5,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    34,
+    5,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0203",
+   "report_page": 44,
+   "line": 5,
+   "L": [
+    45,
+    0,
+    30,
+    30,
+    0
+   ],
+   "R": [
+    45,
+    0,
+    26,
+    26,
+    0
+   ],
+   "distance": 8,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0204",
+   "report_page": 45,
+   "line": 1,
+   "L": [
+    30,
+    2,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    30,
+    3,
+    3,
+    3,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0205",
+   "report_page": 45,
+   "line": 2,
+   "L": [
+    67,
+    11,
+    13,
+    6,
+    7
+   ],
+   "R": [
+    67,
+    20,
+    9,
+    4,
+    5
+   ],
+   "distance": 17,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0208",
+   "report_page": 45,
+   "line": 3,
+   "L": [
+    71,
+    0,
+    10,
+    10,
+    0
+   ],
+   "R": [
+    71,
+    12,
+    10,
+    10,
+    0
+   ],
+   "distance": 12,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0211",
+   "report_page": 45,
+   "line": 4,
+   "L": [
+    53,
+    10,
+    11,
+    9,
+    2
+   ],
+   "R": [
+    53,
+    22,
+    9,
+    9,
+    0
+   ],
+   "distance": 16,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0218",
+   "report_page": 45,
+   "line": 5,
+   "L": [
+    32,
+    13,
+    23,
+    20,
+    3
+   ],
+   "R": [
+    32,
+    12,
+    22,
+    20,
+    2
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0229",
+   "report_page": 45,
+   "line": 6,
+   "L": [
+    49,
+    2,
+    12,
+    6,
+    6
+   ],
+   "R": [
+    49,
+    2,
+    12,
+    6,
+    6
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0230",
+   "report_page": 46,
+   "line": 1,
+   "L": [
+    25,
+    8,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    25,
+    8,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0233",
+   "report_page": 46,
+   "line": 2,
+   "L": [
+    19,
+    12,
+    12,
+    12,
+    0
+   ],
+   "R": [
+    19,
+    12,
+    12,
+    12,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0234",
+   "report_page": 46,
+   "line": 3,
+   "L": [
+    38,
+    16,
+    10,
+    10,
+    0
+   ],
+   "R": [
+    38,
+    16,
+    10,
+    10,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0236",
+   "report_page": 46,
+   "line": 4,
+   "L": [
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0237",
+   "report_page": 46,
+   "line": 5,
+   "L": [
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0238",
+   "report_page": 46,
+   "line": 6,
+   "L": [
+    25,
+    1,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    25,
+    1,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0240",
+   "report_page": 47,
+   "line": 1,
+   "L": [
+    83,
+    7,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    83,
+    3,
+    3,
+    3,
+    0
+   ],
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0241",
+   "report_page": 47,
+   "line": 2,
+   "L": [
+    25,
+    4,
+    3,
+    3,
+    0
+   ],
+   "R": [
+    25,
+    4,
+    3,
+    3,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0243",
+   "report_page": 47,
+   "line": 3,
+   "L": [
+    15,
+    4,
+    8,
+    8,
+    0
+   ],
+   "R": [
+    15,
+    4,
+    8,
+    8,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0244",
+   "report_page": 47,
+   "line": 4,
+   "L": [
+    51,
+    8,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    51,
+    9,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "code": "N|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0246",
+   "report_page": 47,
+   "line": 5,
+   "L": [
+    64,
+    15,
+    18,
+    11,
+    7
+   ],
+   "R": [
+    63,
+    13,
+    11,
+    10,
+    1
+   ],
+   "distance": 17,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "weak",
+   "code": "W|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0249",
+   "report_page": 48,
+   "line": 1,
+   "L": [
+    64,
+    15,
+    24,
+    16,
+    8
+   ],
+   "R": [
+    63,
+    13,
+    17,
+    10,
+    7
+   ],
+   "distance": 17,
+   "comp_delta": 1,
+   "signed_delta": -1,
+   "flag": "weak",
+   "code": "W|-1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0251",
+   "report_page": 48,
+   "line": 2,
+   "L": [
+    38,
+    7,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    39,
+    9,
+    3,
+    3,
+    0
+   ],
+   "distance": 5,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "code": "N|+1"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0252",
+   "report_page": 48,
+   "line": 3,
+   "L": [
+    94,
+    9,
+    77,
+    40,
+    37
+   ],
+   "R": [
+    82,
+    9,
+    66,
+    29,
+    37
+   ],
+   "distance": 34,
+   "comp_delta": 12,
+   "signed_delta": -12,
+   "flag": "component",
+   "code": "C|-12"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0254",
+   "report_page": 48,
+   "line": 4,
+   "L": [
+    20,
+    9,
+    7,
+    2,
+    5
+   ],
+   "R": [
+    20,
+    9,
+    3,
+    1,
+    2
+   ],
+   "distance": 8,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "code": "W|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0261",
+   "report_page": 48,
+   "line": 5,
+   "L": [
+    23,
+    6,
+    6,
+    1,
+    5
+   ],
+   "R": [
+    23,
+    6,
+    6,
+    1,
+    5
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0262",
+   "report_page": 48,
+   "line": 6,
+   "L": [
+    65,
+    20,
+    18,
+    3,
+    15
+   ],
+   "R": [
+    65,
+    20,
+    18,
+    3,
+    15
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "code": "K|+0"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0064",
+   "report_page": 49,
+   "line": 1,
+   "L": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    32,
+    7,
+    9,
+    9,
+    0
+   ],
+   "distance": 56,
+   "comp_delta": 31,
+   "signed_delta": 31,
+   "flag": "component",
+   "code": "C|+31"
+  },
+  {
+   "id": "An_Invitation_to_Applied_Category_Theory_Seven_Sketches_In_Compositionality__Brendan_Fong__David_I._Spivak___Z-Library__EQ0065",
+   "report_page": 49,
+   "line": 2,
+   "L": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    78,
+    27,
+    22,
+    16,
+    6
+   ],
+   "distance": 148,
+   "comp_delta": 77,
+   "signed_delta": 77,
+   "flag": "component",
+   "code": "C|+77"
+  }
+ ],
+ "footers_dropped": 49,
+ "display_pages": 49,
+ "source": "report.compare.tsv"
+}
