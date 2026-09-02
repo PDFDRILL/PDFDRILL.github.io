@@ -1,116 +1,111 @@
 {
- "out": "/home/wkolbe/pdfdrill-library/bradley_spring22/report.pdf",
- "written": {},
  "rows": [
   {
+   "id": "bradley_spring22_EQ0005",
    "report_page": 1,
    "line": 1,
    "L": [
     145,
     45,
-    86,
+    87,
     71,
-    15
+    16
    ],
    "R": [
-    136,
-    47,
+    143,
+    49,
+    33,
     26,
-    18,
     6
    ],
-   "distance": 133,
-   "comp_delta": 9,
-   "signed_delta": -9,
-   "flag": "component",
-   "code": "C|-9",
-   "id": "bradley_spring22_EQ0005",
-   "src_page": "013",
-   "field": "ink.bradley_spring22_EQ0005"
+   "distance": 115,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "rendered": true,
+   "code": "W|-2"
   },
   {
+   "id": "bradley_spring22_EQ0016",
    "report_page": 1,
    "line": 2,
    "L": [
-    57,
-    21,
-    2,
+    58,
+    24,
+    5,
     1,
-    1
+    2
    ],
    "R": [
     60,
-    25,
+    27,
     3,
     2,
     1
    ],
    "distance": 9,
-   "comp_delta": 3,
-   "signed_delta": 3,
-   "flag": "component",
-   "code": "C|+3",
-   "id": "bradley_spring22_EQ0016",
-   "src_page": "028",
-   "field": "ink.bradley_spring22_EQ0016"
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
+   "rendered": true,
+   "code": "W|+2"
   },
   {
+   "id": "bradley_spring22_EQ0006",
    "report_page": 1,
    "line": 3,
    "L": [
-    46,
-    22,
+    48,
+    16,
     3,
     3,
     0
    ],
    "R": [
     48,
-    18,
+    16,
     3,
     1,
     2
    ],
-   "distance": 10,
-   "comp_delta": 2,
-   "signed_delta": 2,
-   "flag": "weak",
-   "code": "W|+2",
-   "id": "bradley_spring22_EQ0006",
-   "src_page": "014",
-   "field": "ink.bradley_spring22_EQ0006"
+   "distance": 4,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0001",
    "report_page": 1,
    "line": 4,
    "L": [
-    40,
-    17,
+    41,
+    13,
     1,
     1,
     0
    ],
    "R": [
     41,
-    17,
+    18,
     1,
     1,
     0
    ],
-   "distance": 1,
-   "comp_delta": 1,
-   "signed_delta": 1,
+   "distance": 5,
+   "comp_delta": 0,
+   "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+1",
-   "id": "bradley_spring22_EQ0001",
-   "src_page": "012",
-   "field": "ink.bradley_spring22_EQ0001"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0002",
    "report_page": 1,
    "line": 5,
    "L": [
-    34,
+    35,
     10,
     3,
     3,
@@ -123,21 +118,20 @@
     3,
     0
    ],
-   "distance": 4,
-   "comp_delta": 1,
-   "signed_delta": 1,
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+1",
-   "id": "bradley_spring22_EQ0002",
-   "src_page": "012",
-   "field": "ink.bradley_spring22_EQ0002"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0003",
    "report_page": 1,
    "line": 6,
    "L": [
-    68,
-    14,
+    69,
+    13,
     14,
     14,
     0
@@ -150,41 +144,39 @@
     0
    ],
    "distance": 6,
-   "comp_delta": 1,
-   "signed_delta": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+1",
-   "id": "bradley_spring22_EQ0003",
-   "src_page": "012",
-   "field": "ink.bradley_spring22_EQ0003"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0004",
    "report_page": 1,
    "line": 7,
    "L": [
-    45,
-    20,
+    48,
+    17,
     3,
     3,
     0
    ],
    "R": [
     46,
-    21,
+    28,
     3,
     1,
     2
    ],
-   "distance": 6,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "noise",
-   "code": "N|+1",
-   "id": "bradley_spring22_EQ0004",
-   "src_page": "013",
-   "field": "ink.bradley_spring22_EQ0004"
+   "distance": 17,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
+   "rendered": true,
+   "code": "W|-2"
   },
   {
+   "id": "bradley_spring22_EQ0007",
    "report_page": 1,
    "line": 8,
    "L": [
@@ -205,64 +197,61 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "bradley_spring22_EQ0007",
-   "src_page": "018",
-   "field": "ink.bradley_spring22_EQ0007"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0008",
    "report_page": 1,
    "line": 9,
    "L": [
-    32,
+    33,
     5,
     5,
     5,
     0
    ],
    "R": [
-    31,
+    33,
     6,
-    3,
-    3,
+    5,
+    5,
     0
    ],
-   "distance": 6,
-   "comp_delta": 1,
-   "signed_delta": -1,
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
    "flag": "noise",
-   "code": "N|-1",
-   "id": "bradley_spring22_EQ0008",
-   "src_page": "021",
-   "field": "ink.bradley_spring22_EQ0008"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0009",
    "report_page": 1,
    "line": 10,
    "L": [
-    52,
-    15,
-    1,
-    1,
-    0
-   ],
-   "R": [
     54,
     12,
     1,
     1,
     0
    ],
-   "distance": 5,
-   "comp_delta": 2,
-   "signed_delta": 2,
+   "R": [
+    54,
+    14,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+2",
-   "id": "bradley_spring22_EQ0009",
-   "src_page": "022",
-   "field": "ink.bradley_spring22_EQ0009"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0010",
    "report_page": 1,
    "line": 11,
    "L": [
@@ -274,21 +263,20 @@
    ],
    "R": [
     35,
-    11,
+    13,
     1,
     1,
     0
    ],
-   "distance": 2,
+   "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "bradley_spring22_EQ0010",
-   "src_page": "024",
-   "field": "ink.bradley_spring22_EQ0010"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0011",
    "report_page": 1,
    "line": 12,
    "L": [
@@ -309,12 +297,11 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "clean",
-   "code": "K|+0",
-   "id": "bradley_spring22_EQ0011",
-   "src_page": "024",
-   "field": "ink.bradley_spring22_EQ0011"
+   "rendered": true,
+   "code": "K|+0"
   },
   {
+   "id": "bradley_spring22_EQ0012",
    "report_page": 2,
    "line": 1,
    "L": [
@@ -335,17 +322,16 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "clean",
-   "code": "K|+0",
-   "id": "bradley_spring22_EQ0012",
-   "src_page": "024",
-   "field": "ink.bradley_spring22_EQ0012"
+   "rendered": true,
+   "code": "K|+0"
   },
   {
+   "id": "bradley_spring22_EQ0013",
    "report_page": 2,
    "line": 2,
    "L": [
     9,
-    3,
+    4,
     1,
     1,
     0
@@ -357,16 +343,15 @@
     1,
     0
    ],
-   "distance": 1,
+   "distance": 2,
    "comp_delta": 1,
    "signed_delta": -1,
    "flag": "noise",
-   "code": "N|-1",
-   "id": "bradley_spring22_EQ0013",
-   "src_page": "026",
-   "field": "ink.bradley_spring22_EQ0013"
+   "rendered": true,
+   "code": "N|-1"
   },
   {
+   "id": "bradley_spring22_EQ0014",
    "report_page": 2,
    "line": 3,
    "L": [
@@ -387,12 +372,11 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "bradley_spring22_EQ0014",
-   "src_page": "026",
-   "field": "ink.bradley_spring22_EQ0014"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "bradley_spring22_EQ0015",
    "report_page": 2,
    "line": 4,
    "L": [
@@ -413,10 +397,30 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "clean",
-   "code": "K|+0",
-   "id": "bradley_spring22_EQ0015",
-   "src_page": "026",
-   "field": "ink.bradley_spring22_EQ0015"
+   "rendered": true,
+   "code": "K|+0"
   }
- ]
+ ],
+ "footers_dropped": 0,
+ "display_pages": 0,
+ "source": "report.compare.tsv",
+ "measured_against": {
+  "pdf": "report.pdf",
+  "pages": 4,
+  "bytes": 481965,
+  "sha256": "4661e1efdd9a19f4f7409ca614533162c1a03ce0f98bea687786a945da13ade6",
+  "mtime": 1788272014,
+  "built_at": "2026-09-01T14:13:34Z",
+  "commit": "c0a5bcdae0b6",
+  "legend": false,
+  "ink_adopted": false,
+  "prefer_refined": false,
+  "filters": {},
+  "glyphs_dropped": 0,
+  "phase": "measure",
+  "formula_rule": "none",
+  "model_sha256": "354b1debb76c1f908e901d4578fc52f3e8deebaf9a566d9b80a2fbbd0df4a48e",
+  "model_bytes": 4233875,
+  "model_mtime": 1787594222
+ }
 }

@@ -21,8 +21,9 @@
    "distance": 290,
    "comp_delta": 117,
    "signed_delta": 117,
-   "flag": "component",
-   "code": "C|+117"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+117"
   },
   {
    "id": "2010.14265_EQ0009",
@@ -45,8 +46,9 @@
    "distance": 133,
    "comp_delta": 51,
    "signed_delta": 51,
-   "flag": "component",
-   "code": "C|+51"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+51"
   },
   {
    "id": "2010.14265_EQ0008",
@@ -69,8 +71,9 @@
    "distance": 37,
    "comp_delta": 34,
    "signed_delta": 34,
-   "flag": "component",
-   "code": "C|+34"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+34"
   },
   {
    "id": "2010.14265_EQ0013",
@@ -93,8 +96,9 @@
    "distance": 6,
    "comp_delta": 2,
    "signed_delta": 2,
-   "flag": "noise",
-   "code": "N|+2"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+2"
   },
   {
    "id": "2010.14265_EQ0001",
@@ -117,8 +121,9 @@
    "distance": 32,
    "comp_delta": 23,
    "signed_delta": 23,
-   "flag": "component",
-   "code": "C|+23"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+23"
   },
   {
    "id": "2010.14265_EQ0006",
@@ -142,6 +147,7 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
+   "rendered": true,
    "code": "N|+0"
   },
   {
@@ -165,8 +171,9 @@
    "distance": 18,
    "comp_delta": 14,
    "signed_delta": 14,
-   "flag": "component",
-   "code": "C|+14"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+14"
   },
   {
    "id": "2010.14265_EQ0014",
@@ -189,8 +196,9 @@
    "distance": 18,
    "comp_delta": 14,
    "signed_delta": 14,
-   "flag": "component",
-   "code": "C|+14"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+14"
   },
   {
    "id": "2010.14265_EQ0011",
@@ -213,8 +221,9 @@
    "distance": 250,
    "comp_delta": 99,
    "signed_delta": 99,
-   "flag": "component",
-   "code": "C|+99"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+99"
   },
   {
    "id": "2010.14265_EQ0010",
@@ -237,8 +246,9 @@
    "distance": 100,
    "comp_delta": 39,
    "signed_delta": 39,
-   "flag": "component",
-   "code": "C|+39"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+39"
   },
   {
    "id": "2010.14265_EQ0016",
@@ -261,8 +271,9 @@
    "distance": 18,
    "comp_delta": 14,
    "signed_delta": 14,
-   "flag": "component",
-   "code": "C|+14"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+14"
   },
   {
    "id": "2010.14265_EQ0002",
@@ -286,6 +297,7 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "clean",
+   "rendered": true,
    "code": "K|+0"
   },
   {
@@ -310,6 +322,7 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "clean",
+   "rendered": true,
    "code": "K|+0"
   },
   {
@@ -334,6 +347,7 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
+   "rendered": true,
    "code": "W|+0"
   },
   {
@@ -358,6 +372,7 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
+   "rendered": true,
    "code": "N|+0"
   },
   {
@@ -382,10 +397,30 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
+   "rendered": true,
    "code": "N|+0"
   }
  ],
- "footers_dropped": 2,
- "display_pages": 2,
- "source": "report.compare.tsv"
+ "footers_dropped": 0,
+ "display_pages": 0,
+ "source": "report.compare.tsv",
+ "measured_against": {
+  "pdf": "report.pdf",
+  "pages": 3,
+  "bytes": 426786,
+  "sha256": "649a89ea51f4caa022d633caa0895bad7736772314f9f012de292f7f5070551c",
+  "mtime": 1788271788,
+  "built_at": "2026-09-01T14:09:48Z",
+  "commit": "c0a5bcdae0b6",
+  "legend": false,
+  "ink_adopted": false,
+  "prefer_refined": false,
+  "filters": {},
+  "glyphs_dropped": 0,
+  "phase": "measure",
+  "formula_rule": "none",
+  "model_sha256": "c8c73eb9055663fa05dedabf03ad7a9973587feb1b31607d47ab8eb57b8454fa",
+  "model_bytes": 5707149,
+  "model_mtime": 1787743859
+ }
 }

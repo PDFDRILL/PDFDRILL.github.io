@@ -1,0 +1,226 @@
+{
+ "rows": [
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0008",
+   "report_page": 1,
+   "line": 1,
+   "L": [
+    90,
+    16,
+    9,
+    4,
+    5
+   ],
+   "R": [
+    90,
+    17,
+    5,
+    4,
+    1
+   ],
+   "distance": 9,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "rendered": true,
+   "code": "W|+0"
+  },
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0004",
+   "report_page": 1,
+   "line": 2,
+   "L": [
+    41,
+    13,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    42,
+    15,
+    0,
+    0,
+    0
+   ],
+   "distance": 3,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+1"
+  },
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0001",
+   "report_page": 1,
+   "line": 3,
+   "L": [
+    56,
+    25,
+    9,
+    6,
+    3
+   ],
+   "R": [
+    56,
+    27,
+    14,
+    10,
+    4
+   ],
+   "distance": 12,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "weak",
+   "rendered": true,
+   "code": "W|+0"
+  },
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0002",
+   "report_page": 1,
+   "line": 4,
+   "L": [
+    80,
+    24,
+    12,
+    8,
+    4
+   ],
+   "R": [
+    81,
+    24,
+    4,
+    4,
+    0
+   ],
+   "distance": 17,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "weak",
+   "rendered": true,
+   "code": "W|+1"
+  },
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0003",
+   "report_page": 1,
+   "line": 5,
+   "L": [
+    10,
+    11,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    10,
+    12,
+    1,
+    1,
+    0
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
+  },
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0005",
+   "report_page": 1,
+   "line": 6,
+   "L": [
+    29,
+    6,
+    8,
+    2,
+    6
+   ],
+   "R": [
+    29,
+    5,
+    8,
+    2,
+    6
+   ],
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
+  },
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0006",
+   "report_page": 1,
+   "line": 7,
+   "L": [
+    26,
+    4,
+    10,
+    4,
+    4
+   ],
+   "R": [
+    26,
+    5,
+    8,
+    4,
+    4
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
+  },
+  {
+   "id": "BradleyGastaldiTerilla2023_EQ0007",
+   "report_page": 1,
+   "line": 8,
+   "L": [
+    27,
+    10,
+    6,
+    2,
+    4
+   ],
+   "R": [
+    27,
+    10,
+    6,
+    2,
+    4
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "rendered": true,
+   "code": "K|+0"
+  }
+ ],
+ "footers_dropped": 0,
+ "display_pages": 0,
+ "source": "report.compare.tsv",
+ "measured_against": {
+  "pdf": "report.pdf",
+  "pages": 6,
+  "bytes": 1023719,
+  "sha256": "ed1c271bfbe60252d952af6a32f159afd97b33796f5af9fbd3a5dc3cc7acecee",
+  "mtime": 1788271996,
+  "built_at": "2026-09-01T14:13:16Z",
+  "commit": "c0a5bcdae0b6",
+  "legend": false,
+  "ink_adopted": false,
+  "prefer_refined": false,
+  "filters": {},
+  "glyphs_dropped": 0,
+  "phase": "measure",
+  "formula_rule": "none",
+  "model_sha256": "3388030f8a396d66d44fc1ade8ff8204dcf2956d88150ffe0083f91036ff3324",
+  "model_bytes": 3098367,
+  "model_mtime": 1787594202
+ }
+}

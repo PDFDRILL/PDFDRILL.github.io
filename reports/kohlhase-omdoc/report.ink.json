@@ -1,7 +1,7 @@
 {
  "rows": [
   {
-   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0004",
+   "id": "kohlhase-omdoc_EQ0004",
    "report_page": 1,
    "line": 1,
    "L": [
@@ -21,11 +21,12 @@
    "distance": 58,
    "comp_delta": 44,
    "signed_delta": 44,
-   "flag": "component",
-   "code": "C|+44"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+44"
   },
   {
-   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0005",
+   "id": "kohlhase-omdoc_EQ0005",
    "report_page": 1,
    "line": 2,
    "L": [
@@ -38,25 +39,26 @@
    "R": [
     118,
     103,
-    147,
+    146,
     54,
-    81
+    80
    ],
-   "distance": 484,
+   "distance": 482,
    "comp_delta": 105,
    "signed_delta": 105,
-   "flag": "component",
-   "code": "C|+105"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+105"
   },
   {
-   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0003",
+   "id": "kohlhase-omdoc_EQ0003",
    "report_page": 1,
    "line": 3,
    "L": [
     37,
     11,
-    8,
-    6,
+    7,
+    5,
     2
    ],
    "R": [
@@ -66,16 +68,17 @@
     0,
     4
    ],
-   "distance": 16,
+   "distance": 14,
    "comp_delta": 3,
    "signed_delta": 3,
    "flag": "component",
+   "rendered": true,
    "code": "C|+3"
   },
   {
-   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0006",
-   "report_page": 2,
-   "line": 1,
+   "id": "kohlhase-omdoc_EQ0006",
+   "report_page": 1,
+   "line": 4,
    "L": [
     30,
     5,
@@ -93,13 +96,14 @@
    "distance": 26,
    "comp_delta": 1,
    "signed_delta": 1,
-   "flag": "weak",
-   "code": "W|+1"
+   "flag": "stable",
+   "rendered": true,
+   "code": "S|+1"
   },
   {
-   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0001",
-   "report_page": 2,
-   "line": 2,
+   "id": "kohlhase-omdoc_EQ0001",
+   "report_page": 1,
+   "line": 5,
    "L": [
     13,
     6,
@@ -117,13 +121,14 @@
    "distance": 50,
    "comp_delta": 38,
    "signed_delta": 38,
-   "flag": "component",
-   "code": "C|+38"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+38"
   },
   {
-   "id": "OMDoc___An_Open_Markup_Format_for_Mathematical_Documents__version_1.2__Foreword_by_Allan_Bundy__Michael_Kohlhase__auth.____Z-Library__EQ0002",
-   "report_page": 2,
-   "line": 3,
+   "id": "kohlhase-omdoc_EQ0002",
+   "report_page": 1,
+   "line": 6,
    "L": [
     11,
     0,
@@ -142,10 +147,30 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
+   "rendered": true,
    "code": "N|+0"
   }
  ],
- "footers_dropped": 2,
- "display_pages": 2,
- "source": "report.compare.tsv"
+ "footers_dropped": 0,
+ "display_pages": 0,
+ "source": "report.compare.tsv",
+ "measured_against": {
+  "pdf": "report.pdf",
+  "pages": 55,
+  "bytes": 17155783,
+  "sha256": "d0de48a879d1fe92acb71fc9e8e6b6d55f0241cf624d8a91d15e69f6416825f4",
+  "mtime": 1788278498,
+  "built_at": "2026-09-01T16:01:38Z",
+  "commit": "272d7b1033d6",
+  "legend": false,
+  "ink_adopted": false,
+  "prefer_refined": false,
+  "filters": {},
+  "glyphs_dropped": 0,
+  "phase": "measure",
+  "formula_rule": "none",
+  "model_sha256": "45bdfcb9bd22d0f8ab9797acb0961d3473389afb5d03dd2f542a312cdf3fd116",
+  "model_bytes": 45670114,
+  "model_mtime": 1788266804
+ }
 }

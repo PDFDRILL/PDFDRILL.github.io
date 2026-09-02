@@ -1,15 +1,19 @@
 {
  "pdf": "report.pdf",
- "pages": 732,
- "bytes": 15525086,
- "sha256": "277d2f4a943fefec1253b61064577d7392c866f2a9415fc26adc17f75aa4535a",
- "mtime": 1787824376,
- "built_at": "2026-08-27T09:52:56Z",
- "commit": "059c0ce88446",
+ "pages": 92,
+ "bytes": 14337539,
+ "sha256": "f0e809491b249e6dac7460f4052ce495d2a2a0ef7aca8b2ab9e3c641d4dbb6af",
+ "mtime": 1788273143,
+ "built_at": "2026-09-01T14:32:23Z",
+ "commit": "c0a5bcdae0b6",
  "legend": true,
  "ink_adopted": true,
- "prefer_refined": true,
+ "prefer_refined": false,
  "filters": {},
  "glyphs_dropped": 0,
- "phase": "reading"
+ "phase": "reading",
+ "formula_rule": "none",
+ "model_sha256": "ca66d5111571ef67c821fa5ed8cae4df3ec4f66cc867c207340a0cb9052e2806",
+ "model_bytes": 44465457,
+ "model_mtime": 1788266794
 }

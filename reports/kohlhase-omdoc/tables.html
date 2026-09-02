@@ -1,0 +1,1763 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+body{font-family:sans-serif;margin:1.5em}
+table{border-collapse:collapse;margin:1.5em 0}
+caption{text-align:left;font-weight:bold;padding:.3em 0;white-space:pre-line}
+td,th{border:1px solid #999;padding:.25em .5em;vertical-align:top}
+th{background:#eef} .warn{color:#b00}
+</style></head><body>
+<h1>Tables (103)</h1>
+<table>
+  <caption>Table p. 28.0 — 7×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="language">language</th><th title="MathML">MathML</th><th title="OpenMath">OpenMath</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>by</td><td>W3C Math WG</td><td>OpenMath society</td></tr>
+    <tr><td>origin</td><td>math for HTML</td><td>integration of CAS</td></tr>
+    <tr><td>coverage</td><td>content + presentation; K14</td><td>content; extensible</td></tr>
+    <tr><td>status</td><td>Version 2.2e (VI 2003)</td><td>Version 2 (VI 2004)</td></tr>
+    <tr><td>activity</td><td>maintenance</td><td>maintenance</td></tr>
+    <tr><td>Info</td><td>http://w3c.org/Math/</td><td>http://www.openmath.org/</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> language | MathML | OpenMath</p>
+<table>
+  <caption>Table p. 41.1 — 4×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Level of Representation">Level of Representation</th><th title="OMDoc Example">OMDoc Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>\begin{tabular}[t]{l} Theory Level: Development Graph \begin{itemize} \item[-] Inheritance via symbol-mapping \item[-] Theory inclusion via proofobligations \item[-] Local (one-step) vs. global links \end{itemize} \end{tabular}</td><td>![](https://cdn.mathpix.com/cropped/1b348de5-ed54-4a9a-aba0-06a9a89f7dc6-041.jpg?height=192\&amp;width=504\&amp;top_left_y=539\&amp;top_left_x=762)</td></tr>
+    <tr><td>\begin{tabular}[t]{l} Statement Level: \begin{itemize} \item[-] Axiom, definition, theorem, proof, example,... \item[-] Structure explicit in statement forms and references \end{itemize} \end{tabular}</td><td>\begin{tabular}[t]{l} \begin{itemize} \item[] &lt;definition for=&quot;\#plus&quot; type=&quot;recursive&quot;&gt; \item[] &lt;CMP&gt;Addition is defined by recursion on the second argument \item[] &lt;/CMP&gt; \item[] &lt;FMP&gt; \(X+0=0&lt;/ \mathrm{FMP}&gt;\) \item[] \(&lt;\mathrm{FMP}&gt;X+s(Y)=s(X+Y)&lt;/ \mathrm{FMP}&gt;\) \end{itemize} \\ &lt;/definition&gt; \end{tabular}</td></tr>
+    <tr><td>\begin{tabular}[t]{l} Object Level: OpenMath/MathML \begin{itemize} \item[-] Objects as logical formulae \item[-] Semantics by pointing to theory level \end{itemize} \end{tabular}</td><td>\begin{tabular}[t]{l} \begin{itemize} \item[] &lt;OMA&gt; \item[] &lt;OMS cd=&quot;arith1&quot; name=&quot;plus&quot;/&gt; \item[] &lt;OMV name=&quot;X&quot;/&gt; \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;zero&quot;/&gt; \end{itemize} \\ &lt;/OMA&gt; \end{tabular}</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Level of Representation | OMDoc Example</p>
+<table>
+  <caption>Table p. 50.2 — 2×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="line">line</th><th title="Description">Description</th><th title="ref.">ref.</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>This document is an XML 1.0 file that is encoded in the UTF-8 encoding.</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> line | Description | ref.</p>
+<table>
+  <caption>Table p. 51.3 — 16×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="2,3">2,3</th><th title="The parser is told to use a document type definition for validation. The string omdoc specifies the name of the root element, the identifier PUBLIC specifies that the DTD (we use the &quot;OMDoc basic&quot; DTD; see Subsection 22.3.1), which can be identified by the public identifier in the first string and looked up in an XML catalog or (if that fails) can be found at the URL specified in the second string. A DTD declaration is not strictly needed for an OMDoc document, but is recommended, since the DTD supplies default values for some attributes.">The parser is told to use a document type definition for validation. The string omdoc specifies the name of the root element, the identifier PUBLIC specifies that the DTD (we use the &quot;OMDoc basic&quot; DTD; see Subsection 22.3.1), which can be identified by the public identifier in the first string and looked up in an XML catalog or (if that fails) can be found at the URL specified in the second string. A DTD declaration is not strictly needed for an OMDoc document, but is recommended, since the DTD supplies default values for some attributes.</th><th title="24.1 p. 228">24.1 p. 228</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>4</td><td>In general, XML files can contain as much whitespace as they want between elements, here we have used it for structuring the document.</td></tr>
+    <tr><td>5</td><td>Start tag of the root element of the document. It declares the version (OMDoc 1.2) via the version, and an identifier of the document using the xml:id attribute. The optional modules specifies the sub-language used in this document. This is used when no DTD is present (see Subsection 22.3.1).</td><td>11.1 p. 90</td></tr>
+    <tr><td>6,7</td><td>the namespace prefix declarations for the Dublin Core, Creative Commons, and OpenMath namespaces. They declare the prefixes dc:, cc:, and om:, and bind them to the specified URIs. We will need the OpenMath namespace only in the third markup step described in Section 4.3 but spurious namespace prefix declarations are not a problem in the XML world.</td><td>\begin{tabular}[t]{l} 10 \\ 10 p. 83 p. 83 \end{tabular}</td></tr>
+    <tr><td>8</td><td>the namespace declaration for the document; if not prefixed, all elements live in the OMDoc namespace.</td><td>10.1 p. 83</td></tr>
+    <tr><td>9-29</td><td>The metadata for the whole document in Dublin Core format</td><td>11.2 p. 92</td></tr>
+    <tr><td>10</td><td>The title of the document</td><td>12.1 p. 98</td></tr>
+    <tr><td>11</td><td>The document creator, here in the role of a translator</td><td>12.2 p. 101</td></tr>
+    <tr><td>12</td><td>The date and time of first creation of the document in ISO 8601 norm format.</td><td>12.1 p. 99</td></tr>
+    <tr><td>13</td><td>The date and time of the last update to the document in ISO 8601 norm format.</td><td>12.1 p. 99</td></tr>
+    <tr><td>14-16</td><td>A short description of the contents of the document</td><td>12.1 p. 99</td></tr>
+    <tr><td>17-19</td><td>Here we acknowledge that the OMDoc document is just a translation from an earlier work.</td><td>12.1 p. 100</td></tr>
+    <tr><td>20</td><td>The type of the document, this can be Dataset (un-ordered mathematical knowledge) or Text (arranged for human consumption).</td><td>12.1 p. 100</td></tr>
+    <tr><td>21</td><td>The format/MIME type [FB96] of the document, for OMDoc, this is application/omdoc+xml.</td><td>12.1 p. 100</td></tr>
+    <tr><td>22</td><td>The copyright resides with the creator of the OMDoc document</td><td>12.1 p. 100</td></tr>
+    <tr><td>23-28</td><td>The creator licenses the document to the world under certain conditions as specified in the Creative Commons license specified in this element.</td><td>12.3 p. 102</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> 2,3 | The parser is told to use a document type definition for validation. The string omdoc specifies the name of the root element, the identifier PUBLIC specifies that the DTD (we use the &quot;OMDoc basic&quot; DTD; see Subsection 22.3.1), which can be identified by the public identifier in the first string and looked up in an XML catalog or (if that fails) can be found at the URL specified in the second string. A DTD declaration is not strictly needed for an OMDoc document, but is recommended, since the DTD supplies default values for some attributes. | 24.1 p. 228</p>
+<table>
+  <caption>Table p. 52.4 — 7×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="24,25">24,25</th><th title="The cc:permissions element gives the world the permission to reproduce and distribute it freely. Furthermore the license grants the public the right to make derivative works under certain conditions.">The cc:permissions element gives the world the permission to reproduce and distribute it freely. Furthermore the license grants the public the right to make derivative works under certain conditions.</th><th title="12.3 p. 103">12.3 p. 103</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>26</td><td>The cc:prohibitions can be used to prohibit certain uses of the document, but this one is unencumbered.</td><td>12.3 p. 103</td></tr>
+    <tr><td>27</td><td>The cc:requirements states conditions under which the license is granted. In our case the licensee is required to keep the copyright notice and license notices intact during distribution, to give credit to the copyright holder, and that any derivative works derived from this document must be licensed under the same terms as this document (the copyleft clause).</td><td>12.3 p. 103</td></tr>
+    <tr><td>31-37</td><td>The omtext element is used to mark up text fragments. Here, we have simply used a single omtext to classify the whole text in the fragment as unspecific &quot;text&quot;.</td><td>14.3 p. 124</td></tr>
+    <tr><td>32-36</td><td>The CMP element holds the actual text in a multilingual group. Its xml:lang specifies the language. If the document is used with a DTD or an XML schema (as we are) this attribute is redundant, since the default value given by the DTD or schema is en. More keywords in other languages can be given by adding more CMP elements.</td><td>14.1 p. 122</td></tr>
+    <tr><td>33-35</td><td>The text of the \(\mathrm{APT}_{\mathrm{E}} \mathrm{X}\) fragment we are migrating. For simplicity we do not change the text, and leave that to later stages of the migration.</td></tr>
+    <tr><td>38</td><td>The closing tag of the root omdoc element. There may not be text after this in the file.</td><td>11.1 p. 90</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> 24,25 | The cc:permissions element gives the world the permission to reproduce and distribute it freely. Furthermore the license grants the public the right to make derivative works under certain conditions. | 12.3 p. 103</p>
+<table>
+  <caption>Table p. 53.5 — 7×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="line">line</th><th title="Description">Description</th><th title="ref.">ref.</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>The omtext element classifies the text fragment as a definition, other types for mathematical statements include axiom, example, theorem, and lemma. Note that the numbering of the original text is lost, but can be re-created in the text presentation process. The optional xml:id attribute specifies a document-unique identifier that can be used for reference later.</td><td>14.3 p. 124</td></tr>
+    <tr><td>2</td><td>A multilingual group of CMP elements that hold the text (in our case, there is only the English default). Here the \(\mathrm{T}_{\mathrm{E}} \mathrm{X}\) formulae have been marked up with legacy elements characterizing them as such. This might simplify a later automatic transformation to OpenMath or Content-MathML.</td><td>13.5 p. 120</td></tr>
+    <tr><td>4-13</td><td>We have classified every paragraph in the original as a separate omtext element, which does not carry a type since it does not fit any other mathematical category at the moment.</td><td>14.3 p. 124</td></tr>
+    <tr><td>15</td><td>The three examples in the original in Figure 4.1 are grouped into an enumeration. We use the OMDoc omgroup element for this. The optional attribute xml:id can be used for referencing later. We have chosen enumeration for the type attribute to specify the numbering of the examples in the original.</td><td>11.4 p. 93</td></tr>
+    <tr><td>16</td><td>We can use the metadata of the omgroup element to accommodate the title &quot;Examples&quot; in the original. We could enter more metadata at this level.</td><td>14.1 p. 122</td></tr>
+    <tr><td>18</td><td>The type attribute of this omtext element classifies this text fragment as an example.</td><td>14.3 p. 124</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> line | Description | ref.</p>
+<table>
+  <caption>Table p. 55.6 — 8×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="line">line</th><th title="Description">Description</th><th title="ref.">ref.</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1-4</td><td>\begin{tabular}[t]{l} The omdoc-basic document type definition is no longer sufficient for our purposes, since we introduce new symbols that can be used in other documents. The DTD for OMDoc content dictionaries (see Chapter 5), which allows this. Correspondingly, we would specify the value cd for the attribute module. \\ The part in line 4 is the internal subset of the DTD, which sets a parameter entity for the modularized DTD to instruct it to accept OpenMath elements in their namespace prefixed form. Of course a suitable namespace prefix declaration is needed as well. \end{tabular}</td><td>22.3.2 p. 218</td></tr>
+    <tr><td>5</td><td>The start tag of a theory. We need this, since symbols and definitions can only appear inside theory elements.</td><td>15.6 p. 149</td></tr>
+    <tr><td>6,7</td><td>We need to import the theory products to be able to use symbols from it in the definition below. The value of the from is a relative URI reference to a theory element much like the one in line 5. The other imports element imports the theory relation1 from the OpenMath standard content dictionaries \({ }^{1}\). Note that we do not need to import the theory sets here, since this is already imported by the theory products.</td><td>15.6.1 p. 150</td></tr>
+    <tr><td>9-11</td><td>A symbol declaration: For every definition, OMDoc requires the declaration of one or more symbol elements for the concept that is to be defined. The name attribute is used to identify it. The dc:description element allows to supply a multilingual (via the xml:lang attribute) group of keywords for the declared symbol</td><td>15.2.1 p. 136</td></tr>
+    <tr><td>12</td><td>Upon closer inspection it turns out that the definition in Listing 4.4 actually defines three concepts: &quot;law of composition&quot;, &quot;composition&quot;, and &quot;magma&quot;. Note that &quot;composition&quot; is just another name for the value under the law of composition, therefore we do not need to declare a symbol for this. Thus we only declare one for &quot;law of composition&quot;.</td><td>15.2.1 p. 136</td></tr>
+    <tr><td>14</td><td>A definition: the definition element carries a name attribute for reference within the theory. We need to reference the two symbols defined here in the for attribute of the definition element; it takes a whitespace-separated list of name attributes of symbol elements in the same theory as values.</td><td>15.2.4 p. 139</td></tr>
+    <tr><td>16</td><td>We use an OpenMath object for the set \(E\). It is an om:OMOBJ element with an om:OMV daughter, whose name attribute specifies the object to be a variable with name \(E\). We have chosen to represent the set \(E\) as a variable instead of a constant (via an om:OMS element) in the theory, since it seems to be local to the definition. We will discuss this further in the next section, where we talk about formalization.</td><td>13.1.1 p. 108</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> line | Description | ref.</p>
+<table>
+  <caption>Table p. 56.7 — 5×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="17-21">17-21</th><th title="This om:0M0BJ represents the Cartesian product \(E \times E\) of the set \(E\) with itself. It is an application (via an om:0MA element) of the symbol for the binary Cartesian product relation to \(E\).">This om:0M0BJ represents the Cartesian product \(E \times E\) of the set \(E\) with itself. It is an application (via an om:0MA element) of the symbol for the binary Cartesian product relation to \(E\).</th><th title="13.1.1 p. 108">13.1.1 p. 108</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>18</td><td>The symbol for the Cartesian product constructor is represented as an om:0MS element. The cd attribute specifies the theory that defines the symbol, and the name points to the symbol element in it that declares this symbol. The value of the cd attribute is a theory identifier. Note that this theory has to be imported into the current theory, to be legally used.</td><td>13.1.1 p. 108</td></tr>
+    <tr><td>22</td><td>We use the term element to characterize the defined terms in the text of the definition. Its role attribute can used to mark the text fragment as a definiens, i.e. a concept that is under definition.</td><td>14.5 p. 128</td></tr>
+    <tr><td>24-28</td><td>This object stands for \(f(x, y)\)</td></tr>
+    <tr><td>30-39</td><td>This object represents \((x, y) \in E \times E\). Note that we make use of the symbol for the elementhood relation from the OpenMath core content dictionary set1 and of the pairconstructor from the theory of products from the Bourbaki collection there.</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> 17-21 | This om:0M0BJ represents the Cartesian product \(E \times E\) of the set \(E\) with itself. It is an application (via an om:0MA element) of the symbol for the binary Cartesian product relation to \(E\). | 13.1.1 p. 108</p>
+<table>
+  <caption>Table p. 93.8 — 29×4, 17 spanning cell(s)
+⚠ overlap at (2,0); overlap at (2,1); overlap at (2,2); overlap at (2,3); overlap at (14,0)</caption>
+  <thead>
+    <tr><th title="Module">Module</th><th title="Title">Title</th><th title="Required?">Required?</th><th title="Chapter">Chapter</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MOBJ</td><td>Mathematical Objects</td><td>yes</td><td>Chapter 13</td></tr>
+    <tr><td colspan="4">![](https://cdn.mathpix.com/cropped/1b348de5-ed54-4a9a-aba0-06a9a89f7dc6-093.jpg?height=98\&amp;width=1056\&amp;top_left_y=305\&amp;top_left_x=200)</td><td colspan="4">Formulae are a central part of mathematical documents; this module integrates the content-oriented representation formats OpenMath and MathML into OMDoc</td></tr>
+    <tr><td>MTXT</td><td>Mathematical Text</td><td>yes</td><td>Chapter 14</td></tr>
+    <tr><td colspan="4">Mathematical vernacular, i.e. natural language with embedded formulae</td></tr>
+    <tr><td>DOC</td><td>Document Infrastructure</td><td>yes</td><td>Chapter 11</td></tr>
+    <tr><td colspan="4">A basic infrastructure for assembling pieces of mathematical knowledge into functional documents and referencing their parts</td></tr>
+    <tr><td>DC</td><td>Dublin Core Metadata</td><td>yes</td><td>Sections 12.1 and 12.2</td></tr>
+    <tr><td colspan="4">Contains bibliographical &quot;data about data&quot;, which can be used to annotate many OMDoc elements by descriptive and administrative information that facilitates navigation and organization</td></tr>
+    <tr><td>CC</td><td>Creative Commons Metadata</td><td>yes</td><td>Section 12.3</td></tr>
+    <tr><td colspan="4">Licenses for text use</td></tr>
+    <tr><td>RT</td><td>Rich Text Structure</td><td>no</td><td>Section 14.6</td></tr>
+    <tr><td colspan="4">Rich text structure in mathematical vernacular (lists, paragraphs, tables, ...)</td></tr>
+    <tr><td>ST</td><td>Mathematical Statements</td><td>no</td><td>Chapter 15</td></tr>
+    <tr><td colspan="4">![](https://cdn.mathpix.com/cropped/1b348de5-ed54-4a9a-aba0-06a9a89f7dc6-093.jpg?height=132\&amp;width=1061\&amp;top_left_y=980\&amp;top_left_x=200)</td><td colspan="4">Markup for mathematical forms like theorems, axioms, definitions, and examples that can be used to specify or define properties of given mathematical objects and theories to group mathematical statements and provide a notion of context.</td></tr>
+    <tr><td>PF</td><td>Proofs and proof objects</td><td>no</td><td>Chapter 17</td></tr>
+    <tr><td colspan="4">![](https://cdn.mathpix.com/cropped/1b348de5-ed54-4a9a-aba0-06a9a89f7dc6-093.jpg?height=70\&amp;width=1058\&amp;top_left_y=1165\&amp;top_left_x=200)</td><td colspan="4">Structure of proofs and argumentations at various levels of details and formality</td></tr>
+    <tr><td>ADT</td><td>Abstract Data Types</td><td>no</td><td>Chapter 16</td></tr>
+    <tr><td colspan="4">Definition schemata for sets that are built up inductively from constructor symbols</td></tr>
+    <tr><td>CTH</td><td>Complex Theories</td><td>no</td><td>Chapter 18</td></tr>
+    <tr><td colspan="4">Theory morphisms; they can be used to structure mathematical theories</td></tr>
+    <tr><td>DG</td><td>Development Graphs</td><td>no</td><td>Section 18.5</td></tr>
+    <tr><td colspan="4">Infrastructure for managing theory inclusions, change management</td></tr>
+    <tr><td>EXT</td><td>Applets, Code, and Data</td><td>no</td><td>Chapter 20</td></tr>
+    <tr><td colspan="4">Markup for applets, program code, and data (e.g. images, measurements, ...)</td></tr>
+    <tr><td>PRES</td><td>Presentation Information</td><td>no</td><td>Chapter 19</td></tr>
+    <tr><td colspan="4">Limited functionality for specifying presentation and notation information for local typographic conventions that cannot be determined by general principles alone</td></tr>
+    <tr><td>QUIZ</td><td>Infrastructure for Assessments</td><td>no</td><td>Chapter 21</td></tr>
+    <tr><td colspan="4">Markup for exercises integrated into the OMDoc document model</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Module | Title | Required? | Chapter</p>
+<table>
+  <caption>Table p. 94.9 — 6×3, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Format">Format</th><th title="namespace URI">namespace URI</th><th title="see">see</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Dublin Core</td><td rowspan="5">http://purl.org/dc/elements/1.1/ http://creativecommons.org/ns http://www.w3.org/1998/Math/MathML http://www.openmath.org/OpenMath http://www.w3.org/1999/XSL/Transform</td><td>Sections 12.1 and 12.2</td></tr>
+    <tr><td>Section 12.3</td></tr>
+    <tr><td>MathML</td><td>Section 13.2</td></tr>
+    <tr><td>OpenMath</td><td>Section 13.1</td></tr>
+    <tr><td>XSLT</td><td>Chapter 19</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Format | namespace URI | see</p>
+<table>
+  <caption>Table p. 99.10 — 8×5, 2 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>omdoc</td><td>version， xmlns</td><td>xml：id，type，class，style， version，modules</td><td>＋</td><td>（《top－level》）＊</td></tr>
+    <tr><td>omgroup</td><td>xml：id，modules，type，class， style</td><td>＋</td><td>（《top－level》）＊</td></tr>
+    <tr><td>metadata</td><td>xml：id，inherits，class，style</td><td>－</td><td>《（MDelt）＊</td></tr>
+    <tr><td>ref</td><td>xref</td><td>type，class，style</td><td>－</td></tr>
+    <tr><td>ignore</td><td>type，comment</td><td>－</td><td>ANY</td></tr>
+    <tr><td colspan="5">where 《 top－level》 stands for top－level OMDoc elements，and « \(\langle\) MDelt \(\rangle\) for those introduced in Chapter 12</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 105.11 — 17×4, 2 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req．; Attributes Optional">Attributes</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req．">Req．</th><th title="Attributes Optional">Optional</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>dc：creator</td><td>xml：id，class，style，role</td><td>ANY</td></tr>
+    <tr><td>dc：contributor</td><td>xml：id，class，style，role</td><td>ANY</td></tr>
+    <tr><td>dc：title</td><td>xml：lang</td><td>《 math vernacular 》</td></tr>
+    <tr><td>dc：subject</td><td>xml：lang</td><td>《math vernacular》</td></tr>
+    <tr><td>dc：description</td><td>xml：lang</td><td>《 math vernacular 》</td></tr>
+    <tr><td>dc：publisher</td><td>xml：id，class，style</td><td>ANY</td></tr>
+    <tr><td>dc：date</td><td>action，who</td><td>ISO 8601</td></tr>
+    <tr><td>dc：type</td><td>fixed：＂Dataset＂or＂Text＂</td></tr>
+    <tr><td>dc：format</td><td>fixed：＂application／omdoc＋xml＂</td></tr>
+    <tr><td>dc：identifier</td><td>scheme</td><td>ANY</td></tr>
+    <tr><td>dc：source</td><td>ANY</td></tr>
+    <tr><td>dc：language</td><td>ISO 639</td></tr>
+    <tr><td>dc：relation</td><td>ANY</td></tr>
+    <tr><td>dc：rights</td><td>ANY</td></tr>
+    <tr><td colspan="4">for 《 math vernacular》 see Section 14.1</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req． | Attributes Optional | Content</p>
+<table>
+  <caption>Table p. 111.12 — 6×4, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req.; Attributes Optional">Attributes</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req.">Req.</th><th title="Attributes Optional">Optional</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>cc:license</td><td>jurisdiction</td><td>permissions, prohibitions, requirements</td></tr>
+    <tr><td>cc:permissions</td><td>reproduction, distribution, derivative_works</td><td>EMPTY</td></tr>
+    <tr><td>cc:prohibitions</td><td>commercial_use</td><td>EMPTY</td></tr>
+    <tr><td>cc:requirements</td><td>notice, copyleft, attribution</td><td>EMPTY</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req. | Attributes Optional | Content</p>
+<table>
+  <caption>Table p. 111.13 — 4×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Attribute">Attribute</th><th title="Permission">Permission</th><th title="Default">Default</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>reproduction</td><td>the work may be reproduced</td><td>permitted</td></tr>
+    <tr><td>distribution</td><td>the work may be distributed, publicly displayed, and publicly performed</td><td>permitted</td></tr>
+    <tr><td>derivative_works</td><td>derivative works may be created and reproduced</td><td>permitted</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Attribute | Permission | Default</p>
+<table>
+  <caption>Table p. 111.14 — 2×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Attribute">Attribute</th><th title="Prohibition">Prohibition</th><th title="Default">Default</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>commercial_use</td><td>stating that rights may be exercised for commercial purposes.</td><td>permitted</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Attribute | Prohibition | Default</p>
+<table>
+  <caption>Table p. 111.15 — 4×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Attribute">Attribute</th><th title="Requirement">Requirement</th><th title="Default">Default</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>notice</td><td>copyright and license notices must be kept intact</td><td>required</td></tr>
+    <tr><td>attribution</td><td>credit must be given to copyright holder and/or author</td><td>required</td></tr>
+    <tr><td>copyleft</td><td>derivative works, if authorized, must be licensed under the same terms as the work</td><td>required</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Attribute | Requirement | Default</p>
+<table>
+  <caption>Table p. 114.16 — 5×4, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>OMOBJ</td><td>id</td><td>class, style</td><td>See Figure 13.2</td></tr>
+    <tr><td>m:math</td><td>id, xlink:href</td><td>See Figure 13.8</td></tr>
+    <tr><td>legacy</td><td>format</td><td>xml:id, formalism</td><td>\#PCDATA</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | Content</p>
+<table>
+  <caption>Table p. 115.17 — 17×4, 2 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>OMOBJ</td><td>id，cdbase，class，style</td><td>《（OMel》）？</td></tr>
+    <tr><td>OMS</td><td>cd，name</td><td>id，cdbase，class，style</td><td>EMPTY</td></tr>
+    <tr><td>OMV</td><td>name</td><td>id，class，style</td><td>EMPTY</td></tr>
+    <tr><td>OMA</td><td>id，cdbase，class，style</td><td>《（OMel》＊</td></tr>
+    <tr><td>OMBIND</td><td>id，cdbase，class，style</td><td>《OMel》，OMBVAR，《OMel》</td></tr>
+    <tr><td>OMBVAR</td><td>id，class，style</td><td>（OMV｜OMATTR）＋</td></tr>
+    <tr><td>OMFOREIGN</td><td>id，cdbase，class，style</td><td>ANY</td></tr>
+    <tr><td>OMATTR</td><td>id，cdbase，class，style</td><td>《OMel》</td></tr>
+    <tr><td>OMATP</td><td>id，cdbase，class，style</td><td>（OMS，（《OMel》｜OMFOREIGN））＋</td></tr>
+    <tr><td>OMI</td><td>id，class，style</td><td>［0－9］＊</td></tr>
+    <tr><td>OMB</td><td>id，class，style</td><td>＃PCDATA</td></tr>
+    <tr><td>OMF</td><td>id，class，style，dec，hex</td><td>＃PCDATA</td></tr>
+    <tr><td>OME</td><td>id，class，style</td><td>《OMel》 ？</td></tr>
+    <tr><td>OMR</td><td>href</td><td>《OMel》？</td></tr>
+    <tr><td colspan="4">where 《OMel》 is（OMS｜OMV｜OMI｜OMB｜OMSTR｜OMF｜OMA｜OMBIND｜OME｜OMATTR）</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | Content</p>
+<table>
+  <caption>Table p. 120.18 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Shared">Shared</th><th title="Exploded">Exploded</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>\begin{tabular}[t]{l} \begin{itemize} \item[] &lt;OMOBJ&gt; &lt;OMA&gt; &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; &lt;OMA id=&quot;t1&quot;&gt; &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; &lt;OMA id=&quot;t11&quot;&gt; &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; &lt;OMI&gt;1&lt;/OMI&gt; &lt;OMI&gt;1&lt;/OMI&gt; &lt;/OMA&gt; &lt;OMR href=&quot;\#t11&quot;/&gt; \item[] &lt;/OMA&gt; &lt;OMR href=&quot;\#t1&quot;/&gt; \item[] &lt;/OMA&gt; &lt;/OMOBJ&gt; \end{itemize} \end{tabular}</td><td>\begin{tabular}[t]{l} \begin{itemize} \item[] &lt;OMOBJ&gt; &lt;OMA&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; &lt;OMA&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot;/&gt; &lt;OMA&gt; \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot;/&gt; &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;/OMA&gt; \item[] &lt;OMA&gt; \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot;/&gt; &lt;OMI&gt;1&lt;/OMI&gt; \begin{itemize} \item[] &lt;OMI&gt;1&lt;/OMI&gt; \end{itemize} \item[] &lt;/OMA&gt; \item[] &lt;/OMA&gt; &lt;OMA&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot;/&gt; &lt;OMA&gt; \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; &lt;OMI&gt;1&lt;/OMI&gt; &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;/OMA&gt; &lt;OMA&gt; \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; &lt;OMI&gt;1&lt;/OMI&gt; &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;/OMA&gt; \item[] &lt;/OMA&gt; \end{itemize} \item[] &lt;/OMA&gt; \end{itemize} \item[] &lt;/OMOBJ&gt; \end{itemize} \end{itemize} \end{tabular}</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Shared | Exploded</p>
+<table>
+  <caption>Table p. 121.19 — 1×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="\begin{itemize} \item[] &lt;OMOBJ&gt; \begin{itemize} \item[] &lt;OMA id=&quot;bar&quot;&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; \item[] &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;OMR href=&quot;\#baz&quot;/&gt; \end{itemize} \item[] &lt;/OMA&gt; \end{itemize} \item[] &lt;/OMOBJ&gt; \end{itemize}">\begin{itemize} \item[] &lt;OMOBJ&gt; \begin{itemize} \item[] &lt;OMA id=&quot;bar&quot;&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; \item[] &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;OMR href=&quot;\#baz&quot;/&gt; \end{itemize} \item[] &lt;/OMA&gt; \end{itemize} \item[] &lt;/OMOBJ&gt; \end{itemize}</th><th title="\begin{itemize} \item[] &lt;OMOBJ&gt; \begin{itemize} \item[] &lt;OMA id=&quot;baz&quot;&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; \item[] &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;OMR href=&quot;\#bar&quot;/&gt; \item[] &lt;/OMA&gt; \end{itemize} \end{itemize} \item[] &lt;/OMOBJ&gt; \end{itemize}">\begin{itemize} \item[] &lt;OMOBJ&gt; \begin{itemize} \item[] &lt;OMA id=&quot;baz&quot;&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; \item[] &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;OMR href=&quot;\#bar&quot;/&gt; \item[] &lt;/OMA&gt; \end{itemize} \end{itemize} \item[] &lt;/OMOBJ&gt; \end{itemize}</th></tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<p><i>columns:</i> \begin{itemize} \item[] &lt;OMOBJ&gt; \begin{itemize} \item[] &lt;OMA id=&quot;bar&quot;&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; \item[] &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;OMR href=&quot;\#baz&quot;/&gt; \end{itemize} \item[] &lt;/OMA&gt; \end{itemize} \item[] &lt;/OMOBJ&gt; \end{itemize} | \begin{itemize} \item[] &lt;OMOBJ&gt; \begin{itemize} \item[] &lt;OMA id=&quot;baz&quot;&gt; \begin{itemize} \item[] &lt;OMS cd=&quot;nat&quot; name=&quot;plus&quot; /&gt; \item[] &lt;OMI&gt;1&lt;/OMI&gt; \item[] &lt;OMR href=&quot;\#bar&quot;/&gt; \item[] &lt;/OMA&gt; \end{itemize} \end{itemize} \item[] &lt;/OMOBJ&gt; \end{itemize}</p>
+<table>
+  <caption>Table p. 122.20 — 12×4, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th title="Attributes">Attributes</th><th title="Content">Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Required</td><td>Optional</td></tr>
+    <tr><td>m：math</td><td>id，xlink：href</td><td>《CMel》＋</td></tr>
+    <tr><td>m：apply</td><td>id，xlink：href</td><td>m：bvar？，《 CMel》＊</td></tr>
+    <tr><td>m：csymbol</td><td>definitionURL</td><td>id，xlink：href</td><td>m：EMPTY</td></tr>
+    <tr><td>m：ci</td><td>id，xlink：href</td><td>＃PCDATA</td></tr>
+    <tr><td>m：cn</td><td>id，xlink：href</td><td>（［0－9］｜，｜．）（＊｜e（［0－9］｜，｜．）＊）？</td></tr>
+    <tr><td>m：bvar</td><td>id，xlink：href</td><td>m：ci｜m：semantics</td></tr>
+    <tr><td>m：semantics</td><td>id，xlink：href， definitionURL</td><td>《CMel》，（m：annotation｜ m：annotation－xml）＊</td></tr>
+    <tr><td>m：annotation</td><td>definitionURL， encoding</td><td>＃PCDATA</td></tr>
+    <tr><td>m：annotation－xml</td><td>definitionURL， encoding</td><td>ANY</td></tr>
+    <tr><td colspan="4">where 《CMel》 is m：apply｜m：csymbol｜m：ci｜m：cn｜m：semantics</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes |  | Content</p>
+<table>
+  <caption>Table p. 128.21 — 9×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CMP</td><td>xml：lang，id</td><td>－</td><td>《math vernacular》</td></tr>
+    <tr><td>FMP</td><td>xml：id，logic</td><td>－</td><td>（assumption＊，conclusion＊）｜ OMOBJ｜m：math｜legacy</td></tr>
+    <tr><td>assumption</td><td>xml：id，inductive， class，style</td><td>＋</td><td>（OMOBJ｜m：math｜legacy）</td></tr>
+    <tr><td>conclusion</td><td>xml：id，class，style</td><td>＋</td><td>（OMOBJ｜m：math｜legacy）</td></tr>
+    <tr><td>phrase</td><td>xml：id，class，style， index，verbalizes， type</td><td>－</td><td>《math vernacular》</td></tr>
+    <tr><td>term</td><td>cd，name</td><td>role，xml：id，class， style</td><td>－</td><td>《math vernacular》</td></tr>
+    <tr><td>omtext</td><td>xml：id，type， for，class，style， verbalizes</td><td>＋</td><td>CMP＋，FMP＊</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 129.22 — 6×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Module">Module</th><th title="Elements">Elements</th><th title="Comment">Comment</th><th title="see">see</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MOBJ</td><td>om:0M0BJ, m:math, legacy</td><td>mathematical Objects</td><td>p. 107</td></tr>
+    <tr><td>MTXT</td><td>phrase, term</td><td>phrase-level markup</td><td>below</td></tr>
+    <tr><td>DOC</td><td>ref, ignore</td><td>document structure</td><td>p. 89</td></tr>
+    <tr><td>RT</td><td>p, ol, ul, dl, table, link, note, idx</td><td>rich text structure</td><td>p. 128</td></tr>
+    <tr><td>EXT</td><td>omlet</td><td>for applets, images, ...</td><td>p. 205</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Module | Elements | Comment | see</p>
+<table>
+  <caption>Table p. 136.23 — 19×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th title="Optional Attributes">Optional Attributes</th><th title="DC">DC</th><th title="Content">Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>p</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>《math vernacular》</td></tr>
+    <tr><td>ol</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>li＊</td></tr>
+    <tr><td>ul</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>li＊</td></tr>
+    <tr><td>li</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>《math vernacular》</td></tr>
+    <tr><td>dl</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>di＊</td></tr>
+    <tr><td>di</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>dt＊，dd＊</td></tr>
+    <tr><td>dt</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>《math vernacular》</td></tr>
+    <tr><td>dd</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>《math vernacular》</td></tr>
+    <tr><td>idx</td><td>（xml：id｜xref）</td><td>－</td><td>idt？，ide＋</td></tr>
+    <tr><td>ide</td><td>index，sort－by，see，seealso，links</td><td>－</td><td>idp＊</td></tr>
+    <tr><td>idt</td><td>style，class</td><td>－</td><td>《math vernacular》</td></tr>
+    <tr><td>idp</td><td>sort－by，see，seealso，links</td><td>－</td><td>《math vernacular》</td></tr>
+    <tr><td>table</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>tr＊</td></tr>
+    <tr><td>tr</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>td＊</td></tr>
+    <tr><td>td</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>《math vernacular》</td></tr>
+    <tr><td>th</td><td>xml：id，style，class，index，verbalizes</td><td>＋</td><td>《math vernacular》</td></tr>
+    <tr><td>link</td><td>xml：id，style，class，index，verbalizes</td><td>－</td><td>《math vernacular》</td></tr>
+    <tr><td>note</td><td>type，xml：id，style，class，index，verbalizes</td><td>＋</td><td>《math vernacular》</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Optional Attributes | DC | Content</p>
+<table>
+  <caption>Table p. 141.24 — 4×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Definiendum">Definiendum</th><th title="Definiens">Definiens</th><th title="Type">Type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>The number 1</td><td>\(1:=s(0)\) (1 is the successor of 0)</td><td>simple</td></tr>
+    <tr><td>The exponential function \(e^{\cdot}\)</td><td>The exponential function \(e\) is the solution to the differential equation \(\partial f=f[\) where \(f(0)=1]\).</td><td>implicit</td></tr>
+    <tr><td>The addition function +</td><td>Addition on the natural numbers is defined by the equations \(x+0=x\) and \(x+s(y)=s(x+y)\).</td><td>recursive</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Definiendum | Definiens | Type</p>
+<table>
+  <caption>Table p. 142.25 — 10×5, 2 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>symbol</td><td>name</td><td>xml：id，role，scope，style， class</td><td>＋</td><td>type＊</td></tr>
+    <tr><td>type</td><td>xml：id，system，style， class</td><td>－</td><td>CMP＊，\(\langle\langle\) mobj \(\rangle\rangle\)</td></tr>
+    <tr><td>axiom</td><td>xml：id，for，type，style， class</td><td>＋</td><td>CMP＊，FMP＊</td></tr>
+    <tr><td>definition</td><td>for</td><td>xml：id，type，style，class， uniqueness，existence， consistency，exhaustivity</td><td>＋</td><td>CMP＊，（FMP＊｜requation＋ ｜《（mobj》）？，measure？， ordering？</td></tr>
+    <tr><td>requation</td><td>xml：id，style，class</td><td>－</td><td>《 \(\langle\) mobj \(\rangle\) ，《 \(\langle\) mobj \(\rangle\)</td></tr>
+    <tr><td>measure</td><td>xml：id，style，class</td><td>－</td><td>《（mobj》</td></tr>
+    <tr><td>ordering</td><td>xml：id，style，class</td><td>－</td><td>《（mobj》）</td></tr>
+    <tr><td colspan="5">where 《 mobj》 is（OMOBJ｜m：math｜legacy）</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 148.26 — 7×5, 2 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>assertion</td><td>xml：id，for，type， theory，class，style， status，just－by</td><td>＋</td><td>CMP＊，FMP＊</td></tr>
+    <tr><td>type</td><td>system</td><td>xml：id，for，just－by， theory，class，style</td><td>－</td><td>CMP＊，《 \(\langle\) mobj \(\rangle\) ，〈 \(\langle\) mobj \(\rangle\) 〉</td></tr>
+    <tr><td>example</td><td>for</td><td>xml：id，type， assertion，theory， class，style</td><td>＋</td><td>CMP＊｜\(\langle\langle\) mobj \(\rangle\rangle *\)</td></tr>
+    <tr><td>alternative</td><td>for，theory， entailed－by， entails， entailed－by－thm， entails－thm</td><td>xml：id，type，theory， class，style</td><td>＋</td><td>CMP＊，（FMP＊｜ requation＊｜《（mobj》））</td></tr>
+    <tr><td colspan="5">where 《 mobj》 is（OMOBJ｜m：math｜legacy）</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 149.27 — 15×2, 7 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Value">Value</th><th title="Explanation">Explanation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>theorem, proposition</td><td>an important assertion with a proof</td></tr>
+    <tr><td colspan="2">Note that the meaning of the type (in this case the existence of a proof) is not enforced by OMDoc applications. It can be appropriate to give an assertion the type theorem, if the author knows of a proof (e.g. in the literature), but has not formalized it in OMDoc yet.</td></tr>
+    <tr><td>lemma</td><td>a less important assertion with a proof</td></tr>
+    <tr><td colspan="2">The difference of importance specified in this type is even softer than the other ones, since e.g. reusing a mathematical paper as a chapter in a larger monograph, may make it necessary to downgrade a theorem (e.g. the main theorem of the paper) and give it the status of a lemma in the overall work.</td></tr>
+    <tr><td>corollary</td><td>a simple consequence</td></tr>
+    <tr><td colspan="2">An assertion is sometimes marked as a corollary to some other statement, if the proof is considered simple. This is often the case for important theorems that are simple to get from technical lemmata.</td></tr>
+    <tr><td>postulate, conjecture</td><td>an assertion without proof or counter-example</td></tr>
+    <tr><td colspan="2">Conjectures are assertions, whose semantic value is not yet decided, but which the author considers likely to be true. In particular, there is no proof or counterexample (see Section 15.4).</td></tr>
+    <tr><td>false-conjecture</td><td>an assertion with a counter-example</td></tr>
+    <tr><td colspan="2">A conjecture that has proven to be false, i.e. it has a counter-example. Such assertions are often kept for illustration and historical purposes.</td></tr>
+    <tr><td>obligation, assumption</td><td>an assertion on which the proof of another depends</td></tr>
+    <tr><td colspan="2">These kinds of assertions are convenient during the exploration of a mathematical theory. They can be used and proven later (or assumed as an axiom).</td></tr>
+    <tr><td>formula</td><td>if everything else fails</td></tr>
+    <tr><td colspan="2">This type is the catch-all if none of the others applies.</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Value | Explanation</p>
+<table>
+  <caption>Table p. 150.28 — 26×2, 13 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="status">status</th><th title="just-by points to">just-by points to</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>tautology</td><td>Proof of \(\mathcal{F}\)</td></tr>
+    <tr><td colspan="2">All \(\mathcal{T}\)-interpretations satisfy \(\mathcal{A}\) and some \(\mathcal{C}_{i}\)</td></tr>
+    <tr><td>tautologous-conclusion</td><td>Proof of \(\mathcal{F}_{c}\).</td></tr>
+    <tr><td colspan="2">All \(\mathcal{T}\)-interpretations satisfy some \(\mathcal{C}_{j}\)</td></tr>
+    <tr><td>equivalent</td><td>Proofs of \(\mathcal{F}\) and \(\mathcal{F}^{-1}\)</td></tr>
+    <tr><td colspan="2">\(\mathcal{A}\) and \(\mathcal{C}\) have the same \(\mathcal{T}\)-models (and there are some)</td></tr>
+    <tr><td>theorem</td><td>Proof of \(\mathcal{F}\)</td></tr>
+    <tr><td colspan="2">All \(\mathcal{T}\)-models of \(\mathcal{A}\) (and there are some) satisfy some \(\mathcal{C}_{i}\)</td></tr>
+    <tr><td>satisfiable</td><td>Model of \(\mathcal{A}\) and some \(\mathcal{C}_{i}\)</td></tr>
+    <tr><td colspan="2">Some \(\mathcal{T}\)-models of \(\mathcal{A}\) (and there are some) satisfy some \(\mathcal{C}_{i}\)</td></tr>
+    <tr><td>contradictory-axioms</td><td>Refutation of \(\mathcal{A}\)</td></tr>
+    <tr><td colspan="2">There are no \(\mathcal{T}\)-models of \(\mathcal{A}\)</td></tr>
+    <tr><td>no-consequence</td><td>\(\mathcal{T}\)-model of \(\mathcal{A}\) and some \(\mathcal{C}_{i}, \mathcal{T}\)-model of \(\mathcal{A} \cup \overline{\mathcal{C}}\).</td></tr>
+    <tr><td colspan="2">Some \(\mathcal{T}\)-models of \(\mathcal{A}\) (and there are some) satisfy some \(\mathcal{C}_{i}\), some satisfy \(\overline{\mathcal{C}}\)</td></tr>
+    <tr><td>counter-satisfiable</td><td>Model of \(\mathcal{A} \cup \overline{\mathcal{C}}\)</td></tr>
+    <tr><td colspan="2">Some \(\mathcal{T}\)-models of \(\mathcal{A}\) (and there are some) satisfy \(\overline{\mathcal{C}}\)</td></tr>
+    <tr><td>counter-theorem</td><td>Proof of \(\overline{\mathcal{C}}\) from \(\mathcal{A}\)</td></tr>
+    <tr><td colspan="2">All \(\mathcal{T}\)-models of \(\mathcal{A}\) (and there are some) satisfy \(\overline{\mathcal{C}}\)</td></tr>
+    <tr><td>counter-equivalent</td><td>Proof of \(\overline{\mathcal{C}}\) from \(\mathcal{A}\) and proof of \(\mathcal{A}\) from \(\overline{\mathcal{C}}\)</td></tr>
+    <tr><td colspan="2">\(\mathcal{A}\) and \(\overline{\mathcal{C}}\) have the same \(\mathcal{T}\)-models (and there are some)</td></tr>
+    <tr><td>unsatisfiable-conclusion</td><td>Proof of \(\overline{\mathcal{C}}\)</td></tr>
+    <tr><td colspan="2">All \(\mathcal{T}\)-interpretations satisfy \(\overline{\mathcal{C}}\)</td></tr>
+    <tr><td>unsatisfiable</td><td>Proof of \(\neg \mathcal{F}\)</td></tr>
+    <tr><td colspan="2">All \(\mathcal{T}\)-interpretations satisfy \(\mathcal{A}\) and \(\overline{\mathcal{C}}\)</td></tr>
+    <tr><td colspan="2">Where \(\mathcal{F}\) is an assertion whose FMP has assumption elements \(\mathcal{A}_{1}, \ldots, \mathcal{A}_{n}\) and conclusion elements \(\mathcal{C}_{1}, \ldots, \mathcal{C}_{m}\). Furthermore, let \(\mathcal{A}:=\left\{\mathcal{A}_{1}, \ldots, \mathcal{A}_{n}\right\}\) and \(\mathcal{C}:=\left\{\mathcal{C}_{1}, \ldots, \mathcal{C}_{m}\right\}\), and \(\mathcal{F}^{-1}\) be the sequent that has the \(\mathcal{C}_{i}\) as assumptions and the \(\mathcal{A}_{i}\) as conclusions. Finally, let \(\overline{\mathcal{C}}:=\left\{\overline{\mathcal{C}_{1}}, \ldots, \overline{\mathcal{C}_{m}}\right\}\), where \(\overline{\mathcal{C}_{i}}\) is a negation of \(\mathcal{C}_{i}\).</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> status | just-by points to</p>
+<table>
+  <caption>Table p. 156.29 — 6×5, 2 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req．; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req．">Req．</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>theory</td><td>xml：id，class，style，cdbase，cdversion， cdrevision，cdstatus，cdurl，cdreviewdate</td><td>＋</td><td>（《top＋thc》｜ imports）＊</td></tr>
+    <tr><td>imports</td><td>from</td><td>id，type，class，style</td><td>＋</td></tr>
+    <tr><td>tgroup</td><td>xml：id，modules，type，class，style</td><td>＋</td><td>\((\langle\langle t o p+t h c\rangle\rangle) *\)</td></tr>
+    <tr><td colspan="5">where 《 top＋thc》 stands for top－level and theory－constitutive elements</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req． | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 162.30 — 9×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req．; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req．">Req．</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>adt</td><td>xml：id，class，style， parameters</td><td>＋</td><td>sortdef＋</td></tr>
+    <tr><td>sortdef</td><td>name</td><td>type，role，scope，class， style</td><td>＋</td><td>（constructor｜ insort）＊，recognizer？</td></tr>
+    <tr><td>constructor</td><td>name</td><td>type，scope，class，style</td><td>＋</td><td>argument＊</td></tr>
+    <tr><td>argument</td><td>＋</td><td>type，selector？</td></tr>
+    <tr><td>insort</td><td>for</td><td>－</td></tr>
+    <tr><td>selector</td><td>name</td><td>type，scope，role，total， class，style</td><td>＋</td><td>EMPTY</td></tr>
+    <tr><td>recognizer</td><td>name</td><td>type，scope，role，class， style</td><td>＋</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req． | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 168.31 — 8×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req.; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req.">Req.</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>proof</td><td>for</td><td>theory, xml:id, class, style</td><td>+</td><td>(omtext | derive | hypothesis | symbol | definition)*</td></tr>
+    <tr><td>proofobject</td><td>xml:id, for, class, style, theory</td><td>+</td><td>CMP*, (OMOBJ |m:math |legacy)</td></tr>
+    <tr><td>hypothesis</td><td>xml:id, class, style, inductive</td><td>-</td><td>CMP*, FMP*</td></tr>
+    <tr><td>derive</td><td>xml:id, class, style, type</td><td>-</td><td>CMP*, FMP*, method?</td></tr>
+    <tr><td>method</td><td>xref</td><td>-</td><td>(OMOBJ |m:math |legacy | premise | proof | proofobject)*</td></tr>
+    <tr><td>premise</td><td>xref</td><td>-</td><td>EMPTY</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req. | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 178.32 — 8×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>theory</td><td>xml:id, class, style</td><td>+</td><td>(《top-level》| imports | inclusion)*</td></tr>
+    <tr><td>imports</td><td>from</td><td>xml:id, type, class, style, conservativity, conservativity-just</td><td>+</td><td>morphism?</td></tr>
+    <tr><td>morphism</td><td>xml:id, base, class, style, type, hiding, consistency, exhaustivity</td><td>-</td><td>requation*, measure?, ordering?</td></tr>
+    <tr><td>inclusion</td><td>via</td><td>xml:id, conservativity, conservativity-just</td><td>-</td><td>EMPTY</td></tr>
+    <tr><td>theory-inclusion</td><td>from, to</td><td>xml:id, class, style, conservativity, conservativity-just</td><td>+</td><td>(CMP*,FMP*, morphism, obligation*)</td></tr>
+    <tr><td>axiom-inclusion</td><td>from, to</td><td>xml:id, class, style, conservativity, conservativity-just</td><td>+</td><td>morphism?, obligation*</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 189.33 — 6×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>decomposition</td><td>links</td><td>-</td><td>EMPTY</td></tr>
+    <tr><td>path-just</td><td>local, globals</td><td>for</td><td>-</td><td>EMPTY</td></tr>
+    <tr><td>theory-inclusion</td><td>from, to, by</td><td>xml:id, class, style</td><td>+</td><td>(CMP*,FMP*, morphism, (decomposition* | obligation*))</td></tr>
+    <tr><td>axiom-inclusion</td><td>from, to</td><td>xml:id, class, style</td><td>+</td><td>morphism?, (path-just* | obligation*)</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 192.34 — 6×4, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Required; Attributes Optional">Attributes</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Required">Required</th><th title="Attributes Optional">Optional</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>omstyle</td><td>element</td><td>for, xml:id, xref, class, style</td><td>(style|xslt)*</td></tr>
+    <tr><td>presentation</td><td>for</td><td>xml:id, xref, fixity, role, lbrack, rbrack, separator, bracket-style, class, style, precedence, crossref-symbol</td><td>(use | xslt | style)*</td></tr>
+    <tr><td>xslt</td><td>format</td><td>xml:lang, requires, xref</td><td>XSLT fragment</td></tr>
+    <tr><td>use</td><td>format</td><td>xml:lang, requires, fixity, lbrack, rbrack, separator, element, attributes, crossref-symbol</td><td>(element | text | recurse | map | value-of)*</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Required | Attributes Optional | Content</p>
+<table>
+  <caption>Table p. 195.35 — 10×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th title="Attributes">Attributes</th><th title="Content">Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Required</td><td>Optional</td></tr>
+    <tr><td>style</td><td>format</td><td>xml:lang, requires, xref</td><td>(element | text | recurse | map | value-of)*</td></tr>
+    <tr><td>element</td><td>name</td><td>crid, cr, ns</td><td>(attribute | element | text | value-of | recurse | map)*</td></tr>
+    <tr><td>attribute</td><td>name</td><td>(value-of | text)*</td></tr>
+    <tr><td>text</td><td>(\#PCDATA)</td></tr>
+    <tr><td>value-of</td><td>select</td><td>EMPTY</td></tr>
+    <tr><td>recurse</td><td>select</td><td>EMPTY</td></tr>
+    <tr><td>map</td><td>select</td><td>separator?, (element | text | recurse | map)</td></tr>
+    <tr><td>separator</td><td>(element | text | recurse | map)</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes |  | Content</p>
+<table>
+  <caption>Table p. 201.36 — 7×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Precedence">Precedence</th><th title="Operators">Operators</th><th title="Comment">Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>200</td><td>+,-</td><td>unary</td></tr>
+    <tr><td>200</td><td>-</td><td>exponentiation</td></tr>
+    <tr><td>400</td><td>\(*, \wedge, \cap\)</td><td>multiplicative</td></tr>
+    <tr><td>500</td><td>+, -, V, U</td><td>additive</td></tr>
+    <tr><td>600</td><td>/</td><td>fraction</td></tr>
+    <tr><td>700</td><td>\(=, \neq, \leq,&lt;,&gt;, \geq\)</td><td>relation</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Precedence | Operators | Comment</p>
+<table>
+  <caption>Table p. 201.37 — 6×4, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="fixity">fixity</th><th title="bracket-style">bracket-style</th><th title="separator">separator</th><th title="yields">yields</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>prefix</td><td>lisp</td><td>&quot; &quot;</td><td>(f123)</td></tr>
+    <tr><td>postfix</td><td>lisp</td><td>&quot; &quot;</td><td>(123f)</td></tr>
+    <tr><td>prefix</td><td>math</td><td>&quot;,&quot;</td><td>f(1, 2, 3)</td></tr>
+    <tr><td>postfix</td><td>math</td><td>&quot;,&quot;</td><td>(1,2,3)f</td></tr>
+    <tr><td colspan="4">assuming lbrack=&quot;(&quot; and rbrack=&quot;)&quot;</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> fixity | bracket-style | separator | yields</p>
+<table>
+  <caption>Table p. 202.38 — 3×2, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Notation specification">Notation specification</th><th title="Example">Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>\begin{lstlisting}[mathescape=true] &lt;presentation for=&quot; #forall&quot; role=&quot;binding&quot; separator = &quot;. &quot; \(&gt;\) &lt;use format=&quot;TeX&quot;&gt; forall&lt;/use&gt; &lt;use format=&quot;html&quot;&gt;&amp;#8704;&lt;/use&gt; &lt;/presentation&gt; \end{lstlisting}</td><td>\begin{lstlisting}[mathescape=true] &lt;OMBIND&gt; &lt;OMS cd=&quot;quant1&quot; name=&quot;forall&quot;/&gt; &lt;OMBVAR&gt; &lt;OMV name=&quot;X&quot;/&gt; &lt;/OMBVAR&gt; &lt;OMS cd=&quot;logic1&quot; name=&quot;true&quot;/&gt; &lt;/OMBIND&gt; \end{lstlisting}</td></tr>
+    <tr><td colspan="2">\begin{tabular}[t]{l} Using XSLT templates induced from the presentation element on the OpenMath expression yields \(\forall X\).true, where the glyph \(\forall\) carries a hyperlink \({ }^{\varnothing}\) to it definition, as the crossref-symbol on the presentation element has the default value yes. Internally, the hyperlinks are format-dependent, we have: \\ LATEX: \begin{lstlisting} \href{../ocd/logic1.ps#true}{\forall}X. \href{../ocd/logic1.ps#true}{{\sf true}} HTML: &lt;a href=&quot;../ocd/logic1.html#forall&quot;&gt;&amp;#8704;&lt;/a&gt; X. &lt;a href=&quot;../ocd/logic1.html#true&quot;&gt;&lt;b&gt;true&lt;/b&gt;&lt;/a&gt; \end{lstlisting} \end{tabular}</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Notation specification | Example</p>
+<table>
+  <caption>Table p. 206.39 — 8×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req.; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req.">Req.</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>private</td><td>xml:id, for, theory, requires, type, reformulates, class, style</td><td>+</td><td>CMP*, data+</td></tr>
+    <tr><td>code</td><td>xml:id, for, theory, requires, type, class, style</td><td>+</td><td>CMP*, input?, output?, effect?, data+</td></tr>
+    <tr><td>input</td><td>xml:id, style, class</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>output</td><td>xml:id, style, class</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>effect</td><td>xml:id, style, class</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>data</td><td>format, href, size, original, pto, pto-version</td><td>-</td><td>&lt;![CDATA[...]]&gt;</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req. | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 210.40 — 4×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req.; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req.">Req.</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>omlet</td><td>data,</td><td>xml:id, action, show, actuate, class, style</td><td>+</td><td>(《CMP content》 | param)*,data*</td></tr>
+    <tr><td>param</td><td>name</td><td>value, valuetype</td><td>-</td><td>EMPTY</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req. | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 214.41 — 8×5, 1 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th colspan="2" title="Attributes Req.; Attributes Optional">Attributes</th><th title="D C">D</th><th title="Content">Content</th></tr>
+    <tr><th title="Attributes Req.">Req.</th><th title="Attributes Optional">Optional</th><th title="D C">C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>exercise</td><td>xml:id, class, style</td><td>+</td><td>CMP*,FMP*,hint?,(solution*|mc*)</td></tr>
+    <tr><td>hint</td><td>xml:id, class, style</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>solution</td><td>xml:id, for, class, style</td><td>+</td><td>《top-level element》</td></tr>
+    <tr><td>mc</td><td>xml:id, for, class, style</td><td>-</td><td>choice, hint?, answer</td></tr>
+    <tr><td>choice</td><td>xml:id, class, style</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>answer</td><td>verdict</td><td>xml:id, class, style</td><td>+</td><td>CMP*, FMP*</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | Attributes Req. | Attributes Optional | D C | Content</p>
+<table>
+  <caption>Table p. 220.42 — 5×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="\#">\#</th><th title="Rule">Rule</th><th title="comment">comment</th><th title="elements">elements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>unordere d</td><td>The order of children of this element is irrelevant (as far as permitted by the content model). For instance only the order of obligation elements in the axiom-inclusion element is arbitrary, since the others must precede them in the content model.</td><td>adt axiom-inclusion metadata symbol code private presentation omstyle</td></tr>
+    <tr><td>2</td><td>multigroup</td><td>The order between siblings elements does not matter, as long as the values of the key attributes differ.</td><td>CMP FMP requation dc:description sortdef data dc:title solution</td></tr>
+    <tr><td>3</td><td>DAG encoding</td><td>Directed acyclic graphs built up using om:OMR elements are equal, iff their tree expansions are equal.</td><td>om:OMR ref</td></tr>
+    <tr><td>4</td><td>Dataset</td><td>If the content of the dc:type element is Dataset, then the order of the siblings of the parent metadata element is irrelevant.</td><td>dc:type</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> \# | Rule | comment | elements</p>
+<table>
+  <caption>Table p. 227.43 — 7×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="directories">directories</th><th title="content">content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>bin, lib, oz, thirdParty</td><td>programs and third-party software used in the administration and examples</td></tr>
+    <tr><td>css, xsl</td><td>style sheets for displaying OMDoc documents on the web, see Chapter 25 for a discussion.</td></tr>
+    <tr><td>doc</td><td>The OMDoc documentation, including the specification, papers about a the OMDoc format and tools.</td></tr>
+    <tr><td>dtd, rnc</td><td>The OMDoc document type definition and the RelaxNG schemata for OMDoc</td></tr>
+    <tr><td>examples</td><td>Various example documents in OMDoc format.</td></tr>
+    <tr><td>projects</td><td>various contributed developments for OMDoc. Documentation is usually in their doc sub-directory</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> directories | content</p>
+<table>
+  <caption>Table p. 233.44 — 7×3, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="language">language</th><th title="namespace">namespace</th><th title="prefix">prefix</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MathML</td><td>http://www.w3.org/1998/Math/MathML</td><td>m:</td></tr>
+    <tr><td>OpenMath</td><td>http://www.openmath.org/OpenMath</td><td>om:</td></tr>
+    <tr><td>XSLT</td><td>http://www.w3.org/1999/XSL/Transform</td><td>xsl:</td></tr>
+    <tr><td>Dublin Core</td><td>http://purl.org/dc/elements/1.1/</td><td>dc:</td></tr>
+    <tr><td>Creative Commons</td><td>http://creativecommons.org/ns</td><td>cc:</td></tr>
+    <tr><td>OMDoc</td><td>http://www.mathweb.org/omdoc</td><td>omdoc:</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> language | namespace | prefix</p>
+<table>
+  <caption>Table p. 245.45 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.matracas.org/qmath/index.en.html">http://www.matracas.org/qmath/index.en.html</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Alberto González Palomo Toledo, Spain \({ }^{2}\)</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.matracas.org/qmath/index.en.html</p>
+<table>
+  <caption>Table p. 248.46 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.matracas.org/sentido/index.en.html">http://www.matracas.org/sentido/index.en.html</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Alberto González Palomo Toledo, Spain \({ }^{4}\)</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.matracas.org/sentido/index.en.html</p>
+<table>
+  <caption>Table p. 253.47 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.mathweb.org/mbase">http://www.mathweb.org/mbase</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Andreas Franke \({ }^{1}\), Michael Kohlhase \({ }^{2}\) \begin{itemize} \item[] \({ }^{1}\) Computer Science, Saarland University \item[] \({ }^{2}\) School of Engineering and Science, International \end{itemize} University Bremen</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.mathweb.org/mbase</p>
+<table>
+  <caption>Table p. 255.48 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://search.mathweb.org/">http://search.mathweb.org/</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Ioan Sucan, Michael Kohlhase Computer Science, International University Bremen</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://search.mathweb.org/</p>
+<table>
+  <caption>Table p. 259.49 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.mmiss.de">http://www.mmiss.de</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Bernd Krieg-Brückner, Achim Mahnke Computer Science, University of Bremen, Germany</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.mmiss.de</p>
+<table>
+  <caption>Table p. 263.50 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.mathdox.org">http://www.mathdox.org</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>A.M. Cohen, H. Cuypers, E. Reinaldo Barreiro Department of Mathematics and Computer Science, Eindhoven University of Technology</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.mathdox.org</p>
+<table>
+  <caption>Table p. 267.51 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.activemath.org/">http://www.activemath.org/</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>The ActiveMath group: Erica Melis, Giorgi Goguadse, Alberto Gonzales-Palomo, Adrian Frischauf, Martin Homik, Paul Libbrecht, Carsten Ullrich DFKI GmbH and Universität des Saarlandes</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.activemath.org/</p>
+<table>
+  <caption>Table p. 273.52 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.activemath.org/projects/jEdit0QMath">http://www.activemath.org/projects/jEdit0QMath</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Paul Libbrecht DFKI GmbH and Universität des Saarlandes</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.activemath.org/projects/jEdit0QMath</p>
+<table>
+  <caption>Table p. 275.53 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://kwarc.eecs.iu-bremen.de/projects/swim">http://kwarc.eecs.iu-bremen.de/projects/swim</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Christoph Lange, Michael Kohlhase Computer Science, International University Bremen</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://kwarc.eecs.iu-bremen.de/projects/swim</p>
+<table>
+  <caption>Table p. 279.54 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.cs.nott.ac.uk/ \({ }^{\sim}\) lad/research/ challenges/challenge_manager.html">http://www.cs.nott.ac.uk/ \({ }^{\sim}\) lad/research/ challenges/challenge_manager.html</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Thomas D. Attfield, Monica C. Duarte, Lin Li, HoYing Mak, Adam M. Neal, Lewis M. Toft, Zixuan Wang, Louise A. Dennis School of Computer Science and Information Technology, University of Nottingham</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.cs.nott.ac.uk/ \({ }^{\sim}\) lad/research/ challenges/challenge_manager.html</p>
+<table>
+  <caption>Table p. 282.55 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="www.dfki.de/ \({ }^{\sim}\) inka/maya.html">www.dfki.de/ \({ }^{\sim}\) inka/maya.html</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Serge Autexier \({ }^{1}\), Dieter Hutter \({ }^{1}\), Till Mossakowski \({ }^{2}\), Axel Schairer \({ }^{1} { }^{1}\) DKFI GmbH, Stuhlsatzenhausweg 3, D 66123 Saarbrücken \({ }^{2}\) Computer Science, University of Bremen, Germany</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | www.dfki.de/ \({ }^{\sim}\) inka/maya.html</p>
+<table>
+  <caption>Table p. 287.56 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="www.tzi.de/cofi/hets">www.tzi.de/cofi/hets</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Till Mossakowski, Christian Maeder, Klaus Lüttich Computer Science, University of Bremen, Germany</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | www.tzi.de/cofi/hets</p>
+<table>
+  <caption>Table p. 291.57 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://kwarc.eecs.iu-bremen.de/software/CPoint/">http://kwarc.eecs.iu-bremen.de/software/CPoint/</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>\begin{tabular}[t]{l} Andrea Kohlhase \\ Digital Media in Education (DiMeB), Dept. of Mathematics and Computer Science, University Bremen \end{tabular}</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://kwarc.eecs.iu-bremen.de/software/CPoint/</p>
+<table>
+  <caption>Table p. 295.58 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://kwarc.iu-bremen.de/projects/stex/">http://kwarc.iu-bremen.de/projects/stex/</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Michael Kohlhase Computer Science, International University Bremen</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://kwarc.iu-bremen.de/projects/stex/</p>
+<table>
+  <caption>Table p. 299.59 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.cs.cmu.edu/ \({ }^{\sim}\) ccaps">http://www.cs.cmu.edu/ \({ }^{\sim}\) ccaps</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Peter Jansen School of Computer Science, Carnegie Mellon University</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.cs.cmu.edu/ \({ }^{\sim}\) ccaps</p>
+<table>
+  <caption>Table p. 302.60 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.cs.cmu.edu/ \({ }^{\sim}\) ccaps">http://www.cs.cmu.edu/ \({ }^{\sim}\) ccaps</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Klaus Sutner School of Computer Science, Carnegie Mellon University</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.cs.cmu.edu/ \({ }^{\sim}\) ccaps</p>
+<table>
+  <caption>Table p. 305.61 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.mathweb.org/omdoc/examples/logics">http://www.mathweb.org/omdoc/examples/logics</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Michael Kohlhase Computer Science, International University Bremen</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.mathweb.org/omdoc/examples/logics</p>
+<table>
+  <caption>Table p. 306.62 — 14×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="PVS">PVS</th><th title="\(\Omega\) MEGA">\(\Omega\) MEGA</th><th title="PVS">PVS</th><th title="\(\Omega_{\text {MEGA }}\)">\(\Omega_{\text {MEGA }}\)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>set</td><td>subset?</td><td>subset</td></tr>
+    <tr><td>member</td><td>in</td><td>subset2</td></tr>
+    <tr><td>empty?</td><td>empty</td><td>strict_subset?</td><td>proper-subset</td></tr>
+    <tr><td>emptyset</td><td>emptyset</td><td>superset</td></tr>
+    <tr><td>nonempty?</td><td>not-empty</td><td>union</td><td>union</td></tr>
+    <tr><td>full?</td><td>union2</td></tr>
+    <tr><td>fullset</td><td>union-over-collection</td></tr>
+    <tr><td>singleton?</td><td>singleton</td><td>intersection</td><td>intersection</td></tr>
+    <tr><td>singleton</td><td>intersection-over-coll.</td></tr>
+    <tr><td>complement</td><td>set-complement</td><td>disjoint?</td><td>misses</td></tr>
+    <tr><td>difference</td><td>setminus</td><td>meets</td></tr>
+    <tr><td>symmetric_difference</td><td>add</td><td>add-one</td></tr>
+    <tr><td>exclunion</td><td>remove</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> PVS | \(\Omega\) MEGA | PVS | \(\Omega_{\text {MEGA }}\)</p>
+<table>
+  <caption>Table p. 310.63 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.ags.uni-sb.de/~omega/projects/ verimathdoc">http://www.ags.uni-sb.de/~omega/projects/ verimathdoc</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Serge Autexier, Christoph Benzmüller, Armin Fiedler, and Henri Lesourd Computer Science, Saarland University, Saarbrücken, Germany</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.ags.uni-sb.de/~omega/projects/ verimathdoc</p>
+<table>
+  <caption>Table p. 314.64 — 2×2, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Project Home">Project Home</th><th title="http://www.verifun.de/">http://www.verifun.de/</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authors</td><td>Normen Müller School of Engineering and Science, International University Bremen</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Project Home | http://www.verifun.de/</p>
+<table>
+  <caption>Table p. 320.65 — 4×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="element">element</th><th title="state">state</th><th title="comments">comments</th><th title="cf.">cf.</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>alternative</td><td>aug</td><td>This element can now have theory, generated-from, and generated-via attributes.</td><td>145</td></tr>
+    <tr><td>argument</td><td>cha</td><td>The sort has been replaced by a type child, so that higher-order sorts can be specified.</td><td>156</td></tr>
+    <tr><td>assertion</td><td>aug</td><td>the assertion element now has an optional for attribute. Furthermore, an optional attribute generated-via has been added to allow generation via a theory morphism. Finally, two new attributes status and just-by have been added to mark up the deductive status of the assertion.</td><td>142</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> element | state | comments | cf.</p>
+<table>
+  <caption>Table p. 321.66 — 10×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="assumption">assumption</th><th title="cha">cha</th><th title="This element can now have an attribute inductive for inductive assumptions. The natural langauge description in the optional CMP element is no longer allowed, use a phrase element in a CMP that is a sibling to the FMP instead.">This element can now have an attribute inductive for inductive assumptions. The natural langauge description in the optional CMP element is no longer allowed, use a phrase element in a CMP that is a sibling to the FMP instead.</th><th title="145">145</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>adt</td><td>aug</td><td>the adt loses the CMP and commonname children, use the Dublin Core metadata elements dc:description and dc:subject instead. The type attribute is now on the sortdef element. Furthermore, an optionala attribute generated-via has been added to allow generation via a theory morphism. Finally, an attribute parameters has been added to allow for parametric ADTs.</td><td>156</td></tr>
+    <tr><td>answer</td><td>cha</td><td>the answer element does not allow symbol children any more, if these are needed, the exercise should have its own theory.</td><td>210</td></tr>
+    <tr><td>attribute</td><td>aug</td><td>the attribute element now has a optional ns attribute for the namespace URI of the generated attribute node and an attribute select for an XPath expression that specifies the value of the generated attribute.</td><td>191</td></tr>
+    <tr><td>axiom</td><td>aug</td><td>the axiom element now has an optional for attribute which can point to a list of symbols. Furthermore, an optional attribute generated-via has been added to allow generation via a theory morphism and an attribute type is now also allowed.</td><td>138</td></tr>
+    <tr><td>axiom-inclusion</td><td>lib</td><td>the axiom-inclusion element can now contain multiple path-just children to record multiple justifications. Furthermore, it can now have theory, generated-from, and generated-via attributes. New optional attributes conservativity and conservativity-just for stating and justifying conservativity.</td><td>180</td></tr>
+    <tr><td>catalogue</td><td>dep</td><td>the catalogue mechanism has been eliminated.</td></tr>
+    <tr><td>choice</td><td>cha</td><td>the choice element does not allow symbol children any more, if these are needed, the exercise should have its own theory</td><td>210</td></tr>
+    <tr><td>code</td><td>cha</td><td>Attributes classid and codebase are deprecated. The attributes pto and pto-version have moved to the data element. The attribute type has been removed and optional attributes theory, generated-from, and generated-via have been added.</td><td>202</td></tr>
+    <tr><td>commonname</td><td>dep</td><td>This element is deprecated in favor of a metadata/dc:subject element.</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> assumption | cha | This element can now have an attribute inductive for inductive assumptions. The natural langauge description in the optional CMP element is no longer allowed, use a phrase element in a CMP that is a sibling to the FMP instead. | 145</p>
+<table>
+  <caption>Table p. 322.67 — 11×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="conclusion">conclusion</th><th title="cha">cha</th><th title="The natural langauge description in the optional CMP element is no longer allowed, use a phrase element in a CMP that is a sibling to the FMP instead.">The natural langauge description in the optional CMP element is no longer allowed, use a phrase element in a CMP that is a sibling to the FMP instead.</th><th title="124">124</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>constructor</td><td>cha</td><td>The role attribute is now fixed to object. The commonname child has been replaced by an initial metadata element.</td><td>156</td></tr>
+    <tr><td>data</td><td>aug</td><td>new optional attributes original to specify whether the external resource referenced by the href attribute (value external) or the data content is the original (value local). The data element has acquired attributes pto and pto-version from the code and private elements.</td><td>203</td></tr>
+    <tr><td>dc:*</td><td>aug</td><td>All Dublin Core tags have been lowercased to synchronize with the tag syntax recommended by the Dublin Core Initiative. The tags were capitalized in OMDoc1.1. Furthermore, dc:contributor, dc:creator, dc:publisher have received an optional xml:id attribute, so that they can be crossreferenced by the new who of the dc : date element.</td><td>98</td></tr>
+    <tr><td>decomposition</td><td>aug</td><td>The for attribute is now optional, it need not be given, if the element is a child of a theory-inclusion element. Furthermore, it can now have a theory, generated-from, and generated-via attributes.</td><td>184</td></tr>
+    <tr><td>dc:description</td><td>aug</td><td>The dc:description can now have the optional xml:id, and CSS attributes</td><td>99</td></tr>
+    <tr><td>definition</td><td>aug</td><td>The definition element can now have the type pattern for pattern-defined functions. This is a degenerate case of the type inductive. Furthermore, an optional attribute generated-via has been added to allow generation via a theory morphism.</td><td>139</td></tr>
+    <tr><td>effect</td><td>aug</td><td>allows an optional xml:id attribute</td><td>204</td></tr>
+    <tr><td>example</td><td>aug</td><td>The example element now has the optional theory attribute that specifies the home theory. Furthermore, it can now have attributes theory, generated-from, and generated-via.</td><td>146</td></tr>
+    <tr><td>exercise</td><td>cha</td><td>the exercise element does not allow symbol children any more, if these are needed, the exercise should have its own theory. Furthermore, it can now have a theory, generated-from, and generated-via attributes.</td><td>209</td></tr>
+    <tr><td>extradata</td><td>cha</td><td>The content of the old extradata element can now be directly in the metadata/dc:subject element.</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> conclusion | cha | The natural langauge description in the optional CMP element is no longer allowed, use a phrase element in a CMP that is a sibling to the FMP instead. | 124</p>
+<table>
+  <caption>Table p. 323.68 — 13×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="element">element</th><th title="aug">aug</th><th title="The element element now allows the map and separator elements in the body. Furthermore, it carries the optional attributes crid for parallel markup, cr for cross-references, and ns for specifying the namespace.">The element element now allows the map and separator elements in the body. Furthermore, it carries the optional attributes crid for parallel markup, cr for cross-references, and ns for specifying the namespace.</th><th title="190">190</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>hint</td><td>aug</td><td>the hint element can now appear on toplevel and has a for attribute. It does not allow symbol children any more, if these are needed, the exercise should have its own theory. Furthermore, the exercise can now have a theory, generated-from, and generated-via attributes.</td><td>209</td></tr>
+    <tr><td>hypothesis</td><td>cha</td><td>the discharged-in attribute has been eliminated. Scoping is now specified in terms of the enclosing proof element. Furthermore, the symbol child is no longer allowed inside the element. A sibling symbol should be used.</td><td>162</td></tr>
+    <tr><td>inclusion</td><td>aug</td><td>allows optional attributes xml:id, conservativity, and conservativity-just for stating and justifying conservativity.</td><td>179</td></tr>
+    <tr><td>imports</td><td>lib</td><td>the xml:id is now optional. New optional attributes conservativity and conservativity-just for stating and justifying conservativity.</td><td>150</td></tr>
+    <tr><td>input</td><td>aug</td><td>allows an optional xml:id attribute</td><td>204</td></tr>
+    <tr><td>legacy</td><td>new</td><td>An element for encapsulating legacy mathematics, can be used wherever m:math and om:OMOBJ are allowed.</td><td>120</td></tr>
+    <tr><td>loc</td><td>dep</td><td>The catalogue mechanism has been eliminated.</td></tr>
+    <tr><td>m:math</td><td>new</td><td>Content-MathML is now allowed wherever OpenMath objects were allowed before.</td><td>114</td></tr>
+    <tr><td>map</td><td>new</td><td>this element allows to map its style directives over a list of e.g. arguments</td><td>191</td></tr>
+    <tr><td>mc</td><td>aug</td><td>the mc element can now have a for attribute. It does not allow symbol children any more, if these are needed, the dominating exercise element should have its own theory. Furthermore, the mc element can now have a theory, generated-from, and generated-via attributes.</td><td>210</td></tr>
+    <tr><td>measure</td><td>aug</td><td>allows an optional xml:id attribute</td><td>141</td></tr>
+    <tr><td>metacomment</td><td>dep</td><td>This element is superseded by the omtext element.</td><td>124</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> element | aug | The element element now allows the map and separator elements in the body. Furthermore, it carries the optional attributes crid for parallel markup, cr for cross-references, and ns for specifying the namespace. | 190</p>
+<table>
+  <caption>Table p. 324.69 — 11×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="morphism">morphism</th><th title="aug">aug</th><th title="The morphism element now carries the optional attributes consistency, exhaustivity, hiding, and type. Furthermore the content model allows optional elements measure and ordering after the requation children to specify termination information like in definition.">The morphism element now carries the optional attributes consistency, exhaustivity, hiding, and type. Furthermore the content model allows optional elements measure and ordering after the requation children to specify termination information like in definition.</th><th title="92">92</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>obligation</td><td>aug</td><td>allows an optional xml:id attribute</td><td>178</td></tr>
+    <tr><td>omdoc</td><td>aug</td><td>This element can now have a theory, generated-from, and generated-via attributes.</td><td>90</td></tr>
+    <tr><td>omgroup</td><td>cha</td><td>The values dataset and labeled-dataset are deprecated in Version 1.2 of OMDoc, since we provide tables in module RT; see Section 14.6 for details. Furthermore, the element can now have the attributes, modules, theory, generated-from, and generated-via.</td><td>93</td></tr>
+    <tr><td>omlet</td><td>cha</td><td>omlet can no longer occur at top-level (it just does not make sense). The data model for this element has been totally reworked, inspired by the xhtml:object element.</td><td>205</td></tr>
+    <tr><td>omstyle</td><td>aug</td><td>This element can now have generated-from, and generated-via attributes. New attribute xref that allows to inherit the information from another omstyle element.</td><td>188</td></tr>
+    <tr><td>om:*</td><td>aug</td><td>with OpenMath2, the OpenMath elements carry an optional id attribute for structure sharing via the om:OMR element. Furthermore, in OMDoc, they carry cref attributes for parallel markup with crossreferences.</td><td>108</td></tr>
+    <tr><td>om: OMFOREIGN</td><td>new</td><td>The om:OMFOREIGN element can be used to encapsulate arbitrary XML data in OpenMath attributions.</td><td>110</td></tr>
+    <tr><td>om: 0MR</td><td>new</td><td>In the OpenMath2 standard, this element is the main vehicle of the structure sharing representation.</td><td>112</td></tr>
+    <tr><td>omtext</td><td>aug</td><td>the type attribute can now also have the values axiom, definition, theorem, proposition, lemma, corollary, postulate, conjecture, false-conjecture, obligation, assumption, and formula. Furthermore, omtext can now have theory, generated-from, and generated-via and verbalizes attributes.</td><td>124</td></tr>
+    <tr><td>ordering</td><td>aug</td><td>Now allows the optional xml:id and terminating attributes. The latter points to a termination assertion.</td><td>141</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> morphism | aug | The morphism element now carries the optional attributes consistency, exhaustivity, hiding, and type. Furthermore the content model allows optional elements measure and ordering after the requation children to specify termination information like in definition. | 92</p>
+<table>
+  <caption>Table p. 325.70 — 12×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="output">output</th><th title="aug">aug</th><th title="allows an optional xml:id attribute">allows an optional xml:id attribute</th><th title="204">204</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>pattern</td><td>aug</td><td>this element is no longer used, the pattern of a recursive equation is determined by the position as the first child.</td></tr>
+    <tr><td>path-just</td><td>aug</td><td>The element can now appear as a toplevel element, if it does, the attribute for must point to the axiom-inclusion element it justifies. It also now allows an optional xml:id attribute</td><td>184</td></tr>
+    <tr><td>phrase</td><td>new</td><td>used to mark up phrases in CMPs and supply them with identifiers and links to context that can be used for presentation and referencing.</td><td>126</td></tr>
+    <tr><td>presentation</td><td>cha</td><td>The theory is not allowed any more, to refer to a symbol outside its theory use its xml:id attribute. The element now also allows a mutilingual CMP group, so that it can be used as a notation definition element in mathematical vernacular.</td><td>192</td></tr>
+    <tr><td>private</td><td>cha</td><td>The replaces attribute is now called reformulates. The attributes pto and pto-version have moved to the data element. The attribute type has been removed and optional attributes theory, generated-from, and generated-via have been added.</td><td>202</td></tr>
+    <tr><td>proof</td><td>lib</td><td>The for attribute is now optional to allow for proofs as objects of mathematical discourse. Furthermore, it can now have generated-from and generated-via attributes.</td><td>161</td></tr>
+    <tr><td>proofobject</td><td>lib</td><td>The for attribute is now optional to allow for proofs as objects of mathematical discourse. Furthermore, it can now have generated-from and generated-via attributes.</td><td>169</td></tr>
+    <tr><td>recognizer</td><td>cha</td><td>The role attribute was fixed to object. The commonname child has been replaced by an initial metadata element.</td><td>157</td></tr>
+    <tr><td>ref</td><td>aug</td><td>ref now has an optional xml:id attribute that identifies it.</td><td>94</td></tr>
+    <tr><td>selector</td><td>cha</td><td>The role attribute was fixed to object. The commonname child has been replaced by an initial metadata element.</td><td>157</td></tr>
+    <tr><td>solution</td><td>cha</td><td>the solution element now allows arbitrary OMDoc top-level elements as children. Furthermore, it can now have a theory, generated-from, and generated-via attributes.</td><td>209</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> output | aug | allows an optional xml:id attribute | 204</p>
+<table>
+  <caption>Table p. 326.71 — 8×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="sortdef">sortdef</th><th title="cha">cha</th><th title="The role attribute was fixed to sort. The type from the adt element is now on the sortdef element. The commonname child has been replaced by an initial metadata element.">The role attribute was fixed to sort. The type from the adt element is now on the sortdef element. The commonname child has been replaced by an initial metadata element.</th><th title="156">156</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>dc:subject</td><td>aug</td><td>The dc:subject can now have the optional dc:id, and CSS attributes</td><td>99</td></tr>
+    <tr><td>style</td><td>aug</td><td>The style element now allows a map element in the body</td><td>189</td></tr>
+    <tr><td>symbol</td><td>cha</td><td>may no longer contain selector, since it only makes sense for constructors in data types. The kind attribute has been renamed to role for compatibility with OpenMath2 and can have the additional values binder, attribution, semantic-attribution, and error corresponding to the OpenMath 2 roles. Furthermore, an optional attribute generated-via has been added to allow generation via a theory morphism.</td><td>136</td></tr>
+    <tr><td>term</td><td>new</td><td>the term element can appear in mathematical text and contain it. It is used to link technical terms to symbols defined in content dictionaries via its cd and name attributes.</td><td>128</td></tr>
+    <tr><td>theory</td><td>cha</td><td>the theory element loses the CMP and commonname children, use the Dublin Core metadata elements dc:description and dc:subject instead. The theory element also gains the optional cdbase attribute to specify the disambiguating string prescribed for content dictionaries by the OpenMath2 standard. The xml:id is now optional, it only needs to be specified, if the theory has constitutive elements. Finally, the element has gained the optional attributes cdurl, cdbase, cdreviewdate, cdversion, cdrevision, and cdstatus attributes for encoding the management metadata of OpenMath content dictionaries.</td><td>149</td></tr>
+    <tr><td>dc:title</td><td>aug</td><td>The dc:title can now have the optional dc:id, and CSS attributes.</td><td>98</td></tr>
+    <tr><td>tgroup</td><td>new</td><td>The tgroup can be used to structure theories like documents.</td><td>149</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> sortdef | cha | The role attribute was fixed to sort. The type from the adt element is now on the sortdef element. The commonname child has been replaced by an initial metadata element. | 156</p>
+<table>
+  <caption>Table p. 327.72 — 7×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="type">type</th><th title="aug">aug</th><th title="\begin{tabular}[t]{l} the type element now has the optional just-by and theory attribute. The first one points to an assertion or axiom that justifies the type judgment, the second specifies the home theory. The system attribute is now optional. \\ Furthermore, the type element can have two math objects as children. If it does, then it is a term declaration, i.e. the first element is interpreted as a mathematical object and the second one is interpreted as its type. \\ Finally, it can now have generated-from and generated-via attributes. \end{tabular}">\begin{tabular}[t]{l} the type element now has the optional just-by and theory attribute. The first one points to an assertion or axiom that justifies the type judgment, the second specifies the home theory. The system attribute is now optional. \\ Furthermore, the type element can have two math objects as children. If it does, then it is a term declaration, i.e. the first element is interpreted as a mathematical object and the second one is interpreted as its type. \\ Finally, it can now have generated-from and generated-via attributes. \end{tabular}</th><th title="139">139</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>theory-inclusion</td><td>aug</td><td>the theory-inclusion element can now have obligation and decomposition children that justify it. Furthermore, it can now have a theory, generated-from, and generated-via attributes. New optional attributes conservativity and conservativity-just for stating and justifying conservativity.</td><td>178</td></tr>
+    <tr><td>theory</td><td>aug</td><td>the theory element can now be nested.</td><td>149</td></tr>
+    <tr><td>use</td><td>cha</td><td>can now contain element, text, recurse, map, and value-of to specify XML content. We have deprecated the larg-group and rarg-group attributes, since they were never used.</td><td>194</td></tr>
+    <tr><td>value</td><td>aug</td><td>this element is no longer used, the value of a recursive equation is determined by the position as the second child.</td></tr>
+    <tr><td>with</td><td>ren</td><td>the role of this element is now taken by the phrase element.</td><td>126</td></tr>
+    <tr><td>xslt</td><td>cha</td><td>the content of this element need not be escaped any more, it is now a valid XSLT fragment.</td><td>189</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> type | aug | \begin{tabular}[t]{l} the type element now has the optional just-by and theory attribute. The first one points to an assertion or axiom that justifies the type judgment, the second specifies the home theory. The system attribute is now optional. \\ Furthermore, the type element can have two math objects as children. If it does, then it is a term declaration, i.e. the first element is interpreted as a mathematical object and the second one is interpreted as its type. \\ Finally, it can now have generated-from and generated-via attributes. \end{tabular} | 139</p>
+<table>
+  <caption>Table p. 328.73 — 14×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="element">element</th><th title="state">state</th><th title="comments">comments</th><th title="cf.">cf.</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>attribute</td><td>new</td><td>presentation of attributes for XML elements</td><td>191</td></tr>
+    <tr><td>alternative</td><td>cha</td><td>new form of the alternative-def element, it can now also used as an alternative to axiom. Compared to alternative-def it has a new optional attribute generated-by to show that an assertion is generated by expanding a some other element like adt.</td><td>145</td></tr>
+    <tr><td>alternative-def</td><td>dep</td><td>new form is alternative, since there can be alternative axioms too.</td></tr>
+    <tr><td>argument</td><td>cha</td><td>attribute sort is now of type IDREF, since it must be local in the definition.</td><td>156</td></tr>
+    <tr><td>assertion</td><td>aug</td><td>more values for the type attribute, new optional attribute generated-by to show that an assertion is generated by expanding a definition or an adt. New optional attribute proofs.</td><td>142</td></tr>
+    <tr><td>assertion-just</td><td>dep</td><td>this is now obligation</td></tr>
+    <tr><td>axiom</td><td>aug</td><td>new optional attribute generated-by to show that an axiom is generated by expanding a definition.</td><td>138</td></tr>
+    <tr><td>axiom-inclusion</td><td>cha</td><td>now allows a CMP group for descriptive text, includes a set of obligation elements instead of an assertion-just. The timestamp attribute is deprecated, use dc:date with appropriate action instead</td><td>180</td></tr>
+    <tr><td>CMP</td><td>cha</td><td>the attribute format is now deprecated, it makes no sense, since we are more strict and consistent about CMP content. CMP now allows an optional id attribute.</td><td>122</td></tr>
+    <tr><td>code</td><td>cha</td><td>Attributes width and height now in omlet, got attributes classid and codebase from private. Attribute format moved to data children. The multilingual group of CMP elements for description is deprecated, use metadata/dc:description instead. Child element data may appear multiple times (with different values of the format).</td><td>202</td></tr>
+    <tr><td>constructor</td><td>aug</td><td>new optional child recognizer for a recognizer predicate</td><td>156</td></tr>
+    <tr><td>Coverage</td><td>dep</td><td>this Dublin Core element specifies the place or time which the publication&#x27;s contents addresses. This does not seem appropriate for the mathematical content of OMDoc.</td></tr>
+    <tr><td>data</td><td>aug</td><td>new optional attributes size to specify the size of the data file that is referenced by the href attribute and format for the format the data is in.</td><td>203</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> element | state | comments | cf.</p>
+<table>
+  <caption>Table p. 329.74 — 16×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="dc:date">dc:date</th><th title="aug">aug</th><th title="new optional who attribute that can be used to specify who did the action on this date.">new optional who attribute that can be used to specify who did the action on this date.</th><th title="99">99</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Translator</td><td>dep</td><td>this element is not part of Dublin Core, it got into OMDoc by mistake, we use dc:contributor with role=trl for this.</td><td>98</td></tr>
+    <tr><td>decomposition</td><td>aug</td><td>has a new required id attribute. It is no longer a child of theory-inclusion, but specifies which theory-inclusion it justifies by the new required attribute for.</td><td>184</td></tr>
+    <tr><td>definition</td><td>aug</td><td>new optional children measure and ordering to specify termination of recursive definitions. New optional attribute generated-by to show that it is generated by expanding a definition.</td><td>139</td></tr>
+    <tr><td>element</td><td>new</td><td>presentation of XML elements</td><td>190</td></tr>
+    <tr><td>FMP</td><td>aug</td><td>now allows multiple conclusion elements, to represent general Gentzen-type sequents (not only natural deduction.) FMP now allows an optional id attribute.</td><td>123</td></tr>
+    <tr><td>hypothesis</td><td>cha</td><td>new required attribute discharged-in to specify the derive element that discharges this hypothesis.</td><td>162</td></tr>
+    <tr><td>measure</td><td>new</td><td>specifies a measure function (as an OMOBJ)</td><td>141</td></tr>
+    <tr><td>metadata</td><td>aug</td><td>new optional attribute inherits that allows to inherit metadata from other declarations</td><td>92</td></tr>
+    <tr><td>method</td><td>cha</td><td>first child that used to be an om:OMSTR or ref element is now moved into a required xref attribute that holds an URI that points to the element that defines the method. The om:OMOBJ content of the other children (they were parameter elements) is now directly included in the method element.</td><td>164</td></tr>
+    <tr><td>obligation</td><td>new</td><td>takes over the role of assertion-just.</td></tr>
+    <tr><td>omgroup</td><td>aug</td><td>also allows the elements that can only appear in theory elements, so that omgroups can also be used for grouping inside theory elements. The type attribute is now restrained to one of narrative, sequence, alternative, contrast.</td><td>93</td></tr>
+    <tr><td>omlet</td><td>aug</td><td>obtained attributes width and height from private. New optional attributes action for the action to be taken when activated, and data a URIref to data in a private element. New optional attribute type for the type of the applet.</td><td>205</td></tr>
+    <tr><td>omstyle</td><td>new</td><td>for specifying the style of OMDoc elements</td><td>188</td></tr>
+    <tr><td>omtext</td><td>cha</td><td>the from is deprecated, we only leave the for attribute, to specify the referential character of the type.</td><td>124</td></tr>
+    <tr><td>ordering</td><td>new</td><td>specifies a well-founded ordering (as an OMOBJ)</td><td>141</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> dc:date | aug | new optional who attribute that can be used to specify who did the action on this date. | 99</p>
+<table>
+  <caption>Table p. 330.75 — 13×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="parameter">parameter</th><th title="dep">dep</th><th title="the om:OMOBJ element child is now directly a child of method">the om:OMOBJ element child is now directly a child of method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>pattern</td><td>cha</td><td>the child can be an arbitraryOpenMath element.</td></tr>
+    <tr><td>premise</td><td>cha</td><td>new optional attribute rank for the importance in the inference rule. The old href attribute is renamed to xref to be consistent with other cross-referencing.</td></tr>
+    <tr><td>presentation</td><td>aug</td><td>\begin{tabular}[t]{l} New attribute xref that allows to inherit the information from another presentation element. New attribute theory to specify the theory the symbol is from; without this, referencing in OMDoc is not unique. \\ The parent attribute has been renamed to role and now takes the values applied, binding, and key, since we want to be less OpenMath-centric \end{tabular}</td><td>192</td></tr>
+    <tr><td>private</td><td>cha</td><td>\begin{tabular}[t]{l} new optional attribute for to point to an OMDoc element it provides data for. As a consequence, private elements are no longer allowed in other OMDoc elements, only on top-level. New attribute replaces as a pointer to the OMDoc elements that are replaced by the system-specific information in this element. Old attributes width and height now in omlet. Attribute format moved to data children. \\ The descriptive CMP elements are deprecated, use metadata/dc:description instead. \\ Child element data may appear multiple times (with different values of the format). The attributes classid and codebase are deprecated, since they only make sense on the code element. \end{tabular}</td><td>q 202</td></tr>
+    <tr><td>proof</td><td>cha</td><td>attribute theory is now optional, since the element can appear inside a theory element.</td><td>161</td></tr>
+    <tr><td>proofobject</td><td>cha</td><td>attribute theory is now optional, since the element can appear inside a theory element.</td><td>161</td></tr>
+    <tr><td>recognizer</td><td>new</td><td>specifies the recognizer predicate of a sort.</td><td>157</td></tr>
+    <tr><td>recurse</td><td>new</td><td>recursive calls to presentation in style.</td><td>191</td></tr>
+    <tr><td>ref</td><td>cha</td><td>attribute kind renamed to type.</td><td>94</td></tr>
+    <tr><td>selector</td><td>cha</td><td>the old type attribute (had values total and partial) is deprecated, its duty is now carried by an attribute total (values yes and no).</td><td>157</td></tr>
+    <tr><td>signature</td><td>dep</td><td>for the moment</td></tr>
+    <tr><td>sortdef</td><td>cha</td><td>has a mandatory name attribute, otherwise the defined symbol has no name.</td><td>156</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> parameter | dep | the om:OMOBJ element child is now directly a child of method | </p>
+<table>
+  <caption>Table p. 331.76 — 9×4, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="style">style</th><th title="new">new</th><th title="allows to specify style information in presentation and omstyle elements using a simplified OMDoc-internalized version of XSLT.">allows to specify style information in presentation and omstyle elements using a simplified OMDoc-internalized version of XSLT.</th><th title="189">189</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>symbol</td><td>aug</td><td>new optional attribute generated-by to show that it is generated by expanding a definition.</td><td>136</td></tr>
+    <tr><td>text</td><td>new</td><td>presentation of text in omstyle.</td><td>190</td></tr>
+    <tr><td>theory-inclusion</td><td>cha</td><td>now allows CMP group for descriptive text, no longer has a decomposition child, this is now attached by its for attribute. The timestamp attribute is deprecated, use dc:date with appropriate action instead.</td><td>178</td></tr>
+    <tr><td>type</td><td>aug</td><td>can now also appear on top-level. Has an optional id attribute for identification, and an optional for attribute to point to a symbol element it declares type information for.</td><td>139</td></tr>
+    <tr><td>use</td><td>aug</td><td>New attribute element allows to specify that the content should be encased in an XML element with the attribute-value pairs specified in the string specified in the attribute attributes.</td><td>194</td></tr>
+    <tr><td>value-of</td><td>new</td><td>presentation of values in style.</td><td>190</td></tr>
+    <tr><td>with</td><td>new</td><td>used to supply fragments of text in CMPs with style and id attributes that can be used for presentation and referencing.</td><td>126</td></tr>
+    <tr><td>xslt</td><td>new</td><td>allows to embed XSLT into presentation and omstyle elements.</td><td>189</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> style | new | allows to specify style information in presentation and omstyle elements using a simplified OMDoc-internalized version of XSLT. | 189</p>
+<table>
+  <caption>Table p. 332.77 — 2×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Element">Element</th><th title="p.">p.</th><th title="Mod.">Mod.</th><th title="Required">Required</th><th title="Optional">Optional</th><th title="D">D</th><th title="Content">Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Attribs</td><td>Attribs</td><td>C</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Element | p. | Mod. | Required | Optional | D | Content</p>
+<table>
+  <caption>Table p. 332.78 — 10×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="adt">adt</th><th title="156">156</th><th title="ADT">ADT</th><th title="xml:id, type, style, class, theory, generated-from, generated-via">xml:id, type, style, class, theory, generated-from, generated-via</th><th title="+">+</th><th title="sortdef+">sortdef+</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>alternative</td><td>145</td><td>ST</td><td>for, entailed-by, entails, entailed-by-thm, entails-thm</td><td>xml:id, type, theory, generated-from, generated-via, uniqueness, exhaustivity, consistency, existence, style, class</td><td>+</td><td>CMP*, (FMP| requation*| (OMOBJ |m:math |legacy)*)</td></tr>
+    <tr><td>answer</td><td>210</td><td>QUIZ</td><td>verdict</td><td>xml:id, style, class</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>m:apply</td><td>115</td><td>MML</td><td>id, xlink:href</td><td>-</td><td>bvar?, 《CMel》*</td></tr>
+    <tr><td>argument</td><td>156</td><td>ADT</td><td>sort</td><td>+</td><td>selector?</td></tr>
+    <tr><td>assertion</td><td>142</td><td>ST</td><td>xml:id, type, theory, generated-from, generated-via, style, class</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>assumption</td><td>124</td><td>MTXT</td><td>xml:id, inductive, style, class</td><td>+</td><td>CMP*, (OMOBJ |m:math |legacy)?</td></tr>
+    <tr><td>attribute</td><td>191</td><td>PRES</td><td>name</td><td>-</td><td>(value-of| text)*</td></tr>
+    <tr><td>axiom</td><td>138</td><td>ST</td><td>name</td><td>xml:id, type, generated-from, generated-via, style, class</td><td>+</td><td>CMP*, FMP*</td></tr>
+    <tr><td>axiom-inclusion</td><td>180</td><td>CTH</td><td>from, to</td><td>xml:id, style, class, theory, generated-from, generated-via</td><td>+</td><td>morphism?, (path-just| obligation*)</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> adt | 156 | ADT |  | xml:id, type, style, class, theory, generated-from, generated-via | + | sortdef+</p>
+<table>
+  <caption>Table p. 332.79 — 4×6, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="m:bvar">m:bvar</th><th title="115">115</th><th title="MML">MML</th><th title="id, xlink:href">id, xlink:href</th><th title="-">-</th><th title="ci*">ci*</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>m:ci</td><td>115</td><td>MML</td><td>id, xlink:href</td><td>-</td><td>PCDATA</td></tr>
+    <tr><td>m : cn</td><td>115</td><td>MML</td><td>id, xlink:href</td><td>-</td><td>\[ \begin{aligned} &amp; ([0-9]|,| .) \\ &amp; (* \mid \mathrm{e}([0-9]|,| .) *) ? \end{aligned} \]</td></tr>
+    <tr><td>choice</td><td>210</td><td>QUIZ</td><td>xml:id, style, class</td><td>+</td><td>CMP*, FMP*</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> m:bvar | 115 | MML | id, xlink:href | - | ci*</p>
+<table>
+  <caption>Table p. 333.80 — 6×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="CMP">CMP</th><th title="122">122</th><th title="MTXT">MTXT</th><th title="xml：lang，xml：id">xml：lang，xml：id</th><th title="－">－</th><th title="（text｜OMOBJ｜m：math ｜legacy｜with｜term ｜omlet）＊">（text｜OMOBJ｜m：math ｜legacy｜with｜term ｜omlet）＊</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>code</td><td>202</td><td>EXT</td><td>xml：id， for，theory， generated－from， generated－via， requires，style， class</td><td>＋</td><td>input？，output？， effect？，data＋</td></tr>
+    <tr><td>conclusion</td><td>124</td><td>MTXT</td><td>xml：id，style， class</td><td>＋</td><td>CMP＊，（OMOBJ｜m：math ｜legacy）？</td></tr>
+    <tr><td>constructor</td><td>156</td><td>ADT</td><td>name</td><td>type，scope， style，class， theory， generated－from， generated－via</td><td>＋</td><td>argument＊，recognizer？</td></tr>
+    <tr><td>dc：contributor</td><td>98</td><td>DC</td><td>xml：id，role， style，class</td><td>－</td><td>《text》</td></tr>
+    <tr><td>dc：creator</td><td>98</td><td>DC</td><td>xml：id，role， style，class</td><td>－</td><td>《text》</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> CMP | 122 | MTXT |  | xml：lang，xml：id | － | （text｜OMOBJ｜m：math ｜legacy｜with｜term ｜omlet）＊</p>
+<table>
+  <caption>Table p. 333.81 — 11×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="m：csymbol">m：csymbol</th><th title="115">115</th><th title="MML">MML</th><th title="definitionURL">definitionURL</th><th title="id，xlink：href">id，xlink：href</th><th title="－">－</th><th title="EMPTY">EMPTY</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>data</td><td>203</td><td>EXT</td><td>format，href， size，original</td><td>－</td><td>＜！［CDATA［．．．］］＞</td></tr>
+    <tr><td>dc：date</td><td>99</td><td>DC</td><td>action，who</td><td>－</td><td>ISO 8601 norm</td></tr>
+    <tr><td>dd</td><td>130</td><td>RT</td><td>xml：id，style， class，index， verbalizes</td><td>＋</td><td>CMPcontent</td></tr>
+    <tr><td>di</td><td>130</td><td>RT</td><td>xml：id，style， class，index， verbalizes</td><td>＋</td><td>dt＋，dd＊</td></tr>
+    <tr><td>dl</td><td>130</td><td>RT</td><td>xml：id，style， class，index， verbalizes</td><td>＋</td><td>li＊</td></tr>
+    <tr><td>dt</td><td>130</td><td>RT</td><td>xml：id，style， class，index， verbalizes</td><td>＋</td><td>CMPcontent</td></tr>
+    <tr><td>decomposition</td><td>184</td><td>DG</td><td>links</td><td>theory， generated－from， generated－via</td><td>－</td><td>EMPTY</td></tr>
+    <tr><td>definition</td><td>139</td><td>ST</td><td>xml：id，for</td><td>uniqueness， existence， consistency， exhaustivity， type， generated－from， generated－via， style，class</td><td>＋</td><td>CMP＊，（FMP｜ requation＋｜OMOBJ ｜m：math｜legacy）？， measure？，ordering？</td></tr>
+    <tr><td>dc：description</td><td>99</td><td>DC</td><td>xml：lang</td><td>－</td><td>CMPcontent</td></tr>
+    <tr><td>derive</td><td>162</td><td>PF</td><td>xml：id，style， class</td><td>－</td><td>CMP＊，FMP？，method？</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> m：csymbol | 115 | MML | definitionURL | id，xlink：href | － | EMPTY</p>
+<table>
+  <caption>Table p. 333.82 — 3×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="effect">effect</th><th title="204">204</th><th title="EXT">EXT</th><th title="xml：id，style， class">xml：id，style， class</th><th title="－">－</th><th title="CMP＊，FMP＊">CMP＊，FMP＊</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>element</td><td>190</td><td>PRES</td><td>name</td><td>xml：id，cr，ns</td><td>－</td><td>（attribute｜element｜ text｜recurse）＊</td></tr>
+    <tr><td>example</td><td>146</td><td>ST</td><td>for</td><td>xml：id，type， assertion， proof，style， class，theory， generated－from， generated－via</td><td>＋</td><td>CMP＊｜（OMOBJ｜m：math ｜legacy）？</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> effect | 204 | EXT |  | xml：id，style， class | － | CMP＊，FMP＊</p>
+<table>
+  <caption>Table p. 334.83 — 3×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="exercise">exercise</th><th title="209">209</th><th title="QUIZ">QUIZ</th><th title="xml:id, type, for, from, style, class, theory, generated-from, generated-via">xml:id, type, for, from, style, class, theory, generated-from, generated-via</th><th title="+">+</th><th title="CMP*, FMP*, hint?, (solution*|mc*)">CMP*, FMP*, hint?, (solution*|mc*)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FMP</td><td>123</td><td>MTXT</td><td>logic, xml:id</td><td>-</td><td>(assumption*, conclusion*) |OMOBJ |m:math |legacy</td></tr>
+    <tr><td>dc:format</td><td>100</td><td>DC</td><td>-</td><td>fixed: &quot;application/omdoc+xml&quot;</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> exercise | 209 | QUIZ |  | xml:id, type, for, from, style, class, theory, generated-from, generated-via | + | CMP*, FMP*, hint?, (solution*|mc*)</p>
+<table>
+  <caption>Table p. 334.84 — 2×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="hint">hint</th><th title="209">209</th><th title="QUIZ">QUIZ</th><th title="xml:id, style, class, theory, generated-from, generated-via">xml:id, style, class, theory, generated-from, generated-via</th><th title="+">+</th><th title="CMP*, FMP*">CMP*, FMP*</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>hypothesis</td><td>162</td><td>PF</td><td>xml:id, style, class, inductive</td><td>-</td><td>CMP*, FMP*</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> hint | 209 | QUIZ |  | xml:id, style, class, theory, generated-from, generated-via | + | CMP*, FMP*</p>
+<table>
+  <caption>Table p. 334.85 — 10×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="dc:identifier">dc:identifier</th><th title="100">100</th><th title="DC">DC</th><th title="scheme">scheme</th><th title="-">-</th><th title="ANY">ANY</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ide</td><td>130</td><td>RT</td><td>index</td><td>xml:id,sort-by,see seealso, links, style, class</td><td>-</td><td>idp*</td></tr>
+    <tr><td>idp</td><td>130</td><td>RT</td><td>xml:id,sort-by,see seealso, links, style, class</td><td>-</td><td>CMPcontent</td></tr>
+    <tr><td>idt</td><td>130</td><td>RT</td><td>style, class</td><td>-</td><td>CMPcontent</td></tr>
+    <tr><td>idx</td><td>130</td><td>RT</td><td>xml:id,sort-by,see seealso, links, style, class</td><td>-</td><td>idt?,idp+</td></tr>
+    <tr><td>ignore</td><td>92</td><td>DOC</td><td>type, comment</td><td>-</td><td>ANY</td></tr>
+    <tr><td>imports</td><td>150</td><td>CTH</td><td>from</td><td>xml:id, type, style, class</td><td>+</td><td>morphism?</td></tr>
+    <tr><td>inclusion</td><td>179</td><td>CTH</td><td>for</td><td>xml:id</td><td>-</td></tr>
+    <tr><td>input</td><td>204</td><td>EXT</td><td>xml:id, style, class</td><td>-</td><td>CMP* , FMP*</td></tr>
+    <tr><td>insort</td><td>156</td><td>ADT</td><td>for</td><td>-</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> dc:identifier | 100 | DC |  | scheme | - | ANY</p>
+<table>
+  <caption>Table p. 334.86 — 2×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="dc:language">dc:language</th><th title="100">100</th><th title="DC">DC</th><th title="-">-</th><th title="ISO 8601 norm">ISO 8601 norm</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>li</td><td>130</td><td>RT</td><td>xml:id, style, class, index, verbalizes</td><td>-</td><td>Math Vernacular</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> dc:language | 100 | DC |  |  | - | ISO 8601 norm</p>
+<table>
+  <caption>Table p. 334.87 — 8×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="cc:license">cc:license</th><th title="102">102</th><th title="CC">CC</th><th title="jurisdiction">jurisdiction</th><th title="-">-</th><th title="permissions, prohibitions, requirements">permissions, prohibitions, requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>link</td><td>130</td><td>RT</td><td>xml:id, style, class, index, verbalizes</td><td>-</td><td>Math Vernacular</td></tr>
+    <tr><td>m:math</td><td>114</td><td>MML</td><td>id, xlink:href</td><td>-</td><td>《CMel》+</td></tr>
+    <tr><td>mc</td><td>210</td><td>QUIZ</td><td>xml:id, style, class, theory, generated-from, generated-via</td><td>-</td><td>choice, hint?, answer</td></tr>
+    <tr><td>measure</td><td>141</td><td>ST</td><td>xml:id</td><td>-</td><td>OMOBJ |m:math |legacy</td></tr>
+    <tr><td>metadata</td><td>92</td><td>DC</td><td>inherits</td><td>-</td><td>(dc-element) *</td></tr>
+    <tr><td>method</td><td>164</td><td>PF</td><td>xref</td><td>-</td><td>(OMOBJ |m:math |legacy| premise | proof | proofobject)*</td></tr>
+    <tr><td>morphism</td><td>175</td><td>CTH</td><td>xml:id, base, consistency, exhaustivity, type, hiding, style, class</td><td>-</td><td>requation*, measure?, ordering?</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> cc:license | 102 | CC |  | jurisdiction | - | permissions, prohibitions, requirements</p>
+<table>
+  <caption>Table p. 334.88 — 1×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="note">note</th><th title="131">131</th><th title="RT">RT</th><th title="type,xml:id, style, class, index, verbalizes">type,xml:id, style, class, index, verbalizes</th><th title="-">-</th><th title="Math Vernacular">Math Vernacular</th></tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<p><i>columns:</i> note | 131 | RT |  | type,xml:id, style, class, index, verbalizes | - | Math Vernacular</p>
+<table>
+  <caption>Table p. 335.89 — 23×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="obligation">obligation</th><th title="178">178</th><th title="CTH">CTH</th><th title="induced－by， assertion">induced－by， assertion</th><th title="xml：id">xml：id</th><th title="－">－</th><th title="EMPTY">EMPTY</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>om：0MA</td><td>108</td><td>OM</td><td>id，cdbase</td><td>－</td><td>《OMel》＊</td></tr>
+    <tr><td>om：OMATTR</td><td>110</td><td>OM</td><td>id，cdbase</td><td>－</td><td>《OMel》</td></tr>
+    <tr><td>om：OMATP</td><td>110</td><td>OM</td><td>cdbase</td><td>－</td><td>（OMS，（《OMel》）I om：OMFOREIGN））＋</td></tr>
+    <tr><td>om ：0MB</td><td>111</td><td>OM</td><td>id，class，style， class</td><td>－</td><td>＃PCDATA</td></tr>
+    <tr><td>om：OMBIND</td><td>109</td><td>OM</td><td>id，cdbase</td><td>－</td><td>《OMel》，om：OMBVAR，《OMel》 ？</td></tr>
+    <tr><td>om ：OMBVAR</td><td>109</td><td>OM</td><td>－</td><td>（om：OMV｜om：OMATTR）＋</td></tr>
+    <tr><td>om：OMFOREIGN</td><td>110</td><td>OM</td><td>id，cdbase</td><td>－</td><td>ANY</td></tr>
+    <tr><td>omdoc</td><td>90</td><td>DOC</td><td>xml：id，type， version， style，class， xmlns，theory， generated－from， generated－via</td><td>＋</td><td>（top－level element）＊</td></tr>
+    <tr><td>om：0ME</td><td>111</td><td>OM</td><td>xml：id</td><td>－</td><td>（《OMel》））？</td></tr>
+    <tr><td>om：0MR</td><td>112</td><td>OM</td><td>href</td><td>－</td></tr>
+    <tr><td>om ：0MF</td><td>111</td><td>OM</td><td>id，dec，hex</td><td>－</td><td>＃PCDATA</td></tr>
+    <tr><td>omgroup</td><td>93</td><td>DOC</td><td>xml：id，type， style，class， modules，theory， generated－from， generated－via</td><td>＋</td><td>top－level element＊</td></tr>
+    <tr><td>ol</td><td>130</td><td>RT</td><td>xml：id，style， class，index， verbalizes</td><td>—</td><td>li＊</td></tr>
+    <tr><td>om：0MI</td><td>111</td><td>OM</td><td>id，class，style</td><td>－</td><td>［0－9］＊</td></tr>
+    <tr><td>omlet</td><td>205</td><td>EXT</td><td>id，argstr，type， function，action， data，style， class</td><td>＋</td><td>ANY</td></tr>
+    <tr><td>om：0M0BJ</td><td>108</td><td>OM</td><td>id，cdbase， class，style</td><td>－</td><td>《（OMel）〉？</td></tr>
+    <tr><td>omstyle</td><td>188</td><td>PRES</td><td>element</td><td>for，xml：id， xref，style， class</td><td>－</td><td>（style｜xslt）＊</td></tr>
+    <tr><td>om：0MS</td><td>108</td><td>OM</td><td>cd，name</td><td>class，style</td><td>－</td><td>EMPTY</td></tr>
+    <tr><td>omtext</td><td>124</td><td>MTXT</td><td>xml：id，type， for，from， style，theory， generated－from， generated－via</td><td>＋</td><td>CMP＋，FMP？</td></tr>
+    <tr><td>om：0MV</td><td>108</td><td>OM</td><td>name</td><td>class，style</td><td>－</td><td>EMPTY</td></tr>
+    <tr><td>ordering</td><td>141</td><td>ST</td><td>xml：id</td><td>－</td><td>OMOBJ｜m：math｜legacy</td></tr>
+    <tr><td>output</td><td>204</td><td>EXT</td><td>xml：id，style， class</td><td>－</td><td>CMP＊，FMP＊</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> obligation | 178 | CTH | induced－by， assertion | xml：id | － | EMPTY</p>
+<table>
+  <caption>Table p. 335.90 — 5×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="p">p</th><th title="130">130</th><th title="RT">RT</th><th title="xml：id，style， class，index， verbalizes">xml：id，style， class，index， verbalizes</th><th title="－">－</th><th title="Math Vernacular">Math Vernacular</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>param</td><td>207</td><td>EXT</td><td>name</td><td>value，valuetype</td><td>－</td><td>EMPTY</td></tr>
+    <tr><td>path－just</td><td>184</td><td>DG</td><td>local，globals</td><td>for，xml：id</td><td>－</td><td>EMPTY</td></tr>
+    <tr><td>cc：permissions</td><td>103</td><td>CC</td><td>reproduction， distribution， derivative＿works</td><td>－</td><td>EMPTY</td></tr>
+    <tr><td>premise</td><td>164</td><td>PF</td><td>xref</td><td>－</td><td>EMPTY</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> p | 130 | RT |  | xml：id，style， class，index， verbalizes | － | Math Vernacular</p>
+<table>
+  <caption>Table p. 336.91 — 6×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="presentation">presentation</th><th title="192">192</th><th title="PRES">PRES</th><th title="for">for</th><th title="xml:id, xref, fixity, role, lbrack, rbrack, separator, bracket-style, style, class, precedence, crossref-symbol">xml:id, xref, fixity, role, lbrack, rbrack, separator, bracket-style, style, class, precedence, crossref-symbol</th><th title="-">-</th><th title="(use | xslt | style)*">(use | xslt | style)*</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>private</td><td>202</td><td>EXT</td><td>xml:id, for, theory, generated-from, generated-via, requires, reformulates, style, class</td><td>+</td><td>data+</td></tr>
+    <tr><td>cc:prohibitions</td><td>103</td><td>CC</td><td>commercial_use</td><td>-</td><td>EMPTY</td></tr>
+    <tr><td>proof</td><td>161</td><td>PF</td><td>xml:id, for,theory, generated-from, generated-via, style, class</td><td>+</td><td>(symbol | definition | omtext | derive | hypothesis)*</td></tr>
+    <tr><td>proofobject</td><td>169</td><td>PF</td><td>xml:id, for, theory, generated-from, generated-via, style, class</td><td>+</td><td>CMP*, (OMOBJ |m:math |legacy)</td></tr>
+    <tr><td>dc:publisher</td><td>99</td><td>DC</td><td>xml:id, style, class</td><td>-</td><td>ANY</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> presentation | 192 | PRES | for | xml:id, xref, fixity, role, lbrack, rbrack, separator, bracket-style, style, class, precedence, crossref-symbol | - | (use | xslt | style)*</p>
+<table>
+  <caption>Table p. 336.92 — 7×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="ref">ref</th><th title="94">94</th><th title="DOC">DOC</th><th title="xref, type">xref, type</th><th title="-">-</th><th title="ANY">ANY</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>recognizer</td><td>157</td><td>ADT</td><td>name</td><td>type, scope, role, style, class</td><td>+</td></tr>
+    <tr><td>recurse</td><td>191</td><td>PRES</td><td>select</td><td>-</td><td>EMPTY</td></tr>
+    <tr><td>dc:relation</td><td>100</td><td>DC</td><td>-</td><td>ANY</td></tr>
+    <tr><td>requation</td><td>140</td><td>ST</td><td>xml:id, style, class</td><td>—</td><td>(OMOBJ |m:math |legacy), (OMOBJ |m:math |legacy)</td></tr>
+    <tr><td>cc:requirements</td><td>103</td><td>CC</td><td>notice, copyleft, attribution</td><td>—</td><td>EMPTY</td></tr>
+    <tr><td>dc:rights</td><td>100</td><td>DC</td><td>-</td><td>ANY</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> ref | 94 | DOC |  | xref, type | - | ANY</p>
+<table>
+  <caption>Table p. 336.93 — 7×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="selector">selector</th><th title="157">157</th><th title="ADT">ADT</th><th title="name">name</th><th title="type, scope, role, total, style, class">type, scope, role, total, style, class</th><th title="+">+</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>solution</td><td>209</td><td>QUIZ</td><td>xml:id, for, style, class, theory, generated-from, generated-via</td><td>+</td><td>(CMP*, FMP*) | proof</td></tr>
+    <tr><td>sortdef</td><td>156</td><td>ADT</td><td>name</td><td>role, scope, style, class</td><td>+</td><td>(constructor|insort)*</td></tr>
+    <tr><td>dc:source</td><td>100</td><td>DC</td><td>-</td><td>ANY</td></tr>
+    <tr><td>style</td><td>189</td><td>PRES</td><td>format</td><td>xml:lang, requires</td><td>-</td><td>(element | text | recurse | value-of)*</td></tr>
+    <tr><td>dc:subject</td><td>99</td><td>DC</td><td>xml:lang</td><td>-</td><td>CMPcontent</td></tr>
+    <tr><td>symbol</td><td>136</td><td>ST</td><td>name</td><td>role, scope, style, class, generated-from, generated-via</td><td>+</td><td>type*</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> selector | 157 | ADT | name | type, scope, role, total, style, class | + | </p>
+<table>
+  <caption>Table p. 336.94 — 2×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="table">table</th><th title="130">130</th><th title="RT">RT</th><th title="xml:id, style, class, index, verbalizes">xml:id, style, class, index, verbalizes</th><th title="-">-</th><th title="tr*">tr*</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>term</td><td>128</td><td>MTXT</td><td>cd, name</td><td>xml:id, role, style, class</td><td>-</td><td>CMP content</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> table | 130 | RT |  | xml:id, style, class, index, verbalizes | - | tr*</p>
+<table>
+  <caption>Table p. 337.95 — 10×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="text">text</th><th title="190">190</th><th title="PRES">PRES</th><th title="-">-</th><th title="\#PCDATA">\#PCDATA</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>td</td><td>130</td><td>RT</td><td>xml:id, style, class, index, verbalizes</td><td>-</td><td>Math Vernacular</td></tr>
+    <tr><td>th</td><td>130</td><td>RT</td><td>xml:id, style, class, index, verbalizes</td><td>-</td><td>Math Vernacular</td></tr>
+    <tr><td>theory</td><td>149</td><td>ST</td><td>xml:id</td><td>cdbase, style, class</td><td>+</td><td>(statement/theory)*</td></tr>
+    <tr><td>theory-inclusion</td><td>178</td><td>CTH</td><td>from, to</td><td>xml:id, style, class, theory, generated-from, generated-via</td><td>+</td><td>(morphism, decomposition?)</td></tr>
+    <tr><td>tr</td><td>130</td><td>RT</td><td>xml:id, style, class, index, verbalizes</td><td>-</td><td>(td|th)*</td></tr>
+    <tr><td>dc:title</td><td>98</td><td>DC</td><td>xml:lang</td><td>-</td><td>CMPcontent</td></tr>
+    <tr><td>tgroup</td><td>149</td><td>DOC</td><td>xml:id, type, style, class, modules, generated-from, generated-via</td><td>+</td><td>top-level or theoryconstitutive element*</td></tr>
+    <tr><td>type</td><td>139</td><td>ST</td><td>system</td><td>xml:id, for, style, class</td><td>-</td><td>CMP*, (OMOBJ |m:math |legacy)</td></tr>
+    <tr><td>dc:type</td><td>100</td><td>DC</td><td>-</td><td>fixed: &quot;Dataset&quot; or &quot;Text&quot; or &quot;Collection&quot;</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> text | 190 | PRES |  |  | - | \#PCDATA</p>
+<table>
+  <caption>Table p. 337.96 — 5×7, 0 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="ul">ul</th><th title="130">130</th><th title="RT">RT</th><th title="xml:id, style, class, index, verbalizes">xml:id, style, class, index, verbalizes</th><th title="-">-</th><th title="li*">li*</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>use</td><td>194</td><td>PRES</td><td>format</td><td>xml:lang, requires, fixity, lbrack, rbrack, separator, crossref-symbol, element, attributes</td><td>-</td><td>(use | xslt | style)*</td></tr>
+    <tr><td>value-of</td><td>190</td><td>PRES</td><td>select</td><td>-</td><td>EMPTY</td></tr>
+    <tr><td>phrase</td><td>126</td><td>MTXT</td><td>xml:id, style, class, index, verbalizes, type</td><td>-</td><td>CMP content</td></tr>
+    <tr><td>xslt</td><td>189</td><td>PRES</td><td>format</td><td>xml:lang, requires</td><td>-</td><td>XSLT fragment</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> ul | 130 | RT |  | xml:id, style, class, index, verbalizes | - | li*</p>
+<table>
+  <caption>Table p. 338.97 — 33×3, 9 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="Attribute">Attribute</th><th title="element">element</th><th title="Values">Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>action</td><td>dc:date</td><td>unspecified</td></tr>
+    <tr><td colspan="2">specifies the action taken on the document on this date.</td></tr>
+    <tr><td>action</td><td>omlet</td><td>execute, display, other</td></tr>
+    <tr><td colspan="2">specifies the action to be taken when executing the omlet, the value is application-defined.</td></tr>
+    <tr><td>actuate</td><td>omlet</td><td>onPresent, onLoad, onRequest, other</td></tr>
+    <tr><td colspan="2">specifies the timing of the action specified in the action attribute</td></tr>
+    <tr><td>assertion</td><td>example</td></tr>
+    <tr><td colspan="2">specifies the assertion that states that the objects given in the example really have the expected properties.</td></tr>
+    <tr><td>assertion</td><td>obligation</td></tr>
+    <tr><td colspan="2">specifies the assertion that states that the translation of the statement in the source theory specified by the induced-by attribute is valid in the target theory.</td></tr>
+    <tr><td>attributes</td><td>use</td></tr>
+    <tr><td colspan="2">the attribute string for the start tag of the XML element substituted for the brackets (this is specified in the element attribute).</td></tr>
+    <tr><td>attribution</td><td>cc:requirements</td><td>required, not_required</td></tr>
+    <tr><td colspan="2">Specifies whether the copyright holder/author must be given credit in derivative works</td></tr>
+    <tr><td>base</td><td>morphism</td></tr>
+    <tr><td colspan="2">specifies another morphism that should be used as a base for expansion in the definition of this morphism</td></tr>
+    <tr><td>bracket-style</td><td>presentation, use</td><td>lisp, math</td></tr>
+    <tr><td>specifies whether a function application is of the form \(f(a, b)\) or ( \(f a b\) )</td></tr>
+    <tr><td>cd</td><td>om: 0MS</td></tr>
+    <tr><td>specifies the content dictionary of an OpenMath symbol</td></tr>
+    <tr><td>cd</td><td>term</td></tr>
+    <tr><td>specifies the content dictionary of a technical term</td></tr>
+    <tr><td>cdbase</td><td>om: *</td></tr>
+    <tr><td colspan="2">specifies the base URI of the content dictionaries used in an OpenMath object</td></tr>
+    <tr><td>cdreviewdate</td><td>theory</td></tr>
+    <tr><td>specifies the date until which the content dictionary will remain unchanged</td></tr>
+    <tr><td>cdrevision</td><td>theory</td></tr>
+    <tr><td>specifies the minor version number of the content dictionary</td></tr>
+    <tr><td>cdstatus</td><td>theory</td><td>official, experimental, private, obsolete</td></tr>
+    <tr><td>specifies the content dictionary status</td></tr>
+    <tr><td>cdurl</td><td>theory</td></tr>
+    <tr><td>found</td><td>the main URL, where the newest version of the content dictionary can be</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> Attribute | element | Values</p>
+<table>
+  <caption>Table p. 339.98 — 47×3, 14 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="cdversion">cdversion</th><th title="theory">theory</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2">specifies the major version number of the content dictionary</td></tr>
+    <tr><td>comment</td><td>ignore</td></tr>
+    <tr><td>specifies a reason why we want to ignore the contents</td></tr>
+    <tr><td>crossref-symbol</td><td>presentation, use</td><td>all, brackets, lbrack, no, rbrack, separator, yes</td></tr>
+    <tr><td colspan="2">specifies whether cross-references to the symbol definition should be generated in the output format.</td></tr>
+    <tr><td>class</td><td>*</td></tr>
+    <tr><td>specifies the CSS class</td></tr>
+    <tr><td>commercial_use</td><td>cc:permissions</td><td>permitted, prohibited</td></tr>
+    <tr><td colspan="2">specifies, whether commercial use of the document with this license is permitted</td></tr>
+    <tr><td>consistency</td><td>morphism, definition</td><td>OMDoc reference</td></tr>
+    <tr><td colspan="2">points to an assertion stating that the cases are consistent, i.e. that they give the same values, where they overlap</td></tr>
+    <tr><td>copyleft</td><td>cc:restrictions</td><td>required, not_required</td></tr>
+    <tr><td colspan="2">specifies whether derived works must be licensed with the same license as the current document.</td></tr>
+    <tr><td>cr</td><td>element</td><td>yes/no</td></tr>
+    <tr><td colspan="2">specifies whether an xlink:href cross-reference should be set on the result element.</td></tr>
+    <tr><td>cref</td><td>om: *</td><td>URI reference</td></tr>
+    <tr><td colspan="2">extra attribute for cross-references in parallel markup</td></tr>
+    <tr><td>crid</td><td>element</td><td>XPath expression</td></tr>
+    <tr><td colspan="2">the path to the sub-element that corresponds to the result element.</td></tr>
+    <tr><td>crossref-symbol</td><td>presentation, use</td><td>no, yes, brackets, separator, lbrack, rbrack, all</td></tr>
+    <tr><td colspan="2">specifies which generated presentation elements should carry crossreferences to the definition.</td></tr>
+    <tr><td>data</td><td>omlet</td></tr>
+    <tr><td>points to a private element that contains the data for this omlet</td></tr>
+    <tr><td>definitionURL</td><td>m: *</td><td>URI</td></tr>
+    <tr><td colspan="2">points to the definition of a mathematical concept</td></tr>
+    <tr><td>derivative_works</td><td>cc:permissions</td><td>permitted, not_permitted</td></tr>
+    <tr><td>specifies whether the document may be used for making derivative works.</td></tr>
+    <tr><td>distribution</td><td>cc:permissions</td><td>permitted, not_permitted</td></tr>
+    <tr><td colspan="2">specifies whether distribution of the current document fragment is permitted.</td></tr>
+    <tr><td>element</td><td>use</td></tr>
+    <tr><td colspan="2">the XML element tags to be substituted for the brackets.</td></tr>
+    <tr><td>element</td><td>omstyle</td></tr>
+    <tr><td colspan="2">the XML element, the presentation information contained in the omstyle element should be applied to.</td></tr>
+    <tr><td>encoding</td><td>m:annotation,om:0MF0REIGN</td><td>MIME type of the content</td></tr>
+    <tr><td>specifies the format of the content</td></tr>
+    <tr><td>entails, entailed-by</td><td>alternative</td></tr>
+    <tr><td>specifies the equivalent formulations of a definition or axiom</td></tr>
+    <tr><td>entails-thm, entailed-by-thm</td><td>alternative</td></tr>
+    <tr><td colspan="2">specifies the entailment statements for equivalent formulations of a definition or axiom</td></tr>
+    <tr><td>exhaustivity</td><td>morphism, definition</td><td>OMDoc reference</td></tr>
+    <tr><td>points to an assertion that states that the cases are exhaustive.</td></tr>
+    <tr><td>existence</td><td>definition</td><td>OMDoc reference</td></tr>
+    <tr><td>points to an assertion that states that the symbol described in an implicit</td></tr>
+    <tr><td>fixity</td><td>presentation</td><td>assoc, infix, postfix, prefix</td></tr>
+    <tr><td>specifies where the function symbol-of a function application should be</td></tr>
+    <tr><td>function</td><td>omlet</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> cdversion | theory | </p>
+<table>
+  <caption>Table p. 340.99 — 50×3, 16 spanning cell(s)</caption>
+  <thead>
+    <tr><th colspan="2" title="specifies the function to be called when this omlet is activated. data; specifies the function to be called when this omlet is activated.">specifies the function to be called when this omlet is activated.</th></tr>
+    <tr><th title="format">format</th><th title="specifies the function to be called when this omlet is activated. data">data</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2">specifies the format of the data specified by a data element. The value should e.g. be a MIME type [FB96].</td></tr>
+    <tr><td>for</td><td>*</td></tr>
+    <tr><td colspan="2">can be used to reference an element by its unique identifier given in its xml:id attribute.</td></tr>
+    <tr><td>formalism</td><td>legacy</td><td>URI reference</td></tr>
+    <tr><td>specifies the formalism in which the content is expressed</td></tr>
+    <tr><td>format</td><td>legacy</td><td>URI reference</td></tr>
+    <tr><td colspan="2">specifies the encoding format of the content</td></tr>
+    <tr><td>format</td><td>use</td><td>cmml, default, html, mathematica, pmml, TeX,...</td></tr>
+    <tr><td colspan="2">specifies the output format for which the notation is specified</td></tr>
+    <tr><td>from</td><td>imports, theory-inclusion, axiom-inclusion</td><td>URI reference</td></tr>
+    <tr><td colspan="2">pointer to source theory of a theory morphism</td></tr>
+    <tr><td>from</td><td>omtext</td><td>URI reference</td></tr>
+    <tr><td colspan="2">points to the source of a relation given by a text type</td></tr>
+    <tr><td>generated-from</td><td>top-level elements</td><td>URI reference</td></tr>
+    <tr><td colspan="2">points to a higher-level syntax element, that generates this statement.</td></tr>
+    <tr><td>generated-via</td><td>top-level elements,...</td><td>URI reference</td></tr>
+    <tr><td colspan="2">points to a theory-morphism, via which it is translated from the element pointed to by the generated-from attribute.</td></tr>
+    <tr><td>globals</td><td>path-just</td></tr>
+    <tr><td colspan="2">points to the axiom-inclusions or theory-inclusions that is the rest of the inclusion path.</td></tr>
+    <tr><td>hiding</td><td>morphism</td></tr>
+    <tr><td>specifies the names of symbols that are in the domain of the morphism</td></tr>
+    <tr><td>href</td><td>data, link, om:OMR</td><td>URI reference</td></tr>
+    <tr><td>a URI to an external file containing the data.</td></tr>
+    <tr><td>xml:id</td><td colspan="2"></td></tr>
+    <tr><td colspan="2">\begin{tabular}[t]{l} associates a unique identifier to an element, which can thus be referenced \\ associates a unique identifier to an element, which can thus be referenced by an for or xref attribute. \end{tabular}</td></tr>
+    <tr><td>xml:base</td></tr>
+    <tr><td>specifies a base URL for a resource fragment</td></tr>
+    <tr><td>index</td><td>on RT elements</td></tr>
+    <tr><td>A path identifier to establish multilingual correspondence</td></tr>
+    <tr><td>induced-by</td><td>obligation</td></tr>
+    <tr><td colspan="2">points to the statement in the source theory that induces this proof obligation</td></tr>
+    <tr><td>inductive</td><td>assumption, hypothesis</td><td>yes, no</td></tr>
+    <tr><td>Marks an assumption or hypothesis inductive.</td></tr>
+    <tr><td>inherits</td><td>metadata</td><td>URI reference</td></tr>
+    <tr><td>points to a metadata element from which this one inherits.</td></tr>
+    <tr><td>jurisdiction</td><td>cc:license</td><td>IANA Top level Domain designator</td></tr>
+    <tr><td colspan="2">specifies the country of jurisdiction for a Creative Commons license</td></tr>
+    <tr><td>just-by</td><td>type</td></tr>
+    <tr><td colspan="2">points to an assertion that states the type property in question.</td></tr>
+    <tr><td>role</td><td>symbol, constructor, recognizer, selector, sortdef</td><td>object, type, sort, binder, attribution, semantic-attribution, error</td></tr>
+    <tr><td colspan="2">specifies the role (possible syntactic roles) of the symbol in this declaration.</td></tr>
+    <tr><td>role</td><td>dc:creator,dc:contributor</td><td>MARC relators</td></tr>
+    <tr><td>specifies the role of a person who has contributed to the document</td></tr>
+    <tr><td>role</td><td>presentation</td><td>applied, binding, key</td></tr>
+    <tr><td>specifies which role of the symbol is annotated with notation information</td></tr>
+    <tr><td>lbrack</td><td>presentation, use</td></tr>
+    <tr><td>the left bracket to use in the notation of a function symbol</td></tr>
+    <tr><td>links</td><td>decomposition</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> format | specifies the function to be called when this omlet is activated. data | specifies the function to be called when this omlet is activated.</p>
+<table>
+  <caption>Table p. 341.100 — 49×3, 11 spanning cell(s)</caption>
+  <thead>
+    <tr><th colspan="2" title="specifies a list of theory- or axiom-inclusions that justify (by decomposition) the theory-inclusion specified in the for attribute. path-just; specifies a list of theory- or axiom-inclusions that justify (by decomposition) the theory-inclusion specified in the for attribute.">specifies a list of theory- or axiom-inclusions that justify (by decomposition) the theory-inclusion specified in the for attribute.</th></tr>
+    <tr><th title="local">local</th><th title="specifies a list of theory- or axiom-inclusions that justify (by decomposition) the theory-inclusion specified in the for attribute. path-just">path-just</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>points to the axiom-inclusion that is the first element in the path.</td></tr>
+    <tr><td>logic</td><td>FMP</td><td>token</td></tr>
+    <tr><td>specifies the logical system used to encode the property.</td></tr>
+    <tr><td>modules</td><td>omdoc, omgroup</td><td>module and sub-language shorthands, URI reference</td></tr>
+    <tr><td colspan="2">specifies the modules or OMDoc sub-language used in this document fragment</td></tr>
+    <tr><td>name</td><td>om:OMS, om:OMV, symbol, term</td></tr>
+    <tr><td>the name of a concept referenced by a symbol, variable, or technical term.</td></tr>
+    <tr><td>name</td><td>attribute, element</td></tr>
+    <tr><td>the local name of generated element.</td></tr>
+    <tr><td>name</td><td>param</td></tr>
+    <tr><td colspan="2">the name of a parameter for an external object.</td></tr>
+    <tr><td>notice</td><td>cc:requirements</td><td>required, not_required</td></tr>
+    <tr><td colspan="2">specifies whether copyright and license notices must be kept intact in distributed copies of this document</td></tr>
+    <tr><td>ns</td><td>element, attribute</td><td>URI</td></tr>
+    <tr><td>specifies the namespace URI of the generated element or attribute node</td></tr>
+    <tr><td>original</td><td>data</td><td>local, external</td></tr>
+    <tr><td colspan="2">specifies whether the local copy in the data element is the original or the external resource pointed to by the href attribute.</td></tr>
+    <tr><td>parameters</td><td>adt</td></tr>
+    <tr><td>The list of formal parameters of a higher-order abstract data type</td></tr>
+    <tr><td>precedence</td><td>presentation</td></tr>
+    <tr><td>the precedence of a function symbol (for elision of brackets)</td></tr>
+    <tr><td>proofs</td><td>assertion</td></tr>
+    <tr><td>specifies a list of URIs to proofs of this assertion.</td></tr>
+    <tr><td>pto, pto-version</td><td>private, code</td></tr>
+    <tr><td>specifies the system and its version this data or code is private to</td></tr>
+    <tr><td>rank</td><td>premise</td></tr>
+    <tr><td>specifies the rank (importance) of a premise</td></tr>
+    <tr><td>rbrack</td><td>presentation, use</td></tr>
+    <tr><td>the right bracket to use in the notation of a function symbol</td></tr>
+    <tr><td>reformulates</td><td>private</td></tr>
+    <tr><td colspan="2">points to a set of elements whose content is reformulated by the content of the private element for the system.</td></tr>
+    <tr><td>reproduction</td><td>cc:permissions</td><td>permitted, not_permitted</td></tr>
+    <tr><td colspan="2">specifies whether reproduction of the current document fragment is permitted by the licensor</td></tr>
+    <tr><td>requires</td><td>private, code, use, xslt, style</td><td>URI reference</td></tr>
+    <tr><td colspan="2">points to a code element that is needed for the execution of this data by the system.</td></tr>
+    <tr><td>role</td><td>dc:creator, dc:collaborator</td><td>aft, ant, aqt, aui, aut, clb, edt, ths, trc, trl</td></tr>
+    <tr><td colspan="2">the MARC relator code for the contribution of the individual.</td></tr>
+    <tr><td>role</td><td>phrase, term</td></tr>
+    <tr><td>the role of the phrase annotation</td></tr>
+    <tr><td>role</td><td>presentation</td><td>applied, binding, key</td></tr>
+    <tr><td colspan="2">specifies for which role (as the head of a function application, as a binding symbol, or as a key in a attribution, or as a stand-alone symbol (the default)) of the symbol presentation is intended</td></tr>
+    <tr><td>scheme</td><td>dc:identifier</td><td>scheme name</td></tr>
+    <tr><td>specifies the identification scheme (e.g. ISBN) of a resource</td></tr>
+    <tr><td>scope</td><td>symbol</td><td>global, local</td></tr>
+    <tr><td colspan="2">\begin{tabular}[t]{l} specifies the visibility of the symbol declared. This is a very crude specifi- \\ specifies the visibility of the symbol declared. This is a very crude specification, it is better to use theories and importing to specify symbol accessibility. \end{tabular}</td></tr>
+    <tr><td>select</td><td>map, recurse, value-of</td><td>XPath expression</td></tr>
+    <tr><td>specifies the path to the sub-expression to act on</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> local | specifies a list of theory- or axiom-inclusions that justify (by decomposition) the theory-inclusion specified in the for attribute. path-just | specifies a list of theory- or axiom-inclusions that justify (by decomposition) the theory-inclusion specified in the for attribute.</p>
+<table>
+  <caption>Table p. 342.101 — 45×3, 13 spanning cell(s)</caption>
+  <thead>
+    <tr><th title="separator">separator</th><th title="presentation, use">presentation, use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="2">the separator for the arguments to use in the notation of a function symbol</td></tr>
+    <tr><td>show</td><td>omlet</td><td>new, replace, embed, other</td></tr>
+    <tr><td>specifies the desired presentation of the external object.</td></tr>
+    <tr><td>size</td><td>data</td></tr>
+    <tr><td colspan="2">specifies the size the data specified by a data element. The value should be number of kilobytes</td></tr>
+    <tr><td>sort</td><td>argument</td></tr>
+    <tr><td>specifies the argument sort of the constructor</td></tr>
+    <tr><td>style</td><td>*</td></tr>
+    <tr><td colspan="2">specifies a token for a presentation style to be picked up in a presentation element.</td></tr>
+    <tr><td>system</td><td>type</td></tr>
+    <tr><td colspan="2">A token that specifies the logical type system that governs the type specified in the type element.</td></tr>
+    <tr><td>theory</td><td>*</td></tr>
+    <tr><td>specifies the home theory of an OMDoc statement.</td></tr>
+    <tr><td>to</td><td>theory-inclusion, axiom-inclusion</td></tr>
+    <tr><td colspan="2">specifies the target theory</td></tr>
+    <tr><td>total</td><td>selector</td><td>no, yes</td></tr>
+    <tr><td colspan="2">specifies whether the symbol declared here is a total or partial function.</td></tr>
+    <tr><td>type</td><td>adt</td><td>free, generated, loose</td></tr>
+    <tr><td colspan="2">defines the semantics of an abstract data type free = no junk, no confusion, generated = no junk, loose is the general case.</td></tr>
+    <tr><td>type</td><td>assertion</td><td>theorem, lemma, corollary, conjecture, false-conjecture, obligation, postulate, formula, assumption, proposition</td></tr>
+    <tr><td colspan="2">tells you more about the intention of the assertion</td></tr>
+    <tr><td>type</td><td>definition</td><td>implicit, inductive, obj, recursive, simple</td></tr>
+    <tr><td colspan="2">specifies the definition principle</td></tr>
+    <tr><td>type</td><td>derive</td><td>conclusion, gap</td></tr>
+    <tr><td colspan="2">singles out special proof steps: conclusions and gaps (unjustified proof steps)</td></tr>
+    <tr><td>type</td><td>example</td><td>against, for</td></tr>
+    <tr><td colspan="2">specifies whether the objects in this example support or falsify some conjecture</td></tr>
+    <tr><td>type</td><td>ignore</td></tr>
+    <tr><td>specifies the type of error, if ignore is used for in-place error markup</td></tr>
+    <tr><td>type</td><td>imports</td><td>global, local</td></tr>
+    <tr><td colspan="2">local imports only concern the assumptions directly stated in the theory. global imports also concern the ones the source theory inherits.</td></tr>
+    <tr><td>type</td><td>morphism</td></tr>
+    <tr><td>specifies whether the morphism is recursive or merely pattern-defined</td></tr>
+    <tr><td>type</td><td>omgroup, omdoc</td><td>enumeration, sequence, itemize</td></tr>
+    <tr><td colspan="2">the first three give the text category, the second three are used for generalized tables</td></tr>
+    <tr><td>type</td><td>omtext</td><td>abstract, antithesis, comment, conclusion, elaboration, evidence, introduction, motivation, thesis</td></tr>
+    <tr><td>a specification of the intention of the text fragment, in reference to context.</td></tr>
+    <tr><td>type</td><td>phrase</td></tr>
+    <tr><td>the linguistic or mathematical type of the phrase</td></tr>
+    <tr><td>type</td><td>ref</td><td>include, cite</td></tr>
+    <tr><td>specifies whether to replace the ref element by the fragment referenced</td></tr>
+    <tr><td>uniqueness</td><td>definition</td><td>URI reference</td></tr>
+    <tr><td>points to an assertion that states the uniqueness of the concept described</td></tr>
+    <tr><td>value</td><td>param</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> separator | presentation, use | </p>
+<table>
+  <caption>Table p. 343.102 — 25×3, 11 spanning cell(s)</caption>
+  <thead>
+    <tr><th colspan="2" title="specifies the value of the parameter param; specifies the value of the parameter">specifies the value of the parameter</th></tr>
+    <tr><th title="valuetype">valuetype</th><th title="specifies the value of the parameter param">param</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>specifies the type of the value of the parameter</td></tr>
+    <tr><td>verbalizes</td><td>on RT elements</td><td>URI references</td></tr>
+    <tr><td colspan="2">contains a whitespace-separated list of pointers to OMDoc elements that are verbalized</td></tr>
+    <tr><td>verdict</td><td>answer</td></tr>
+    <tr><td colspan="2">specifies the truth or falsity of the answer. This can be used e.g. by a grading application.</td></tr>
+    <tr><td>version</td><td>omdoc</td><td>1.2</td></tr>
+    <tr><td colspan="2">specifies the version of the document, so that the right DTD is used</td></tr>
+    <tr><td>version</td><td>cc:license</td></tr>
+    <tr><td colspan="2">specifies the version of the Creative Commons license that applies, if not present, the newest one is assumed</td></tr>
+    <tr><td>via</td><td>inclusion</td></tr>
+    <tr><td>points to a theory-inclusion that is required for an actualization</td></tr>
+    <tr><td>who</td><td>dc:date</td></tr>
+    <tr><td colspan="2">specifies who acted on the document fragment</td></tr>
+    <tr><td>xml:lang</td><td>CMP, dc:*</td><td>ISO 639 code</td></tr>
+    <tr><td colspan="2">the language the text in the element is expressed in.</td></tr>
+    <tr><td>xml:lang</td><td>use, xslt, style</td><td>whitespace-separated list of ISO 639 codes</td></tr>
+    <tr><td colspan="2">specifies for which language the notation is meant</td></tr>
+    <tr><td>xlink:*</td><td>om:OMR, m:*</td><td>URI reference</td></tr>
+    <tr><td colspan="2">specify the link behavior on the elements</td></tr>
+    <tr><td>xref</td><td>ref, method, premise</td><td>URI reference</td></tr>
+    <tr><td colspan="2">Identifies the resource in question</td></tr>
+    <tr><td>xref</td><td>presentation, omstyle</td><td>URI reference</td></tr>
+    <tr><td colspan="2">The element, this URI points to should be in the place of the object containing this attribute.</td></tr>
+  </tbody>
+</table>
+<p><i>columns:</i> valuetype | specifies the value of the parameter param | specifies the value of the parameter</p>
+</body></html>

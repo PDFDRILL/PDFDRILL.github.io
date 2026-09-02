@@ -1,65 +1,62 @@
 {
- "out": "/home/wkolbe/pdfdrill-library/1605.05775/report.pdf",
- "written": {},
  "rows": [
   {
+   "id": "1605.05775_EQ0014",
    "report_page": 1,
    "line": 1,
    "L": [
     73,
-    23,
-    23,
-    8,
-    15
+    11,
+    22,
+    4,
+    18
    ],
    "R": [
     74,
-    33,
-    23,
-    7,
+    18,
+    24,
+    8,
     16
    ],
-   "distance": 13,
+   "distance": 16,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
-   "code": "W|+1",
-   "id": "1605.05775_EQ0014",
-   "src_page": "007",
-   "field": "ink.1605.05775_EQ0014"
+   "rendered": true,
+   "code": "W|+1"
   },
   {
+   "id": "1605.05775_EQ0026",
    "report_page": 1,
    "line": 2,
    "L": [
-    58,
+    59,
     6,
-    14,
-    5,
-    9
-   ],
-   "R": [
-    58,
-    11,
     13,
     6,
     7
    ],
-   "distance": 9,
+   "R": [
+    59,
+    7,
+    12,
+    6,
+    6
+   ],
+   "distance": 3,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "weak",
-   "code": "W|+0",
-   "id": "1605.05775_EQ0026",
-   "src_page": "010",
-   "field": "ink.1605.05775_EQ0026"
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0013",
    "report_page": 1,
    "line": 3,
    "L": [
     23,
-    7,
+    9,
     10,
     10,
     0
@@ -71,125 +68,120 @@
     10,
     0
    ],
-   "distance": 0,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "clean",
-   "code": "K|+0",
-   "id": "1605.05775_EQ0013",
-   "src_page": "007",
-   "field": "ink.1605.05775_EQ0013"
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0025",
    "report_page": 1,
    "line": 4,
    "L": [
     72,
-    22,
-    15,
+    19,
+    16,
     7,
     8
    ],
    "R": [
     72,
-    21,
-    17,
+    19,
+    16,
     7,
-    10
+    9
    ],
-   "distance": 5,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0025",
-   "src_page": "010",
-   "field": "ink.1605.05775_EQ0025"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0005",
    "report_page": 1,
    "line": 5,
    "L": [
     57,
-    16,
-    16,
-    4,
-    12
+    13,
+    13,
+    3,
+    10
    ],
    "R": [
     57,
-    20,
-    15,
-    6,
-    9
+    14,
+    16,
+    5,
+    11
    ],
-   "distance": 10,
+   "distance": 7,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "weak",
-   "code": "W|+0",
-   "id": "1605.05775_EQ0005",
-   "src_page": "003",
-   "field": "ink.1605.05775_EQ0005"
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0008",
    "report_page": 1,
    "line": 6,
    "L": [
-    76,
-    35,
-    44,
-    14,
-    25
+    79,
+    26,
+    47,
+    16,
+    23
    ],
    "R": [
-    80,
-    36,
-    41,
-    14,
+    81,
+    30,
+    45,
+    15,
     25
    ],
-   "distance": 8,
-   "comp_delta": 4,
-   "signed_delta": 4,
-   "flag": "component",
-   "code": "C|+4",
-   "id": "1605.05775_EQ0008",
-   "src_page": "004",
-   "field": "ink.1605.05775_EQ0008"
+   "distance": 11,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
+   "rendered": true,
+   "code": "W|+2"
   },
   {
+   "id": "1605.05775_EQ0009",
    "report_page": 2,
    "line": 1,
    "L": [
     66,
-    15,
-    27,
-    2,
-    25
+    14,
+    25,
+    1,
+    24
    ],
    "R": [
     67,
-    20,
-    27,
+    17,
+    26,
     1,
-    26
+    25
    ],
-   "distance": 8,
+   "distance": 6,
    "comp_delta": 1,
    "signed_delta": 1,
-   "flag": "weak",
-   "code": "W|+1",
-   "id": "1605.05775_EQ0009",
-   "src_page": "004",
-   "field": "ink.1605.05775_EQ0009"
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+1"
   },
   {
+   "id": "1605.05775_EQ0001",
    "report_page": 2,
    "line": 2,
    "L": [
     13,
-    7,
+    2,
     1,
     1,
     0
@@ -197,84 +189,6 @@
    "R": [
     13,
     2,
-    1,
-    1,
-    0
-   ],
-   "distance": 5,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0001",
-   "src_page": "001",
-   "field": "ink.1605.05775_EQ0001"
-  },
-  {
-   "report_page": 2,
-   "line": 3,
-   "L": [
-    42,
-    17,
-    1,
-    1,
-    0
-   ],
-   "R": [
-    42,
-    26,
-    1,
-    1,
-    0
-   ],
-   "distance": 9,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "code": "W|+0",
-   "id": "1605.05775_EQ0002",
-   "src_page": "002",
-   "field": "ink.1605.05775_EQ0002"
-  },
-  {
-   "report_page": 2,
-   "line": 4,
-   "L": [
-    37,
-    3,
-    10,
-    6,
-    4
-   ],
-   "R": [
-    37,
-    5,
-    10,
-    6,
-    4
-   ],
-   "distance": 2,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0003",
-   "src_page": "002",
-   "field": "ink.1605.05775_EQ0003"
-  },
-  {
-   "report_page": 2,
-   "line": 5,
-   "L": [
-    14,
-    6,
-    1,
-    1,
-    0
-   ],
-   "R": [
-    14,
-    6,
     1,
     1,
     0
@@ -283,154 +197,223 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "clean",
-   "code": "K|+0",
-   "id": "1605.05775_EQ0004",
-   "src_page": "002",
-   "field": "ink.1605.05775_EQ0004"
+   "rendered": true,
+   "code": "K|+0"
   },
   {
+   "id": "1605.05775_EQ0002",
    "report_page": 2,
-   "line": 6,
+   "line": 3,
    "L": [
-    28,
-    7,
-    11,
-    6,
-    5
+    42,
+    19,
+    1,
+    1,
+    0
    ],
    "R": [
-    29,
-    6,
-    11,
-    6,
-    5
+    43,
+    18,
+    1,
+    1,
+    0
    ],
    "distance": 2,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "noise",
-   "code": "N|+1",
-   "id": "1605.05775_EQ0006",
-   "src_page": "003",
-   "field": "ink.1605.05775_EQ0006"
+   "rendered": true,
+   "code": "N|+1"
   },
   {
+   "id": "1605.05775_EQ0003",
+   "report_page": 2,
+   "line": 4,
+   "L": [
+    37,
+    4,
+    10,
+    6,
+    4
+   ],
+   "R": [
+    37,
+    5,
+    9,
+    6,
+    3
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
+  },
+  {
+   "id": "1605.05775_EQ0004",
+   "report_page": 2,
+   "line": 5,
+   "L": [
+    14,
+    4,
+    1,
+    1,
+    0
+   ],
+   "R": [
+    14,
+    6,
+    1,
+    1,
+    0
+   ],
+   "distance": 2,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
+  },
+  {
+   "id": "1605.05775_EQ0006",
+   "report_page": 2,
+   "line": 6,
+   "L": [
+    29,
+    4,
+    12,
+    6,
+    5
+   ],
+   "R": [
+    29,
+    5,
+    12,
+    7,
+    4
+   ],
+   "distance": 3,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
+  },
+  {
+   "id": "1605.05775_EQ0007",
    "report_page": 2,
    "line": 7,
    "L": [
-    71,
-    17,
+    72,
+    13,
     25,
-    4,
-    21
+    3,
+    22
    ],
    "R": [
     72,
-    28,
-    29,
-    4,
-    25
+    17,
+    26,
+    3,
+    23
    ],
-   "distance": 20,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "weak",
-   "code": "W|+1",
-   "id": "1605.05775_EQ0007",
-   "src_page": "004",
-   "field": "ink.1605.05775_EQ0007"
+   "distance": 6,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0010",
    "report_page": 2,
    "line": 8,
    "L": [
+    25,
+    12,
+    1,
+    1,
+    0
+   ],
+   "R": [
     25,
     11,
     1,
     1,
     0
    ],
-   "R": [
-    25,
-    15,
-    1,
-    1,
-    0
-   ],
-   "distance": 4,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0010",
-   "src_page": "005",
-   "field": "ink.1605.05775_EQ0010"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0011",
    "report_page": 2,
    "line": 9,
    "L": [
     47,
-    18,
+    17,
     4,
     2,
     2
    ],
    "R": [
     47,
-    25,
+    19,
     4,
     2,
     2
    ],
-   "distance": 7,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0011",
-   "src_page": "007",
-   "field": "ink.1605.05775_EQ0011"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0012",
    "report_page": 2,
    "line": 10,
    "L": [
-    26,
-    14,
-    0,
-    0,
-    0
-   ],
-   "R": [
     26,
     17,
     0,
     0,
     0
    ],
-   "distance": 3,
+   "R": [
+    26,
+    16,
+    0,
+    0,
+    0
+   ],
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0012",
-   "src_page": "007",
-   "field": "ink.1605.05775_EQ0012"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0015",
    "report_page": 2,
    "line": 11,
    "L": [
     20,
-    6,
+    3,
     2,
     2,
     0
    ],
    "R": [
     20,
-    3,
+    6,
     2,
     2,
     0
@@ -439,116 +422,111 @@
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0015",
-   "src_page": "008",
-   "field": "ink.1605.05775_EQ0015"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0016",
    "report_page": 2,
    "line": 12,
    "L": [
     42,
-    4,
+    3,
     6,
     3,
     3
    ],
    "R": [
     42,
-    12,
+    9,
     6,
     3,
     3
    ],
-   "distance": 8,
+   "distance": 6,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "weak",
-   "code": "W|+0",
-   "id": "1605.05775_EQ0016",
-   "src_page": "008",
-   "field": "ink.1605.05775_EQ0016"
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0017",
    "report_page": 2,
    "line": 13,
    "L": [
     25,
     8,
     2,
-    2,
-    0
+    1,
+    1
    ],
    "R": [
     26,
-    12,
-    2,
-    2,
-    0
-   ],
-   "distance": 5,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "noise",
-   "code": "N|+1",
-   "id": "1605.05775_EQ0017",
-   "src_page": "008",
-   "field": "ink.1605.05775_EQ0017"
-  },
-  {
-   "report_page": 2,
-   "line": 14,
-   "L": [
-    13,
-    2,
-    2,
-    2,
-    0
-   ],
-   "R": [
-    13,
-    5,
+    8,
     2,
     2,
     0
    ],
    "distance": 3,
-   "comp_delta": 0,
-   "signed_delta": 0,
+   "comp_delta": 1,
+   "signed_delta": 1,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0018",
-   "src_page": "008",
-   "field": "ink.1605.05775_EQ0018"
+   "rendered": true,
+   "code": "N|+1"
   },
   {
+   "id": "1605.05775_EQ0018",
    "report_page": 2,
-   "line": 15,
+   "line": 14,
    "L": [
-    25,
+    13,
     3,
     2,
     2,
     0
    ],
    "R": [
-    25,
-    6,
+    13,
+    3,
     2,
     2,
     0
    ],
-   "distance": 3,
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "rendered": true,
+   "code": "K|+0"
+  },
+  {
+   "id": "1605.05775_EQ0019",
+   "report_page": 2,
+   "line": 15,
+   "L": [
+    25,
+    4,
+    2,
+    2,
+    0
+   ],
+   "R": [
+    25,
+    3,
+    2,
+    2,
+    0
+   ],
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0019",
-   "src_page": "008",
-   "field": "ink.1605.05775_EQ0019"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0020",
    "report_page": 3,
    "line": 1,
    "L": [
@@ -560,104 +538,100 @@
    ],
    "R": [
     50,
-    5,
-    8,
+    7,
+    10,
     6,
     2
    ],
-   "distance": 1,
+   "distance": 3,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0020",
-   "src_page": "008",
-   "field": "ink.1605.05775_EQ0020"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0021",
    "report_page": 3,
    "line": 2,
    "L": [
     23,
-    6,
-    7,
+    2,
+    8,
     4,
     3
    ],
    "R": [
     24,
-    5,
+    4,
     7,
     4,
     3
    ],
-   "distance": 2,
+   "distance": 4,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "noise",
-   "code": "N|+1",
-   "id": "1605.05775_EQ0021",
-   "src_page": "009",
-   "field": "ink.1605.05775_EQ0021"
+   "rendered": true,
+   "code": "N|+1"
   },
   {
+   "id": "1605.05775_EQ0022",
    "report_page": 3,
    "line": 3,
    "L": [
     33,
-    13,
+    10,
     18,
     5,
     8
    ],
    "R": [
     34,
-    13,
+    11,
     18,
     5,
     8
    ],
-   "distance": 1,
+   "distance": 2,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "noise",
-   "code": "N|+1",
-   "id": "1605.05775_EQ0022",
-   "src_page": "009",
-   "field": "ink.1605.05775_EQ0022"
+   "rendered": true,
+   "code": "N|+1"
   },
   {
+   "id": "1605.05775_EQ0023",
    "report_page": 3,
    "line": 4,
    "L": [
+    38,
+    4,
+    10,
+    6,
+    4
+   ],
+   "R": [
     38,
     3,
     10,
     6,
     4
    ],
-   "R": [
-    38,
-    4,
-    10,
-    6,
-    4
-   ],
    "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0023",
-   "src_page": "010",
-   "field": "ink.1605.05775_EQ0023"
+   "rendered": true,
+   "code": "N|+0"
   },
   {
+   "id": "1605.05775_EQ0024",
    "report_page": 3,
    "line": 5,
    "L": [
     29,
-    7,
+    6,
     4,
     2,
     2
@@ -669,14 +643,34 @@
     2,
     2
    ],
-   "distance": 1,
+   "distance": 0,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
-   "code": "N|+0",
-   "id": "1605.05775_EQ0024",
-   "src_page": "010",
-   "field": "ink.1605.05775_EQ0024"
+   "flag": "clean",
+   "rendered": true,
+   "code": "K|+0"
   }
- ]
+ ],
+ "footers_dropped": 0,
+ "display_pages": 0,
+ "source": "report.compare.tsv",
+ "measured_against": {
+  "pdf": "report.pdf",
+  "pages": 7,
+  "bytes": 858798,
+  "sha256": "1c8b236f5817ae4deffb509d30d6eed9ba2be8c06f8bca15ec40f722d984175d",
+  "mtime": 1788271751,
+  "built_at": "2026-09-01T14:09:11Z",
+  "commit": "c0a5bcdae0b6",
+  "legend": false,
+  "ink_adopted": false,
+  "prefer_refined": false,
+  "filters": {},
+  "glyphs_dropped": 0,
+  "phase": "measure",
+  "formula_rule": "none",
+  "model_sha256": "cf832125bc9abad0b38a9ad165077af821906f46dfdaaddaff406fe34ac9a3fe",
+  "model_bytes": 2987635,
+  "model_mtime": 1787595006
+ }
 }

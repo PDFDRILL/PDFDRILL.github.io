@@ -1,0 +1,19 @@
+{
+ "pdf": "report.pdf",
+ "pages": 8,
+ "bytes": 1549096,
+ "sha256": "0352c461c63130a9461721948916277d748f088988479b1d1c57db9b50235190",
+ "mtime": 1788271993,
+ "built_at": "2026-09-01T14:13:13Z",
+ "commit": "c0a5bcdae0b6",
+ "legend": true,
+ "ink_adopted": true,
+ "prefer_refined": false,
+ "filters": {},
+ "glyphs_dropped": 0,
+ "phase": "reading",
+ "formula_rule": "none",
+ "model_sha256": "5754200d69ac8a9b840f22d875cbd4ac1b0b88b44fd4e05eecea6741164c74a2",
+ "model_bytes": 4263037,
+ "model_mtime": 1787595090
+}
