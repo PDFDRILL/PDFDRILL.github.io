@@ -144,10 +144,22 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
 <div class="head">
   <div class="wrap">
     <p class="eyebrow">formula reports</p>
-    <h1>Every equation, and the<br>image it was read from.</h1>
-    <p class="lede">Per-equation QC of PDF&rarr;LaTeX OCR. Every row carries the MathPix
-    source, the rendered LaTeX, and the crop it was read from. One report so far adds an
-    <em>independent</em> residual measured between the last two.</p>
+    <h1>What went wrong, and<br>what was done about it.</h1>
+    <p class="lede">Per-equation QC of PDF&rarr;LaTeX OCR. <strong>report.pdf now carries
+    findings, not a catalogue</strong>: a row appears only when there is something to say
+    about it &mdash; <b>corrected</b> (the accepted change, both readings against one scan),
+    <b>unresolved</b> (does not render, or two records of a refinement disagree),
+    <b>flagged</b> (an independent ink measurement differs from the reading), and
+    <b>doubted but correct</b> (MathPix was unsure and the ink agrees anyway). A document
+    with nothing in any section is one page saying so. Across 20 documents that is
+    <strong>83 pages where the full listings were 1,230</strong>.</p>
+    <p class="lede" style="margin-top:14px">Every equation is still published, in
+    <code>formula-report.html</code> and <code>tables.html</code>, which is where the
+    catalogue belongs. The <b>flag</b> column reads <em>shown/total</em>: the flagged
+    section lists the rows whose component delta is 20 or more and states the rest as a
+    count, because 543 rows is a wall and 37 is a morning's work. A high-confidence flag is
+    evidence of a rendering difference, not of a defect &mdash; twenty sampled from that
+    band held eighteen purely typographic differences and no content errors.</p>
   </div>
 </div>
 
@@ -155,12 +167,13 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
   <div class="wrap">
     <div class="tbl-wrap">
       <table>
-        <tr><th>Document</th><th>Source</th><th class="n">Pages</th><th class="n">Equations</th><th>Residual</th><th class="n">Measured</th><th class="n">Size</th><th>Files</th></tr>
+        <tr><th>Document</th><th>Source</th><th class="n">Pages</th><th class="n">Equations</th><th>Findings</th><th>Residual</th><th class="n">Measured</th><th class="n">Size</th><th>Files</th></tr>
         <tr>
           <td><code class="doc">0902.0431</code><div class="ttl">Exceptional Lie groups<span class="au"> · Ichiro Yokota</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/0902.0431" target="_blank" rel="noopener">arXiv</a></td>
           <td class="n">—</td>
           <td class="n">57 <span class="of">of 1,219</span></td>
+          <td class="res"><div class="cts" style="color:#787878">not rebuilt</div></td>
           <td class="res"><span class="rd">not measured</span><div class="cts nm">lattice under-detects &mdash; withdrawn</div></td>
           <td class="n">—</td>
           <td class="n">3.5 MB</td>
@@ -169,61 +182,67 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
         <tr>
           <td><code class="doc">1605.05775</code><div class="ttl">Supervised Learning With Quantum-Inspired Tensor Networks<span class="au"> · Stoudenmire &amp; Schwab</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/1605.05775" target="_blank" rel="noopener">arXiv</a></td>
-          <td class="n">7</td>
+          <td class="n">2</td>
           <td class="n">26</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/2</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:7.692%;background:#e69614"></i><i style="width:80.77%;background:#787878"></i><i style="width:11.54%;background:#28a028"></i></div><div class="cts"><b style="color:#e69614">W</b>2 <b style="color:#787878">N</b>21 <b style="color:#28a028">K</b>3</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">0.9 MB</td>
+          <td class="n">0.04 MB</td>
           <td><a href="1605.05775/report.pdf">report.pdf</a> &middot; <a href="1605.05775/1605.05775.md">markdown</a> &middot; <a href="1605.05775/inspect.html">inspect</a> &middot; <a href="1605.05775/formula-report.html">formulas</a> &middot; <a href="1605.05775/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">1510.06699</code><div class="ttl">arXiv 1510.06699</div></td>
           <td class="src"><a href="https://arxiv.org/abs/1510.06699" target="_blank" rel="noopener">arXiv</a></td>
-          <td class="n">40</td>
+          <td class="n">3</td>
           <td class="n">279</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>1<span style="color:#787878">/68</span> <b style="color:#5c96c8">dbt</b>1</div></td>
           <td class="res"><div class="bar"><i style="width:11.83%;background:#dc1e1e"></i><i style="width:12.54%;background:#e69614"></i><i style="width:0.7168%;background:#5c96c8"></i><i style="width:56.27%;background:#787878"></i><i style="width:18.64%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>33 <b style="color:#e69614">W</b>35 <b style="color:#5c96c8">S</b>2 <b style="color:#787878">N</b>157 <b style="color:#28a028">K</b>52</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">5.0 MB</td>
+          <td class="n">0.12 MB</td>
           <td><a href="1510.06699/report.pdf">report.pdf</a> &middot; <a href="1510.06699/1510.06699.md">markdown</a> &middot; <a href="1510.06699/inspect.html">inspect</a> &middot; <a href="1510.06699/formula-report.html">formulas</a> &middot; <a href="1510.06699/tables.html">tables</a> &middot; <a href="1510.06699/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">2106.07890</code><div class="ttl">An Enriched Category Theory of Language: From Syntax to Semantics<span class="au"> · Bradley, Terilla &amp; Vlassopoulos</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/2106.07890" target="_blank" rel="noopener">arXiv</a></td>
-          <td class="n">7</td>
+          <td class="n">2</td>
           <td class="n">51</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/14</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:5.882%;background:#dc1e1e"></i><i style="width:21.57%;background:#e69614"></i><i style="width:68.63%;background:#787878"></i><i style="width:3.922%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>3 <b style="color:#e69614">W</b>11 <b style="color:#787878">N</b>35 <b style="color:#28a028">K</b>2</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">1.2 MB</td>
+          <td class="n">0.04 MB</td>
           <td><a href="2106.07890/report.pdf">report.pdf</a> &middot; <a href="2106.07890/2106.07890.md">markdown</a> &middot; <a href="2106.07890/inspect.html">inspect</a> &middot; <a href="2106.07890/formula-report.html">formulas</a> &middot; <a href="2106.07890/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">2501.06662</code><div class="ttl">The Magnitude of Categories of Texts Enriched by Language Models<span class="au"> · Bradley &amp; Vigneaux</span></div></td>
           <td class="src"><a href="https://arxiv.org/abs/2501.06662" target="_blank" rel="noopener">arXiv</a></td>
-          <td class="n">8</td>
+          <td class="n">2</td>
           <td class="n">60</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>1<span style="color:#787878">/14</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:10%;background:#dc1e1e"></i><i style="width:13.33%;background:#e69614"></i><i style="width:70%;background:#787878"></i><i style="width:6.667%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>6 <b style="color:#e69614">W</b>8 <b style="color:#787878">N</b>42 <b style="color:#28a028">K</b>4</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">1.5 MB</td>
+          <td class="n">0.09 MB</td>
           <td><a href="2501.06662/report.pdf">report.pdf</a> &middot; <a href="2501.06662/2501.06662.md">markdown</a> &middot; <a href="2501.06662/inspect.html">inspect</a> &middot; <a href="2501.06662/formula-report.html">formulas</a> &middot; <a href="2501.06662/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">BradleyGastaldiTerilla2023</code><div class="ttl">The Structure of Meaning in Language: Parallel Narratives in Linear Algebra and Category Theory<span class="au"> · Bradley, Gastaldi &amp; Terilla</span></div></td>
           <td class="src"><a href="https://doi.org/10.1090/noti2868" target="_blank" rel="noopener">Notices AMS 71(2), Feb 2024</a></td>
-          <td class="n">6</td>
+          <td class="n">2</td>
           <td class="n">8</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/3</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:37.5%;background:#e69614"></i><i style="width:50%;background:#787878"></i><i style="width:12.5%;background:#28a028"></i></div><div class="cts"><b style="color:#e69614">W</b>3 <b style="color:#787878">N</b>4 <b style="color:#28a028">K</b>1</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">1.0 MB</td>
+          <td class="n">0.04 MB</td>
           <td><a href="BradleyGastaldiTerilla2023/report.pdf">report.pdf</a> &middot; <a href="BradleyGastaldiTerilla2023/BradleyGastaldiTerilla2023.md">markdown</a> &middot; <a href="BradleyGastaldiTerilla2023/inspect.html">inspect</a> &middot; <a href="BradleyGastaldiTerilla2023/formula-report.html">formulas</a> &middot; <a href="BradleyGastaldiTerilla2023/tables.html">tables</a> &middot; <a href="BradleyGastaldiTerilla2023/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">bradley_spring22</code><div class="ttl">A New Perspective of Entropy<span class="au"> · Tai-Danae Bradley</span></div></td>
           <td class="src">J. Math3ma Inst.</td>
-          <td class="n">4</td>
+          <td class="n">2</td>
           <td class="n">16</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/3</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:18.75%;background:#e69614"></i><i style="width:62.5%;background:#787878"></i><i style="width:18.75%;background:#28a028"></i></div><div class="cts"><b style="color:#e69614">W</b>3 <b style="color:#787878">N</b>10 <b style="color:#28a028">K</b>3</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">0.5 MB</td>
+          <td class="n">0.04 MB</td>
           <td><a href="bradley_spring22/report.pdf">report.pdf</a> &middot; <a href="bradley_spring22/bradley_spring22.md">markdown</a> &middot; <a href="bradley_spring22/inspect.html">inspect</a> &middot; <a href="bradley_spring22/formula-report.html">formulas</a> &middot; <a href="bradley_spring22/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
@@ -231,6 +250,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
           <td class="src">Compositionality</td>
           <td class="n">—</td>
           <td class="n">46</td>
+          <td class="res"><div class="cts" style="color:#787878">not rebuilt</div></td>
           <td class="res"><div class="bar"><i style="width:10.87%;background:#dc1e1e"></i><i style="width:39.13%;background:#e69614"></i><i style="width:45.65%;background:#787878"></i><i style="width:4.348%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>5 <b style="color:#e69614">W</b>18 <b style="color:#787878">N</b>21 <b style="color:#28a028">K</b>2</div></td>
           <td class="n">—</td>
           <td class="n">1.1 MB</td>
@@ -239,141 +259,155 @@ footer .row{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
         <tr>
           <td><code class="doc">penev_A</code><div class="ttl">Local Feature Analysis: A Statistical Theory for Information Representation and Transmission<span class="au"> &middot; Penio S. Penev &middot; scanned inkjet print</span></div></td>
           <td class="src">PhD thesis, Rockefeller Univ., May 1998</td>
-          <td class="n">15</td>
+          <td class="n">3</td>
           <td class="n">116</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>1 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/33</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:12.07%;background:#dc1e1e"></i><i style="width:16.38%;background:#e69614"></i><i style="width:16.38%;background:#5c96c8"></i><i style="width:52.59%;background:#787878"></i><i style="width:2.586%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>14 <b style="color:#e69614">W</b>19 <b style="color:#5c96c8">S</b>19 <b style="color:#787878">N</b>61 <b style="color:#28a028">K</b>3</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">3.8 MB</td>
+          <td class="n">0.05 MB</td>
           <td><a href="penev_A/report.pdf">report.pdf</a> &middot; <a href="penev_A/penev_A.md">markdown</a> &middot; <a href="penev_A/inspect.html">inspect</a> &middot; <a href="penev_A/formula-report.html">formulas</a> &middot; <a href="penev_A/tables.html">tables</a> &middot; <a href="penev_A/compare.html">compare</a> &middot; <a href="penev_A/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">penev_B</code><div class="ttl">Local Feature Analysis (cont.): &sect;4.4.4 &ndash; ch. 5<span class="au"> &middot; Penio S. Penev &middot; scanned inkjet print</span></div></td>
           <td class="src">PhD thesis, Rockefeller Univ., May 1998</td>
-          <td class="n">11</td>
+          <td class="n">2</td>
           <td class="n">62</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/24</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:11.29%;background:#dc1e1e"></i><i style="width:27.42%;background:#e69614"></i><i style="width:9.677%;background:#5c96c8"></i><i style="width:50%;background:#787878"></i><i style="width:1.613%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>7 <b style="color:#e69614">W</b>17 <b style="color:#5c96c8">S</b>6 <b style="color:#787878">N</b>31 <b style="color:#28a028">K</b>1</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">2.3 MB</td>
+          <td class="n">0.04 MB</td>
           <td><a href="penev_B/report.pdf">report.pdf</a> &middot; <a href="penev_B/penev_B.md">markdown</a> &middot; <a href="penev_B/inspect.html">inspect</a> &middot; <a href="penev_B/formula-report.html">formulas</a> &middot; <a href="penev_B/tables.html">tables</a> &middot; <a href="penev_B/compare.html">compare</a> &middot; <a href="penev_B/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">rph8-g15q</code><div class="ttl">Toward structure-preserving quantum encodings<span class="au"> · Parzygnat, Bradley, Vlasic &amp; Pham</span></div></td>
           <td class="src"><a href="https://doi.org/10.1103/rph8-g15q" target="_blank" rel="noopener">Phys. Rev. Research 7, 041001 (2025)</a></td>
-          <td class="n">8</td>
+          <td class="n">3</td>
           <td class="n">81</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>1 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/11</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:2.469%;background:#dc1e1e"></i><i style="width:12.35%;background:#e69614"></i><i style="width:4.938%;background:#5c96c8"></i><i style="width:49.38%;background:#787878"></i><i style="width:30.86%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>2 <b style="color:#e69614">W</b>10 <b style="color:#5c96c8">S</b>4 <b style="color:#787878">N</b>40 <b style="color:#28a028">K</b>25</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">1.3 MB</td>
+          <td class="n">0.07 MB</td>
           <td><a href="rph8-g15q/report.pdf">report.pdf</a> &middot; <a href="rph8-g15q/rph8-g15q.md">markdown</a> &middot; <a href="rph8-g15q/inspect.html">inspect</a> &middot; <a href="rph8-g15q/formula-report.html">formulas</a> &middot; <a href="rph8-g15q/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">mielke-geometrodynamics</code><div class="ttl">Geometrodynamics of Gauge Fields: Yang&ndash;Mills and Gravitational Gauge Theories<span class="au"> &middot; Eckehard W. Mielke</span></div></td>
           <td class="src">book</td>
-          <td class="n">108</td>
+          <td class="n">4</td>
           <td class="n">1149</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>3 <b style="color:#e69614">unr</b>2 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/207</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:5.57%;background:#dc1e1e"></i><i style="width:12.62%;background:#e69614"></i><i style="width:1.654%;background:#5c96c8"></i><i style="width:0.7833%;background:#9a6ac8"></i><i style="width:65.19%;background:#787878"></i><i style="width:14.19%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>64 <b style="color:#e69614">W</b>145 <b style="color:#5c96c8">S</b>19 <b style="color:#9a6ac8">U</b>9 <b style="color:#787878">N</b>749 <b style="color:#28a028">K</b>163</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">15.0 MB</td>
+          <td class="n">0.09 MB</td>
           <td><a href="mielke-geometrodynamics/report.pdf">report.pdf</a> &middot; <a href="mielke-geometrodynamics/mielke-geometrodynamics.md">markdown</a> &middot; <a href="mielke-geometrodynamics/inspect.html">inspect</a> &middot; <a href="mielke-geometrodynamics/formula-report.html">formulas</a> &middot; <a href="mielke-geometrodynamics/tables.html">tables</a> &middot; <a href="mielke-geometrodynamics/compare.html">compare</a> &middot; <a href="mielke-geometrodynamics/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">voloshin-hypergraph</code><div class="ttl">Introduction to Graph and Hypergraph Theory<span class="au"> &middot; Vitaly I. Voloshin</span></div></td>
           <td class="src">book</td>
-          <td class="n">64</td>
+          <td class="n">3</td>
           <td class="n">266</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>3 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/24</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:3.383%;background:#dc1e1e"></i><i style="width:5.639%;background:#e69614"></i><i style="width:1.504%;background:#5c96c8"></i><i style="width:49.62%;background:#787878"></i><i style="width:39.85%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>9 <b style="color:#e69614">W</b>15 <b style="color:#5c96c8">S</b>4 <b style="color:#787878">N</b>132 <b style="color:#28a028">K</b>106</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">11.2 MB</td>
+          <td class="n">0.06 MB</td>
           <td><a href="voloshin-hypergraph/report.pdf">report.pdf</a> &middot; <a href="voloshin-hypergraph/voloshin-hypergraph.md">markdown</a> &middot; <a href="voloshin-hypergraph/inspect.html">inspect</a> &middot; <a href="voloshin-hypergraph/formula-report.html">formulas</a> &middot; <a href="voloshin-hypergraph/tables.html">tables</a> &middot; <a href="voloshin-hypergraph/compare.html">compare</a> &middot; <a href="voloshin-hypergraph/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">johnston-linear-matrix-algebra</code><div class="ttl">Introduction to Linear and Matrix Algebra<span class="au"> &middot; Nathaniel Johnston</span></div></td>
           <td class="src">book</td>
-          <td class="n">284</td>
+          <td class="n">19</td>
           <td class="n">1670</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>8 <b style="color:#e69614">unr</b>7 <b style="color:#dc1e1e">flag</b>37<span style="color:#787878">/543</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:16.35%;background:#dc1e1e"></i><i style="width:17.07%;background:#e69614"></i><i style="width:3.952%;background:#5c96c8"></i><i style="width:0.1796%;background:#9a6ac8"></i><i style="width:45.69%;background:#787878"></i><i style="width:16.77%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>273 <b style="color:#e69614">W</b>285 <b style="color:#5c96c8">S</b>66 <b style="color:#9a6ac8">U</b>3 <b style="color:#787878">N</b>763 <b style="color:#28a028">K</b>280</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">36.3 MB</td>
+          <td class="n">1.7 MB</td>
           <td><a href="johnston-linear-matrix-algebra/report.pdf">report.pdf</a> &middot; <a href="johnston-linear-matrix-algebra/johnston-linear-matrix-algebra.md">markdown</a> &middot; <a href="johnston-linear-matrix-algebra/inspect.html">inspect</a> &middot; <a href="johnston-linear-matrix-algebra/formula-report.html">formulas</a> &middot; <a href="johnston-linear-matrix-algebra/tables.html">tables</a> &middot; <a href="johnston-linear-matrix-algebra/compare.html">compare</a> &middot; <a href="johnston-linear-matrix-algebra/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">lyche-numerical-linear-algebra</code><div class="ttl">Numerical Linear Algebra and Matrix Factorizations<span class="au"> &middot; Tom Lyche</span></div></td>
           <td class="src">book</td>
-          <td class="n">140</td>
+          <td class="n">8</td>
           <td class="n">1056</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>8 <b style="color:#e69614">unr</b>5 <b style="color:#dc1e1e">flag</b>1<span style="color:#787878">/239</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:4.167%;background:#dc1e1e"></i><i style="width:19.13%;background:#e69614"></i><i style="width:3.314%;background:#5c96c8"></i><i style="width:0.3788%;background:#9a6ac8"></i><i style="width:57.01%;background:#787878"></i><i style="width:16%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>44 <b style="color:#e69614">W</b>202 <b style="color:#5c96c8">S</b>35 <b style="color:#9a6ac8">U</b>4 <b style="color:#787878">N</b>602 <b style="color:#28a028">K</b>169</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">17.6 MB</td>
+          <td class="n">0.22 MB</td>
           <td><a href="lyche-numerical-linear-algebra/report.pdf">report.pdf</a> &middot; <a href="lyche-numerical-linear-algebra/lyche-numerical-linear-algebra.md">markdown</a> &middot; <a href="lyche-numerical-linear-algebra/inspect.html">inspect</a> &middot; <a href="lyche-numerical-linear-algebra/formula-report.html">formulas</a> &middot; <a href="lyche-numerical-linear-algebra/tables.html">tables</a> &middot; <a href="lyche-numerical-linear-algebra/compare.html">compare</a> &middot; <a href="lyche-numerical-linear-algebra/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">gilmore-lie-groups</code><div class="ttl">Lie Groups, Physics and Geometry<span class="au"> &middot; Robert Gilmore</span></div></td>
           <td class="src">book</td>
-          <td class="n">153</td>
+          <td class="n">8</td>
           <td class="n">1037</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>10 <b style="color:#dc1e1e">flag</b>5<span style="color:#787878">/350</span> <b style="color:#5c96c8">dbt</b>1</div></td>
           <td class="res"><div class="bar"><i style="width:7.522%;background:#dc1e1e"></i><i style="width:27.1%;background:#e69614"></i><i style="width:4.725%;background:#5c96c8"></i><i style="width:0.1929%;background:#9a6ac8"></i><i style="width:51.21%;background:#787878"></i><i style="width:9.257%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>78 <b style="color:#e69614">W</b>281 <b style="color:#5c96c8">S</b>49 <b style="color:#9a6ac8">U</b>2 <b style="color:#787878">N</b>531 <b style="color:#28a028">K</b>96</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">23.3 MB</td>
+          <td class="n">0.72 MB</td>
           <td><a href="gilmore-lie-groups/report.pdf">report.pdf</a> &middot; <a href="gilmore-lie-groups/gilmore-lie-groups.md">markdown</a> &middot; <a href="gilmore-lie-groups/inspect.html">inspect</a> &middot; <a href="gilmore-lie-groups/formula-report.html">formulas</a> &middot; <a href="gilmore-lie-groups/tables.html">tables</a> &middot; <a href="gilmore-lie-groups/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">2010.14265</code><div class="ttl">arXiv 2010.14265</div></td>
           <td class="src"><a href="https://arxiv.org/abs/2010.14265" target="_blank" rel="noopener">arXiv</a></td>
-          <td class="n">3</td>
+          <td class="n">2</td>
           <td class="n">16</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/1</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:6.25%;background:#e69614"></i><i style="width:62.5%;background:#9a6ac8"></i><i style="width:18.75%;background:#787878"></i><i style="width:12.5%;background:#28a028"></i></div><div class="cts"><b style="color:#e69614">W</b>1 <b style="color:#9a6ac8">U</b>10 <b style="color:#787878">N</b>3 <b style="color:#28a028">K</b>2</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">0.4 MB</td>
+          <td class="n">0.04 MB</td>
           <td><a href="2010.14265/report.pdf">report.pdf</a> &middot; <a href="2010.14265/2010.14265.md">markdown</a> &middot; <a href="2010.14265/inspect.html">inspect</a> &middot; <a href="2010.14265/formula-report.html">formulas</a> &middot; <a href="2010.14265/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">fong-spivak-invitation</code><div class="ttl">An Invitation to Applied Category Theory<span class="au"> &middot; Fong &amp; Spivak &middot; published edition</span></div></td>
           <td class="src">book</td>
-          <td class="n">104</td>
+          <td class="n">4</td>
           <td class="n">262</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>2 <b style="color:#dc1e1e">flag</b>7<span style="color:#787878">/81</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:19.47%;background:#dc1e1e"></i><i style="width:12.21%;background:#e69614"></i><i style="width:5.725%;background:#5c96c8"></i><i style="width:1.527%;background:#9a6ac8"></i><i style="width:37.79%;background:#787878"></i><i style="width:23.28%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>51 <b style="color:#e69614">W</b>32 <b style="color:#5c96c8">S</b>15 <b style="color:#9a6ac8">U</b>4 <b style="color:#787878">N</b>99 <b style="color:#28a028">K</b>61</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">11.8 MB</td>
+          <td class="n">0.30 MB</td>
           <td><a href="fong-spivak-invitation/report.pdf">report.pdf</a> &middot; <a href="fong-spivak-invitation/fong-spivak-invitation.md">markdown</a> &middot; <a href="fong-spivak-invitation/inspect.html">inspect</a> &middot; <a href="fong-spivak-invitation/formula-report.html">formulas</a> &middot; <a href="fong-spivak-invitation/tables.html">tables</a> &middot; <a href="fong-spivak-invitation/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">kohlhase-omdoc</code><div class="ttl">OMDoc: An Open Markup Format for Mathematical Documents, v1.2<span class="au"> &middot; Michael Kohlhase</span></div></td>
           <td class="src">book</td>
-          <td class="n">57</td>
+          <td class="n">3</td>
           <td class="n">6</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>4 <b style="color:#dc1e1e">flag</b>0<span style="color:#787878">/1</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:16.67%;background:#dc1e1e"></i><i style="width:16.67%;background:#5c96c8"></i><i style="width:50%;background:#9a6ac8"></i><i style="width:16.67%;background:#787878"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>1 <b style="color:#5c96c8">S</b>1 <b style="color:#9a6ac8">U</b>3 <b style="color:#787878">N</b>1</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">17.2 MB</td>
+          <td class="n">0.10 MB</td>
           <td><a href="kohlhase-omdoc/report.pdf">report.pdf</a> &middot; <a href="kohlhase-omdoc/kohlhase-omdoc.md">markdown</a> &middot; <a href="kohlhase-omdoc/inspect.html">inspect</a> &middot; <a href="kohlhase-omdoc/formula-report.html">formulas</a> &middot; <a href="kohlhase-omdoc/tables.html">tables</a> &middot; <a href="kohlhase-omdoc/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">fong-spivak-seven-sketches</code><div class="ttl">Seven Sketches in Compositionality<span class="au"> &middot; Fong &amp; Spivak &middot; preprint edition</span></div></td>
           <td class="src">preprint edition</td>
-          <td class="n">107</td>
+          <td class="n">4</td>
           <td class="n">264</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>1 <b style="color:#dc1e1e">flag</b>3<span style="color:#787878">/78</span> <b style="color:#5c96c8">dbt</b>3</div></td>
           <td class="res"><div class="bar"><i style="width:15.91%;background:#dc1e1e"></i><i style="width:13.64%;background:#e69614"></i><i style="width:7.955%;background:#5c96c8"></i><i style="width:1.515%;background:#9a6ac8"></i><i style="width:48.48%;background:#787878"></i><i style="width:12.5%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>42 <b style="color:#e69614">W</b>36 <b style="color:#5c96c8">S</b>21 <b style="color:#9a6ac8">U</b>4 <b style="color:#787878">N</b>128 <b style="color:#28a028">K</b>33</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">13.3 MB</td>
+          <td class="n">0.19 MB</td>
           <td><a href="fong-spivak-seven-sketches/report.pdf">report.pdf</a> &middot; <a href="fong-spivak-seven-sketches/fong-spivak-seven-sketches.md">markdown</a> &middot; <a href="fong-spivak-seven-sketches/inspect.html">inspect</a> &middot; <a href="fong-spivak-seven-sketches/formula-report.html">formulas</a> &middot; <a href="fong-spivak-seven-sketches/tables.html">tables</a> &middot; <a href="fong-spivak-seven-sketches/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">0707.4470</code><div class="ttl">arXiv 0707.4470</div></td>
           <td class="src"><a href="https://arxiv.org/abs/0707.4470" target="_blank" rel="noopener">arXiv</a></td>
-          <td class="n">12</td>
+          <td class="n">4</td>
           <td class="n">62</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>1 <b style="color:#e69614">unr</b>0 <b style="color:#dc1e1e">flag</b>2<span style="color:#787878">/13</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:3.226%;background:#dc1e1e"></i><i style="width:17.74%;background:#e69614"></i><i style="width:1.613%;background:#5c96c8"></i><i style="width:46.77%;background:#787878"></i><i style="width:30.65%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>2 <b style="color:#e69614">W</b>11 <b style="color:#5c96c8">S</b>1 <b style="color:#787878">N</b>29 <b style="color:#28a028">K</b>19</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">1.6 MB</td>
+          <td class="n">0.28 MB</td>
           <td><a href="0707.4470/report.pdf">report.pdf</a> &middot; <a href="0707.4470/0707.4470.md">markdown</a> &middot; <a href="0707.4470/inspect.html">inspect</a> &middot; <a href="0707.4470/formula-report.html">formulas</a> &middot; <a href="0707.4470/report.ink.json">ink.json</a></td>
         </tr>
         <tr>
           <td><code class="doc">cardona-qft-methods</code><div class="ttl">Geometric, Algebraic and Topological Methods for Quantum Field Theory<span class="au"> &middot; Alexander Cardona (ed.)</span></div></td>
           <td class="src">book</td>
-          <td class="n">92</td>
+          <td class="n">3</td>
           <td class="n">1012</td>
+          <td class="res"><div class="cts"><b style="color:#28a028">cor</b>0 <b style="color:#e69614">unr</b>1 <b style="color:#dc1e1e">flag</b>1<span style="color:#787878">/110</span> <b style="color:#5c96c8">dbt</b>0</div></td>
           <td class="res"><div class="bar"><i style="width:2.372%;background:#dc1e1e"></i><i style="width:8.498%;background:#e69614"></i><i style="width:1.779%;background:#5c96c8"></i><i style="width:0.1976%;background:#9a6ac8"></i><i style="width:59.98%;background:#787878"></i><i style="width:27.17%;background:#28a028"></i></div><div class="cts"><b style="color:#dc1e1e">C</b>24 <b style="color:#e69614">W</b>86 <b style="color:#5c96c8">S</b>18 <b style="color:#9a6ac8">U</b>2 <b style="color:#787878">N</b>607 <b style="color:#28a028">K</b>275</div></td>
           <td class="n">2026-09-01</td>
-          <td class="n">14.3 MB</td>
+          <td class="n">0.10 MB</td>
           <td><a href="cardona-qft-methods/report.pdf">report.pdf</a> &middot; <a href="cardona-qft-methods/cardona-qft-methods.md">markdown</a> &middot; <a href="cardona-qft-methods/inspect.html">inspect</a> &middot; <a href="cardona-qft-methods/formula-report.html">formulas</a> &middot; <a href="cardona-qft-methods/tables.html">tables</a> &middot; <a href="cardona-qft-methods/report.ink.json">ink.json</a></td>
         </tr>
       </table>
