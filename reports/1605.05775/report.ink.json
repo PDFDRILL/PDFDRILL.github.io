@@ -14,11 +14,11 @@
    "R": [
     74,
     18,
-    24,
-    8,
+    23,
+    7,
     16
    ],
-   "distance": 16,
+   "distance": 14,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
@@ -39,11 +39,11 @@
    "R": [
     59,
     7,
-    12,
+    13,
     6,
-    6
+    7
    ],
-   "distance": 3,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -114,41 +114,16 @@
    "R": [
     57,
     14,
-    16,
+    15,
     5,
-    11
+    10
    ],
-   "distance": 7,
+   "distance": 5,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
    "code": "N|+0"
-  },
-  {
-   "id": "1605.05775_EQ0008",
-   "report_page": 1,
-   "line": 6,
-   "L": [
-    79,
-    26,
-    47,
-    16,
-    23
-   ],
-   "R": [
-    81,
-    30,
-    45,
-    15,
-    25
-   ],
-   "distance": 11,
-   "comp_delta": 2,
-   "signed_delta": 2,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+2"
   },
   {
    "id": "1605.05775_EQ0009",
@@ -164,16 +139,16 @@
    "R": [
     67,
     17,
-    26,
+    27,
     1,
-    25
+    26
    ],
-   "distance": 6,
+   "distance": 8,
    "comp_delta": 1,
    "signed_delta": 1,
-   "flag": "noise",
+   "flag": "weak",
    "rendered": true,
-   "code": "N|+1"
+   "code": "W|+1"
   },
   {
    "id": "1605.05775_EQ0001",
@@ -239,11 +214,11 @@
    "R": [
     37,
     5,
-    9,
+    10,
     6,
-    3
+    4
    ],
-   "distance": 3,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -289,11 +264,11 @@
    "R": [
     29,
     5,
-    12,
+    11,
     7,
     4
    ],
-   "distance": 3,
+   "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -432,9 +407,9 @@
    "L": [
     42,
     3,
-    6,
+    5,
     3,
-    3
+    2
    ],
    "R": [
     42,
@@ -443,12 +418,12 @@
     3,
     3
    ],
-   "distance": 6,
+   "distance": 8,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
+   "flag": "weak",
    "rendered": true,
-   "code": "N|+0"
+   "code": "W|+0"
   },
   {
    "id": "1605.05775_EQ0017",
@@ -527,8 +502,8 @@
   },
   {
    "id": "1605.05775_EQ0020",
-   "report_page": 3,
-   "line": 1,
+   "report_page": 2,
+   "line": 16,
    "L": [
     50,
     6,
@@ -540,10 +515,10 @@
     50,
     7,
     10,
-    6,
-    2
+    7,
+    1
    ],
-   "distance": 3,
+   "distance": 5,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -551,34 +526,9 @@
    "code": "N|+0"
   },
   {
-   "id": "1605.05775_EQ0021",
-   "report_page": 3,
-   "line": 2,
-   "L": [
-    23,
-    2,
-    8,
-    4,
-    3
-   ],
-   "R": [
-    24,
-    4,
-    7,
-    4,
-    3
-   ],
-   "distance": 4,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+1"
-  },
-  {
    "id": "1605.05775_EQ0022",
    "report_page": 3,
-   "line": 3,
+   "line": 2,
    "L": [
     33,
     10,
@@ -603,7 +553,7 @@
   {
    "id": "1605.05775_EQ0023",
    "report_page": 3,
-   "line": 4,
+   "line": 3,
    "L": [
     38,
     4,
@@ -628,7 +578,7 @@
   {
    "id": "1605.05775_EQ0024",
    "report_page": 3,
-   "line": 5,
+   "line": 4,
    "L": [
     29,
     6,
@@ -656,21 +606,24 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 7,
-  "bytes": 858798,
-  "sha256": "1c8b236f5817ae4deffb509d30d6eed9ba2be8c06f8bca15ec40f722d984175d",
-  "mtime": 1788271751,
-  "built_at": "2026-09-01T14:09:11Z",
-  "commit": "c0a5bcdae0b6",
+  "pages": 10,
+  "bytes": 882977,
+  "sha256": "bc6f9486f26fab9756820457bcf2b088bcfda323a12d547b92fced5924fbb4b4",
+  "mtime": 1788607780,
+  "findings": false,
+  "built_at": "2026-09-05T11:29:40Z",
+  "commit": "d9fd1dbffd18",
   "legend": false,
   "ink_adopted": false,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
+  "bullets": false,
   "phase": "measure",
-  "formula_rule": "none",
-  "model_sha256": "cf832125bc9abad0b38a9ad165077af821906f46dfdaaddaff406fe34ac9a3fe",
-  "model_bytes": 2987635,
-  "model_mtime": 1787595006
+  "formula_rule": "all",
+  "pages_bound": null,
+  "model_sha256": "a6f7523d2342b9ebd14692c1af84a795da0059cb6dd18e769950a6d292b42231",
+  "model_bytes": 3061160,
+  "model_mtime": 1788463458
  }
 }

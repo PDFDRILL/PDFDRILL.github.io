@@ -15,10 +15,10 @@
     106,
     18,
     40,
-    16,
-    24
+    17,
+    23
    ],
-   "distance": 11,
+   "distance": 13,
    "comp_delta": 4,
    "signed_delta": 4,
    "flag": "component",
@@ -38,7 +38,7 @@
    ],
    "R": [
     97,
-    15,
+    17,
     27,
     9,
     18
@@ -87,43 +87,18 @@
     13
    ],
    "R": [
-    101,
-    15,
-    26,
-    9,
+    97,
+    21,
+    25,
+    8,
     17
    ],
-   "distance": 21,
-   "comp_delta": 8,
-   "signed_delta": 8,
+   "distance": 13,
+   "comp_delta": 4,
+   "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
-  },
-  {
-   "id": "2501.06662_EQ0052",
-   "report_page": 1,
-   "line": 5,
-   "L": [
-    39,
-    11,
-    11,
-    6,
-    5
-   ],
-   "R": [
-    40,
-    12,
-    12,
-    6,
-    6
-   ],
-   "distance": 4,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+1"
+   "code": "C|+4"
   },
   {
    "id": "2501.06662_EQ0033",
@@ -165,10 +140,10 @@
     119,
     16,
     24,
-    8,
-    16
+    9,
+    15
    ],
-   "distance": 10,
+   "distance": 12,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
@@ -187,18 +162,18 @@
     10
    ],
    "R": [
-    103,
-    12,
-    16,
-    7,
+    110,
+    13,
+    17,
+    8,
     9
    ],
-   "distance": 11,
-   "comp_delta": 3,
-   "signed_delta": 3,
+   "distance": 17,
+   "comp_delta": 10,
+   "signed_delta": 10,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+10"
   },
   {
    "id": "2501.06662_EQ0001",
@@ -274,31 +249,6 @@
    "flag": "noise",
    "rendered": true,
    "code": "N|+0"
-  },
-  {
-   "id": "2501.06662_EQ0026",
-   "report_page": 3,
-   "line": 1,
-   "L": [
-    73,
-    12,
-    30,
-    11,
-    19
-   ],
-   "R": [
-    77,
-    9,
-    30,
-    11,
-    19
-   ],
-   "distance": 7,
-   "comp_delta": 4,
-   "signed_delta": 4,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|+4"
   },
   {
    "id": "2501.06662_EQ0021",
@@ -399,31 +349,6 @@
    "flag": "noise",
    "rendered": true,
    "code": "N|+0"
-  },
-  {
-   "id": "2501.06662_EQ0046",
-   "report_page": 4,
-   "line": 1,
-   "L": [
-    118,
-    19,
-    19,
-    8,
-    11
-   ],
-   "R": [
-    120,
-    18,
-    24,
-    8,
-    16
-   ],
-   "distance": 13,
-   "comp_delta": 2,
-   "signed_delta": 2,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+2"
   },
   {
    "id": "2501.06662_EQ0040",
@@ -607,23 +532,23 @@
    "L": [
     81,
     15,
-    17,
-    9,
-    8
+    21,
+    11,
+    10
    ],
    "R": [
-    107,
-    13,
-    13,
-    12,
-    1
+    88,
+    16,
+    8,
+    8,
+    0
    ],
-   "distance": 42,
-   "comp_delta": 26,
-   "signed_delta": 26,
+   "distance": 34,
+   "comp_delta": 7,
+   "signed_delta": 7,
    "flag": "component",
    "rendered": true,
-   "code": "C|+26"
+   "code": "C|+7"
   },
   {
    "id": "2501.06662_EQ0034",
@@ -640,40 +565,15 @@
     31,
     6,
     6,
-    3,
-    3
+    4,
+    2
    ],
-   "distance": 2,
+   "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
    "code": "N|+0"
-  },
-  {
-   "id": "2501.06662_EQ0003",
-   "report_page": 5,
-   "line": 1,
-   "L": [
-    72,
-    16,
-    39,
-    18,
-    21
-   ],
-   "R": [
-    72,
-    17,
-    34,
-    14,
-    20
-   ],
-   "distance": 11,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
   },
   {
    "id": "2501.06662_EQ0054",
@@ -739,11 +639,11 @@
    "R": [
     23,
     3,
-    7,
+    5,
     3,
     2
    ],
-   "distance": 4,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -851,31 +751,6 @@
    "code": "K|+0"
   },
   {
-   "id": "2501.06662_EQ0008",
-   "report_page": 6,
-   "line": 1,
-   "L": [
-    55,
-    8,
-    18,
-    13,
-    5
-   ],
-   "R": [
-    55,
-    6,
-    13,
-    8,
-    5
-   ],
-   "distance": 12,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
-  },
-  {
    "id": "2501.06662_EQ0009",
    "report_page": 6,
    "line": 2,
@@ -940,8 +815,8 @@
     30,
     4,
     9,
-    6,
-    3
+    7,
+    2
    ],
    "distance": 6,
    "comp_delta": 0,
@@ -949,31 +824,6 @@
    "flag": "noise",
    "rendered": true,
    "code": "N|+0"
-  },
-  {
-   "id": "2501.06662_EQ0013",
-   "report_page": 7,
-   "line": 1,
-   "L": [
-    98,
-    9,
-    27,
-    10,
-    17
-   ],
-   "R": [
-    100,
-    6,
-    27,
-    9,
-    18
-   ],
-   "distance": 7,
-   "comp_delta": 2,
-   "signed_delta": 2,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+2"
   },
   {
    "id": "2501.06662_EQ0014",
@@ -1089,9 +939,9 @@
    "R": [
     130,
     13,
-    22,
+    23,
     21,
-    1
+    2
    ],
    "distance": 4,
    "comp_delta": 0,
@@ -1251,31 +1101,6 @@
    "code": "K|+0"
   },
   {
-   "id": "2501.06662_EQ0038",
-   "report_page": 8,
-   "line": 1,
-   "L": [
-    65,
-    5,
-    24,
-    12,
-    12
-   ],
-   "R": [
-    65,
-    6,
-    24,
-    12,
-    12
-   ],
-   "distance": 1,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "2501.06662_EQ0041",
    "report_page": 8,
    "line": 2,
@@ -1314,11 +1139,11 @@
    "R": [
     56,
     5,
-    30,
+    31,
     12,
     13
    ],
-   "distance": 5,
+   "distance": 6,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -1506,21 +1331,24 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 8,
-  "bytes": 1548485,
-  "sha256": "36002bf9aceeb8be9f6980f6d7f033b60ebd943e4ec0800652c33b1080db6edb",
-  "mtime": 1788271895,
-  "built_at": "2026-09-01T14:11:35Z",
-  "commit": "c0a5bcdae0b6",
+  "pages": 16,
+  "bytes": 1610809,
+  "sha256": "0869a74607b2259275c37419d8d555cfaa34cb6aec383d71341d024d9018ab51",
+  "mtime": 1788607884,
+  "findings": false,
+  "built_at": "2026-09-05T11:31:25Z",
+  "commit": "d9fd1dbffd18",
   "legend": false,
   "ink_adopted": false,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
+  "bullets": false,
   "phase": "measure",
-  "formula_rule": "none",
-  "model_sha256": "5754200d69ac8a9b840f22d875cbd4ac1b0b88b44fd4e05eecea6741164c74a2",
-  "model_bytes": 4263037,
-  "model_mtime": 1787595090
+  "formula_rule": "all",
+  "pages_bound": null,
+  "model_sha256": "e10c4762a05290ec3b941da6eccc1464eaf428570726ad5554efe5430e9df334",
+  "model_bytes": 4296454,
+  "model_mtime": 1788462600
  }
 }

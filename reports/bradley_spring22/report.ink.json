@@ -276,31 +276,6 @@
    "code": "N|+0"
   },
   {
-   "id": "bradley_spring22_EQ0011",
-   "report_page": 1,
-   "line": 12,
-   "L": [
-    18,
-    0,
-    1,
-    1,
-    0
-   ],
-   "R": [
-    18,
-    0,
-    1,
-    1,
-    0
-   ],
-   "distance": 0,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "clean",
-   "rendered": true,
-   "code": "K|+0"
-  },
-  {
    "id": "bradley_spring22_EQ0012",
    "report_page": 2,
    "line": 1,
@@ -406,21 +381,24 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 4,
-  "bytes": 481965,
-  "sha256": "4661e1efdd9a19f4f7409ca614533162c1a03ce0f98bea687786a945da13ade6",
-  "mtime": 1788272014,
-  "built_at": "2026-09-01T14:13:34Z",
-  "commit": "c0a5bcdae0b6",
+  "pages": 11,
+  "bytes": 516669,
+  "sha256": "0a8755a13488355737af60bd04184b51e7c6e072308717df65a8d546fb069e34",
+  "mtime": 1788607975,
+  "findings": false,
+  "built_at": "2026-09-05T11:32:55Z",
+  "commit": "d9fd1dbffd18",
   "legend": false,
   "ink_adopted": false,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
+  "bullets": false,
   "phase": "measure",
-  "formula_rule": "none",
-  "model_sha256": "354b1debb76c1f908e901d4578fc52f3e8deebaf9a566d9b80a2fbbd0df4a48e",
-  "model_bytes": 4233875,
-  "model_mtime": 1787594222
+  "formula_rule": "all",
+  "pages_bound": null,
+  "model_sha256": "56ad1f42675f622b21e7aebf7ceb5e7b0f9d3cf85894a5f25d9d428153cb5184",
+  "model_bytes": 3132542,
+  "model_mtime": 1788463485
  }
 }
