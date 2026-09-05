@@ -126,31 +126,6 @@
    "code": "C|+6"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0186",
-   "report_page": 1,
-   "line": 6,
-   "L": [
-    13,
-    2,
-    2,
-    2,
-    0
-   ],
-   "R": [
-    15,
-    3,
-    5,
-    4,
-    1
-   ],
-   "distance": 9,
-   "comp_delta": 2,
-   "signed_delta": 2,
-   "flag": "stable",
-   "rendered": true,
-   "code": "S|+2"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0189",
    "report_page": 2,
    "line": 1,
@@ -315,10 +290,10 @@
     15,
     4,
     4,
-    4,
-    0
+    3,
+    1
    ],
-   "distance": 5,
+   "distance": 7,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -364,16 +339,16 @@
    "R": [
     17,
     4,
-    7,
+    6,
     4,
-    3
+    2
    ],
-   "distance": 9,
+   "distance": 7,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "stable",
+   "flag": "noise",
    "rendered": true,
-   "code": "S|+0"
+   "code": "N|+0"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0094",
@@ -427,8 +402,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0020",
-   "report_page": 3,
-   "line": 1,
+   "report_page": 2,
+   "line": 12,
    "L": [
     93,
     29,
@@ -451,34 +426,9 @@
    "code": "W|+2"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0033",
-   "report_page": 3,
-   "line": 2,
-   "L": [
-    27,
-    5,
-    4,
-    4,
-    0
-   ],
-   "R": [
-    27,
-    6,
-    4,
-    4,
-    0
-   ],
-   "distance": 1,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0175",
    "report_page": 3,
-   "line": 3,
+   "line": 2,
    "L": [
     76,
     30,
@@ -503,7 +453,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0057",
    "report_page": 3,
-   "line": 4,
+   "line": 3,
    "L": [
     29,
     2,
@@ -528,7 +478,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0184",
    "report_page": 3,
-   "line": 5,
+   "line": 4,
    "L": [
     174,
     22,
@@ -553,7 +503,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0056",
    "report_page": 3,
-   "line": 6,
+   "line": 5,
    "L": [
     16,
     2,
@@ -578,7 +528,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0109",
    "report_page": 3,
-   "line": 7,
+   "line": 6,
    "L": [
     28,
     5,
@@ -603,7 +553,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0059",
    "report_page": 3,
-   "line": 8,
+   "line": 7,
    "L": [
     16,
     2,
@@ -615,10 +565,10 @@
     17,
     4,
     7,
-    6,
-    1
+    5,
+    2
    ],
-   "distance": 5,
+   "distance": 7,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "noise",
@@ -627,8 +577,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0113",
-   "report_page": 4,
-   "line": 1,
+   "report_page": 3,
+   "line": 8,
    "L": [
     26,
     8,
@@ -651,34 +601,9 @@
    "code": "N|-1"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0226",
-   "report_page": 4,
-   "line": 2,
-   "L": [
-    51,
-    14,
-    5,
-    4,
-    1
-   ],
-   "R": [
-    52,
-    14,
-    6,
-    4,
-    2
-   ],
-   "distance": 3,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+1"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0068",
    "report_page": 4,
-   "line": 3,
+   "line": 2,
    "L": [
     5,
     3,
@@ -703,7 +628,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0206",
    "report_page": 4,
-   "line": 4,
+   "line": 3,
    "L": [
     34,
     10,
@@ -728,7 +653,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0098",
    "report_page": 4,
-   "line": 5,
+   "line": 4,
    "L": [
     40,
     10,
@@ -753,7 +678,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0036",
    "report_page": 4,
-   "line": 6,
+   "line": 5,
    "L": [
     149,
     45,
@@ -765,8 +690,8 @@
     147,
     48,
     37,
-    19,
-    18
+    20,
+    17
    ],
    "distance": 85,
    "comp_delta": 2,
@@ -778,7 +703,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0142",
    "report_page": 4,
-   "line": 7,
+   "line": 6,
    "L": [
     85,
     3,
@@ -803,7 +728,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0228",
    "report_page": 4,
-   "line": 8,
+   "line": 7,
    "L": [
     76,
     16,
@@ -828,7 +753,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0227",
    "report_page": 4,
-   "line": 9,
+   "line": 8,
    "L": [
     38,
     7,
@@ -853,7 +778,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0071",
    "report_page": 4,
-   "line": 10,
+   "line": 9,
    "L": [
     8,
     0,
@@ -877,8 +802,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0039",
-   "report_page": 5,
-   "line": 1,
+   "report_page": 4,
+   "line": 10,
    "L": [
     70,
     4,
@@ -901,34 +826,9 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0163",
-   "report_page": 5,
-   "line": 2,
-   "L": [
-    53,
-    11,
-    19,
-    9,
-    10
-   ],
-   "R": [
-    55,
-    11,
-    26,
-    14,
-    12
-   ],
-   "distance": 16,
-   "comp_delta": 2,
-   "signed_delta": 2,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+2"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0258",
    "report_page": 5,
-   "line": 3,
+   "line": 2,
    "L": [
     65,
     27,
@@ -953,7 +853,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0074",
    "report_page": 5,
-   "line": 4,
+   "line": 3,
    "L": [
     28,
     12,
@@ -978,7 +878,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0223",
    "report_page": 5,
-   "line": 5,
+   "line": 4,
    "L": [
     122,
     72,
@@ -989,11 +889,11 @@
    "R": [
     122,
     70,
-    72,
+    73,
     66,
-    6
+    7
    ],
-   "distance": 16,
+   "distance": 14,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -1003,7 +903,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0021",
    "report_page": 5,
-   "line": 6,
+   "line": 5,
    "L": [
     27,
     12,
@@ -1027,8 +927,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0069",
-   "report_page": 6,
-   "line": 1,
+   "report_page": 5,
+   "line": 6,
    "L": [
     36,
     14,
@@ -1051,34 +951,9 @@
    "code": "W|+2"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0116",
-   "report_page": 6,
-   "line": 2,
-   "L": [
-    23,
-    3,
-    1,
-    1,
-    0
-   ],
-   "R": [
-    22,
-    2,
-    1,
-    1,
-    0
-   ],
-   "distance": 2,
-   "comp_delta": 1,
-   "signed_delta": -1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|-1"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0257",
    "report_page": 6,
-   "line": 3,
+   "line": 2,
    "L": [
     48,
     24,
@@ -1103,7 +978,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0054",
    "report_page": 6,
-   "line": 4,
+   "line": 3,
    "L": [
     25,
     2,
@@ -1114,11 +989,11 @@
    "R": [
     68,
     1,
-    14,
-    5,
+    15,
+    6,
     9
    ],
-   "distance": 54,
+   "distance": 56,
    "comp_delta": 43,
    "signed_delta": 43,
    "flag": "component",
@@ -1128,7 +1003,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0005",
    "report_page": 6,
-   "line": 5,
+   "line": 4,
    "L": [
     24,
     8,
@@ -1153,7 +1028,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0078",
    "report_page": 6,
-   "line": 6,
+   "line": 5,
    "L": [
     14,
     9,
@@ -1178,7 +1053,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0091",
    "report_page": 6,
-   "line": 7,
+   "line": 6,
    "L": [
     43,
     14,
@@ -1203,7 +1078,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0104",
    "report_page": 6,
-   "line": 8,
+   "line": 7,
    "L": [
     46,
     2,
@@ -1228,7 +1103,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0221",
    "report_page": 6,
-   "line": 9,
+   "line": 8,
    "L": [
     32,
     14,
@@ -1253,7 +1128,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0253",
    "report_page": 6,
-   "line": 10,
+   "line": 9,
    "L": [
     56,
     9,
@@ -1278,7 +1153,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0043",
    "report_page": 6,
-   "line": 11,
+   "line": 10,
    "L": [
     21,
     4,
@@ -1303,7 +1178,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0179",
    "report_page": 6,
-   "line": 12,
+   "line": 11,
    "L": [
     8,
     0,
@@ -1328,7 +1203,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0002",
    "report_page": 6,
-   "line": 13,
+   "line": 12,
    "L": [
     31,
     17,
@@ -1353,7 +1228,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0158",
    "report_page": 6,
-   "line": 14,
+   "line": 13,
    "L": [
     42,
     3,
@@ -1378,7 +1253,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0147",
    "report_page": 6,
-   "line": 15,
+   "line": 14,
    "L": [
     35,
     7,
@@ -1402,8 +1277,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0191",
-   "report_page": 7,
-   "line": 1,
+   "report_page": 6,
+   "line": 15,
    "L": [
     169,
     15,
@@ -1426,34 +1301,9 @@
    "code": "C|-8"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0224",
-   "report_page": 7,
-   "line": 2,
-   "L": [
-    216,
-    95,
-    142,
-    116,
-    26
-   ],
-   "R": [
-    216,
-    102,
-    131,
-    106,
-    25
-   ],
-   "distance": 29,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0120",
    "report_page": 7,
-   "line": 3,
+   "line": 2,
    "L": [
     23,
     7,
@@ -1478,7 +1328,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0081",
    "report_page": 7,
-   "line": 4,
+   "line": 3,
    "L": [
     33,
     17,
@@ -1502,8 +1352,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0140",
-   "report_page": 8,
-   "line": 1,
+   "report_page": 7,
+   "line": 4,
    "L": [
     99,
     8,
@@ -1514,11 +1364,11 @@
    "R": [
     99,
     8,
-    7,
     6,
+    5,
     1
    ],
-   "distance": 34,
+   "distance": 36,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -1527,8 +1377,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0222",
-   "report_page": 8,
-   "line": 2,
+   "report_page": 7,
+   "line": 5,
    "L": [
     33,
     17,
@@ -1551,40 +1401,15 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0132",
-   "report_page": 8,
-   "line": 3,
-   "L": [
-    96,
-    8,
-    43,
-    39,
-    4
-   ],
-   "R": [
-    103,
-    16,
-    28,
-    24,
-    4
-   ],
-   "distance": 45,
-   "comp_delta": 7,
-   "signed_delta": 7,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|+7"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0097",
    "report_page": 8,
-   "line": 4,
+   "line": 2,
    "L": [
-    13,
+    39,
+    12,
     6,
-    0,
-    0,
-    0
+    5,
+    1
    ],
    "R": [
     39,
@@ -1593,17 +1418,17 @@
     5,
     1
    ],
-   "distance": 45,
-   "comp_delta": 26,
-   "signed_delta": 26,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|+26"
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
+   "rendered": true,
+   "code": "N|+0"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0230",
    "report_page": 8,
-   "line": 5,
+   "line": 3,
    "L": [
     217,
     92,
@@ -1628,7 +1453,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0242",
    "report_page": 8,
-   "line": 6,
+   "line": 4,
    "L": [
     50,
     0,
@@ -1653,7 +1478,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0156",
    "report_page": 8,
-   "line": 7,
+   "line": 5,
    "L": [
     35,
     10,
@@ -1678,7 +1503,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0219",
    "report_page": 8,
-   "line": 8,
+   "line": 6,
    "L": [
     139,
     42,
@@ -1702,8 +1527,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0077",
-   "report_page": 9,
-   "line": 1,
+   "report_page": 8,
+   "line": 7,
    "L": [
     91,
     20,
@@ -1727,8 +1552,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0131",
-   "report_page": 9,
-   "line": 2,
+   "report_page": 8,
+   "line": 8,
    "L": [
     16,
     4,
@@ -1751,34 +1576,9 @@
    "code": "S|+1"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0193",
-   "report_page": 9,
-   "line": 3,
-   "L": [
-    163,
-    56,
-    21,
-    12,
-    9
-   ],
-   "R": [
-    163,
-    51,
-    40,
-    18,
-    22
-   ],
-   "distance": 43,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0172",
    "report_page": 9,
-   "line": 4,
+   "line": 2,
    "L": [
     22,
     11,
@@ -1803,7 +1603,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0093",
    "report_page": 9,
-   "line": 5,
+   "line": 3,
    "L": [
     71,
     27,
@@ -1828,7 +1628,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0022",
    "report_page": 9,
-   "line": 6,
+   "line": 4,
    "L": [
     14,
     0,
@@ -1853,7 +1653,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0146",
    "report_page": 9,
-   "line": 7,
+   "line": 5,
    "L": [
     46,
     2,
@@ -1878,7 +1678,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0086",
    "report_page": 9,
-   "line": 8,
+   "line": 6,
    "L": [
     18,
     2,
@@ -1903,7 +1703,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0136",
    "report_page": 9,
-   "line": 9,
+   "line": 7,
    "L": [
     39,
     8,
@@ -1927,8 +1727,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0125",
-   "report_page": 10,
-   "line": 1,
+   "report_page": 9,
+   "line": 8,
    "L": [
     12,
     4,
@@ -1952,8 +1752,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0003",
-   "report_page": 10,
-   "line": 2,
+   "report_page": 9,
+   "line": 9,
    "L": [
     22,
     0,
@@ -1977,8 +1777,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0121",
-   "report_page": 10,
-   "line": 3,
+   "report_page": 9,
+   "line": 10,
    "L": [
     37,
     9,
@@ -2001,34 +1801,9 @@
    "code": "N|+1"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0107",
-   "report_page": 10,
-   "line": 4,
-   "L": [
-    23,
-    4,
-    13,
-    10,
-    3
-   ],
-   "R": [
-    24,
-    2,
-    9,
-    6,
-    3
-   ],
-   "distance": 11,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+1"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0010",
    "report_page": 10,
-   "line": 5,
+   "line": 2,
    "L": [
     24,
     8,
@@ -2053,7 +1828,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0079",
    "report_page": 10,
-   "line": 6,
+   "line": 3,
    "L": [
     18,
     4,
@@ -2078,7 +1853,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0217",
    "report_page": 10,
-   "line": 7,
+   "line": 4,
    "L": [
     91,
     20,
@@ -2103,7 +1878,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0153",
    "report_page": 10,
-   "line": 8,
+   "line": 5,
    "L": [
     46,
     18,
@@ -2128,7 +1903,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0105",
    "report_page": 10,
-   "line": 9,
+   "line": 6,
    "L": [
     5,
     2,
@@ -2153,7 +1928,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0143",
    "report_page": 10,
-   "line": 10,
+   "line": 7,
    "L": [
     46,
     2,
@@ -2178,7 +1953,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0129",
    "report_page": 10,
-   "line": 11,
+   "line": 8,
    "L": [
     33,
     6,
@@ -2203,7 +1978,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0164",
    "report_page": 10,
-   "line": 12,
+   "line": 9,
    "L": [
     6,
     3,
@@ -2227,8 +2002,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0256",
-   "report_page": 11,
-   "line": 1,
+   "report_page": 10,
+   "line": 10,
    "L": [
     147,
     25,
@@ -2239,8 +2014,8 @@
    "R": [
     137,
     36,
-    101,
-    30,
+    99,
+    28,
     71
    ],
    "distance": 43,
@@ -2252,8 +2027,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0096",
-   "report_page": 11,
-   "line": 2,
+   "report_page": 10,
+   "line": 11,
    "L": [
     32,
     4,
@@ -2276,34 +2051,9 @@
    "code": "S|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0259",
-   "report_page": 11,
-   "line": 3,
-   "L": [
-    111,
-    33,
-    33,
-    19,
-    14
-   ],
-   "R": [
-    108,
-    34,
-    19,
-    8,
-    11
-   ],
-   "distance": 32,
-   "comp_delta": 3,
-   "signed_delta": -3,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|-3"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0087",
    "report_page": 11,
-   "line": 4,
+   "line": 2,
    "L": [
     15,
     7,
@@ -2328,7 +2078,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0199",
    "report_page": 11,
-   "line": 5,
+   "line": 3,
    "L": [
     127,
     42,
@@ -2339,11 +2089,11 @@
    "R": [
     127,
     36,
-    23,
+    24,
     11,
-    12
+    13
    ],
-   "distance": 8,
+   "distance": 10,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -2353,7 +2103,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0251",
    "report_page": 11,
-   "line": 6,
+   "line": 4,
    "L": [
     38,
     8,
@@ -2378,7 +2128,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0034",
    "report_page": 11,
-   "line": 7,
+   "line": 5,
    "L": [
     31,
     3,
@@ -2402,8 +2152,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0128",
-   "report_page": 12,
-   "line": 1,
+   "report_page": 11,
+   "line": 6,
    "L": [
     34,
     7,
@@ -2427,8 +2177,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0053",
-   "report_page": 12,
-   "line": 2,
+   "report_page": 11,
+   "line": 7,
    "L": [
     20,
     3,
@@ -2452,8 +2202,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0075",
-   "report_page": 12,
-   "line": 3,
+   "report_page": 11,
+   "line": 8,
    "L": [
     13,
     6,
@@ -2471,14 +2221,14 @@
    "distance": 13,
    "comp_delta": 7,
    "signed_delta": -7,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|-7"
+   "flag": "component",
+   "rendered": true,
+   "code": "C|-7"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0026",
-   "report_page": 12,
-   "line": 4,
+   "report_page": 11,
+   "line": 9,
    "L": [
     22,
     6,
@@ -2502,8 +2252,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0111",
-   "report_page": 12,
-   "line": 5,
+   "report_page": 11,
+   "line": 10,
    "L": [
     6,
     5,
@@ -2527,8 +2277,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0159",
-   "report_page": 12,
-   "line": 6,
+   "report_page": 11,
+   "line": 11,
    "L": [
     59,
     11,
@@ -2552,8 +2302,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0007",
-   "report_page": 12,
-   "line": 7,
+   "report_page": 11,
+   "line": 12,
    "L": [
     17,
     4,
@@ -2576,34 +2326,9 @@
    "code": "N|+1"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0030",
-   "report_page": 12,
-   "line": 8,
-   "L": [
-    14,
-    3,
-    1,
-    1,
-    0
-   ],
-   "R": [
-    14,
-    4,
-    1,
-    1,
-    0
-   ],
-   "distance": 1,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0194",
    "report_page": 12,
-   "line": 9,
+   "line": 2,
    "L": [
     22,
     9,
@@ -2628,7 +2353,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0171",
    "report_page": 12,
-   "line": 10,
+   "line": 3,
    "L": [
     23,
     1,
@@ -2653,7 +2378,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0040",
    "report_page": 12,
-   "line": 11,
+   "line": 4,
    "L": [
     20,
     7,
@@ -2678,7 +2403,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0262",
    "report_page": 12,
-   "line": 12,
+   "line": 5,
    "L": [
     45,
     7,
@@ -2703,7 +2428,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0092",
    "report_page": 12,
-   "line": 13,
+   "line": 6,
    "L": [
     21,
     4,
@@ -2721,14 +2446,14 @@
    "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+0"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0218",
    "report_page": 12,
-   "line": 14,
+   "line": 7,
    "L": [
     32,
     10,
@@ -2753,7 +2478,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0168",
    "report_page": 12,
-   "line": 15,
+   "line": 8,
    "L": [
     30,
     5,
@@ -2778,7 +2503,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0066",
    "report_page": 12,
-   "line": 16,
+   "line": 9,
    "L": [
     28,
     8,
@@ -2803,7 +2528,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0119",
    "report_page": 12,
-   "line": 17,
+   "line": 10,
    "L": [
     62,
     15,
@@ -2828,7 +2553,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0157",
    "report_page": 12,
-   "line": 18,
+   "line": 11,
    "L": [
     25,
     0,
@@ -2853,7 +2578,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0100",
    "report_page": 12,
-   "line": 19,
+   "line": 12,
    "L": [
     15,
     2,
@@ -2877,8 +2602,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0045",
-   "report_page": 13,
-   "line": 1,
+   "report_page": 12,
+   "line": 13,
    "L": [
     54,
     3,
@@ -2890,10 +2615,10 @@
     53,
     7,
     17,
-    8,
-    9
+    9,
+    8
    ],
-   "distance": 15,
+   "distance": 13,
    "comp_delta": 1,
    "signed_delta": -1,
    "flag": "weak",
@@ -2902,8 +2627,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0046",
-   "report_page": 13,
-   "line": 2,
+   "report_page": 12,
+   "line": 14,
    "L": [
     22,
     7,
@@ -2927,8 +2652,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0085",
-   "report_page": 13,
-   "line": 3,
+   "report_page": 12,
+   "line": 15,
    "L": [
     33,
     16,
@@ -2952,8 +2677,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0195",
-   "report_page": 13,
-   "line": 4,
+   "report_page": 12,
+   "line": 16,
    "L": [
     36,
     15,
@@ -2977,8 +2702,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0173",
-   "report_page": 13,
-   "line": 5,
+   "report_page": 12,
+   "line": 17,
    "L": [
     20,
     11,
@@ -3002,8 +2727,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0137",
-   "report_page": 13,
-   "line": 6,
+   "report_page": 12,
+   "line": 18,
    "L": [
     26,
     2,
@@ -3027,8 +2752,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0169",
-   "report_page": 13,
-   "line": 7,
+   "report_page": 12,
+   "line": 19,
    "L": [
     15,
     2,
@@ -3052,8 +2777,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0018",
-   "report_page": 13,
-   "line": 8,
+   "report_page": 12,
+   "line": 20,
    "L": [
     26,
     4,
@@ -3076,34 +2801,9 @@
    "code": "N|-1"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0103",
-   "report_page": 13,
-   "line": 9,
-   "L": [
-    53,
-    1,
-    11,
-    8,
-    3
-   ],
-   "R": [
-    53,
-    2,
-    9,
-    7,
-    2
-   ],
-   "distance": 5,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0210",
    "report_page": 13,
-   "line": 10,
+   "line": 2,
    "L": [
     69,
     14,
@@ -3128,7 +2828,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0117",
    "report_page": 13,
-   "line": 11,
+   "line": 3,
    "L": [
     32,
     7,
@@ -3153,7 +2853,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0031",
    "report_page": 13,
-   "line": 12,
+   "line": 4,
    "L": [
     23,
     5,
@@ -3178,7 +2878,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0204",
    "report_page": 13,
-   "line": 13,
+   "line": 5,
    "L": [
     23,
     0,
@@ -3203,7 +2903,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0213",
    "report_page": 13,
-   "line": 14,
+   "line": 6,
    "L": [
     15,
     2,
@@ -3228,7 +2928,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0250",
    "report_page": 13,
-   "line": 15,
+   "line": 7,
    "L": [
     56,
     9,
@@ -3253,7 +2953,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0038",
    "report_page": 13,
-   "line": 16,
+   "line": 8,
    "L": [
     25,
     1,
@@ -3278,7 +2978,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0102",
    "report_page": 13,
-   "line": 17,
+   "line": 9,
    "L": [
     53,
     5,
@@ -3302,8 +3002,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0080",
-   "report_page": 14,
-   "line": 1,
+   "report_page": 13,
+   "line": 10,
    "L": [
     11,
     5,
@@ -3327,8 +3027,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0134",
-   "report_page": 14,
-   "line": 2,
+   "report_page": 13,
+   "line": 11,
    "L": [
     31,
     10,
@@ -3352,8 +3052,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0148",
-   "report_page": 14,
-   "line": 3,
+   "report_page": 13,
+   "line": 12,
    "L": [
     13,
     6,
@@ -3371,14 +3071,14 @@
    "distance": 12,
    "comp_delta": 8,
    "signed_delta": 8,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|+8"
+   "flag": "component",
+   "rendered": true,
+   "code": "C|+8"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0144",
-   "report_page": 14,
-   "line": 4,
+   "report_page": 13,
+   "line": 13,
    "L": [
     40,
     8,
@@ -3402,8 +3102,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0123",
-   "report_page": 14,
-   "line": 5,
+   "report_page": 13,
+   "line": 14,
    "L": [
     48,
     12,
@@ -3427,8 +3127,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0229",
-   "report_page": 14,
-   "line": 6,
+   "report_page": 13,
+   "line": 15,
    "L": [
     33,
     4,
@@ -3451,34 +3151,9 @@
    "code": "W|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0225",
-   "report_page": 14,
-   "line": 7,
-   "L": [
-    128,
-    51,
-    28,
-    17,
-    11
-   ],
-   "R": [
-    128,
-    71,
-    25,
-    12,
-    13
-   ],
-   "distance": 30,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0089",
    "report_page": 14,
-   "line": 8,
+   "line": 2,
    "L": [
     67,
     44,
@@ -3503,7 +3178,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0165",
    "report_page": 14,
-   "line": 9,
+   "line": 3,
    "L": [
     28,
     2,
@@ -3528,7 +3203,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0150",
    "report_page": 14,
-   "line": 10,
+   "line": 4,
    "L": [
     24,
     9,
@@ -3553,7 +3228,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0160",
    "report_page": 14,
-   "line": 11,
+   "line": 5,
    "L": [
     22,
     2,
@@ -3578,7 +3253,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0260",
    "report_page": 14,
-   "line": 12,
+   "line": 6,
    "L": [
     37,
     5,
@@ -3603,7 +3278,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0088",
    "report_page": 14,
-   "line": 13,
+   "line": 7,
    "L": [
     70,
     39,
@@ -3627,8 +3302,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0185",
-   "report_page": 15,
-   "line": 1,
+   "report_page": 14,
+   "line": 8,
    "L": [
     56,
     20,
@@ -3652,8 +3327,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0166",
-   "report_page": 15,
-   "line": 2,
+   "report_page": 14,
+   "line": 9,
    "L": [
     25,
     5,
@@ -3671,14 +3346,14 @@
    "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+0"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0013",
-   "report_page": 15,
-   "line": 3,
+   "report_page": 14,
+   "line": 10,
    "L": [
     24,
     7,
@@ -3690,20 +3365,20 @@
     24,
     7,
     4,
-    4,
-    0
+    3,
+    1
    ],
-   "distance": 0,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "clean",
+   "flag": "noise",
    "rendered": true,
-   "code": "K|+0"
+   "code": "N|+0"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0154",
-   "report_page": 15,
-   "line": 4,
+   "report_page": 14,
+   "line": 11,
    "L": [
     66,
     22,
@@ -3726,34 +3401,9 @@
    "code": "W|+2"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0041",
-   "report_page": 15,
-   "line": 5,
-   "L": [
-    49,
-    9,
-    7,
-    7,
-    0
-   ],
-   "R": [
-    48,
-    13,
-    6,
-    6,
-    0
-   ],
-   "distance": 7,
-   "comp_delta": 1,
-   "signed_delta": -1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|-1"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0082",
    "report_page": 15,
-   "line": 6,
+   "line": 2,
    "L": [
     33,
     11,
@@ -3778,7 +3428,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0124",
    "report_page": 15,
-   "line": 7,
+   "line": 3,
    "L": [
     35,
     5,
@@ -3803,7 +3453,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0198",
    "report_page": 15,
-   "line": 8,
+   "line": 4,
    "L": [
     132,
     30,
@@ -3828,7 +3478,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0070",
    "report_page": 15,
-   "line": 9,
+   "line": 5,
    "L": [
     48,
     7,
@@ -3853,7 +3503,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0084",
    "report_page": 15,
-   "line": 10,
+   "line": 6,
    "L": [
     33,
     12,
@@ -3878,7 +3528,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0008",
    "report_page": 15,
-   "line": 11,
+   "line": 7,
    "L": [
     28,
     8,
@@ -3902,8 +3552,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0035",
-   "report_page": 16,
-   "line": 1,
+   "report_page": 15,
+   "line": 8,
    "L": [
     84,
     16,
@@ -3915,8 +3565,8 @@
     85,
     18,
     13,
-    12,
-    1
+    11,
+    2
    ],
    "distance": 67,
    "comp_delta": 1,
@@ -3927,8 +3577,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0042",
-   "report_page": 16,
-   "line": 2,
+   "report_page": 15,
+   "line": 9,
    "L": [
     26,
     7,
@@ -3952,8 +3602,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0065",
-   "report_page": 16,
-   "line": 3,
+   "report_page": 15,
+   "line": 10,
    "L": [
     13,
     3,
@@ -3977,8 +3627,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0126",
-   "report_page": 16,
-   "line": 4,
+   "report_page": 15,
+   "line": 11,
    "L": [
     64,
     18,
@@ -4001,34 +3651,9 @@
    "code": "S|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0139",
-   "report_page": 16,
-   "line": 5,
-   "L": [
-    65,
-    4,
-    17,
-    10,
-    7
-   ],
-   "R": [
-    65,
-    8,
-    10,
-    8,
-    2
-   ],
-   "distance": 18,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0032",
    "report_page": 16,
-   "line": 6,
+   "line": 2,
    "L": [
     62,
     13,
@@ -4053,7 +3678,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0176",
    "report_page": 16,
-   "line": 7,
+   "line": 3,
    "L": [
     40,
     2,
@@ -4078,7 +3703,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0252",
    "report_page": 16,
-   "line": 8,
+   "line": 4,
    "L": [
     62,
     15,
@@ -4090,8 +3715,8 @@
     62,
     16,
     15,
-    11,
-    4
+    10,
+    5
    ],
    "distance": 19,
    "comp_delta": 0,
@@ -4103,7 +3728,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0001",
    "report_page": 16,
-   "line": 9,
+   "line": 5,
    "L": [
     18,
     12,
@@ -4128,7 +3753,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0004",
    "report_page": 16,
-   "line": 10,
+   "line": 6,
    "L": [
     53,
     5,
@@ -4153,7 +3778,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0006",
    "report_page": 16,
-   "line": 11,
+   "line": 7,
    "L": [
     35,
     6,
@@ -4178,7 +3803,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0009",
    "report_page": 16,
-   "line": 12,
+   "line": 8,
    "L": [
     27,
     5,
@@ -4203,7 +3828,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0011",
    "report_page": 16,
-   "line": 13,
+   "line": 9,
    "L": [
     14,
     4,
@@ -4227,8 +3852,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0012",
-   "report_page": 17,
-   "line": 1,
+   "report_page": 16,
+   "line": 10,
    "L": [
     13,
     2,
@@ -4252,8 +3877,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0014",
-   "report_page": 17,
-   "line": 2,
+   "report_page": 16,
+   "line": 11,
    "L": [
     54,
     20,
@@ -4277,8 +3902,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0015",
-   "report_page": 17,
-   "line": 3,
+   "report_page": 16,
+   "line": 12,
    "L": [
     40,
     15,
@@ -4302,8 +3927,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0016",
-   "report_page": 17,
-   "line": 4,
+   "report_page": 16,
+   "line": 13,
    "L": [
     48,
     12,
@@ -4327,8 +3952,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0017",
-   "report_page": 17,
-   "line": 5,
+   "report_page": 16,
+   "line": 14,
    "L": [
     49,
     15,
@@ -4352,8 +3977,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0019",
-   "report_page": 17,
-   "line": 6,
+   "report_page": 16,
+   "line": 15,
    "L": [
     30,
     4,
@@ -4376,34 +4001,9 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0023",
-   "report_page": 17,
-   "line": 7,
-   "L": [
-    20,
-    1,
-    3,
-    3,
-    0
-   ],
-   "R": [
-    20,
-    1,
-    3,
-    3,
-    0
-   ],
-   "distance": 0,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "clean",
-   "rendered": true,
-   "code": "K|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0024",
    "report_page": 17,
-   "line": 8,
+   "line": 2,
    "L": [
     9,
     1,
@@ -4428,7 +4028,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0025",
    "report_page": 17,
-   "line": 9,
+   "line": 3,
    "L": [
     23,
     1,
@@ -4453,7 +4053,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0027",
    "report_page": 17,
-   "line": 10,
+   "line": 4,
    "L": [
     18,
     4,
@@ -4478,7 +4078,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0028",
    "report_page": 17,
-   "line": 11,
+   "line": 5,
    "L": [
     25,
     3,
@@ -4503,7 +4103,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0029",
    "report_page": 17,
-   "line": 12,
+   "line": 6,
    "L": [
     24,
     2,
@@ -4528,7 +4128,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0037",
    "report_page": 17,
-   "line": 13,
+   "line": 7,
    "L": [
     31,
     5,
@@ -4553,7 +4153,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0044",
    "report_page": 17,
-   "line": 14,
+   "line": 8,
    "L": [
     22,
     14,
@@ -4578,7 +4178,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0047",
    "report_page": 17,
-   "line": 15,
+   "line": 9,
    "L": [
     33,
     2,
@@ -4603,7 +4203,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0048",
    "report_page": 17,
-   "line": 16,
+   "line": 10,
    "L": [
     32,
     8,
@@ -4627,8 +4227,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0049",
-   "report_page": 18,
-   "line": 1,
+   "report_page": 17,
+   "line": 11,
    "L": [
     97,
     31,
@@ -4639,11 +4239,11 @@
    "R": [
     103,
     34,
-    3,
-    1,
+    7,
+    5,
     2
    ],
-   "distance": 123,
+   "distance": 115,
    "comp_delta": 6,
    "signed_delta": 6,
    "flag": "component",
@@ -4652,8 +4252,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0050",
-   "report_page": 18,
-   "line": 2,
+   "report_page": 17,
+   "line": 12,
    "L": [
     28,
     4,
@@ -4677,33 +4277,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0051",
-   "report_page": 18,
-   "line": 3,
-   "L": [
-    22,
-    9,
-    14,
-    14,
-    0
-   ],
-   "R": [
-    22,
-    7,
-    14,
-    14,
-    0
-   ],
-   "distance": 2,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
-   "id": "fong-spivak-seven-sketches_EQ0052",
-   "report_page": 18,
-   "line": 4,
+   "report_page": 17,
+   "line": 13,
    "L": [
     22,
     9,
@@ -4728,7 +4303,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0055",
    "report_page": 18,
-   "line": 5,
+   "line": 2,
    "L": [
     23,
     5,
@@ -4753,7 +4328,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0058",
    "report_page": 18,
-   "line": 6,
+   "line": 3,
    "L": [
     59,
     3,
@@ -4778,7 +4353,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0060",
    "report_page": 18,
-   "line": 7,
+   "line": 4,
    "L": [
     19,
     3,
@@ -4803,7 +4378,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0062",
    "report_page": 18,
-   "line": 8,
+   "line": 5,
    "L": [
     53,
     16,
@@ -4828,7 +4403,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0067",
    "report_page": 18,
-   "line": 9,
+   "line": 6,
    "L": [
     28,
     6,
@@ -4853,7 +4428,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0076",
    "report_page": 18,
-   "line": 10,
+   "line": 7,
    "L": [
     23,
     2,
@@ -4878,7 +4453,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0090",
    "report_page": 18,
-   "line": 11,
+   "line": 8,
    "L": [
     21,
     4,
@@ -4903,7 +4478,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0095",
    "report_page": 18,
-   "line": 12,
+   "line": 9,
    "L": [
     59,
     1,
@@ -4927,8 +4502,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0099",
-   "report_page": 19,
-   "line": 1,
+   "report_page": 18,
+   "line": 10,
    "L": [
     44,
     12,
@@ -4952,8 +4527,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0101",
-   "report_page": 19,
-   "line": 2,
+   "report_page": 18,
+   "line": 11,
    "L": [
     46,
     1,
@@ -4965,10 +4540,10 @@
     45,
     4,
     11,
-    4,
-    7
+    5,
+    6
    ],
-   "distance": 10,
+   "distance": 8,
    "comp_delta": 1,
    "signed_delta": -1,
    "flag": "weak",
@@ -4977,8 +4552,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0106",
-   "report_page": 19,
-   "line": 3,
+   "report_page": 18,
+   "line": 12,
    "L": [
     44,
     4,
@@ -5002,13 +4577,13 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0108",
-   "report_page": 19,
-   "line": 4,
+   "report_page": 18,
+   "line": 13,
    "L": [
     23,
     8,
-    11,
-    7,
+    10,
+    6,
     4
    ],
    "R": [
@@ -5018,7 +4593,7 @@
     2,
     1
    ],
-   "distance": 17,
+   "distance": 15,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -5027,8 +4602,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0110",
-   "report_page": 19,
-   "line": 5,
+   "report_page": 18,
+   "line": 14,
    "L": [
     32,
     7,
@@ -5052,8 +4627,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0112",
-   "report_page": 19,
-   "line": 6,
+   "report_page": 18,
+   "line": 15,
    "L": [
     21,
     6,
@@ -5077,8 +4652,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0114",
-   "report_page": 19,
-   "line": 7,
+   "report_page": 18,
+   "line": 16,
    "L": [
     23,
     3,
@@ -5101,34 +4676,9 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0118",
-   "report_page": 19,
-   "line": 8,
-   "L": [
-    36,
-    9,
-    3,
-    3,
-    0
-   ],
-   "R": [
-    36,
-    9,
-    3,
-    3,
-    0
-   ],
-   "distance": 0,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "clean",
-   "rendered": true,
-   "code": "K|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0122",
    "report_page": 19,
-   "line": 9,
+   "line": 2,
    "L": [
     38,
     7,
@@ -5153,7 +4703,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0127",
    "report_page": 19,
-   "line": 10,
+   "line": 3,
    "L": [
     29,
     7,
@@ -5178,7 +4728,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0130",
    "report_page": 19,
-   "line": 11,
+   "line": 4,
    "L": [
     14,
     3,
@@ -5203,7 +4753,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0135",
    "report_page": 19,
-   "line": 12,
+   "line": 5,
    "L": [
     21,
     3,
@@ -5228,7 +4778,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0138",
    "report_page": 19,
-   "line": 13,
+   "line": 6,
    "L": [
     47,
     6,
@@ -5253,7 +4803,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0141",
    "report_page": 19,
-   "line": 14,
+   "line": 7,
    "L": [
     82,
     1,
@@ -5278,7 +4828,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0145",
    "report_page": 19,
-   "line": 15,
+   "line": 8,
    "L": [
     43,
     0,
@@ -5303,7 +4853,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0149",
    "report_page": 19,
-   "line": 16,
+   "line": 9,
    "L": [
     18,
     4,
@@ -5327,8 +4877,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0151",
-   "report_page": 20,
-   "line": 1,
+   "report_page": 19,
+   "line": 10,
    "L": [
     49,
     11,
@@ -5352,8 +4902,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0152",
-   "report_page": 20,
-   "line": 2,
+   "report_page": 19,
+   "line": 11,
    "L": [
     20,
     4,
@@ -5377,8 +4927,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0155",
-   "report_page": 20,
-   "line": 3,
+   "report_page": 19,
+   "line": 12,
    "L": [
     29,
     11,
@@ -5402,8 +4952,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0161",
-   "report_page": 20,
-   "line": 4,
+   "report_page": 19,
+   "line": 13,
    "L": [
     17,
     0,
@@ -5427,8 +4977,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0162",
-   "report_page": 20,
-   "line": 5,
+   "report_page": 19,
+   "line": 14,
    "L": [
     74,
     0,
@@ -5452,8 +5002,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0167",
-   "report_page": 20,
-   "line": 6,
+   "report_page": 19,
+   "line": 15,
    "L": [
     10,
     0,
@@ -5477,8 +5027,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0170",
-   "report_page": 20,
-   "line": 7,
+   "report_page": 19,
+   "line": 16,
    "L": [
     35,
     4,
@@ -5489,11 +5039,11 @@
    "R": [
     37,
     5,
-    6,
-    6,
+    4,
+    4,
     0
    ],
-   "distance": 13,
+   "distance": 17,
    "comp_delta": 2,
    "signed_delta": 2,
    "flag": "weak",
@@ -5502,8 +5052,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0174",
-   "report_page": 20,
-   "line": 8,
+   "report_page": 19,
+   "line": 17,
    "L": [
     33,
     7,
@@ -5526,34 +5076,9 @@
    "code": "N|-2"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0177",
-   "report_page": 20,
-   "line": 9,
-   "L": [
-    36,
-    0,
-    0,
-    0,
-    0
-   ],
-   "R": [
-    36,
-    1,
-    0,
-    0,
-    0
-   ],
-   "distance": 1,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0178",
    "report_page": 20,
-   "line": 10,
+   "line": 2,
    "L": [
     30,
     0,
@@ -5578,7 +5103,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0180",
    "report_page": 20,
-   "line": 11,
+   "line": 3,
    "L": [
     70,
     0,
@@ -5596,14 +5121,14 @@
    "distance": 10,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "stable",
+   "flag": "weak",
    "rendered": true,
-   "code": "S|+0"
+   "code": "W|+0"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0182",
    "report_page": 20,
-   "line": 12,
+   "line": 4,
    "L": [
     34,
     2,
@@ -5628,7 +5153,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0183",
    "report_page": 20,
-   "line": 13,
+   "line": 5,
    "L": [
     39,
     5,
@@ -5653,7 +5178,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0190",
    "report_page": 20,
-   "line": 14,
+   "line": 6,
    "L": [
     25,
     7,
@@ -5677,8 +5202,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0192",
-   "report_page": 21,
-   "line": 1,
+   "report_page": 20,
+   "line": 7,
    "L": [
     154,
     55,
@@ -5702,8 +5227,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0196",
-   "report_page": 21,
-   "line": 2,
+   "report_page": 20,
+   "line": 8,
    "L": [
     37,
     16,
@@ -5727,8 +5252,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0197",
-   "report_page": 21,
-   "line": 3,
+   "report_page": 20,
+   "line": 9,
    "L": [
     36,
     27,
@@ -5752,33 +5277,33 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0200",
-   "report_page": 21,
-   "line": 4,
+   "report_page": 20,
+   "line": 10,
    "L": [
-    81,
+    75,
     46,
-    47,
-    47,
+    41,
+    41,
     0
    ],
    "R": [
     75,
     43,
     41,
-    40,
-    1
+    39,
+    2
    ],
-   "distance": 23,
-   "comp_delta": 6,
-   "signed_delta": -6,
-   "flag": "component",
+   "distance": 7,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "noise",
    "rendered": true,
-   "code": "C|-6"
+   "code": "N|+0"
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0201",
-   "report_page": 21,
-   "line": 5,
+   "report_page": 20,
+   "line": 11,
    "L": [
     29,
     3,
@@ -5802,8 +5327,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0202",
-   "report_page": 21,
-   "line": 6,
+   "report_page": 20,
+   "line": 12,
    "L": [
     34,
     6,
@@ -5826,34 +5351,9 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0203",
-   "report_page": 21,
-   "line": 7,
-   "L": [
-    34,
-    5,
-    0,
-    0,
-    0
-   ],
-   "R": [
-    34,
-    8,
-    0,
-    0,
-    0
-   ],
-   "distance": 3,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0207",
    "report_page": 21,
-   "line": 8,
+   "line": 2,
    "L": [
     45,
     0,
@@ -5878,7 +5378,7 @@
   {
    "id": "fong-spivak-seven-sketches_EQ0208",
    "report_page": 21,
-   "line": 9,
+   "line": 3,
    "L": [
     30,
     2,
@@ -5902,8 +5402,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0209",
-   "report_page": 22,
-   "line": 1,
+   "report_page": 21,
+   "line": 4,
    "L": [
     67,
     11,
@@ -5927,8 +5427,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0211",
-   "report_page": 22,
-   "line": 2,
+   "report_page": 21,
+   "line": 5,
    "L": [
     45,
     3,
@@ -5952,8 +5452,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0212",
-   "report_page": 22,
-   "line": 3,
+   "report_page": 21,
+   "line": 6,
    "L": [
     71,
     0,
@@ -5977,8 +5477,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0215",
-   "report_page": 22,
-   "line": 4,
+   "report_page": 21,
+   "line": 7,
    "L": [
     53,
     10,
@@ -5989,11 +5489,11 @@
    "R": [
     53,
     23,
-    11,
+    10,
     9,
-    2
+    1
    ],
-   "distance": 13,
+   "distance": 15,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -6002,8 +5502,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0216",
-   "report_page": 22,
-   "line": 5,
+   "report_page": 21,
+   "line": 8,
    "L": [
     53,
     9,
@@ -6027,8 +5527,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0220",
-   "report_page": 22,
-   "line": 6,
+   "report_page": 21,
+   "line": 9,
    "L": [
     43,
     11,
@@ -6052,8 +5552,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0231",
-   "report_page": 22,
-   "line": 7,
+   "report_page": 21,
+   "line": 10,
    "L": [
     39,
     1,
@@ -6077,8 +5577,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0232",
-   "report_page": 22,
-   "line": 8,
+   "report_page": 21,
+   "line": 11,
    "L": [
     44,
     2,
@@ -6102,8 +5602,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0233",
-   "report_page": 22,
-   "line": 9,
+   "report_page": 21,
+   "line": 12,
    "L": [
     25,
     8,
@@ -6127,8 +5627,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0234",
-   "report_page": 22,
-   "line": 10,
+   "report_page": 21,
+   "line": 13,
    "L": [
     52,
     16,
@@ -6152,8 +5652,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0235",
-   "report_page": 22,
-   "line": 11,
+   "report_page": 21,
+   "line": 14,
    "L": [
     50,
     4,
@@ -6177,8 +5677,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0236",
-   "report_page": 22,
-   "line": 12,
+   "report_page": 21,
+   "line": 15,
    "L": [
     19,
     12,
@@ -6201,34 +5701,9 @@
    "code": "K|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0237",
-   "report_page": 22,
-   "line": 13,
-   "L": [
-    37,
-    16,
-    10,
-    10,
-    0
-   ],
-   "R": [
-    37,
-    20,
-    10,
-    10,
-    0
-   ],
-   "distance": 4,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0238",
-   "report_page": 23,
-   "line": 1,
+   "report_page": 22,
+   "line": 2,
    "L": [
     28,
     17,
@@ -6252,32 +5727,7 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0239",
-   "report_page": 23,
-   "line": 2,
-   "L": [
-    5,
-    0,
-    0,
-    0,
-    0
-   ],
-   "R": [
-    5,
-    0,
-    0,
-    0,
-    0
-   ],
-   "distance": 0,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "clean",
-   "rendered": true,
-   "code": "K|+0"
-  },
-  {
-   "id": "fong-spivak-seven-sketches_EQ0240",
-   "report_page": 23,
+   "report_page": 22,
    "line": 3,
    "L": [
     5,
@@ -6301,9 +5751,34 @@
    "code": "K|+0"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0241",
-   "report_page": 23,
+   "id": "fong-spivak-seven-sketches_EQ0240",
+   "report_page": 22,
    "line": 4,
+   "L": [
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   "R": [
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
+   "rendered": true,
+   "code": "K|+0"
+  },
+  {
+   "id": "fong-spivak-seven-sketches_EQ0241",
+   "report_page": 22,
+   "line": 5,
    "L": [
     25,
     1,
@@ -6327,8 +5802,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0243",
-   "report_page": 23,
-   "line": 5,
+   "report_page": 22,
+   "line": 6,
    "L": [
     83,
     7,
@@ -6352,8 +5827,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0244",
-   "report_page": 23,
-   "line": 6,
+   "report_page": 22,
+   "line": 7,
    "L": [
     25,
     4,
@@ -6377,8 +5852,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0246",
-   "report_page": 23,
-   "line": 7,
+   "report_page": 22,
+   "line": 8,
    "L": [
     15,
     4,
@@ -6402,8 +5877,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0247",
-   "report_page": 23,
-   "line": 8,
+   "report_page": 22,
+   "line": 9,
    "L": [
     51,
     8,
@@ -6427,8 +5902,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0248",
-   "report_page": 23,
-   "line": 9,
+   "report_page": 22,
+   "line": 10,
    "L": [
     47,
     11,
@@ -6452,14 +5927,14 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0249",
-   "report_page": 23,
-   "line": 10,
+   "report_page": 22,
+   "line": 11,
    "L": [
     62,
     15,
-    20,
-    12,
-    8
+    18,
+    11,
+    7
    ],
    "R": [
     62,
@@ -6468,7 +5943,7 @@
     10,
     2
    ],
-   "distance": 20,
+   "distance": 16,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -6477,8 +5952,8 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0254",
-   "report_page": 23,
-   "line": 11,
+   "report_page": 22,
+   "line": 12,
    "L": [
     38,
     7,
@@ -6502,14 +5977,14 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0255",
-   "report_page": 23,
-   "line": 12,
+   "report_page": 22,
+   "line": 13,
    "L": [
     94,
     9,
-    80,
-    42,
-    38
+    77,
+    40,
+    37
    ],
    "R": [
     80,
@@ -6518,7 +5993,7 @@
     25,
     37
    ],
-   "distance": 52,
+   "distance": 46,
    "comp_delta": 14,
    "signed_delta": -14,
    "flag": "component",
@@ -6526,33 +6001,8 @@
    "code": "C|-14"
   },
   {
-   "id": "fong-spivak-seven-sketches_EQ0261",
-   "report_page": 24,
-   "line": 1,
-   "L": [
-    85,
-    34,
-    66,
-    29,
-    37
-   ],
-   "R": [
-    89,
-    27,
-    22,
-    10,
-    12
-   ],
-   "distance": 99,
-   "comp_delta": 4,
-   "signed_delta": 4,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|+4"
-  },
-  {
    "id": "fong-spivak-seven-sketches_EQ0263",
-   "report_page": 24,
+   "report_page": 23,
    "line": 2,
    "L": [
     23,
@@ -6577,7 +6027,7 @@
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0264",
-   "report_page": 24,
+   "report_page": 23,
    "line": 3,
    "L": [
     65,
@@ -6589,16 +6039,16 @@
    "R": [
     66,
     26,
-    18,
+    19,
     3,
-    15
+    16
    ],
-   "distance": 7,
+   "distance": 9,
    "comp_delta": 1,
    "signed_delta": 1,
-   "flag": "noise",
+   "flag": "weak",
    "rendered": true,
-   "code": "N|+1"
+   "code": "W|+1"
   }
  ],
  "footers_dropped": 0,
@@ -6606,21 +6056,24 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 106,
-  "bytes": 13323529,
-  "sha256": "d0d5e0f02d901a0e61b464c1ede2c8c30892d602fd038df575cbb2dad44e1920",
-  "mtime": 1788273702,
-  "built_at": "2026-09-01T14:41:42Z",
-  "commit": "c0a5bcdae0b6",
+  "pages": 29,
+  "bytes": 4484370,
+  "sha256": "6548c5c68ffbe8a4a0e9e5738992057c2ee393efed6906cc4d26c79cbf6426c4",
+  "mtime": 1788609152,
+  "findings": false,
+  "built_at": "2026-09-05T11:52:33Z",
+  "commit": "d9fd1dbffd18",
   "legend": false,
   "ink_adopted": false,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
+  "bullets": false,
   "phase": "measure",
-  "formula_rule": "none",
-  "model_sha256": "906547f9f9fb5478310f5b24015a17af48e06a5a065f0094dfa45704773b304c",
-  "model_bytes": 38940098,
-  "model_mtime": 1788266798
+  "formula_rule": "all",
+  "pages_bound": null,
+  "model_sha256": "867a6097744ed849ba92a7eebb8570f5e47b443a48b28243b123e53ced5f5e73",
+  "model_bytes": 47862596,
+  "model_mtime": 1788463550
  }
 }

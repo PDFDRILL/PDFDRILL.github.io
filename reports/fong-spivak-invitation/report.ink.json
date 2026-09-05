@@ -21,9 +21,9 @@
    "distance": 133,
    "comp_delta": 70,
    "signed_delta": 70,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|+70"
+   "flag": "component",
+   "rendered": true,
+   "code": "C|+70"
   },
   {
    "id": "fong-spivak-invitation_EQ0062",
@@ -74,31 +74,6 @@
    "flag": "component",
    "rendered": true,
    "code": "C|+7"
-  },
-  {
-   "id": "fong-spivak-invitation_EQ0135",
-   "report_page": 1,
-   "line": 4,
-   "L": [
-    94,
-    13,
-    38,
-    26,
-    12
-   ],
-   "R": [
-    102,
-    17,
-    51,
-    39,
-    12
-   ],
-   "distance": 38,
-   "comp_delta": 8,
-   "signed_delta": 8,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|+8"
   },
   {
    "id": "fong-spivak-invitation_EQ0096",
@@ -189,11 +164,11 @@
    "R": [
     158,
     40,
-    6,
+    7,
     5,
-    1
+    2
    ],
-   "distance": 119,
+   "distance": 117,
    "comp_delta": 5,
    "signed_delta": -5,
    "flag": "component",
@@ -252,8 +227,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0201",
-   "report_page": 3,
-   "line": 1,
+   "report_page": 2,
+   "line": 7,
    "L": [
     25,
     2,
@@ -265,45 +240,20 @@
     26,
     10,
     10,
-    8,
-    2
+    9,
+    1
    ],
    "distance": 15,
    "comp_delta": 1,
    "signed_delta": 1,
-   "flag": "stable",
+   "flag": "weak",
    "rendered": true,
-   "code": "S|+1"
-  },
-  {
-   "id": "fong-spivak-invitation_EQ0020",
-   "report_page": 3,
-   "line": 2,
-   "L": [
-    68,
-    19,
-    16,
-    9,
-    7
-   ],
-   "R": [
-    93,
-    39,
-    36,
-    21,
-    15
-   ],
-   "distance": 85,
-   "comp_delta": 25,
-   "signed_delta": 25,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|+25"
+   "code": "W|+1"
   },
   {
    "id": "fong-spivak-invitation_EQ0242",
    "report_page": 3,
-   "line": 3,
+   "line": 2,
    "L": [
     35,
     1,
@@ -328,7 +278,7 @@
   {
    "id": "fong-spivak-invitation_EQ0223",
    "report_page": 3,
-   "line": 4,
+   "line": 3,
    "L": [
     51,
     13,
@@ -353,7 +303,7 @@
   {
    "id": "fong-spivak-invitation_EQ0070",
    "report_page": 3,
-   "line": 5,
+   "line": 4,
    "L": [
     5,
     2,
@@ -378,7 +328,7 @@
   {
    "id": "fong-spivak-invitation_EQ0185",
    "report_page": 3,
-   "line": 6,
+   "line": 5,
    "L": [
     167,
     15,
@@ -403,12 +353,12 @@
   {
    "id": "fong-spivak-invitation_EQ0222",
    "report_page": 3,
-   "line": 7,
+   "line": 6,
    "L": [
     129,
     59,
-    28,
-    17,
+    27,
+    16,
     11
    ],
    "R": [
@@ -418,7 +368,7 @@
     12,
     9
    ],
-   "distance": 15,
+   "distance": 13,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -428,7 +378,7 @@
   {
    "id": "fong-spivak-invitation_EQ0134",
    "report_page": 3,
-   "line": 8,
+   "line": 7,
    "L": [
     49,
     2,
@@ -452,8 +402,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0116",
-   "report_page": 4,
-   "line": 1,
+   "report_page": 3,
+   "line": 8,
    "L": [
     27,
     8,
@@ -476,39 +426,14 @@
    "code": "C|-3"
   },
   {
-   "id": "fong-spivak-invitation_EQ0023",
+   "id": "fong-spivak-invitation_EQ0227",
    "report_page": 4,
    "line": 2,
    "L": [
-    36,
-    6,
-    22,
-    11,
-    10
-   ],
-   "R": [
-    36,
-    7,
-    18,
-    11,
-    7
-   ],
-   "distance": 8,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "stable",
-   "rendered": true,
-   "code": "S|+0"
-  },
-  {
-   "id": "fong-spivak-invitation_EQ0227",
-   "report_page": 4,
-   "line": 3,
-   "L": [
     175,
     61,
-    20,
-    8,
+    18,
+    6,
     12
    ],
    "R": [
@@ -518,7 +443,7 @@
     7,
     14
    ],
-   "distance": 80,
+   "distance": 82,
    "comp_delta": 43,
    "signed_delta": 43,
    "flag": "component",
@@ -528,22 +453,22 @@
   {
    "id": "fong-spivak-invitation_EQ0040",
    "report_page": 4,
-   "line": 4,
+   "line": 3,
    "L": [
     148,
     43,
-    77,
+    78,
     34,
     42
    ],
    "R": [
     149,
     47,
-    39,
-    28,
-    11
+    46,
+    30,
+    16
    ],
-   "distance": 80,
+   "distance": 67,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
@@ -553,7 +478,7 @@
   {
    "id": "fong-spivak-invitation_EQ0256",
    "report_page": 4,
-   "line": 5,
+   "line": 4,
    "L": [
     61,
     23,
@@ -578,7 +503,7 @@
   {
    "id": "fong-spivak-invitation_EQ0043",
    "report_page": 4,
-   "line": 6,
+   "line": 5,
    "L": [
     70,
     10,
@@ -603,7 +528,7 @@
   {
    "id": "fong-spivak-invitation_EQ0112",
    "report_page": 4,
-   "line": 7,
+   "line": 6,
    "L": [
     30,
     6,
@@ -627,8 +552,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0059",
-   "report_page": 5,
-   "line": 1,
+   "report_page": 4,
+   "line": 7,
    "L": [
     17,
     1,
@@ -651,34 +576,9 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-invitation_EQ0118",
-   "report_page": 5,
-   "line": 2,
-   "L": [
-    30,
-    5,
-    2,
-    2,
-    0
-   ],
-   "R": [
-    40,
-    7,
-    4,
-    3,
-    1
-   ],
-   "distance": 16,
-   "comp_delta": 10,
-   "signed_delta": 10,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|+10"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0037",
    "report_page": 5,
-   "line": 3,
+   "line": 2,
    "L": [
     28,
     5,
@@ -703,7 +603,7 @@
   {
    "id": "fong-spivak-invitation_EQ0260",
    "report_page": 5,
-   "line": 4,
+   "line": 3,
    "L": [
     45,
     7,
@@ -728,7 +628,7 @@
   {
    "id": "fong-spivak-invitation_EQ0075",
    "report_page": 5,
-   "line": 5,
+   "line": 4,
    "L": [
     13,
     6,
@@ -746,14 +646,14 @@
    "distance": 69,
    "comp_delta": 40,
    "signed_delta": 40,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|+40"
+   "flag": "component",
+   "rendered": true,
+   "code": "C|+40"
   },
   {
    "id": "fong-spivak-invitation_EQ0141",
    "report_page": 5,
-   "line": 6,
+   "line": 5,
    "L": [
     64,
     4,
@@ -778,7 +678,7 @@
   {
    "id": "fong-spivak-invitation_EQ0214",
    "report_page": 5,
-   "line": 7,
+   "line": 6,
    "L": [
     139,
     42,
@@ -803,7 +703,7 @@
   {
    "id": "fong-spivak-invitation_EQ0024",
    "report_page": 5,
-   "line": 8,
+   "line": 7,
    "L": [
     28,
     11,
@@ -821,14 +721,14 @@
    "distance": 6,
    "comp_delta": 2,
    "signed_delta": 2,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+2"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+2"
   },
   {
    "id": "fong-spivak-invitation_EQ0255",
    "report_page": 5,
-   "line": 9,
+   "line": 8,
    "L": [
     47,
     23,
@@ -853,7 +753,7 @@
   {
    "id": "fong-spivak-invitation_EQ0210",
    "report_page": 5,
-   "line": 10,
+   "line": 9,
    "L": [
     17,
     4,
@@ -877,8 +777,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0186",
-   "report_page": 6,
-   "line": 1,
+   "report_page": 5,
+   "line": 10,
    "L": [
     157,
     55,
@@ -889,11 +789,11 @@
    "R": [
     163,
     56,
-    31,
-    22,
-    9
+    30,
+    20,
+    10
    ],
-   "distance": 49,
+   "distance": 51,
    "comp_delta": 6,
    "signed_delta": 6,
    "flag": "component",
@@ -901,34 +801,9 @@
    "code": "C|+6"
   },
   {
-   "id": "fong-spivak-invitation_EQ0092",
-   "report_page": 6,
-   "line": 2,
-   "L": [
-    21,
-    4,
-    5,
-    5,
-    0
-   ],
-   "R": [
-    24,
-    12,
-    7,
-    5,
-    2
-   ],
-   "distance": 15,
-   "comp_delta": 3,
-   "signed_delta": 3,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|+3"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0077",
    "report_page": 6,
-   "line": 3,
+   "line": 2,
    "L": [
     13,
     6,
@@ -946,14 +821,14 @@
    "distance": 14,
    "comp_delta": 7,
    "signed_delta": -7,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|-7"
+   "flag": "component",
+   "rendered": true,
+   "code": "C|-7"
   },
   {
    "id": "fong-spivak-invitation_EQ0071",
    "report_page": 6,
-   "line": 4,
+   "line": 3,
    "L": [
     38,
     14,
@@ -978,7 +853,7 @@
   {
    "id": "fong-spivak-invitation_EQ0206",
    "report_page": 6,
-   "line": 5,
+   "line": 4,
    "L": [
     69,
     10,
@@ -1003,7 +878,7 @@
   {
    "id": "fong-spivak-invitation_EQ0074",
    "report_page": 6,
-   "line": 6,
+   "line": 5,
    "L": [
     34,
     4,
@@ -1028,7 +903,7 @@
   {
    "id": "fong-spivak-invitation_EQ0239",
    "report_page": 6,
-   "line": 7,
+   "line": 6,
    "L": [
     51,
     0,
@@ -1046,14 +921,14 @@
    "distance": 12,
    "comp_delta": 4,
    "signed_delta": -4,
-   "flag": "component",
-   "rendered": true,
-   "code": "C|-4"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|-4"
   },
   {
    "id": "fong-spivak-invitation_EQ0073",
    "report_page": 6,
-   "line": 8,
+   "line": 7,
    "L": [
     8,
     0,
@@ -1078,7 +953,7 @@
   {
    "id": "fong-spivak-invitation_EQ0025",
    "report_page": 6,
-   "line": 9,
+   "line": 8,
    "L": [
     14,
     0,
@@ -1103,7 +978,7 @@
   {
    "id": "fong-spivak-invitation_EQ0132",
    "report_page": 6,
-   "line": 10,
+   "line": 9,
    "L": [
     33,
     6,
@@ -1128,7 +1003,7 @@
   {
    "id": "fong-spivak-invitation_EQ0057",
    "report_page": 6,
-   "line": 11,
+   "line": 10,
    "L": [
     24,
     5,
@@ -1153,7 +1028,7 @@
   {
    "id": "fong-spivak-invitation_EQ0123",
    "report_page": 6,
-   "line": 12,
+   "line": 11,
    "L": [
     23,
     7,
@@ -1174,31 +1049,6 @@
    "flag": "clean",
    "rendered": true,
    "code": "K|+0"
-  },
-  {
-   "id": "fong-spivak-invitation_EQ0221",
-   "report_page": 7,
-   "line": 1,
-   "L": [
-    217,
-    95,
-    142,
-    116,
-    26
-   ],
-   "R": [
-    217,
-    89,
-    120,
-    107,
-    13
-   ],
-   "distance": 50,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0010",
@@ -1314,11 +1164,11 @@
    "R": [
     25,
     11,
-    5,
-    2,
+    4,
+    1,
     3
    ],
-   "distance": 21,
+   "distance": 19,
    "comp_delta": 11,
    "signed_delta": 11,
    "flag": "component",
@@ -1352,8 +1202,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0224",
-   "report_page": 8,
-   "line": 1,
+   "report_page": 7,
+   "line": 8,
    "L": [
     38,
     6,
@@ -1376,34 +1226,9 @@
    "code": "N|-1"
   },
   {
-   "id": "fong-spivak-invitation_EQ0055",
-   "report_page": 8,
-   "line": 2,
-   "L": [
-    20,
-    3,
-    2,
-    2,
-    0
-   ],
-   "R": [
-    21,
-    3,
-    7,
-    2,
-    5
-   ],
-   "distance": 11,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+1"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0107",
    "report_page": 8,
-   "line": 3,
+   "line": 2,
    "L": [
     46,
     2,
@@ -1428,7 +1253,7 @@
   {
    "id": "fong-spivak-invitation_EQ0151",
    "report_page": 8,
-   "line": 4,
+   "line": 3,
    "L": [
     19,
     4,
@@ -1453,7 +1278,7 @@
   {
    "id": "fong-spivak-invitation_EQ0191",
    "report_page": 8,
-   "line": 5,
+   "line": 4,
    "L": [
     36,
     27,
@@ -1465,10 +1290,10 @@
     36,
     27,
     10,
-    7,
-    3
+    8,
+    2
    ],
-   "distance": 4,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -1478,7 +1303,7 @@
   {
    "id": "fong-spivak-invitation_EQ0200",
    "report_page": 8,
-   "line": 6,
+   "line": 5,
    "L": [
     34,
     10,
@@ -1503,7 +1328,7 @@
   {
    "id": "fong-spivak-invitation_EQ0089",
    "report_page": 8,
-   "line": 7,
+   "line": 6,
    "L": [
     16,
     8,
@@ -1528,7 +1353,7 @@
   {
    "id": "fong-spivak-invitation_EQ0170",
    "report_page": 8,
-   "line": 8,
+   "line": 7,
    "L": [
     23,
     1,
@@ -1553,7 +1378,7 @@
   {
    "id": "fong-spivak-invitation_EQ0061",
    "report_page": 8,
-   "line": 9,
+   "line": 8,
    "L": [
     31,
     9,
@@ -1578,7 +1403,7 @@
   {
    "id": "fong-spivak-invitation_EQ0018",
    "report_page": 8,
-   "line": 10,
+   "line": 9,
    "L": [
     24,
     4,
@@ -1603,7 +1428,7 @@
   {
    "id": "fong-spivak-invitation_EQ0149",
    "report_page": 8,
-   "line": 11,
+   "line": 10,
    "L": [
     35,
     7,
@@ -1628,7 +1453,7 @@
   {
    "id": "fong-spivak-invitation_EQ0082",
    "report_page": 8,
-   "line": 12,
+   "line": 11,
    "L": [
     11,
     5,
@@ -1653,7 +1478,7 @@
   {
    "id": "fong-spivak-invitation_EQ0248",
    "report_page": 8,
-   "line": 13,
+   "line": 12,
    "L": [
     38,
     10,
@@ -1678,7 +1503,7 @@
   {
    "id": "fong-spivak-invitation_EQ0114",
    "report_page": 8,
-   "line": 14,
+   "line": 13,
    "L": [
     6,
     5,
@@ -1703,7 +1528,7 @@
   {
    "id": "fong-spivak-invitation_EQ0138",
    "report_page": 8,
-   "line": 15,
+   "line": 14,
    "L": [
     38,
     8,
@@ -1728,7 +1553,7 @@
   {
    "id": "fong-spivak-invitation_EQ0143",
    "report_page": 8,
-   "line": 16,
+   "line": 15,
    "L": [
     82,
     1,
@@ -1753,7 +1578,7 @@
   {
    "id": "fong-spivak-invitation_EQ0198",
    "report_page": 8,
-   "line": 17,
+   "line": 16,
    "L": [
     23,
     0,
@@ -1764,11 +1589,11 @@
    "R": [
     23,
     0,
-    9,
+    10,
     4,
-    5
+    6
    ],
-   "distance": 4,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -1777,8 +1602,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0209",
-   "report_page": 9,
-   "line": 1,
+   "report_page": 8,
+   "line": 17,
    "L": [
     13,
     2,
@@ -1802,8 +1627,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0160",
-   "report_page": 9,
-   "line": 2,
+   "report_page": 8,
+   "line": 18,
    "L": [
     60,
     10,
@@ -1826,34 +1651,9 @@
    "code": "S|+2"
   },
   {
-   "id": "fong-spivak-invitation_EQ0217",
-   "report_page": 9,
-   "line": 3,
-   "L": [
-    33,
-    17,
-    1,
-    1,
-    0
-   ],
-   "R": [
-    32,
-    13,
-    1,
-    1,
-    0
-   ],
-   "distance": 5,
-   "comp_delta": 1,
-   "signed_delta": -1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|-1"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0022",
    "report_page": 9,
-   "line": 4,
+   "line": 2,
    "L": [
     2,
     0,
@@ -1878,7 +1678,7 @@
   {
    "id": "fong-spivak-invitation_EQ0128",
    "report_page": 9,
-   "line": 5,
+   "line": 3,
    "L": [
     11,
     4,
@@ -1903,7 +1703,7 @@
   {
    "id": "fong-spivak-invitation_EQ0148",
    "report_page": 9,
-   "line": 6,
+   "line": 4,
    "L": [
     46,
     2,
@@ -1928,7 +1728,7 @@
   {
    "id": "fong-spivak-invitation_EQ0003",
    "report_page": 9,
-   "line": 7,
+   "line": 5,
    "L": [
     23,
     0,
@@ -1953,7 +1753,7 @@
   {
    "id": "fong-spivak-invitation_EQ0066",
    "report_page": 9,
-   "line": 8,
+   "line": 6,
    "L": [
     70,
     23,
@@ -1978,7 +1778,7 @@
   {
    "id": "fong-spivak-invitation_EQ0159",
    "report_page": 9,
-   "line": 9,
+   "line": 7,
    "L": [
     41,
     4,
@@ -2003,7 +1803,7 @@
   {
    "id": "fong-spivak-invitation_EQ0139",
    "report_page": 9,
-   "line": 10,
+   "line": 8,
    "L": [
     26,
     2,
@@ -2028,7 +1828,7 @@
   {
    "id": "fong-spivak-invitation_EQ0225",
    "report_page": 9,
-   "line": 11,
+   "line": 9,
    "L": [
     76,
     14,
@@ -2053,7 +1853,7 @@
   {
    "id": "fong-spivak-invitation_EQ0100",
    "report_page": 9,
-   "line": 12,
+   "line": 10,
    "L": [
     39,
     12,
@@ -2077,8 +1877,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0083",
-   "report_page": 10,
-   "line": 1,
+   "report_page": 9,
+   "line": 11,
    "L": [
     33,
     17,
@@ -2102,8 +1902,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0021",
-   "report_page": 10,
-   "line": 2,
+   "report_page": 9,
+   "line": 12,
    "L": [
     10,
     5,
@@ -2127,8 +1927,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0150",
-   "report_page": 10,
-   "line": 3,
+   "report_page": 9,
+   "line": 13,
    "L": [
     13,
     6,
@@ -2146,39 +1946,14 @@
    "distance": 11,
    "comp_delta": 8,
    "signed_delta": 8,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|+8"
-  },
-  {
-   "id": "fong-spivak-invitation_EQ0047",
-   "report_page": 10,
-   "line": 4,
-   "L": [
-    22,
-    5,
-    0,
-    0,
-    0
-   ],
-   "R": [
-    22,
-    5,
-    0,
-    0,
-    0
-   ],
-   "distance": 0,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "clean",
+   "flag": "component",
    "rendered": true,
-   "code": "K|+0"
+   "code": "C|+8"
   },
   {
    "id": "fong-spivak-invitation_EQ0088",
    "report_page": 10,
-   "line": 5,
+   "line": 2,
    "L": [
     18,
     2,
@@ -2203,13 +1978,13 @@
   {
    "id": "fong-spivak-invitation_EQ0090",
    "report_page": 10,
-   "line": 6,
+   "line": 3,
    "L": [
     70,
     39,
-    12,
+    14,
     7,
-    5
+    7
    ],
    "R": [
     71,
@@ -2218,7 +1993,7 @@
     11,
     6
    ],
-   "distance": 15,
+   "distance": 13,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
@@ -2228,7 +2003,7 @@
   {
    "id": "fong-spivak-invitation_EQ0099",
    "report_page": 10,
-   "line": 7,
+   "line": 4,
    "L": [
     32,
     4,
@@ -2253,7 +2028,7 @@
   {
    "id": "fong-spivak-invitation_EQ0167",
    "report_page": 10,
-   "line": 8,
+   "line": 5,
    "L": [
     30,
     5,
@@ -2278,7 +2053,7 @@
   {
    "id": "fong-spivak-invitation_EQ0129",
    "report_page": 10,
-   "line": 9,
+   "line": 6,
    "L": [
     63,
     18,
@@ -2303,7 +2078,7 @@
   {
    "id": "fong-spivak-invitation_EQ0144",
    "report_page": 10,
-   "line": 10,
+   "line": 7,
    "L": [
     87,
     3,
@@ -2328,7 +2103,7 @@
   {
    "id": "fong-spivak-invitation_EQ0119",
    "report_page": 10,
-   "line": 11,
+   "line": 8,
    "L": [
     23,
     3,
@@ -2346,14 +2121,14 @@
    "distance": 1,
    "comp_delta": 1,
    "signed_delta": -1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|-1"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|-1"
   },
   {
    "id": "fong-spivak-invitation_EQ0165",
    "report_page": 10,
-   "line": 12,
+   "line": 9,
    "L": [
     25,
     5,
@@ -2378,7 +2153,7 @@
   {
    "id": "fong-spivak-invitation_EQ0153",
    "report_page": 10,
-   "line": 13,
+   "line": 10,
    "L": [
     51,
     11,
@@ -2403,7 +2178,7 @@
   {
    "id": "fong-spivak-invitation_EQ0122",
    "report_page": 10,
-   "line": 14,
+   "line": 11,
    "L": [
     62,
     15,
@@ -2427,8 +2202,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0235",
-   "report_page": 11,
-   "line": 1,
+   "report_page": 10,
+   "line": 12,
    "L": [
     29,
     17,
@@ -2452,8 +2227,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0005",
-   "report_page": 11,
-   "line": 2,
+   "report_page": 10,
+   "line": 13,
    "L": [
     24,
     8,
@@ -2476,34 +2251,9 @@
    "code": "C|+5"
   },
   {
-   "id": "fong-spivak-invitation_EQ0193",
-   "report_page": 11,
-   "line": 3,
-   "L": [
-    126,
-    42,
-    23,
-    12,
-    11
-   ],
-   "R": [
-    124,
-    31,
-    23,
-    12,
-    11
-   ],
-   "distance": 13,
-   "comp_delta": 2,
-   "signed_delta": -2,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|-2"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0093",
    "report_page": 11,
-   "line": 4,
+   "line": 2,
    "L": [
     44,
     10,
@@ -2528,7 +2278,7 @@
   {
    "id": "fong-spivak-invitation_EQ0174",
    "report_page": 11,
-   "line": 5,
+   "line": 3,
    "L": [
     77,
     30,
@@ -2553,7 +2303,7 @@
   {
    "id": "fong-spivak-invitation_EQ0079",
    "report_page": 11,
-   "line": 6,
+   "line": 4,
    "L": [
     90,
     20,
@@ -2578,7 +2328,7 @@
   {
    "id": "fong-spivak-invitation_EQ0226",
    "report_page": 11,
-   "line": 7,
+   "line": 5,
    "L": [
     33,
     4,
@@ -2603,7 +2353,7 @@
   {
    "id": "fong-spivak-invitation_EQ0145",
    "report_page": 11,
-   "line": 8,
+   "line": 6,
    "L": [
     47,
     2,
@@ -2628,7 +2378,7 @@
   {
    "id": "fong-spivak-invitation_EQ0207",
    "report_page": 11,
-   "line": 9,
+   "line": 7,
    "L": [
     45,
     3,
@@ -2653,7 +2403,7 @@
   {
    "id": "fong-spivak-invitation_EQ0048",
    "report_page": 11,
-   "line": 10,
+   "line": 8,
    "L": [
     22,
     14,
@@ -2674,31 +2424,6 @@
    "flag": "component",
    "rendered": true,
    "code": "C|+13"
-  },
-  {
-   "id": "fong-spivak-invitation_EQ0219",
-   "report_page": 12,
-   "line": 1,
-   "L": [
-    95,
-    66,
-    56,
-    51,
-    5
-   ],
-   "R": [
-    95,
-    60,
-    52,
-    48,
-    4
-   ],
-   "distance": 14,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0072",
@@ -2790,10 +2515,10 @@
     25,
     2,
     8,
-    5,
-    3
+    6,
+    2
    ],
-   "distance": 4,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -3076,31 +2801,6 @@
    "code": "K|+0"
   },
   {
-   "id": "fong-spivak-invitation_EQ0111",
-   "report_page": 13,
-   "line": 1,
-   "L": [
-    23,
-    8,
-    10,
-    6,
-    4
-   ],
-   "R": [
-    25,
-    6,
-    4,
-    3,
-    1
-   ],
-   "distance": 16,
-   "comp_delta": 2,
-   "signed_delta": 2,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+2"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0104",
    "report_page": 13,
    "line": 2,
@@ -3164,16 +2864,16 @@
    "R": [
     28,
     13,
-    6,
     2,
-    4
+    0,
+    2
    ],
-   "distance": 1,
+   "distance": 9,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
+   "flag": "weak",
    "rendered": true,
-   "code": "N|+0"
+   "code": "W|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0034",
@@ -3451,31 +3151,6 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-invitation_EQ0192",
-   "report_page": 14,
-   "line": 1,
-   "L": [
-    131,
-    30,
-    15,
-    10,
-    5
-   ],
-   "R": [
-    132,
-    26,
-    14,
-    9,
-    5
-   ],
-   "distance": 7,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+1"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0113",
    "report_page": 14,
    "line": 2,
@@ -3702,8 +3377,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0049",
-   "report_page": 15,
-   "line": 1,
+   "report_page": 14,
+   "line": 11,
    "L": [
     54,
     3,
@@ -3726,34 +3401,9 @@
    "code": "N|+1"
   },
   {
-   "id": "fong-spivak-invitation_EQ0215",
-   "report_page": 15,
-   "line": 2,
-   "L": [
-    43,
-    11,
-    1,
-    1,
-    0
-   ],
-   "R": [
-    43,
-    8,
-    1,
-    1,
-    0
-   ],
-   "distance": 3,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0108",
    "report_page": 15,
-   "line": 3,
+   "line": 2,
    "L": [
     5,
     2,
@@ -3778,7 +3428,7 @@
   {
    "id": "fong-spivak-invitation_EQ0166",
    "report_page": 15,
-   "line": 4,
+   "line": 3,
    "L": [
     11,
     0,
@@ -3803,7 +3453,7 @@
   {
    "id": "fong-spivak-invitation_EQ0011",
    "report_page": 15,
-   "line": 5,
+   "line": 4,
    "L": [
     14,
     4,
@@ -3828,7 +3478,7 @@
   {
    "id": "fong-spivak-invitation_EQ0106",
    "report_page": 15,
-   "line": 6,
+   "line": 5,
    "L": [
     55,
     1,
@@ -3840,20 +3490,20 @@
     55,
     1,
     10,
-    8,
-    2
+    9,
+    1
    ],
-   "distance": 0,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "clean",
+   "flag": "noise",
    "rendered": true,
-   "code": "K|+0"
+   "code": "N|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0008",
    "report_page": 15,
-   "line": 7,
+   "line": 6,
    "L": [
     28,
     8,
@@ -3878,7 +3528,7 @@
   {
    "id": "fong-spivak-invitation_EQ0212",
    "report_page": 15,
-   "line": 8,
+   "line": 7,
    "L": [
     53,
     9,
@@ -3903,7 +3553,7 @@
   {
    "id": "fong-spivak-invitation_EQ0232",
    "report_page": 15,
-   "line": 9,
+   "line": 8,
    "L": [
     50,
     4,
@@ -3915,10 +3565,10 @@
     50,
     5,
     8,
-    7,
-    1
+    8,
+    0
    ],
-   "distance": 3,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
@@ -3928,7 +3578,7 @@
   {
    "id": "fong-spivak-invitation_EQ0253",
    "report_page": 15,
-   "line": 10,
+   "line": 9,
    "L": [
     150,
     26,
@@ -3953,7 +3603,7 @@
   {
    "id": "fong-spivak-invitation_EQ0146",
    "report_page": 15,
-   "line": 11,
+   "line": 10,
    "L": [
     46,
     31,
@@ -3978,7 +3628,7 @@
   {
    "id": "fong-spivak-invitation_EQ0015",
    "report_page": 15,
-   "line": 12,
+   "line": 11,
    "L": [
     40,
     15,
@@ -4002,8 +3652,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0081",
-   "report_page": 16,
-   "line": 1,
+   "report_page": 15,
+   "line": 12,
    "L": [
     18,
     4,
@@ -4026,34 +3676,9 @@
    "code": "K|+0"
   },
   {
-   "id": "fong-spivak-invitation_EQ0091",
-   "report_page": 16,
-   "line": 2,
-   "L": [
-    67,
-    44,
-    16,
-    15,
-    1
-   ],
-   "R": [
-    67,
-    49,
-    18,
-    17,
-    1
-   ],
-   "distance": 9,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "stable",
-   "rendered": true,
-   "code": "S|+0"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0157",
    "report_page": 16,
-   "line": 3,
+   "line": 2,
    "L": [
     36,
     10,
@@ -4078,7 +3703,7 @@
   {
    "id": "fong-spivak-invitation_EQ0183",
    "report_page": 16,
-   "line": 4,
+   "line": 3,
    "L": [
     56,
     20,
@@ -4103,7 +3728,7 @@
   {
    "id": "fong-spivak-invitation_EQ0245",
    "report_page": 16,
-   "line": 5,
+   "line": 4,
    "L": [
     47,
     11,
@@ -4128,7 +3753,7 @@
   {
    "id": "fong-spivak-invitation_EQ0039",
    "report_page": 16,
-   "line": 6,
+   "line": 5,
    "L": [
     86,
     16,
@@ -4140,8 +3765,8 @@
     84,
     17,
     15,
-    10,
-    5
+    11,
+    4
    ],
    "distance": 65,
    "comp_delta": 2,
@@ -4153,7 +3778,7 @@
   {
    "id": "fong-spivak-invitation_EQ0142",
    "report_page": 16,
-   "line": 7,
+   "line": 6,
    "L": [
     99,
     8,
@@ -4164,11 +3789,11 @@
    "R": [
     99,
     9,
-    15,
-    10,
+    14,
+    9,
     5
    ],
-   "distance": 19,
+   "distance": 21,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
@@ -4178,7 +3803,7 @@
   {
    "id": "fong-spivak-invitation_EQ0052",
    "report_page": 16,
-   "line": 8,
+   "line": 7,
    "L": [
     32,
     8,
@@ -4203,7 +3828,7 @@
   {
    "id": "fong-spivak-invitation_EQ0054",
    "report_page": 16,
-   "line": 9,
+   "line": 8,
    "L": [
     27,
     4,
@@ -4228,7 +3853,7 @@
   {
    "id": "fong-spivak-invitation_EQ0063",
    "report_page": 16,
-   "line": 10,
+   "line": 9,
    "L": [
     53,
     16,
@@ -4253,7 +3878,7 @@
   {
    "id": "fong-spivak-invitation_EQ0067",
    "report_page": 16,
-   "line": 11,
+   "line": 10,
    "L": [
     13,
     3,
@@ -4278,7 +3903,7 @@
   {
    "id": "fong-spivak-invitation_EQ0181",
    "report_page": 16,
-   "line": 12,
+   "line": 11,
    "L": [
     35,
     2,
@@ -4302,8 +3927,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0220",
-   "report_page": 17,
-   "line": 1,
+   "report_page": 16,
+   "line": 12,
    "L": [
     28,
     6,
@@ -4326,34 +3951,9 @@
    "code": "N|+1"
   },
   {
-   "id": "fong-spivak-invitation_EQ0258",
-   "report_page": 17,
-   "line": 2,
-   "L": [
-    111,
-    33,
-    33,
-    19,
-    14
-   ],
-   "R": [
-    111,
-    33,
-    26,
-    12,
-    14
-   ],
-   "distance": 14,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|+0"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0001",
    "report_page": 17,
-   "line": 3,
+   "line": 2,
    "L": [
     18,
     12,
@@ -4378,7 +3978,7 @@
   {
    "id": "fong-spivak-invitation_EQ0004",
    "report_page": 17,
-   "line": 4,
+   "line": 3,
    "L": [
     54,
     5,
@@ -4403,7 +4003,7 @@
   {
    "id": "fong-spivak-invitation_EQ0006",
    "report_page": 17,
-   "line": 5,
+   "line": 4,
    "L": [
     35,
     6,
@@ -4414,21 +4014,21 @@
    "R": [
     35,
     6,
-    13,
+    12,
     10,
     2
    ],
-   "distance": 0,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "clean",
+   "flag": "noise",
    "rendered": true,
-   "code": "K|+0"
+   "code": "N|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0012",
    "report_page": 17,
-   "line": 6,
+   "line": 5,
    "L": [
     13,
     2,
@@ -4453,7 +4053,7 @@
   {
    "id": "fong-spivak-invitation_EQ0013",
    "report_page": 17,
-   "line": 7,
+   "line": 6,
    "L": [
     24,
     7,
@@ -4478,7 +4078,7 @@
   {
    "id": "fong-spivak-invitation_EQ0014",
    "report_page": 17,
-   "line": 8,
+   "line": 7,
    "L": [
     54,
     20,
@@ -4503,7 +4103,7 @@
   {
    "id": "fong-spivak-invitation_EQ0019",
    "report_page": 17,
-   "line": 9,
+   "line": 8,
    "L": [
     30,
     4,
@@ -4528,7 +4128,7 @@
   {
    "id": "fong-spivak-invitation_EQ0026",
    "report_page": 17,
-   "line": 10,
+   "line": 9,
    "L": [
     23,
     1,
@@ -4553,7 +4153,7 @@
   {
    "id": "fong-spivak-invitation_EQ0027",
    "report_page": 17,
-   "line": 11,
+   "line": 10,
    "L": [
     9,
     1,
@@ -4578,7 +4178,7 @@
   {
    "id": "fong-spivak-invitation_EQ0028",
    "report_page": 17,
-   "line": 12,
+   "line": 11,
    "L": [
     23,
     1,
@@ -4603,7 +4203,7 @@
   {
    "id": "fong-spivak-invitation_EQ0029",
    "report_page": 17,
-   "line": 13,
+   "line": 12,
    "L": [
     22,
     6,
@@ -4628,7 +4228,7 @@
   {
    "id": "fong-spivak-invitation_EQ0030",
    "report_page": 17,
-   "line": 14,
+   "line": 13,
    "L": [
     18,
     4,
@@ -4653,7 +4253,7 @@
   {
    "id": "fong-spivak-invitation_EQ0031",
    "report_page": 17,
-   "line": 15,
+   "line": 14,
    "L": [
     28,
     3,
@@ -4678,7 +4278,7 @@
   {
    "id": "fong-spivak-invitation_EQ0032",
    "report_page": 17,
-   "line": 16,
+   "line": 15,
    "L": [
     24,
     2,
@@ -4702,8 +4302,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0033",
-   "report_page": 18,
-   "line": 1,
+   "report_page": 17,
+   "line": 16,
    "L": [
     14,
     3,
@@ -4727,8 +4327,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0035",
-   "report_page": 18,
-   "line": 2,
+   "report_page": 17,
+   "line": 17,
    "L": [
     65,
     13,
@@ -4751,34 +4351,9 @@
    "code": "W|+1"
   },
   {
-   "id": "fong-spivak-invitation_EQ0036",
-   "report_page": 18,
-   "line": 3,
-   "L": [
-    31,
-    3,
-    9,
-    7,
-    2
-   ],
-   "R": [
-    31,
-    3,
-    9,
-    5,
-    4
-   ],
-   "distance": 4,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0038",
    "report_page": 18,
-   "line": 4,
+   "line": 2,
    "L": [
     23,
     12,
@@ -4803,7 +4378,7 @@
   {
    "id": "fong-spivak-invitation_EQ0041",
    "report_page": 18,
-   "line": 5,
+   "line": 3,
    "L": [
     33,
     5,
@@ -4828,7 +4403,7 @@
   {
    "id": "fong-spivak-invitation_EQ0044",
    "report_page": 18,
-   "line": 6,
+   "line": 4,
    "L": [
     19,
     7,
@@ -4853,7 +4428,7 @@
   {
    "id": "fong-spivak-invitation_EQ0045",
    "report_page": 18,
-   "line": 7,
+   "line": 5,
    "L": [
     49,
     9,
@@ -4878,7 +4453,7 @@
   {
    "id": "fong-spivak-invitation_EQ0050",
    "report_page": 18,
-   "line": 8,
+   "line": 6,
    "L": [
     22,
     8,
@@ -4903,7 +4478,7 @@
   {
    "id": "fong-spivak-invitation_EQ0051",
    "report_page": 18,
-   "line": 9,
+   "line": 7,
    "L": [
     33,
     2,
@@ -4928,7 +4503,7 @@
   {
    "id": "fong-spivak-invitation_EQ0058",
    "report_page": 18,
-   "line": 10,
+   "line": 8,
    "L": [
     60,
     3,
@@ -4953,7 +4528,7 @@
   {
    "id": "fong-spivak-invitation_EQ0060",
    "report_page": 18,
-   "line": 11,
+   "line": 9,
    "L": [
     19,
     3,
@@ -4978,7 +4553,7 @@
   {
    "id": "fong-spivak-invitation_EQ0078",
    "report_page": 18,
-   "line": 12,
+   "line": 10,
    "L": [
     23,
     2,
@@ -5003,7 +4578,7 @@
   {
    "id": "fong-spivak-invitation_EQ0084",
    "report_page": 18,
-   "line": 13,
+   "line": 11,
    "L": [
     33,
     11,
@@ -5028,7 +4603,7 @@
   {
    "id": "fong-spivak-invitation_EQ0086",
    "report_page": 18,
-   "line": 14,
+   "line": 12,
    "L": [
     32,
     12,
@@ -5039,11 +4614,11 @@
    "R": [
     33,
     11,
-    5,
+    6,
     4,
-    1
+    2
    ],
-   "distance": 2,
+   "distance": 4,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "noise",
@@ -5053,7 +4628,7 @@
   {
    "id": "fong-spivak-invitation_EQ0087",
    "report_page": 18,
-   "line": 15,
+   "line": 13,
    "L": [
     33,
     16,
@@ -5078,7 +4653,7 @@
   {
    "id": "fong-spivak-invitation_EQ0098",
    "report_page": 18,
-   "line": 16,
+   "line": 14,
    "L": [
     59,
     1,
@@ -5103,7 +4678,7 @@
   {
    "id": "fong-spivak-invitation_EQ0102",
    "report_page": 18,
-   "line": 17,
+   "line": 15,
    "L": [
     44,
     12,
@@ -5127,8 +4702,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0105",
-   "report_page": 19,
-   "line": 1,
+   "report_page": 18,
+   "line": 16,
    "L": [
     53,
     5,
@@ -5152,8 +4727,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0109",
-   "report_page": 19,
-   "line": 2,
+   "report_page": 18,
+   "line": 17,
    "L": [
     44,
     4,
@@ -5177,8 +4752,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0115",
-   "report_page": 19,
-   "line": 3,
+   "report_page": 18,
+   "line": 18,
    "L": [
     22,
     6,
@@ -5192,31 +4767,6 @@
     5,
     5,
     0
-   ],
-   "distance": 0,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "clean",
-   "rendered": true,
-   "code": "K|+0"
-  },
-  {
-   "id": "fong-spivak-invitation_EQ0117",
-   "report_page": 19,
-   "line": 4,
-   "L": [
-    23,
-    3,
-    6,
-    1,
-    5
-   ],
-   "R": [
-    23,
-    3,
-    6,
-    1,
-    5
    ],
    "distance": 0,
    "comp_delta": 0,
@@ -5228,7 +4778,7 @@
   {
    "id": "fong-spivak-invitation_EQ0120",
    "report_page": 19,
-   "line": 5,
+   "line": 2,
    "L": [
     32,
     7,
@@ -5253,7 +4803,7 @@
   {
    "id": "fong-spivak-invitation_EQ0121",
    "report_page": 19,
-   "line": 6,
+   "line": 3,
    "L": [
     36,
     9,
@@ -5278,7 +4828,7 @@
   {
    "id": "fong-spivak-invitation_EQ0125",
    "report_page": 19,
-   "line": 7,
+   "line": 4,
    "L": [
     38,
     7,
@@ -5303,7 +4853,7 @@
   {
    "id": "fong-spivak-invitation_EQ0127",
    "report_page": 19,
-   "line": 8,
+   "line": 5,
    "L": [
     35,
     5,
@@ -5328,7 +4878,7 @@
   {
    "id": "fong-spivak-invitation_EQ0130",
    "report_page": 19,
-   "line": 9,
+   "line": 6,
    "L": [
     29,
     7,
@@ -5353,7 +4903,7 @@
   {
    "id": "fong-spivak-invitation_EQ0133",
    "report_page": 19,
-   "line": 10,
+   "line": 7,
    "L": [
     15,
     3,
@@ -5378,7 +4928,7 @@
   {
    "id": "fong-spivak-invitation_EQ0137",
    "report_page": 19,
-   "line": 11,
+   "line": 8,
    "L": [
     22,
     3,
@@ -5403,7 +4953,7 @@
   {
    "id": "fong-spivak-invitation_EQ0140",
    "report_page": 19,
-   "line": 12,
+   "line": 9,
    "L": [
     47,
     6,
@@ -5428,7 +4978,7 @@
   {
    "id": "fong-spivak-invitation_EQ0147",
    "report_page": 19,
-   "line": 13,
+   "line": 10,
    "L": [
     43,
     0,
@@ -5453,7 +5003,7 @@
   {
    "id": "fong-spivak-invitation_EQ0154",
    "report_page": 19,
-   "line": 14,
+   "line": 11,
    "L": [
     20,
     4,
@@ -5478,7 +5028,7 @@
   {
    "id": "fong-spivak-invitation_EQ0158",
    "report_page": 19,
-   "line": 15,
+   "line": 12,
    "L": [
     25,
     0,
@@ -5503,7 +5053,7 @@
   {
    "id": "fong-spivak-invitation_EQ0162",
    "report_page": 19,
-   "line": 16,
+   "line": 13,
    "L": [
     18,
     0,
@@ -5528,7 +5078,7 @@
   {
    "id": "fong-spivak-invitation_EQ0163",
    "report_page": 19,
-   "line": 17,
+   "line": 14,
    "L": [
     75,
     0,
@@ -5553,7 +5103,7 @@
   {
    "id": "fong-spivak-invitation_EQ0169",
    "report_page": 19,
-   "line": 18,
+   "line": 15,
    "L": [
     36,
     4,
@@ -5577,8 +5127,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0173",
-   "report_page": 20,
-   "line": 1,
+   "report_page": 19,
+   "line": 16,
    "L": [
     32,
     7,
@@ -5602,8 +5152,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0175",
-   "report_page": 20,
-   "line": 2,
+   "report_page": 19,
+   "line": 17,
    "L": [
     40,
     2,
@@ -5627,8 +5177,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0176",
-   "report_page": 20,
-   "line": 3,
+   "report_page": 19,
+   "line": 18,
    "L": [
     36,
     0,
@@ -5652,8 +5202,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0177",
-   "report_page": 20,
-   "line": 4,
+   "report_page": 19,
+   "line": 19,
    "L": [
     30,
     0,
@@ -5677,8 +5227,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0178",
-   "report_page": 20,
-   "line": 5,
+   "report_page": 19,
+   "line": 20,
    "L": [
     8,
     0,
@@ -5701,34 +5251,9 @@
    "code": "K|+0"
   },
   {
-   "id": "fong-spivak-invitation_EQ0179",
-   "report_page": 20,
-   "line": 6,
-   "L": [
-    80,
-    0,
-    40,
-    40,
-    0
-   ],
-   "R": [
-    81,
-    0,
-    30,
-    30,
-    0
-   ],
-   "distance": 21,
-   "comp_delta": 1,
-   "signed_delta": 1,
-   "flag": "stable",
-   "rendered": true,
-   "code": "S|+1"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0182",
    "report_page": 20,
-   "line": 7,
+   "line": 2,
    "L": [
     40,
     5,
@@ -5753,7 +5278,7 @@
   {
    "id": "fong-spivak-invitation_EQ0184",
    "report_page": 20,
-   "line": 8,
+   "line": 3,
    "L": [
     25,
     7,
@@ -5778,7 +5303,7 @@
   {
    "id": "fong-spivak-invitation_EQ0188",
    "report_page": 20,
-   "line": 9,
+   "line": 4,
    "L": [
     22,
     9,
@@ -5803,7 +5328,7 @@
   {
    "id": "fong-spivak-invitation_EQ0190",
    "report_page": 20,
-   "line": 10,
+   "line": 5,
    "L": [
     37,
     16,
@@ -5828,7 +5353,7 @@
   {
    "id": "fong-spivak-invitation_EQ0194",
    "report_page": 20,
-   "line": 11,
+   "line": 6,
    "L": [
     78,
     46,
@@ -5853,7 +5378,7 @@
   {
    "id": "fong-spivak-invitation_EQ0196",
    "report_page": 20,
-   "line": 12,
+   "line": 7,
    "L": [
     34,
     6,
@@ -5878,7 +5403,7 @@
   {
    "id": "fong-spivak-invitation_EQ0197",
    "report_page": 20,
-   "line": 13,
+   "line": 8,
    "L": [
     34,
     5,
@@ -5903,7 +5428,7 @@
   {
    "id": "fong-spivak-invitation_EQ0203",
    "report_page": 20,
-   "line": 14,
+   "line": 9,
    "L": [
     45,
     0,
@@ -5921,14 +5446,14 @@
    "distance": 8,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "stable",
+   "flag": "weak",
    "rendered": true,
-   "code": "S|+0"
+   "code": "W|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0204",
-   "report_page": 21,
-   "line": 1,
+   "report_page": 20,
+   "line": 10,
    "L": [
     30,
     2,
@@ -5952,8 +5477,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0205",
-   "report_page": 21,
-   "line": 2,
+   "report_page": 20,
+   "line": 11,
    "L": [
     67,
     11,
@@ -5977,8 +5502,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0208",
-   "report_page": 21,
-   "line": 3,
+   "report_page": 20,
+   "line": 12,
    "L": [
     71,
     0,
@@ -6001,34 +5526,9 @@
    "code": "S|+0"
   },
   {
-   "id": "fong-spivak-invitation_EQ0211",
-   "report_page": 21,
-   "line": 4,
-   "L": [
-    53,
-    10,
-    11,
-    9,
-    2
-   ],
-   "R": [
-    53,
-    22,
-    9,
-    9,
-    0
-   ],
-   "distance": 16,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "stable",
-   "rendered": true,
-   "code": "S|+0"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0218",
    "report_page": 21,
-   "line": 5,
+   "line": 2,
    "L": [
     32,
     13,
@@ -6053,7 +5553,7 @@
   {
    "id": "fong-spivak-invitation_EQ0229",
    "report_page": 21,
-   "line": 6,
+   "line": 3,
    "L": [
     49,
     2,
@@ -6064,21 +5564,21 @@
    "R": [
     49,
     2,
-    12,
+    11,
     6,
-    6
+    5
    ],
-   "distance": 0,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "clean",
+   "flag": "noise",
    "rendered": true,
-   "code": "K|+0"
+   "code": "N|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0230",
    "report_page": 21,
-   "line": 7,
+   "line": 4,
    "L": [
     25,
     8,
@@ -6103,7 +5603,7 @@
   {
    "id": "fong-spivak-invitation_EQ0233",
    "report_page": 21,
-   "line": 8,
+   "line": 5,
    "L": [
     19,
     12,
@@ -6128,7 +5628,7 @@
   {
    "id": "fong-spivak-invitation_EQ0234",
    "report_page": 21,
-   "line": 9,
+   "line": 6,
    "L": [
     38,
     16,
@@ -6153,7 +5653,7 @@
   {
    "id": "fong-spivak-invitation_EQ0236",
    "report_page": 21,
-   "line": 10,
+   "line": 7,
    "L": [
     5,
     0,
@@ -6178,7 +5678,7 @@
   {
    "id": "fong-spivak-invitation_EQ0237",
    "report_page": 21,
-   "line": 11,
+   "line": 8,
    "L": [
     5,
     0,
@@ -6203,7 +5703,7 @@
   {
    "id": "fong-spivak-invitation_EQ0238",
    "report_page": 21,
-   "line": 12,
+   "line": 9,
    "L": [
     25,
     1,
@@ -6228,7 +5728,7 @@
   {
    "id": "fong-spivak-invitation_EQ0240",
    "report_page": 21,
-   "line": 13,
+   "line": 10,
    "L": [
     83,
     7,
@@ -6252,8 +5752,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0241",
-   "report_page": 22,
-   "line": 1,
+   "report_page": 21,
+   "line": 11,
    "L": [
     25,
     4,
@@ -6277,8 +5777,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0243",
-   "report_page": 22,
-   "line": 2,
+   "report_page": 21,
+   "line": 12,
    "L": [
     15,
     4,
@@ -6302,8 +5802,8 @@
   },
   {
    "id": "fong-spivak-invitation_EQ0244",
-   "report_page": 22,
-   "line": 3,
+   "report_page": 21,
+   "line": 13,
    "L": [
     51,
     8,
@@ -6326,49 +5826,24 @@
    "code": "N|+0"
   },
   {
-   "id": "fong-spivak-invitation_EQ0246",
-   "report_page": 22,
-   "line": 4,
-   "L": [
-    64,
-    15,
-    18,
-    11,
-    7
-   ],
-   "R": [
-    63,
-    13,
-    11,
-    10,
-    1
-   ],
-   "distance": 17,
-   "comp_delta": 1,
-   "signed_delta": -1,
-   "flag": "weak",
-   "rendered": true,
-   "code": "W|-1"
-  },
-  {
    "id": "fong-spivak-invitation_EQ0249",
    "report_page": 22,
-   "line": 5,
+   "line": 2,
    "L": [
     64,
     15,
-    24,
+    23,
     16,
-    8
+    7
    ],
    "R": [
     63,
     13,
-    17,
-    10,
+    15,
+    8,
     7
    ],
-   "distance": 17,
+   "distance": 19,
    "comp_delta": 1,
    "signed_delta": -1,
    "flag": "weak",
@@ -6378,7 +5853,7 @@
   {
    "id": "fong-spivak-invitation_EQ0251",
    "report_page": 22,
-   "line": 6,
+   "line": 3,
    "L": [
     38,
     7,
@@ -6403,22 +5878,22 @@
   {
    "id": "fong-spivak-invitation_EQ0252",
    "report_page": 22,
-   "line": 7,
+   "line": 4,
    "L": [
     94,
     9,
-    77,
-    40,
-    37
+    80,
+    42,
+    38
    ],
    "R": [
     82,
     9,
     66,
-    29,
-    37
+    30,
+    36
    ],
-   "distance": 34,
+   "distance": 40,
    "comp_delta": 12,
    "signed_delta": -12,
    "flag": "component",
@@ -6428,7 +5903,7 @@
   {
    "id": "fong-spivak-invitation_EQ0254",
    "report_page": 22,
-   "line": 8,
+   "line": 5,
    "L": [
     20,
     9,
@@ -6439,21 +5914,21 @@
    "R": [
     20,
     9,
-    3,
+    2,
     1,
-    2
+    1
    ],
-   "distance": 6,
+   "distance": 8,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
+   "flag": "weak",
    "rendered": true,
-   "code": "N|+0"
+   "code": "W|+0"
   },
   {
    "id": "fong-spivak-invitation_EQ0261",
    "report_page": 22,
-   "line": 9,
+   "line": 6,
    "L": [
     23,
     6,
@@ -6478,7 +5953,7 @@
   {
    "id": "fong-spivak-invitation_EQ0262",
    "report_page": 22,
-   "line": 10,
+   "line": 7,
    "L": [
     65,
     20,
@@ -6503,7 +5978,7 @@
   {
    "id": "fong-spivak-invitation_EQ0064",
    "report_page": 22,
-   "line": 11,
+   "line": 8,
    "L": [
     1,
     0,
@@ -6528,7 +6003,7 @@
   {
    "id": "fong-spivak-invitation_EQ0065",
    "report_page": 22,
-   "line": 12,
+   "line": 9,
    "L": [
     1,
     0,
@@ -6539,11 +6014,11 @@
    "R": [
     78,
     27,
-    21,
-    15,
+    22,
+    16,
     6
    ],
-   "distance": 146,
+   "distance": 148,
    "comp_delta": 77,
    "signed_delta": 77,
    "flag": "component",
@@ -6556,21 +6031,24 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 103,
-  "bytes": 11766622,
-  "sha256": "922b938b5de7780040ebd3a21d058619c306ced98a5048330a17353829810bfa",
-  "mtime": 1788273223,
-  "built_at": "2026-09-01T14:33:43Z",
-  "commit": "c0a5bcdae0b6",
+  "pages": 28,
+  "bytes": 4040039,
+  "sha256": "f58aca240d38d8f293f581e60327c05a418b4edd67546e4336bc199b05eec0bd",
+  "mtime": 1788608899,
+  "findings": false,
+  "built_at": "2026-09-05T11:48:20Z",
+  "commit": "d9fd1dbffd18",
   "legend": false,
   "ink_adopted": false,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
+  "bullets": false,
   "phase": "measure",
-  "formula_rule": "none",
-  "model_sha256": "3a467408a41793b3dd623619dcaf0b67fe1539b8d401f6df66e87063c88089a9",
-  "model_bytes": 38989777,
-  "model_mtime": 1788266796
+  "formula_rule": "all",
+  "pages_bound": null,
+  "model_sha256": "48fdbe67a1d6f8f3b7f43243bd0748257124fa5656adf9bb2c94875de6421d79",
+  "model_bytes": 48146520,
+  "model_mtime": 1788463525
  }
 }
