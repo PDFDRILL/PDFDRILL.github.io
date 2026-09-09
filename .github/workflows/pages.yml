@@ -43,7 +43,21 @@ jobs:
           python3 - <<'GUARD'
           import json, os, sys, glob, subprocess, re, collections
 
-          ALLOWED = ("report.pdf", "report.ink.json", "report.build.json", "inspect.html", "compare.html")
+          # The published artefact set. It grew: `report.pdf` was the whole
+          # surface once, and the evidence/residuals reports now sit beside it
+          # (four `evidence-<kind>.pdf`, each a separate compile of a separate
+          # row subset, plus `residuals.pdf`, the open items only). This tuple
+          # is the gate's definition of "published", so anything absent from it
+          # is refused — which is how a stray file gets caught, and also how
+          # every deploy since 2026-09-05 came to fail silently while the live
+          # site served an older build. A new artefact kind belongs HERE, in the
+          # same commit that first publishes it.
+          ALLOWED = ("report.pdf", "report.ink.json", "report.build.json",
+                     "inspect.html", "compare.html",
+                     "residuals.pdf",
+                     "evidence-equation.pdf", "evidence-formula.pdf",
+                     "evidence-table.pdf", "evidence-image.pdf",
+                     "formula-report.html", "tables.html", "tables.md")
           errs = []
 
           if not os.path.isdir("reports"):
