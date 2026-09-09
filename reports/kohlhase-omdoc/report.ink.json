@@ -39,16 +39,16 @@
    "R": [
     118,
     103,
-    146,
+    148,
     54,
-    80
+    81
    ],
-   "distance": 482,
+   "distance": 485,
    "comp_delta": 105,
    "signed_delta": 105,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|+105"
+   "flag": "component",
+   "rendered": true,
+   "code": "C|+105"
   },
   {
    "id": "kohlhase-omdoc_EQ0003",
@@ -57,8 +57,8 @@
    "L": [
     37,
     11,
-    7,
-    5,
+    8,
+    6,
     2
    ],
    "R": [
@@ -68,7 +68,7 @@
     0,
     4
    ],
-   "distance": 14,
+   "distance": 16,
    "comp_delta": 3,
    "signed_delta": 3,
    "flag": "component",
@@ -96,9 +96,9 @@
    "distance": 26,
    "comp_delta": 1,
    "signed_delta": 1,
-   "flag": "stable",
-   "rendered": true,
-   "code": "S|+1"
+   "flag": "unrendered",
+   "rendered": false,
+   "code": "U|+1"
   },
   {
    "id": "kohlhase-omdoc_EQ0001",
@@ -121,9 +121,9 @@
    "distance": 50,
    "comp_delta": 38,
    "signed_delta": 38,
-   "flag": "unrendered",
-   "rendered": false,
-   "code": "U|+38"
+   "flag": "component",
+   "rendered": true,
+   "code": "C|+38"
   },
   {
    "id": "kohlhase-omdoc_EQ0002",
@@ -156,21 +156,24 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 55,
-  "bytes": 17155783,
-  "sha256": "d0de48a879d1fe92acb71fc9e8e6b6d55f0241cf624d8a91d15e69f6416825f4",
-  "mtime": 1788278498,
-  "built_at": "2026-09-01T16:01:38Z",
-  "commit": "272d7b1033d6",
+  "pages": 92,
+  "bytes": 17419608,
+  "sha256": "926c5038bfdd1e6e58192a3bff10faceec6c440e259f29118454a82fa7a416e7",
+  "mtime": 1788612962,
+  "findings": false,
+  "built_at": "2026-09-05T12:56:03Z",
+  "commit": "d9fd1dbffd18",
   "legend": false,
   "ink_adopted": false,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
+  "bullets": false,
   "phase": "measure",
-  "formula_rule": "none",
-  "model_sha256": "45bdfcb9bd22d0f8ab9797acb0961d3473389afb5d03dd2f542a312cdf3fd116",
-  "model_bytes": 45670114,
-  "model_mtime": 1788266804
+  "formula_rule": "all",
+  "pages_bound": null,
+  "model_sha256": "53cc5fe0a803d59da0f61f71d54efb68bf60bfa6764b9c6e2359cae7992d9b0a",
+  "model_bytes": 49899010,
+  "model_mtime": 1788463664
  }
 }
