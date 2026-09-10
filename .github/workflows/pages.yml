@@ -154,17 +154,45 @@ jobs:
           for k in sorted(listed - have):
               claim_errs.append(f"index.html lists {k} but reports/{k}/ does not exist")
 
-          LET = {"component": "C", "weak": "W", "stable": "S", "noise": "N", "clean": "K"}
+          # 640 -- "unrendered" (a row demoted because the render has no
+          # equation to compare, inkconvert.py's FLAG_CODE "U") is real data:
+          # 8 of the 22 published documents already carry it. It is not a
+          # hypothetical the way "absent" (FLAG_CODE "A") still is -- no
+          # published report.ink.json has ever used "absent", so it stays out
+          # of this table until one does; adding it now would be guessing at
+          # a colour and a gloss for a class nobody has published yet.
+          LET = {"component": "C", "weak": "W", "stable": "S", "noise": "N", "clean": "K",
+                 "unrendered": "U"}
           for m in re.finditer(r'<code class="doc">([^<]+)</code>(.*?)</tr>', idx, re.S):
               k, cell = m.group(1), m.group(2)
               ink = f"reports/{k}/report.ink.json"
               if not os.path.exists(ink):
                   continue
               rows_ = json.load(open(ink, encoding="utf-8"))["rows"]
-              n = re.search(r'<td class="n">(\d[\d,]*)', cell)
-              if n and int(n.group(1).replace(",", "")) != len(rows_):
-                  claim_errs.append(
-                      f"{k}: table says {n.group(1)} equations, report.ink.json has {len(rows_)} rows")
+              # An equations-vs-ink-rows check used to live here: it took the
+              # FIRST `<td class="n">` cell in the row and compared it to
+              # len(rows_). That was always the Pages column, not Equations
+              # -- the table gained a Pages column ahead of Equations, and
+              # gilmore's cells are ['8', '1037', '2026-09-01', '0.72 MB']: it
+              # read 8 (pages) and compared it to 910 (ink rows).
+              # Repointing it at the SECOND `<td class="n">` (actual
+              # Equations) does not fix it either: Equations counts
+              # equations, sometimes as "N of M shown"; ink rows count
+              # MEASURED rows (a subset -- inline formulas are not yet
+              # measured, and rendering-demoted rows still get a row). They
+              # are different quantities that happen to agree only by luck:
+              # measured, gilmore 1037 vs 910, 2010.14265 16 vs 15,
+              # rph8-g15q 81 vs 76 -- all disagree; kohlhase-omdoc's 6 vs 6 is
+              # the one sampled document where they coincide, and it is a
+              # coincidence, not a rule. There is also no artefact in
+              # reports/<k>/ that carries the Equations count for this check
+              # to verify against -- it is transcribed by hand from the
+              # docmodel, which the deploy never publishes. A check with no
+              # premise left to assert is worse than no check, so it is
+              # removed rather than repointed. What the table still commits
+              # to (and what the artefacts CAN answer) is the residual
+              # distribution -- the `got != want` comparison below, against
+              # this same report.ink.json -- and that one stays.
               dist = collections.Counter(x["flag"] for x in rows_)
               # The legend defines exactly these five classes, once, for the whole
               # table. A sixth appearing in an artefact means the legend has
@@ -246,33 +274,70 @@ jobs:
               # as "unmeasured", so an ink.json whose identifiers do not intersect
               # the report produces a document of uniformly grey bullets with the
               # ink legend printed and no error -- indistinguishable, on the page,
-              # from one nobody measured. From here that is visible as a count:
-              # the ink.json claims N rows and the PDF prints N selectable codes.
-              # Codes ARE recoverable by pdftotext (verified 6/6); identifiers are
-              # NOT, which is why this is the check and the obvious one is not.
+              # from one nobody measured. From here that is visible as a count.
+              #
+              # But it is not visible as EQUALITY. These are FINDINGS reports
+              # (report.build.json carries "findings": true) -- they print a
+              # SUBSET, never the full listing, and the subset's size is
+              # printed alongside it in one of two shapes, both correct:
+              #   "Flagged, not acted on -- N of M shown" prints N codes
+              #     (0707.4470: "1 of 10 shown", 1 code printed).
+              #   "Flagged, not acted on: M rows, none above the reporting
+              #     threshold." prints ZERO codes while report.ink.json still
+              #     holds every one of those M+ rows (measured: voloshin 0
+              #     codes / 250 rows; penev_B 0 / 59; rph8-g15q 0 / 76) --
+              #     this is the report correctly having nothing to show, not
+              #     a join failure.
+              # A "Doubted but correct (N)" section can print codes of its
+              # own on top of either shape (1510.06699's "2 of 57 shown"
+              # prints two C codes; its "Doubted but correct (1)" separately
+              # prints one S -- three codes total, and none of the three
+              # per-class counts equal report.ink.json's 29/28/2). So a
+              # printed code can only be checked against the measurement as
+              # a SUB-MULTISET -- present in it, never required to exhaust
+              # it. penev_A's report.build.json carries ink_adopted: false,
+              # so its report never claims to print codes at all and is
+              # skipped outright.
+              stamp_path = os.path.join("reports", k, "report.build.json")
+              ink_adopted = True
+              if os.path.exists(stamp_path):
+                  try:
+                      ink_adopted = json.load(
+                          open(stamp_path, encoding="utf-8")).get("ink_adopted", True)
+                  except Exception:
+                      ink_adopted = True
               pdf = os.path.join("reports", k, "report.pdf")
-              if os.path.exists(pdf):
+              if ink_adopted and os.path.exists(pdf):
                   try:
                       out = subprocess.run(["pdftotext", "-layout", pdf, "-"],
                                            capture_output=True, text=True, timeout=300).stdout
                   except Exception:
                       out = None
                   if out:
-                      seen = collections.Counter(m for m in re.findall(r"([CWSNK])\|[+-]?\d+", out))
+                      seen = collections.Counter(m for m in re.findall(r"([CWSNKU])\|[+-]?\d+", out))
+                      zero_explained = bool(re.search(
+                          r"Flagged, not acted on: \d+ rows, none above the reporting threshold",
+                          out))
                       if sum(seen.values()) == 0:
-                          claim_errs.append(
-                              f"{k}: report.ink.json has {len(rows_)} rows but the report prints "
-                              f"no residual codes at all -- the measurement did not join to this "
-                              f"report, so every bullet renders unmeasured.")
-                          continue
-                      if seen != want:
-                          claim_errs.append(
-                              f"{k}: the report prints {dict(seen)} residual codes but "
-                              f"report.ink.json says {dict(want)} -- the measurement and the "
-                              f"document it is published beside do not agree.")
-                          continue
+                          if not zero_explained:
+                              claim_errs.append(
+                                  f"{k}: report.ink.json has {len(rows_)} rows but the report "
+                                  f"prints no residual codes, and does not say 'none above the "
+                                  f"reporting threshold' either -- the measurement may not have "
+                                  f"joined to this report.")
+                              continue
+                      else:
+                          over = {c: (seen[c], want.get(c, 0)) for c in seen
+                                   if seen[c] > want.get(c, 0)}
+                          if over:
+                              claim_errs.append(
+                                  f"{k}: the report prints {dict(seen)} residual codes, which is "
+                                  f"not a subset of report.ink.json's {dict(want)} -- "
+                                  f"{sorted(over)} appear more often in the report than the "
+                                  f"measurement says exist.")
+                              continue
 
-              got = {a: int(b) for a, b in re.findall(r">([CWSNK])</b>(\d+)", cell)}
+              got = {a: int(b) for a, b in re.findall(r">([CWSNKU])</b>(\d+)", cell)}
               if got and got != want:
                   claim_errs.append(f"{k}: residual bar {got} does not match report.ink.json {want}")
 
