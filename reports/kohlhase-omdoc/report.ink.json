@@ -23,7 +23,9 @@
    "signed_delta": 44,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|+44"
+   "code": "U|+44",
+   "crop_sha256": "e4bfcf724e07231d8107b79bae156b5977229ab51f8855bd2be9cba4490a8369",
+   "rung": null
   },
   {
    "id": "kohlhase-omdoc_EQ0005",
@@ -48,7 +50,9 @@
    "signed_delta": 105,
    "flag": "component",
    "rendered": true,
-   "code": "C|+105"
+   "code": "C|+105",
+   "crop_sha256": "36ee891698d555e2c59daf3d988b3c741b5a59f755f7268c2cd5788a8f33a18c",
+   "rung": null
   },
   {
    "id": "kohlhase-omdoc_EQ0003",
@@ -73,7 +77,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "2ecd3409be9ad0343087ec755c941f11f8fac47981f2cb01e84a0fed3cece15f",
+   "rung": null
   },
   {
    "id": "kohlhase-omdoc_EQ0006",
@@ -82,8 +88,8 @@
    "L": [
     30,
     5,
-    8,
-    3,
+    7,
+    2,
     5
    ],
    "R": [
@@ -93,12 +99,14 @@
     12,
     8
    ],
-   "distance": 26,
+   "distance": 28,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|+1"
+   "code": "U|+1",
+   "crop_sha256": "8acfab823af60579d9ebd5429c7e6054bf8d7b1b1b15627b99e891eaac837cfc",
+   "rung": null
   },
   {
    "id": "kohlhase-omdoc_EQ0001",
@@ -123,7 +131,9 @@
    "signed_delta": 38,
    "flag": "component",
    "rendered": true,
-   "code": "C|+38"
+   "code": "C|+38",
+   "crop_sha256": "8106a52c553eb92c687fbdc82bb93abe5b45a2374b8d7ac544020d383f2eb092",
+   "rung": null
   },
   {
    "id": "kohlhase-omdoc_EQ0002",
@@ -148,7 +158,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8c9c1c1f611e39beec3be944af9b3e8c08ee5e78a28b16d838e49f9ff9bb608f",
+   "rung": null
   }
  ],
  "footers_dropped": 0,
@@ -156,13 +168,13 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 92,
-  "bytes": 17419608,
-  "sha256": "926c5038bfdd1e6e58192a3bff10faceec6c440e259f29118454a82fa7a416e7",
-  "mtime": 1788612962,
+  "pages": 134,
+  "bytes": 53714154,
+  "sha256": "e60c661c04cf9bbb24f4dc1310bde38f15292753fff44a6c81e4e2e4034b9269",
+  "mtime": 1789124794,
   "findings": false,
-  "built_at": "2026-09-05T12:56:03Z",
-  "commit": "d9fd1dbffd18",
+  "built_at": "2026-09-11T11:06:35Z",
+  "commit": "503beea946aa",
   "legend": false,
   "ink_adopted": false,
   "prefer_refined": false,
@@ -174,6 +186,7 @@
   "pages_bound": null,
   "model_sha256": "53cc5fe0a803d59da0f61f71d54efb68bf60bfa6764b9c6e2359cae7992d9b0a",
   "model_bytes": 49899010,
-  "model_mtime": 1788463664
+  "model_mtime": 1788463664,
+  "geometry_sha256": "9cf97cabb1579fb1447a73c7c90f53c1422f07b617241e1369648a469cd00d41"
  }
 }
