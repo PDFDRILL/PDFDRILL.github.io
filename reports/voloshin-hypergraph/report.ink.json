@@ -14,16 +14,18 @@
    "R": [
     38,
     9,
-    16,
-    6,
-    10
+    12,
+    5,
+    7
    ],
-   "distance": 10,
+   "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "weak",
+   "flag": "noise",
    "rendered": true,
-   "code": "W|+0"
+   "code": "N|+0",
+   "crop_sha256": "c28e67667fa4dc9ef2895b098cb2309d0be78bd1951e0abfa5c7b92fba7c1eee",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0133",
@@ -48,7 +50,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "771b885b8892017429631ea6c79aa439bccf1433802f137d49dc39e5b4f135a2",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0141",
@@ -73,7 +77,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "cc9638b48c837ed4a68663d8936ca8d5f174dce0bd79b7990317f86a4f3efa9f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0197",
@@ -98,7 +104,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "5c10c72230fcbabc3aaf4478525446de4f7e84e07682b587858be642fcd3db91",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0244",
@@ -123,7 +131,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "7415c0cb545d09445e7c7af97424d0fcf6cf6cf44b0274b6c457b96865cedb01",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0207",
@@ -148,7 +158,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "bf39298231937f4e0feff72b18f9f79909e1cb257608331a55520bf373458d1c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0233",
@@ -173,7 +185,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d17eb5d95a8483931fb888518bcb5276e9757394ea6d96994ff45eba2e6eefcc",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0130",
@@ -198,7 +212,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "bae2d5732f8ccd14ce8944b846ac3a073b82ba200f1d0780d498a1f613d189b5",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0190",
@@ -223,7 +239,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "71cabaa9e7a841c375925c13b0b552771cb015fa477da767dd0da507d9f45ded",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0029",
@@ -248,7 +266,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "eb6e9dc344a63a93c91e9ed78057fb40f842a1b26d20bb748eff40874bdc5fe5",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0051",
@@ -273,7 +293,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "2f148b2ad131f909e081eea8d48ca3452aeaf44f34d458ffdf6fdbadfc38d467",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0120",
@@ -282,9 +304,9 @@
    "L": [
     99,
     18,
-    22,
+    21,
     11,
-    11
+    10
    ],
    "R": [
     100,
@@ -293,12 +315,14 @@
     8,
     1
    ],
-   "distance": 29,
+   "distance": 27,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "046fa411e5f7be0f00bd50921d16a7c2de0f3a81251bcbee4c02feac30353b85",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0125",
@@ -323,7 +347,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "b78c2e167fb2fc476cd69d64804d26424b3cf307de1b44cb75bf4efec394555d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0189",
@@ -348,7 +374,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c29b2f826babc629447ad8bceea31cf24a2972368d8e21fe5a798c8d24721b51",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0198",
@@ -373,7 +401,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "a45fceeb87cc75c1a71584bbb6ae4863b35063bf99d1d157431e2e0ac121b077",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0160",
@@ -398,7 +428,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "bd8fdf49054f8c6f671f68effddf9c4706d2089fa2ef169bcf9ebc6a0ddb1b5e",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0040",
@@ -423,7 +455,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "0fa4960f458cfc7491e2e87e6023a07181fab1cb738929fa141351d867ad410b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0216",
@@ -448,7 +482,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "33690f964c13aace30f4f74cfd3e2746638e62b4c185c2cca765678233ca8fbf",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0266",
@@ -473,7 +509,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "456f5714befeaa98cd10a15cb68771c48121cc9bf4ec7b15a79fc9a44ac4a551",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0009",
@@ -498,7 +536,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e727c77becf7db9bb45efc382d5a4feace946c31b4623c3fa3dd57e5ba82e56a",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0137",
@@ -523,7 +563,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6b64c1a5aa8ada5e420467dd12ad8b0e087e0314910d949825d31d7dbf703175",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0119",
@@ -548,7 +590,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "fe30cec1f649295819f3f42d5b844971abb835966563f7b6ad78ff6fc066f1fa",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0064",
@@ -573,7 +617,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "b911851a13e0bad370fc1fe1d5fcdda692d928ea8909443ec8f9a4e9ece0f8c6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0206",
@@ -598,7 +644,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "f838622a75d5c80145221d00d9ddd97f82316213aa2f9781d8ec57b5c1021ee3",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0007",
@@ -623,7 +671,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "dc261a589ba67878f69435e5b047f346019e2fb1e2c1ea114903a886e040892c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0143",
@@ -648,7 +698,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "9177e5189fbb0a7eb329aa409fe7292f2f3dcd7a779c642e976506ee32e39430",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0245",
@@ -673,7 +725,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "612e052de73ac9577c62495bd6640d740af2ecd95a9a3ca02e0bfad333b11b9b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0161",
@@ -698,7 +752,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "4d73e8a1080ead63e8102bdc4e66f113822ccf4460aca6fd51c62d5887e5c500",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0118",
@@ -723,7 +779,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "a1f0d2fcbbf6b2e8409329008da2e692426b6742b3c81be0474c28ac1770dc77",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0138",
@@ -748,7 +806,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "378cc2c808a0875df09a0d95d6b19f41d1002a58ba1922eee1518fd7bab9ee57",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0162",
@@ -773,7 +833,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "7abe9c8683ae71e8c0c9febb1fd7f2a0e45b3c382c366e9e215fba3fdb2ecf9b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0030",
@@ -798,7 +860,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7cb70b6bb75e668690e463630454606c67cd00d17e3db45fb12772371533e201",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0087",
@@ -823,7 +887,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "cec93ca958a59035d00f5fc2d9b40350f1eda28ee9d13692660fb8b028e3d066",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0153",
@@ -848,7 +914,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "990f253b9ed82547d6238a233e02c52249818b8799908a668c811ac7a246cebb",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0214",
@@ -857,9 +925,9 @@
    "L": [
     98,
     5,
-    41,
-    14,
-    27
+    43,
+    24,
+    19
    ],
    "R": [
     93,
@@ -868,12 +936,14 @@
     19,
     25
    ],
-   "distance": 16,
+   "distance": 18,
    "comp_delta": 5,
    "signed_delta": -5,
    "flag": "component",
    "rendered": true,
-   "code": "C|-5"
+   "code": "C|-5",
+   "crop_sha256": "97f00577afea2c4426ac0d264b89d0a2f946184cf292a820fc7ee3945db540e4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0099",
@@ -898,7 +968,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "126f556613cbf16792818690c4c8cfaca2a0b0503cf8b71f157ebb28e4baf1ff",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0235",
@@ -923,7 +995,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f7a5f3cc842983ae700380408a28f78d558f72e93b8afec3c3076f39abe6a998",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0201",
@@ -948,7 +1022,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "f5eb531e07c688b5544b1dd9e1ae59ea8735289757768fceba34aef5f5497f87",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0232",
@@ -973,7 +1049,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "a955d206e7a9f12dee227983b219309f2aa469e3af7d04f2c68d7d919534abb5",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0259",
@@ -998,7 +1076,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e5207cadfb07ee348663bc0bb618da46c60a426079e07bef1e8511d684f3c3f1",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0226",
@@ -1023,7 +1103,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "a9feb687d0ea2d1d336f6d8b0ffa9950a6eea0721736269131d07fe068800c9b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0231",
@@ -1048,7 +1130,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "b594c5b345f62fc20f15e75319f54a3a344418e3d4eee9c710e23bbab2d567ea",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0144",
@@ -1073,7 +1157,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2b2872fc6bb8c4a70f012e98d09fb1298c0d288ae20ea32289af3b6b41a62dbf",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0202",
@@ -1083,8 +1169,8 @@
     27,
     3,
     9,
-    4,
-    5
+    5,
+    4
    ],
    "R": [
     26,
@@ -1093,12 +1179,14 @@
     5,
     4
    ],
-   "distance": 3,
+   "distance": 1,
    "comp_delta": 1,
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "ba50abf8f75ddd5302301655eb180c67ead29dc7d445e8a730d897a1f4d0b072",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0145",
@@ -1123,7 +1211,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "b6545d2f57ca1059b13b372c0d21bfeaed4378be53ef336957ff24abccb9748c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0041",
@@ -1148,7 +1238,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "bb7faeff8268a6a93ae738cc75106031e9deccc4d6a92613d8f7a3a0f22a32a6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0136",
@@ -1173,7 +1265,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "b52113a187f3319a2d7834a5859d016b6d9b03797b18906c1cec2ea8c8e35faf",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0152",
@@ -1198,7 +1292,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "dcfc58511fa9010809b0deba4200aac9da068b6eb7f5a04d49689a68316f9e67",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0218",
@@ -1223,7 +1319,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "daf2e6ff2d7b9087052d5493bf9b337ff6ce4ce729b6bd6601463eff209bc94c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0243",
@@ -1248,7 +1346,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "17fcb311f0c97d6edc831a9b547a94dc366ced9005e9edddd2bd982219badff5",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0242",
@@ -1273,7 +1373,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "26f4e1f53eae5f1a4f33f199a1d75254061bcb87aad2e7b1930f5cbb8ee1913b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0072",
@@ -1298,7 +1400,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "08e6cd23fb88dd0e442ca1e5d9ca975c75f208d90ad992453a140573cfbb153d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0015",
@@ -1323,7 +1427,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "913fd0f4eaa88e24434f8fc68f012415687ad72bf47c4d5751e9c48502f2d488",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0096",
@@ -1348,7 +1454,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "9c07a30de7c5954c916ad7cf24c5a3aae350db82dc77feb72d96a185308964c7",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0228",
@@ -1373,7 +1481,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e8b891de7089bca1f80b990c5c1e548615063920897b45b9f83bb1c62126599d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0107",
@@ -1398,7 +1508,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "2e54d02aaf72468d1261dcbfa4a6726f06216c783b6eff985a0d7fdd89b6494e",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0186",
@@ -1423,7 +1535,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "1c684ea09e77987e42e7360f4eb555932575c500d7af689e5b0d3823776d20d6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0254",
@@ -1448,7 +1562,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "0d112b7a4b4a9bdd76989e1185dcac2d90a6d2517967c798efa9e5f5af0593e0",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0054",
@@ -1473,7 +1589,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c8a84941c6a69ce0feb1f1d5437c07c6b25a4884efbd4df6e39d28d241a1d686",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0150",
@@ -1498,7 +1616,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "7cad87ebc4f4a47f5a18e00ed993f8cc1165ba46580b7ea3655a2ae5745a7f0b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0065",
@@ -1523,7 +1643,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "35a051896539e3cea4be43268d47539817dbce52a0d5114edede0a4b6a7dc275",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0223",
@@ -1548,7 +1670,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "036b51f3e0201a963e82f5a760274f7c88b97dfafb1521f8e30099605bd00a41",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0182",
@@ -1573,7 +1697,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "814741f24eb4d53e0945dfd09e29ac2938fec9d75f14a3b7b7934da39666c3cb",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0257",
@@ -1598,7 +1724,9 @@
    "signed_delta": -4,
    "flag": "component",
    "rendered": true,
-   "code": "C|-4"
+   "code": "C|-4",
+   "crop_sha256": "fbc3d52092a6d244d0248bbc709c3df3b0e66e3e42deace7f748ce071a5bb73f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0176",
@@ -1623,7 +1751,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "3cda40aafc82d3a1fd4f4fd8287fd6254e82a1f872ba68502524385fa394b4fa",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0085",
@@ -1648,7 +1778,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "bd2903ee69d058c45331fdfd3604330462900f446acf80f5ffb436a63be4677d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0156",
@@ -1673,7 +1805,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "5be5f8ce0f4640cb3f36104438eec7deacb93fde6d598d4209db5674d6ec4d2c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0258",
@@ -1698,7 +1832,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c83d95a63b24bbccb9829e955f8d7f05c338e95a8530b08b60a73cd7e5fb6649",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0208",
@@ -1723,7 +1859,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "5bcfa2dde15445e9ec1ea499bba4214bb3e001bad1545fcc74a0de2a9585f541",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0246",
@@ -1748,7 +1886,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "6e9a9b74001cd9f84195377c3e0a31a1ab1903d67c51e13bdabe3c936eb32196",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0261",
@@ -1773,7 +1913,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "5c11200ad68caacd36c112afb20903b245cfd0d9a0ae0ef09430ed7a2012c0c4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0026",
@@ -1783,8 +1925,8 @@
     27,
     3,
     12,
-    5,
-    7
+    4,
+    8
    ],
    "R": [
     27,
@@ -1798,7 +1940,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "5a03ce9660f105746e12cdd0fe326a793d2263bb2f3937857403c52a9035d4a8",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0018",
@@ -1823,7 +1967,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "7934559da9c628931bb604995c3be491ee5067de0f716be44a56be080cfffcd3",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0071",
@@ -1848,7 +1994,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "f9640595e8acd17b5ee034d47786e82e5708a1d41925f0c59d68900a0b997cb4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0154",
@@ -1873,7 +2021,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e4172f82b1c4e90730751f125af90d3854fa17b3837e1b09cdb11bc91acefea0",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0155",
@@ -1898,7 +2048,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "366abe6034f77fb58c2fda2dbec3e4613f7b44d0eecd1b95fe46857f5c2a56cf",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0185",
@@ -1907,9 +2059,9 @@
    "L": [
     28,
     2,
+    4,
     3,
-    3,
-    0
+    1
    ],
    "R": [
     25,
@@ -1918,12 +2070,14 @@
     3,
     1
    ],
-   "distance": 6,
+   "distance": 4,
    "comp_delta": 3,
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "40484ddb50d81e1a7a215c976756906b8d89053d9a48a38756915098df519419",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0203",
@@ -1932,9 +2086,9 @@
    "L": [
     33,
     4,
+    5,
     4,
-    4,
-    0
+    1
    ],
    "R": [
     31,
@@ -1943,12 +2097,14 @@
     4,
     1
    ],
-   "distance": 5,
+   "distance": 3,
    "comp_delta": 2,
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "b0ff66f14d482530d4b3feec9e79968205c1612f8c44d713179a73bee0db3552",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0025",
@@ -1973,7 +2129,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "6b4f55a68ffcb6f969ea9fde9216318a69908fdeb6f5a3b6b5d882fc472f2d67",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0013",
@@ -1998,7 +2156,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "b7bdab90f7606c78803488102fed6b531f6111a0d0320b1d2b8d646d70cf873f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0224",
@@ -2023,7 +2183,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "1337d79f1f5aab6a38b33bc7d7f7ae60660de98e02e90db0b22a335cf0888f79",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0248",
@@ -2048,7 +2210,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e57f0a5dfcb912fe103ee224eea03a5896fd34381b530e82256230fae99eeb06",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0179",
@@ -2073,7 +2237,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "5205bf2655901d8eda31b4b9b6c8a06ad8c774d860aee9c02b1d14b57688d3be",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0004",
@@ -2098,7 +2264,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "c1f284bcc8ba0f8b387c57ef795222344613fea5b1c1276850954f3af471b14d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0006",
@@ -2123,7 +2291,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "7b416fcd270f39bbcbabb5a859982e912815c1fdd499624f001d8a6689c215b6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0039",
@@ -2148,7 +2318,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "e4e503742d7d755bf9ee6032642faa813cb619704dccc4d815d69f04f064a6b1",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0050",
@@ -2173,7 +2345,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8f05461ed78da07338041c6097b93d4a8f99a514de057fd28cf153d80f8fb077",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0066",
@@ -2198,7 +2372,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "77810293082a659170d3a53a91ba274efad0734b3a85d54040ec9b93f8745c56",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0067",
@@ -2223,7 +2399,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "56888fc4ffdefc3ab7731cbf2d1790f3d22d753d5cbc5349eb7258a57c8c66f6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0079",
@@ -2248,7 +2426,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "4fbc033d1b3df871805fc892bf7625e9654349ca6fe44bc1a2ed4f77b6689457",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0084",
@@ -2273,7 +2453,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "736409e6ca0b88c0db7794c14fcd000e8678e10b7f45dc8d2bf03324cceccc88",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0090",
@@ -2298,7 +2480,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "493ca0aa6f565054856c48648e74f5e80a4d05865639e21c93ebdeb2f0d3fdd9",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0106",
@@ -2323,7 +2507,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "7ede479f178decf082f761fe77f6b8649b0330eaa457136354984606ba4396bc",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0146",
@@ -2348,7 +2534,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "092fed6169959e8004d60e697672ae406f8218e9f287f3f6ddb32bf3d513f199",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0180",
@@ -2373,7 +2561,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "07aa065df46cb49e64ee614b9783aef8b214f093292e9ef5cb93b395eba52c55",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0194",
@@ -2398,7 +2588,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "09b4c74448fcf0cdb00f31f513aa575ad8988a9a1c19ab48cb1f6326cb26a1a6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0200",
@@ -2423,7 +2615,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "eb026ba29943281459445019520ca7b2140ee2a6c80e598c210a352320ab631e",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0204",
@@ -2433,8 +2627,8 @@
     42,
     4,
     12,
-    5,
-    7
+    6,
+    6
    ],
    "R": [
     40,
@@ -2443,12 +2637,14 @@
     7,
     4
    ],
-   "distance": 8,
+   "distance": 6,
    "comp_delta": 2,
    "signed_delta": -2,
-   "flag": "weak",
+   "flag": "noise",
    "rendered": true,
-   "code": "W|-2"
+   "code": "N|-2",
+   "crop_sha256": "8c21feb2319d37e0bc34f738e149d148b66233ff69784bc15f9db44c65fc2740",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0229",
@@ -2473,7 +2669,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "602d3ab8adeb9f75350f001bb8f0973dad995639e0e32706e11675df03c4539d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0237",
@@ -2498,7 +2696,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f200e06a83d5f81acb7c36167b3ecbd2e8cae2498f7889ecfd74a9c37aff4f4d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0001",
@@ -2523,7 +2723,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "5e16b44c5a32e81593da6462ff8e9127bbc45c3526de51812d248d0d8c54a09f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0002",
@@ -2548,7 +2750,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "533923defcdd90db433f893c4b200a2a983f87e8f9e3fc4f3439839d4bd1b9ca",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0005",
@@ -2573,7 +2777,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e0eb2af4a87a6e041d682f70768ab5daf03e988e706e0c23ae9ee0e20a78c860",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0008",
@@ -2598,7 +2804,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "432e6c28347e80f65cea00d8a574811333f145a139f62aac3cd4aeefcd56da5b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0010",
@@ -2623,7 +2831,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "43f93de80eeebb1863b654b617856b33087e49aab1bc33080f703d87f6f5513b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0011",
@@ -2648,7 +2858,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "5c8c532b9c3ac11614b9ae4cf7b2438ff30d9c8f6a57d7bc8204579f9b3982a9",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0012",
@@ -2673,7 +2885,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "795b026b702d48d4840c06aaec1b1828beb9e53255b864fe8393ca077a225f26",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0014",
@@ -2698,7 +2912,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "e5036b27a0dc441d48ff2dda9f92b4bd1bf48d24b6adfc64fbe7920df67330c1",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0016",
@@ -2723,7 +2939,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "83309fa2ab9d883f4d2d20e35291670c289cb2452e7298237c80c4d5b662761e",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0017",
@@ -2748,7 +2966,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "05fbe36804ac12c69807ada0d0eed32ab9e4e7e30bc1a75af6f2d8667a143944",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0020",
@@ -2773,7 +2993,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "cd0fb397e841c93b8bf3f97fbfc8875c2beec748e06b0960c33822bc95b35ae1",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0021",
@@ -2798,7 +3020,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f7a5451a4e767c6eda5010c20ca3bd45c043045f163fa31c5124a8cd12ac05fd",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0022",
@@ -2823,7 +3047,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "36fc90c9c13bfeab0b08ae997324b82fed0022141eece67dd040be785ec3ae94",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0023",
@@ -2848,7 +3074,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "57bd2026167b9194bd06e03e2720690f01d5f8b501f4fd9192e94616b4f4d755",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0024",
@@ -2873,7 +3101,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "9f39d58f1997e1dc0d42cd88313571d660904f5dd539e7826da4f522e2101cbd",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0027",
@@ -2898,7 +3128,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "90537cd61904066edf405ee82cd8bee8bf64db97bd3505ebef83f2046d044e82",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0028",
@@ -2923,7 +3155,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "533fe3bb521b3694d3f8fd16d30141f6c10af6fb24dcae686a64e46ed3a2ce46",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0031",
@@ -2948,7 +3182,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "745ccd3fee82cf08a29ab8e3402af1bf5962472fd9e4bd6cddb63548628b3032",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0032",
@@ -2973,7 +3209,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "652492daf5605f8d15dd1a75d3a00ffdeed435e1d88fdd2988e97b2de7c465fe",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0033",
@@ -2998,7 +3236,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e44de30b00d21d41fa68476dc51279b8546f31212a07f08483e22e5824a3452d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0034",
@@ -3023,7 +3263,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d6b1aa6a3e3a352c630840da723dc7203368d6a5ea6403fc294eda41ffa89aef",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0036",
@@ -3048,7 +3290,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "95e3c55ed10f67c43c77856b70b541ac8390e5e2b9e3edb74fe406e56c609967",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0037",
@@ -3073,7 +3317,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "b132d41ec931f57baeea37ed0c4e22ca9d90a7fce14617339be5769e06c65413",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0038",
@@ -3098,7 +3344,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "611f99e316f8f2deb011a390e9bc8de1d872b395d60303f3443047f7e9562a03",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0042",
@@ -3123,7 +3371,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e0e66d79d23f0abd95bda7516ae68653c782955cbeb3d85381f3093b97fc8ceb",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0043",
@@ -3148,7 +3398,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "7093c17451badf10e6f1898f02fc74fb83f2aa39f7f4b55d143494ee54bb83a3",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0044",
@@ -3173,7 +3425,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "9145c11a0f3fc7418dc2a873e97ed459c49c66117eaa53ad849db6987caa841d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0045",
@@ -3198,7 +3452,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "b602c950b9ac3a0548f6bed76fa4e93002ba7bc8df7f547764d5f42d17a155b6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0046",
@@ -3223,7 +3479,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e0c25473186effeb25433d74695d6cab7e3602ed8df1fb558a011818cc639953",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0047",
@@ -3248,7 +3506,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "74b672d4dbf955310a3c9d75416965c2655864020ee865ab71443d56cb5544a0",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0048",
@@ -3273,7 +3533,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f1802938ef490b67332afae9d1c636b147da5adbc1848afec65fdf67a5d5eac3",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0049",
@@ -3298,7 +3560,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "0dc031cfd904eac33a1c04931089690a774725bd77610f0a747e4e723e484734",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0053",
@@ -3323,7 +3587,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4339a0211e4aa0a614098782323428a7de90815250d8d880499a7db3797e9817",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0055",
@@ -3348,7 +3614,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "19903142fcc7819e00668cc5dba65ab28aacb92cd3b921acf7d2b008961fff0e",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0057",
@@ -3373,7 +3641,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "36a199528fa224268baadcfeca4d122757ef90dd52a95741d15c4dd56767eda7",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0058",
@@ -3398,7 +3668,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c155fbf6438352c732ca486aa2d66abf7904fbf0f64f2f66cd4e523c3eeffe4d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0059",
@@ -3423,7 +3695,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "97d929957db3945501161c49b99b808bbe671eaa49ba65fa5fef76f1fd1348f6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0060",
@@ -3448,7 +3722,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6efd21902e48ad73a94f3dcd60383a1016a94c23de96e644b34c1639458300f7",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0062",
@@ -3473,7 +3749,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "33c1ce4bc5da4ebb909a67d34e1e560dee9aa546456a3a6ac0b16dc1941f5cda",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0063",
@@ -3498,7 +3776,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "59da670dc2347ae35de54782bfc15bd650fd613db78c3ae4ab598df41aabc050",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0068",
@@ -3523,7 +3803,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "5f6fb9f8987aa0b97a36a076d5d68b984b94b4c39ba75b8e0de279753aff6ece",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0069",
@@ -3548,7 +3830,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2349c95ba62f561cb0fa9991c4c3b59e771607fd65d5de99ae600338da48a13c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0070",
@@ -3573,7 +3857,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "2351243c1af7f2d0cbc00417a20ce4bb0399f418eb982c1f3eadfc2a7dc3fe83",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0073",
@@ -3598,7 +3884,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e27560ca48952f13de23b794045142c5191408bffe90debdb92207da3426aa41",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0074",
@@ -3623,7 +3911,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "769f70eb0607652c1cf69b2bf81244abae0e9dfe61bf9c31506ed9585bb3c2f9",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0075",
@@ -3648,7 +3938,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "97d1e6834a529be3eb474c6e1b32e98091bbeeb1a92dac299e1f1a6e7c1cca2b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0076",
@@ -3673,7 +3965,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "934ada2cab40316a32143564b46b6741db7aa0a60d65d2da4378a4b3939a7fe3",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0077",
@@ -3698,7 +3992,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "468acec51959955a9508d52be18b5bec0aa37b3e3a3e8db2de0d8da9ae96134e",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0078",
@@ -3723,7 +4019,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4699ee171d64a559915453a8f4a9681833513be54b15f7aee53cf4daf2ead35d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0080",
@@ -3748,7 +4046,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "555ac62efb1aeed5026a3d7d7c1620e9ea64d1dbe49128e9db805e6ab76838c4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0081",
@@ -3773,7 +4073,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c9b1e64cb5c1c97af4fc972241d27309a612df6882461cee2a0109ee1aaf74a7",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0082",
@@ -3798,7 +4100,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "01a09346bb8bb8f7559b44f878977f8d7a8e941b671a511804544d5d498c49c5",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0083",
@@ -3823,7 +4127,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "dae9f6df18b0306c8d60e437bb7016b62b07ec51ef0b53c87dab8a55c6b5cd4f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0086",
@@ -3848,7 +4154,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f853dc02fdf194cfa9942087a8a607ea073e4a6834aa78527f397922cb485c3f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0089",
@@ -3873,7 +4181,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "b8c2d3a8af239a9b19e6cf26c56d67d7b317434246c73966692687cfd3570c43",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0091",
@@ -3898,7 +4208,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "0668f075ac7b01669569c2b002519b43f35f6a0532ce463c8191b5146d2a9003",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0092",
@@ -3923,7 +4235,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2ca62633a5842af8c7d644fc220cd61f568e44665f506a9a0882c3c17377f997",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0093",
@@ -3948,7 +4262,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "778921f1be57410c39610eb42eae4e7cfb9428b552a3acd36f25456e1b965564",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0094",
@@ -3973,7 +4289,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "ee3b4bb506d2d85330039f6a76d5630920da4fc3587a8ed6205b8148be14160d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0095",
@@ -3998,7 +4316,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "84d3be6446960db55a93e31fb70f873f04332be04cdd2c284e0be6bb5837d93a",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0097",
@@ -4008,8 +4328,8 @@
     26,
     3,
     12,
-    5,
-    7
+    4,
+    8
    ],
    "R": [
     26,
@@ -4023,7 +4343,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "bd9d79f62f9d2162dc3c6350efd763da51b85b05af15855a99b7e2ad35b4a91b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0098",
@@ -4048,7 +4370,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "04f909dd6e189832a190525762d4790cbde5340eea1396ec02f5499f384ee1c0",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0100",
@@ -4073,7 +4397,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "95f1883b851dcd98e845157c044ddfef64cc1ccec3282dc214305bb09767005c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0101",
@@ -4098,7 +4424,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "4d2e56973fa963daa9604ac08c8f034ec1f337c8be2ff878a35bd14ea5e40caf",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0102",
@@ -4123,7 +4451,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "49002173034e5e070b82b6815116e256bc90963bd5ad18cec834df0f8e311c35",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0103",
@@ -4148,7 +4478,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "c4e27cd2f45d0db7cee358a213a625b0843ccead0eb2086b87b0f141312966fd",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0104",
@@ -4173,7 +4505,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "e1d9f25114fbe4f6edb74c78aa8e96d79995ae333b2b29512d5d7dd2a28d16c4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0105",
@@ -4198,7 +4532,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "3870f5e57f7bd1a4c18e2c05bbb6627c393f36cc51ce6d8cea929b8bc86882a9",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0108",
@@ -4223,7 +4559,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "afa81810e9b93cfe3af12f40853adec32d11d09fb56ce58518c49ec8f036a5c6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0109",
@@ -4248,7 +4586,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "2b919b2c7dd7109030344f4c18bf3d7f3b5d40314d045f4609c9f86e2740cae9",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0110",
@@ -4273,7 +4613,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "83669ae333e4b792eae05ff637b65bcd648853ad9c9f2e2e034260c19e5d1ada",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0111",
@@ -4298,7 +4640,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "b0ebe4016bfe09915a205044f358172a347965706c01083bf560252ad3050555",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0112",
@@ -4323,7 +4667,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "0840f4131ab65b86a0e429effd78ccac3e2b996530c703115f7825c82eec9a53",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0114",
@@ -4348,7 +4694,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4a61953fb6c2e4c241245f1fa8c670de5748ef863cbb4ebb99f21e4b993204fe",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0115",
@@ -4373,7 +4721,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "e3ce679e18c1ec504466d080c1f83d7a892ec92b62d41d8a59771c7d25989921",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0116",
@@ -4383,8 +4733,8 @@
     19,
     3,
     5,
-    2,
-    3
+    1,
+    4
    ],
    "R": [
     19,
@@ -4393,19 +4743,21 @@
     2,
     2
    ],
-   "distance": 2,
+   "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "6dfb84e65aa0d022456c5ef4962af42125bf043cd078bcd58fa5ecde5a45ebd2",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0117",
    "report_page": 14,
    "line": 5,
    "L": [
-    16,
+    15,
     4,
     4,
     2,
@@ -4418,12 +4770,14 @@
     2,
     2
    ],
-   "distance": 2,
-   "comp_delta": 1,
-   "signed_delta": -1,
+   "distance": 1,
+   "comp_delta": 0,
+   "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|+0",
+   "crop_sha256": "016fd43f907b6c5cbf23998af6cfc0e43510ef2a7864edece13329871ebd1101",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0121",
@@ -4448,7 +4802,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "e0737ca477122d70115eb1319d0ff227522afc7d978c3e3ae6d3a29bf54d21f5",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0122",
@@ -4473,7 +4829,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "d18bef45e4362f5bc4706bbcbcc228bb3c5fd182c1c9cc8e60b779a511c33dcf",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0123",
@@ -4498,7 +4856,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "3f212ee8e856bb84935e79e3cf6db53c472dc9b160e1f3e38488ae2e943d3d17",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0126",
@@ -4523,7 +4883,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "a1d78ba952387a89973d88e8fa24e5df87d61824f8156133e9d382fb377d5d7c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0127",
@@ -4548,7 +4910,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "47d26eec288f33a6bd3054bd7031aebaabf8ae54e4c68cca46c79607faa38ea6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0128",
@@ -4573,7 +4937,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "1a8a0fc81021fc83ed7546859fcb698219f6414112d2484fb032d103df3ef423",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0129",
@@ -4598,7 +4964,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "87afb6c2e9517333dc1ef48bb6d663bdb436b2ef5764e9815a0ba3f79763221c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0131",
@@ -4623,7 +4991,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "1a95dc9faae6c2b9b0f2399818fd781ed88c4cf50ba5d89e2fcdf87aae0d9a2a",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0134",
@@ -4648,7 +5018,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "5c8d340b75e83be4c6a2a15132c34cef025cf970a5fd2375728fc4d2181dd47b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0135",
@@ -4673,7 +5045,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "e6d43a891dde2133ae621504972052c92becc9186a2b90df420c6e08b55e2981",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0139",
@@ -4698,7 +5072,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "440a544ec9747c4619d9b692f1fcc4224b2d684e5a5d274f95f60db32612d26f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0140",
@@ -4723,7 +5099,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6ae5c6a64196ab5441c104af3ae43674f7bb1830110ccd239806445cb7674056",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0142",
@@ -4748,7 +5126,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "1487d333e0e283f4277b2e5fe76b5fbf4f62ba47539b0d47f68bfb37e18a296a",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0147",
@@ -4773,7 +5153,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c5846ea7da0caca230b83a2bdd969e79d2bf08171ad560a6c75e9d0a44c21f45",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0148",
@@ -4798,7 +5180,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "779920ee90993aa15620328730f83d87eda192ffc90b7cf696ed82596e471cd2",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0151",
@@ -4823,7 +5207,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a7f3cf2b29d78cb1007867285f46eac10844ebd8df76732499ace1502a21cf34",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0157",
@@ -4848,14 +5234,16 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "34db3d4c6c067e89b91afe8a92c210b6711f3e51f2902b62c100377b479e05d9",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0159",
    "report_page": 15,
    "line": 2,
    "L": [
-    15,
+    14,
     1,
     2,
     1,
@@ -4868,12 +5256,14 @@
     1,
     1
    ],
-   "distance": 1,
-   "comp_delta": 1,
-   "signed_delta": -1,
-   "flag": "noise",
+   "distance": 0,
+   "comp_delta": 0,
+   "signed_delta": 0,
+   "flag": "clean",
    "rendered": true,
-   "code": "N|-1"
+   "code": "K|+0",
+   "crop_sha256": "cc0d7b18d5d4a1a4954928132db8d241e7099e20cae83aa3f736374ac187b0bb",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0163",
@@ -4898,7 +5288,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c2124d38d5071eb87f55986c6bdb6c9bbebba6cd2f409ab1cbed2d6532754dce",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0164",
@@ -4923,7 +5315,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "ff6b1879af7898536d9864d310c0db5876a26859c1514fb2cbba952b4c5fdbfe",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0165",
@@ -4948,7 +5342,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "49b671883ba89d5167b4bcbd89af0c69364b1f88848d1097bcc17cb75bfd8d62",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0166",
@@ -4973,7 +5369,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "019bac71cfae824bbbf2255761868f705bdaef0fe86cbffc01923408b6ff4ab4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0167",
@@ -4998,7 +5396,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "36b8f56e2fd26ef199487adffb995545accb460fd8da2ca0ee9f5437244cb645",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0168",
@@ -5023,7 +5423,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "65a9376566bc432640e7448ad1a7010fb5d4bc59e4af9a0d5a7a7d0f2f5b78c9",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0169",
@@ -5048,7 +5450,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "579e826861bac1727b6731506a2a678cd8c19bffa7a83fc3a6428072696873f1",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0170",
@@ -5073,7 +5477,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "61845c1f3d5508050a5faede7a8938b90e593a7e30274fad0617a5716cb2191f",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0171",
@@ -5098,7 +5504,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "4727945517c186b678dad6c1c86965bfccc76bbfafd1bf7d16c03130c08fd8b4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0172",
@@ -5123,7 +5531,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "12431b4d9dd8a831226a39929206262092aa883ed114cac48348cb917e0016fe",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0173",
@@ -5148,7 +5558,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "1cf15fc3d1eab2e58cb21d0d154b6bf408cda651ce1636fe4cc62f815f01a206",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0174",
@@ -5173,7 +5585,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "9ece8fb47a6fd2bf9155dfe2e047eaac12d305323a8b14706b1b254db8bbc690",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0175",
@@ -5198,7 +5612,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "7f43049f3b240cefe93d40b259e9537c54ebbd4ad13b1201f72f3c533d2bd82b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0177",
@@ -5223,7 +5639,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "9bbaafabf24060a1132fa78d35fd6e2fe754343e4a3751546787d9cf7bf01772",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0178",
@@ -5233,8 +5651,8 @@
     14,
     3,
     5,
-    4,
-    1
+    3,
+    2
    ],
    "R": [
     14,
@@ -5243,12 +5661,14 @@
     3,
     3
    ],
-   "distance": 4,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "5d8f63de1018da9ad351156e2dc5336aec25d57e9a62904d40bb4de0dd4ae719",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0181",
@@ -5273,7 +5693,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "4727ed83f41aaad8d42dfd9e17882952e68b8e392a7f9faef06c65cdb86d984c",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0184",
@@ -5283,8 +5705,8 @@
     28,
     2,
     9,
-    4,
-    5
+    5,
+    4
    ],
    "R": [
     26,
@@ -5293,12 +5715,14 @@
     6,
     3
    ],
-   "distance": 7,
+   "distance": 5,
    "comp_delta": 2,
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "1a1d698dc29cd593dcd0f889ef94f2fd8c3e53aa62a1760d1e49ff57eb1d6817",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0187",
@@ -5323,7 +5747,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "05b0a74539bf69547fa23d006d4859a83ac2f9f3072a65830b1d15addcccacc5",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0188",
@@ -5348,7 +5774,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "57b9382050bf4f5079d180881b5edf4482939472155fb16e61416397602c02a2",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0191",
@@ -5373,7 +5801,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "3043fcc0f070ed07f4763842a20fd0869b8cddca2c89ead3a6fe3bf8e019a27e",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0192",
@@ -5398,7 +5828,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "7cffc6a33213ceb12d9ac1b48448e04babbd72ed501c13e20409e977e7f9e45a",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0193",
@@ -5423,7 +5855,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d8a5d9c88672d9d266ad1bf48230170fce407a9a2e659e85b1c9f8859d74ac30",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0196",
@@ -5448,7 +5882,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7ca7b838d0c50f868c036d95b2f69c1239d0fb867b064cc243ecaa1aaac838e1",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0205",
@@ -5473,7 +5909,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "6b794f68491fd2332acf520dae757b4a8ef454b9cfd1f265d0d7a520c2fb2f91",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0209",
@@ -5498,7 +5936,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "c024efedb7436a5d02da3dd5218cee056ae711080101211b20b246c962b07081",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0210",
@@ -5523,7 +5963,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c3489cbf10d5b2d42edc4976d149ae58245468d29f40f2ba4662ce73b023b7ef",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0211",
@@ -5548,7 +5990,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "368abac6e63374f34e9cd45b2528de62a712515bbd2c2c33ab8866ed4bb670c2",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0212",
@@ -5573,7 +6017,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d2b919c33e806ab9e65d6dd3f3d16e3234b84b3c31de6c1243f622386b734344",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0213",
@@ -5598,7 +6044,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c44db0412b94794c74c2394572b72eb3dd9a994dfcd85e83717f4d2c7dcd8503",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0215",
@@ -5623,7 +6071,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "4fba020277e0fcbe75e887fbd0a9eada4d0839c87b4e30295e206cdbf08b7c9a",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0217",
@@ -5648,7 +6098,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "cf67b1b886fda84cf01a876e4a043a56d49d5cbfbec36a80b8ed6f1a8afb9083",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0219",
@@ -5656,7 +6108,7 @@
    "line": 17,
    "L": [
     22,
-    2,
+    3,
     10,
     7,
     2
@@ -5668,12 +6120,14 @@
     7,
     1
    ],
-   "distance": 4,
+   "distance": 3,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4e193082175db7923b87c967ebfe4c5d1313f900e63d9e8af20f139dcdc807dd",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0220",
@@ -5681,10 +6135,10 @@
    "line": 18,
    "L": [
     31,
+    8,
+    18,
     7,
-    20,
-    7,
-    12
+    10
    ],
    "R": [
     29,
@@ -5693,12 +6147,14 @@
     4,
     15
    ],
-   "distance": 10,
+   "distance": 11,
    "comp_delta": 2,
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "8ecbe3850742ff936a6036afd8a321346b8684b71cd6932e9c8b7a9314e45ac0",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0221",
@@ -5723,7 +6179,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7da27e70854fd21501b73fcfe5901d95b77b8b2f995cf28ca105e8bab4b7298d",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0222",
@@ -5748,7 +6206,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "8c8b7bb0793233c73ed2422d5a0fd027e5b98930cd2b0577fbfde9e793760384",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0227",
@@ -5773,7 +6233,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "68645183edf993c6057226679348fdd7ea0c5f1922bd05e8fa5cded9a8fff359",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0230",
@@ -5798,7 +6260,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "b4c0474aac8af68250cb2193a251cdb441dd43ba5c6092d73c4c1b43a1cf423b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0234",
@@ -5823,7 +6287,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "8b130bfa5a0070bce04bc83d935adb79095810813ae1d2c533b3aa2bdd0a2313",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0236",
@@ -5848,7 +6314,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8550c0f60c9a24ab844897638596f71a7ccc23b99a9e30df261ebefdfeaa9c0b",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0238",
@@ -5873,7 +6341,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4eabc1ab3f905a82cbc635d86b069fa15ccf86bed617df9dcbd148ed34e79982",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0239",
@@ -5898,7 +6368,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2110b9cb24164b61898887e920737cc2044055562408add223649d32a185e871",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0240",
@@ -5923,7 +6395,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "508b9abbddf3a0f0dbc9b28998b1bbe11c2bab639158c4ab2e35f62b0308f651",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0241",
@@ -5948,7 +6422,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d81149e33091ba993e8b37e1e35e84a3e0f04bd7cf7cba3a7a28303064199d42",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0247",
@@ -5973,7 +6449,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "2628e3996982da5c9ad957c37b4f473daf532d54d41aa11c2031df808128e2a4",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0249",
@@ -5998,7 +6476,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "415e2faebb7f6795bc926c76dcb3fe6fe7597ef62054fd9bc5f0cb50a7655709",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0250",
@@ -6023,7 +6503,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c4bf2a6c66ae68ada5b7e033a8ae210f74ef6dd1137e649aaa94f8e1b0ee7558",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0251",
@@ -6048,7 +6530,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f6d2dbe39d676d03c01a3ca920f9ee1ee81df5eeb1327650bf1d3683652c35a8",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0252",
@@ -6073,7 +6557,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "bac2af7e4662189518f8d5c5b42d7de4b023fd617278ffa5d6f4b7b0a15753a6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0253",
@@ -6098,7 +6584,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8895bdd3c2c0d96036c049d84724654381c754fa3e427a16ca534cf82de698b0",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0255",
@@ -6123,7 +6611,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "4371d033b6ddf8b38440baefaa6da81fdaf739168e8216756df6a05ce9653f07",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0256",
@@ -6148,7 +6638,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6ad27f2d930d53ad7b9adcccaaaa06719593a769f941be6329bedbac763e5e75",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0260",
@@ -6173,7 +6665,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f18ed2dc49c31dcd82e438a1cf9dbb494db27bb8fe9c3d1dc6bdb98d36af6af6",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0262",
@@ -6198,7 +6692,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "9896daf85b1d2117eeb0263a90c5b46ca5325dbfafcc17eca5d501d471115086",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0263",
@@ -6223,7 +6719,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "0a058df4cfc0c931006ad3d1c2be3f8623b444acad9efa3717ac9c224aabcba0",
+   "rung": null
   },
   {
    "id": "voloshin-hypergraph_EQ0264",
@@ -6248,7 +6746,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "16564014f885c19db3340341a1e2e2011203f54b18c0e6d4b2fdd03ec519ff72",
+   "rung": null
   }
  ],
  "footers_dropped": 0,
@@ -6257,14 +6757,14 @@
  "measured_against": {
   "pdf": "report.pdf",
   "pages": 151,
-  "bytes": 11558405,
-  "sha256": "1c8fda8207b9dbf9a782fe4b9bb062a1989ca69c54920660e8036ca5d746e437",
-  "mtime": 1788615348,
+  "bytes": 11572405,
+  "sha256": "eb7502d211f16c0d17bc9f75915111c24e82eeb19638236fc20af7e69271e9d1",
+  "mtime": 1789305405,
   "findings": false,
-  "built_at": "2026-09-05T13:35:48Z",
-  "commit": "d9fd1dbffd18",
+  "built_at": "2026-09-13T13:16:46Z",
+  "commit": "9fd65c2f784e",
   "legend": false,
-  "ink_adopted": false,
+  "ink_adopted": true,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
@@ -6272,8 +6772,9 @@
   "phase": "measure",
   "formula_rule": "all",
   "pages_bound": null,
-  "model_sha256": "b05a699fead2ea7dfd2ff9c902a678a76af71715fb04b6eec70d72c4bb9101a2",
-  "model_bytes": 26292770,
-  "model_mtime": 1788266809
+  "model_sha256": "2f78065bc16c74b45e9b7360829ec732858f4b768e097326c4b8987e7119d727",
+  "model_bytes": 40602218,
+  "model_mtime": 1789295126,
+  "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
  }
 }
