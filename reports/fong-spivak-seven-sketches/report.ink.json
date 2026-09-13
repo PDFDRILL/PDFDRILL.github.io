@@ -23,7 +23,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "e8d2ceecd193c057ac940130c57d5de66bf5d6fc1cc0366de2e6454aa2144303",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0063",
@@ -48,7 +50,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "437cc8855a4c2cdb57ae54cf3dfa3b5884908d75e501e7faf019ae587b9665e8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0133",
@@ -71,9 +75,11 @@
    "distance": 30,
    "comp_delta": 1,
    "signed_delta": 1,
-   "flag": "stable",
+   "flag": "weak",
    "rendered": true,
-   "code": "S|+1"
+   "code": "W|+1",
+   "crop_sha256": "e388bcd2e4e6449df2a015f67fa581126a03358d1db4bdd951246dac186a2dd8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0188",
@@ -98,7 +104,9 @@
    "signed_delta": 2,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+2"
+   "code": "S|+2",
+   "crop_sha256": "aff6340e2d7844e4c2abb5b8d9430e26c1fdfbaf6c708de51e931f6429151ac5",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0181",
@@ -123,7 +131,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "9aabeddcb947ac1bdd973728c9a3a9b564b18bc9d3ec5fbb836105dcc1145d46",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0189",
@@ -148,7 +158,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "6a6421a83a5ed4f0e9cc1a56b85355b0f69509f528b4f339bdda014420dfe87a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0073",
@@ -173,7 +185,9 @@
    "signed_delta": 40,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|+40"
+   "code": "U|+40",
+   "crop_sha256": "89a81d8381c9ca6df6489a9b88e1decddf70681eed995334f32ff887ae72bf6b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0245",
@@ -198,7 +212,9 @@
    "signed_delta": -7,
    "flag": "component",
    "rendered": true,
-   "code": "C|-7"
+   "code": "C|-7",
+   "crop_sha256": "66e6d9fae8ba910508263b36271c97379584307fdb28a195e116e1900da317ff",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0083",
@@ -223,7 +239,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "e713a7162bc4a4bdab67e794cbd461fcaf52a5c78ec60b9b3a436a921ccab514",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0205",
@@ -248,7 +266,9 @@
    "signed_delta": -7,
    "flag": "component",
    "rendered": true,
-   "code": "C|-7"
+   "code": "C|-7",
+   "crop_sha256": "abdaa83175b1c110065451f43d49f0f2eb380c6e53f6396fb71cac35c2797fc1",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0064",
@@ -258,8 +278,8 @@
     43,
     14,
     14,
-    8,
-    6
+    7,
+    7
    ],
    "R": [
     74,
@@ -273,7 +293,9 @@
    "signed_delta": 31,
    "flag": "component",
    "rendered": true,
-   "code": "C|+31"
+   "code": "C|+31",
+   "crop_sha256": "3f868adce1b12a9052dac5bf1b96ef3d9874b295b47f44dde9daa14b50e09e2a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0214",
@@ -298,7 +320,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "9ae802b85141bf7d9669dc254c4784197a502ced04d3e1f303f19fa32712aa95",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0115",
@@ -323,7 +347,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "80a3d17a1fa2b18a6307d4deee343a52b38432e1216663c2bf70d06d2369242c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0187",
@@ -348,7 +374,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "ec56910b05d9c374bb4b14979d43f339db2cb3a4f08dd251ed8eb0ed0e478c61",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0094",
@@ -373,7 +401,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "39d32888483e62bf3c69f53ff4d08497ae4c2fc60b2b8c19f52292b80b6608cd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0072",
@@ -398,7 +428,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "ddce86523ee5c6ad97edc8492ba7e4f69bdb24a2dbe72a8fcbd709e308e06fbe",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0020",
@@ -423,18 +455,20 @@
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "9d9801ac3d620d45a1b986795536c015af0e5360928118c926014d13b9ca83d7",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0175",
    "report_page": 3,
    "line": 2,
    "L": [
-    76,
-    30,
-    15,
-    9,
-    6
+    77,
+    32,
+    14,
+    7,
+    7
    ],
    "R": [
     79,
@@ -443,12 +477,14 @@
     5,
     1
    ],
-   "distance": 27,
-   "comp_delta": 3,
-   "signed_delta": 3,
-   "flag": "component",
+   "distance": 22,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "stable",
    "rendered": true,
-   "code": "C|+3"
+   "code": "S|+2",
+   "crop_sha256": "bd6a2e827b6f73e497e4f42a83f2879a7ecd643edb8ac9f79cfe78817f749ea8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0057",
@@ -473,7 +509,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "fe46e001e9650748fb763899ebbd0d0cdfcc1e51dcc81d68c96073df4d318c51",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0184",
@@ -498,7 +536,9 @@
    "signed_delta": 18,
    "flag": "component",
    "rendered": true,
-   "code": "C|+18"
+   "code": "C|+18",
+   "crop_sha256": "626e8c815f0fdf2ed153baf86bb0f0750c9ea5345e0265365f86ee1a9acf589b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0056",
@@ -523,7 +563,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "0529cf842d0cf52c3231dc5145bc2838f3697fb9b5999c3d0a6a983dc468c490",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0109",
@@ -548,7 +590,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "a8e2c76a17ca8f061eaa1ef47e5e3784d5a727f7e089f4ff71bd8e8af43fa509",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0059",
@@ -573,7 +617,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "a72b2a18b3bef89bb86771e7f1e5268bc16e3d85bdbd764d50959c90d7017883",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0113",
@@ -598,7 +644,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "a782b8daa1e3f6e8b794916f17c3fbb5a701c82d6ccf4a6795ecb670618795bd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0068",
@@ -623,7 +671,9 @@
    "signed_delta": 2,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+2"
+   "code": "S|+2",
+   "crop_sha256": "65ef7b5ce38f1a64481a8ad2a66ccbfbb4a55339dbd9d9344eda93dab6ebfc4c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0206",
@@ -648,7 +698,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "a9edad95f272918a25585c42f6be65757fad0bb8241b7dab4995ca5c28e30c1d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0098",
@@ -673,7 +725,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "84d520a6079b261cd0f0d75701e5ca621ee15a7e06461a38d0e5082502b5ecaf",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0036",
@@ -698,7 +752,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "7529ea9da7dcf221f8e21b5c8f567f528a778cf99201406a65ece2777ce96b36",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0142",
@@ -723,7 +779,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "0ebf3fc0a5224be040b79fce18900dc0b7fac228b223d161d665b787e6530ecc",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0228",
@@ -731,10 +789,10 @@
    "line": 7,
    "L": [
     76,
-    16,
+    18,
     8,
-    5,
-    3
+    6,
+    2
    ],
    "R": [
     76,
@@ -748,7 +806,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "3f4baf22c37fb60bb2b967cc25f3756d6bba55b10f85f1cf45c3bd69101e5539",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0227",
@@ -773,7 +833,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "32fbac6da519a4e525b1dfc605cdc221b6d7cfa912f1d3fee06cbb5bfc3ab824",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0071",
@@ -798,7 +860,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "25e58289e7c7ed0679128206d5561ba01062ff6f5394d6f806c79b29cf2bfc3e",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0039",
@@ -823,7 +887,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "1245581b8a11913a885c18f5c99e6b3f2e62b58336c0d6ee827ce33f702eface",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0258",
@@ -848,7 +914,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "6e3df6c68470e7a501c28b3ad6eeb901bc093e414646cfc29ae76860590f21d6",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0074",
@@ -873,7 +941,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "adfddfa497ef639b76443303a8c01c08da809470625f6b33480c9e168e528175",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0223",
@@ -882,9 +952,9 @@
    "L": [
     122,
     72,
-    79,
+    78,
     72,
-    7
+    6
    ],
    "R": [
     122,
@@ -898,7 +968,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "4fa7bb8ecc2d12a38eaabbfbd9784d172864eb7c6e8ea5099a45d119a0c6da95",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0021",
@@ -923,7 +995,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "69c605dff30de889db0a8ca23fdaee56b2fd77691fd0a0465b28d664be8ad554",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0069",
@@ -948,7 +1022,9 @@
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "ac2e4e566164aff789d9a37998a234cb0b94d444779970078568a9a217a88c93",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0257",
@@ -973,7 +1049,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "9d271820bd9157027142e8f2f6bcf5d5a45a6381badecff69abbdfa98c0da755",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0054",
@@ -998,7 +1076,9 @@
    "signed_delta": 43,
    "flag": "component",
    "rendered": true,
-   "code": "C|+43"
+   "code": "C|+43",
+   "crop_sha256": "9fe5940335d168bbebd0bf49b7be7cb53ce3e9ad1b252ea185f2809d2d3e1dbc",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0005",
@@ -1023,7 +1103,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "890805a3820d27da0bb0aaf81dbc35756f8c3c95d81b807c3d8ac8facae65aa9",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0078",
@@ -1048,7 +1130,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "0c3d2e64ce765555d854ebd4ad3a7a37f5f8eabff1f5c4e5892b1adcede769b8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0091",
@@ -1073,7 +1157,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "09355e5a806058e125c2959c0ee2d8621610ab56f003af08ff46932d459e8acc",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0104",
@@ -1098,7 +1184,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "6da94a17f5631986310cef527fe9ad509cdc3426a35c4d847af9a303c1e4d293",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0221",
@@ -1123,7 +1211,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "db3235d9ca2686a4c985fdc991dfe2436388f84b6c695a76f5c4d3cb5502efef",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0253",
@@ -1148,7 +1238,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "09cb8b432560c1c46ba5627fa71669365fc4fecc43df85ce803f346cec1fca63",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0043",
@@ -1173,7 +1265,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "ab03ca12d1bde124d5c3fdad13676fe2c7476362a48e3419d52d94ab45a9c1fd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0179",
@@ -1198,7 +1292,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "fc7608651f3f44015b73ee14b953d0414a8f567d3f9ea56a35218f48e3204507",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0002",
@@ -1223,7 +1319,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "d2613d44b39099d9963823c01647f27669e3966c02e8ed5fdc2b61fe7510139e",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0158",
@@ -1248,7 +1346,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2d9e54b0d77c3c8dbb14a9968bcc46a51db81d25db0c3429d2eaee2c17b60547",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0147",
@@ -1256,7 +1356,7 @@
    "line": 14,
    "L": [
     35,
-    7,
+    8,
     7,
     5,
     2
@@ -1268,12 +1368,14 @@
     5,
     2
    ],
-   "distance": 1,
+   "distance": 2,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "9d3cfc6ede6910b5b178465b795610ffb07df958da26f84a4133b546fbea3be9",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0191",
@@ -1298,7 +1400,9 @@
    "signed_delta": -8,
    "flag": "component",
    "rendered": true,
-   "code": "C|-8"
+   "code": "C|-8",
+   "crop_sha256": "3d1d2efcf9598e3f8c266007dad7821bbe8173f6983ea39a3296337cfe15c4d7",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0120",
@@ -1323,7 +1427,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c2b5d261579b6edc14cf7098c48b80ee154b5eda2e94622c1ea651a2f64dfab6",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0081",
@@ -1348,7 +1454,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "725f659ec6fdbfb3d7933b09069cdea417e2dfcee04515e1752000630edf71dd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0140",
@@ -1357,9 +1465,9 @@
    "L": [
     99,
     8,
-    24,
-    10,
-    14
+    13,
+    9,
+    4
    ],
    "R": [
     99,
@@ -1368,12 +1476,14 @@
     5,
     1
    ],
-   "distance": 36,
+   "distance": 14,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "d6080b9d4f430ede49c0a6979aefeddecde9f9f730c19d2adec3db6c2636da44",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0222",
@@ -1398,7 +1508,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "20366a0d616cb2cda27d0057eb46717b4d7c4640eecfd836404f78d504c25428",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0097",
@@ -1423,7 +1535,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "669ef531b04e09b26ec5c63da72eecb85a04acc420a17f53e6609dd52be4af5f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0230",
@@ -1432,9 +1546,9 @@
    "L": [
     217,
     92,
-    16,
-    7,
-    9
+    19,
+    8,
+    11
    ],
    "R": [
     217,
@@ -1443,12 +1557,14 @@
     7,
     9
    ],
-   "distance": 12,
+   "distance": 18,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "07d53c142e4bd1150f903861a139df9c8fdb92f85f9644ec8f2d3e9c7d823300",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0242",
@@ -1473,7 +1589,9 @@
    "signed_delta": -4,
    "flag": "component",
    "rendered": true,
-   "code": "C|-4"
+   "code": "C|-4",
+   "crop_sha256": "6a01df72b837f1070aa5fbbddd207fb4f7eae155519bbbc0eea1d23602c6bfab",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0156",
@@ -1498,7 +1616,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2cd1b3ac5cde2e54f896fdd2c605a2260abd641cc488020ea8ec2a9caccd493f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0219",
@@ -1523,7 +1643,9 @@
    "signed_delta": -7,
    "flag": "component",
    "rendered": true,
-   "code": "C|-7"
+   "code": "C|-7",
+   "crop_sha256": "cc6ef25d85ea52cfc2f454dfa4ab2c59ba30c49f8bf2c67555daa78a7748919a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0077",
@@ -1532,9 +1654,9 @@
    "L": [
     91,
     20,
-    15,
+    16,
     7,
-    8
+    9
    ],
    "R": [
     94,
@@ -1543,12 +1665,14 @@
     7,
     7
    ],
-   "distance": 15,
+   "distance": 17,
    "comp_delta": 3,
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "bbcad3fac0be3707b670c8134644121e638cee681bca5dfdc95714415ec691d4",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0131",
@@ -1573,7 +1697,9 @@
    "signed_delta": 1,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+1"
+   "code": "S|+1",
+   "crop_sha256": "96b4195c7261c7f232e470069047bc7241097cfc069b0b5b8805a371fe08c7d5",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0172",
@@ -1598,7 +1724,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "67505d573d9ba0607059f1410febb913ab3d331a194759343f9719875742bca8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0093",
@@ -1623,7 +1751,9 @@
    "signed_delta": 9,
    "flag": "component",
    "rendered": true,
-   "code": "C|+9"
+   "code": "C|+9",
+   "crop_sha256": "043f985b1bd4abe97c5e06fee3c6a661c5bc6ed660393acc694edc0cc3fa2621",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0022",
@@ -1648,7 +1778,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "c1ee564486e7de8dc919fd03124691d62b40477099c0594fec1b6fdb4fb81172",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0146",
@@ -1673,7 +1805,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "000bd04852b02ac7fd9fcec4a52132368c0880e4f9d53dcf6b76c0d83bb6eab8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0086",
@@ -1698,7 +1832,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f5829ab2f0d4f2a65b4e19f118be65cb0ba8d70c8d7c1a608e369e66372402b1",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0136",
@@ -1723,7 +1859,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "98d92a3e3a746658baa43f4966ab1dfcaafc9160154c933a14b82a3d2d6a623a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0125",
@@ -1748,7 +1886,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "0ca69e140063437df36d03d4e652b99a2d4e3dd72fc5ce19810fbf7a30f2c2bb",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0003",
@@ -1773,7 +1913,9 @@
    "signed_delta": 7,
    "flag": "component",
    "rendered": true,
-   "code": "C|+7"
+   "code": "C|+7",
+   "crop_sha256": "4aae8ba67df59d8840ecad5e1952aa15fe357b3692d4c63ca921c5e1d2e58c41",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0121",
@@ -1798,7 +1940,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "ec0010b2833f89036a1b85587e9389f1973e759aebcf24600c2aa0dd2b20523a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0010",
@@ -1823,7 +1967,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "a03a23762ecc8f99797ce702134cbb6347316bfa5fe3a5751bc61262540a4fa9",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0079",
@@ -1848,7 +1994,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "97f29ae111ed43754a719a8b63de4acb59ca78edceb379c9f800d78a6244025d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0217",
@@ -1873,7 +2021,9 @@
    "signed_delta": -4,
    "flag": "component",
    "rendered": true,
-   "code": "C|-4"
+   "code": "C|-4",
+   "crop_sha256": "39701ad14d0f1cb0e986df68dfafb5e6862923502003aa264a003c2c0c7d97dd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0153",
@@ -1898,7 +2048,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "1e08a420f88a2ad0ba8432a72125d3567d041ecccd85e3034197f16b7d7110ca",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0105",
@@ -1923,7 +2075,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "cd40a9fd65c796961acdb1a31ea6951e2e6f26048b1d3c481ec42833e6623a56",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0143",
@@ -1948,7 +2102,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f2720f8f137612522bb2aa595af18f693b20829a7142d2db66d9f32142b6de9c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0129",
@@ -1973,7 +2129,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "e7fdf49f87516d4957f8eda6e8bc2ed98804c707c9de679fc5660e0ab1dc1042",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0164",
@@ -1998,7 +2156,9 @@
    "signed_delta": 22,
    "flag": "component",
    "rendered": true,
-   "code": "C|+22"
+   "code": "C|+22",
+   "crop_sha256": "a4b52ce96317b37bb24c197574b46a9d8ed08c9e6ecc63e3b3599074bb668252",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0256",
@@ -2023,7 +2183,9 @@
    "signed_delta": -10,
    "flag": "component",
    "rendered": true,
-   "code": "C|-10"
+   "code": "C|-10",
+   "crop_sha256": "a6232ec0e819d481ad034969654b8937f678308580f2b11faf57fed40d61d984",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0096",
@@ -2048,7 +2210,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "079be1b1384f3c2681ae634bbbbce0b3b44963f148851d208246a8e6dce4b162",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0087",
@@ -2073,7 +2237,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "fb98384a910079f9f26676752e47a11ada7cd24da139d4afd8167e35fe6ec540",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0199",
@@ -2098,7 +2264,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "ebd380a7bc4b14af6e2a8428ef4def386502d48d4e485100d9879dd94494e1b2",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0251",
@@ -2123,7 +2291,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "9ac5f1c393778a44f1e91720433adf827e5786ef75af67cc946a15b602c21763",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0034",
@@ -2148,7 +2318,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "3fc70f69aa57f61ce74f37f9c169b400c5a327fd24d7e06911ff3a1e339c1b35",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0128",
@@ -2173,7 +2345,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "2773c45658ee1b24c3d3785df4401543c60ac6c2cefbfb1a226961ddb1c30224",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0053",
@@ -2198,7 +2372,9 @@
    "signed_delta": 1,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+1"
+   "code": "S|+1",
+   "crop_sha256": "cf39d75cab409f6583aeca69819d0dd4a32e5af02d0c80e165d45552433a065d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0075",
@@ -2223,7 +2399,9 @@
    "signed_delta": -7,
    "flag": "component",
    "rendered": true,
-   "code": "C|-7"
+   "code": "C|-7",
+   "crop_sha256": "7835584df3425780831f02f9dd51ede8669fda6d129d54be16476b1e31ddbf14",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0026",
@@ -2248,7 +2426,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "9ac326982721774a347940c90092173e5d6371528f5d69b9282a6bab352b377a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0111",
@@ -2273,7 +2453,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "3abf4751718941b2b554f4f98e6d5247c311dd5d3c360e7835f202620278ee21",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0159",
@@ -2281,7 +2463,7 @@
    "line": 11,
    "L": [
     59,
-    11,
+    14,
     6,
     6,
     0
@@ -2293,12 +2475,14 @@
     6,
     1
    ],
-   "distance": 5,
+   "distance": 2,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "9cec50049ab03ca3a325e81937d6c450c14f1c234d53839c78b5b84c0e566c43",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0007",
@@ -2323,7 +2507,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "2dbcf66803f9c6e8b5c136d5398e252e61ff6f698b45a8235d88e2f0fc3f2f6d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0194",
@@ -2348,7 +2534,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "dbe2fc9b434866d4b7a43be2edec31c86e579c791bbc50c8b2dde2a08225c233",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0171",
@@ -2373,7 +2561,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "f7193cb317d7cf2cdb38dadbd5c6cb7511fbb71f3fc3c40b6f012735a5ad5ca2",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0040",
@@ -2398,7 +2588,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c9701d4e9f0109830548e86e5ce4aa93eaa0e9be0e78ece140025c133b61a8dd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0262",
@@ -2423,7 +2615,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "9102e9636305f1a611d166b3e187599f65532b47596d0e93ab139a20b5c50c84",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0092",
@@ -2448,7 +2642,9 @@
    "signed_delta": 0,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|+0"
+   "code": "U|+0",
+   "crop_sha256": "2caa338deb9a43e480988d790fd9e11dae0b2a3bdd0209f9cfaa57781bdc0e35",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0218",
@@ -2457,9 +2653,9 @@
    "L": [
     32,
     10,
-    4,
+    5,
     3,
-    1
+    2
    ],
    "R": [
     29,
@@ -2468,12 +2664,14 @@
     3,
     0
    ],
-   "distance": 10,
+   "distance": 12,
    "comp_delta": 3,
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "1d4842e95601b07656b315d852fe5e66b04b1e6d688f270784c83f24c02969d3",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0168",
@@ -2498,7 +2696,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "a6d8cb94b1232076f5da55101d245cdd2fb9c31b4b30886e325fd29b027fd3ca",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0066",
@@ -2523,7 +2723,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a0bf093e4996e286eede0cf39ec39e71ba53fc18b6ab5b6ddebd6bd3dca1219a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0119",
@@ -2548,7 +2750,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f888784f87516c4eb1edd6af85dd05e3739ca738667148302e5f830cbb207a9a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0157",
@@ -2573,7 +2777,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "b58842633dee008cf37ff25f40419cc99505c1b5b13f8106e205d8d5d0d95c91",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0100",
@@ -2598,7 +2804,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "ab7b824da0614608f97e55bc8cd76b459a3953c87ba0a2293b33a189318551ed",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0045",
@@ -2608,8 +2816,8 @@
     54,
     3,
     14,
-    10,
-    4
+    11,
+    3
    ],
    "R": [
     53,
@@ -2618,12 +2826,14 @@
     9,
     8
    ],
-   "distance": 13,
+   "distance": 15,
    "comp_delta": 1,
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "026bc38f3650c215f17bdbbac66c5fb3941a6d47b6e8edccb32afe506c557b00",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0046",
@@ -2648,7 +2858,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "eeeb888b50f236eb3598759be2af42053670745acb81d4eb07ddfb5654b32825",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0085",
@@ -2673,7 +2885,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "e2f1d42788b6cc951c848f8297be5d4cbc4998d3a46e3fe27646a8f2341e79fb",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0195",
@@ -2698,7 +2912,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "09c80a2350875aad90817af2661bfccafb73b92d48083096e6b9a5bb77c20652",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0173",
@@ -2723,7 +2939,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "3bde642c6593962328d8474a63e5696ea1f7a1915609e4d865765aadb98adc77",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0137",
@@ -2748,7 +2966,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "8c961209460da886875c10afdb20050c5c7929c0fbdb5e53f798e2e42811a212",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0169",
@@ -2773,17 +2993,19 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "20428fc11c81e97c9af04efb52fcd04af4dcc1fca3fbd77e32f4bb929dcc00f7",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0018",
    "report_page": 12,
    "line": 20,
    "L": [
-    26,
+    24,
     4,
-    8,
-    5,
+    7,
+    4,
     2
    ],
    "R": [
@@ -2793,12 +3015,14 @@
     4,
     3
    ],
-   "distance": 4,
+   "distance": 2,
    "comp_delta": 1,
-   "signed_delta": -1,
+   "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|+1",
+   "crop_sha256": "50c01704ce814c5f1150c6e47d09fc3c7bce80f443164cf85bc13eaedb13c1a9",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0210",
@@ -2823,7 +3047,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "cade34c64d965e4a94498adb70e767c8f8f853db8476211d3c720ab26f112c75",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0117",
@@ -2848,7 +3074,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "04a2584fbf842b300360bd6249317877a613d7a2013e6c1ed78aaa32b1c8998b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0031",
@@ -2873,7 +3101,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "33597bc31ba7509105899b552c8a3a76622f5fbed05e8a23feed06129b4bf27b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0204",
@@ -2898,7 +3128,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "10b064303f0749295c886821dbf6c1594319dfdedf769245ada779cb23677f01",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0213",
@@ -2923,7 +3155,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "0c152cbeeafe4587233662b3f27a66025343e8099139cd9cc2a6eccbebd8d6fb",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0250",
@@ -2948,7 +3182,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "5b854d7a1905c59454019d9617a5475c7bd14973b0d832f98a01b319758d867c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0038",
@@ -2973,7 +3209,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "48083be3628f2b3554b04a029fdd8a20fd393e757f5f7342e242aa2df5cad1eb",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0102",
@@ -2998,7 +3236,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a74b665ff8278f8727b48a49832a57ec2f18794331de7d0972456cb61ba12ae6",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0080",
@@ -3023,7 +3263,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "7de0a5fa0b9e4f6bc362507cd185ceb029d9ce02823f4da3ef0e6111888f6912",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0134",
@@ -3048,7 +3290,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "9ef2a0dff76ada5d38b9710b3da1e2b1897acfc55d7d88fe5fc57c3d741fcfc6",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0148",
@@ -3073,7 +3317,9 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "91fb1b9e0e0c9d4971cfeddd7c3b4ac2a11a8ac755f29fc7beefd56a23b06530",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0144",
@@ -3098,7 +3344,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "a3ca532c7258491e91b10a672fd82ae9d7c93d5dd246532a6a47aa26094b8531",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0123",
@@ -3123,7 +3371,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "391e8c07aebde5f8c6da4aba98efd802009688dc984df7b7681f16a6ce83ae13",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0229",
@@ -3148,7 +3398,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "12f5623b150733a1bcd5177529906784a468b4817cd02e7c21377b57a2d2ba43",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0089",
@@ -3173,7 +3425,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "bb4e57447c3173dfbf44360217019eac1c1f223edd6627501cc80b49c29a5c37",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0165",
@@ -3198,7 +3452,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6e02c2590a80f0b0163c5d272e226bd044ba73f994d719ae646b1c8dad6d0eff",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0150",
@@ -3223,7 +3479,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "6f7c1989a0b3a99776c12d7440c7dc49dde030f3aece5c4614751723eb8c1ff2",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0160",
@@ -3248,7 +3506,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "dc0cc1e5e963ea3c297cda9d3a6daa58136b094c119ee8a241614eac99acf91f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0260",
@@ -3273,7 +3533,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "5d529814d629a528682eb2c1f75104bb307db0d6a27ea13a63271ddd189c86c2",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0088",
@@ -3298,7 +3560,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "7986c82c5956c285b3af3efe7bba6f1bea58610fb6e634024a120925c6e3b959",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0185",
@@ -3323,7 +3587,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "b92b3809f033f7dc51555d8c444696458917276239769d71a29a8916f46fa2b8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0166",
@@ -3348,7 +3614,9 @@
    "signed_delta": 0,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|+0"
+   "code": "U|+0",
+   "crop_sha256": "db9ce02de0eb8fe675c1f8dd7bd2f5f3982d63a984e570d1308544a721f65435",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0013",
@@ -3373,7 +3641,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "6225e7c68fd2dcd2e3c3ff25a73e4969e4e9ce907ae9dc4b6b733c1a6f874658",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0154",
@@ -3398,7 +3668,9 @@
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "5bcff56906f3251db57a9e987415de8c2517d003d4ea44742f2bce6b8f5649b7",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0082",
@@ -3423,7 +3695,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f2e554af652f814c805dd5277e6e1479ddb1da23285a4bef47ce63218792a763",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0124",
@@ -3448,7 +3722,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "9a8d61b2254ce25dec0a254776e4abc80bdcfeb9b00c91065097a2b6acd6b5ac",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0198",
@@ -3473,7 +3749,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "6ac5d37e10714b936da989d80744a7ca30742608bd454d7e6c5d838593a6d415",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0070",
@@ -3498,7 +3776,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "b9c92079dd4fd2e37869b3ad410c894a004fe77a32f27d447789ae6a797ec2bc",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0084",
@@ -3523,7 +3803,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "b0785c22ade2adf21f68c2f8779bdae1d6543188d7a50c5400c8bec833a5d74b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0008",
@@ -3548,7 +3830,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "ff6895c183b4580908dcda157ef55a990da2ed2277a3a64fbea8cfe2aa20ab2d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0035",
@@ -3573,7 +3857,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "c939b473d560cbdcef1dbc7f631cc3b2b72e471753a7a26ca3c65accbb8b1e8b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0042",
@@ -3598,7 +3884,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "df664e02b4e1fe1510121ae8d3ee20bb5883d5fd4916dca02d980c9ba097e2d8",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0065",
@@ -3623,7 +3911,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f3390a4ec70d50f9367d73b27d37cd3c036964e431795cf5d31b649727b32ebd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0126",
@@ -3648,7 +3938,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "13307aa44392fa0b668c5c7c53b52beb07bda8df483a73814f92201918839309",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0032",
@@ -3673,7 +3965,9 @@
    "signed_delta": -1,
    "flag": "stable",
    "rendered": true,
-   "code": "S|-1"
+   "code": "S|-1",
+   "crop_sha256": "e83730a278185e380604f4ecf321c20bf2784c0187b876feb0a25da4ac888e84",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0176",
@@ -3698,7 +3992,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6200cdaf6ec72c08f19741f1d5cdc76397665083d75159a3fb1423f04727005b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0252",
@@ -3723,7 +4019,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "79f8d12dfdc6927c958219f117d215e3752603ab80d19dc08fd64da94f526815",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0001",
@@ -3748,7 +4046,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "869c3ce808e5d40b1dc54c208a46318ff57518d343d2b398a17336b130c60c0c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0004",
@@ -3773,7 +4073,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "30ef04dd1f980796578e8d34852ff13f578517cbb0dadc11e612e5815234dc6e",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0006",
@@ -3798,7 +4100,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "1b9a43ad35bd9d98ba6b3f5b109ac512e53639db23e9a4002b49a0b51462eb09",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0009",
@@ -3823,7 +4127,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "307d6f097581219d94f4129dc8156644d962399027ea02bbeb0da491da4fb035",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0011",
@@ -3848,7 +4154,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "61ec09f62c60311830d22eb904edb96e714fad2e239a3468cb035bf4cc95e8f2",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0012",
@@ -3873,7 +4181,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "66a5be6391f299aac4286d14da170cfe12580e8e695967e30da6dd5648a6d7fd",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0014",
@@ -3898,7 +4208,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d9ba81d091363852d7458ecfde4eed2f45dbbb0fe173684344ae6b79c89f963d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0015",
@@ -3923,7 +4235,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8ba002b9b797bb35553116808f055b261c1df0ccd17128de063b67ba3b6f027a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0016",
@@ -3948,7 +4262,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "57c9624b93fcb4fbd75cf5e6ec98e0e94adc5bdd0dd593351ab878dcce09cb6c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0017",
@@ -3973,7 +4289,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "0c0ee7d7a3d6617a73825e6e6e3b34aa069d5ef7faeb26e38b097061dbe1a43f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0019",
@@ -3998,7 +4316,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c7f647ac2fa8e9efc4bb7cd8bd85b5fbeed4ddcdc98555dc1f7640a1992ea3f3",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0024",
@@ -4023,7 +4343,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "8deb318253d356f7ac8d7662195bc575383db609dfdfa0780d1aaa99cf9f0f7d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0025",
@@ -4048,7 +4370,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "54b20238b01f7b9addb622fd3b7716fe1173d2575a9086ce2f1d6f93c31e7690",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0027",
@@ -4073,7 +4397,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "eabf49abb8d52110b7dd54e8a7d3a81a6f23012d19954f666ddf54cde9c6fad1",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0028",
@@ -4098,7 +4424,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "adbcf3a24034dc21d723bb4434861193b5d04782e2502bd8706693f599f8d834",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0029",
@@ -4123,7 +4451,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "e7f6d69a45053ab83cdd310047c76ab32b2bd375a24eda04bf3afd8ca7017a27",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0037",
@@ -4148,7 +4478,9 @@
    "signed_delta": 1,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+1"
+   "code": "S|+1",
+   "crop_sha256": "380ca5dbecb51bf1f50c885050da3dd42a6719dc080e4c7f1d62747f8f0ad654",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0044",
@@ -4173,7 +4505,9 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "05daef7fc6f894f0aa84e7f3a0340fcd9a3d0fdf8647997959423bc199bf54d9",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0047",
@@ -4198,7 +4532,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d811a7323feda8b1ed03a333d7cc593abcdd11ff1d4cc6afcf7d0a1672e6041f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0048",
@@ -4223,7 +4559,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "6fa2f849120b23838a8d51c70c23a0cb9e7f7680307153a72503d3f69afbd893",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0049",
@@ -4248,7 +4586,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "c5d50e243bab3c8366ca2d4d56db27007277a3bee43c534c464b03b4d7b88643",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0050",
@@ -4273,7 +4613,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "43172a11c96bde98eec9aa789f59c99059a55e9b02653ec7229d563bb000d271",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0051",
@@ -4298,7 +4640,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d7c3fe2c70bf530bdc48998a22fe56cfe6ccc024ad93e27329604202b2ce74d4",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0055",
@@ -4323,7 +4667,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "acf7e7914d89c33e0b741e5115690371091298939cbd791b75b4234cc931bbae",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0058",
@@ -4348,7 +4694,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "b9f0a8f113ef419b42111ec2d7f109f8c5e209b049fb0e49da7d1b8fac72874c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0060",
@@ -4373,7 +4721,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "66645b3e70beebac17cd7b3cf9212cc84a4994b6ee96a7238452e7f6164e12cf",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0062",
@@ -4398,7 +4748,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "a2b5a06b2020221ffb3672bc1cb3acbdcc72f0ff9ad7aed798db56fd5f6d1703",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0067",
@@ -4423,7 +4775,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "90fa11d15feb644916a0465c9a8169b8017ec5af0d4b6bd97cdf8e10fde67132",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0076",
@@ -4448,7 +4802,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "8a7ebdcaa496d6dae5e2687b849855b1aef4f2b4243b754206ba64663ef3a3ae",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0090",
@@ -4473,7 +4829,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "f910082b8c2928ab2b4e8771cfc6a6fc5efc6c5aa70242e987050296f50ef31a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0095",
@@ -4498,7 +4856,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "806ea37b0e8872d9921ffd5638b3134cf44c177fb0d4d9f0044e88cebf1c9f16",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0099",
@@ -4523,7 +4883,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "cad7fd4fbec22fbd5649fa7fa743a48e87f2ca59af6b9f044bd17f251445aca2",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0101",
@@ -4548,7 +4910,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "b1358fa2cdf50a56b1e9f3b93eedfaa0c90e2180d89b1203717682a16277f08c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0106",
@@ -4573,7 +4937,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "780364615e80aa38c8533136efaa9a0850c97b550f8b259bbadf2cc2cdbff45f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0108",
@@ -4598,7 +4964,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "8d0bc67ea8a45d15d93bc61ed5a9fb3f778c01d9953e23c349648f8eb58e3c67",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0110",
@@ -4623,7 +4991,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "f9b0260c670888d26ee5371627298a6319f5e2cbbf95b084b342d88905c5d613",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0112",
@@ -4648,7 +5018,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "b0dc3e868a487cc3e62f97696603150253ee0260fa6956d5d70965155790ee10",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0114",
@@ -4673,7 +5045,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4359635bd152e52eb0fe1dc24af1a09979b3e1412197da2e674573a29345003f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0122",
@@ -4698,7 +5072,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "35a24cc9c60d4f3ee105c02c166a3448e83b887be36dc59a8aa3ca078b0d9c9e",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0127",
@@ -4723,7 +5099,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "3a47b7b79e9f9414033128cb72df0581e9eb19fbfc79dc45ae8f293d0f6f6c37",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0130",
@@ -4748,7 +5126,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "5250e244c90152e3dd5c46c8356f580a46a2d4666a436c372c6f688e3c8adf53",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0135",
@@ -4773,7 +5153,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "3885008916dc2b3792e9c2cd192b1ff206ed6c814a56f852b0f934a8469fe745",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0138",
@@ -4798,7 +5180,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d1a3310d8313bea9de57c7a6fa713c344ab23359cd9dc5ba02b315eca79ab38c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0141",
@@ -4823,7 +5207,9 @@
    "signed_delta": 7,
    "flag": "component",
    "rendered": true,
-   "code": "C|+7"
+   "code": "C|+7",
+   "crop_sha256": "d69d2ae46d70c30416a9f9529e472a5aa104dcfacccfbb70fe5c2fead03f9719",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0145",
@@ -4848,7 +5234,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "0c43ec9c698cb0acd46eb0068e4926bf0bdde6c84554a273a42d6ca62a77a39a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0149",
@@ -4873,7 +5261,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d3749abce442a0290b91aa33171ffdb7a5dfbe16a76db8448bb6565f763f154a",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0151",
@@ -4898,7 +5288,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "b83ac95684ccb90063495a5d4922870110ad7208897931ee42e677d0f66efd04",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0152",
@@ -4923,7 +5315,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d0ed3551e33891e09aa720ae1c0823f05970dad43429806868fb3623f227e98c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0155",
@@ -4948,7 +5342,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "50566a6522d080155bb94786a3f13552671b0da7f13b204202b93479e085ddbb",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0161",
@@ -4973,7 +5369,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "3c58dbf4378ae7e1408a40013f7588a06e7e2776276959c0b5347b021828a4d1",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0162",
@@ -4998,7 +5396,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "035a145a8c8455d50525a0cf93fd864654afe47f24d65a97c9212f11b025296c",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0167",
@@ -5023,7 +5423,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "d9bcc2b7032dc67ed76e750d854160a35e9f8843963d67484e65d4dbeedbb260",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0170",
@@ -5048,7 +5450,9 @@
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "ce33ae132eb167f5485887885f3070b9c71fb1853f6708ac819ad718f43cc6ca",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0174",
@@ -5073,7 +5477,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "cbde1b399e0cc751b6892257c571aaeeba7651066175424affad43f7f6f8355e",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0178",
@@ -5098,7 +5504,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7bbbc63025ca07a0e02e33383ff9e4f56d05141b4d551ac511450ea4ca0ed956",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0180",
@@ -5123,7 +5531,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "cdf54d7e1468ad6f0acc1223051c2220f23bff4799b28e0f1912fb39529c0368",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0182",
@@ -5148,7 +5558,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "8a65c44902866985f6160f8a6124eae8da617769f4335ba679c76bca112ef295",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0183",
@@ -5173,7 +5585,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "ad259ada3e154ecf4598c3a79e3d607679cec6ab9cb2ce29ee1b3d1469385027",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0190",
@@ -5198,7 +5612,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "e901b81882e0731d0738960dabda4fe9df86804ebd8ad645b7af78270a22c558",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0192",
@@ -5223,7 +5639,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "bcfe89f17b0a4dd8cddbff855b9c7bdf8a83b2f4abe2b66b94af1206dcfc1a49",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0196",
@@ -5248,7 +5666,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "cdc33f1bd9fe566e6a186a08d049ca6c2982c1a37f9af25c4624185a06924fa5",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0197",
@@ -5273,7 +5693,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "e352ad8606f2aa1239e7e2ec6e101ea03a691b5910158ca518fbf34759e71b9d",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0200",
@@ -5298,7 +5720,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2dc1a619aabffeaabbee2f1fd6b51e6715a3a9648620c046b83e99d4033ac508",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0201",
@@ -5323,7 +5747,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "afd6ec943a9327567660443c221e054377731f3ccfac5c3d2540bc80c4292e24",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0202",
@@ -5348,7 +5774,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2bd61c5e33dfe83f5c1593b0d72769ab3b183b8f8a7a1113275f08c3749e787f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0207",
@@ -5373,7 +5801,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "97673ed84efb8a3d9daaca66489a8c3178ed260b349dc1ee73d0bb17d48aa764",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0208",
@@ -5398,7 +5828,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "75a196b66b471c57d30b9092546bfe8f86bfbead7c92fa7d8c04e214af6b3bd1",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0209",
@@ -5423,7 +5855,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "70e4c9497655df6e74caf1e4175c8472b3da9eca75354566ce4402de25ba29a2",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0211",
@@ -5448,7 +5882,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "f730186087cfd21172cc921f65ee78d2e815a6edbb0e59d754f46e51e5ee0115",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0212",
@@ -5473,7 +5909,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "1379b8d1f9211e652a3bf530f38c89a55783616bb8baf1a2235e54d4929ed1ff",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0215",
@@ -5498,7 +5936,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "1d24b337a66b51fcad36182e6c711127113cc7d8de80d901ba581be258949f5e",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0216",
@@ -5523,7 +5963,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "5000b07642a4a02aa361ba989a841913d8191512e2af5dc72dfe420e2423df20",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0220",
@@ -5548,7 +5990,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "ffbe0a8c40a4d428d3a1bb2b7170ba785b09b08ad5bd8947ac9c4b4b5a8d5740",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0231",
@@ -5573,7 +6017,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "c986e6d885efadea6ca6bc55e405e66d59a9d76efed36b5af3a8ec5e01e7ba2f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0232",
@@ -5598,7 +6044,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "1ef4a6b456df570e0fabc5071de8bba22e0a9e956a8d058ecd1d36d7e2d291d6",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0233",
@@ -5623,7 +6071,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7ebcfc241713e4616df7c73989a9fd628358142e3c657658d0b4b349bfedab92",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0234",
@@ -5648,7 +6098,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "653b3ca118d8152b11071f050486f53ad5361a644686056e50256d88695d2963",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0235",
@@ -5673,7 +6125,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "a65cdfa53f96113a88eff973c266247d721788331e21c87e941d87dcc530a9e1",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0236",
@@ -5698,7 +6152,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "fcf026e068802ae779608d2733bd0a01e4db922d647284cadf9d1a1c6f201dd6",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0238",
@@ -5723,7 +6179,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "1d2bd5921fe3da7e2fbdda5a5f1f5761429cfae63e721c015b4a47cfc323740f",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0239",
@@ -5748,7 +6206,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e5bf8c3293d1d93eb505fb65d7515c7c4bee5fda98fc79f728ee69ddcdbcb164",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0240",
@@ -5773,7 +6233,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "cd33b4280672541e7794d3d8f3775dd638262e8d96c403de4718c2b0e3fc67ed",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0241",
@@ -5798,7 +6260,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "81a41568bef8d516959be65c0daa6c053b5d91854dd843ba519ff7cf82210d36",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0243",
@@ -5823,7 +6287,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "0b0465858a4259e18b0b0d1dd4d971f0c6214d054faeb8cc4ccebfec15d76c45",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0244",
@@ -5848,7 +6314,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "f4b53ebaff4df7bd56431b2639d4d2f33d21be1d9a7f415b6116d50c4f98ef63",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0246",
@@ -5873,7 +6341,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "df2c2031099fef95a4839ec5917309eca11851587cd9494f0f59d08174a9e6e5",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0247",
@@ -5898,7 +6368,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "1ded94c76bfa04cac9b38b9f1881c646573909866b35fd56b9e108fd0f89467b",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0248",
@@ -5923,7 +6395,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "63d4f58926d62dfc199612d410dab545103415d41d1d7a05822ad78da45a9674",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0249",
@@ -5932,9 +6406,9 @@
    "L": [
     62,
     15,
-    18,
-    11,
-    7
+    17,
+    9,
+    8
    ],
    "R": [
     62,
@@ -5948,7 +6422,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "27fa68da9f026450e5255275d8aa252c00150bb930a2ee5103a11537efb04721",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0254",
@@ -5973,7 +6449,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "b655ed191833d68ace174ca41d24e2659c805954f21da5a3daf462e8debe2fc4",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0255",
@@ -5998,7 +6476,9 @@
    "signed_delta": -14,
    "flag": "component",
    "rendered": true,
-   "code": "C|-14"
+   "code": "C|-14",
+   "crop_sha256": "1ca8d05763319fc9a4c7b097a3e39e2a1ded36a4a1a2a28390da5c95e265f1ad",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0263",
@@ -6023,7 +6503,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f8dbd7cde13b133ec6858b3e304104b50891f1d66bb34e4c43b769a62dad0602",
+   "rung": null
   },
   {
    "id": "fong-spivak-seven-sketches_EQ0264",
@@ -6048,7 +6530,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "37409bd37880477e8eeb3e6c24e03f12953a01160ba54333ef0c63485d1054ca",
+   "rung": null
   }
  ],
  "footers_dropped": 0,
@@ -6056,15 +6540,15 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 29,
-  "bytes": 4484370,
-  "sha256": "6548c5c68ffbe8a4a0e9e5738992057c2ee393efed6906cc4d26c79cbf6426c4",
-  "mtime": 1788609152,
+  "pages": 251,
+  "bytes": 14167976,
+  "sha256": "fa4e67f65a663e2284692cf6d92d6b63d14f42c9bc2f188d9c20e2a2967dd20b",
+  "mtime": 1789309663,
   "findings": false,
-  "built_at": "2026-09-05T11:52:33Z",
-  "commit": "d9fd1dbffd18",
+  "built_at": "2026-09-13T14:27:44Z",
+  "commit": "b941496a5dc4",
   "legend": false,
-  "ink_adopted": false,
+  "ink_adopted": true,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
@@ -6074,6 +6558,7 @@
   "pages_bound": null,
   "model_sha256": "867a6097744ed849ba92a7eebb8570f5e47b443a48b28243b123e53ced5f5e73",
   "model_bytes": 47862596,
-  "model_mtime": 1788463550
+  "model_mtime": 1788463550,
+  "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
  }
 }

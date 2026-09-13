@@ -23,7 +23,9 @@
    "signed_delta": 70,
    "flag": "component",
    "rendered": true,
-   "code": "C|+70"
+   "code": "C|+70",
+   "crop_sha256": "15d4f998d2606726bf27041acae2dd787f03ef135eeb4b653f47ad1ce37a5202",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0062",
@@ -48,7 +50,9 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "99cae45c4002ef82bb0ea0dfc802083faf3afb070eb20054111510b0b849e8d5",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0180",
@@ -73,32 +77,36 @@
    "signed_delta": 7,
    "flag": "component",
    "rendered": true,
-   "code": "C|+7"
+   "code": "C|+7",
+   "crop_sha256": "9c72a7469c5d27097a657cf575f48c655cb5fe85354a32a9d07ee0e7432b1791",
+   "rung": null
   },
   {
-   "id": "fong-spivak-invitation_EQ0096",
-   "report_page": 2,
-   "line": 1,
+   "id": "fong-spivak-invitation_EQ0135",
+   "report_page": 1,
+   "line": 4,
    "L": [
-    27,
-    6,
-    12,
-    10,
-    2
+    94,
+    13,
+    38,
+    26,
+    12
    ],
    "R": [
-    25,
-    8,
-    9,
-    8,
-    1
+    102,
+    17,
+    51,
+    39,
+    12
    ],
-   "distance": 10,
-   "comp_delta": 2,
-   "signed_delta": -2,
-   "flag": "weak",
+   "distance": 38,
+   "comp_delta": 8,
+   "signed_delta": 8,
+   "flag": "component",
    "rendered": true,
-   "code": "W|-2"
+   "code": "C|+8",
+   "crop_sha256": "924466babb47e5e1b893711d68f8894a78953910e0c4a905d6b1ac2c157768b8",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0199",
@@ -123,7 +131,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "d196bb97c93d961b265a9d8350c999984dbec2d9dbff002b1ce16efa3bf6c5e7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0257",
@@ -148,7 +158,9 @@
    "signed_delta": -1,
    "flag": "stable",
    "rendered": true,
-   "code": "S|-1"
+   "code": "S|-1",
+   "crop_sha256": "85cd118db54b22fb30312f35ff28d8f706233a7563c360cce463e2ed19251a46",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0187",
@@ -173,7 +185,9 @@
    "signed_delta": -5,
    "flag": "component",
    "rendered": true,
-   "code": "C|-5"
+   "code": "C|-5",
+   "crop_sha256": "da3e7f1711f8bf5d68af780937eeb4d071e25c0d12fabed4600cd7347bbfb72f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0095",
@@ -182,9 +196,9 @@
    "L": [
     71,
     24,
-    27,
+    26,
     17,
-    10
+    9
    ],
    "R": [
     108,
@@ -193,12 +207,14 @@
     13,
     6
    ],
-   "distance": 61,
+   "distance": 59,
    "comp_delta": 37,
    "signed_delta": 37,
    "flag": "component",
    "rendered": true,
-   "code": "C|+37"
+   "code": "C|+37",
+   "crop_sha256": "5ebd76cc1d86d0736478e17ef8261c958691409f7ca5aeb89d3bd708637941a3",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0085",
@@ -223,7 +239,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "836ae10f290d9b592d84275120b0777ed42d6eb88c377cb25f0590e013c99ea7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0201",
@@ -248,7 +266,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "056393b4236b07493c514babfefef5819b242c854bb8bc2c4cf25b177351e6ad",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0242",
@@ -273,7 +293,9 @@
    "signed_delta": 12,
    "flag": "component",
    "rendered": true,
-   "code": "C|+12"
+   "code": "C|+12",
+   "crop_sha256": "509d3424281e23c25638ad2c2df1bd6f666ade4c6dc2e6da1c21b600548d6159",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0223",
@@ -298,7 +320,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "6a175bde62adc6ec8926125c143559f797e203855bcd828241cc59112c91333f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0070",
@@ -323,7 +347,9 @@
    "signed_delta": 9,
    "flag": "component",
    "rendered": true,
-   "code": "C|+9"
+   "code": "C|+9",
+   "crop_sha256": "75cad8b6978de0cac7498274c115d18bbe42d4ba4c37c8587698f765b28e4d60",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0185",
@@ -348,7 +374,9 @@
    "signed_delta": -5,
    "flag": "component",
    "rendered": true,
-   "code": "C|-5"
+   "code": "C|-5",
+   "crop_sha256": "17da0ee797296ffcd5162e8a5e88d268c4f66ebca5dd1735a2a7d17604cf7b58",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0222",
@@ -373,7 +401,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "c9b9494dce767468dffc1acd6433cfa53b676da9a1161d713f00a72a93bf47ed",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0134",
@@ -398,7 +428,9 @@
    "signed_delta": 91,
    "flag": "component",
    "rendered": true,
-   "code": "C|+91"
+   "code": "C|+91",
+   "crop_sha256": "c9399f661ca2f0ce93527736abf90fe68c48bb79798bdfc754d5921960ca4ba5",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0116",
@@ -423,7 +455,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "09532c46f151960513be747a60506feb8e26509310533e798a3ddf4d34e2985d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0227",
@@ -432,9 +466,9 @@
    "L": [
     175,
     61,
-    18,
+    17,
     6,
-    12
+    11
    ],
    "R": [
     218,
@@ -443,12 +477,14 @@
     7,
     14
    ],
-   "distance": 82,
+   "distance": 84,
    "comp_delta": 43,
    "signed_delta": 43,
    "flag": "component",
    "rendered": true,
-   "code": "C|+43"
+   "code": "C|+43",
+   "crop_sha256": "cf033295cc5cdb6adb5ef5a143990462f8b9330c36420a3367eb287ddcf50eb4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0040",
@@ -473,7 +509,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "3dca7994995292e784e5ec7a20852084efe2efd29465d583862733a6075945c7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0256",
@@ -498,7 +536,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "736c925ba72c609d7ae8089c63c306d5d24b6db2600dbc9b43984e0993651f8e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0043",
@@ -523,7 +563,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c1dbcbc36624ae9a7db8aaae528a61a47d064378a9a22beda3c58ab48648a363",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0112",
@@ -548,7 +590,9 @@
    "signed_delta": 5,
    "flag": "component",
    "rendered": true,
-   "code": "C|+5"
+   "code": "C|+5",
+   "crop_sha256": "fff504017e040f0b640d35e08a3d1c266c483126812e2f48c3486a4fee54e66e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0059",
@@ -573,7 +617,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4e422ea4dac4d1a18612073564a78fb362b0a7d06f211d38969fa429b8acd6e8",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0037",
@@ -598,7 +644,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "0a008ac9b0bc3e8ad42882223b286818326f00bf4f6f66e5c0c8b655414c5625",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0260",
@@ -623,7 +671,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "af616d12bcde9ad94b0996a5ae683d6efa8f92a0e948ab6c5fa415c304b8f2c8",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0075",
@@ -648,7 +698,9 @@
    "signed_delta": 40,
    "flag": "component",
    "rendered": true,
-   "code": "C|+40"
+   "code": "C|+40",
+   "crop_sha256": "e2ae7376c81ec7eb93e8bcc32949e224b6c579136bb2244592460f828f8964de",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0141",
@@ -657,9 +709,9 @@
    "L": [
     64,
     4,
-    17,
-    10,
-    6
+    15,
+    11,
+    3
    ],
    "R": [
     65,
@@ -668,12 +720,14 @@
     7,
     2
    ],
-   "distance": 23,
+   "distance": 19,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "39e411b89caae5286272e87fcd655f609c517a94b810b4115d20db553801fc76",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0214",
@@ -698,7 +752,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "5c59da36e2b6baa782f9ee2bbd8e6ed4b296ce980d800433dd4c0cb14d49a237",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0024",
@@ -723,7 +779,9 @@
    "signed_delta": 2,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|+2"
+   "code": "U|+2",
+   "crop_sha256": "d52042d82bc726c9c6c2a1aa09f813fe533212d3485a74201855521331112ef5",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0255",
@@ -748,7 +806,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "c33260733a430fd3f521cfe15a764f5dc011d06004792aef4eddcfb5e1ddbb91",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0210",
@@ -773,7 +833,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "bbd6d20cfd75bd47e4c034f2b59423845400d8dc7f97ea78ecb1b8a1abfe9314",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0186",
@@ -798,7 +860,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "5a89fbe0618fef04dc4d462b904a87e5f8224066afb15c44d1436b9bd5b22ed9",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0077",
@@ -823,7 +887,9 @@
    "signed_delta": -7,
    "flag": "component",
    "rendered": true,
-   "code": "C|-7"
+   "code": "C|-7",
+   "crop_sha256": "0282c276872856ce720d62b807abb9d56cc29c12a1d36ddf8824cb6b3d445fb1",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0071",
@@ -848,7 +914,9 @@
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "b8322e9b9629d53d203fefba28cb3d58c1007e0872bca62dc939a9d0153cb985",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0206",
@@ -873,7 +941,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a7f053e3bcd04a74965d0d88a64cab683ea92b757d50a28f743695a983306690",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0074",
@@ -898,7 +968,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "09cdf5d639aa2becba23940dca9577b186dc851ee5365ee97f38a666df2bb10d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0239",
@@ -923,7 +995,9 @@
    "signed_delta": -4,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|-4"
+   "code": "U|-4",
+   "crop_sha256": "cd43d48eed35a3f74f479e427521e069a513f05e8ea4694789dc3bc37f12e169",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0073",
@@ -948,7 +1022,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "70dee0ee06d3e81b779135f36365e43bf75d9c8a70c546bb0014043bfcab8fcf",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0025",
@@ -973,7 +1049,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "73b606e13f35f2c507e996037f750d318a618112b7dc56455069a37b644d4ec8",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0132",
@@ -998,7 +1076,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c8f4722540d2850e4adbdcbc03b32f3d7d08b65751b050704b4606a8812d798f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0057",
@@ -1023,7 +1103,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "84989ea370cc45ce5d8ad8f522193fabea9b88c87efdb733b1f23083646d2dc3",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0123",
@@ -1048,7 +1130,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "dc53e9ae10128335f6ee9fcec84922865d9ab9af2467d8984b04202e9cc50554",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0010",
@@ -1073,7 +1157,9 @@
    "signed_delta": 21,
    "flag": "component",
    "rendered": true,
-   "code": "C|+21"
+   "code": "C|+21",
+   "crop_sha256": "78f9128366410a94e061caba0e2048a5a73f31d4e573348a4ed6d2c946cce5b0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0155",
@@ -1098,7 +1184,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "0c534dc5ec96a00776f41e25bfb5192f3b370302f4f57907d2e7e2e88477668b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0156",
@@ -1123,7 +1211,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "715364c00869d78d4d4b732a57b5be1d83f3f1fbe46007576dbf7d9149442c16",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0124",
@@ -1148,7 +1238,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "becf4677f20b6247efd8a5166afb49a1ad1239d90f6252277822f0e91993cffa",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0080",
@@ -1173,7 +1265,9 @@
    "signed_delta": 11,
    "flag": "component",
    "rendered": true,
-   "code": "C|+11"
+   "code": "C|+11",
+   "crop_sha256": "3d28eecdfdb37f853aeff38ce1bf545fcbdc51e341ac719de21632146acf5c2d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0097",
@@ -1198,7 +1292,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "52ec18a9468ba6ab117148ffbe7b1b0ead03755db74ba7495b42e581899d76e5",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0224",
@@ -1223,7 +1319,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "336508da308061f5d75c1a70c2dddaac4c21e578b89650aa200d00c82bf691fa",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0107",
@@ -1248,7 +1346,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "43c400a16bf0b1c1c25acc256ad658244dc5df1026f584db47b20ce77b4fbfc8",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0151",
@@ -1273,7 +1373,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "6d521426cc3ca002454db5077b146c16e8da4a3d705c942879d7fa10e0a639a6",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0191",
@@ -1298,7 +1400,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "92934918afb0fbbc64593bc4a2ab85995e0b23da9410fd5439c1b9dc079aca48",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0200",
@@ -1323,7 +1427,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "baefb007d2959d78eaa0fd36561ccb3fd2530bffa18b92ca24f23cac0cd78d36",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0089",
@@ -1331,7 +1437,7 @@
    "line": 6,
    "L": [
     16,
-    8,
+    9,
     4,
     4,
     0
@@ -1343,12 +1449,14 @@
     5,
     0
    ],
-   "distance": 12,
+   "distance": 11,
    "comp_delta": 7,
    "signed_delta": 7,
    "flag": "component",
    "rendered": true,
-   "code": "C|+7"
+   "code": "C|+7",
+   "crop_sha256": "8efed17fd98a00a188da4e0345c3be418f0dce14304355aa1c5225e5bd4ee5a7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0170",
@@ -1373,7 +1481,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "cfcb8e406096f859f07f25d18c2a627eaf16fec5f1dcd5c0b135ac6694cc44be",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0061",
@@ -1398,7 +1508,9 @@
    "signed_delta": 13,
    "flag": "component",
    "rendered": true,
-   "code": "C|+13"
+   "code": "C|+13",
+   "crop_sha256": "7a1796f7964cb49768c82d3b1a8c76d32c8aaed96274e30f8651271cb99f6472",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0018",
@@ -1423,7 +1535,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "3d7a48db7692e268ea5c19d5e9e19e4a4f8a659458eb057010b1e232db7fa74f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0149",
@@ -1431,7 +1545,7 @@
    "line": 10,
    "L": [
     35,
-    7,
+    8,
     7,
     5,
     2
@@ -1443,12 +1557,14 @@
     5,
     2
    ],
-   "distance": 0,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "clean",
+   "flag": "noise",
    "rendered": true,
-   "code": "K|+0"
+   "code": "N|+0",
+   "crop_sha256": "570fcda7e89059281dec159c9fdfb9ec2ed821105e8b4e23aac99ab678996675",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0082",
@@ -1473,7 +1589,9 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "28c561e4be103612483edefa086df6d12523f9ee49519687a748a39c4661a2bf",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0248",
@@ -1498,7 +1616,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "cdd14d335594da660f2b94b8f60ba40ec38ecb62072d8e5ede8a9336e0c45762",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0114",
@@ -1523,7 +1643,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "d6eb253910c0a77bcf6d5f5c1fc6208bdecac66993f6d125cb1a3f11817c2f4c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0138",
@@ -1548,7 +1670,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "6df97075b6c0c5353ef30d28a2a80b0896c9f207c43979da4a72d23420e34480",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0143",
@@ -1573,7 +1697,9 @@
    "signed_delta": 20,
    "flag": "component",
    "rendered": true,
-   "code": "C|+20"
+   "code": "C|+20",
+   "crop_sha256": "a7bff4810a0b9f6e59d0ae0d317413a0de9677e3122a34d63daf6966bb607069",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0198",
@@ -1598,7 +1724,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "cc28545a01638f482fa03bf085a7ae22d45ae836dfc33877ada302cacec84acc",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0209",
@@ -1623,7 +1751,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "01c1ec8831efeb73a3ba5b2f6eae43dff9d00412043af06fa0da944475a86015",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0160",
@@ -1631,7 +1761,7 @@
    "line": 18,
    "L": [
     60,
-    10,
+    13,
     7,
     7,
     0
@@ -1643,12 +1773,14 @@
     7,
     1
    ],
-   "distance": 8,
+   "distance": 5,
    "comp_delta": 2,
    "signed_delta": 2,
-   "flag": "stable",
+   "flag": "noise",
    "rendered": true,
-   "code": "S|+2"
+   "code": "N|+2",
+   "crop_sha256": "5b914cb73c728a60ec4f2fff8b665ec94b516be2b71fe3e5fc974276ba4f98ac",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0022",
@@ -1673,7 +1805,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8430aea5e002ef2085f19d44eb491eba89cec7d16e58a9c5d5e53b22b2fcdbc0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0128",
@@ -1698,7 +1832,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "29521aeefc9e2b63db0f2e961017b6dd3ea0f680597b2baa7d4d1511aab95f36",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0148",
@@ -1723,7 +1859,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "4dfe125fb710b42d08b0866273e6ccf23ebcdb5f7e27329f8e305879ad0aa9b4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0003",
@@ -1748,7 +1886,9 @@
    "signed_delta": 5,
    "flag": "component",
    "rendered": true,
-   "code": "C|+5"
+   "code": "C|+5",
+   "crop_sha256": "4c5ad37b4dd328cb41b1eb67e89c4a721c7030571548e05f1a4a201d88ad9358",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0066",
@@ -1773,7 +1913,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "3d249b6a960c4eab81bda543ca81012ee0cad82e3481b1592c1938cc9b1db95e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0159",
@@ -1798,7 +1940,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "b6b728e783e7e6cf6d531cf57e1d873e2c4705f33ae3eb6118f83d467a56879a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0139",
@@ -1823,7 +1967,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8af46895f74a59e1071b8e2b601ad7e83e8fc90651131aba2710e58a91a5c2d7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0225",
@@ -1833,8 +1979,8 @@
     76,
     14,
     8,
-    5,
-    3
+    4,
+    4
    ],
    "R": [
     72,
@@ -1843,12 +1989,14 @@
     6,
     2
    ],
-   "distance": 7,
+   "distance": 9,
    "comp_delta": 4,
    "signed_delta": -4,
    "flag": "component",
    "rendered": true,
-   "code": "C|-4"
+   "code": "C|-4",
+   "crop_sha256": "8d3f4ef0f0506aa9793c33079cb75246c9f71054f7335410923619cd3f0272b9",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0100",
@@ -1873,7 +2021,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "fd497f5776b4180475cab983b0ecae113b02a3b1bdec55ebbc4bdc4df54a7c09",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0083",
@@ -1898,7 +2048,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "adcc878d7c0eb4df528f4975a512468f8ee43b96d4655fa168394e0cf3941ff5",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0021",
@@ -1923,7 +2075,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "5d1dba9523737fc878ad31e5a2af552a94c95ae200e8448775f229a2c89c5aed",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0150",
@@ -1948,7 +2102,9 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "825a4ff5f57cf11e4f72906d1e279a0fab6f4dec1a7044dcfabc52ce971a078a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0088",
@@ -1973,7 +2129,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "44faff3d31d895ad019b3a676ebbb1d58566e35bb11e388207abbe011e396709",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0090",
@@ -1998,7 +2156,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "3fbc2b4acf492b484dbf5fda0e78a25f9187422fb3cb59f3fae0ca44ff715f20",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0099",
@@ -2023,7 +2183,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "89bf5b66197eff7c55f6d24de4679b495a30277b7ab54121b5b59cbc72d93348",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0167",
@@ -2048,7 +2210,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "88cde312e1b1d635b213324adbfce7e46a99626a12bfd08419d331e54c3973b9",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0129",
@@ -2073,7 +2237,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "56e656a17adcc747dd25db8ae27541b5ad3bc4050a02685ab80a4948105cb334",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0144",
@@ -2098,7 +2264,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "a256da454e71175817c18c6f72420450cea36387639bb16d5d3ff74c833eb18f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0119",
@@ -2123,7 +2291,9 @@
    "signed_delta": -1,
    "flag": "unrendered",
    "rendered": false,
-   "code": "U|-1"
+   "code": "U|-1",
+   "crop_sha256": "04211bb4b389077382b68617d1eb0fa7398bb86f25ee032e616c8f63e0b0031c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0165",
@@ -2148,7 +2318,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "238f3a3826b83cf2ab2a3b4afe5cd762e7454e30c08c7cf9fe4f1cbb97f52b5c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0153",
@@ -2173,7 +2345,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "f038b7f6eda12273e59e529edf08b1c1fdbfec6144d35d09abbb2eef19aafe43",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0122",
@@ -2198,7 +2372,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "8fa2dc4a78a8e7d26363451f781065fcf29b1fe30f24596589afc294d1957fa5",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0235",
@@ -2223,7 +2399,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "db93f7925048e8f6c102704f8d5113ac0eddf314d3214c297ff00cebaadc0f20",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0005",
@@ -2248,7 +2426,9 @@
    "signed_delta": 5,
    "flag": "component",
    "rendered": true,
-   "code": "C|+5"
+   "code": "C|+5",
+   "crop_sha256": "07942d2824bfee4c9b21bcf95c5b3f2daafeee9afc9c7ed62c6745d61844ee61",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0093",
@@ -2273,7 +2453,9 @@
    "signed_delta": 19,
    "flag": "component",
    "rendered": true,
-   "code": "C|+19"
+   "code": "C|+19",
+   "crop_sha256": "46b4d4ba7afcd56af8097a6deb0a4a39dfefc85060d598f01d2ac8519445d1d4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0174",
@@ -2281,10 +2463,10 @@
    "line": 3,
    "L": [
     77,
-    30,
-    19,
-    11,
-    8
+    35,
+    20,
+    10,
+    10
    ],
    "R": [
     77,
@@ -2293,12 +2475,14 @@
     6,
     7
    ],
-   "distance": 13,
+   "distance": 18,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "27c3ebf6a37d66ecb93d7cd072dca6f503d1b25e765c8f3de73a223bc8db86d6",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0079",
@@ -2307,9 +2491,9 @@
    "L": [
     90,
     20,
-    15,
+    16,
     7,
-    8
+    9
    ],
    "R": [
     93,
@@ -2318,12 +2502,14 @@
     8,
     10
    ],
-   "distance": 10,
+   "distance": 8,
    "comp_delta": 3,
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "8ba23d753dd40f2fb30aa915bd7552892b73988c1d0f759ce52fda829755a4f2",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0226",
@@ -2348,7 +2534,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "9aae0d39ac596c494661379baa986199b8a5940b0dfbc4291c6255e5b2801e29",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0145",
@@ -2373,7 +2561,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "35508e2c2e8d299949b5f22ef328126bd18dc8ca0cc4e5fb9b8c99eb59f1f463",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0207",
@@ -2398,7 +2588,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "6b49c1289de30ff75fefa00212d98b3af91ecd56522c6322d7a9e768a74a4fc4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0048",
@@ -2423,7 +2615,9 @@
    "signed_delta": 13,
    "flag": "component",
    "rendered": true,
-   "code": "C|+13"
+   "code": "C|+13",
+   "crop_sha256": "9a1299fadd9c2dde38d63147362754978419f2ba32d0a6208bf98ac15f83c37b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0072",
@@ -2448,7 +2642,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "ac66442a902f46e80a0d9a92de23ce7ded3d79c9e7726841ea3dc84d6d159b8c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0103",
@@ -2473,7 +2669,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a64b8cb54ac1a4bf4020788719d3838a6d62816bc9e4ea29390d2aabfbc1539a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0046",
@@ -2498,7 +2696,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "bec8025a6fc2b97d440bc3ff5f50c94f4b5320126a9d2099cfb3c0fc7fbc9e4f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0110",
@@ -2523,7 +2723,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2362a7c026720a70d2395b477a0a16f25ca44278c5dab7090c45e09b954794ee",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0172",
@@ -2548,7 +2750,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "9a5fda21087324df1034d0122be5c82e3a147fbebee3e7cae6040a2896aa849a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0216",
@@ -2573,7 +2777,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "8da559c19326680e275c814c8d0c7ccdecc1d56f1188c49fc9c3a4497a7f46bb",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0250",
@@ -2598,7 +2804,9 @@
    "signed_delta": -4,
    "flag": "component",
    "rendered": true,
-   "code": "C|-4"
+   "code": "C|-4",
+   "crop_sha256": "890fe56fb4c6109ab10bc287683c58f3f923589b66169e67d94462956ac04bf0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0168",
@@ -2623,7 +2831,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "5f85f21935178add78777603777026f59339fc9370e257ec33af123efeee1660",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0007",
@@ -2648,7 +2858,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "f644b487b0b817d0fd53ea5fe1bac1b0fa3fdebf56d0c9653a858f6b8dd76b39",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0101",
@@ -2673,7 +2885,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "7a28ddf08554e4fa22c74d3a89004592f139da14216b1dafa1ecb0808bf0f9ed",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0094",
@@ -2698,7 +2912,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4fea360fa53859f4a18df0dad8b2fbc42b682685819209a206dab834e7392aa6",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0213",
@@ -2707,9 +2923,9 @@
    "L": [
     32,
     7,
-    4,
+    5,
     3,
-    1
+    2
    ],
    "R": [
     31,
@@ -2718,12 +2934,14 @@
     2,
     1
    ],
-   "distance": 4,
+   "distance": 6,
    "comp_delta": 1,
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "0e63429771653fbc4194cec0f13bdb25334ebf44fd450de5aad3391a7cc663d1",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0259",
@@ -2748,7 +2966,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "ac226a66eb1c4df3bf3c9a96da5d3a2cf30a2bc300d48f9fdfb1c3af9799ab89",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0152",
@@ -2773,7 +2993,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "cc07da04744afb007cf71b69169b0a5a1484a4bfbe679cf3775b50def26e5843",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0068",
@@ -2798,7 +3020,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "26edd785e056a17c807e5b3dabc65bc4a5ab95ed2ee28e7cedca0840bce59504",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0104",
@@ -2823,7 +3047,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "938e222174916a57a3c944e0b88ccde132fb17afdb33cf0aac9a9bb50e0dd7f4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0016",
@@ -2848,7 +3074,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "f14f42398b833f8d9d112574396ef86118f3004c7f491faf3604343597cec073",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0076",
@@ -2873,7 +3101,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "005bdf812a82fc276c9e7cfa04fd0b38b880540fa8d7fa261f1a1225e2c5ef24",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0034",
@@ -2898,7 +3128,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "438501a687c66c2fe64d2eca476a9fdf1f09fa5daa6b7fa71f35af1cbc3509a0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0131",
@@ -2923,7 +3155,9 @@
    "signed_delta": 28,
    "flag": "component",
    "rendered": true,
-   "code": "C|+28"
+   "code": "C|+28",
+   "crop_sha256": "982f26b22b4acce1036bfe2fa842f117f33d6c6fdb368017bc868a0183ab340f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0247",
@@ -2948,7 +3182,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "9d818cf65e9d58132b3798fd07ef16a1705d309ce7fa16641af979be4245ccdd",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0017",
@@ -2973,7 +3209,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "d1d600b5f3a7fa10d83d44e263f3b1341820a524ef2d655335062d7e9489c33d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0069",
@@ -2998,7 +3236,9 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "e6c60650327d4d8d76a952a2d49a5ad43ae9a3cbefebc94387f9cebac5aed04e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0228",
@@ -3023,7 +3263,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "2519592af870eb96a2fb352bd1716efb9ae4202dd5cab7c05234edd3da7c8c43",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0126",
@@ -3048,7 +3290,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "a864e993a32cad626954f12fe965f4a9615e20a34132e90c04be8e3b40d45402",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0161",
@@ -3073,7 +3317,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "05bd5ee9aa067e7f1a6e0b6558a5580aab3139710f8ed3681fae93cbdb9adbd3",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0042",
@@ -3098,7 +3344,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "46ad45f63d0de5e28f2b227649e7bb02aabd188b5c566c3e49f2784174427c19",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0164",
@@ -3123,7 +3371,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "ab347f850896d2eb8d4022d4965b32f1e7aa4fe1e8922f29d9d718f63e4aa701",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0171",
@@ -3148,7 +3398,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "22f713fff5396a4034c7d48357b6fb9aa9bcadde26d2b548ac3dc3ca07a3e953",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0113",
@@ -3173,7 +3425,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "359c6327bc88250e70e9513f5d5736410cfd2d51d56a62ba59f1fd8e5d6337d4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0056",
@@ -3182,9 +3436,9 @@
    "L": [
     25,
     2,
-    10,
+    9,
     4,
-    6
+    5
    ],
    "R": [
     27,
@@ -3193,12 +3447,14 @@
     4,
     6
    ],
-   "distance": 4,
+   "distance": 6,
    "comp_delta": 2,
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "8eadf7a56e3bbed18e3ca0724d780ba5df516f2471037a137815b42176771c35",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0195",
@@ -3223,7 +3479,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "95d5d0bbfe7990bee97d1ba5d244d852c414cc0949a2ba99d81fac3060b546eb",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0002",
@@ -3248,7 +3506,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "ce03fd559e13d39cff62327630f6324c03652eb10ca6f7d08fcd0241f21bfad2",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0189",
@@ -3273,7 +3533,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "411d4755f6a257cdcbfc8122ef595676916a196f321497c0a5d43eec4b41a710",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0136",
@@ -3298,7 +3560,9 @@
    "signed_delta": 15,
    "flag": "component",
    "rendered": true,
-   "code": "C|+15"
+   "code": "C|+15",
+   "crop_sha256": "b000da2fccd673026077628912b481e4140561f41f4b4a3e4c07373b28b6b59b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0009",
@@ -3323,7 +3587,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "eacd9fda5352e520be97aa097216126e22fcb1e484f257bbb6e17e9f5e386230",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0053",
@@ -3348,7 +3614,9 @@
    "signed_delta": 7,
    "flag": "component",
    "rendered": true,
-   "code": "C|+7"
+   "code": "C|+7",
+   "crop_sha256": "0de7796275aaf87c34023efe9d88344004e5dc87a9d754e978347ee9e0f346c9",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0231",
@@ -3373,7 +3641,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c89863444c8c2748254ffd9ac5cffdb9c7c56270b3e47bf3dd72ed222536162e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0049",
@@ -3383,8 +3653,8 @@
     54,
     3,
     14,
-    10,
-    4
+    11,
+    3
    ],
    "R": [
     55,
@@ -3398,7 +3668,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "6566ad583e2cc82a71e688f59b004b4a0b01b64e067d633eecb0f938790d0166",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0108",
@@ -3423,7 +3695,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "5180578d0c5ab7d3c58b8882718e2bada79352b2fefb22822e8483a602c712a9",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0166",
@@ -3448,7 +3722,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6e201636ace9cdeae6437a4fb523a2161eed788196c5c4304473f9976ad6015e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0011",
@@ -3473,7 +3749,9 @@
    "signed_delta": 14,
    "flag": "component",
    "rendered": true,
-   "code": "C|+14"
+   "code": "C|+14",
+   "crop_sha256": "47924e5765bc8d7422666839ff9a4d2f35b68532737e93065144ac03839ae653",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0106",
@@ -3498,7 +3776,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "855e35e83a80d6b6771ca2e7e24fa6ddf31c6557cf1faffd0418fb45ba639539",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0008",
@@ -3523,7 +3803,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "eb30fed99228c404234553709ab7cfd3b2073da8b2e921618f0adc5c3499e50e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0212",
@@ -3548,7 +3830,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "312cf390f1ebdbd8c1178c6449673adfdbe559641cdedfd5be15e9e4f36db276",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0232",
@@ -3573,7 +3857,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "ae57f2fb4cbbb34b4512bd87ab7cd0ece0a1c0222633a96de8461d2c3944d70b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0253",
@@ -3598,7 +3884,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "1f64eb7ab35de0ce25b2d46ef56f826f5c4b8fa4a8478a96c9a6e21b65b65507",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0146",
@@ -3623,7 +3911,9 @@
    "signed_delta": 17,
    "flag": "component",
    "rendered": true,
-   "code": "C|+17"
+   "code": "C|+17",
+   "crop_sha256": "6d7bd73827954188c472f0cf3e8c82bbaf25899fbba4dde8874bad4b9cba17a1",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0015",
@@ -3648,7 +3938,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "1b5bcbf45714d6fa83864d6222e7fcbfa0637b615308a11883c243ad60948681",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0081",
@@ -3673,7 +3965,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "20d4c33d426d5b0819ef87f5ab945382171e612a14e1d362973a63f06f9e00ad",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0157",
@@ -3698,7 +3992,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "2e6d38d1cb91c36c41fd5af16787b5371d201db9300ec31637ecdc9b2ccfaaac",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0183",
@@ -3723,7 +4019,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "3235500d14f4c48232d4a17b064e9b584b301f3487229748baa282d26c01d2ef",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0245",
@@ -3748,7 +4046,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "d4d097ef9ac4cc6d053ac2cda471b621a6cdadca1c2a01b4b55b1d0a9367dcf2",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0039",
@@ -3773,7 +4073,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "58e50486748b7e5e639e7bdf753fd1facfa7f699dc8d5bf5b6a981152315f208",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0142",
@@ -3782,9 +4084,9 @@
    "L": [
     99,
     8,
-    24,
-    10,
-    14
+    13,
+    9,
+    4
    ],
    "R": [
     99,
@@ -3793,12 +4095,14 @@
     9,
     5
    ],
-   "distance": 21,
+   "distance": 3,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "weak",
+   "flag": "noise",
    "rendered": true,
-   "code": "W|+0"
+   "code": "N|+0",
+   "crop_sha256": "af7d9b0da07f08ed74f89a1876e763cec9df054da54fa9b9aec7863f7a8b4ad6",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0052",
@@ -3823,7 +4127,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "552b0b8d84699cf191eeb12e99aa9f75a453f84f46a9f38566315b7713338162",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0054",
@@ -3848,7 +4154,9 @@
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "145b2627c6cb800daa9c1d8c2ef6156d1ea42c5e34087079f00a5de2417ff11e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0063",
@@ -3873,7 +4181,9 @@
    "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|-3"
+   "code": "C|-3",
+   "crop_sha256": "9c73d485e5e1a693b6363403bb1ea8e6b75453e41544c98f56cb47f3fe20d360",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0067",
@@ -3898,7 +4208,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7c014ef71d5f250160fb85dee7d4a9c497d0a0276ef0e2c7532d6a16e4d2e38f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0181",
@@ -3923,7 +4235,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "654fd8969112fcdacff3e3d7f70026fc53cfc4bdc5f5b57dcade4e9376d66094",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0220",
@@ -3948,7 +4262,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "4fdcd3c2bb6685035439d8c1d924c3593c9f2190b8406476bffa14b80ce2d3cd",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0001",
@@ -3973,7 +4289,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c4dbadbf61464f939e713791bf033858fe296874ef698f9487321f9a0f8707f3",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0004",
@@ -3998,7 +4316,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "191fd0da123e8dab70ba779a8bd83367463f2632ef3d65de5ba6000462bd3695",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0006",
@@ -4023,7 +4343,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "d5e91e24c8f40867e9f3810fa4858631afceb79fa81de6e210be905b72bbb531",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0012",
@@ -4048,7 +4370,9 @@
    "signed_delta": 7,
    "flag": "component",
    "rendered": true,
-   "code": "C|+7"
+   "code": "C|+7",
+   "crop_sha256": "e5a586846584e665608ee9831df8deb31d4b153292edff07244df2a2b5a0b144",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0013",
@@ -4073,7 +4397,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "347e0a44afa8100e0dd0a1d508768ad3bb644ae9138d4e08475c5d72f988a926",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0014",
@@ -4098,7 +4424,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "14e08a56fec02b1ac7406778ae4295e14e28b1259c57340e6b69242f4cd1e01d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0019",
@@ -4123,7 +4451,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "cb0b7d97c2cc0b32d8552718c0e1ddb55298121a41a46bb9e1a6bfe6ff4b0386",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0026",
@@ -4148,7 +4478,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a34ffc428b3d0db24a54900f01c5fecd07f4d90992faa9aa897dce61e2ca4752",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0027",
@@ -4173,7 +4505,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2974f819975396d0bfb0689bb1e8bd3ea157cbea6e98cfa22a022e8f043d88c4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0028",
@@ -4198,7 +4532,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "c429e4b34438b1ac43bc9ae14e27a340674cf206b52a3265b27d6b5c48b56cda",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0029",
@@ -4223,7 +4559,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "aa18eb0c06f59d7d27675afbaf869e422eff6554fea473a6d743eee27149f334",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0030",
@@ -4248,7 +4586,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "6cf904e9239ad9ae1335231c8055609959d71da8960cf076f4274ecc68462756",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0031",
@@ -4273,7 +4613,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "721eae2db7e9c9edb4bade43c9d30fd00375411c45c79f43f192df704e5a98b0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0032",
@@ -4298,7 +4640,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6dad49848660dba59f2ee2b4f1822567c4fa80d56d1946e4887847cb9e12854b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0033",
@@ -4323,7 +4667,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "b326150255168b5a6d11504954d0fd8476eb281e0e2c0ab51bd91ebc778bbff7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0035",
@@ -4348,7 +4694,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "a9248ca8d075bc3118f2e9550a0b06849a1e3bcacee389d4c9391ac2720f12e3",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0038",
@@ -4373,7 +4721,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7d550ae00c9027f1144a0ca364ab59167fcd55af8a9d53ebb65c9b57d7fdf9d7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0041",
@@ -4398,7 +4748,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "32c898e6f505d4db2728a6402177d1d4fce987a56ebc3018c1d4972408fc3716",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0044",
@@ -4423,14 +4775,16 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "628db1d78497d8feb37c9bdb02d79f01bc0001841e032778fe5414b80a8a1f3d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0045",
    "report_page": 18,
    "line": 5,
    "L": [
-    49,
+    48,
     9,
     7,
     7,
@@ -4443,12 +4797,14 @@
     7,
     0
    ],
-   "distance": 0,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "clean",
+   "distance": 1,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
    "rendered": true,
-   "code": "K|+0"
+   "code": "N|+1",
+   "crop_sha256": "7bd0bcbda60e66db3f3ce601c1e041769170ba09a9bb1499a013ef558dc42c5a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0050",
@@ -4473,7 +4829,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "429eec77f70b29828acd19a5a12d5feab2c02487708f6cc2eb61a54a6f6ecffb",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0051",
@@ -4498,7 +4856,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "500400ce47c8a88d4bfbabd53f43f05009f592fb8d85a6d0a47d859a65e3468c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0058",
@@ -4523,7 +4883,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "4ef1f65a640d739225d1a6519b0e6ff9fa6a3c1e2d878eb655d3be71978f992a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0060",
@@ -4548,7 +4910,9 @@
    "signed_delta": 8,
    "flag": "component",
    "rendered": true,
-   "code": "C|+8"
+   "code": "C|+8",
+   "crop_sha256": "f07e06211b94f31af2b356d3f0602881dc4ad1eb73c59b0062d43c74702c1e2a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0078",
@@ -4573,7 +4937,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "25a0f1dfa14871c552fcdc59025e2eb760a54ddf8464f6232df133cb60b887b1",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0084",
@@ -4598,7 +4964,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "f341213520ac6376ef01f4d0ecd728f40a711a243d80376f674621b8474868d9",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0086",
@@ -4623,7 +4991,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "ee317f0efb2f9962de68e7f841d8003156ee34bf988b391a01ad22567a41a277",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0087",
@@ -4648,7 +5018,9 @@
    "signed_delta": 13,
    "flag": "component",
    "rendered": true,
-   "code": "C|+13"
+   "code": "C|+13",
+   "crop_sha256": "534f05a51ea95f7933e225385c40147b364fe3541c028e047b13da3fee00494b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0098",
@@ -4673,7 +5045,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "b0c5a85076dd3a07d50efe1166c9cc7dd901a4ed47cffd2429dee5f0ec3c7b69",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0102",
@@ -4698,7 +5072,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "966203620c3fcd5d32e3366d480e9c0bf5096f09ab2859e489f08c46b2ec751f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0105",
@@ -4723,7 +5099,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "5709df61ca5b33203e74ad69b7c83b86d84e1cf3a99fb3d2d6ea59c0deef115f",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0109",
@@ -4748,7 +5126,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "3fa29766b3fee393cc7006e0505bda3bcde2ca5c0d2b171ec05da838757cd3c4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0115",
@@ -4773,7 +5153,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "538f35fab51b9d6f7f3fed211c1d7e59970c05a9cecab294259a1bbd4aacb758",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0120",
@@ -4798,7 +5180,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "585962970946f939d8d331177f9d68486fca687adfaf57f610060dcf9f6c73c2",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0121",
@@ -4823,7 +5207,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "29a9b29c46f5658dae238488cb8b68f87f7efc8e17722f2e46f8c9653935f3a0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0125",
@@ -4848,7 +5234,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "8976f51435c298c2e7ec6d4da8022be76956ca859cbfeb55f9f432f8250c36b9",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0127",
@@ -4873,7 +5261,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "5b3100a65ca5d9a53b0f6ef32c21cf9f18f34eb5a80d58c7e2509ac57a7b5c93",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0130",
@@ -4898,7 +5288,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a6eac83be2069445837ae12ec978aeda3b4b252636854bc2c220c14e837cff4e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0133",
@@ -4923,7 +5315,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "d7d9d2a78d5676d575f20c3f8c4f5b5909a1045b5cb99954d59258233352d2b1",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0137",
@@ -4948,7 +5342,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "40cf609571def1e8deb9c9e7d2ca23e22763e54281f313a62c8429fdab5554a3",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0140",
@@ -4973,7 +5369,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "42d916009288db5c428f08b375f396eeb5ab28f2f7c0be1bdcbe6fc7d9ab030c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0147",
@@ -4998,7 +5396,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "e712c602a7436934ecc7df271ad72a022ef35baa511be37da46c7dba1ef39b46",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0154",
@@ -5023,7 +5423,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "ef49ca7838be3d0e711f95dbc7a09fd9c2e66a2b4b0eab44a4e28a33303dc829",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0158",
@@ -5048,7 +5450,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "cb98c0960bc01cb72a30ca155c687024f87f80f6abb8f4afffb5a040496b8a9b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0162",
@@ -5073,7 +5477,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "18a6e4822d7f2b0665e684ffaba9a1d3cd217d8da2f1cb304ae4d0e76818ca20",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0163",
@@ -5098,7 +5504,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "51d8a3a0dc3019f36ba255516b02d2b5c98aee69b036c32a8cf6aa29988a5686",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0169",
@@ -5123,7 +5531,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "a96408ac4df677363f8364568467b18f131460d3f09fc8f6898b3ddf672fb82c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0173",
@@ -5148,7 +5558,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "5e1be2b4dba96fef96e28b63d26a2c1c83d09079f889da5cfbbf114813b18f63",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0175",
@@ -5173,7 +5585,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "8d50431f2ed3024e3268b9445da108766261bf2b67a5657d12219388760f0c08",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0176",
@@ -5198,7 +5612,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "60556449e4e91657ea0053cd628bd9351ddee8aa0da36c2b85360cfc69b51bca",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0177",
@@ -5223,7 +5639,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "a79dba901ecbf82d67f3bb2f754ccc50076180f8442b31a48ca824a6b15a4ed2",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0178",
@@ -5248,7 +5666,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "b18fd65f110732a4c50b3a76d306aed1873fce9e31fed1fe3ac34553128d0dc0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0182",
@@ -5273,7 +5693,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "23b7fd70bbeb7b6b3f7ad06d614a21bde8fcad87cf911a7caf6e8d10c5dd6437",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0184",
@@ -5298,7 +5720,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "222328a947c690a7dff067aace617fd4e9fd73bb21cf4c952d4254f164f28082",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0188",
@@ -5323,7 +5747,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "971a1fba016bb8e38c73e86d5e9b58f2ab0e2ed7cc21e1c75e7dc49a84e505db",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0190",
@@ -5348,7 +5774,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "12062a5d0e731684f723f9ed125f6d37484935abc6eb2a83a352021f229de0b5",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0194",
@@ -5373,7 +5801,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "d91925ccbb2a7693377088bf67875eebabdd076b52529472d609900290c63af0",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0196",
@@ -5398,7 +5828,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "5fdeb18fdcb475de7257b4e31226733d982984188c9a0255cfc3475952acc46d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0197",
@@ -5423,7 +5855,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "c2952932a9ec2d7d19f2f3a1efca5e071bf496ffab296db758c846aae9bbb49a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0203",
@@ -5448,7 +5882,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "1edadcba0199251e72fa8bf2a2d5896c315c4d577f0fa9d93eb67e2084415835",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0204",
@@ -5473,7 +5909,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "fc3a268a34fe3e5d818057a546355367bd9459f35ac0dfcd41cd93cd101838ea",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0205",
@@ -5498,7 +5936,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "1cf1619148ded7961b9d12aab7bd83a001ea0b40733af38b6167c10d2d57e17d",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0208",
@@ -5523,7 +5963,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "5df1baa66449c8bf062deff9c37b164781a76901f79f53ccb4239c992f8cb872",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0218",
@@ -5548,7 +5990,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "a4aea90b7d4e552ab076b9cbc5ac833fc9cc411fc33cebd16d00c8a37500b24b",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0229",
@@ -5573,7 +6017,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "bec4b922c457e808e94f7a8da2d27d4a804388977cfd2a6761b973d60b51a3a1",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0230",
@@ -5598,7 +6044,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "300f85876eb33712711686d94600f3ac76de8399332811de6725b028212a9850",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0233",
@@ -5623,7 +6071,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "9037b57da1f1ac83884923dcbc9a7777f6e6a386258c183758607868009bfb47",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0234",
@@ -5648,7 +6098,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "501f06a8cafa304da5fc942574f4462a6cedb370be236efcde5729648c0af4cf",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0236",
@@ -5673,7 +6125,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "91a9ca6183cbce5876581aa135a3ca9134de42b792b2f91adb0fe9b5e5a15ce7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0237",
@@ -5698,7 +6152,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "e215ad496eaf20cde5aae61a3039f5a1a7366ba7a468ffaf7f36f23dfde3da05",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0238",
@@ -5723,7 +6179,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "6bc1d728f31cfa13c5fb760ccf7af059505f802a3d5dc64a8739d23ef9a58032",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0240",
@@ -5748,7 +6206,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "1047b5521220c59f1e68c2281ead56ba5438c5764acbca57338ad2fb7765d987",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0241",
@@ -5773,7 +6233,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "2141ba47b78e81c1e5232d5703c673339e7dabb0038c18afc747ba397de2619a",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0243",
@@ -5798,7 +6260,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "7fefd2bb53f5403f8fc5300a53f34a2f77cc670996e7fff697312a529109845e",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0244",
@@ -5823,7 +6287,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4f3b4a6901c3909d0810b95175b8163a58f5a0b5ed4493d290b5b715e91ef4d7",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0249",
@@ -5848,7 +6314,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "e465f014bdec63f2f27a384c2a6435fc49573a574267580f8c479d19d6097b80",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0251",
@@ -5873,7 +6341,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "6e0c76f0199819d3690d5a86048a50b080f346b1ef55cf41d6c6d6867d6b63aa",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0252",
@@ -5898,7 +6368,9 @@
    "signed_delta": -12,
    "flag": "component",
    "rendered": true,
-   "code": "C|-12"
+   "code": "C|-12",
+   "crop_sha256": "33232248d939bdbd51521093077d5d456359a22a644d66197083e782da53f7dc",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0254",
@@ -5923,7 +6395,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "c6f4f5b515bf44ecb61b5dfbb9898e9093a95a5b84de4ae18d433df37bcbdf0c",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0261",
@@ -5948,7 +6422,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "10c6c7b4a41c797c0141e8de13e77727e80791e9057e6fdfaf2bc206323ec3e8",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0262",
@@ -5973,7 +6449,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "7438f8c6889b9b04d03db22da38de6afee426db481753ca2a06c01bfe9efe2f8",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0064",
@@ -5998,7 +6476,9 @@
    "signed_delta": 31,
    "flag": "component",
    "rendered": true,
-   "code": "C|+31"
+   "code": "C|+31",
+   "crop_sha256": "666ec3fe2d3c4c086b416d226ba382864c236c1e6feb38221877c83f6fce1fe4",
+   "rung": null
   },
   {
    "id": "fong-spivak-invitation_EQ0065",
@@ -6023,7 +6503,9 @@
    "signed_delta": 77,
    "flag": "component",
    "rendered": true,
-   "code": "C|+77"
+   "code": "C|+77",
+   "crop_sha256": "5dc63771e5dd154f919244612a0788330e75e398c9f53d0ef627188029cc701f",
+   "rung": null
   }
  ],
  "footers_dropped": 0,
@@ -6031,15 +6513,15 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 28,
-  "bytes": 4040039,
-  "sha256": "f58aca240d38d8f293f581e60327c05a418b4edd67546e4336bc199b05eec0bd",
-  "mtime": 1788608899,
+  "pages": 251,
+  "bytes": 12561742,
+  "sha256": "1a8d7e9b84413b8fda3d8192fe21cfd6d1a4dedd116cbbb51b7f8c52f81dde08",
+  "mtime": 1789308853,
   "findings": false,
-  "built_at": "2026-09-05T11:48:20Z",
-  "commit": "d9fd1dbffd18",
+  "built_at": "2026-09-13T14:14:14Z",
+  "commit": "b941496a5dc4",
   "legend": false,
-  "ink_adopted": false,
+  "ink_adopted": true,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
@@ -6049,6 +6531,7 @@
   "pages_bound": null,
   "model_sha256": "48fdbe67a1d6f8f3b7f43243bd0748257124fa5656adf9bb2c94875de6421d79",
   "model_bytes": 48146520,
-  "model_mtime": 1788463525
+  "model_mtime": 1788463525,
+  "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
  }
 }
