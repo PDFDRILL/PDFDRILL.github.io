@@ -14,11 +14,11 @@
    "R": [
     80,
     13,
-    40,
-    30,
+    42,
+    33,
     6
    ],
-   "distance": 150,
+   "distance": 155,
    "comp_delta": 67,
    "signed_delta": 67,
    "flag": "component",
@@ -55,36 +55,36 @@
    "rung": null
   },
   {
-   "id": "gilmore-lie-groups_EQ0368",
-   "report_page": 2,
-   "line": 1,
+   "id": "gilmore-lie-groups_EQ0249",
+   "report_page": 1,
+   "line": 3,
    "L": [
-    49,
-    14,
-    14,
+    94,
+    39,
     13,
-    1
+    11,
+    2
    ],
    "R": [
-    65,
-    25,
-    22,
-    16,
-    6
+    92,
+    39,
+    51,
+    37,
+    14
    ],
-   "distance": 43,
-   "comp_delta": 16,
-   "signed_delta": 16,
-   "flag": "component",
+   "distance": 78,
+   "comp_delta": 2,
+   "signed_delta": -2,
+   "flag": "weak",
    "rendered": true,
-   "code": "C|+16",
-   "crop_sha256": "f867bcf8c31e5c46f75c6511b8d470bf94c8e234443c1c88bb4f962b153d1326",
+   "code": "W|-2",
+   "crop_sha256": "86d95e78e9dde4aab2e43f476264392bdbfa022dc70fa760e504286b23c68bbf",
    "rung": null
   },
   {
    "id": "gilmore-lie-groups_EQ0141",
    "report_page": 2,
-   "line": 2,
+   "line": 1,
    "L": [
     88,
     26,
@@ -111,34 +111,34 @@
   {
    "id": "gilmore-lie-groups_EQ0142",
    "report_page": 2,
-   "line": 3,
+   "line": 2,
    "L": [
-    51,
+    57,
     8,
+    30,
     24,
-    18,
     4
    ],
    "R": [
     54,
     6,
-    33,
+    34,
     25,
     6
    ],
-   "distance": 23,
+   "distance": 12,
    "comp_delta": 3,
-   "signed_delta": 3,
+   "signed_delta": -3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3",
+   "code": "C|-3",
    "crop_sha256": "b0f5f435328d2134c5d1579ae413b4e824d8694bbccce31937cb33cafee14b84",
    "rung": null
   },
   {
    "id": "gilmore-lie-groups_EQ0684",
    "report_page": 2,
-   "line": 4,
+   "line": 3,
    "L": [
     57,
     16,
@@ -149,11 +149,11 @@
    "R": [
     74,
     21,
-    45,
+    46,
     33,
-    12
+    13
    ],
-   "distance": 70,
+   "distance": 72,
    "comp_delta": 17,
    "signed_delta": 17,
    "flag": "component",
@@ -165,7 +165,7 @@
   {
    "id": "gilmore-lie-groups_EQ0923",
    "report_page": 2,
-   "line": 5,
+   "line": 4,
    "L": [
     51,
     2,
@@ -192,7 +192,7 @@
   {
    "id": "gilmore-lie-groups_EQ0591",
    "report_page": 2,
-   "line": 6,
+   "line": 5,
    "L": [
     66,
     15,
@@ -24577,14 +24577,14 @@
  "measured_against": {
   "pdf": "report.pdf",
   "pages": 280,
-  "bytes": 24031484,
-  "sha256": "cba1fe878287c5e0adcd5cc6b7c1547a1c2ee37ffb4c877e41c87c3575c58724",
-  "mtime": 1789123436,
+  "bytes": 24053783,
+  "sha256": "fdd3a39505d555cfd3ec21c834a197badaa42400c9a1642e6961f536ab819d37",
+  "mtime": 1789393674,
   "findings": false,
-  "built_at": "2026-09-11T10:43:57Z",
-  "commit": "503beea946aa",
+  "built_at": "2026-09-14T13:47:55Z",
+  "commit": "407016b485f7",
   "legend": false,
-  "ink_adopted": false,
+  "ink_adopted": true,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
@@ -24592,8 +24592,9 @@
   "phase": "measure",
   "formula_rule": "all",
   "pages_bound": null,
-  "model_sha256": "0dd8bb4e2be3483c320f650e2b72e66ad7cc372b33c42bb9a268ae8120c887c4",
-  "model_bytes": 58997542,
-  "model_mtime": 1788454294
+  "model_sha256": "32572b81b847863eef3c4cd8d3e0067eea289316c86a84f3f152933b0213c1b7",
+  "model_bytes": 59013229,
+  "model_mtime": 1789370445,
+  "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
  }
 }

@@ -25252,12 +25252,12 @@
  "measured_against": {
   "pdf": "report.pdf",
   "pages": 220,
-  "bytes": 14979804,
-  "sha256": "68ef8b828f83b6a3a905c0688c95f7a59304c184c691e07658b343f6ec2388ea",
-  "mtime": 1789307642,
+  "bytes": 14979790,
+  "sha256": "6c3d59b06aa38a84b853ddef6e1c5dcdeaa1a9bf764d735cb1b7913a2ec3f12a",
+  "mtime": 1789391843,
   "findings": false,
-  "built_at": "2026-09-13T13:54:03Z",
-  "commit": "b941496a5dc4",
+  "built_at": "2026-09-14T13:17:24Z",
+  "commit": "407016b485f7",
   "legend": false,
   "ink_adopted": true,
   "prefer_refined": false,
@@ -25267,9 +25267,9 @@
   "phase": "measure",
   "formula_rule": "all",
   "pages_bound": null,
-  "model_sha256": "08e5e6eafd57aeee80193156c654d87ef5e9bb2d7bd97e84ac16eb15ac97090d",
-  "model_bytes": 55742992,
-  "model_mtime": 1788463495,
+  "model_sha256": "707caafaa98aea1b1606e04e2c04a08d24ce9eec83e816101b81e87ef35cfd3d",
+  "model_bytes": 55753272,
+  "model_mtime": 1789370358,
   "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
  }
 }

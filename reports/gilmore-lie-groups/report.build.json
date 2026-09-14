@@ -1,12 +1,12 @@
 {
  "pdf": "report.pdf",
- "pages": 166,
- "bytes": 23598702,
- "sha256": "5d994f69de6f283c25a2d304f4499da6a51953fb76307302316bc483cb0f9356",
- "mtime": 1789124690,
+ "pages": 170,
+ "bytes": 23654264,
+ "sha256": "7fe358ccc9b7bdca5acfe744a23a35f5a9defee984e0d2ed1f9b626576aacc3d",
+ "mtime": 1789394792,
  "findings": false,
- "built_at": "2026-09-11T11:04:50Z",
- "commit": "503beea946aa",
+ "built_at": "2026-09-14T14:06:32Z",
+ "commit": "407016b485f7",
  "legend": true,
  "ink_adopted": true,
  "prefer_refined": false,
@@ -16,7 +16,8 @@
  "phase": "reading",
  "formula_rule": "unresolved",
  "pages_bound": null,
- "model_sha256": "0dd8bb4e2be3483c320f650e2b72e66ad7cc372b33c42bb9a268ae8120c887c4",
- "model_bytes": 58997542,
- "model_mtime": 1788454294
+ "model_sha256": "32572b81b847863eef3c4cd8d3e0067eea289316c86a84f3f152933b0213c1b7",
+ "model_bytes": 59013229,
+ "model_mtime": 1789370445,
+ "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
 }
