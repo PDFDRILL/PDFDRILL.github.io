@@ -24577,12 +24577,12 @@
  "measured_against": {
   "pdf": "report.pdf",
   "pages": 280,
-  "bytes": 24053783,
-  "sha256": "fdd3a39505d555cfd3ec21c834a197badaa42400c9a1642e6961f536ab819d37",
-  "mtime": 1789393674,
+  "bytes": 24053781,
+  "sha256": "989b57b2b6cd679a1a8953878d3f0d7426a3b01a809308d27cfe3a083b7650ee",
+  "mtime": 1789484145,
   "findings": false,
-  "built_at": "2026-09-14T13:47:55Z",
-  "commit": "407016b485f7",
+  "built_at": "2026-09-15T14:55:46Z",
+  "commit": "45622735c6ea",
   "legend": false,
   "ink_adopted": true,
   "prefer_refined": false,
@@ -24592,9 +24592,9 @@
   "phase": "measure",
   "formula_rule": "all",
   "pages_bound": null,
-  "model_sha256": "32572b81b847863eef3c4cd8d3e0067eea289316c86a84f3f152933b0213c1b7",
-  "model_bytes": 59013229,
-  "model_mtime": 1789370445,
+  "model_sha256": "902bd4da8c9896a65439aaaec5b7d13a0f6e5919cc861c12120dd1b8135dcaf9",
+  "model_bytes": 59015475,
+  "model_mtime": 1789479427,
   "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
  }
 }
