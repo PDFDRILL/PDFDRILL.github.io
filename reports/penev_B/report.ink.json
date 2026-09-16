@@ -8,8 +8,8 @@
     130,
     20,
     25,
-    14,
-    11
+    15,
+    10
    ],
    "R": [
     136,
@@ -23,7 +23,9 @@
    "signed_delta": 6,
    "flag": "component",
    "rendered": true,
-   "code": "C|+6"
+   "code": "C|+6",
+   "crop_sha256": "b9b77da510f08a2fda1176c1ebccb5c347d3349d403848e20c1a03ace36e3756",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0005",
@@ -31,7 +33,7 @@
    "line": 2,
    "L": [
     20,
-    3,
+    4,
     9,
     4,
     4
@@ -43,12 +45,14 @@
     4,
     4
    ],
-   "distance": 2,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "78792dfca64b883c56d3aa8ab21894975c11052a0d74c8de4ca3b7c7a5edb20d",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0016",
@@ -73,7 +77,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "1352660fb2ceaf5311179241adc56f28fd5398a8407f4ef98bdc5dd23393846f",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0033",
@@ -98,14 +104,16 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "a3ab8c2e9c9ebe33488c6ff66fbb72c0b569e5c5080e41e22334631a38cb9e10",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0050",
    "report_page": 1,
    "line": 5,
    "L": [
-    33,
+    34,
     10,
     3,
     2,
@@ -118,12 +126,14 @@
     3,
     2
    ],
-   "distance": 9,
-   "comp_delta": 3,
-   "signed_delta": 3,
-   "flag": "component",
+   "distance": 8,
+   "comp_delta": 2,
+   "signed_delta": 2,
+   "flag": "weak",
    "rendered": true,
-   "code": "C|+3"
+   "code": "W|+2",
+   "crop_sha256": "3cdd0a4b58c02ff3526a0718974ac308a74242e491b5e90ead28b4590b727d91",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0010",
@@ -148,32 +158,36 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "db3d2ac0ed3138f02575e55f85c0c62ed186e228c2ae85189c4a002e624d84bc",
+   "rung": null
   },
   {
-   "id": "penev_B_EQ0029",
-   "report_page": 2,
-   "line": 1,
+   "id": "penev_B_EQ0027",
+   "report_page": 1,
+   "line": 7,
    "L": [
-    105,
-    10,
-    29,
-    21,
-    8
+    34,
+    4,
+    5,
+    5,
+    0
    ],
    "R": [
-    116,
-    44,
-    28,
-    19,
-    9
+    35,
+    8,
+    5,
+    4,
+    1
    ],
-   "distance": 49,
-   "comp_delta": 11,
-   "signed_delta": 11,
-   "flag": "component",
+   "distance": 7,
+   "comp_delta": 1,
+   "signed_delta": 1,
+   "flag": "noise",
    "rendered": true,
-   "code": "C|+11"
+   "code": "N|+1",
+   "crop_sha256": "4f6fe03df0a3b3ff3d82a1666fbbe54bf5118a00681daa628b28a5aafb212b25",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0024",
@@ -198,7 +212,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "4236da62accfac5f020562cfdead206db38f9c746ba54313726c40277a28a260",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0013",
@@ -206,9 +222,9 @@
    "line": 3,
    "L": [
     41,
-    7,
-    18,
-    7,
+    8,
+    19,
+    8,
     9
    ],
    "R": [
@@ -218,12 +234,14 @@
     7,
     7
    ],
-   "distance": 14,
+   "distance": 15,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "3aafa233e17920121003c9b3f214ea301e7e8902b3ac3526b238f3216ab04daf",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0026",
@@ -248,7 +266,9 @@
    "signed_delta": 4,
    "flag": "component",
    "rendered": true,
-   "code": "C|+4"
+   "code": "C|+4",
+   "crop_sha256": "adf7a7f64fc0f9265ad4e987c58b3382913a93106685a987bbdf9972f692068e",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0053",
@@ -257,8 +277,8 @@
    "L": [
     67,
     18,
-    9,
-    9,
+    8,
+    8,
     0
    ],
    "R": [
@@ -268,12 +288,14 @@
     11,
     2
    ],
-   "distance": 18,
+   "distance": 20,
    "comp_delta": 2,
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "9bddf9f1b69835c95119950268fdbf5c16446c2853b1893be07dfced730c2e66",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0018",
@@ -298,7 +320,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "877b00ce1cbe640ed728a20dc944341fe4e1f6344d02a81781079ef118a632a6",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0034",
@@ -306,7 +330,7 @@
    "line": 7,
    "L": [
     28,
-    5,
+    6,
     4,
     3,
     1
@@ -318,12 +342,14 @@
     2,
     3
    ],
-   "distance": 15,
+   "distance": 14,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "f09809ca718bebda4f2450eda5b233d6370b7d3c74aa39a64762158e45c4b1fa",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0046",
@@ -348,7 +374,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "d00a2d3aaac30ae1be3b09ed8a872e28c01f804ed7beada3f640730f026a9ada",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0002",
@@ -373,7 +401,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "58d464d1010614f8fe615d7afa8e170d5697688be0680d2cab2e0da6328bc1a5",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0009",
@@ -381,7 +411,7 @@
    "line": 10,
    "L": [
     61,
-    8,
+    10,
     25,
     13,
     10
@@ -393,12 +423,14 @@
     11,
     7
    ],
-   "distance": 21,
+   "distance": 19,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "04db9b4af1ca73ba2bee85e46d8c9bf0abfae56dbd99e9b70c43fef6a65aa4a3",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0062",
@@ -423,7 +455,9 @@
    "signed_delta": 2,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+2"
+   "code": "S|+2",
+   "crop_sha256": "2208d63542cbfe36017b3472c9a0f302cd98ca5e658b36ac3893036c305ac5ca",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0061",
@@ -448,7 +482,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "e9be39a4d5c7828c070479088816da3c92dec12856a5bc26d89fce8b001853b7",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0059",
@@ -473,7 +509,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "4db6a0d714925eb790c532232e82419ed89966fccc47fa2f39c3112263a94edf",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0007",
@@ -498,7 +536,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "157a549bc561825b6e13a9455e13c1fa227b72a61e5054aeb77425e4c9fd1eda",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0036",
@@ -506,7 +546,7 @@
    "line": 5,
    "L": [
     19,
-    3,
+    4,
     2,
     1,
     1
@@ -518,12 +558,14 @@
     2,
     0
    ],
-   "distance": 10,
+   "distance": 9,
    "comp_delta": 1,
    "signed_delta": 1,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+1"
+   "code": "S|+1",
+   "crop_sha256": "979e0869682bfaa776d200d5a6b9fee7bce01d669078c77312b11e142b7b9e1e",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0015",
@@ -531,7 +573,7 @@
    "line": 6,
    "L": [
     13,
-    2,
+    3,
     3,
     2,
     0
@@ -543,12 +585,14 @@
     2,
     0
    ],
-   "distance": 7,
+   "distance": 6,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f52d2410843fc5ddd22b4baf34dfe7016a6edf63c297e6f1cf2474cbfa33559c",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0045",
@@ -573,7 +617,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "de2e48429d688bde91880041f6a753c95d4e8f37f9bced00577f1675f579be87",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0022",
@@ -598,7 +644,9 @@
    "signed_delta": -1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-1"
+   "code": "W|-1",
+   "crop_sha256": "205f9768b3e9af94ba8895597b9fb313993370f1109c637ad0ffb0a7e74a2667",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0030",
@@ -623,7 +671,9 @@
    "signed_delta": 0,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+0"
+   "code": "W|+0",
+   "crop_sha256": "596fd2f0aeb3ad350d114fa1cac96329d1f541f11f8c6e7bc59ec53a01a731ea",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0043",
@@ -648,7 +698,9 @@
    "signed_delta": 1,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+1"
+   "code": "S|+1",
+   "crop_sha256": "a5ac57195e38f183ea6c822c77e160281da03d8ba85d15753eac821274830d8c",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0054",
@@ -657,9 +709,9 @@
    "L": [
     30,
     11,
-    15,
-    6,
-    8
+    16,
+    5,
+    9
    ],
    "R": [
     30,
@@ -668,12 +720,14 @@
     5,
     9
    ],
-   "distance": 5,
+   "distance": 4,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "0a7298204e5701419d7908f191a10d18efce7ac1716046c2df33752f8b295bca",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0014",
@@ -698,7 +752,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "3a9e141d30e07f34e5df7c58b31147a6adeb652da4ead1bcd7d261362092c25c",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0035",
@@ -723,7 +779,9 @@
    "signed_delta": -2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-2"
+   "code": "N|-2",
+   "crop_sha256": "9cbb3444861d3360a370cf8221704f29afe7e0a1b0ea38a837d4c89741597b7a",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0020",
@@ -748,7 +806,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "518492cb8054bdeec0aff1de5307b724531f909a59579610f531c5b871a13584",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0057",
@@ -773,7 +833,9 @@
    "signed_delta": 0,
    "flag": "clean",
    "rendered": true,
-   "code": "K|+0"
+   "code": "K|+0",
+   "crop_sha256": "80500e774444f3f94e6698d02a1585329160d8e1381225a66f4117ae47ec4296",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0058",
@@ -798,7 +860,9 @@
    "signed_delta": -2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|-2"
+   "code": "W|-2",
+   "crop_sha256": "f488f48150eeb46273a164d299c139169125838d6c1c2ed462d2763934cc110e",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0019",
@@ -823,7 +887,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "4d2f904b9ac2592b9977da43177a4fef13fe159492770d6bdb4400e790013da9",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0012",
@@ -831,7 +897,7 @@
    "line": 18,
    "L": [
     51,
-    6,
+    9,
     19,
     9,
     8
@@ -843,12 +909,14 @@
     9,
     9
    ],
-   "distance": 13,
+   "distance": 10,
    "comp_delta": 2,
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "2ae3d77e52a0a8a5f56d4d299598d6ade9d9496f3073200bc781385572e9e916",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0028",
@@ -873,7 +941,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2a271d11db148e929f5007cbdf420e476780c33d4df61bdfb0f29aa8869b8161",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0017",
@@ -881,7 +951,7 @@
    "line": 20,
    "L": [
     17,
-    2,
+    3,
     9,
     4,
     4
@@ -893,12 +963,14 @@
     4,
     3
    ],
-   "distance": 15,
+   "distance": 14,
    "comp_delta": 2,
    "signed_delta": 2,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+2"
+   "code": "W|+2",
+   "crop_sha256": "e9d95b54f4ede6b93ae8d594b6097679b9adc4d94bb4289dcdee57fe6ddbb9e1",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0003",
@@ -923,7 +995,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4aff791d1a79f676dcaa2211fb55fabb4498b97d47b48ddae6cdd5a80fec3269",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0011",
@@ -931,7 +1005,7 @@
    "line": 2,
    "L": [
     26,
-    3,
+    4,
     9,
     4,
     4
@@ -943,12 +1017,14 @@
     4,
     4
    ],
-   "distance": 15,
+   "distance": 14,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "d6980c2eae9919f74db67b2278baeb93e34bef0444043100e095b11749922e4f",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0041",
@@ -973,7 +1049,9 @@
    "signed_delta": 3,
    "flag": "component",
    "rendered": true,
-   "code": "C|+3"
+   "code": "C|+3",
+   "crop_sha256": "5ee6252a56ea234953b3156eb8a5c62845f9f7714528b714415ff483fcd5df9b",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0060",
@@ -998,7 +1076,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "ed5170af534018d41552fb91a1e137e8dbaf80ff340bb2b3ea07f2581148dd7a",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0047",
@@ -1023,7 +1103,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "724eb28887599b18bd9d4185ee20f6eb71093f2e343ed592cea7a2107fb9d977",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0006",
@@ -1031,7 +1113,7 @@
    "line": 6,
    "L": [
     31,
-    6,
+    7,
     4,
     4,
     0
@@ -1043,12 +1125,14 @@
     4,
     0
    ],
-   "distance": 2,
+   "distance": 1,
    "comp_delta": 0,
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "141be6137aa648a4ab033adae2d72bb7cb1add28ded3a35c5cf853602bda1fc2",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0042",
@@ -1073,7 +1157,9 @@
    "signed_delta": 0,
    "flag": "stable",
    "rendered": true,
-   "code": "S|+0"
+   "code": "S|+0",
+   "crop_sha256": "a102cefeb4744bd576f1452ec9ae4cf0603c01edf6c31c0539ee05e0aefd65c0",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0001",
@@ -1098,7 +1184,9 @@
    "signed_delta": 1,
    "flag": "weak",
    "rendered": true,
-   "code": "W|+1"
+   "code": "W|+1",
+   "crop_sha256": "9e51a34d416f760b83722b41a6fda10a5f6e3edb7e488cee59aa7e2ff827f106",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0031",
@@ -1108,8 +1196,8 @@
     35,
     8,
     11,
-    7,
-    2
+    6,
+    3
    ],
    "R": [
     35,
@@ -1118,12 +1206,14 @@
     7,
     2
    ],
-   "distance": 7,
+   "distance": 9,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
+   "flag": "weak",
    "rendered": true,
-   "code": "N|+0"
+   "code": "W|+0",
+   "crop_sha256": "0c66f2a19591be65d578df1cdd1de7afc2da59df61f76438542a13a3da905f45",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0008",
@@ -1131,7 +1221,7 @@
    "line": 10,
    "L": [
     7,
-    2,
+    3,
     1,
     1,
     0
@@ -1143,12 +1233,14 @@
     1,
     0
    ],
-   "distance": 1,
+   "distance": 0,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
+   "flag": "clean",
    "rendered": true,
-   "code": "N|+0"
+   "code": "K|+0",
+   "crop_sha256": "c1e68be0fd9e170259997faf8188f4733701483be5f8170ff6f9f08a4fc0510e",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0021",
@@ -1173,7 +1265,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "7d546d7f9499bc9662e1c2328ccb057873131417f93505c99d278efb03c6300e",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0023",
@@ -1198,7 +1292,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "5749bbc10f29e00591f68b744e7aa83b9c5e3264cd1d444e44ba096441df3c81",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0025",
@@ -1223,7 +1319,9 @@
    "signed_delta": -1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|-1"
+   "code": "N|-1",
+   "crop_sha256": "e8a8f351e1f0757627e76ec18c845a0d6e3372b1f2537a900b84a687399da126",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0032",
@@ -1248,7 +1346,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "2a52c90bf5dfeea43fc0e8072853d9de0e16b8710223d8d9a486b895fc8c58ae",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0038",
@@ -1273,7 +1373,9 @@
    "signed_delta": 2,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+2"
+   "code": "N|+2",
+   "crop_sha256": "1e092e685e15699627b92f9171ff2925d962dac70c5bf197bf541b37ba7769c7",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0039",
@@ -1283,8 +1385,8 @@
     20,
     3,
     2,
-    2,
-    0
+    1,
+    1
    ],
    "R": [
     20,
@@ -1293,12 +1395,14 @@
     2,
     0
    ],
-   "distance": 7,
+   "distance": 9,
    "comp_delta": 0,
    "signed_delta": 0,
-   "flag": "noise",
+   "flag": "weak",
    "rendered": true,
-   "code": "N|+0"
+   "code": "W|+0",
+   "crop_sha256": "be5be1447333d8c35fbed894966ff12c0babd435a22c0868ec1d2517ba86186d",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0040",
@@ -1323,7 +1427,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "f17748a40ee72ad8eb20ac6ee10a9f4c0cc5a96f49f1a33177479b3db2777f96",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0048",
@@ -1348,7 +1454,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4eb550b3af39f199d13a0665c69bb9ac3f9f0c3262d199efc33861a83ca451c1",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0049",
@@ -1373,7 +1481,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "2506b1348829b2d2c39a91b8045f771434f2c7c9532cb09e8b7caa2c3fb7157a",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0051",
@@ -1398,7 +1508,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "4a1e02bec0833bda649583431c54911372e1d5f2c585d6969a200e17eea8a8b1",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0052",
@@ -1423,7 +1535,9 @@
    "signed_delta": 1,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+1"
+   "code": "N|+1",
+   "crop_sha256": "5ee666dbeaa8f9be7827559e661ac6f694cc14660590f85f934d3593ad62ca17",
+   "rung": null
   },
   {
    "id": "penev_B_EQ0055",
@@ -1448,32 +1562,9 @@
    "signed_delta": 0,
    "flag": "noise",
    "rendered": true,
-   "code": "N|+0"
-  },
-  {
-   "id": "penev_B_EQ0056",
-   "report_page": 4,
-   "line": 23,
-   "L": [
-    19,
-    2,
-    7,
-    3,
-    4
-   ],
-   "R": [
-    19,
-    8,
-    7,
-    3,
-    4
-   ],
-   "distance": 6,
-   "comp_delta": 0,
-   "signed_delta": 0,
-   "flag": "noise",
-   "rendered": true,
-   "code": "N|+0"
+   "code": "N|+0",
+   "crop_sha256": "dc8b7b7c238ebae39448dd7ac87f9ed3352bdbb19d088ab77c41b58a0b9d546a",
+   "rung": null
   }
  ],
  "footers_dropped": 0,
@@ -1481,15 +1572,15 @@
  "source": "report.compare.tsv",
  "measured_against": {
   "pdf": "report.pdf",
-  "pages": 18,
-  "bytes": 2347811,
-  "sha256": "0a668bf917144f614d9e33e8ec235d41c8c2d4be7eee452afd6dc0d54666ad42",
-  "mtime": 1788615235,
+  "pages": 19,
+  "bytes": 2354010,
+  "sha256": "7e30bfd3070a11e4fa2b64454fac4ffb0533a57a66d782cbf7b35a79a240d1c0",
+  "mtime": 1789541091,
   "findings": false,
-  "built_at": "2026-09-05T13:33:55Z",
-  "commit": "d9fd1dbffd18",
+  "built_at": "2026-09-16T06:44:51Z",
+  "commit": "3f033749e7e5",
   "legend": false,
-  "ink_adopted": false,
+  "ink_adopted": true,
   "prefer_refined": false,
   "filters": {},
   "glyphs_dropped": 0,
@@ -1497,8 +1588,9 @@
   "phase": "measure",
   "formula_rule": "all",
   "pages_bound": null,
-  "model_sha256": "bbab449780a574e1030e978cde66d720693324c9730af7b8c9e9c1a8f1096325",
-  "model_bytes": 6541955,
-  "model_mtime": 1788454309
+  "model_sha256": "1285cbcdd5d14a38c25aeee5887dff5c3c519a5a105a519c2ffcb522df30a70c",
+  "model_bytes": 6579609,
+  "model_mtime": 1788724714,
+  "geometry_sha256": "329543be18ef7288e7f681efe0b27b0a14b9dd02985ee6e800468ea5e4289c9f"
  }
 }
