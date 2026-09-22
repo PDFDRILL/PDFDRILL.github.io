@@ -162,7 +162,7 @@ jobs:
           # of this table until one does; adding it now would be guessing at
           # a colour and a gloss for a class nobody has published yet.
           LET = {"component": "C", "weak": "W", "stable": "S", "noise": "N", "clean": "K",
-                 "unrendered": "U"}
+                 "unrendered": "U", "crop": "X"}
           for m in re.finditer(r'<code class="doc">([^<]+)</code>(.*?)</tr>', idx, re.S):
               k, cell = m.group(1), m.group(2)
               ink = f"reports/{k}/report.ink.json"
@@ -337,7 +337,15 @@ jobs:
                                   f"measurement says exist.")
                               continue
 
-              got = {a: int(b) for a, b in re.findall(r">([CWSNKU])</b>(\d+)", cell)}
+              # 772 — the class is BUILT from LET, not typed again. Typed, it
+              # drifted the moment a seventh class shipped: `crop` (X) was in
+              # the artefact and in the legend and still read as absent here,
+              # so the bar it had just been told about came back as a
+              # mismatch. A guard that has its own copy of the vocabulary is
+              # a guard that can disagree with itself.
+              _codes = "".join(sorted(LET.values()))
+              got = {a: int(b) for a, b in
+                     re.findall(r">([" + _codes + r"])</b>(\d+)", cell)}
               if got and got != want:
                   claim_errs.append(f"{k}: residual bar {got} does not match report.ink.json {want}")
 

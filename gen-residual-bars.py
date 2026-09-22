@@ -42,6 +42,12 @@ LET = collections.OrderedDict([
     ("unrendered", ("U", "#9a6ac8")),
     ("noise", ("N", "#787878")),
     ("clean", ("K", "#28a028")),
+    # 772 — `crop` (X) is inkdrill's "the ink comparison says nothing": the
+    # render overran its crop, so the delta is not evidence either way. It
+    # joins neither INK_FLAGS nor INK_AGREES in inkconvert.py, and it is
+    # drawn last, in grey-blue, because a bar that omitted it did not add up
+    # — 1804.10694v5's summed to 57% with three of its seven rows missing.
+    ("crop", ("X", "#8c8c9e")),
 ])
 
 ROW_RE = re.compile(r'<code class="doc">([^<]+)</code>(.*?)</tr>', re.S)
