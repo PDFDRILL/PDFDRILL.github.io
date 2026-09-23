@@ -85,7 +85,7 @@ cid 37   glyphname percent    NimbusMonL-Regu      8.0pt
 cid 37   glyphname percent    NimbusMonL-Regu      8.0pt
 cid 37   glyphname percent    NimbusMonL-Regu      8.0pt</pre>
 <p>The font dictionary <em>names the character</em>. Reading it as <code>:</code> is not an OCR difficulty, and neither is reading it as <code>\%</code> in maths mode — it is a decision taken without consulting evidence that is in the file. That is the same shape as the container finding: the information was present, and the structure around it did not let anyone use it.</p>
-<h2>Two defects of ours, from the same exercise</h2>
+<h2>Four defects of ours, from the same exercise</h2>
 <p>Their round-6 note says the question that pays is <em>what box is this text in</em>, not <em>what did the model think this glyph was</em>. Both of the following were that question, and we had not asked it.</p>
 <h3>A LaTeX macro inside a verbatim line</h3>
 <p>Our first reading of the orphan was</p>
@@ -93,11 +93,13 @@ cid 37   glyphname percent    NimbusMonL-Regu      8.0pt</pre>
 <p>We collapse a run of upright roman letters spelling an operator name — <code>min</code>, <code>sup</code>, <code>lim</code> — because TeX sets those as plain letters. It ran on typewriter text. TeX has no way to set an operator name in a monospace face, so three typewriter letters spelling <code>min</code> are three letters of code. It corrupted the spacing too: the merged glyph keeps the first letter&rsquo;s x, so the grid then counted two cells of gap. This is their <code>\mathrm</code>, arrived at from the other direction — a code line that picked up maths habits.</p>
 <h3>A block that crossed the gutter</h3>
 <p>Every right-column line came back indented by 56 spaces, because <code>left</code> — the x of column 0 — came from the other column. The fix is not a threshold: inside one column the lines <strong>overlap</strong>, since a long line spans every other line&rsquo;s indent, and between two columns nothing overlaps at all. Block 5 above is what remains of it: some lines arrive with glyphs from both columns already merged, upstream of the listing layer. 11 of 30, and our largest open defect on this page.</p>
-<h3>And one the check itself turned up</h3>
+<h3>A glyph set 1.4pt low is not a line</h3>
 <p><code>listings</code> does not set every character on its row&rsquo;s baseline. The multiplication star of <code>i0*32+i1</code> is placed <strong>1.39pt low</strong>, and line grouping made it a line of its own — four times on this page, and the only thing wrong with our reading of the orphan before the fix:</p>
 <pre>base 676.88   int i = i0 32+i1
 base 675.49   *</pre>
 <p>A block knows its row pitch — 7.17pt here — and nothing a fifth of a pitch away can be a separate row.</p>
+<h3>A box around two listings is not either listing&rsquo;s frame</h3>
+<p>Caught only because we went to cut the crop above. The page-wide rules on this page band the <em>figures</em>, and each band holds two listings side by side; taking the smallest enclosing rectangle gave both of them the same rect and called both framed. That is the exact over-claim the frame was introduced to prevent, since the whole point of a drawn boundary is that it says which glyphs belong to <em>which</em> block. A frame is a listing&rsquo;s only when it contains that listing and no other — which is why only block 5 above is marked framed, and why the crop is cut by a rectangle rather than by a rule someone drew.</p>
 <h2>The language is looked up, not guessed</h2>
 <p>Containers and languages are the same question. We run no language detector over the text. <code>keywordstyle</code> colours a word if and only if that word is in the keyword list of the language the author named, so the coloured words on a page are a <em>subset</em> of one language&rsquo;s keywords — and <code>listings</code> ships 94 of those lists in <code>lstlang1-3.sty</code>. We read them out (22,553 keywords) and look the language up. It is the same move as reading <code>mathabx.dcl</code> for a glyph slot: ask the package that painted the page, not the model that looked at it.</p>
 <div class="tw"><table><thead><tr><th>route</th><th>scored on</th><th class="n">right</th><th class="n">of</th><th>silent</th></tr></thead><tbody>
