@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="z5gFtqi9199Eg2nvpbuiYbVltjVtAB3QYXU6Eh3Hx-0" />
 <title>pdfdrill — shallow-first PDF extraction & OCR quality control</title>
-<meta name="description" content="pdfdrill: a token-economical drill-down PDF toolkit that returns prose, persists state in a sidecar, and runs a LaTeX | KaTeX | MathPix-image quality-control pipeline over scientific PDFs.">
+<meta name="description" content="pdfdrill: a token-economical drill-down PDF toolkit that returns prose, persists state in a sidecar, translates documents via DeepL (pdfdrill translate --from ZH --to EN-US), and runs a LaTeX | KaTeX | MathPix-image quality-control pipeline over scientific PDFs.">
 
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -236,6 +236,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
       <a href="#depth">drill depth</a>
       <a href="#ocr">text layer</a>
       <a href="#commands">commands</a>
+      <a href="#translate">translate</a>
       <a href="#qc">qc pipeline</a>
       <a href="#model">model</a>
       <a href="#sandbox">sandbox</a>
@@ -480,10 +481,57 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
   </div>
 </section>
 
+<!-- TRANSLATE -->
+<section id="translate">
+  <div class="wrap">
+    <p class="eyebrow">06 — translate a document</p>
+    <h2>Chinese in, English out. One command.</h2>
+    <p class="sub"><code>pdfdrill translate</code> sends every prose element of a document to DeepL: paragraphs, abstracts, section headings, list items and footnotes. It writes the translation into the document model <em>in place</em> and keeps the original text beside it under <code>&lt;field&gt;_source</code>. Equations, code and figures are never sent, so the math arrives unchanged.</p>
+
+    <div class="term">
+      <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">~/papers — translate a Chinese PDF into English</span></div>
+<pre><span class="cn"># 1 · a DeepL API key (a free key ends in :fx and uses the free host)</span>
+<span class="pr">$</span> export DEEPL_API_KEY=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx:fx
+
+<span class="cn"># 2 · once per session: translate is blocked until you attest you read the SKILL</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">preflight</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">preflight</span> --ack &lt;TOKEN&gt;      <span class="cn"># TOKEN = the last line of SKILL.md</span>
+
+<span class="cn"># 3 · step zero, as always: does the PDF have a text layer?</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">size</span> paper-zh.pdf
+
+<span class="cn"># 4 · translate: Chinese → US English (builds the model first if there is none)</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">translate</span> paper-zh.pdf <span class="hl">--from ZH --to EN-US</span>
+<span class="ok">Translated to EN-US via DeepL (in place; original kept under &lt;field&gt;_source).</span>
+<span class="ou">  • tiddlers: …/&lt;bibkey&gt;.tiddlers.json — N tiddler(s), translated text in the `text` field</span>
+<span class="ou">  • markdown: …/&lt;bibkey&gt;.md — N object(s), bi-layer (translation + hidden source, CSS/JS toggle)</span></pre>
+    </div>
+
+    <div class="grid g3">
+      <div class="card"><h4><span class="dot"></span>language codes</h4><p>DeepL codes, not ISO names. <code>--from ZH</code> reads Chinese, simplified or traditional. <code>--to EN-US</code> is the default target; use <code>--to EN-GB</code> for British English. The same flags cover every DeepL pair: <code>--from DE</code>, <code>--from RU</code>, <code>--from JA</code>, <code>--to PT-BR</code>. <code>--from</code> is optional because DeepL detects the language, but give it: the model then records both languages instead of guessing one later.</p></div>
+      <div class="card"><h4><span class="dot"></span>what you get</h4><p>The same document in two languages. The translated <code>model.docmodel.json</code>, a TiddlyWiki tiddler file whose prose is English and tagged <code>translated</code>, and a <strong>bi-layer Markdown</strong> <code>&lt;bibkey&gt;.md</code> that holds the translation plus a hidden source layer you can toggle. The inspector shows a flag button, like the <a href="files/2409.18839.inspect.html">EN → PT-BR</a> and <a href="kolbe2018hubbard.en-us.html">DE → EN</a> examples below.</p></div>
+      <div class="card"><h4><span class="dot"></span>cost control</h4><p>DeepL bills by the character, so pdfdrill never pays twice. Elements that already carry <code>&lt;field&gt;_source</code> are skipped, and a rebuilt tiddler file gets its stored translations back for free. <code>--limit 20</code> translates only the first 20 elements, which is a cheap test run. <code>--force</code> re-translates everything from the preserved original, never from the translation.</p></div>
+    </div>
+
+    <div class="callout teal">
+      <div class="lab">A scanned Chinese PDF</div>
+      <p>If <code>size</code> reports <strong>“NO text layer — scanned, OCR required”</strong>, there is no text to translate yet. OCR it with tesseract's Chinese model first, then translate: <code>pdfdrill ocr paper-zh.pdf --lang chi_sim</code> (use <code>chi_tra</code> for traditional characters, <code>chi_sim+eng</code> for mixed pages). The model is built from that <code>lines.json</code>. The tesseract language pack must be installed (<code>tesseract --list-langs</code>).</p>
+    </div>
+
+    <div class="callout">
+      <div class="lab">When translate “does nothing”</div>
+      <p><strong>⛔ pdfdrill STOP … BLOCKED</strong>: the preflight gate from step 2. Run <code>pdfdrill preflight</code> and ack the token, or set <code>PDFDRILL_NO_PREFLIGHT=1</code> in scripts.<br>
+      <strong>DeepL unavailable: set DEEPL_API_KEY</strong>: the key is missing from the environment or <code>.env</code>.<br>
+      <strong>Not found: --help</strong>: <code>translate --help</code> reads <code>--help</code> as a file name. <code>pdfdrill help</code> lists every command with its flags.<br>
+      <strong>Nothing changed on a re-run</strong>: that is the idempotence at work; the document is already translated. Add <code>--force</code> to redo it.</p>
+    </div>
+  </div>
+</section>
+
 <!-- QC PIPELINE -->
 <section id="qc">
   <div class="wrap">
-    <p class="eyebrow">06 — the qc pipeline</p>
+    <p class="eyebrow">07 — the qc pipeline</p>
     <h2>LaTeX · KaTeX · the image MathPix actually rendered.</h2>
     <p class="sub">MathPix <code>lines.json</code> is the only format that ships, for each equation, both the recognized LaTeX <strong>and</strong> the CDN crop it was read from. pdfdrill puts them side by side — and adds competing readings (MathPix Snip, an LLM on the crop, the author’s own <code>.tex</code>) as extra columns, each scored against a normalized LaTeX form. Below is a real row from <code>report --embed</code> on arXiv 2004.05631v1, eq&nbsp;(1.1):</p>
 
@@ -536,7 +584,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <!-- LIVE MATH -->
 <section id="math">
   <div class="wrap">
-    <p class="eyebrow">07 — live from the model</p>
+    <p class="eyebrow">08 — live from the model</p>
     <h2>Real equations, rendered in your browser.</h2>
     <p class="sub">These are pulled verbatim from the extracted model of arXiv&nbsp;2004.05631v1 (<em>At the Interface of Algebra and Statistics</em>) — the Galois connection at the heart of the thesis. Source LaTeX shown beneath each render; nothing was hand-typed.</p>
     <div class="mgrid" id="mathGallery"></div>
@@ -550,7 +598,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <!-- MODEL / TIDDLERS -->
 <section id="model">
   <div class="wrap">
-    <p class="eyebrow">08 — the document model</p>
+    <p class="eyebrow">09 — the document model</p>
     <h2>Every element is a typed, queryable node.</h2>
     <p class="sub">The unified <code>docmodel</code> resolves a paper into typed <code>DocObject</code>s. Projected to TiddlyWiki, each becomes one tiddler — equations carry their LaTeX, reference number, page, the MathPix crop, region geometry, and every competing reading as <code>latex_&lt;provenance&gt;</code> + <code>score_&lt;provenance&gt;</code>.</p>
 
@@ -613,7 +661,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <!-- SANDBOX -->
 <section id="sandbox">
   <div class="wrap">
-    <p class="eyebrow">09 — claude.ai &amp; claude code</p>
+    <p class="eyebrow">10 — claude.ai &amp; claude code</p>
     <h2>Nothing for you to install — just ask Claude.</h2>
     <p class="sub">You don’t run any of this yourself. Make pdfdrill available <em>once</em> — attach the bundle in a Claude.ai chat, or install the skill in Claude Code — then ask in plain language. Claude carries the <strong>skill</strong> (<code>SKILL.md</code> + the 89-command manifest), so <em>it</em> knows which commands to run, and <em>it</em> reads that manual — not you. The package is pure Python under <code>src/</code> with no <code>pip</code> step, which is why the sandbox (the extraction tools and pydantic already aboard) runs it as-is. Everything in the terminal below is what <strong>Claude</strong> does for you — not a checklist you type.</p>
 
@@ -679,7 +727,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <!-- ARTIFACTS -->
 <section id="artifacts" style="border-bottom:none">
   <div class="wrap">
-    <p class="eyebrow">10 — live artifacts</p>
+    <p class="eyebrow">11 — live artifacts</p>
     <h2>Open the real output.</h2>
     <p class="sub">All produced by pdfdrill and served straight from this repository — no build step, no server. A <strong>formula report</strong> puts every inline formula and display equation side by side as LaTeX source │ live KaTeX render │ the MathPix crop it was read from, each row linking back to its page; a <strong>comparison</strong> does the same one row per display equation, scored across provenances.</p>
     <div class="tabs" id="artChips" style="margin:22px 0 4px"></div>
@@ -915,8 +963,8 @@ const CMDS = {
      out:[["$","pdfdrill ","escalate"," paper.pdf"],["ou","9 flagged exported → (LLM reads crops) → ingest → "],["ok","relearn: 7 resolved, 1 still flagged (hardest multi-line eq, correctly retained)."]]},
     {n:"tiddlers", a:"&lt;pdf&gt; --embed", d:"Emit a TiddlyWiki tiddler array — equations carry latex, refnum, crop + competing readings.", tag:"L3 · graph artifact",
      out:[["$","pdfdrill ","tiddlers"," paper.pdf"],["ou","Emitted 2618 tiddlers. Drive a <$list>+<$latex>+<$image> table; --embed inlines canonical_uri as data: URIs."]]},
-    {n:"translate", a:"&lt;pdf&gt; --to EN-US", d:"DeepL-translate prose tiddlers (<code>--from DE --to EN-US</code>): the translation replaces the field, the original kept as <code>org_&lt;field&gt;</code>. Equations &amp; figures untouched.", tag:"i18n · key from env",
-     out:[["$","pdfdrill ","translate"," thesis.pdf --from DE --to EN-US"],["ou","176 prose tiddlers translated in place; German preserved under org_text → thesis.en-us.tiddlers.json."]]},
+    {n:"translate", a:"&lt;pdf&gt; --from ZH --to EN-US", d:"<b>DeepL-translate</b> the document in place: prose is translated, math/code/figures untouched, the original kept under <code>&lt;field&gt;_source</code>. Writes translated tiddlers + a bi-layer Markdown. Needs <code>DEEPL_API_KEY</code>. <a href=\"#translate\">How-to →</a>", tag:"i18n · DEEPL_API_KEY from env",
+     out:[["$","pdfdrill ","translate"," paper-zh.pdf --from ZH --to EN-US"],["ou","Translated to EN-US via DeepL (in place; original kept under &lt;field&gt;_source)."]]},
     {n:"llm", a:"&lt;pdf&gt; --runtime", d:"<b>Keyless LLM-delegation driver</b>: detect the runtime (cli / sandbox / none) and route <code>vision</code> / <code>bibtex</code> to the <b>running Claude</b> with pdfdrill’s own prompts. <code>--show</code> dumps open requests.", tag:"preview · no API key",
      out:[["$","pdfdrill ","llm"," paper.pdf --runtime"],["ou","runtime=cli (claude -p). No API key needed — vision/bibtex delegate to the running Claude. 0 pending sandbox requests."]]},
     {n:"gaps", a:"&lt;pdf&gt;", d:"Report <b>missing</b> information (cohomology-as-linter): acronyms used but never expanded, undeclared math symbols, novelty claims without citations, unmatched in-text citations.", tag:"L3 · the linter",
