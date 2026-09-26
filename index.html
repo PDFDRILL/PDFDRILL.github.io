@@ -489,7 +489,7 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     <p class="sub"><code>pdfdrill translate</code> sends every prose element of a document to DeepL: paragraphs, abstracts, section headings, list items and footnotes. It writes the translation into the document model <em>in place</em> and keeps the original text beside it under <code>&lt;field&gt;_source</code>. Equations, code and figures are never sent, so the math arrives unchanged.</p>
 
     <div class="term">
-      <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">~/papers — translate a Chinese PDF into English</span></div>
+      <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">~/Downloads — translate a Chinese radar paper into English, verbatim</span></div>
 <pre><span class="cn"># 1 · a DeepL API key (a free key ends in :fx and uses the free host)</span>
 <span class="pr">$</span> export DEEPL_API_KEY=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx:fx
 
@@ -498,14 +498,23 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
 <span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">preflight</span> --ack &lt;TOKEN&gt;      <span class="cn"># TOKEN = the last line of SKILL.md</span>
 
 <span class="cn"># 3 · step zero, as always: does the PDF have a text layer?</span>
-<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">size</span> paper-zh.pdf
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">size</span> Clutter.pdf
 
 <span class="cn"># 4 · translate: Chinese → US English (builds the model first if there is none)</span>
-<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">translate</span> paper-zh.pdf <span class="hl">--from ZH --to EN-US</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">translate</span> Clutter.pdf <span class="hl">--from ZH --to EN-US</span>
 <span class="ok">Translated to EN-US via DeepL (in place; original kept under &lt;field&gt;_source).</span>
-<span class="ou">  • tiddlers: …/&lt;bibkey&gt;.tiddlers.json — N tiddler(s), translated text in the `text` field</span>
-<span class="ou">  • markdown: …/&lt;bibkey&gt;.md — N object(s), bi-layer (translation + hidden source, CSS/JS toggle)</span></pre>
+<span class="ou">  • tiddlers: Clutter.pdf.drill/Clutter.tiddlers.json — 67 tiddler(s), translated text in the `text` field</span>
+<span class="ou">  • markdown: Clutter.pdf.drill/Clutter.md — 99 object(s), bi-layer (translation + hidden source, CSS/JS toggle)</span>
+
+<span class="cn"># 5 · read it: the inspector's flag menu switches 🇨🇳 ZH ↔ 🇺🇸 EN-US</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">inspect</span> Clutter.pdf
+<span class="ou">Docmodel inspector: 359 elements over 8 page(s). Open Clutter.pdf.drill/Clutter.inspect.html in a browser …</span></pre>
     </div>
+
+    <figure style="margin:30px 0 0">
+      <img width="1200" height="882" src="translate-zh-en.gif" loading="lazy" alt="Animated side-by-side comparison, cycling through pages 3, 5 and 6 of a Chinese paper on Doppler speed-measurement radar. Left: the original Chinese text in the docmodel inspector's reflow view. Right: the same page after pdfdrill translate --from ZH --to EN-US. The prose is English; the numbered equations — kernel density estimates, the Weibull and Gamma distributions, the LMS update rule — and the figures are identical on both sides." style="width:100%;height:auto;display:block;border:1px solid rgba(84,209,196,.35);border-radius:12px;background:var(--bg2);box-shadow:0 0 0 1px rgba(84,209,196,.10),0 0 28px rgba(84,209,196,.14)">
+      <figcaption style="font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:10px;text-align:center">Same page, two languages: the inspector's reflow view before and after <code>translate --from ZH --to EN-US</code>. Equations (2)–(8) are never sent to DeepL, so they match character for character. The translation is DeepL's, unedited: 轨道 (railway track) comes out as “Orbit”. Paper: Peng Zezhou, Gao Hongmin, Hu Weidong, Jiang Huanyu, Liu Qingguo, <em>Research on signal processing algorithm of Doppler speed measurement radar under clutter background</em>.</figcaption>
+    </figure>
 
     <div class="grid g3">
       <div class="card"><h4><span class="dot"></span>language codes</h4><p>DeepL codes, not ISO names. <code>--from ZH</code> reads Chinese, simplified or traditional. <code>--to EN-US</code> is the default target; use <code>--to EN-GB</code> for British English. The same flags cover every DeepL pair: <code>--from DE</code>, <code>--from RU</code>, <code>--from JA</code>, <code>--to PT-BR</code>. <code>--from</code> is optional because DeepL detects the language, but give it: the model then records both languages instead of guessing one later.</p></div>
@@ -516,6 +525,11 @@ footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;a
     <div class="callout teal">
       <div class="lab">A scanned Chinese PDF</div>
       <p>If <code>size</code> reports <strong>“NO text layer — scanned, OCR required”</strong>, there is no text to translate yet. OCR it with tesseract's Chinese model first, then translate: <code>pdfdrill ocr paper-zh.pdf --lang chi_sim</code> (use <code>chi_tra</code> for traditional characters, <code>chi_sim+eng</code> for mixed pages). The model is built from that <code>lines.json</code>. The tesseract language pack must be installed (<code>tesseract --list-langs</code>).</p>
+    </div>
+
+    <div class="callout teal">
+      <div class="lab">Need a translated PDF instead?</div>
+      <p>pdfdrill translates the <em>model</em>: you read the English in the inspector, the tiddlers or the bi-layer Markdown, and the formulas stay LaTeX you can search and reuse. It does not write a PDF that keeps the original page layout. For that, use <a href="https://github.com/PDFMathTranslate/PDFMathTranslate" target="_blank" rel="noopener">PDFMathTranslate</a> (<code>pdf2zh</code>). It typesets the translation back into the original pages, formulas and figures in place, and writes a translated-only PDF plus a bilingual one: <code>pdf2zh Clutter.pdf -li zh -lo en -s deepl</code>. The two tools work well together: <code>pdf2zh</code> for a PDF to print or send, pdfdrill for text and math an LLM or a wiki can use.</p>
     </div>
 
     <div class="callout">
