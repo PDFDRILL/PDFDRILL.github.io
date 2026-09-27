@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pdfdrill translate — translate a PDF (Chinese → English) with formulas intact</title>
+<meta name="description" content="pdfdrill has a translate command: pdfdrill translate paper.pdf --from ZH --to EN-US translates a PDF's prose with DeepL, keeps every equation and figure unchanged, and shows both languages in the inspector.">
+<link rel="canonical" href="https://pdfdrill.github.io/translate.html">
+<meta property="og:title" content="pdfdrill translate — translate a PDF with formulas intact">
+<meta property="og:description" content="pdfdrill translate paper.pdf --from ZH --to EN-US: DeepL translation of a PDF's prose; equations and figures unchanged.">
+<meta property="og:url" content="https://pdfdrill.github.io/translate.html">
+<meta property="og:image" content="https://pdfdrill.github.io/translate-zh-en.gif">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0f1113">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Does pdfdrill have a translate command?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. pdfdrill translate <pdf> --from ZH --to EN-US translates a PDF's prose with DeepL and keeps every formula and figure unchanged. It is part of the pdfdrill command-line tool, alongside the extraction and OCR quality-control commands; it needs a DEEPL_API_KEY."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I translate a Chinese PDF into English with pdfdrill?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Set DEEPL_API_KEY, then run pdfdrill translate paper.pdf --from ZH --to EN-US, and read the result with pdfdrill inspect paper.pdf: the inspector's reflow view shows the English with equations and figures, and its language menu switches back to Chinese."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why did pdfdrill translate change nothing?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Usually a wrong language code: DeepL uses ZH for Chinese, not CN, and rejects CN. Other causes: DEEPL_API_KEY is not set, or the preflight gate has not been acknowledged (pdfdrill preflight, then pdfdrill preflight --ack <TOKEN>)."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can pdfdrill write a translated PDF that keeps the original layout?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. pdfdrill translates its document model and shows the result in its inspector. For a translated PDF with the original page layout, use PDFMathTranslate (pdf2zh)."
+   }
+  }
+ ]
+}
+</script>
+<style>
+:root{
+  --bg:#0c0e11; --bg2:#0f1317; --panel:#15191f; --panel2:#1a1f27;
+  --ink:#e9e4d8; --muted:#8a909b; --faint:#565c67; --line:#262b33; --line2:#323844;
+  --amber:#ff7a18; --amber2:#ffb066; --teal:#54d1c4; --teal-deep:#205f59;
+  --violet:#a795ff; --rose:#ff6b8b; --green:#7fd17a;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --serif:'Spectral',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:17px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(900px 500px at 88% -8%, rgba(255,122,24,.10), transparent 60%),
+    radial-gradient(700px 600px at -5% 12%, rgba(84,209,196,.07), transparent 55%);
+}
+::selection{background:var(--amber);color:#1a1109}
+a{color:var(--amber2);text-decoration:none}
+a:hover{color:var(--amber)}
+.mono{font-family:var(--mono)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+
+/* grain / scanline atmosphere */
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.025;
+  background-image:repeating-linear-gradient(0deg,#fff 0,#fff 1px,transparent 1px,transparent 3px);
+}
+
+/* ---------- top bar ---------- */
+header.bar{
+  position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
+  background:rgba(12,14,17,.78);border-bottom:1px solid var(--line);
+}
+.bar .wrap{display:flex;align-items:center;gap:22px;height:58px}
+.brand{font-family:var(--mono);font-weight:700;letter-spacing:.06em;font-size:15px;color:var(--ink)}
+.brand b{color:var(--amber)}
+.bar nav{margin-left:auto;display:flex;gap:22px;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em}
+.bar nav a{color:var(--muted)}
+.bar nav a:hover{color:var(--ink)}
+@media(max-width:760px){.bar nav{display:none}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:78px 0 56px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);margin-bottom:22px}
+h1{font-family:var(--mono);font-weight:700;font-size:clamp(38px,6.4vw,74px);line-height:.98;letter-spacing:-.01em;margin:0 0 8px}
+h1 .drill{color:var(--amber)}
+.lede{font-size:clamp(19px,2.4vw,24px);color:var(--ink);max-width:44ch;margin:18px 0 0;font-weight:300}
+.lede em{color:var(--teal);font-style:normal}
+.hero-meta{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px}
+.pill{font-family:var(--mono);font-size:12px;color:var(--muted);border:1px solid var(--line2);
+  border-radius:999px;padding:6px 13px;background:var(--panel)}
+.pill b{color:var(--teal);font-weight:500}
+.cta{margin-top:34px;display:flex;flex-wrap:wrap;gap:12px}
+.btn{font-family:var(--mono);font-size:13px;letter-spacing:.03em;padding:12px 18px;border-radius:7px;
+  border:1px solid var(--line2);color:var(--ink);background:var(--panel);transition:.18s;display:inline-flex;gap:9px;align-items:center}
+.btn:hover{border-color:var(--amber);color:var(--ink);transform:translateY(-1px)}
+.btn.primary{background:linear-gradient(180deg,#ff8a2e,#f06e0c);border-color:#ff8a2e;color:#1a1008;font-weight:600}
+.btn.primary:hover{filter:brightness(1.07)}
+
+/* strata core-sample on the right of hero */
+.core{position:absolute;right:28px;top:80px;width:84px;bottom:40px;display:none}
+@media(min-width:980px){.core{display:block}}
+.core .seg{position:relative;border:1px solid var(--line2);border-bottom:none;font-family:var(--mono);
+  font-size:9.5px;color:var(--faint);padding:6px 7px;letter-spacing:.06em;overflow:hidden}
+.core .seg:last-child{border-bottom:1px solid var(--line2)}
+.core .seg .n{position:absolute;right:6px;top:5px;color:var(--amber);opacity:.6}
+.core .s0{height:8%;background:repeating-linear-gradient(45deg,#1a1f27,#1a1f27 4px,#181c23 4px,#181c23 8px)}
+.core .s1{height:14%;background:#171b22}
+.core .s2{height:22%;background:#181d25}
+.core .s3{height:56%;background:linear-gradient(180deg,#1a1f27,#13171d)}
+
+/* ---------- sections ---------- */
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin:0 0 14px}
+.exp{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--amber2);border:1px solid rgba(255,122,24,.45);border-radius:999px;padding:2px 8px;vertical-align:middle;white-space:nowrap}
+h2{font-family:var(--mono);font-weight:700;font-size:clamp(26px,3.6vw,38px);letter-spacing:-.01em;margin:0 0 8px;line-height:1.05}
+h3{font-family:var(--mono);font-weight:600;font-size:18px;letter-spacing:.01em;margin:30px 0 10px;color:var(--ink)}
+.sub{color:var(--muted);max-width:62ch;font-weight:300;margin:0 0 8px}
+p{max-width:66ch}
+strong{color:var(--ink);font-weight:600}
+code{font-family:var(--mono);font-size:.86em;background:#0a0c0f;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--amber2)}
+
+/* feature grid */
+.grid{display:grid;gap:18px;margin-top:30px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:820px){.g2,.g3{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:22px}
+.card h4{font-family:var(--mono);font-size:14px;letter-spacing:.02em;margin:0 0 8px;color:var(--ink);display:flex;gap:9px;align-items:center}
+.card h4 .dot{width:8px;height:8px;border-radius:2px;background:var(--amber);flex:none}
+.card p{font-size:15px;color:var(--muted);margin:0;max-width:none}
+.card .ms{font-family:var(--mono);font-size:11px;color:var(--teal);margin-top:12px}
+
+/* terminal */
+.term{background:#070809;border:1px solid var(--line2);border-radius:11px;overflow:hidden;margin:22px 0;
+  box-shadow:0 24px 60px -30px rgba(0,0,0,.8)}
+.term .top{display:flex;align-items:center;gap:7px;padding:11px 15px;background:#0e1115;border-bottom:1px solid var(--line)}
+.term .top i{width:11px;height:11px;border-radius:50%;display:inline-block}
+.term .top .r{background:#ff5f57}.term .top .y{background:#febc2e}.term .top .g{background:#28c840}
+.term .top .ttl{margin-left:10px;font-family:var(--mono);font-size:11.5px;color:var(--faint);letter-spacing:.05em}
+.term pre{margin:0;padding:18px 18px;font-family:var(--mono);font-size:13px;line-height:1.7;color:#cdd2da;
+  white-space:pre-wrap;word-break:break-word;overflow-x:auto}
+.term pre .pr{color:var(--amber)}        /* prompt */
+.term pre .cm{color:var(--teal)}         /* command */
+.term pre .ar{color:var(--violet)}       /* arg */
+.term pre .ou{color:var(--muted)}        /* output */
+.term pre .hl{color:var(--ink)}
+.term pre .cn{color:var(--faint);font-style:italic} /* comment */
+.term pre .ok{color:var(--green)}
+.term pre .warn{color:var(--rose)}
+
+/* command explorer */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 16px}
+.tab{font-family:var(--mono);font-size:12.5px;letter-spacing:.03em;padding:8px 14px;border-radius:7px;
+  border:1px solid var(--line2);color:var(--muted);background:var(--panel);cursor:pointer;transition:.15s}
+.tab:hover{color:var(--ink)}
+.tab.on{border-color:var(--amber);color:var(--amber);background:rgba(255,122,24,.06)}
+.cmdgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:820px){.cmdgrid{grid-template-columns:1fr}}
+.cmd{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:15px 16px;cursor:pointer;transition:.15s}
+.cmd:hover{border-color:var(--line2);background:var(--panel2)}
+.cmd.on{border-color:var(--amber)}
+.cmd .nm{font-family:var(--mono);font-size:13px;color:var(--amber2)}
+.cmd .nm b{color:var(--amber)}
+.cmd .ds{font-size:13.5px;color:var(--muted);margin-top:5px;line-height:1.5}
+.cmd .tag{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--faint);margin-top:8px}
+
+/* QC table */
+.qc{width:100%;border-collapse:collapse;margin-top:22px;font-size:14px;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.qc th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;text-align:left;
+  color:var(--muted);background:var(--panel2);padding:11px 13px;border-bottom:1px solid var(--line2)}
+.qc td{padding:13px;border-bottom:1px solid var(--line);vertical-align:top;background:var(--panel)}
+.qc tr:last-child td{border-bottom:none}
+.qc .src code{display:block;white-space:pre-wrap;word-break:break-all;background:#070809;border-color:var(--line2);
+  color:#cdd2da;font-size:12px;padding:9px 11px}
+.qc .ren{color:var(--ink)}
+.qc .img img{max-width:240px;max-height:70px;border:1px solid var(--line2);border-radius:5px;background:#fff;padding:3px}
+.qc .img .miss{font-family:var(--mono);font-size:11px;color:var(--faint)}
+.scorebar{display:flex;align-items:center;gap:8px;margin-top:7px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.scorebar .track{flex:1;height:5px;border-radius:3px;background:#0a0c0f;overflow:hidden;max-width:120px}
+.scorebar .fill{height:100%;background:linear-gradient(90deg,var(--teal-deep),var(--teal))}
+
+/* math gallery */
+.mgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:24px}
+@media(max-width:820px){.mgrid{grid-template-columns:1fr}}
+.mcard{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.mcard .id{font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.04em}
+.mcard .id b{color:var(--amber)}
+.mcard .eq{margin:10px 0 8px;color:var(--ink);overflow-x:auto}
+.mcard .tex{font-family:var(--mono);font-size:11px;color:var(--muted);white-space:pre-wrap;word-break:break-all;
+  background:#070809;border:1px solid var(--line);border-radius:5px;padding:7px 9px}
+
+/* model anatomy */
+.anat{display:grid;grid-template-columns:1.1fr 1fr;gap:26px;align-items:start;margin-top:26px}
+@media(max-width:860px){.anat{grid-template-columns:1fr}}
+.types{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.types .t{font-family:var(--mono);font-size:11.5px;border:1px solid var(--line);border-radius:6px;
+  padding:7px 9px;color:var(--muted);background:var(--panel)}
+.types .t b{color:var(--teal)}
+.json{background:#070809;border:1px solid var(--line2);border-radius:10px;padding:16px;overflow-x:auto}
+.json pre{margin:0;font-family:var(--mono);font-size:12px;line-height:1.6;color:#cdd2da;white-space:pre}
+.json .k{color:var(--teal)}.json .s{color:var(--amber2)}.json .n{color:var(--violet)}.json .p{color:var(--faint)}
+
+/* callout */
+.callout{border-left:3px solid var(--amber);background:linear-gradient(90deg,rgba(255,122,24,.07),transparent 70%);
+  padding:18px 22px;border-radius:0 10px 10px 0;margin:24px 0}
+.callout .lab{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--amber);margin-bottom:6px}
+.callout p{margin:0;font-size:16px}
+.callout.teal{border-color:var(--teal);background:linear-gradient(90deg,rgba(84,209,196,.07),transparent 70%)}
+.callout.teal .lab{color:var(--teal)}
+
+/* ladder */
+.ladder{margin-top:26px;display:flex;flex-direction:column;gap:0;border:1px solid var(--line);border-radius:11px;overflow:hidden}
+.rung{display:grid;grid-template-columns:64px 1fr auto;gap:16px;align-items:center;padding:16px 18px;border-bottom:1px solid var(--line);background:var(--panel)}
+.rung:last-child{border-bottom:none}
+.rung .lv{font-family:var(--mono);font-weight:700;font-size:13px;color:var(--amber);letter-spacing:.04em}
+.rung .lv small{display:block;color:var(--faint);font-weight:400;font-size:10px;letter-spacing:.1em;margin-top:3px}
+.rung .desc{font-size:15px;color:var(--ink)}
+.rung .desc code{font-size:.82em}
+.rung .desc span{color:var(--muted)}
+.rung .cost{font-family:var(--mono);font-size:12px;color:var(--teal);white-space:nowrap}
+.rung.d0{box-shadow:inset 4px 0 0 var(--teal)}
+.rung.d3{box-shadow:inset 4px 0 0 var(--amber)}
+
+/* footer artifacts */
+.arts{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+@media(max-width:760px){.arts{grid-template-columns:1fr}}
+.art{display:block;background:var(--panel);border:1px solid var(--line2);border-radius:12px;padding:24px;transition:.18s}
+.art:hover{border-color:var(--amber);transform:translateY(-2px)}
+.art .ic{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--amber);text-transform:uppercase}
+.art h4{font-family:var(--mono);font-size:18px;color:var(--ink);margin:10px 0 6px}
+.art p{font-size:14px;color:var(--muted);margin:0}
+.art .go{font-family:var(--mono);font-size:12px;color:var(--teal);margin-top:14px;display:inline-block}
+
+footer{padding:46px 0 70px;color:var(--faint);font-family:var(--mono);font-size:12px}
+footer a{color:var(--muted)}
+footer .row{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center}
+
+.fade{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.fade.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="/" style="text-decoration:none;color:inherit"><b>pdf</b>drill</a>
+    <nav>
+      <a href="/">home</a>
+      <a href="/#commands">commands</a>
+      <a href="#faq">faq</a>
+      <a href="https://github.com/WulfKolbe/pdfdrill" target="_blank" rel="noopener">github</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">pdfdrill · translate command · DeepL</div>
+    <h1>Translate a PDF.<br>Keep every <span class="drill">formula</span>.</h1>
+    <p class="lede"><strong>Yes, pdfdrill has a translate command.</strong> <code>pdfdrill translate paper.pdf --from ZH --to EN-US</code> sends the prose of a PDF to DeepL: paragraphs, headings, captions, list items and footnotes. Equations, code and figures are never sent, so they arrive unchanged. The translation is written into pdfdrill's document model next to the original, and <code>pdfdrill inspect</code> shows both, one language menu apart. It works for every DeepL pair: Chinese, German, Russian, Japanese into English, English into Portuguese.</p>
+  </div>
+</div>
+
+<section id="translate">
+  <div class="wrap">
+    <p class="eyebrow">the command</p>
+    <h2>Chinese in, English out. One command.</h2>
+    <p class="sub"><code>pdfdrill translate</code> sends every prose element of a document to DeepL: paragraphs, abstracts, section headings, list items and footnotes. It writes the translation into the document model <em>in place</em> and keeps the original text beside it under <code>&lt;field&gt;_source</code>. Equations, code and figures are never sent, so the math arrives unchanged.</p>
+
+    <div class="term">
+      <div class="top"><i class="r"></i><i class="y"></i><i class="g"></i><span class="ttl">~/Downloads — translate a Chinese radar paper into English, verbatim</span></div>
+<pre><span class="cn"># 1 · a DeepL API key (a free key ends in :fx and uses the free host)</span>
+<span class="pr">$</span> export DEEPL_API_KEY=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx:fx
+
+<span class="cn"># 2 · once per session: translate is blocked until you attest you read the SKILL</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">preflight</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">preflight</span> --ack &lt;TOKEN&gt;      <span class="cn"># TOKEN = the last line of SKILL.md</span>
+
+<span class="cn"># 3 · step zero, as always: does the PDF have a text layer?</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">size</span> Clutter.pdf
+
+<span class="cn"># 4 · translate: Chinese → US English (builds the model first if there is none)</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">translate</span> Clutter.pdf <span class="hl">--from ZH --to EN-US</span>
+<span class="ok">Translated to EN-US via DeepL (in place; original kept under &lt;field&gt;_source).</span>
+<span class="ou">  • tiddlers: Clutter.pdf.drill/Clutter.tiddlers.json — 67 tiddler(s), translated text in the `text` field</span>
+<span class="ou">  • markdown: Clutter.pdf.drill/Clutter.md — 99 object(s), bi-layer (translation + hidden source, CSS/JS toggle)</span>
+
+<span class="cn"># 5 · read it: the inspector's flag menu switches 🇨🇳 ZH ↔ 🇺🇸 EN-US</span>
+<span class="pr">$</span> <span class="cm">pdfdrill</span> <span class="ar">inspect</span> Clutter.pdf
+<span class="ou">Docmodel inspector: 359 elements over 8 page(s). Open Clutter.pdf.drill/Clutter.inspect.html in a browser …</span></pre>
+    </div>
+
+    <figure style="margin:30px 0 0">
+      <img width="848" height="978" src="translate-zh-en.gif" loading="lazy" alt="Animation of the docmodel inspector's reflow view switching language in place on a Chinese paper about Doppler speed-measurement radar. For three sections, 1.2 on clutter probability models, 2.1 on the measurement setup, and 3.1 on the LMS filter, the view shows the Chinese original, then the language menu switches from ZH to EN-US and the same section appears in English, its heading at the same height. The numbered equations and the figures do not change; only the prose does." style="width:100%;max-width:848px;height:auto;display:block;margin:0 auto;border:1px solid rgba(84,209,196,.35);border-radius:12px;background:var(--bg2);box-shadow:0 0 0 1px rgba(84,209,196,.10),0 0 28px rgba(84,209,196,.14)">
+      <figcaption style="font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:10px;text-align:center">One view, one menu: the inspector's reflow switched between 🇨🇳&nbsp;ZH and 🇺🇸&nbsp;EN-US after <code>translate --from ZH --to EN-US</code>, each section held at its heading. English runs longer, so what follows the heading shifts down; the equations and figures themselves are never sent to DeepL and do not change. The translation is DeepL's, unedited: 轨道 (railway track) comes out as “Orbit”. Paper: Peng Zezhou, Gao Hongmin, Hu Weidong, Jiang Huanyu, Liu Qingguo, <em>Research on signal processing algorithm of Doppler speed measurement radar under clutter background</em>.</figcaption>
+    </figure>
+
+    <div class="grid g3">
+      <div class="card"><h4><span class="dot"></span>language codes</h4><p>DeepL codes, not ISO names. <code>--from ZH</code> reads Chinese, simplified or traditional. <code>--to EN-US</code> is the default target; use <code>--to EN-GB</code> for British English. The same flags cover every DeepL pair: <code>--from DE</code>, <code>--from RU</code>, <code>--from JA</code>, <code>--to PT-BR</code>. <code>--from</code> is optional because DeepL detects the language, but give it: the model then records both languages instead of guessing one later.</p></div>
+      <div class="card"><h4><span class="dot"></span>what you get</h4><p>The same document in two languages, in one model: every translated element keeps its original beside it. <strong>Read it in the inspector</strong> (<code>pdfdrill inspect</code>): the reflow view renders the English with its equations and figures, and the language menu switches back to the original. <code>translate</code> also rewrites the tiddler file (English prose, tagged <code>translated</code>) and a bi-layer <code>&lt;bibkey&gt;.md</code>. That Markdown is the token-compact LLM projection: formulas are <code>[F1]</code>/<code>[E1]</code> placeholders resolved in a glossary at the end, and figures are text stubs, so it is not the file to read. Earlier examples: <a href="files/2409.18839.inspect.html">EN → PT-BR</a>, <a href="kolbe2018hubbard.en-us.html">DE → EN</a>.</p></div>
+      <div class="card"><h4><span class="dot"></span>cost control</h4><p>DeepL bills by the character, so pdfdrill never pays twice. Elements that already carry <code>&lt;field&gt;_source</code> are skipped, and a rebuilt tiddler file gets its stored translations back for free. <code>--limit 20</code> translates only the first 20 elements, which is a cheap test run. <code>--force</code> re-translates everything from the preserved original, never from the translation.</p></div>
+    </div>
+
+    <div class="callout teal">
+      <div class="lab">A scanned Chinese PDF</div>
+      <p>If <code>size</code> reports <strong>“NO text layer — scanned, OCR required”</strong>, there is no text to translate yet. OCR it with tesseract's Chinese model first, then translate: <code>pdfdrill ocr paper-zh.pdf --lang chi_sim</code> (use <code>chi_tra</code> for traditional characters, <code>chi_sim+eng</code> for mixed pages). The model is built from that <code>lines.json</code>. The tesseract language pack must be installed (<code>tesseract --list-langs</code>).</p>
+    </div>
+
+    <div class="callout teal">
+      <div class="lab">Need a translated PDF instead?</div>
+      <p>pdfdrill translates the <em>model</em>: you read the English in the inspector, where the formulas stay LaTeX you can search and reuse. It does not write a PDF that keeps the original page layout. For that, use <a href="https://github.com/PDFMathTranslate/PDFMathTranslate" target="_blank" rel="noopener">PDFMathTranslate</a> (<code>pdf2zh</code>). It typesets the translation back into the original pages, formulas and figures in place, and writes a translated-only PDF plus a bilingual one: <code>pdf2zh Clutter.pdf -li zh -lo en -s deepl</code>. The two tools work well together: <code>pdf2zh</code> for a PDF to print or send, pdfdrill for text and math an LLM or a wiki can use.</p>
+    </div>
+
+    <div class="callout">
+      <div class="lab">When translate “does nothing”</div>
+      <p><strong>⛔ pdfdrill STOP … BLOCKED</strong>: the preflight gate from step 2. Run <code>pdfdrill preflight</code> and ack the token, or set <code>PDFDRILL_NO_PREFLIGHT=1</code> in scripts.<br>
+      <strong>DeepL unavailable: set DEEPL_API_KEY</strong>: the key is missing from the environment or <code>.env</code>.<br>
+      <strong>Not found: --help</strong>: <code>translate --help</code> reads <code>--help</code> as a file name. <code>pdfdrill help</code> lists every command with its flags.<br>
+      <strong>Nothing changed on a re-run</strong>: that is the idempotence at work; the document is already translated. Add <code>--force</code> to redo it.</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="border-bottom:none">
+  <div class="wrap">
+    <p class="eyebrow">questions</p>
+    <h2>What people ask about pdfdrill translate.</h2>
+    <div class="grid g2" style="margin-top:22px">
+      <div class="card"><h4><span class="dot"></span>Does pdfdrill have a translate command?</h4><p>Yes. pdfdrill translate &lt;pdf&gt; --from ZH --to EN-US translates a PDF's prose with DeepL and keeps every formula and figure unchanged. It is part of the pdfdrill command-line tool, alongside the extraction and OCR quality-control commands; it needs a DEEPL_API_KEY.</p></div>
+      <div class="card"><h4><span class="dot"></span>How do I translate a Chinese PDF into English with pdfdrill?</h4><p>Set DEEPL_API_KEY, then run pdfdrill translate paper.pdf --from ZH --to EN-US, and read the result with pdfdrill inspect paper.pdf: the inspector's reflow view shows the English with equations and figures, and its language menu switches back to Chinese.</p></div>
+      <div class="card"><h4><span class="dot"></span>Why did pdfdrill translate change nothing?</h4><p>Usually a wrong language code: DeepL uses ZH for Chinese, not CN, and rejects CN. Other causes: DEEPL_API_KEY is not set, or the preflight gate has not been acknowledged (pdfdrill preflight, then pdfdrill preflight --ack &lt;TOKEN&gt;).</p></div>
+      <div class="card"><h4><span class="dot"></span>Can pdfdrill write a translated PDF that keeps the original layout?</h4><p>No. pdfdrill translates its document model and shows the result in its inspector. For a translated PDF with the original page layout, use PDFMathTranslate (pdf2zh).</p></div>
+    </div>
+    <p class="sub" style="margin-top:26px">The rest of pdfdrill (shallow-first extraction, OCR quality control, the document model) is on the <a href="/">homepage</a>.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span><b style="color:var(--amber)">pdf</b>drill — token-economical drill-down extraction + PDF→LaTeX OCR quality control.</span>
+      <span><a href="https://github.com/WulfKolbe/pdfdrill" target="_blank" rel="noopener">github.com/WulfKolbe/pdfdrill</a> · <a href="https://paypal.me/wulfkolbe" target="_blank" rel="noopener" style="color:var(--teal)">♥ sponsor</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  if(!('IntersectionObserver' in window)) return;
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.12});
+  document.querySelectorAll('section .wrap > *').forEach((el,i)=>{ el.classList.add('fade'); el.style.transitionDelay=(Math.min(i,4)*40)+'ms'; io.observe(el); });
+})();
+</script>
+</body>
+</html>

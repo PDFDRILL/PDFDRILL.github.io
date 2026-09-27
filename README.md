@@ -1,8 +1,8 @@
 # PDFDRILL.github.io
 
 Project homepage for **[pdfdrill](https://github.com/WulfKolbe/pdfdrill)** — a
-token-economical drill-down PDF extraction toolkit and PDF→LaTeX OCR
-quality-control pipeline.
+token-economical drill-down PDF extraction toolkit, PDF→LaTeX OCR
+quality-control pipeline, and DeepL document translator (`pdfdrill translate`).
 
 ### 🔗 Live site: **https://pdfdrill.github.io/**
 
@@ -15,6 +15,7 @@ from a CDN at runtime; everything else is self-contained.
 | File | What it is |
 |---|---|
 | [`index.html`](https://pdfdrill.github.io/) | The homepage. Explains pdfdrill and the Claude.ai sandbox workflow with live, interactive examples — command catalogue, the QC pipeline (LaTeX │ KaTeX │ MathPix crop), and live-rendered equations pulled from a real extracted model. |
+| [`translate.html`](https://pdfdrill.github.io/translate.html) | The `pdfdrill translate` command: DeepL translation of a PDF's prose with formulas and figures unchanged (`pdfdrill translate paper.pdf --from ZH --to EN-US`), read in the inspector's language switch. Worked Chinese → English example, language codes, troubleshooting, FAQ. |
 
 ### Demo TiddlyWikis — one per source document
 
