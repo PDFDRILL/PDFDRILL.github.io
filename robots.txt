@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://pdfdrill.github.io/sitemap.xml
+Sitemap: https://pdfdrill.github.io/sitemap.txt
