@@ -1,55 +1,27 @@
 # PDFDRILL.github.io
 
-Project homepage for **[pdfdrill](https://github.com/WulfKolbe/pdfdrill)** — a
-token-economical drill-down PDF extraction toolkit, PDF→LaTeX OCR
-quality-control pipeline, and DeepL document translator (`pdfdrill translate`).
+Homepage and evidence reports for **pdfdrill**, which converts PDFs into structured,
+evidence-backed document objects for LLM use.
 
-### 🔗 Live site: **https://pdfdrill.github.io/**
+**Live site: https://pdfdrill.github.io/**
 
-The site is **plain static HTML** (no Jekyll, no build step — `.nojekyll` is
-present so GitHub Pages serves `index.html` verbatim). It loads fonts and KaTeX
-from a CDN at runtime; everything else is self-contained.
+Plain static HTML, no build step (`.nojekyll`). Deployed by `.github/workflows/pages.yml`
+on push to `master`, after a guard that checks every file under `reports/`.
 
-## Pages
+## What is here
 
-| File | What it is |
+| Path | What it is |
 |---|---|
-| [`index.html`](https://pdfdrill.github.io/) | The homepage. Explains pdfdrill and the Claude.ai sandbox workflow with live, interactive examples — command catalogue, the QC pipeline (LaTeX │ KaTeX │ MathPix crop), and live-rendered equations pulled from a real extracted model. |
-| [`translate.html`](https://pdfdrill.github.io/translate.html) | The `pdfdrill translate` command: DeepL translation of a PDF's prose with formulas and figures unchanged (`pdfdrill translate paper.pdf --from ZH --to EN-US`), read in the inspector's language switch. Worked Chinese → English example, language codes, troubleshooting, FAQ. |
+| `index.html` | Homepage: ingestion, document object functions, output projection, evidence reports. |
+| `reports/` | Evidence reports per document (`reports/<bibkey>/`) and the index of them. |
+| `translate.html` | `pdfdrill translate`: a Chinese PDF in English with formulas intact. |
+| `heimUFT.html`, `kolbe2018hubbard*.html`, `2004.05631v1.html` | Whole documents as single-file TiddlyWikis. |
+| `pdfdrill-audit.html`, `*.inspect.html`, `files/` | Document-model inspectors. |
+| `figures/`, `fig-*.svg/html` | Figure sources and renders. |
+| `gen-*.py` | Generators for the sitemap and parts of `reports/index.html`. |
 
-### Demo TiddlyWikis — one per source document
+## Maintaining it
 
-Each is a **single self-contained HTML file**: a TiddlyWiki 5.4.0 + KaTeX
-(Gruvbox palette) carrying the *complete* document model `pdfdrill tiddlers`
-extracted from the source, plus the matching QC reports.
-
-| Document (bibkey) | Wiki | Reports |
-|---|---|---|
-| arXiv 2004.05631v1 — *At the Interface of Algebra and Statistics* | [wiki](https://pdfdrill.github.io/2004.05631v1.html) | [formula report](https://pdfdrill.github.io/formula-report.html) |
-| Burkhard Heim — Unified Field Theory (`heimUFT`) | [wiki](https://pdfdrill.github.io/heimUFT.html) | [formula](https://pdfdrill.github.io/heimUFT-formula-report.html) · [compare](https://pdfdrill.github.io/heimUFT-compare.html) · [tiddlers.json](https://pdfdrill.github.io/heimUFT.tiddlers.json) |
-| Kolbe (2018) — *Korrelation im Hubbard-Modell* (`kolbe2018hubbard`) | [wiki](https://pdfdrill.github.io/kolbe2018hubbard.html) | [formula](https://pdfdrill.github.io/kolbe2018hubbard-formula-report.html) · [compare](https://pdfdrill.github.io/kolbe2018hubbard-compare.html) · [tiddlers.json](https://pdfdrill.github.io/kolbe2018hubbard.tiddlers.json) |
-
-## How it runs
-
-- The live extraction path is **Python 3**, so it runs inside the Claude.ai
-  sandbox (which already ships poppler-utils, pdfplumber, pydantic).
-- The end product is a **single self-contained HTML file** that also runs as an
-  **HTML tiddler inside any TiddlyWiki server with internet access**, so the
-  CDN-hosted KaTeX / MathPix crop links load. (An earlier TypeScript
-  implementation transpiled to HTML/JS works the same way in a plain HTML file.)
-
-## Regenerating the artifacts
-
-```bash
-# model + reports + tiddler JSON (offline, from an existing lines.json)
-pdfdrill model    <pdf>                  # unified document model
-pdfdrill report   <pdf> --embed          # → formula-report.html
-pdfdrill compare  <pdf> --embed          # → compare.html
-pdfdrill tiddlers <pdf> --embed          # → <stem>.tiddlers.json
-
-# build the tiddler JSON into a single-file wiki with the KaTeX plugin
-npm i tiddlywiki
-tiddlywiki mywiki --init server          # add "tiddlywiki/katex" to plugins
-cp <stem>.tiddlers.json mywiki/tiddlers/doc.json
-tiddlywiki mywiki --render '$:/core/save/all' <stem>.html text/plain
-```
+Maintenance is done by a Claude Code CLI under `CLAUDE.md`. Start there; the rules,
+skills (`.claude/skills/`), checks (`tools/site-check.sh`) and history
+(`docs/maintenance/`) all hang off it.

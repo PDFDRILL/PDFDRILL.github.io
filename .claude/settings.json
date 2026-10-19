@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(/.github/**)",
+      "Edit(/.claude/**)",
+      "Edit(/tools/**)",
+      "Edit(/CLAUDE.md)",
+      "Edit(/check-home.py)",
+      "Edit(/design.sha256)",
+      "Edit(/reports/*/**)",
+      "Edit(/files/**)",
+      "Edit(/*.inspect.html)",
+      "Edit(/*-formula-report.html)",
+      "Edit(/*-compare.html)",
+      "Edit(/formula-report.html)",
+      "Edit(/heimUFT.html)",
+      "Edit(/kolbe2018hubbard.html)",
+      "Edit(/kolbe2018hubbard.en-us.html)",
+      "Edit(/2004.05631v1.html)",
+      "Edit(/pdfdrill-audit.html)",
+      "Edit(/verbalizable-workspace.distill.html)",
+      "Edit(/*.tiddlers.json)",
+      "Bash(*--no-verify*)",
+      "Bash(*SITE_OWNER_OK*)",
+      "Bash(*check-home.py --pin*)",
+      "Bash(git push*--force*)",
+      "Bash(git push* -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git rebase*)",
+      "Bash(git filter-branch*)",
+      "Bash(*gen-doc-downloads.py*)"
+    ]
+  }
+}

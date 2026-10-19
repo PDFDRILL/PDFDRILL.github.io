@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# pre-commit gate for pdfdrill.github.io. Installed by tools/install-hooks.sh.
+# Refuses commits that touch fixed files, and runs the checks for what is staged.
+# The owner, and only the owner, can allow a fixed-file change for one commit:
+#   SITE_OWNER_OK=design   git commit ...   (design block + design.sha256)
+#   SITE_OWNER_OK=workflow git commit ...   (.github/)
+#   SITE_OWNER_OK=kit      git commit ...   (CLAUDE.md, .claude/, tools/, check-home.py)
+set -u
+cd "$(git rev-parse --show-toplevel)" || exit 1
+staged=$(git diff --cached --name-only --diff-filter=ACMRD)
+ok=${SITE_OWNER_OK:-}
+die() { echo "pre-commit: REFUSED — $*" >&2; exit 1; }
+has() { echo "$staged" | grep -Eq "$1"; }
+
+has '^\.github/'                                    && [ "$ok" != workflow ] && die ".github/ is frozen (owner: SITE_OWNER_OK=workflow)"
+has '^design\.sha256$'                              && [ "$ok" != design ]   && die "design.sha256 is the design pin (owner: SITE_OWNER_OK=design)"
+has '^(CLAUDE\.md|\.claude/|tools/|check-home\.py)' && [ "$ok" != kit ]      && die "maintenance kit files are fixed (owner: SITE_OWNER_OK=kit)"
+
+if has '^sitemap\.(xml|txt)$' && [ "$(git rev-parse --is-shallow-repository)" = true ]; then
+  die "sitemap from a shallow clone mis-dates pages — git fetch --unshallow, regenerate"
+fi
+
+# Checks run on the working tree, so it must equal what is staged for the files they read.
+if has '^(index\.html|design\.sha256|check-home\.py)$' || has '^reports/'; then
+  git diff --quiet -- index.html design.sha256 check-home.py reports/ \
+    || die "unstaged changes in index.html/reports/ — stage them or stash them so the checks see the commit"
+fi
+if has '^(index\.html|design\.sha256|check-home\.py)$'; then
+  python3 check-home.py >/dev/null || { python3 check-home.py | grep FAIL >&2; die "check-home.py failed"; }
+fi
+if has '^reports/'; then
+  python3 tools/ci-guard.py >/dev/null 2>&1 || { python3 tools/ci-guard.py 2>&1 | tail -8 >&2; die "deploy guard failed — CI would refuse this"; }
+fi
+exit 0
