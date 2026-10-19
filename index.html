@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>pdfdrill – skill card</title>
+  <title>pdfdrill — PDFs as evidence-backed document objects</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="pdfdrill converts PDFs into structured, evidence-backed document objects for LLM use: math, geometry, images and tables, with translation, Markdown/LaTeX/LLMtext output and HTML/PDF evidence reports.">
   <meta name="google-site-verification" content="z5gFtqi9199Eg2nvpbuiYbVltjVtAB3QYXU6Eh3Hx-0" />
@@ -11,52 +11,274 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <style>
-    body { font: 16px/1.4 system-ui, sans-serif; max-width: 820px; margin: 2rem auto; padding: 0 1rem; }
-    h2 { margin-top: 1.8rem; border-bottom: 1px solid #ddd; padding-bottom: .2rem; }
-    ul { padding-left: 1.2rem; }
-    code { background: #f4f4f4; padding: .1em .3em; border-radius: 3px; }
-    footer { margin-top: 2.5rem; border-top: 1px solid #ddd; padding-top: .6rem; font-size: .9rem; }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<!-- DESIGN:BEGIN — fixed design system. Do not edit, remove or replace when changing content. See CLAUDE.md. -->
+<style>
+:root{
+  --bg:#0c0e11; --panel:#15191f; --panel2:#1a1f27;
+  --ink:#e9e4d8; --muted:#8a909b; --faint:#565c67; --line:#262b33; --line2:#323844;
+  --amber:#ff7a18; --amber2:#ffb066; --teal:#54d1c4; --teal-deep:#205f59;
+  --violet:#a795ff; --rose:#ff6b8b; --green:#7fd17a;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --serif:'Spectral',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:17px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(900px 500px at 88% -8%, rgba(255,122,24,.10), transparent 60%),
+    radial-gradient(700px 600px at -5% 12%, rgba(84,209,196,.07), transparent 55%);
+}
+::selection{background:var(--amber);color:#1a1109}
+a{color:var(--amber2);text-decoration:none}
+a:hover{color:var(--amber)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+@media(max-width:600px){.wrap{padding:0 16px}}
+
+header.bar{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
+  background:rgba(12,14,17,.8);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:22px;height:56px}
+.brand{font-family:var(--mono);font-weight:700;letter-spacing:.06em;font-size:15px;color:var(--ink)}
+.brand b{color:var(--amber)}
+.bar nav{margin-left:auto;display:flex;gap:20px;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em}
+.bar nav a{color:var(--muted)}
+.bar nav a:hover{color:var(--ink)}
+@media(max-width:760px){.bar nav{display:none}}
+
+.hero{padding:72px 0 52px;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);margin-bottom:20px}
+h1{font-family:var(--mono);font-weight:700;font-size:clamp(34px,5.8vw,64px);line-height:1.02;letter-spacing:-.01em;margin:0}
+h1 .hl{color:var(--amber)}
+.lede{font-size:clamp(18px,2.2vw,22px);max-width:46ch;margin:20px 0 0;font-weight:300}
+.lede em{color:var(--teal);font-style:normal}
+.cta{margin-top:32px;display:flex;flex-wrap:wrap;gap:12px}
+.btn{font-family:var(--mono);font-size:13px;letter-spacing:.03em;padding:12px 18px;border-radius:7px;
+  border:1px solid var(--line2);color:var(--ink);background:var(--panel);transition:.18s;display:inline-flex;gap:9px;align-items:center}
+.btn:hover{border-color:var(--amber);color:var(--ink);transform:translateY(-1px)}
+.btn.primary{background:linear-gradient(180deg,#ff8a2e,#f06e0c);border-color:#ff8a2e;color:#1a1008;font-weight:600}
+.btn.primary:hover{filter:brightness(1.07)}
+.btn.alt{border-color:var(--teal);color:var(--teal)}
+
+section{padding:60px 0;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin:0 0 12px}
+h2{font-family:var(--mono);font-weight:700;font-size:clamp(24px,3.4vw,34px);letter-spacing:-.01em;margin:0 0 8px;line-height:1.1}
+.sub{color:var(--muted);max-width:64ch;font-weight:300;margin:0}
+code{font-family:var(--mono);font-size:.86em;background:#0a0c0f;border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--amber2)}
+
+.grid{display:grid;gap:16px;margin-top:28px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:820px){.g2,.g3{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:20px 22px;min-width:0}
+.card h4{font-family:var(--mono);font-size:14px;letter-spacing:.02em;margin:0 0 8px;color:var(--ink);display:flex;gap:9px;align-items:center}
+.card h4 .dot{width:8px;height:8px;border-radius:2px;background:var(--amber);flex:none}
+.card.teal h4 .dot{background:var(--teal)}
+.card.violet h4 .dot{background:var(--violet)}
+.card p{font-size:15px;color:var(--muted);margin:0}
+.card .ms{font-family:var(--mono);font-size:11.5px;color:var(--teal);margin-top:12px}
+.card .ms a{color:var(--teal)}
+.card .ms a:hover{color:var(--ink)}
+.card.key{border-color:rgba(255,122,24,.45);box-shadow:0 0 0 1px rgba(255,122,24,.08),0 0 28px rgba(255,122,24,.10)}
+.badge{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--amber2);
+  border:1px solid rgba(255,122,24,.45);border-radius:999px;padding:2px 8px;margin-left:10px;vertical-align:middle;white-space:nowrap}
+
+.route{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-family:var(--mono);font-size:12.5px;margin-top:10px}
+.route span{border:1px solid var(--line2);border-radius:6px;padding:4px 9px;background:#0a0c0f;color:var(--ink)}
+.route i{font-style:normal;color:var(--faint)}
+.route span.out{color:var(--teal);border-color:var(--teal-deep)}
+
+.goal{margin-top:26px;border-left:3px solid var(--amber);padding:6px 0 6px 18px;max-width:70ch;color:var(--ink)}
+.goal b{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);margin-right:8px}
+
+figure.shot{margin:26px 0 0}
+figure.shot img{width:100%;height:auto;display:block;border:1px solid var(--line2);border-radius:10px}
+figure.shot figcaption{font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:9px}
+
+table.docs{width:100%;border-collapse:collapse;margin-top:26px;font-size:15px}
+table.docs th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;text-align:left;
+  color:var(--muted);background:var(--panel2);padding:10px 12px;border-bottom:1px solid var(--line2)}
+table.docs td{padding:11px 12px;border-bottom:1px solid var(--line);background:var(--panel);vertical-align:top}
+table.docs td.l{font-family:var(--mono);font-size:12.5px;white-space:nowrap}
+@media(max-width:700px){table.docs td.l{white-space:normal}}
+
+footer{padding:34px 0 46px;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+footer .row{display:flex;flex-wrap:wrap;gap:12px 26px;justify-content:space-between}
+footer b{color:var(--amber)}
+</style>
+<!-- DESIGN:END -->
 </head>
 <body>
 
-<h1>pdfdrill – skill card</h1>
-<p><strong>Purpose:</strong> Convert PDFs into structured, evidence‑backed document objects for LLM use.</p>
+<header class="bar">
+  <div class="wrap">
+    <span class="brand"><b>pdf</b>drill</span>
+    <nav>
+      <a href="#ingestion">ingestion</a>
+      <a href="#functions">functions</a>
+      <a href="#projection">output</a>
+      <a href="#evidence">evidence</a>
+      <a href="#examples">examples</a>
+      <a href="reports/">reports</a>
+    </nav>
+  </div>
+</header>
 
-<h2>Ingestion</h2>
-<ul>
-  <li>Converts PDFs into <em>math</em>, <em>geometry</em>, <em>images</em>, <em>tables</em> – not just plain text.</li>
-  <li><strong>Optimal OCR route:</strong> Mathpix → <code>lines.json</code>.</li>
-  <li><strong>Alternative OCR:</strong> Gemma4 26B hosted → Mathpix‑compatible <code>lines.json</code>.</li>
-  <li><strong>Binary PDFs:</strong> <code>pdfminer.six</code> (math‑extended) → <code>lines.json</code>‑like output.</li>
-</ul>
+<!-- CONTENT:hero -->
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">pdf → document object → evidence</div>
+    <h1>Convert PDFs into<br><span class="hl">evidence-backed</span><br>document objects.</h1>
+    <p class="lede">Structured for LLM use: <em>math, geometry, images and tables</em> — not just plain text. Every result comes with a report showing exactly where to look or correct.</p>
+    <div class="cta">
+      <a class="btn primary" href="reports/">▤ open the evidence reports</a>
+      <a class="btn" href="translate.html">⇄ translate a PDF</a>
+      <a class="btn" href="pdfdrill-audit.html">◳ browse a document model</a>
+      <a class="btn" href="https://github.com/WulfKolbe/pdfdrill" target="_blank" rel="noopener">⎇ source</a>
+    </div>
+  </div>
+</div>
+<!-- /CONTENT:hero -->
 
-<h2>Document object functions</h2>
-<ul>
-  <li><strong>Transclusion</strong> of all math expressions.</li>
-  <li><strong>Translation</strong> of transcluded text (e.g. Chinese ↔ English).</li>
-  <li><strong>Bibliographic aggregation</strong> via Perplexity.ai search.</li>
-  <li><strong>Paragraph‑level conceptual summaries</strong>.</li>
-  <li><strong>Spoken math</strong> rendering.</li>
-</ul>
+<!-- CONTENT:ingestion -->
+<section id="ingestion">
+  <div class="wrap">
+    <p class="eyebrow">01 — ingestion</p>
+    <h2>Three routes in, one shape out.</h2>
+    <p class="sub">Whatever the PDF, ingestion ends in <code>lines.json</code> — page geometry plus recognised text and math — so everything downstream works the same way.</p>
+    <div class="grid g3">
+      <div class="card key">
+        <h4><span class="dot"></span>Optimal OCR route</h4>
+        <div class="route"><span>MathPix</span><i>→</i><span class="out">lines.json</span></div>
+        <p style="margin-top:12px">The best-quality route for math.</p>
+      </div>
+      <div class="card">
+        <h4><span class="dot"></span>Alternative OCR</h4>
+        <div class="route"><span>Gemma 4 26B</span><i>→</i><span class="out">lines.json</span></div>
+        <p style="margin-top:12px">Hosted model, MathPix-compatible output.</p>
+      </div>
+      <div class="card">
+        <h4><span class="dot"></span>Binary PDFs</h4>
+        <div class="route"><span>pdfminer.six</span><i>→</i><span class="out">lines.json-like</span></div>
+        <p style="margin-top:12px">Math-extended pdfminer.six reads the text layer directly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /CONTENT:ingestion -->
 
-<h2>Output projection</h2>
-<ul>
-  <li><strong>Markdown</strong></li>
-  <li><strong>LaTeX</strong></li>
-  <li><strong>LLMtext</strong> – token‑optimised math for LLMs.</li>
-</ul>
+<!-- CONTENT:functions -->
+<section id="functions">
+  <div class="wrap">
+    <p class="eyebrow">02 — document object functions</p>
+    <h2>Operate on the object, not the text.</h2>
+    <div class="grid g3">
+      <div class="card teal">
+        <h4><span class="dot"></span>Transclusion</h4>
+        <p>Every math expression is held once and transcluded wherever it is used.</p>
+      </div>
+      <div class="card teal">
+        <h4><span class="dot"></span>Translation</h4>
+        <p>Translates the transcluded text — e.g. Chinese ↔ English — while formulas stay untouched.</p>
+        <div class="ms"><a href="translate.html">→ worked ZH → EN example</a></div>
+      </div>
+      <div class="card teal">
+        <h4><span class="dot"></span>Bibliographic aggregation</h4>
+        <p>References resolved and aggregated via Perplexity.ai search.</p>
+      </div>
+      <div class="card teal">
+        <h4><span class="dot"></span>Conceptual summaries</h4>
+        <p>A conceptual summary for each paragraph.</p>
+      </div>
+      <div class="card teal">
+        <h4><span class="dot"></span>Spoken math</h4>
+        <p>Formulas rendered as speakable text.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /CONTENT:functions -->
 
-<h2>Evidence reports (most important)</h2>
-<ul>
-  <li><strong>HTML inspect</strong> – element tree with region highlighting.</li>
-  <li><strong>HTML formula tables</strong> – LaTeX source · KaTeX render · MathPix crop.</li>
-  <li><strong>PDF residual table</strong> for math (<code>inkdrill compare</code>) – geometry‑based ink comparison between rendered LaTeX and original PDF.</li>
-</ul>
-<p><em>Goal:</em> the user can see exactly where to look or correct; geometry is the basis for comparing rendered ink to original ink.</p>
+<!-- CONTENT:projection -->
+<section id="projection">
+  <div class="wrap">
+    <p class="eyebrow">03 — output projection</p>
+    <h2>One model, three projections.</h2>
+    <div class="grid g3">
+      <div class="card violet">
+        <h4><span class="dot"></span>Markdown</h4>
+        <p>Readable text with math inline.</p>
+      </div>
+      <div class="card violet">
+        <h4><span class="dot"></span>LaTeX</h4>
+        <p>LaTeX source projected from the model.</p>
+      </div>
+      <div class="card violet">
+        <h4><span class="dot"></span>LLMtext</h4>
+        <p>Token-optimised math for LLMs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /CONTENT:projection -->
 
-<footer><a href="reports/">Evidence reports</a> · <a href="translate.html">Translate</a> · <a href="https://github.com/WulfKolbe/pdfdrill">Source</a></footer>
+<!-- CONTENT:evidence -->
+<section id="evidence">
+  <div class="wrap">
+    <p class="eyebrow">04 — evidence reports <span class="badge">most important</span></p>
+    <h2>See exactly where to look.</h2>
+    <p class="sub">Each report compares what pdfdrill produced against the original page, so a reader — human or agent — checks evidence instead of trusting a result.</p>
+    <div class="grid g3">
+      <div class="card key">
+        <h4><span class="dot"></span>HTML inspect</h4>
+        <p>The element tree, with each node's region highlighted on the page.</p>
+        <div class="ms"><a href="reports/2010.14265/inspect.html">→ example: arXiv 2010.14265</a></div>
+      </div>
+      <div class="card key">
+        <h4><span class="dot"></span>HTML formula tables</h4>
+        <p>LaTeX source · KaTeX render · MathPix crop, side by side for every formula.</p>
+        <div class="ms"><a href="reports/2010.14265/formula-report.html">→ example: arXiv 2010.14265</a></div>
+      </div>
+      <div class="card key">
+        <h4><span class="dot"></span>PDF residual table</h4>
+        <p>For math: <code>inkdrill compare</code> measures the ink of the rendered LaTeX against the ink of the original PDF.</p>
+        <div class="ms"><a href="reports/2010.14265/residuals.pdf">→ example: arXiv 2010.14265</a></div>
+      </div>
+    </div>
+    <p class="goal"><b>Goal</b>The user sees exactly where to look or correct. Geometry is the basis for comparing rendered ink to original ink.</p>
+  </div>
+</section>
+<!-- /CONTENT:evidence -->
+
+<!-- CONTENT:examples -->
+<section id="examples">
+  <div class="wrap">
+    <p class="eyebrow">05 — real output</p>
+    <h2>Open what pdfdrill actually produced.</h2>
+    <table class="docs">
+      <tr><th>Page</th><th>What it shows</th></tr>
+      <tr><td class="l"><a href="reports/">reports/</a></td><td>Evidence reports for every published document — inspect, formula tables, residuals.</td></tr>
+      <tr><td class="l"><a href="translate.html">translate.html</a></td><td>A Chinese PDF translated to English with formulas intact.</td></tr>
+      <tr><td class="l"><a href="pdfdrill-audit.html">pdfdrill-audit.html</a></td><td>A browsable document model for five drilled documents.</td></tr>
+      <tr><td class="l"><a href="heimUFT.html">heimUFT.html</a></td><td>A complete document as a TiddlyWiki — Heim, <em>Unified Field Theory</em>. <a href="heimUFT-formula-report.html">formula report</a> · <a href="heimUFT-compare.html">compare</a></td></tr>
+      <tr><td class="l"><a href="kolbe2018hubbard.html">kolbe2018hubbard.html</a></td><td>A German thesis as a TiddlyWiki, with its <a href="kolbe2018hubbard.en-us.html">English translation</a>. <a href="kolbe2018hubbard-formula-report.html">formula report</a> · <a href="kolbe2018hubbard-compare.html">compare</a></td></tr>
+    </table>
+  </div>
+</section>
+<!-- /CONTENT:examples -->
+
+<footer>
+  <div class="wrap">
+    <div class="row">
+      <span><b>pdf</b>drill — PDFs as evidence-backed document objects.</span>
+      <span><a href="reports/">evidence reports</a> · <a href="translate.html">translate</a> · <a href="https://github.com/WulfKolbe/pdfdrill" target="_blank" rel="noopener">source</a></span>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
